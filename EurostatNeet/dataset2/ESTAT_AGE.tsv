@@ -1,0 +1,666 @@
+CODE	Label - English	Label - French	Label - German	Standard code	Note (EN only)	EC_corporate_code	EC_corporate_uri
+TOTAL	Total	Total	Insgesamt	Y			
+LFD	Late foetal death	Mort foetale tardive	Später Fetaltod	Y			
+LFD1	Late foetal death (group 1)	Mort-né (groupe 1)	Totgeburt (Gruppe 1)	Y			
+LFD2	Late foetal death (group 2)	Mort-né (groupe 2)	Totgeburt (Gruppe 2)	Y			
+MN0	Zero minutes	Zéro minutes	Null Minuten	Y			
+MN1-9	From 1 to 9 minutes	De 1 à 9 minutes	1 bis 9 Minuten	Y			
+MN1-14	From 1 to 14 minutes	De 1 à 14 minutes	1 bis 14 Minuten	Y			
+MN1-59	From 1 to 59 minutes	De 1 à 59 minutes	1 bis 59 Minuten	Y			
+MN1-74	From 1 to 74 minutes	De 1 à 74 minutes	1 bis 74 Minuten	Y			
+MN1-149	From 1 to 149 minutes	De 1 à 149 minutes	1 bis 149 Minuten	Y			
+MN_GE1	1 minute or over	1 minute ou plus	1 Minute und mehr	Y			
+MN10-14	From 10 to 14 minutes	De 10 à 14 minutes	10 bis 14 Minuten	Y			
+MN15-19	From 15 to 19 minutes	De 15 à 19 minutes	15 bis 19 Minuten	Y			
+MN15-29	From 15 to 29 minutes	De 15 à 29 minutes	15 bis 29 Minuten	Y			
+MN20-29	From 20 to 29 minutes	De 20 à 29 minutes	20 bis 29 Minuten	Y			
+MN30-44	From 30 to 44 minutes	De 30 à 44 minutes	30 bis 44 Minuten	Y			
+MN30-59	From 30 to 59 minutes	De 30 à 59 minutes	30 bis 59 Minuten	Y			
+MN_GE30	30 minutes or over	30 minutes ou plus	30 Minuten und mehr	Y			
+MN45-59	From 45 to 59 minutes	De 45 à 59 minutes	45 bis 59 Minuten	Y			
+MN60-149	From 60 to 149 minutes	De 60 à 149 minutes	60 bis 149 Minuten	Y			
+MN60-179	From 60 to 179 minutes	De 60 à 179 minutes	60 bis 179 Minuten	Y			
+MN_GE60	60 minutes or over	60 minutes ou plus	60 Minuten und mehr	Y			
+MN75-149	From 75 to 149 minutes	De 75 à 149 minutes	75 bis 149 Minuten	Y			
+MN150-299	From 150 to 299 minutes	De 150 à 299 minutes	150 bis 299 Minuten	Y			
+MN_GE150	150 minutes or over	150 minutes ou plus	150 Minuten und mehr	Y			
+MN180-299	From 180 to 299 minutes	De 180 à 299 minutes	180 bis 299 Minuten	Y			
+MN_GE300	300 minutes or over	300 minutes ou plus	300 Minuten und mehr	Y			
+MN_GE420	420 minutes or over	420 minutes ou plus	420 Minuten und mehr	Y			
+H_VARY	Hours vary	Heures varient	Stunden variieren	Y			
+H0	Zero hours	Zéro heure	Null Stunden	Y			
+H_LT1	Less than 1 hour	Moins de 1 heure	Weniger als 1 Stunde	Y			
+H1-9	From 1 to 9 hours	De 1 à 9 heures	1 bis 9 Stunden	Y			
+H1-19	From 1 to 19 hours	De 1 à 19 heures	1 bis 19 Stunden	Y			
+H1-24	From 1 to 24 hours	De 1 à 24 heures	1 bis 24 Stunden	Y			
+H1-29	From 1 to 29 hours	De 1 à 29 heures	1 bis 29 Stunden	Y			
+H_GE1	1 hour or over	1 heure ou plus	1 Stunde und mehr	Y			
+H_LT5	Less than 5 hours	Moins de 5 heures	Weniger als 5 Stunden	Y			
+H5-9	From 5 to 9 hours	De 5 à 9 heures	5 bis 9 Stunden	Y			
+H_LE10	10 hours or less	10 heures ou moins	10 Stunden und weniger	Y			
+H10-19	From 10 to 19 hours	De 10 à 19 heures	10 bis 19 Stunden	Y			
+H10-20	From 10 to 20 hours	De 10 à 20 heures	10 bis 20 Stunden	Y			
+H_GT10-20	From more than 10 to 20 hours	De plus de 10 à 20 heures	Von mehr als 10 bis 20 Stunden	Y			
+H20-24	From 20 to 24 hours	De 20 à 24 heures	20 bis 24 Stunden	Y			
+H20-29	From 20 to 29 hours	De 20 à 29 heures	20 bis 29 Stunden	Y			
+H20-30	From 20 to 30 hours	De 20 à 30 heures	20 bis 30 Stunden	Y			
+H_GT20-30	From more than 20 to 30 hours	De plus de 20 à 30 heures	Von mehr als 20 bis 30 Stunden	Y			
+H20-34	From 20 to 34 hours	De 20 à 34 heures	20 bis 34 Stunden	Y			
+H25-29	From 25 to 29 hours	De 25 à 29 heures	25 bis 29 Stunden	Y			
+H_GE25	25 hours or over	25 heures ou plus	25 Stunden und mehr	Y			
+H30-34	From 30 to 34 hours	De 30 à 34 heures	30 bis 34 Stunden	Y			
+H30-39	From 30 to 39 hours	De 30 à 39 heures	30 bis 39 Stunden	Y			
+H30-40	From 30 to 40 hours	De 30 à 40 heures	30 bis 40 Stunden	Y			
+H_GT30-40	From more than 30 to 40 hours	De plus de 30 à 40 heures	Von mehr als 30 bis 40 Stunden	Y			
+H_GE30	30 hours or over	30 heures ou plus	30 Stunden und mehr	Y			
+H35-39	From 35 to 39 hours	De 35 à 39 heures	35 bis 39 Stunden	Y			
+H35-40	From 35 to 40 hours	De 35 à 40 heures	35 bis 40 Stunden	Y			
+H40-44	From 40 to 44 hours	De 40 à 44 heures	40 bis 44 Stunden	Y			
+H40-49	From 40 to 49 hours	De 40 à 49 heures	40 bis 49 Stunden	Y			
+H_GE40	40 hours or over	40 heures ou plus	40 Stunden und mehr	Y			
+H_GT40	Over 40 hours	Plus de 40 heures	Mehr als 40 Stunden	Y			
+H45-49	From 45 to 49 hours	De 45 à 49 heures	45 bis 49 Stunden	Y			
+H50-59	From 50 to 59 hours	De 50 à 59 heures	50 bis 59 Stunden	Y			
+H_GE50	50 hours or over	50 heures ou plus	50 Stunden und mehr	Y			
+H60-69	From 60 to 69 hours	De 60 à 69 heures	60 bis 69 Stunden	Y			
+H_GE60	60 hours or over	60 heures ou plus	60 Stunden und mehr	Y			
+H_GE70	70 hours or over	70 heures ou plus	70 Stunden und mehr	Y			
+N_GE1	1 night or over	1 nuit ou plus	1 Nacht und mehr	Y			
+N1-3	From 1 to 3 nights	De 1 à 3 nuits	1 bis 3 Nächte	Y			
+N4-7	From 4 to 7 nights	De 4 à 7 nuits	4 bis 7 Nächte	Y			
+N_GE4	4 nights or over	4 nuits ou plus	4 Nächte und mehr	Y			
+N8-14	From 8 to 14 nights	De 8 à 14 nuits	8 bis 14 Nächte	Y			
+N15-28	From 15 to 28 nights	De 15 à 28 nuits	15 bis 28 Nächte	Y			
+N29-91	From 29 to 91 nights	De 29 à 91 nuits	29 bis 91 Nächte	Y			
+N92-365	From 92 to 365 nights	De 92 à 365 nuits	92 bis 365 Nächte	Y			
+D0	Zero days	Zéro jour	Null Tage	Y			
+D0-3	From 0 to 3 days	De 0 à 3 jours	Null bis 3 Tage	Y			
+D0-27	From 0 to 27 days	De 0 à 27 jours	Null bis 27 Tage	Y			
+D_LT1	Less than 1 day	Moins de 1 jour	Weniger als 1 Tag	Y			
+D_LE1	1 day or less	1 jour ou moins	1 Tag und weniger	Y			
+D1-3	From 1 to 3 days	De 1 à 3 jours	1 bis 3 Tage	Y			
+D1-6	From 1 to 6 days	De 1 à 6 jours	1 bis 6 Tage	Y			
+D1-7	From 1 to 7 days	De 1 à 7 jours	1 bis 7 Tage	Y			
+D1-90	From 1 to 90 days	De 1 à 90 jours	1 bis 90 Tage	Y			
+D2-3	From 2 to 3 days	De 2 à 3 jours	2 bis 3 Tage	Y			
+D4-5	From 4 to 5 days	De 4 à 5 jours	4 bis 5 Tage	Y			
+D4-6	From 4 to 6 days	De 4 à 6 jours	4 bis 6 Tage	Y			
+D_GE4	4 days or over	4 jours ou plus	4 Tage und mehr	Y			
+D4-M12	From 4 days to 12 months	De 4 jours à 12 mois	4 Tage bis 12 Monate	Y			
+D6-9	From 6 to 9 days	De 6 à 9 jours	6 bis 9 Tage	Y			
+D_LT7	Less than 7 days	Moins de 7 jours	Weniger als 7 Tage	Y			
+D7-13	From 7 to 13 days	De 7 à 13 jours	7 bis 13 Tage	Y			
+D7-27	From 7 to 27 days	De 7 à 27 jours	7 bis 27 Tage	Y			
+D8-35	From 8 to 35 days	De 8 à 35 jours	8 bis 35 Tage	Y			
+D10-19	From 10 to 19 days	De 10 à 19 jours	10 bis 19 Tage	Y			
+D14-20	From 14 to 20 days	De 14 à 20 jours	14 bis 20 Tage	Y			
+D14-29	From 14 to 29 days	De 14 à 29 jours	14 bis 29 Tage	Y			
+D_GE14	14 days or over	14 jours ou plus	14 Tage und mehr	Y			
+D_GE20	20 days or over	20 jours ou plus	20 Tage und mehr	Y			
+D_GE21	21 days or over	21 jours ou plus	21 Tage und mehr	Y			
+D21-29	From 21 to 29 days	De 21 à 29 jours	21 bis 29 Tage	Y			
+D21-M1	From 21 days to 1 month	De 21 jours à 1 mois	21 Tage bis1 Monat	Y			
+D_LT28	Less than 28 days	Moins de 28 jours	Weniger als 28 Tage	Y			
+D28-364	From 28 days to less than 1 year	De 28 jours à moins de 1 an	28 Tage bis weniger als 1 Jahr	Y			
+D_GT35	Over 35 days	Plus de 35 jours	Mehr als 35 Tage	Y			
+D91-180	From 91 to 180 days	De 91 à 180 jours	91 bis 180 Tage	Y			
+D91-M5	From 91 days to 5 months	De 91 jours à 5 mois	91 Tage bis 5 Monate	Y			
+D91-M6	From 91 days to 6 months	De 91 jours à 6 mois	91 Tage bis 6 Monate	Y			
+D181-360	From 181 to 360 days	De 181 à 360 jours	181 bis 360 Tage	Y			
+D_GE183_PI	Permanent incapacity or 183 days or over	Incapacité permanente ou 183 jours ou plus	Dauerhaft unfähig oder 183 Tage und mehr	Y			
+D_GE361	361 days or over	361 jours ou plus	361 Tage und mehr	Y			
+W0-16	From 0 to 16 weeks	De 0 à 16 semaines	0 bis 16 Wochen	Y			
+W0-20	From 0 to 20 weeks	De 0 à 20 semaines	0 bis 20 Wochen	Y			
+W0-27	From 0 to 27 weeks	De 0 à 27 semaines	0 bis 27 Wochen	Y			
+W_LE5	5 weeks or less	5 semaines ou moins	5 Wochen und weniger	Y			
+W_GT5	Over 5 weeks	Plus de 5 semaines	Mehr als 5 Wochen	Y			
+W17	17 weeks	17 semaines	17 Wochen	Y			
+W18	18 weeks	18 semaines	18 Wochen	Y			
+W19	19 weeks	19 semaines	19 Wochen	Y			
+W20	20 weeks	20 semaines	20 Wochen	Y			
+W21	21 weeks	21 semaines	21 Wochen	Y			
+W22	22 weeks	22 semaines	22 Wochen	Y			
+W23	23 weeks	23 semaines	23 Wochen	Y			
+W24	24 weeks	24 semaines	24 Wochen	Y			
+W25	25 weeks	25 semaines	25 Wochen	Y			
+W26	26 weeks	26 semaines	26 Wochen	Y			
+W27	27 weeks	27 semaines	27 Wochen	Y			
+W28	28 weeks	28 semaines	28 Wochen	Y			
+W28-31	From 28 to 31 weeks	De 28 à 31 semaines	28 bis 31 Wochen	Y			
+W29	29 weeks	29 semaines	29 Wochen	Y			
+W30	30 weeks	30 semaines	30 Wochen	Y			
+W31	31 weeks	31 semaines	31 Wochen	Y			
+W32	32 weeks	32 semaines	32 Wochen	Y			
+W32-35	From 32 to 35 weeks	De 32 à 35 semaines	32 bis 35 Wochen	Y			
+W33	33 weeks	33 semaines	33 Wochen	Y			
+W34	34 weeks	34 semaines	34 Wochen	Y			
+W35	35 weeks	35 semaines	35 Wochen	Y			
+W36	36 weeks	36 semaines	36 Wochen	Y			
+W36-39	From 36 to 39 weeks	De 36 à 39 semaines	36 bis 39 Wochen	Y			
+W37	37 weeks	37 semaines	37 Wochen	Y			
+W38	38 weeks	38 semaines	38 Wochen	Y			
+W39	39 weeks	39 semaines	39 Wochen	Y			
+W_GE40	40 weeks or over	40 semaines ou plus	40 Wochen und mehr	Y			
+NST	Not started	Pas commencé	Nicht begonnen	Y			
+IMM	Immediate	Immédiat	Unmittelbar	M			
+M0	Zero months	Zéro mois	Null Monate	Y			
+M0-2	From 0 to 2 months	De 0 à 2 mois	0 bis 2 Monate	Y			
+M0-11	From 0 to 11 months	De 0 à 11 mois	0 bis 11 Monate	Y			
+M_LT1	Less than 1 month	Moins de 1 mois	Weniger als 1 Monat	Y			
+M1	1 month	1 mois	1 Monat	Y			
+M1-2	From 1 to 2 months	De 1 à 2 mois	1 bis 2 Monate	Y			
+M1-3	From 1 to 3 months	De 1 à 3 mois	1 bis 3 Monate	Y			
+M1-6	From 1 to 6 months	De 1 à 6 mois	1 bis 6 Monate	Y			
+M1-12	From 1 to 12 months	De 1 à 12 mois	1 bis 12 Monate	Y			
+M_GE1	1 month or over	1 mois ou plus	1 Monat und mehr	Y			
+M2	2 months	2 mois	2 Monate	Y			
+M_LT3	Less than 3 months	Moins de 3 mois	Weniger als 3 Monate	Y			
+M_LE3	3 months or less	3 mois ou moins	3 Monate und weniger	Y			
+M3	3 months	3 mois	3 Monate	Y			
+M3-4	From 3 to 4 months	De 3 à 4 mois	3 bis 4 Monate	Y			
+M3-5	From 3 to 5 months	De 3 à 5 mois	3 bis 5 Monate	Y			
+M3-6	From 3 to 6 months	De 3 à 6 mois	3 bis 6 Monate	Y			
+M3-12	From 3 to 12 months	De 3 à 12 mois	3 bis 12 Monate	Y			
+M3-23	From 3 to 23 months	De 3 à 23 mois	3 bis 23 Monate	Y			
+M_GT3-6	From more than 3 to 6 months	De plus de 3 à 6 mois	Von mehr als 3 bis 6 Monate	Y			
+M_GE3	3 months or over	3 mois ou plus	3 Monate und mehr	Y			
+M4	4 months	4 mois	4 Monate	Y			
+M4-6	From 4 to 6 months	De 4 à 6 mois	4 bis 6 Monate	Y			
+M5	5 months	5 mois	5 Monate	Y			
+M5-6	From 5 to 6 months	De 5 à 6 mois	5 bis 6 Monate	Y			
+M_LT6	Less than 6 months	Moins de 6 mois	Weniger als 6 Monate	Y			
+M_LE6	6 months or less	6 mois ou moins	6 Monate und weniger	Y			
+M6	6 months	6 mois	6 Monate	Y			
+M6-9	From 6 to 9 months	De 6 à 9 mois	6 bis 9 Monate	Y			
+M6-11	From 6 to 11 months	De 6 à 11 mois	6 bis 11 Monate	Y			
+M6-12	From 6 to 12 months	De 6 à 12 mois	6 bis 12 Monate	Y			
+M_GT6-12	From more than 6 to 12 months	De plus de 6 à 12 mois	Von mehr als 6 bis 12 Monate	Y			
+M_GE6	6 months or over	6 mois ou plus	6 Monate und mehr	Y			
+M7	7 months	7 mois	7 Monate	Y			
+M7-9	From 7 to 9 months	De 7 à 9 mois	7 bis 9 Monate	Y			
+M7-12	From 7 to 12 months	De 7 à 12 mois	7 bis 12 Monate	Y			
+M8	8 months	8 mois	8 Monate	Y			
+M9	9 months	9 mois	9 Monate	Y			
+M10	10 months	10 mois	10 Monate	Y			
+M_GE10	10 months or over	10 mois ou plus	10 Monate und mehr	Y			
+M11	11 months	11 mois	11 Monate	Y			
+M_LT12	Less than 12 months	Moins de 12 mois	Weniger als 12 Monate	Y			
+M12	12 months	12 mois	12 Monate	Y			
+M12-17	From 12 to 17 months	De 12 à 17 mois	12 bis 17 Monate	Y			
+M12-23	From 12 to 23 months	De 12 à 23 mois	12 bis 23 Monate	Y			
+M12-36	From 12 to 36 months	De 12 à 36 mois	12 bis 36 Monate	Y			
+M_GE12	12 months or over	12 mois ou plus	12 Monate und mehr	Y			
+M_GT12	Over 12 months	Plus de 12 mois	Mehr als 12 Monate	Y			
+M13	13 months	13 mois	13 Monate	Y			
+M13-18	From 13 to 18 months	De 13 à 18 mois	13 bis 18 Monate	Y			
+M14	14 months	14 mois	14 Monate	Y			
+M15	15 months	15 mois	15 Monate	Y			
+M16	16 months	16 mois	16 Monate	Y			
+M17	17 months	17 mois	17 Monate	Y			
+M18	18 months	18 mois	18 Monate	Y			
+M18-23	From 18 to 23 months	De 18 à 23 mois	18 bis 23 Monate	Y			
+M19	19 months	19 mois	19 Monate	Y			
+M19-24	From 19 to 24 months	De 19 à 24 mois	19 bis 24 Monate	Y			
+M20	20 months	20 mois	20 Monate	Y			
+M21	21 months	21 mois	21 Monate	Y			
+M22	22 months	22 mois	22 Monate	Y			
+M23	23 months	23 mois	23 Monate	Y			
+M24	24 months	24 mois	24 Monate	Y			
+M24-35	From 24 to 35 months	De 24 à 35 mois	24 bis 35 Monate	Y			
+M24-47	From 24 to 47 months	De 24 à 47 mois	24 bis 47 Monate	Y			
+M24-59	From 24 to 59 months	De 24 à 59 mois	24 bis 59 Monate	Y			
+M_GE24	24 months or over	24 mois ou plus	24 Monate und mehr	Y			
+M25	25 months	25 mois	25 Monate	Y			
+M25-36	From 25 to 36 months	De 25 à 36 mois	25 bis 36 Monate	Y			
+M26	26 months	26 mois	26 Monate	Y			
+M27	27 months	27 mois	27 Monate	Y			
+M28	28 months	28 mois	28 Monate	Y			
+M29	29 months	29 mois	29 Monate	Y			
+M30	30 months	30 mois	30 Monate	Y			
+M31	31 months	31 mois	31 Monate	Y			
+M32	32 months	32 mois	32 Monate	Y			
+M33	33 months	33 mois	33 Monate	Y			
+M34	34 months	34 mois	34 Monate	Y			
+M35	35 months	35 mois	35 Monate	Y			
+M36	36 months	36 mois	36 Monate	Y			
+M_GE36	36 months or over	36 mois ou plus	36 Monate und mehr	Y			
+M_GT36	Over 36 months	Plus de 36 mois	Mehr als 36 Monate	Y			
+M37	37 months	37 mois	37 Monate	Y			
+M38	38 months	38 mois	38 Monate	Y			
+M39	39 months	39 mois	39 Monate	Y			
+M40	40 months	40 mois	40 Monate	Y			
+M41	41 months	41 mois	41 Monate	Y			
+M42	42 months	42 mois	42 Monate	Y			
+M43	43 months	43 mois	43 Monate	Y			
+M44	44 months	44 mois	44 Monate	Y			
+M45	45 months	45 mois	45 Monate	Y			
+M46	46 months	46 mois	46 Monate	Y			
+M47	47 months	47 mois	47 Monate	Y			
+M48	48 months	48 mois	48 Monate	Y			
+M_GE48	48 months or over	48 mois ou plus	48 Monate und mehr	Y			
+M49	49 months	49 mois	49 Monate	Y			
+M50	50 months	50 mois	50 Monate	Y			
+M51	51 months	51 mois	51 Monate	Y			
+M52	52 months	52 mois	52 Monate	Y			
+M53	53 months	53 mois	53 Monate	Y			
+M54	54 months	54 mois	54 Monate	Y			
+M55	55 months	55 mois	55 Monate	Y			
+M56	56 months	56 mois	56 Monate	Y			
+M57	57 months	57 mois	57 Monate	Y			
+M58	58 months	58 mois	58 Monate	Y			
+M59	59 months	59 mois	59 Monate	Y			
+M60	60 months	60 mois	60 Monate	Y			
+M_GE60	60 months or over	60 mois ou plus	60 Monate und mehr	Y			
+M61	61 months	61 mois	61 Monate	Y			
+M62	62 months	62 mois	62 Monate	Y			
+M63	63 months	63 mois	63 Monate	Y			
+M64	64 months	64 mois	64 Monate	Y			
+M65	65 months	65 mois	65 Monate	Y			
+M66	66 months	66 mois	66 Monate	Y			
+M67	67 months	67 mois	67 Monate	Y			
+M68	68 months	68 mois	68 Monate	Y			
+M69	69 months	69 mois	69 Monate	Y			
+M70	70 months	70 mois	70 Monate	Y			
+M71	71 months	71 mois	71 Monate	Y			
+M72	72 months	72 mois	72 Monate	Y			
+M73	73 months	73 mois	73 Monate	Y			
+M74	74 months	74 mois	74 Monate	Y			
+M75	75 months	75 mois	75 Monate	Y			
+M76	76 months	76 mois	76 Monate	Y			
+M77	77 months	77 mois	77 Monate	Y			
+M78	78 months	78 mois	78 Monate	Y			
+M79	79 months	79 mois	79 Monate	Y			
+M80	80 months	80 mois	80 Monate	Y			
+M81	81 months	81 mois	81 Monate	Y			
+M82	82 months	82 mois	82 Monate	Y			
+M83	83 months	83 mois	83 Monate	Y			
+M84	84 months	84 mois	84 Monate	Y			
+M85	85 months	85 mois	85 Monate	Y			
+M86	86 months	86 mois	86 Monate	Y			
+M87	87 months	87 mois	87 Monate	Y			
+M88	88 months	88 mois	88 Monate	Y			
+M89	89 months	89 mois	89 Monate	Y			
+M90	90 months	90 mois	90 Monate	Y			
+M91	91 months	91 mois	91 Monate	Y			
+M92	92 months	92 mois	92 Monate	Y			
+M93	93 months	93 mois	93 Monate	Y			
+M94	94 months	94 mois	94 Monate	Y			
+M95	95 months	95 mois	95 Monate	Y			
+M96	96 months	96 mois	96 Monate	Y			
+M97	97 months	97 mois	97 Monate	Y			
+M98	98 months	98 mois	98 Monate	Y			
+M99	99 months	99 mois	99 Monate	Y			
+M100	100 months	100 mois	100 Monate	Y			
+M101	101 months	101 mois	101 Monate	Y			
+M102	102 months	102 mois	102 Monate	Y			
+M103	103 months	103 mois	103 Monate	Y			
+M104	104 months	104 mois	104 Monate	Y			
+M105	105 months	105 mois	105 Monate	Y			
+M106	106 months	106 mois	106 Monate	Y			
+M107	107 months	107 mois	107 Monate	Y			
+M108	108 months	108 mois	108 Monate	Y			
+M109	109 months	109 mois	109 Monate	Y			
+M110	110 months	110 mois	110 Monate	Y			
+M111	111 months	111 mois	111 Monate	Y			
+M112	112 months	112 mois	112 Monate	Y			
+M113	113 months	113 mois	113 Monate	Y			
+M114	114 months	114 mois	114 Monate	Y			
+M115	115 months	115 mois	115 Monate	Y			
+M116	116 months	116 mois	116 Monate	Y			
+M117	117 months	117 mois	117 Monate	Y			
+M118	118 months	118 mois	118 Monate	Y			
+M119	119 months	119 mois	119 Monate	Y			
+Y0-14	From 0 to 14 years	De 0 à 14 ans	0 bis 14 Jahre	Y			
+Y0-17	From 0 to 17 years	De 0 à 17 ans	0 bis 17 Jahre	Y			
+Y0-29	From 0 to 29 years	De 0 à 29 ans	0 bis 29 Jahre	Y			
+Y_LT1	Less than 1 year	Moins de 1 an	Weniger als 1 Jahr	Y			
+Y1	1 year	1 an	1 Jahr	Y			
+Y1-2	From 1 to 2 years	De 1 à 2 ans	1 bis 2 Jahre	Y			
+Y_GT1-2	From more than 1 to 2 years	De plus de 1 à 2 ans	Von mehr als 1 bis 2 Jahre	Y			
+Y1-3	From 1 to 3 years	De 1 à 3 ans	1 bis 3 Jahre	Y			
+Y1-4	From 1 to 4 years	De 1 à 4 ans	1 bis 4 Jahre	Y			
+Y1-5	From 1 to 5 years	De 1 à 5 ans	1 bis 5 Jahre	Y			
+Y1-9	From 1 to 9 years	De 1 à 9 ans	1 bis 9 Jahre	Y			
+Y1-14	From 1 to 14 years	De 1 à 14 ans	1 bis 14 Jahre	Y			
+Y1-15	From 1 to 15 years	De 1 à 15 ans	1 bis 15 Jahre	Y			
+Y_GE1	1 year or over	1 an ou plus	1 Jahr und mehr	Y			
+Y_LT2	Less than 2 years	Moins de 2 ans	Weniger als 2 Jahre	Y			
+Y2	2 years	2 ans	2 Jahre	Y			
+Y2-3	From 2 to 3 years	De 2 à 3 ans	2 bis 3 Jahre	Y			
+Y_GT2-3	From more than 2 to 3 years	De plus de 2 à 3 ans	Von mehr als 2 bis 3 Jahre	Y			
+Y2-4	From 2 to 4 years	De 2 à 4 ans	2 bis 4 Jahre	Y			
+Y2-5	From 2 to 5 years	De 2 à 5 ans	2 bis 5 Jahre	Y			
+Y_GE2	2 years or over	2 ans ou plus	2 Jahre und mehr	Y			
+Y_LT3	Less than 3 years	Moins de 3 ans	Weniger als 3 Jahre	Y			
+Y_LE3	3 years or less	3 ans ou moins	3 Jahre und weniger	Y			
+Y3	3 years	3 ans	3 Jahre	Y			
+Y3-CSA	From 3 years to minimum compulsory school age	De 3 ans à l'âge minimal de scolarisation obligatoire	3 Jahre bis schulpflichtigem Mindestalter	Y			
+Y3-4	From 3 to 4 years	De 3 à 4 ans	3 bis 4 Jahre	Y			
+Y3-5	From 3 to 5 years	De 3 à 5 ans	3 bis 5 Jahre	Y			
+Y_GT3-5	From more than 3 to 5 years	De plus de 3 à 5 ans	Von mehr als 3 bis 5 Jahre	Y			
+Y3-9	From 3 to 9 years	De 3 à 9 ans	3 bis 9 Jahre	Y			
+Y_GE3	3 years or over	3 ans ou plus	3 Jahre und mehr	Y			
+Y_GT3	Over 3 years	Plus de 3 ans	Mehr als 3 Jahre	Y			
+Y_LT4	Less than 4 years	Moins de 4 ans	Weniger als 4 Jahre	Y			
+Y_LE4	4 years or less	4 ans ou moins	4 Jahre und weniger	Y			
+Y4	4 years	4 ans	4 Jahre	Y			
+Y4-5	From 4 to 5 years	De 4 à 5 ans	4 bis 5 Jahre	Y			
+Y_GT4	Over 4 years	Plus de 4 ans	Mehr als 4 Jahre	Y			
+Y_LT5	Less than 5 years	Moins de 5 ans	Weniger als 5 Jahre	Y			
+Y_LE5	5 years or less	5 ans ou moins	5 Jahre und weniger	Y			
+Y5	5 years	5 ans	5 Jahre	Y			
+Y5-9	From 5 to 9 years	De 5 à 9 ans	5 bis 9 Jahre	Y			
+Y5-10	From 5 to 10 years	De 5 à 10 ans	5 bis 10 Jahre	Y			
+Y5-11	From 5 to 11 years	De 5 à 11 ans	5 bis 11 Jahre	Y			
+Y5-12	From 5 to 12 years	De 5 à 12 ans	5 bis 12 Jahre	Y			
+Y5-14	From 5 to 14 years	De 5 à 14 ans	5 bis 14 Jahre	Y			
+Y5-29	From 5 to 29 years	De 5 à 29 ans	5 bis 29 Jahre	Y			
+Y_GE5	5 years or over	5 ans ou plus	5 Jahre und mehr	Y			
+Y_GT5	Over 5 years	Plus de 5 ans	Mehr als 5 Jahre	Y			
+CSA-Y12	From minimum compulsory school age to 12 years	De l'âge minimal de scolarisation obligatoire à 12 ans	Schulpflichtigem Mindestalter bis 12 Jahre	Y			
+CSA1-Y12	From one year after compulsory school age to 12 years	D’un an après l'âge de scolarisation obligatoire à 12 ans	Ab einem Jahr nach dem Schulpflichtigem Mindestalter bis 12 Jahre	Y			
+Y_LT6	Less than 6 years	Moins de 6 ans	Weniger als 6 Jahre	Y			
+Y6	6 years	6 ans	6 Jahre	Y			
+Y6-7	From 6 to 7 years	De 6 à 7 ans	6 bis 7 Jahre	Y			
+Y6-9	From 6 to 9 years	De 6 à 9 ans	6 bis 9 Jahre	Y			
+Y6-10	From 6 to 10 years	De 6 à 10 ans	6 bis 10 Jahre	Y			
+Y6-11	From 6 to 11 years	De 6 à 11 ans	6 bis 11 Jahre	Y			
+Y6-12	From 6 to 12 years	De 6 à 12 ans	6 bis 12 Jahre	Y			
+Y7	7 years	7 ans	7 Jahre	Y			
+Y7-12	From 7 to 12 years	De 7 à 12 ans	7 bis 12 Jahre	Y			
+Y8	8 years	8 ans	8 Jahre	Y			
+Y8-9	From 8 to 9 years	De 8 à 9 ans	8 bis 9 Jahre	Y			
+Y9	9 years	9 ans	9 Jahre	Y			
+Y_LT10	Less than 10 years	Moins de 10 ans	Weniger als 10 Jahre	Y			
+Y10	10 years	10 ans	10 Jahre	Y			
+Y10-11	From 10 to 11 years	De 10 à 11 ans	10 bis 11 Jahre	Y			
+Y10-14	From 10 to 14 years	De 10 à 14 ans	10 bis 14 Jahre	Y			
+Y10-15	From 10 to 15 years	De 10 à 15 ans	10 bis 15 Jahre	Y			
+Y10-19	From 10 to 19 years	De 10 à 19 ans	10 bis 19 Jahre	Y			
+Y10-20	From 10 to 20 years	De 10 à 20 ans	10 bis 20 Jahre	Y			
+Y10-29	From 10 to 29 years	De 10 à 29 ans	10 bis 29 Jahre	Y			
+Y_GE10	10 years or over	10 ans ou plus	10 Jahre und mehr	Y			
+Y_GT10	Over 10 years	Plus de 10 ans	Mehr als 10 Jahre	Y			
+Y_LT11	Less than 11 years	Moins de 11 ans	Weniger als 11 Jahre	Y			
+Y11	11 years	11 ans	11 Jahre	Y			
+Y11-15	From 11 to 15 years	De 11 à 15 ans	11 bis 15 Jahre	Y			
+Y_LE12	12 years or less	12 ans ou moins	12 Jahre und weniger	Y			
+Y12	12 years	12 ans	12 Jahre	Y			
+Y12-13	From 12 to 13 years	De 12 à 13 ans	12 bis 13 Jahre	Y			
+Y12-15	From 12 to 15 years	De 12 à 15 ans	12 bis 15 Jahre	Y			
+Y12-16	From 12 to 16 years	De 12 à 16 ans	12 bis 16 Jahre	Y			
+Y12-17	From 12 to 17 years	De 12 à 17 ans	12 bis 17 Jahre	Y			
+Y12-49	From 12 to 49 years	De 12 à 49 ans	12 bis 49 Jahre	Y			
+Y_GE12	12 years or over	12 ans ou plus	12 Jahre und mehr	Y			
+Y13	13 years	13 ans	13 Jahre	Y			
+Y13-16	From 13 to 16 years	De 13 à 16 ans	13 bis 16 Jahre	Y			
+Y13-18	From 13 to 18 years	De 13 à 18 ans	13 bis 18 Jahre	Y			
+Y_LT14	Less than 14 years	Moins de 14 ans	Weniger als 14 Jahre	Y			
+Y14	14 years	14 ans	14 Jahre	Y			
+Y14-15	From 14 to 15 years	De 14 à 15 ans	14 bis 15 Jahre	Y			
+Y14-17	From 14 to 17 years	De 14 à 17 ans	14 bis 17 Jahre	Y			
+Y_LT15	Less than 15 years	Moins de 15 ans	Weniger als 15 Jahre	Y			
+Y15	15 years	15 ans	15 Jahre	Y			
+Y15-17	From 15 to 17 years	De 15 à 17 ans	14 bis 17 Jahre	Y			
+Y15-19	From 15 to 19 years	De 15 à 19 ans	15 bis 19 Jahre	Y			
+Y15-20	From 15 to 20 years	De 15 à 20 ans	15 bis 20 Jahre	Y			
+Y15-24_Y65-74	From 15 to 24 years and 65 to 74 years	De 15 à 24 ans et 65 à 74 ans	15 bis 24 Jahre und 65 bis 74 Jahre	Y			
+Y15-24	From 15 to 24 years	De 15 à 24 ans	15 bis 24 Jahre	Y			
+Y15-29	From 15 to 29 years	De 15 à 29 ans	15 bis 29 Jahre	Y			
+Y15-34	From 15 to 34 years	De 15 à 34 ans	15 bis 34 Jahre	Y			
+Y15-39	From 15 to 39 years	De 15 à 39 ans	15 bis 39 Jahre	Y			
+Y15-44	From 15 to 44 years	De 15 à 44 ans	15 bis 44 Jahre	Y			
+Y15-59	From 15 to 59 years	De 15 à 59 ans	15 bis 59 Jahre	Y			
+Y15-64	From 15 to 64 years	De 15 à 64 ans	15 bis 64 Jahre	Y			
+Y15-69	From 15 to 69 years	De 15 à 69 ans	15 bis 69 Jahre	Y			
+Y15-74	From 15 to 74 years	De 15 à 74 ans	15 bis 74 Jahre	Y			
+Y15-89	From 15 to 89 years	De 15 à 89 ans	15 bis 89 Jahre	Y			
+Y_GE15	15 years or over	15 ans ou plus	15 Jahre und mehr	Y			
+Y_LT16	Less than 16 years	Moins de 16 ans	Weniger als 16 Jahre	Y			
+Y16	16 years	16 ans	16 Jahre	Y			
+Y16-17	From 16 to 17 years	De 16 à 17 ans	16 bis 17 Jahre	Y			
+Y16-18	From 16 to 18 years	De 16 à 18 ans	16 bis 18 Jahre	Y			
+Y16-19	From 16 to 19 years	De 16 à 19 ans	16 bis 19 Jahre	Y			
+Y16-24	From 16 to 24 years	De 16 à 24 ans	16 bis 24 Jahre	Y			
+Y16-29	From 16 to 29 years	De 16 à 29 ans	16 bis 29 Jahre	Y			
+Y16-44	From 16 to 44 years	De 16 à 44 ans	16 bis 44 Jahre	Y			
+Y16-64	From 16 to 64 years	De 16 à 64 ans	16 bis 64 Jahre	Y			
+Y16-74	From 16 to 74 years	De 16 à 74 ans	16 bis 74 Jahre	Y			
+Y_GE16	16 years or over	16 ans ou plus	16 Jahre und mehr	Y			
+Y_LT17	Less than 17 years	Moins de 17 ans	Weniger als 17 Jahre	Y			
+Y17	17 years	17 ans	17 Jahre	Y			
+Y17-18	From 17 to 18 years	De 17 à 18 ans	17 bis 18 Jahre	Y			
+Y_LT18	Less than 18 years	Moins de 18 ans	Weniger als 18 Jahre	Y			
+Y18	18 years	18 ans	18 Jahre	Y			
+Y18-19	From 18 to 19 years	De 18 à 19 ans	18 bis 19 Jahre	Y			
+Y18-24	From 18 to 24 years	De 18 à 24 ans	18 bis 24 Jahre	Y			
+Y18-29	From 18 to 29 years	De 18 à 29 ans	18 bis 29 Jahre	Y			
+Y18-34	From 18 to 34 years	De 18 à 34 ans	18 bis 34 Jahre	Y			
+Y18-44	From 18 to 44 years	De 18 à 44 ans	18 bis 44 Jahre	Y			
+Y18-49	From 18 to 49 years	De 18 à 49 ans	18 bis 49 Jahre	Y			
+Y18-54	From 18 to 54 years	De 18 à 54 ans	18 bis 54 Jahre	Y			
+Y18-59	From 18 to 59 years	De 18 à 59 ans	18 bis 59 Jahre	Y			
+Y18-64	From 18 to 64 years	De 18 à 64 ans	18 bis 64 Jahre	Y			
+Y18-69	From 18 to 69 years	De 18 à 69 ans	18 bis 69 Jahre	Y			
+Y18-74	From 18 to 74 years	De 18 à 74 ans	18 bis 74 Jahre	Y			
+Y_GE18	18 years or over	18 ans ou plus	18 Jahre und mehr	Y			
+Y_LE19	19 years or less	19 ans ou moins	19 Jahre und weniger	Y			
+Y19	19 years	19 ans	19 Jahre	Y			
+Y19-24	From 19 to 24 years	De 19 à 24 ans	19 bis 24 Jahre	Y			
+Y_LT20	Less than 20 years	Moins de 20 ans	Weniger als 20 Jahre	Y			
+Y20	20 years	20 ans	20 Jahre	Y			
+Y20-24	From 20 to 24 years	De 20 à 24 ans	20 bis 24 Jahre	Y			
+Y20-29	From 20 to 29 years	De 20 à 29 ans	20 bis 29 Jahre	Y			
+Y20-34	From 20 to 34 years	De 20 à 34 ans	20 bis 34 Jahre	Y			
+Y20-39	From 20 to 39 years	De 20 à 39 ans	20 bis 39 Jahre	Y			
+Y20-49	From 20 to 49 years	De 20 à 49 ans	20 bis 49 Jahre	Y			
+Y20-59	From 20 to 59 years	De 20 à 59 ans	20 bis 59 Jahre	Y			
+Y20-64	From 20 to 64 years	De 20 à 64 ans	20 bis 64 Jahre	Y			
+Y20-69	From 20 to 69 years	De 20 à 69 ans	20 bis 69 Jahre	Y			
+Y20-74	From 20 to 74 years	De 20 à 74 ans	20 bis 74 Jahre	Y			
+Y20-89	From 20 to 89 years	De 20 à 89 ans	20 bis 89 Jahre	Y			
+Y_GE20	20 years or over	20 ans ou plus	20 Jahre und mehr	Y			
+Y_GT20	Over 20 years	Plus de 20 ans	Mehr als 20 Jahre	Y			
+Y21	21 years	21 ans	21 Jahre	Y			
+Y_GE21	21 years or over	21 ans ou plus	21 Jahre und mehr	Y			
+Y22	22 years	22 ans	22 Jahre	Y			
+Y23	23 years	23 ans	23 Jahre	Y			
+Y24	24 years	24 ans	24 Jahre	Y			
+Y_LT25	Less than 25 years	Moins de 25 ans	Weniger als 25 Jahre	Y			
+Y25	25 years	25 ans	25 Jahre	Y			
+Y25-29	From 25 to 29 years	De 25 à 29 ans	25 bis 29 Jahre	Y			
+Y25-34	From 25 to 34 years	De 25 à 34 ans	25 bis 34 Jahre	Y			
+Y25-39	From 25 to 39 years	De 25 à 39 ans	25 bis 39 Jahre	Y			
+Y25-44	From 25 to 44 years	De 25 à 44 ans	25 bis 44 Jahre	Y			
+Y25-49	From 25 to 49 years	De 25 à 49 ans	25 bis 49 Jahre	Y			
+Y25-54	From 25 to 54 years	De 25 à 54 ans	25 bis 54 Jahre	Y			
+Y25-59	From 25 to 59 years	De 25 à 59 ans	25 bis 59 Jahre	Y			
+Y25-64	From 25 to 64 years	De 25 à 64 ans	25 bis 64 Jahre	Y			
+Y25-69	From 25 to 69 years	De 25 à 69 ans	25 bis 69 Jahre	Y			
+Y25-74	From 25 to 74 years	De 25 à 74 ans	25 bis 74 Jahre	Y			
+Y25-89	From 25 to 89 years	De 25 à 89 ans	25 bis 89 Jahre	Y			
+Y_GE25	25 years or over	25 ans ou plus	25 Jahre und mehr	Y			
+Y26	26 years	26 ans	26 Jahre	Y			
+Y27	27 years	27 ans	27 Jahre	Y			
+Y28	28 years	28 ans	28 Jahre	Y			
+Y29	29 years	29 ans	29 Jahre	Y			
+Y_LT30	Less than 30 years	Moins de 30 ans	Weniger als 30 Jahre	Y			
+Y30	30 years	30 ans	30 Jahre	Y			
+Y30-34	From 30 to 34 years	De 30 à 34 ans	30 bis 34 Jahre	Y			
+Y30-39	From 30 to 39 years	De 30 à 39 ans	30 bis 39 Jahre	Y			
+Y30-44	From 30 to 44 years	De 30 à 44 ans	30 bis 44 Jahre	Y			
+Y30-49	From 30 to 49 years	De 30 à 49 ans	30 bis 49 Jahre	Y			
+Y30-54	From 30 to 54 years	De 30 à 54 ans	30 bis 54 Jahre	Y			
+Y30-64	From 30 to 64 years	De 30 à 64 ans	30 bis 64 Jahre	Y			
+Y30-74	From 30 to 74 years	De 30 à 74 ans	30 bis 74 Jahre	Y			
+Y_GE30	30 years or over	30 ans ou plus	30 Jahre und mehr	Y			
+Y31	31 years	31 ans	31 Jahre	Y			
+Y32	32 years	32 ans	32 Jahre	Y			
+Y33	33 years	33 ans	33 Jahre	Y			
+Y34	34 years	34 ans	34 Jahre	Y			
+Y_LT35	Less than 35 years	Moins de 35 ans	Weniger als 35 Jahre	Y			
+Y35	35 years	35 ans	35 Jahre	Y			
+Y35-39	From 35 to 39 years	De 35 à 39 ans	35 bis 39 Jahre	Y			
+Y35-44	From 35 to 44 years	De 35 à 44 ans	35 bis 44 Jahre	Y			
+Y35-49	From 35 to 49 years	De 35 à 49 ans	35 bis 49 Jahre	Y			
+Y35-54	From 35 to 54 years	De 35 à 54 ans	35 bis 54 Jahre	Y			
+Y35-64	From 35 to 64 years	De 35 à 64 ans	35 bis 64 Jahre	Y			
+Y35-74	From 35 to 74 years	De 35 à 74 ans	35 bis 74 Jahre	Y			
+Y_GE35	35 years or over	35 ans ou plus	35 Jahre und mehr	Y			
+Y_LT36	Less than 36 years	Moins de 36 ans	Weniger als 36 Jahre	Y			
+Y36	36 years	36 ans	36 Jahre	Y			
+Y36-55	From 36 to 55 years	De 36 à 55 ans	36 bis 55 Jahre	Y			
+Y37	37 years	37 ans	37 Jahre	Y			
+Y38	38 years	38 ans	38 Jahre	Y			
+Y39	39 years	39 ans	39 Jahre	Y			
+Y_LT40	Less than 40 years	Moins de 40 ans	Weniger als 40 Jahre	Y			
+Y_LE40	40 years or less	40 ans ou moins	40 Jahre und weniger	Y			
+Y40	40 years	40 ans	40 Jahre	Y			
+Y40-44	From 40 to 44 years	De 40 à 44 ans	40 bis 44 Jahre	Y			
+Y40-49	From 40 to 49 years	De 40 à 49 ans	40 bis 49 Jahre	Y			
+Y40-54	From 40 to 54 years	De 40 à 54 ans	40 bis 54 Jahre	Y			
+Y40-59	From 40 to 59 years	De 40 à 59 ans	40 bis 59 Jahre	Y			
+Y40-64	From 40 to 64 years	De 40 à 64 ans	40 bis 64 Jahre	Y			
+Y_GE40	40 years or over	40 ans ou plus	40 Jahre und mehr	Y			
+Y_GT40	Over 40 years	Plus de 40 ans	Mehr als 40 Jahre	Y			
+Y41	41 years	41 ans	41 Jahre	Y			
+Y42	42 years	42 ans	42 Jahre	Y			
+Y43	43 years	43 ans	43 Jahre	Y			
+Y44	44 years	44 ans	44 Jahre	Y			
+Y_LT45	Less than 45 years	Moins de 45 ans	Weniger als 45 Jahre	Y			
+Y45	45 years	45 ans	45 Jahre	Y			
+Y45-49	From 45 to 49 years	De 45 à 49 ans	45 bis 49 Jahre	Y			
+Y45-54	From 45 to 54 years	De 45 à 54 ans	45 bis 54 Jahre	Y			
+Y45-59	From 45 to 59 years	De 45 à 59 ans	45 bis 59 Jahre	Y			
+Y45-64	From 45 to 64 years	De 45 à 64 ans	45 bis 64 Jahre	Y			
+Y45-74	From 45 to 74 years	De 45 à 74 ans	45 bis 74 Jahre	Y			
+Y_GE45	45 years or over	45 ans ou plus	45 Jahre und mehr	Y			
+Y46	46 years	46 ans	46 Jahre	Y			
+Y47	47 years	47 ans	47 Jahre	Y			
+Y48	48 years	48 ans	48 Jahre	Y			
+Y_GE48	48 years or over	48 ans ou plus	48 Jahre und mehr	Y			
+Y49	49 years	49 ans	49 Jahre	Y			
+Y_GE49	49 years or over	49 ans ou plus	49 Jahre und mehr	Y			
+Y50	50 years	50 ans	50 Jahre	Y			
+Y50-54	From 50 to 54 years	De 50 à 54 ans	50 bis 54 Jahre	Y			
+Y50-59	From 50 to 59 years	De 50 à 59 ans	50 bis 59 Jahre	Y			
+Y50-64	From 50 to 64 years	De 50 à 64 ans	50 bis 64 Jahre	Y			
+Y50-69	From 50 to 69 years	De 50 à 69 ans	50 bis 69 Jahre	Y			
+Y50-74	From 50 to 74 years	De 50 à 74 ans	50 bis 74 Jahre	Y			
+Y50-89	From 50 to 89 years	De 50 à 89 ans	50 bis 89 Jahre	Y			
+Y_GE50	50 years or over	50 ans ou plus	50 Jahre und mehr	Y			
+Y51	51 years	51 ans	51 Jahre	Y			
+Y_GE51	51 years or over	51 ans ou plus	51 Jahre und mehr	Y			
+Y52	52 years	52 ans	52 Jahre	Y			
+Y53	53 years	53 ans	53 Jahre	Y			
+Y54	54 years	54 ans	54 Jahre	Y			
+Y55	55 years	55 ans	55 Jahre	Y			
+Y55-59	From 55 to 59 years	De 55 à 59 ans	55 bis 59 Jahre	Y			
+Y55-64	From 55 to 64 years	De 55 à 64 ans	55 bis 64 Jahre	Y			
+Y55-69	From 55 to 69 years	De 55 à 69 ans	55 bis 69 Jahre	Y			
+Y55-74	From 55 to 74 years	De 55 à 74 ans	55 bis 74 Jahre	Y			
+Y55-89	From 55 to 89 years	De 55 à 89 ans	55 bis 89 Jahre	Y			
+Y_GE55	55 years or over	55 ans ou plus	55 Jahre und mehr	Y			
+Y56	56 years	56 ans	56 Jahre	Y			
+Y_GE56	56 years or over	56 ans ou plus	56 Jahre und mehr	Y			
+Y57	57 years	57 ans	57 Jahre	Y			
+Y58	58 years	58 ans	58 Jahre	Y			
+Y59	59 years	59 ans	59 Jahre	Y			
+Y_LT60	Less than 60 years	Moins de 60 ans	Weniger als 60 Jahre	Y			
+Y60	60 years	60 ans	60 Jahre	Y			
+Y60-64	From 60 to 64 years	De 60 à 64 ans	60 bis 64 Jahre	Y			
+Y60-69	From 60 to 69 years	De 60 à 69 ans	60 bis 69 Jahre	Y			
+Y60-74	From 60 to 74 years	De 60 à 74 ans	60 bis 74 Jahre	Y			
+Y60-79	From 60 to 79 years	De 60 à 79 ans	60 bis 79 Jahre	Y			
+Y_GE60	60 years or over	60 ans ou plus	60 Jahre und mehr	Y			
+Y61	61 years	61 ans	61 Jahre	Y			
+Y62	62 years	62 ans	62 Jahre	Y			
+Y63	63 years	63 ans	63 Jahre	Y			
+Y64	64 years	64 ans	64 Jahre	Y			
+Y_LT65	Less than 65 years	Moins de 65 ans	Weniger als 65 Jahre	Y			
+Y65	65 years	65 ans	65 Jahre	Y			
+Y65-69	From 65 to 69 years	De 65 à 69 ans	65 bis 69 Jahre	Y			
+Y65-74	From 65 to 74 years	De 65 à 74 ans	65 bis 74 Jahre	Y			
+Y65-79	From 65 to 79 years	De 65 à 79 ans	65 bis 79 Jahre	Y			
+Y65-84	From 65 to 84 years	De 65 à 84 ans	65 bis 84 Jahre	Y			
+Y65-89	From 65 to 89 years	De 65 à 89 ans	65 bis 89 Jahre	Y			
+Y_GE65	65 years or over	65 ans ou plus	65 Jahre und mehr	Y			
+Y66	66 years	66 ans	66 Jahre	Y			
+Y67	67 years	67 ans	67 Jahre	Y			
+Y68	68 years	68 ans	68 Jahre	Y			
+Y69	69 years	69 ans	69 Jahre	Y			
+Y70	70 years	70 ans	70 Jahre	Y			
+Y70-74	From 70 to 74 years	De 70 à 74 ans	70 bis 74 Jahre	Y			
+Y70-79	From 70 to 79 years	De 70 à 79 ans	70 bis 79 Jahre	Y			
+Y_GE70	70 years or over	70 ans ou plus	70 Jahre und mehr	Y			
+Y71	71 years	71 ans	71 Jahre	Y			
+Y72	72 years	72 ans	72 Jahre	Y			
+Y73	73 years	73 ans	73 Jahre	Y			
+Y74	74 years	74 ans	74 Jahre	Y			
+Y_LT75	Less than 75 years	Moins de 75 ans	Weniger als 75 Jahre	Y			
+Y75	75 years	75 ans	75 Jahre	Y			
+Y75-79	From 75 to 79 years	De 75 à 79 ans	75 bis 79 Jahre	Y			
+Y75-84	From 75 to 84 years	De 75 à 84 ans	75 bis 84 Jahre	Y			
+Y75-89	From 75 to 89 years	De 75 à 89 ans	75 bis 89 Jahre	Y			
+Y_GE75	75 years or over	75 ans ou plus	75 Jahre und mehr	Y			
+Y76	76 years	76 ans	76 Jahre	Y			
+Y77	77 years	77 ans	77 Jahre	Y			
+Y78	78 years	78 ans	78 Jahre	Y			
+Y79	79 years	79 ans	79 Jahre	Y			
+Y80	80 years	80 ans	80 Jahre	Y			
+Y80-84	From 80 to 84 years	De 80 à 84 ans	80 bis 84 Jahre	Y			
+Y80-89	From 80 to 89 years	De 80 à 89 ans	80 bis 89 Jahre	Y			
+Y_GE80	80 years or over	80 ans ou plus	80 Jahre und mehr	Y			
+Y81	81 years	81 ans	81 Jahre	Y			
+Y82	82 years	82 ans	82 Jahre	Y			
+Y83	83 years	83 ans	83 Jahre	Y			
+Y84	84 years	84 ans	84 Jahre	Y			
+Y85	85 years	85 ans	85 Jahre	Y			
+Y85-89	From 85 to 89 years	De 85 à 89 ans	85 bis 89 Jahre	Y			
+Y_GE85	85 years or over	85 ans ou plus	85 Jahre und mehr	Y			
+Y86	86 years	86 ans	86 Jahre	Y			
+Y87	87 years	87 ans	87 Jahre	Y			
+Y88	88 years	88 ans	88 Jahre	Y			
+Y89	89 years	89 ans	89 Jahre	Y			
+Y90	90 years	90 ans	90 Jahre	Y			
+Y90-94	From 90 to 94 years	De 90 à 94 ans	90 bis 94 Jahre	Y			
+Y_GE90	90 years or over	90 ans ou plus	90 Jahre und mehr	Y			
+Y91	91 years	91 ans	91 Jahre	Y			
+Y_GE91	91 years or over	91 ans ou plus	91 Jahre und mehr	Y			
+Y92	92 years	92 ans	92 Jahre	Y			
+Y93	93 years	93 ans	93 Jahre	Y			
+Y94	94 years	94 ans	94 Jahre	Y			
+Y95	95 years	95 ans	95 Jahre	Y			
+Y95-99	From 95 to 99 years	De 95 à 99 ans	95 bis 99 Jahre	Y			
+Y_GE95	95 years or over	95 ans ou plus	95 Jahre und mehr	Y			
+Y96	96 years	96 ans	96 Jahre	Y			
+Y97	97 years	97 ans	97 Jahre	Y			
+Y98	98 years	98 ans	98 Jahre	Y			
+Y99	99 years	99 ans	99 Jahre	Y			
+Y_GE99	99 years or over	99 ans ou plus	99 Jahre und mehr	Y			
+Y100	100 years	100 ans	100 Jahre	Y			
+Y_GE100	100 years or over	100 ans ou plus	100 Jahre und mehr	Y			
+Y101	101 years	101 ans	101 Jahre	Y			
+Y_GE101	101 years or over	101 ans ou plus	101 Jahre und mehr	Y			
+Y102	102 years	102 ans	102 Jahre	Y			
+Y103	103 years	103 ans	103 Jahre	Y			
+Y104	104 years	104 ans	104 Jahre	Y			
+Y105	105 years	105 ans	105 Jahre	Y			
+Y106	106 years	106 ans	106 Jahre	Y			
+Y107	107 years	107 ans	107 Jahre	Y			
+Y108	108 years	108 ans	108 Jahre	Y			
+Y109	109 years	109 ans	109 Jahre	Y			
+Y110	110 years	110 ans	110 Jahre	Y			
+Y_GE110	110 years or over	110 ans ou plus	110 Jahre und mehr	Y			
+Y_OPEN	Open-ended age class	Classe d'âge ouverte	Offene Altersklasse	Y			
+JUVENILE	Juvenile	Mineur	Minderjährige	M			
+ADULT	Adult	Adulte	Erwachsene	M			
+ONGO	Ongoing	En cours	Dauert noch an	M			
+FAT	Fatal	Mortel	Tödlich	M			
+NAP	Not applicable	Non applicable	Nicht anwendbar	Y			
+NEV	Never	Jamais	Niemals	Y			
+AVG	Average	Moyenne	Durchschnitt	Y			
+NRP	No response	Sans réponse	Ohne Antwort	Y			
+NSP	Not specified	Non spécifié	Nicht spezifiziert	Y			
+OTH	Other	Autres	Sonstige	Y			
+UNK	Unknown	Inconnu	Unbekannt	Y			
