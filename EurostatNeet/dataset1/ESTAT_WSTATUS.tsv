@@ -1,0 +1,95 @@
+CODE	Label - English	Label - French	Label - German	Standard code	Note (EN only)	EC_corporate_code	EC_corporate_uri
+TOTAL	Total	Total	Insgesamt	Y			
+POP	Population	Population	Bevölkerung	Y			
+ACT_INAC	Persons in- and outside the labour force	Personnes actives et inactives	Erwerbs- und Nichterwerbspersonen	Y			
+ACT	Persons in the labour force	Personnes comprises dans les forces de travail	Erwerbspersonen	Y			
+EMP_W	Persons employed or previously employed	Personnes employées actuellement et auparavant	Erwerbstätige, zuvor gearbeitet	Y			
+EMP	Employed persons	Personnes occupées	Erwerbstätige	Y			
+EMP_FT	Employed persons working full-time	Personnes occupées à plein temps	Vollzeitbeschäftigte	Y			
+EMP_PT	Employed persons working part-time	Personnes occupées à temps partiel	Teilzeitbeschäftigte	Y			
+EMP_TEMP	Employed persons with temporary contract	Personnes occupées avec contrat temporaire	Beschäftigte mit befristetem Vertrag	Y			
+LEAV	Employed persons on temporary leave from work	Personnes occupées en congé temporaire	Vorübergehend beurlaubte Erwerbstätige	Y			
+SAL_SCTR	Employees and subcontractors	Salariés et sous-traitants	Arbeitnehmer und Subunternehmer	Y			
+SAL	Employees	Salariés	Arbeitnehmer	Y			
+SAL_PERM	Employees with a permanent job	Salariés avec un emploi permanent	Arbeitnehmer mit einer unbefristeten Arbeitsstelle	Y			
+SAL_TEMP	Employees with a temporary job	Salariés avec un emploi temporaire	Arbeitnehmer mit einer befristeten Arbeitsstelle	Y			
+MW_IS	Manual workers in industry and services	Ouvriers dans l'industrie et les services	Arbeiter in der Industrie und im Dienstleistungsbereich	M			
+NMW_IS	Non-manual workers in industry and services	Employés dans l'industrie et les services	Angestellte in der Industrie und im Dienstleistungsbereich	M			
+NSAL	Employed persons except employees	Personnes occupées sauf salariés	Erwerbstätige ausgenommen Arbeitnehmer	Y			
+SELF_COWN	Self-employed persons and co-owner	Travailleurs indépendants et copropriétaire	Selbstständige und Miteigentümer	Y			
+SELF	Self-employed persons	Travailleurs indépendants	Selbstständige	Y			
+SELF_S	Self-employed persons with employees (employers)	Travailleurs indépendants avec salariés (employeurs)	Selbständige mit Arbeitnehmern (Arbeitgeber)	Y			
+SELF_NS	Self-employed persons without employees (own-account workers)	Travailleurs indépendants sans salariés	Selbständige, die keine Arbeitnehmer beschäftigen	Y			
+SELF_I_NS	Independent self-employed without employees (own-account workers)	Travailleurs indépendants économiquement indépendants sans salariés	Unabhängige Selbständige, die keine Arbeitnehmer beschäftigen	Y			
+SELF_D_NS	Dependent self-employed without employees (own-account workers)	Travailleurs indépendants économiquement dépendants sans salariés	Abhängige Selbständige, die keine Arbeitnehmer beschäftigen	Y			
+SELF_NS_D_UNK	Self-employed without employees (own-account workers), dependency not known	Travailleurs indépendants sans salariés, dépendance économique inconnue	Selbständige, die keine Arbeitnehmer beschäftigen, Abhängigkeit unbekannt	Y			
+CFAM_COOP	Contributing family workers and members of producers' cooperatives	Travailleurs familiaux collaborant à l'entreprise familiale et membres de coopératives de producteurs	Mithelfende Familienangehörige und Mitglieder von Erzeugergenossenschaften	Y			
+CFAM	Contributing family workers	Travailleurs familiaux collaborant à l'entreprise familiale	Mithelfende Familienangehörige	Y			
+NCFAM	Employed persons except contributing family workers	Personnes occupées sauf travailleurs familiaux collaborant à l'entreprise familiale	Erwerbstätige ausgenommen mithelfende Familienangehörige	Y			
+COOP	Members of producers' cooperatives	Membres de coopératives de producteurs	Mitglieder von Erzeugergenossenschaften	Y			
+EMP_OTH	Other employed persons	Autres personnes occupées	Sonstige Erwerbstätige	Y			
+EMP_UNK	Employed persons - unknown	Personnes occupées - inconnu	Erwerbstätige - unbekannt	Y			
+FLF_D	Farm labour force, directly employed by the farm on a regular or non-regular basis	Main-d'oeuvre agricole, directement employée par l'exploitation agricole régulièrement ou non régulièrement	Landwirtschaftliche Arbeitskräfte, die direkt vom  landwirtschaftlichem Betrieb beschäftigt sind auf regelmäßiger oder nicht regelmäßiger Basis	Y			
+FLF_D_R	Farm labour force, directly employed by the farm on a regular basis	Main-d'oeuvre agricole, directement employée par l'exploitation agricole de manière régulière	Landwirtschaftliche Arbeitskräfte, die direkt vom landwirtschaftlichem Betrieb beschäftigt sind auf regelmäßiger Basis	Y			
+FLF_D_RFAM	Family farm labour force directly employed by the farm	Main-d'oeuvre agricole familiale directement employée par l'exploitation agricole	Familiäre landwirtschaftliche Arbeitskräfte, die direkt vom landwirtschaftlichem Betrieb beschäftigt sind	Y			
+FLF_D_RFAM_HLD	Sole holder directly employed by the farm	Exploitant individuel directement employé par l'exploitation agricole	Alleiniger Betriebsinhaber, der direkt vom landwirtschaftlichem Betrieb beschäftigt ist	Y			
+FLF_D_RFAMXHLD	Members of sole holders' family, excluding the holder, directly employed by the farm	Membres de la famille de l'exploitant individuel, sauf l'exploitant, directement employés par l'exploitation agricole	Familienmitglieder der alleinigen Betriebsinhaber, ausschließlich des Inhabers, die direkt vom landwirtschaftlichem Betrieb beschäftigt sind	Y			
+FLF_D_RFAM_SPOU	Spouse of sole holder directly employed by the farm	Conjoint de l'exploitant individuel directement employé par l'exploitation agricole	Ehepartner des alleinigen Betriebsinhabers, der direkt vom landwirtschaftlichem Betrieb beschäftigt ist	Y			
+FLF_D_RFAM_OTH	Other members of sole holder's family directly employed by the farm	Autres membres de la famille de l'exploitant individuel directement employés par l'exploitation agricole	Andere Familienmitglieder des alleinigen Betriebsinhabers, die direkt vom landwirtschaftlichem Betrieb beschäftigt sind	Y			
+FLF_D_RNFAM	Non-family farm labour force, directly employed by the farm on a regular basis	Main-d'oeuvre agricole non-familiale,  directement employée par l'exploitation agricole de manière régulière	Familienfremde landwirtschaftliche Arbeitskräfte, die direkt vom landwirtschaftlichem Betrieb beschäftigt sind auf regelmäßiger Basis	Y			
+FLF_D_NR	Farm labour force, directly employed by the farm on a non-regular basis	Main-d'oeuvre agricole, directement employée par l'exploitation agricole de manière non régulière	Landwirtschaftliche Arbeitskräfte, die direkt vom landwirtschaftlichem Betrieb beschäftigt sind auf nicht regelmäßiger Basis	Y			
+FLF_ND	Farm labour force, not directly employed by the farm	Main-d'oeuvre agricole, non directement employée par l'exploitation agricole	Landwirtschaftliche Arbeitskräfte, die nicht direkt vom landwirtschaftlichen Betrieb beschäftigt sind	Y			
+FLF_GRP	Group holders	Groupement d'exploitants	Gruppenbetriebsinhaber	Y			
+FLF_MANXGRP	Farm managers, excluding group holding	Chefs d'exploitations agricoles, sauf groupement d'exploitations	Leiter von landwirtschaftlichen Betrieben, ausschließlich Gruppenbetriebsinhaber	Y			
+NEW_FLF_GT40	New farm managers older than 40 years old	Nouveaux chefs d'exploitations agricoles de plus de 40 ans	Neue Betriebsleiter älter als 40 Jahre	M			
+NEW_FLF_LE40	New farm managers younger or equal 40 years old	Nouveaux chefs d'exploitations agricoles âgés de moins de 40 ans ou égales	Neue Betriebsleiter jünger oder gleich 40 Jahre alt	M			
+NEMP	Not employed persons	Personnes non occupées	Nicht erwerbstätige Personen	Y			
+UEMP_PT	Underemployed persons working part-time	Personnes sous-employées travaillant à temps partiel	Teilzeitbeschäftigte Unterbeschäftigte	Y			
+UNE	Unemployed persons	Chômeurs	Erwerbslose	Y			
+ACT_UNK	Persons in the labour force - unknown	Population active - inconnu	Erwerbsbevölkerung - unbekannt	Y			
+INAC	Persons outside the labour force	Personnes non comprises dans les forces de travail	Nicht-Erwerbspersonen	Y			
+SLACK	Labour market slack	Capacités excédentaires sur le marché du travail	Unausgeschöpftes Arbeitskräftepotential	Y			
+EDUC	Students	Étudiants	Studenten	Y			
+HOME	Homemakers	Personnes s'occupant du foyer	Hausfrauen und -männer	Y			
+B_AGE_MIN	Persons below the national minimum age for economic activity	Personnes en dessous de l'âge minimum national pour l'activité économique	Personen unter dem nationalen Mindestalter für eine Erwerbstätigkeit	Y			
+INC	Retired persons and capital income recipients	Retraités et rentiers	Rentner und Empfänger von Kapitalerträgen	Y			
+RET	Retired persons	Retraités	Rentner	Y			
+INAC_OTH	Other persons outside the labour force	Autres personnes inactives	Sonstige Nichterwerbspersonen	Y			
+INAC_UNK	Persons outside the labour force - unknown	Personnes inactives - inconnu	Nichterwerbspersonen - unbekannt	Y			
+COWN	Co-owner	Copropriétaire	Miteigentümer	Y			
+CLIENT	Clients	Clients	Kunden	M			
+SCTR	Subcontractors	Sous-traitants	Subunternehmer	Y			
+NONE	None	Aucun	Kein	Y			
+NCHG	No change	Aucun changement	Keine Änderung	M			
+WANT	Persons would like to work (seeking employment or not)	Personnes souhaitant travailler (cherchant ou non un emploi)	Personen, die arbeiten möchten (suchen Arbeit oder nicht)	M			
+NWANT	Persons do not want to work	Personnes ne voulant pas travailler	Personen, die nicht arbeiten möchten	M			
+WANTW	Persons want to work but not seeking or available	Personnes souhaitant travailler qui ne sont pas disponibles pour travailler et qui ne recherchent pas un emploi	Personen, die arbeiten möchten aber weder suchen noch verfügbar sind	M			
+SEEK_NAVL	Persons seeking work but not immediately available	Personnes recherchant un emploi mais temporairement indisponibles	Personen, die eine Arbeit suchen, aber kurzfristig nicht verfügbar sind	Y			
+NSEEK_AVL	Persons available to work but not seeking	Personnes disponibles pour travailler mais ne recherchant pas un emploi	Personen, die für eine Arbeit verfügbar sind, aber nicht suchen	Y			
+PRACT	Practising	Exerçant leur profession	Praktizierend	M			
+PACT	Professionally active	Professionnellement actifs	Fachlich aktiv	M			
+LIC	Licensed to practice	Habilité à exercer	Approbiert	M			
+STOP_WRK	Stopped working	A cessé de travailler	Erwerbstätigkeit eingestellt	M			
+STOP_WRK_NRENT	Stopped working and did not re-enter the labour market	A cessé de travailler et n'a pas réintégré le marché du travail	Erwerbstätigkeit eingestellt und kein Wiedereintritt in den Arbeitsmarkt	M			
+CN_WRK_RENT	Continued working or re-entered the labour market	A continué de travailler ou a réintégré le marché du travail	Weitergearbeitet oder Wiedereintritt in den Arbeitsmarkt	M			
+CN_WRK_NCHG	Continued working without changes	A continué de travailler de manière inchangée	Unverändert weitergearbeitet	M			
+CN_WRK_WCHG	Continued working with changes	A continué de travailler avec des changements	Mit Veränderungen weitergearbeitet	M			
+WRK	Working	Travaille	Arbeitend	Y			
+WRK_FT	Working full-time	Travaille à temps plein	Vollzeit arbeitend	M			
+GE1_WRK_PT_OTH_FT	At least one adult working part-time, all others full-time	Au moins un adulte travaille à temps partiel, tous les autres à temps plein	Mindestens ein Teilzeit arbeitender Erwachsener, alle anderen Erwachsene arbeiten Vollzeit	M			
+GE1_WRK_A1_NWRK	At least one adult working and one not	Au moins un adulte travaille et un pas	Mindestens ein arbeitender Erwachsener und ein nicht arbeitender Erwachsener	M			
+NWRK	Not working (for any reason)	Ne travaillait pas (pour quelque raison que ce soit)	Nicht gearbeitet (aus jeglichem Grund)	Y			
+NWRK_X_EDUC	Not working (excluding households composed solely of students)	Ne travaille pas (à l'exclusion des ménages composés uniquement d'étudiants)	Nicht arbeitend (ohne Haushalte, die nur aus Studenten bestehen)	M			
+NWRK_X_EDUC_INAC_GE65	Not working (excluding households composed solely of students or solely persons outside the labour force aged 65 or over)	Ne travaille pas (à l'exclusion des ménages composés uniquement d'étudiants ou uniquement de personnes non comprises dans les forces de travail âgées de 65 ans et plus)	Nicht arbeitend (ohne Haushalte, die nur aus Studenten bestehen oder aus Nichterwerbstätigen 65 Jahre oder älter)	M			
+OTH	Others	Autres	Sonstige	Y			
+NAP	Not applicable	Non applicable	Nicht anwendbar	Y			
+NRP	No response	Sans réponse	Ohne Antwort	Y			
+UNK	Unknown	Inconnu	Unbekannt	Y			
+HHW_10	All adults working	Tous les adultes travaillent	Alle Erwachsenen arbeitend	O			
+HHW_11	All adults working full time	Tous les adultes travaillent à plein temps	Alle Erwachsenen in Vollzeit arbeitend	O			
+HHW_12	At least one adult working part time, all other adults (if any) working full time	Au moins un adulte travaille à temps partiel, tous les autres adultes (s'il y en a) travaillent à plein temps	Mindestens ein Teilzeit arbeitender Erwachsener, alle anderen Erwachsene (soweit vorhanden) arbeiten Vollzeit	O			
+HHW_20	At least one adult working and one adult not working	Au moins un adulte travaille et un adulte ne travaille pas	Mindestens ein arbeitender Erwachsener und ein nicht arbeitender Erwachsener	O			
+HHW_30	All adults not working (all households)	Aucun des adultes ne travaille (tous les ménages)	Alle Erwachsenen arbeiten nicht (alle Haushalte)	O			
+HHW_31	All adults not working (excluding households composed solely of students)	Aucun des adultes ne travaille (à l'exclusion des ménages composés uniquement d'étudiants)	Alle Erwachsenen arbeiten nicht (ohne Haushalte, die nur aus Studenten bestehen)	O			
+HHW_32	All adults not working (excluding households composed solely of students or solely inactive aged 65 and over)	Aucun des adultes ne travaille (à l'exclusion des ménages composés uniquement d'étudiants ou uniquement d'inactifs âgés de 65 ans et plus)	Alle Erwachsenen arbeiten nicht (ohne Haushalte, die nur aus Studenten bestehen oder aus Nichterwerbstätigen 65 Jahre oder älter)	O			
+NRESP	No response	Sans réponse	Keine Antwort	O			
