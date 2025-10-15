@@ -1,0 +1,37 @@
+{
+  "chart": {
+    "title": "Education spending as share of total government spending",
+    "subtitle": "Total [general government](#dod:general-government) expenditure on education as a percentage of total government expenditure on all sectors.",
+    "citation": "UIS.Stat Bulk Data Download Service (UNESCO UIS), via World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/share-of-education-in-government-expenditure?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Netherlands",
+      "United States",
+      "United Kingdom",
+      "China",
+      "India",
+      "Japan",
+      "Mexico",
+      "South Africa"
+    ]
+  },
+  "columns": {
+    "Government expenditure on education, total (% of government expenditure)": {
+      "titleShort": "Government expenditure on education, total (% of government expenditure)",
+      "titleLong": "Government expenditure on education, total (% of government expenditure)",
+      "shortUnit": "%",
+      "unit": "% of government expenditure",
+      "timespan": "1972-2023",
+      "type": "Numeric",
+      "owidVariableId": 1107274,
+      "shortName": "se_xpd_totl_gb_zs",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "UIS.Stat Bulk Data Download Service (UNESCO UIS), via World Bank (2025) – processed by Our World in Data",
+      "citationLong": "UIS.Stat Bulk Data Download Service (UNESCO UIS), via World Bank (2025) – processed by Our World in Data. “Government expenditure on education, total (% of government expenditure)” [dataset]. UIS.Stat Bulk Data Download Service (UNESCO UIS), via World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1107274.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-10-15",
+  "activeFilters": {}
+}
