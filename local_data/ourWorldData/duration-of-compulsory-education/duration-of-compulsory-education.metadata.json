@@ -1,0 +1,50 @@
+{
+  "chart": {
+    "title": "Duration of compulsory education",
+    "subtitle": "The number of years that children are legally obligated to attend school.",
+    "citation": "UNESCO Institute for Statistics (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/duration-of-compulsory-education?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Gambia",
+      "Suriname",
+      "Norway",
+      "Panama",
+      "Angola",
+      "Aruba",
+      "Mexico",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  "columns": {
+    "Duration of compulsory education": {
+      "titleShort": "Duration of compulsory education",
+      "titleLong": "Duration of compulsory education",
+      "descriptionShort": "The number of years of compulsory education is based on students starting at the earliest entrance age, studying full-time, and advancing without grade repetition or skipping.",
+      "descriptionKey": [
+        "The theoretical duration of compulsory education refers to the number of years that children are legally required to attend school, as defined by national laws or regulations.",
+        "This indicator helps determine the school-age population by level of education and is a key input for producing education indicators and assessing a country's education supply capacity in relation to demand.",
+        "The duration is typically calculated based on the official starting and ending ages for compulsory education, assuming students progress through the system without repeating or skipping grades.",
+        "For example, if compulsory education starts at age 6 and ends at age 15, the theoretical duration would be 9 years.",
+        "Data on compulsory education duration are collected from national legislation and formal education standards, and are mapped to the [International Standard Classification of Education (ISCED)](https://uis.unesco.org/en/topic/international-standard-classification-education-isced) to ensure international comparability.",
+        "It's important to note that while legislation may define the duration of compulsory education, actual implementation and enforcement can vary, and some children may not attend school for the full duration.",
+        "Changes in national education policies, such as extending or reducing the years of compulsory education, can impact this indicator and should be considered when analyzing trends over time.",
+        "This indicator is useful for understanding government commitment to education and for planning resource allocation, but it should be interpreted alongside other indicators like enrolment rates and completion rates for a comprehensive view.",
+        "Limitations include potential discrepancies between legal provisions and actual practice, and differences in how countries define and implement compulsory education."
+      ],
+      "shortUnit": " ",
+      "unit": "years",
+      "timespan": "1975-2024",
+      "type": "Integer",
+      "owidVariableId": 1028618,
+      "shortName": "duration_of_compulsory_education__years",
+      "lastUpdated": "2025-05-01",
+      "nextUpdate": "2026-05-01",
+      "citationShort": "UNESCO Institute for Statistics (2025) – with minor processing by Our World in Data",
+      "citationLong": "UNESCO Institute for Statistics (2025) – with minor processing by Our World in Data. “Duration of compulsory education” [dataset]. UNESCO Institute for Statistics, “UNESCO Institute for Statistics (UIS) - Education” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1028618.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-10-22",
+  "activeFilters": {}
+}

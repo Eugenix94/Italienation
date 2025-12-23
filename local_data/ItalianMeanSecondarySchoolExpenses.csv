@@ -1,0 +1,9 @@
+# This CSV shows the estimated mean annual spending per student in Italian secondary schools (scuola media and scuola superiore). It includes both textbook costs (based on ministerial ceilings) and other school materials (backpacks, notebooks, technical drawing kits, dictionaries, etc.). Values are approximate averages in euros (€).
+School Level,Textbooks (€),Other Materials (€),Total Mean Annual Spending (€)
+Scuola media (lower secondary),300-350,500-850,800-1200
+Liceo classico,600-700,400-600,1000-1300
+Liceo scientifico,500-650,400-600,900-1200
+Liceo linguistico,500-650,400-600,900-1200
+Istituto tecnico,400-550,400-550,800-1100
+Istituto professionale,350-450,350-500,700-950
+Overall mean across all secondary schools,≈330-350,≈500-600,≈1000
