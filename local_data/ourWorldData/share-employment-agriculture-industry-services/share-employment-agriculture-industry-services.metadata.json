@@ -1,0 +1,95 @@
+{
+  "chart": {
+    "title": "Share of employment in agriculture, industry, and services",
+    "subtitle": "Distribution of total employment between the agriculture, industry, and services sectors. This includes employment in the informal economy.",
+    "note": "All figures correspond to [modeled ILO estimates](#dod:ilo-modelled-estimates).",
+    "citation": "ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/share-employment-agriculture-industry-services?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "Germany",
+      "United States",
+      "Australia",
+      "Japan",
+      "Colombia",
+      "Egypt",
+      "China",
+      "Peru",
+      "Indonesia",
+      "Kenya",
+      "Vietnam",
+      "India",
+      "Ethiopia"
+    ]
+  },
+  "columns": {
+    "Employment in agriculture (% of total employment) (modeled ILO estimate)": {
+      "titleShort": "Agriculture",
+      "titleLong": "Agriculture",
+      "descriptionShort": "Share of total employment working in the agriculture sector.",
+      "descriptionKey": [
+        "Employment refers to all persons of working age who, during a specified brief period, were in paid employment or self-employment.",
+        "The agriculture sector includes crop and animal production, hunting, forestry, logging, and fishing and aquaculture activities, as defined by the [International Standard Industrial Classification of All Economic Activities (ISIC)](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-economic-activities/) (category A in ISIC revision 4).",
+        "This data is part of the ILO Modelled Estimates series. This series combines nationally reported observations with imputed data to have a harmonized, internationally comparable dataset and produce regional and global aggregates. For more information, please refer to the [ILO Modelled Estimates documentation](https://ilostat.ilo.org/methods/concepts-and-definitions/ilo-modelled-estimates/).",
+        "This data is classified according to the 13th International Classification of Labour Statistics (ICLS), where employment includes anyone engaged for at least one hour per day in the production of goods and services, even for own use by the household or family, volunteering, or other forms of unpaid work. For more information, please refer to [this explainer by the International Labour Organization](https://www.ilo.org/publications/quick-guide-understanding-impact-new-statistical-standards-ilostat)."
+      ],
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1991-2023",
+      "type": "Numeric",
+      "owidVariableId": 1107476,
+      "shortName": "sl_agr_empl_zs",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank (2025) – processed by Our World in Data",
+      "citationLong": "ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank (2025) – processed by Our World in Data. “Agriculture – ILO” [dataset]. ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1107476.metadata.json"
+    },
+    "Employment in industry (% of total employment) (modeled ILO estimate)": {
+      "titleShort": "Industry",
+      "titleLong": "Industry",
+      "descriptionShort": "Share of total employment working in the industry sector.",
+      "descriptionKey": [
+        "Employment refers to all persons of working age who, during a specified brief period, were in paid employment or self-employment.",
+        "The industry sector includes mining and quarrying, manufacturing, electricity, gas, steam and air conditioning supply, water supply, and construction activities, as defined by the [International Standard Industrial Classification of All Economic Activities (ISIC)](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-economic-activities/) (categories B to F in ISIC revision 4).",
+        "This data is part of the ILO Modelled Estimates series. This series combines nationally reported observations with imputed data to have a harmonized, internationally comparable dataset and produce regional and global aggregates. For more information, please refer to the [ILO Modelled Estimates documentation](https://ilostat.ilo.org/methods/concepts-and-definitions/ilo-modelled-estimates/).",
+        "This data is classified according to the 13th International Classification of Labour Statistics (ICLS), where employment includes anyone engaged for at least one hour per day in the production of goods and services, even for own use by the household or family, volunteering, or other forms of unpaid work. For more information, please refer to [this explainer by the International Labour Organization](https://www.ilo.org/publications/quick-guide-understanding-impact-new-statistical-standards-ilostat)."
+      ],
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1991-2023",
+      "type": "Numeric",
+      "owidVariableId": 1107514,
+      "shortName": "sl_ind_empl_zs",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank (2025) – processed by Our World in Data",
+      "citationLong": "ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank (2025) – processed by Our World in Data. “Industry – ILO” [dataset]. ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1107514.metadata.json"
+    },
+    "Employment in services (% of total employment) (modeled ILO estimate)": {
+      "titleShort": "Services",
+      "titleLong": "Services",
+      "descriptionShort": "Share of total employment working in the services sector.",
+      "descriptionKey": [
+        "Employment refers to all persons of working age who, during a specified brief period, were in paid employment or self-employment.",
+        "The services sector includes market services (trade, transportation, accommodation and food, and business and administrative services), and non-market services (public administration, community, social, and other services and activities) as defined by the [International Standard Industrial Classification of All Economic Activities (ISIC)](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-economic-activities/) (categories G to U in ISIC revision 4).",
+        "This data is part of the ILO Modelled Estimates series. This series combines nationally reported observations with imputed data to have a harmonized, internationally comparable dataset and produce regional and global aggregates. For more information, please refer to the [ILO Modelled Estimates documentation](https://ilostat.ilo.org/methods/concepts-and-definitions/ilo-modelled-estimates/).",
+        "This data is classified according to the 13th International Classification of Labour Statistics (ICLS), where employment includes anyone engaged for at least one hour per day in the production of goods and services, even for own use by the household or family, volunteering, or other forms of unpaid work. For more information, please refer to [this explainer by the International Labour Organization](https://www.ilo.org/publications/quick-guide-understanding-impact-new-statistical-standards-ilostat)."
+      ],
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1991-2023",
+      "type": "Numeric",
+      "owidVariableId": 1107524,
+      "shortName": "sl_srv_empl_zs",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank (2025) – processed by Our World in Data",
+      "citationLong": "ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank (2025) – processed by Our World in Data. “Services – ILO” [dataset]. ILO Modelled Estimates Database (ILOEST), ILOSTAT, via World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1107524.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-10-22",
+  "activeFilters": {}
+}

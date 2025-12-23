@@ -1,0 +1,17 @@
+# This CSV lists the official cover prices (including VAT) of primary school textbooks in Italy for the 2025/2026 school year, as set by Ministerial Decree n. 73/2025. Each row shows the grade (classe), the type of book, and its price. The final row gives the total expense across all grades.
+Classe,Libro,Prezzo (€)
+1,Sussidiario dei linguaggi,13.34
+2,Sussidiario delle discipline,18.69
+2,Religione,4.02
+2,Lingua straniera,8.19
+3,Sussidiario delle discipline,26.71
+3,Religione,6.03
+4,Sussidiario delle discipline,17.28
+4,Religione,8.06
+4,Lingua straniera,21.46
+5,Sussidiario delle discipline,20.96
+5,Religione,8.06
+5,Lingua straniera,8.19
+5,Altro libro,10.08
+5,Altro libro,25.00
+TOTAL,Totale spesa primaria,187.07

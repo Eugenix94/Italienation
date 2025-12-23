@@ -1,0 +1,43 @@
+{
+  "chart": {
+    "title": "Completion rate of upper secondary education",
+    "citation": "UNESCO Institute for Statistics (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/completion-rate-of-upper-secondary-education-sdg?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "Brazil",
+      "South Africa",
+      "India",
+      "China",
+      "United States",
+      "Germany"
+    ]
+  },
+  "columns": {
+    "Completion rate in upper secondary education": {
+      "titleShort": "Completion rate in upper secondary education",
+      "titleLong": "Completion rate in upper secondary education",
+      "descriptionShort": "The share of children who are three to five years older than the official age for the last grade of [upper secondary education](#dod:upper-secondary-education) education who have successfully completed it. This broader age band is used to include children who started school late or had to resit particular years.",
+      "descriptionKey": [
+        "This indicator estimates the share of children who complete a given level of education, even if they do so later than the expected age.",
+        "For example, if the official age of completion for primary school is 11 years old, a child who completes it at 14 years old would still be included. This is to account for the fact that some children may start school late, or have to repeat years.",
+        "The data sources include household surveys, censuses, and administrative records, with modelled adjustments to improve comparability across countries.",
+        "These estimates are produced using a statistical model that draws on these sources, filling gaps where direct observations are missing or inconsistent.",
+        "Because values are estimated, they may differ from official national figures. Differences in school systems or grade structures can also affect comparability."
+      ],
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1990-2024",
+      "type": "Numeric",
+      "owidVariableId": 1028916,
+      "shortName": "completion_rate__upper_secondary_education__both_sexes__pct__modelled_data__cr_mod_3",
+      "lastUpdated": "2025-05-01",
+      "nextUpdate": "2026-05-01",
+      "citationShort": "UNESCO Institute for Statistics (2025) – with minor processing by Our World in Data",
+      "citationLong": "UNESCO Institute for Statistics (2025) – with minor processing by Our World in Data. “Completion rate in upper secondary education” [dataset]. UNESCO Institute for Statistics, “UNESCO Institute for Statistics (UIS) - Education” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1028916.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-10-22",
+  "activeFilters": {}
+}
