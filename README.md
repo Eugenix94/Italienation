@@ -10,7 +10,7 @@ Data
 - Location: data/ (raw/ contains original files; processed/ contains analysis-ready files).
 - Formats: CSV, parquet, or similar — can be opened in Excel/LibreOffice, R/Stata, Tableau, or any BI tool.
 - NEET definition used: individuals in the chosen age range (e.g., 15–29) who are not in education, employment, or training. See data/codebooks for exact variable logic.
-- Provenance & access: data/external_sources.md lists original sources (ISTAT, Eurostat, etc.), download dates and license notes. Do not expect restricted microdata to be bundled.
+- Provenance & access: [external_sources.md](external_sources.md) lists original sources (ISTAT, Eurostat, OECD, World Bank, Our World in Data, UK ONS, etc.) with direct links, dataset identifiers, and license notes. Do not expect restricted microdata to be bundled.
 
 Quick start (no Python required)
 1. Inspect data:
