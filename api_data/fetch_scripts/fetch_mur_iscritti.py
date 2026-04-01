@@ -2,11 +2,30 @@ import os
 import requests
 import pandas as pd
 
-OUT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "local_data", "MUR_iscritti"))
+OUT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "local_data", "MUR", "MUR_iscritti"))
 os.makedirs(OUT, exist_ok=True)
 
-# Academic years to keep
-YEARS = ["2023/24", "2024/25"]
+# Academic years to keep (support both short and full string forms)
+YEARS = {"2023/24", "2024/25", "2023/2024", "2024/2025"}
+
+
+def normalize_academic_year(value):
+    if pd.isna(value):
+        return None
+    s = str(value).strip()
+    s = s.replace('-', '/').replace('–', '/').replace('—', '/')
+    # support year forms with 2-digit and 4-digit second part
+    if s in YEARS:
+        return s
+    if "/" in s:
+        parts = s.split("/")
+        if len(parts) == 2 and len(parts[1]) == 4 and parts[1].startswith(parts[0][:2]):
+            short = f"{parts[0]}/{parts[1][2:]}"
+            if short in YEARS:
+                return short
+        if len(parts) == 2 and len(parts[0]) == 4 and len(parts[1]) == 4:
+            return s
+    return s
 
 # Resources from dati-ustat.mur.gov.it (Iscritti dataset)
 RESOURCES = {
@@ -66,9 +85,10 @@ def filter_by_years(path):
     year_cols = [c for c in df.columns if c.lower() in ["annoa", "anno_accademico", "anno", "anno_accademico_descrizione"]]
     if year_cols:
         col = year_cols[0]
-        df = df[df[col].astype(str).isin(YEARS)]
+        df[col] = df[col].apply(normalize_academic_year)
+        df = df[df[col].isin(YEARS)]
 
-    df.to_csv(path, index=False, encoding="utf-8")
+    df.to_csv(path, index=False, encoding="utf-8", sep=';')
 
 
 def main():
