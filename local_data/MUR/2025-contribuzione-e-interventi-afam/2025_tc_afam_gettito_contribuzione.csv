@@ -1,0 +1,991 @@
+ANNO_ACCADEMICO;COD_ISTITUTO;TIPO_ISTITUTO;NOME_ISTITUTO;COMUNE_SEDE;CODICE_GETTITO;DESCRIZIONE_GETTITO;IMPORTO_CORSI_PREACCADEMICI;IMPORTO_CORSI_SUP_VO;IMPORTO_CORSI_ACCADEMICI_NO;IMPORTO_CORSI_ACCADEMICI_NO_POST
+2024-2025;001101001272;Accademie delle Belle Arti;ALBERTINA;TORINO;01a;Tasse e contributi per iscrizione e frequenza;0;1308;1303176;1308
+2024-2025;001101001272;Accademie delle Belle Arti;ALBERTINA;TORINO;02a;Tasse per esami di ammissione ed esami finali;0;0;29886;0
+2024-2025;001101001272;Accademie delle Belle Arti;ALBERTINA;TORINO;03a;Tassa regionale per il DSU versata all'Istituto;0;1540;170520;1540
+2024-2025;001101001272;Accademie delle Belle Arti;ALBERTINA;TORINO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;001101001272;Accademie delle Belle Arti;ALBERTINA;TORINO;04 ;Diritti di segreteria;0;0;26610;0
+2024-2025;001101001272;Accademie delle Belle Arti;ALBERTINA;TORINO;05 ;Altro da studenti non costituenti gettito;0;0;144;0
+2024-2025;010102010025;Accademie delle Belle Arti;Ligustica;GENOVA;01a;Tasse e contributi per iscrizione e frequenza;0;24700;606922,6;0
+2024-2025;010102010025;Accademie delle Belle Arti;Ligustica;GENOVA;02a;Tasse per esami di ammissione ed esami finali;0;0;13626;0
+2024-2025;010102010025;Accademie delle Belle Arti;Ligustica;GENOVA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;010102010025;Accademie delle Belle Arti;Ligustica;GENOVA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;70808,7;0
+2024-2025;010102010025;Accademie delle Belle Arti;Ligustica;GENOVA;04 ;Diritti di segreteria;0;0;21340;0
+2024-2025;010102010025;Accademie delle Belle Arti;Ligustica;GENOVA;05 ;Altro da studenti non costituenti gettito;0;864;3312;0
+2024-2025;015101015146;Accademie delle Belle Arti;BRERA;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;5932,23;7076253,72;5932,23
+2024-2025;015101015146;Accademie delle Belle Arti;BRERA;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;953,19;27581,99;953,19
+2024-2025;015101015146;Accademie delle Belle Arti;BRERA;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;1716;611208;1716
+2024-2025;015101015146;Accademie delle Belle Arti;BRERA;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015101015146;Accademie delle Belle Arti;BRERA;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015101015146;Accademie delle Belle Arti;BRERA;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;016102016024;Accademie delle Belle Arti;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO (area artistica);BERGAMO;01a;Tasse e contributi per iscrizione e frequenza;0;0;287485,84;0
+2024-2025;016102016024;Accademie delle Belle Arti;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO (area artistica);BERGAMO;02a;Tasse per esami di ammissione ed esami finali;0;0;5450;0
+2024-2025;016102016024;Accademie delle Belle Arti;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO (area artistica);BERGAMO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;40180;0
+2024-2025;016102016024;Accademie delle Belle Arti;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO (area artistica);BERGAMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;016102016024;Accademie delle Belle Arti;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO (area artistica);BERGAMO;04 ;Diritti di segreteria;0;0;12000;0
+2024-2025;016102016024;Accademie delle Belle Arti;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO (area artistica);BERGAMO;05 ;Altro da studenti non costituenti gettito;0;0;4512;0
+2024-2025;023102023091;Accademie delle Belle Arti;;VERONA;01a;Tasse e contributi per iscrizione e frequenza;0;0;950942;0
+2024-2025;023102023091;Accademie delle Belle Arti;;VERONA;02a;Tasse per esami di ammissione ed esami finali;0;0;20138;0
+2024-2025;023102023091;Accademie delle Belle Arti;;VERONA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;023102023091;Accademie delle Belle Arti;;VERONA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;023102023091;Accademie delle Belle Arti;;VERONA;04 ;Diritti di segreteria;0;0;3510;0
+2024-2025;023102023091;Accademie delle Belle Arti;;VERONA;05 ;Altro da studenti non costituenti gettito;0;0;23245,5;0
+2024-2025;027101027042;Accademie delle Belle Arti;;VENEZIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;1995944,5;0
+2024-2025;027101027042;Accademie delle Belle Arti;;VENEZIA;02a;Tasse per esami di ammissione ed esami finali;0;0;8049,16;0
+2024-2025;027101027042;Accademie delle Belle Arti;;VENEZIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;027101027042;Accademie delle Belle Arti;;VENEZIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;318618;0
+2024-2025;027101027042;Accademie delle Belle Arti;;VENEZIA;04 ;Diritti di segreteria;0;0;66950;0
+2024-2025;027101027042;Accademie delle Belle Arti;;VENEZIA;05 ;Altro da studenti non costituenti gettito;0;0;44696,9;0
+2024-2025;037101037006;Accademie delle Belle Arti;;BOLOGNA;01a;Tasse e contributi per iscrizione e frequenza;0;253770,96;2267032,9;253770,96
+2024-2025;037101037006;Accademie delle Belle Arti;;BOLOGNA;02a;Tasse per esami di ammissione ed esami finali;0;2664,94;110740,06;2664,94
+2024-2025;037101037006;Accademie delle Belle Arti;;BOLOGNA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;037101037006;Accademie delle Belle Arti;;BOLOGNA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;11900;301280;11900
+2024-2025;037101037006;Accademie delle Belle Arti;;BOLOGNA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;037101037006;Accademie delle Belle Arti;;BOLOGNA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;039103039014;Accademie delle Belle Arti;;RAVENNA;01a;Tasse e contributi per iscrizione e frequenza;0;0;94106;0
+2024-2025;039103039014;Accademie delle Belle Arti;;RAVENNA;02a;Tasse per esami di ammissione ed esami finali;0;0;2250;0
+2024-2025;039103039014;Accademie delle Belle Arti;;RAVENNA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;039103039014;Accademie delle Belle Arti;;RAVENNA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;22400;0
+2024-2025;039103039014;Accademie delle Belle Arti;;RAVENNA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;039103039014;Accademie delle Belle Arti;;RAVENNA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;041101041067;Accademie delle Belle Arti;;URBINO (PU);01a;Tasse e contributi per iscrizione e frequenza;0;0;332076,67;0
+2024-2025;041101041067;Accademie delle Belle Arti;;URBINO (PU);02a;Tasse per esami di ammissione ed esami finali;0;0;11967;0
+2024-2025;041101041067;Accademie delle Belle Arti;;URBINO (PU);03a;Tassa regionale per il DSU versata all'Istituto;0;0;44800,5;0
+2024-2025;041101041067;Accademie delle Belle Arti;;URBINO (PU);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;041101041067;Accademie delle Belle Arti;;URBINO (PU);04 ;Diritti di segreteria;0;0;11420;0
+2024-2025;041101041067;Accademie delle Belle Arti;;URBINO (PU);05 ;Altro da studenti non costituenti gettito;0;0;2160;0
+2024-2025;043101043023;Accademie delle Belle Arti;;MACERATA;01a;Tasse e contributi per iscrizione e frequenza;0;0;875366,5;0
+2024-2025;043101043023;Accademie delle Belle Arti;;MACERATA;02a;Tasse per esami di ammissione ed esami finali;0;0;9240;0
+2024-2025;043101043023;Accademie delle Belle Arti;;MACERATA;03a;Tassa regionale per il DSU versata all'Istituto;0;2940;140560;2940
+2024-2025;043101043023;Accademie delle Belle Arti;;MACERATA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;043101043023;Accademie delle Belle Arti;;MACERATA;04 ;Diritti di segreteria;0;0;21878,45;0
+2024-2025;043101043023;Accademie delle Belle Arti;;MACERATA;05 ;Altro da studenti non costituenti gettito;0;336;19184;336
+2024-2025;045101045003;Accademie delle Belle Arti;;CARRARA;01a;Tasse e contributi per iscrizione e frequenza;0;0;1241551,13;0
+2024-2025;045101045003;Accademie delle Belle Arti;;CARRARA;02a;Tasse per esami di ammissione ed esami finali;0;0;23373,22;0
+2024-2025;045101045003;Accademie delle Belle Arti;;CARRARA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;045101045003;Accademie delle Belle Arti;;CARRARA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;130480;0
+2024-2025;045101045003;Accademie delle Belle Arti;;CARRARA;04 ;Diritti di segreteria;0;0;7525;0
+2024-2025;045101045003;Accademie delle Belle Arti;;CARRARA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;048101048017;Accademie delle Belle Arti;;FIRENZE;01a;Tasse e contributi per iscrizione e frequenza;0;0;2185264;0
+2024-2025;048101048017;Accademie delle Belle Arti;;FIRENZE;02a;Tasse per esami di ammissione ed esami finali;0;0;77100;0
+2024-2025;048101048017;Accademie delle Belle Arti;;FIRENZE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;048101048017;Accademie delle Belle Arti;;FIRENZE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;196560;0
+2024-2025;048101048017;Accademie delle Belle Arti;;FIRENZE;04 ;Diritti di segreteria;0;0;31162,81;0
+2024-2025;048101048017;Accademie delle Belle Arti;;FIRENZE;05 ;Altro da studenti non costituenti gettito;0;0;7072;0
+2024-2025;054102054039;Accademie delle Belle Arti;Pietro Vannucci;PERUGIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;654938,15;0
+2024-2025;054102054039;Accademie delle Belle Arti;Pietro Vannucci;PERUGIA;02a;Tasse per esami di ammissione ed esami finali;0;0;22093,15;0
+2024-2025;054102054039;Accademie delle Belle Arti;Pietro Vannucci;PERUGIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;054102054039;Accademie delle Belle Arti;Pietro Vannucci;PERUGIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;89610,7;0
+2024-2025;054102054039;Accademie delle Belle Arti;Pietro Vannucci;PERUGIA;04 ;Diritti di segreteria;0;0;3500;0
+2024-2025;054102054039;Accademie delle Belle Arti;Pietro Vannucci;PERUGIA;05 ;Altro da studenti non costituenti gettito;0;0;14864;0
+2024-2025;058101058091;Accademie delle Belle Arti;;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;3521722;0
+2024-2025;058101058091;Accademie delle Belle Arti;;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;105485;0
+2024-2025;058101058091;Accademie delle Belle Arti;;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058101058091;Accademie delle Belle Arti;;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;058101058091;Accademie delle Belle Arti;;ROMA;04 ;Diritti di segreteria;0;0;41269;0
+2024-2025;058101058091;Accademie delle Belle Arti;;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;80666;0
+2024-2025;060101060038;Accademie delle Belle Arti;;FROSINONE;01a;Tasse e contributi per iscrizione e frequenza;0;0;394059,38;0
+2024-2025;060101060038;Accademie delle Belle Arti;;FROSINONE;02a;Tasse per esami di ammissione ed esami finali;0;0;7672,1;0
+2024-2025;060101060038;Accademie delle Belle Arti;;FROSINONE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;060101060038;Accademie delle Belle Arti;;FROSINONE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;86520;0
+2024-2025;060101060038;Accademie delle Belle Arti;;FROSINONE;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;060101060038;Accademie delle Belle Arti;;FROSINONE;05 ;Altro da studenti non costituenti gettito;0;0;7860;0
+2024-2025;063101063049;Accademie delle Belle Arti;;NAPOLI;01a;Tasse e contributi per iscrizione e frequenza;0;0;2156566;0
+2024-2025;063101063049;Accademie delle Belle Arti;;NAPOLI;02a;Tasse per esami di ammissione ed esami finali;0;0;82630;0
+2024-2025;063101063049;Accademie delle Belle Arti;;NAPOLI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;063101063049;Accademie delle Belle Arti;;NAPOLI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;508525;0
+2024-2025;063101063049;Accademie delle Belle Arti;;NAPOLI;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;063101063049;Accademie delle Belle Arti;;NAPOLI;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;066101066049;Accademie delle Belle Arti;;L'AQUILA;01a;Tasse e contributi per iscrizione e frequenza;0;0;418297,2;0
+2024-2025;066101066049;Accademie delle Belle Arti;;L'AQUILA;02a;Tasse per esami di ammissione ed esami finali;0;0;8039,86;0
+2024-2025;066101066049;Accademie delle Belle Arti;;L'AQUILA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;066101066049;Accademie delle Belle Arti;;L'AQUILA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;69580;0
+2024-2025;066101066049;Accademie delle Belle Arti;;L'AQUILA;04 ;Diritti di segreteria;0;0;6720;0
+2024-2025;066101066049;Accademie delle Belle Arti;;L'AQUILA;05 ;Altro da studenti non costituenti gettito;0;0;8048;0
+2024-2025;071101071024;Accademie delle Belle Arti;;FOGGIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;250787,28;0
+2024-2025;071101071024;Accademie delle Belle Arti;;FOGGIA;02a;Tasse per esami di ammissione ed esami finali;0;0;18700;0
+2024-2025;071101071024;Accademie delle Belle Arti;;FOGGIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;071101071024;Accademie delle Belle Arti;;FOGGIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;118424;0
+2024-2025;071101071024;Accademie delle Belle Arti;;FOGGIA;04 ;Diritti di segreteria;0;0;4700;0
+2024-2025;071101071024;Accademie delle Belle Arti;;FOGGIA;05 ;Altro da studenti non costituenti gettito;0;0;17424;0
+2024-2025;072101072006;Accademie delle Belle Arti;;BARI;01a;Tasse e contributi per iscrizione e frequenza;0;100;565280;100
+2024-2025;072101072006;Accademie delle Belle Arti;;BARI;02a;Tasse per esami di ammissione ed esami finali;0;0;24203;0
+2024-2025;072101072006;Accademie delle Belle Arti;;BARI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;072101072006;Accademie delle Belle Arti;;BARI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;952;180788;952
+2024-2025;072101072006;Accademie delle Belle Arti;;BARI;04 ;Diritti di segreteria;0;0;3250;0
+2024-2025;072101072006;Accademie delle Belle Arti;;BARI;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;075101075035;Accademie delle Belle Arti;;LECCE;01a;Tasse e contributi per iscrizione e frequenza;0;0;289897,12;0
+2024-2025;075101075035;Accademie delle Belle Arti;;LECCE;02a;Tasse per esami di ammissione ed esami finali;0;0;3810;0
+2024-2025;075101075035;Accademie delle Belle Arti;;LECCE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;075101075035;Accademie delle Belle Arti;;LECCE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;101749;0
+2024-2025;075101075035;Accademie delle Belle Arti;;LECCE;04 ;Diritti di segreteria;0;0;9400;0
+2024-2025;075101075035;Accademie delle Belle Arti;;LECCE;05 ;Altro da studenti non costituenti gettito;0;0;12965,33;0
+2024-2025;079101079023;Accademie delle Belle Arti;;CATANZARO;01a;Tasse e contributi per iscrizione e frequenza;0;0;89541;0
+2024-2025;079101079023;Accademie delle Belle Arti;;CATANZARO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;079101079023;Accademie delle Belle Arti;;CATANZARO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;079101079023;Accademie delle Belle Arti;;CATANZARO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;402;52530;402
+2024-2025;079101079023;Accademie delle Belle Arti;;CATANZARO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;079101079023;Accademie delle Belle Arti;;CATANZARO;05 ;Altro da studenti non costituenti gettito;0;0;4784;0
+2024-2025;080101080063;Accademie delle Belle Arti;;REGGIO CALABRIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;115594,35;0
+2024-2025;080101080063;Accademie delle Belle Arti;;REGGIO CALABRIA;02a;Tasse per esami di ammissione ed esami finali;0;0;1907,64;0
+2024-2025;080101080063;Accademie delle Belle Arti;;REGGIO CALABRIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;080101080063;Accademie delle Belle Arti;;REGGIO CALABRIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;68892,8;0
+2024-2025;080101080063;Accademie delle Belle Arti;;REGGIO CALABRIA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;080101080063;Accademie delle Belle Arti;;REGGIO CALABRIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;082101082053;Accademie delle Belle Arti;;PALERMO;01a;Tasse e contributi per iscrizione e frequenza;0;57320,51;551512,69;57320,51
+2024-2025;082101082053;Accademie delle Belle Arti;;PALERMO;02a;Tasse per esami di ammissione ed esami finali;0;0;4560;0
+2024-2025;082101082053;Accademie delle Belle Arti;;PALERMO;03a;Tassa regionale per il DSU versata all'Istituto;0;5740;201040;5740
+2024-2025;082101082053;Accademie delle Belle Arti;;PALERMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;082101082053;Accademie delle Belle Arti;;PALERMO;04 ;Diritti di segreteria;0;3600;0;3600
+2024-2025;082101082053;Accademie delle Belle Arti;;PALERMO;05 ;Altro da studenti non costituenti gettito;0;656;22976;656
+2024-2025;087101087015;Accademie delle Belle Arti;;CATANIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;792286;0
+2024-2025;087101087015;Accademie delle Belle Arti;;CATANIA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;087101087015;Accademie delle Belle Arti;;CATANIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;299460;0
+2024-2025;087101087015;Accademie delle Belle Arti;;CATANIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;087101087015;Accademie delle Belle Arti;;CATANIA;04 ;Diritti di segreteria;0;0;22100;0
+2024-2025;087101087015;Accademie delle Belle Arti;;CATANIA;05 ;Altro da studenti non costituenti gettito;0;0;34928;0
+2024-2025;090101090064;Accademie delle Belle Arti;Mario Sironi;SASSARI;01a;Tasse e contributi per iscrizione e frequenza;0;0;199570,92;0
+2024-2025;090101090064;Accademie delle Belle Arti;Mario Sironi;SASSARI;02a;Tasse per esami di ammissione ed esami finali;0;0;1200;0
+2024-2025;090101090064;Accademie delle Belle Arti;Mario Sironi;SASSARI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;090101090064;Accademie delle Belle Arti;Mario Sironi;SASSARI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;090101090064;Accademie delle Belle Arti;Mario Sironi;SASSARI;04 ;Diritti di segreteria;0;0;10380;0
+2024-2025;090101090064;Accademie delle Belle Arti;Mario Sironi;SASSARI;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058202058091;Accademia Nazionale di Arte Drammatica;Silvio D'Amico;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;164087,71;162417;164087,71
+2024-2025;058202058091;Accademia Nazionale di Arte Drammatica;Silvio D'Amico;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;1300;92600;1300
+2024-2025;058202058091;Accademia Nazionale di Arte Drammatica;Silvio D'Amico;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058202058091;Accademia Nazionale di Arte Drammatica;Silvio D'Amico;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;700;11200;700
+2024-2025;058202058091;Accademia Nazionale di Arte Drammatica;Silvio D'Amico;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058202058091;Accademia Nazionale di Arte Drammatica;Silvio D'Amico;ROMA;05 ;Altro da studenti non costituenti gettito;0;832;1280;832
+2024-2025;058303058091;Accademia Nazionale di Danza;;ROMA;01a;Tasse e contributi per iscrizione e frequenza;139500;0;255631;0
+2024-2025;058303058091;Accademia Nazionale di Danza;;ROMA;02a;Tasse per esami di ammissione ed esami finali;2540;0;8840,91;0
+2024-2025;058303058091;Accademia Nazionale di Danza;;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058303058091;Accademia Nazionale di Danza;;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;45220;0
+2024-2025;058303058091;Accademia Nazionale di Danza;;ROMA;04 ;Diritti di segreteria;0;0;3581;0
+2024-2025;058303058091;Accademia Nazionale di Danza;;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;001402001272;Conservatori di Musica;Giuseppe Verdi;TORINO;01a;Tasse e contributi per iscrizione e frequenza;137438;0;705184,38;0
+2024-2025;001402001272;Conservatori di Musica;Giuseppe Verdi;TORINO;02a;Tasse per esami di ammissione ed esami finali;2280;0;15070;0
+2024-2025;001402001272;Conservatori di Musica;Giuseppe Verdi;TORINO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;65800;0
+2024-2025;001402001272;Conservatori di Musica;Giuseppe Verdi;TORINO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;001402001272;Conservatori di Musica;Giuseppe Verdi;TORINO;04 ;Diritti di segreteria;2400;0;15780;0
+2024-2025;001402001272;Conservatori di Musica;Giuseppe Verdi;TORINO;05 ;Altro da studenti non costituenti gettito;224;0;13242;0
+2024-2025;003401003106;Conservatori di Musica;Guido Cantelli;NOVARA;01a;Tasse e contributi per iscrizione e frequenza;66928,7;0;407659,4;0
+2024-2025;003401003106;Conservatori di Musica;Guido Cantelli;NOVARA;02a;Tasse per esami di ammissione ed esami finali;8543,49;0;18225,09;0
+2024-2025;003401003106;Conservatori di Musica;Guido Cantelli;NOVARA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;43820;0
+2024-2025;003401003106;Conservatori di Musica;Guido Cantelli;NOVARA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;003401003106;Conservatori di Musica;Guido Cantelli;NOVARA;04 ;Diritti di segreteria;685;0;7145;0
+2024-2025;003401003106;Conservatori di Musica;Guido Cantelli;NOVARA;05 ;Altro da studenti non costituenti gettito;432;0;6751;0
+2024-2025;004401004078;Conservatori di Musica;G.F. Ghedini;CUNEO;01a;Tasse e contributi per iscrizione e frequenza;41390;0;295045,42;0
+2024-2025;004401004078;Conservatori di Musica;G.F. Ghedini;CUNEO;02a;Tasse per esami di ammissione ed esami finali;920;0;1916;0
+2024-2025;004401004078;Conservatori di Musica;G.F. Ghedini;CUNEO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;32760;0
+2024-2025;004401004078;Conservatori di Musica;G.F. Ghedini;CUNEO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;004401004078;Conservatori di Musica;G.F. Ghedini;CUNEO;04 ;Diritti di segreteria;1168;0;3984;0
+2024-2025;004401004078;Conservatori di Musica;G.F. Ghedini;CUNEO;05 ;Altro da studenti non costituenti gettito;1740;0;6870;0
+2024-2025;006401006003;Conservatori di Musica;Antonio Vivaldi;ALESSANDRIA;01a;Tasse e contributi per iscrizione e frequenza;31899,3;0;260892;0
+2024-2025;006401006003;Conservatori di Musica;Antonio Vivaldi;ALESSANDRIA;02a;Tasse per esami di ammissione ed esami finali;4460;2250;18430;0
+2024-2025;006401006003;Conservatori di Musica;Antonio Vivaldi;ALESSANDRIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;006401006003;Conservatori di Musica;Antonio Vivaldi;ALESSANDRIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;35840;0
+2024-2025;006401006003;Conservatori di Musica;Antonio Vivaldi;ALESSANDRIA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;006401006003;Conservatori di Musica;Antonio Vivaldi;ALESSANDRIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;010401010025;Conservatori di Musica;Nicolò Paganini;GENOVA;01a;Tasse e contributi per iscrizione e frequenza;67650,48;0;206269,25;0
+2024-2025;010401010025;Conservatori di Musica;Nicolò Paganini;GENOVA;02a;Tasse per esami di ammissione ed esami finali;4668,64;0;12065,76;0
+2024-2025;010401010025;Conservatori di Musica;Nicolò Paganini;GENOVA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;54036;0
+2024-2025;010401010025;Conservatori di Musica;Nicolò Paganini;GENOVA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;010401010025;Conservatori di Musica;Nicolò Paganini;GENOVA;04 ;Diritti di segreteria;690;0;2101;0
+2024-2025;010401010025;Conservatori di Musica;Nicolò Paganini;GENOVA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;011401011015;Conservatori di Musica;Giacomo Puccini;LA SPEZIA;01a;Tasse e contributi per iscrizione e frequenza;305591;0;220837,5;0
+2024-2025;011401011015;Conservatori di Musica;Giacomo Puccini;LA SPEZIA;02a;Tasse per esami di ammissione ed esami finali;600;0;23892;0
+2024-2025;011401011015;Conservatori di Musica;Giacomo Puccini;LA SPEZIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;011401011015;Conservatori di Musica;Giacomo Puccini;LA SPEZIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;33680;0
+2024-2025;011401011015;Conservatori di Musica;Giacomo Puccini;LA SPEZIA;04 ;Diritti di segreteria;600;0;21150;0
+2024-2025;011401011015;Conservatori di Musica;Giacomo Puccini;LA SPEZIA;05 ;Altro da studenti non costituenti gettito;0;4285,5;0;0
+2024-2025;012401012070;Conservatori di Musica;Giacomo Puccini;GALLARATE (VA);01a;Tasse e contributi per iscrizione e frequenza;80103,71;0;159075,91;0
+2024-2025;012401012070;Conservatori di Musica;Giacomo Puccini;GALLARATE (VA);02a;Tasse per esami di ammissione ed esami finali;6532,88;0;13564,32;0
+2024-2025;012401012070;Conservatori di Musica;Giacomo Puccini;GALLARATE (VA);03a;Tassa regionale per il DSU versata all'Istituto;0;0;16940;0
+2024-2025;012401012070;Conservatori di Musica;Giacomo Puccini;GALLARATE (VA);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;012401012070;Conservatori di Musica;Giacomo Puccini;GALLARATE (VA);04 ;Diritti di segreteria;3500;0;6805,2;0
+2024-2025;012401012070;Conservatori di Musica;Giacomo Puccini;GALLARATE (VA);05 ;Altro da studenti non costituenti gettito;672;0;2576;0
+2024-2025;013401013075;Conservatori di Musica;Giuseppe Verdi;COMO;01a;Tasse e contributi per iscrizione e frequenza;49250;0;687281;0
+2024-2025;013401013075;Conservatori di Musica;Giuseppe Verdi;COMO;02a;Tasse per esami di ammissione ed esami finali;10550;0;23450;0
+2024-2025;013401013075;Conservatori di Musica;Giuseppe Verdi;COMO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;49420;0
+2024-2025;013401013075;Conservatori di Musica;Giuseppe Verdi;COMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;013401013075;Conservatori di Musica;Giuseppe Verdi;COMO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;013401013075;Conservatori di Musica;Giuseppe Verdi;COMO;05 ;Altro da studenti non costituenti gettito;1260;0;3530;0
+2024-2025;015402015146;Conservatori di Musica;Giuseppe Verdi;MILANO;01a;Tasse e contributi per iscrizione e frequenza;237494,16;0;2368278,15;0
+2024-2025;015402015146;Conservatori di Musica;Giuseppe Verdi;MILANO;02a;Tasse per esami di ammissione ed esami finali;12750;1360;81714;1360
+2024-2025;015402015146;Conservatori di Musica;Giuseppe Verdi;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;168280;0
+2024-2025;015402015146;Conservatori di Musica;Giuseppe Verdi;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015402015146;Conservatori di Musica;Giuseppe Verdi;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015402015146;Conservatori di Musica;Giuseppe Verdi;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;016401016024;Conservatori di Musica;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO  (area musicale);BERGAMO;01a;Tasse e contributi per iscrizione e frequenza;84370,2;0;380680,5;0
+2024-2025;016401016024;Conservatori di Musica;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO  (area musicale);BERGAMO;02a;Tasse per esami di ammissione ed esami finali;2400;0;18650;0
+2024-2025;016401016024;Conservatori di Musica;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO  (area musicale);BERGAMO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;36070;0
+2024-2025;016401016024;Conservatori di Musica;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO  (area musicale);BERGAMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;016401016024;Conservatori di Musica;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO  (area musicale);BERGAMO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;016401016024;Conservatori di Musica;Politecnico delle Arti Gaetano Donizetti - Giacomo Carrara di BERGAMO  (area musicale);BERGAMO;05 ;Altro da studenti non costituenti gettito;768;0;4662;0
+2024-2025;017401017065;Conservatori di Musica;Luca Marenzio (sezione staccata);BRESCIA - DARFO BOARIO TERME (BS);01a;Tasse e contributi per iscrizione e frequenza;38882;0;190906;0
+2024-2025;017401017065;Conservatori di Musica;Luca Marenzio (sezione staccata);BRESCIA - DARFO BOARIO TERME (BS);02a;Tasse per esami di ammissione ed esami finali;2128;0;7338;0
+2024-2025;017401017065;Conservatori di Musica;Luca Marenzio (sezione staccata);BRESCIA - DARFO BOARIO TERME (BS);03a;Tassa regionale per il DSU versata all'Istituto;0;0;13020;0
+2024-2025;017401017065;Conservatori di Musica;Luca Marenzio (sezione staccata);BRESCIA - DARFO BOARIO TERME (BS);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;017401017065;Conservatori di Musica;Luca Marenzio (sezione staccata);BRESCIA - DARFO BOARIO TERME (BS);04 ;Diritti di segreteria;0;0;1800;0
+2024-2025;017401017065;Conservatori di Musica;Luca Marenzio (sezione staccata);BRESCIA - DARFO BOARIO TERME (BS);05 ;Altro da studenti non costituenti gettito;128;0;1429;0
+2024-2025;017402017029;Conservatori di Musica;Luca Marenzio;BRESCIA;01a;Tasse e contributi per iscrizione e frequenza;258896,82;0;400801,21;0
+2024-2025;017402017029;Conservatori di Musica;Luca Marenzio;BRESCIA;02a;Tasse per esami di ammissione ed esami finali;4371,36;0;17728,32;0
+2024-2025;017402017029;Conservatori di Musica;Luca Marenzio;BRESCIA;03a;Tassa regionale per il DSU versata all'Istituto;0;840;49420;840
+2024-2025;017402017029;Conservatori di Musica;Luca Marenzio;BRESCIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;017402017029;Conservatori di Musica;Luca Marenzio;BRESCIA;04 ;Diritti di segreteria;1900;0;7200;0
+2024-2025;017402017029;Conservatori di Musica;Luca Marenzio;BRESCIA;05 ;Altro da studenti non costituenti gettito;80;192;5984;192
+2024-2025;018401018110;Conservatori di Musica;Franco Vittadini;PAVIA;01a;Tasse e contributi per iscrizione e frequenza;36040;0;270027,86;0
+2024-2025;018401018110;Conservatori di Musica;Franco Vittadini;PAVIA;02a;Tasse per esami di ammissione ed esami finali;2598;0;8212;0
+2024-2025;018401018110;Conservatori di Musica;Franco Vittadini;PAVIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;24500;0
+2024-2025;018401018110;Conservatori di Musica;Franco Vittadini;PAVIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;018401018110;Conservatori di Musica;Franco Vittadini;PAVIA;04 ;Diritti di segreteria;245;0;1395;0
+2024-2025;018401018110;Conservatori di Musica;Franco Vittadini;PAVIA;05 ;Altro da studenti non costituenti gettito;2704;0;4864;0
+2024-2025;019401019036;Conservatori di Musica;Claudio Monteverdi;CREMONA;01a;Tasse e contributi per iscrizione e frequenza;0;0;111888;0
+2024-2025;019401019036;Conservatori di Musica;Claudio Monteverdi;CREMONA;02a;Tasse per esami di ammissione ed esami finali;0;0;3527,5;0
+2024-2025;019401019036;Conservatori di Musica;Claudio Monteverdi;CREMONA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;13720;0
+2024-2025;019401019036;Conservatori di Musica;Claudio Monteverdi;CREMONA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;019401019036;Conservatori di Musica;Claudio Monteverdi;CREMONA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;019401019036;Conservatori di Musica;Claudio Monteverdi;CREMONA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;020401020030;Conservatori di Musica;Lucio Campiani;MANTOVA;01a;Tasse e contributi per iscrizione e frequenza;93455;0;214950,31;0
+2024-2025;020401020030;Conservatori di Musica;Lucio Campiani;MANTOVA;02a;Tasse per esami di ammissione ed esami finali;1425;0;2972,08;0
+2024-2025;020401020030;Conservatori di Musica;Lucio Campiani;MANTOVA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;32620;0
+2024-2025;020401020030;Conservatori di Musica;Lucio Campiani;MANTOVA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;020401020030;Conservatori di Musica;Lucio Campiani;MANTOVA;04 ;Diritti di segreteria;1785,5;0;4777;0
+2024-2025;020401020030;Conservatori di Musica;Lucio Campiani;MANTOVA;05 ;Altro da studenti non costituenti gettito;1155;0;1617;0
+2024-2025;021401021008;Conservatori di Musica;Claudio Monteverdi;BOLZANO;01a;Tasse e contributi per iscrizione e frequenza;38000;0;289397;0
+2024-2025;021401021008;Conservatori di Musica;Claudio Monteverdi;BOLZANO;02a;Tasse per esami di ammissione ed esami finali;423;0;694;0
+2024-2025;021401021008;Conservatori di Musica;Claudio Monteverdi;BOLZANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;021401021008;Conservatori di Musica;Claudio Monteverdi;BOLZANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;54668;0
+2024-2025;021401021008;Conservatori di Musica;Claudio Monteverdi;BOLZANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;021401021008;Conservatori di Musica;Claudio Monteverdi;BOLZANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;022401022205;Conservatori di Musica;Francesco Antonio Bonporti;TRENTO;01a;Tasse e contributi per iscrizione e frequenza;22157,77;0;144222,6;0
+2024-2025;022401022205;Conservatori di Musica;Francesco Antonio Bonporti;TRENTO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;022401022205;Conservatori di Musica;Francesco Antonio Bonporti;TRENTO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;022401022205;Conservatori di Musica;Francesco Antonio Bonporti;TRENTO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;32210;0
+2024-2025;022401022205;Conservatori di Musica;Francesco Antonio Bonporti;TRENTO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;022401022205;Conservatori di Musica;Francesco Antonio Bonporti;TRENTO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;022402022153;Conservatori di Musica;Francesco A. Bonporti (sezione staccata);TRENTO - RIVA DEL GARDA (TN);01a;Tasse e contributi per iscrizione e frequenza;15367,97;0;42737,8;0
+2024-2025;022402022153;Conservatori di Musica;Francesco A. Bonporti (sezione staccata);TRENTO - RIVA DEL GARDA (TN);02a;Tasse per esami di ammissione ed esami finali;211,4;0;967,16;0
+2024-2025;022402022153;Conservatori di Musica;Francesco A. Bonporti (sezione staccata);TRENTO - RIVA DEL GARDA (TN);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;022402022153;Conservatori di Musica;Francesco A. Bonporti (sezione staccata);TRENTO - RIVA DEL GARDA (TN);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;8290;0
+2024-2025;022402022153;Conservatori di Musica;Francesco A. Bonporti (sezione staccata);TRENTO - RIVA DEL GARDA (TN);04 ;Diritti di segreteria;0;0;267,65;0
+2024-2025;022402022153;Conservatori di Musica;Francesco A. Bonporti (sezione staccata);TRENTO - RIVA DEL GARDA (TN);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;023401023091;Conservatori di Musica;Felice E. Dall'Abaco;VERONA;01a;Tasse e contributi per iscrizione e frequenza;137250;33200;204650;33200
+2024-2025;023401023091;Conservatori di Musica;Felice E. Dall'Abaco;VERONA;02a;Tasse per esami di ammissione ed esami finali;1646;1400;6885;1400
+2024-2025;023401023091;Conservatori di Musica;Felice E. Dall'Abaco;VERONA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;023401023091;Conservatori di Musica;Felice E. Dall'Abaco;VERONA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;68920;0
+2024-2025;023401023091;Conservatori di Musica;Felice E. Dall'Abaco;VERONA;04 ;Diritti di segreteria;39920;0;132052;0
+2024-2025;023401023091;Conservatori di Musica;Felice E. Dall'Abaco;VERONA;05 ;Altro da studenti non costituenti gettito;7474;0;7916;0
+2024-2025;024401024116;Conservatori di Musica;Arrigo Pedrollo;VICENZA;01a;Tasse e contributi per iscrizione e frequenza;39231;0,35;277297,65;0
+2024-2025;024401024116;Conservatori di Musica;Arrigo Pedrollo;VICENZA;02a;Tasse per esami di ammissione ed esami finali;3122;0;17073;0
+2024-2025;024401024116;Conservatori di Musica;Arrigo Pedrollo;VICENZA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;024401024116;Conservatori di Musica;Arrigo Pedrollo;VICENZA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;65253;0
+2024-2025;024401024116;Conservatori di Musica;Arrigo Pedrollo;VICENZA;04 ;Diritti di segreteria;744;0;9700;0
+2024-2025;024401024116;Conservatori di Musica;Arrigo Pedrollo;VICENZA;05 ;Altro da studenti non costituenti gettito;1248;0;6208;0
+2024-2025;026401026012;Conservatori di Musica;Agostino Steffani;CASTELFRANCO VENETO (TV);01a;Tasse e contributi per iscrizione e frequenza;39570,31;0;220350,96;0
+2024-2025;026401026012;Conservatori di Musica;Agostino Steffani;CASTELFRANCO VENETO (TV);02a;Tasse per esami di ammissione ed esami finali;5308,8;0;9630;0
+2024-2025;026401026012;Conservatori di Musica;Agostino Steffani;CASTELFRANCO VENETO (TV);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;026401026012;Conservatori di Musica;Agostino Steffani;CASTELFRANCO VENETO (TV);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;49102;0
+2024-2025;026401026012;Conservatori di Musica;Agostino Steffani;CASTELFRANCO VENETO (TV);04 ;Diritti di segreteria;445;0;1021;0
+2024-2025;026401026012;Conservatori di Musica;Agostino Steffani;CASTELFRANCO VENETO (TV);05 ;Altro da studenti non costituenti gettito;32;0;4784;0
+2024-2025;027402027042;Conservatori di Musica;Benedetto Marcello - Palazzo Pisani;VENEZIA;01a;Tasse e contributi per iscrizione e frequenza;47666;22094;254611;22094
+2024-2025;027402027042;Conservatori di Musica;Benedetto Marcello - Palazzo Pisani;VENEZIA;02a;Tasse per esami di ammissione ed esami finali;3012;324;10679;324
+2024-2025;027402027042;Conservatori di Musica;Benedetto Marcello - Palazzo Pisani;VENEZIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;027402027042;Conservatori di Musica;Benedetto Marcello - Palazzo Pisani;VENEZIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;2232;32077;2232
+2024-2025;027402027042;Conservatori di Musica;Benedetto Marcello - Palazzo Pisani;VENEZIA;04 ;Diritti di segreteria;200;0;1425;0
+2024-2025;027402027042;Conservatori di Musica;Benedetto Marcello - Palazzo Pisani;VENEZIA;05 ;Altro da studenti non costituenti gettito;592;192;5360;192
+2024-2025;028401028060;Conservatori di Musica;Cesare Pollini;PADOVA;01a;Tasse e contributi per iscrizione e frequenza;0;43654,27;499632;0
+2024-2025;028401028060;Conservatori di Musica;Cesare Pollini;PADOVA;02a;Tasse per esami di ammissione ed esami finali;0;6583,72;27386;0
+2024-2025;028401028060;Conservatori di Musica;Cesare Pollini;PADOVA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;028401028060;Conservatori di Musica;Cesare Pollini;PADOVA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;92628;0
+2024-2025;028401028060;Conservatori di Musica;Cesare Pollini;PADOVA;04 ;Diritti di segreteria;0;1958;2490;0
+2024-2025;028401028060;Conservatori di Musica;Cesare Pollini;PADOVA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;029401029001;Conservatori di Musica;Antonio Buzzolla;ADRIA (RO);01a;Tasse e contributi per iscrizione e frequenza;73132,55;0;70589,56;0
+2024-2025;029401029001;Conservatori di Musica;Antonio Buzzolla;ADRIA (RO);02a;Tasse per esami di ammissione ed esami finali;1615,13;0;1624,29;0
+2024-2025;029401029001;Conservatori di Musica;Antonio Buzzolla;ADRIA (RO);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;029401029001;Conservatori di Musica;Antonio Buzzolla;ADRIA (RO);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;26786;0
+2024-2025;029401029001;Conservatori di Musica;Antonio Buzzolla;ADRIA (RO);04 ;Diritti di segreteria;193,5;0;973,5;0
+2024-2025;029401029001;Conservatori di Musica;Antonio Buzzolla;ADRIA (RO);05 ;Altro da studenti non costituenti gettito;1130,8;0;5838;0
+2024-2025;029402029041;Conservatori di Musica;Francesco Venezze;ROVIGO;01a;Tasse e contributi per iscrizione e frequenza;104640;35666;361855;35666
+2024-2025;029402029041;Conservatori di Musica;Francesco Venezze;ROVIGO;02a;Tasse per esami di ammissione ed esami finali;2109;950;25822;950
+2024-2025;029402029041;Conservatori di Musica;Francesco Venezze;ROVIGO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;029402029041;Conservatori di Musica;Francesco Venezze;ROVIGO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;93558;0
+2024-2025;029402029041;Conservatori di Musica;Francesco Venezze;ROVIGO;04 ;Diritti di segreteria;3550;300;11062;300
+2024-2025;029402029041;Conservatori di Musica;Francesco Venezze;ROVIGO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;030401030129;Conservatori di Musica;Jacopo Tomadini;UDINE;01a;Tasse e contributi per iscrizione e frequenza;92715,37;0;129339,84;0
+2024-2025;030401030129;Conservatori di Musica;Jacopo Tomadini;UDINE;02a;Tasse per esami di ammissione ed esami finali;410,72;0;579,96;0
+2024-2025;030401030129;Conservatori di Musica;Jacopo Tomadini;UDINE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;25100;0
+2024-2025;030401030129;Conservatori di Musica;Jacopo Tomadini;UDINE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;030401030129;Conservatori di Musica;Jacopo Tomadini;UDINE;04 ;Diritti di segreteria;201;0;50;0
+2024-2025;030401030129;Conservatori di Musica;Jacopo Tomadini;UDINE;05 ;Altro da studenti non costituenti gettito;3184;0;3424;0
+2024-2025;032401032006;Conservatori di Musica;Giuseppe Tartini;TRIESTE;01a;Tasse e contributi per iscrizione e frequenza;71712,64;18700;229551,72;18700
+2024-2025;032401032006;Conservatori di Musica;Giuseppe Tartini;TRIESTE;02a;Tasse per esami di ammissione ed esami finali;1460;0;6582;0
+2024-2025;032401032006;Conservatori di Musica;Giuseppe Tartini;TRIESTE;03a;Tassa regionale per il DSU versata all'Istituto;1000;780;51980,65;780
+2024-2025;032401032006;Conservatori di Musica;Giuseppe Tartini;TRIESTE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;032401032006;Conservatori di Musica;Giuseppe Tartini;TRIESTE;04 ;Diritti di segreteria;2160;30;16035;30
+2024-2025;032401032006;Conservatori di Musica;Giuseppe Tartini;TRIESTE;05 ;Altro da studenti non costituenti gettito;3584;368;16832;368
+2024-2025;033401033032;Conservatori di Musica;Giuseppe Nicolini;PIACENZA;01a;Tasse e contributi per iscrizione e frequenza;62127;0;407778,1;0
+2024-2025;033401033032;Conservatori di Musica;Giuseppe Nicolini;PIACENZA;02a;Tasse per esami di ammissione ed esami finali;2650;0;7309,1;0
+2024-2025;033401033032;Conservatori di Musica;Giuseppe Nicolini;PIACENZA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;033401033032;Conservatori di Musica;Giuseppe Nicolini;PIACENZA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;44520;0
+2024-2025;033401033032;Conservatori di Musica;Giuseppe Nicolini;PIACENZA;04 ;Diritti di segreteria;60;0;180;0
+2024-2025;033401033032;Conservatori di Musica;Giuseppe Nicolini;PIACENZA;05 ;Altro da studenti non costituenti gettito;1936;0;4208;0
+2024-2025;034401034027;Conservatori di Musica;Arrigo Boito;PARMA;01a;Tasse e contributi per iscrizione e frequenza;92212,5;94650;908154,69;94650
+2024-2025;034401034027;Conservatori di Musica;Arrigo Boito;PARMA;02a;Tasse per esami di ammissione ed esami finali;2005,08;2450;49555,12;2450
+2024-2025;034401034027;Conservatori di Musica;Arrigo Boito;PARMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;034401034027;Conservatori di Musica;Arrigo Boito;PARMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;90020;0
+2024-2025;034401034027;Conservatori di Musica;Arrigo Boito;PARMA;04 ;Diritti di segreteria;8510,5;0;12352,77;0
+2024-2025;034401034027;Conservatori di Musica;Arrigo Boito;PARMA;05 ;Altro da studenti non costituenti gettito;2016;0;15104;0
+2024-2025;035402035033;Conservatori di Musica;;REGGIO EMILIA e CASTELNOVO NE' MONTI (RE);01a;Tasse e contributi per iscrizione e frequenza;194631,5;113866;123720,5;47500
+2024-2025;035402035033;Conservatori di Musica;;REGGIO EMILIA e CASTELNOVO NE' MONTI (RE);02a;Tasse per esami di ammissione ed esami finali;2200;0;27934;0
+2024-2025;035402035033;Conservatori di Musica;;REGGIO EMILIA e CASTELNOVO NE' MONTI (RE);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;035402035033;Conservatori di Musica;;REGGIO EMILIA e CASTELNOVO NE' MONTI (RE);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;27580;0
+2024-2025;035402035033;Conservatori di Musica;;REGGIO EMILIA e CASTELNOVO NE' MONTI (RE);04 ;Diritti di segreteria;0;0;0;0
+2024-2025;035402035033;Conservatori di Musica;;REGGIO EMILIA e CASTELNOVO NE' MONTI (RE);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;036409036023;Conservatori di Musica;Orazio Vecchi - Antonio Tonelli;MODENA e CARPI (MO);01a;Tasse e contributi per iscrizione e frequenza;239945,6;0;172428,62;0
+2024-2025;036409036023;Conservatori di Musica;Orazio Vecchi - Antonio Tonelli;MODENA e CARPI (MO);02a;Tasse per esami di ammissione ed esami finali;10020;0;25580;0
+2024-2025;036409036023;Conservatori di Musica;Orazio Vecchi - Antonio Tonelli;MODENA e CARPI (MO);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;036409036023;Conservatori di Musica;Orazio Vecchi - Antonio Tonelli;MODENA e CARPI (MO);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;21700;0;0
+2024-2025;036409036023;Conservatori di Musica;Orazio Vecchi - Antonio Tonelli;MODENA e CARPI (MO);04 ;Diritti di segreteria;0;0;0;0
+2024-2025;036409036023;Conservatori di Musica;Orazio Vecchi - Antonio Tonelli;MODENA e CARPI (MO);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;037402037006;Conservatori di Musica;Giovan B. Martini;BOLOGNA;01a;Tasse e contributi per iscrizione e frequenza;106230;0;654616,88;0
+2024-2025;037402037006;Conservatori di Musica;Giovan B. Martini;BOLOGNA;02a;Tasse per esami di ammissione ed esami finali;9800;0;53453,9;0
+2024-2025;037402037006;Conservatori di Musica;Giovan B. Martini;BOLOGNA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;037402037006;Conservatori di Musica;Giovan B. Martini;BOLOGNA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;142940;0
+2024-2025;037402037006;Conservatori di Musica;Giovan B. Martini;BOLOGNA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;037402037006;Conservatori di Musica;Giovan B. Martini;BOLOGNA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;038401038008;Conservatori di Musica;Girolamo Frescobaldi;FERRARA;01a;Tasse e contributi per iscrizione e frequenza;61727,15;0;221155,18;0
+2024-2025;038401038008;Conservatori di Musica;Girolamo Frescobaldi;FERRARA;02a;Tasse per esami di ammissione ed esami finali;2500;0;9010;0
+2024-2025;038401038008;Conservatori di Musica;Girolamo Frescobaldi;FERRARA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;038401038008;Conservatori di Musica;Girolamo Frescobaldi;FERRARA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;32200;0
+2024-2025;038401038008;Conservatori di Musica;Girolamo Frescobaldi;FERRARA;04 ;Diritti di segreteria;240;0;6926,95;0
+2024-2025;038401038008;Conservatori di Musica;Girolamo Frescobaldi;FERRARA;05 ;Altro da studenti non costituenti gettito;2916,91;0;10082,76;0
+2024-2025;039401039014;Conservatori di Musica;Giuseppe Verdi;RAVENNA;01a;Tasse e contributi per iscrizione e frequenza;56169,56;0;171749,5;0
+2024-2025;039401039014;Conservatori di Musica;Giuseppe Verdi;RAVENNA;02a;Tasse per esami di ammissione ed esami finali;910;0;11072;0
+2024-2025;039401039014;Conservatori di Musica;Giuseppe Verdi;RAVENNA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;039401039014;Conservatori di Musica;Giuseppe Verdi;RAVENNA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;23688;0
+2024-2025;039401039014;Conservatori di Musica;Giuseppe Verdi;RAVENNA;04 ;Diritti di segreteria;1448;0;5978;0
+2024-2025;039401039014;Conservatori di Musica;Giuseppe Verdi;RAVENNA;05 ;Altro da studenti non costituenti gettito;928;0;5792;0
+2024-2025;040409040007;Conservatori di Musica;B. Maderna – G. Lettimi;CESENA (FC) e RIMINI;01a;Tasse e contributi per iscrizione e frequenza;7425;0;212343,64;0
+2024-2025;040409040007;Conservatori di Musica;B. Maderna – G. Lettimi;CESENA (FC) e RIMINI;02a;Tasse per esami di ammissione ed esami finali;3150;0;2523,64;0
+2024-2025;040409040007;Conservatori di Musica;B. Maderna – G. Lettimi;CESENA (FC) e RIMINI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;040409040007;Conservatori di Musica;B. Maderna – G. Lettimi;CESENA (FC) e RIMINI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;37940;0
+2024-2025;040409040007;Conservatori di Musica;B. Maderna – G. Lettimi;CESENA (FC) e RIMINI;04 ;Diritti di segreteria;0;0;280;0
+2024-2025;040409040007;Conservatori di Musica;B. Maderna – G. Lettimi;CESENA (FC) e RIMINI;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;041402041044;Conservatori di Musica;Gioacchino Rossini;PESARO (PU);01a;Tasse e contributi per iscrizione e frequenza;38300;222850;258737;222850
+2024-2025;041402041044;Conservatori di Musica;Gioacchino Rossini;PESARO (PU);02a;Tasse per esami di ammissione ed esami finali;2162;17400;22708;17400
+2024-2025;041402041044;Conservatori di Musica;Gioacchino Rossini;PESARO (PU);03a;Tassa regionale per il DSU versata all'Istituto;3500;340;45720;280
+2024-2025;041402041044;Conservatori di Musica;Gioacchino Rossini;PESARO (PU);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;041402041044;Conservatori di Musica;Gioacchino Rossini;PESARO (PU);04 ;Diritti di segreteria;0;0;16867;0
+2024-2025;041402041044;Conservatori di Musica;Gioacchino Rossini;PESARO (PU);05 ;Altro da studenti non costituenti gettito;0;0;13214;0
+2024-2025;044401044019;Conservatori di Musica;Giovambattista Pergolesi;FERMO;01a;Tasse e contributi per iscrizione e frequenza;65197;0;167392,85;0
+2024-2025;044401044019;Conservatori di Musica;Giovambattista Pergolesi;FERMO;02a;Tasse per esami di ammissione ed esami finali;0;0;9100;0
+2024-2025;044401044019;Conservatori di Musica;Giovambattista Pergolesi;FERMO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;30660;0
+2024-2025;044401044019;Conservatori di Musica;Giovambattista Pergolesi;FERMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;044401044019;Conservatori di Musica;Giovambattista Pergolesi;FERMO;04 ;Diritti di segreteria;1500;0;4720;0
+2024-2025;044401044019;Conservatori di Musica;Giovambattista Pergolesi;FERMO;05 ;Altro da studenti non costituenti gettito;1092;0;6626;0
+2024-2025;046401046017;Conservatori di Musica;Luigi Boccherini;LUCCA;01a;Tasse e contributi per iscrizione e frequenza;44152;34600;166840;34600
+2024-2025;046401046017;Conservatori di Musica;Luigi Boccherini;LUCCA;02a;Tasse per esami di ammissione ed esami finali;3780;0;7200;0
+2024-2025;046401046017;Conservatori di Musica;Luigi Boccherini;LUCCA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;046401046017;Conservatori di Musica;Luigi Boccherini;LUCCA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;046401046017;Conservatori di Musica;Luigi Boccherini;LUCCA;04 ;Diritti di segreteria;0;0;1695;0
+2024-2025;046401046017;Conservatori di Musica;Luigi Boccherini;LUCCA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;048402048017;Conservatori di Musica;Luigi Cherubini;FIRENZE;01a;Tasse e contributi per iscrizione e frequenza;6560;0;866250;0
+2024-2025;048402048017;Conservatori di Musica;Luigi Cherubini;FIRENZE;02a;Tasse per esami di ammissione ed esami finali;0;0;60410;0
+2024-2025;048402048017;Conservatori di Musica;Luigi Cherubini;FIRENZE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;048402048017;Conservatori di Musica;Luigi Cherubini;FIRENZE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;84000;0
+2024-2025;048402048017;Conservatori di Musica;Luigi Cherubini;FIRENZE;04 ;Diritti di segreteria;100;0;10300;0
+2024-2025;048402048017;Conservatori di Musica;Luigi Cherubini;FIRENZE;05 ;Altro da studenti non costituenti gettito;216,5;0;13952,5;0
+2024-2025;049401049009;Conservatori di Musica;Pietro Mascagni;LIVORNO;01a;Tasse e contributi per iscrizione e frequenza;0;64536;128522;0
+2024-2025;049401049009;Conservatori di Musica;Pietro Mascagni;LIVORNO;02a;Tasse per esami di ammissione ed esami finali;0;1920;8930;0
+2024-2025;049401049009;Conservatori di Musica;Pietro Mascagni;LIVORNO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;049401049009;Conservatori di Musica;Pietro Mascagni;LIVORNO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;22400;0
+2024-2025;049401049009;Conservatori di Musica;Pietro Mascagni;LIVORNO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;049401049009;Conservatori di Musica;Pietro Mascagni;LIVORNO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;052401052032;Conservatori di Musica;R. Franci;SIENA;01a;Tasse e contributi per iscrizione e frequenza;0;16356,25;135747;0
+2024-2025;052401052032;Conservatori di Musica;R. Franci;SIENA;02a;Tasse per esami di ammissione ed esami finali;100;16620;0;0
+2024-2025;052401052032;Conservatori di Musica;R. Franci;SIENA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;052401052032;Conservatori di Musica;R. Franci;SIENA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;72;14208;0
+2024-2025;052401052032;Conservatori di Musica;R. Franci;SIENA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;052401052032;Conservatori di Musica;R. Franci;SIENA;05 ;Altro da studenti non costituenti gettito;0;150;9244;0
+2024-2025;054401054039;Conservatori di Musica;Francesco Morlacchi;PERUGIA;01a;Tasse e contributi per iscrizione e frequenza;85008,8;0;293371,2;0
+2024-2025;054401054039;Conservatori di Musica;Francesco Morlacchi;PERUGIA;02a;Tasse per esami di ammissione ed esami finali;3895,52;0;21297,48;0
+2024-2025;054401054039;Conservatori di Musica;Francesco Morlacchi;PERUGIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;054401054039;Conservatori di Musica;Francesco Morlacchi;PERUGIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;44940;0
+2024-2025;054401054039;Conservatori di Musica;Francesco Morlacchi;PERUGIA;04 ;Diritti di segreteria;840;0;8300;0
+2024-2025;054401054039;Conservatori di Musica;Francesco Morlacchi;PERUGIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;055401055032;Conservatori di Musica;Giulio Briccialdi;TERNI;01a;Tasse e contributi per iscrizione e frequenza;26745,3;0;122043,5;0
+2024-2025;055401055032;Conservatori di Musica;Giulio Briccialdi;TERNI;02a;Tasse per esami di ammissione ed esami finali;1560;800;2800;800
+2024-2025;055401055032;Conservatori di Musica;Giulio Briccialdi;TERNI;03a;Tassa regionale per il DSU versata all'Istituto;0;1260;22120;1260
+2024-2025;055401055032;Conservatori di Musica;Giulio Briccialdi;TERNI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;055401055032;Conservatori di Musica;Giulio Briccialdi;TERNI;04 ;Diritti di segreteria;0;750;2200;0
+2024-2025;055401055032;Conservatori di Musica;Giulio Briccialdi;TERNI;05 ;Altro da studenti non costituenti gettito;214;220;0;220
+2024-2025;058404058091;Conservatori di Musica;Santa Cecilia;ROMA;01a;Tasse e contributi per iscrizione e frequenza;200300;51174;1413032,15;51174
+2024-2025;058404058091;Conservatori di Musica;Santa Cecilia;ROMA;02a;Tasse per esami di ammissione ed esami finali;3250;3350;46400;3350
+2024-2025;058404058091;Conservatori di Musica;Santa Cecilia;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;136220;0
+2024-2025;058404058091;Conservatori di Musica;Santa Cecilia;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;058404058091;Conservatori di Musica;Santa Cecilia;ROMA;04 ;Diritti di segreteria;900;0;23101;0
+2024-2025;058404058091;Conservatori di Musica;Santa Cecilia;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;059401059011;Conservatori di Musica;Ottorino Respighi;LATINA;01a;Tasse e contributi per iscrizione e frequenza;86260;0;199178;0
+2024-2025;059401059011;Conservatori di Musica;Ottorino Respighi;LATINA;02a;Tasse per esami di ammissione ed esami finali;3250;0;8150;0
+2024-2025;059401059011;Conservatori di Musica;Ottorino Respighi;LATINA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;059401059011;Conservatori di Musica;Ottorino Respighi;LATINA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;32368;0
+2024-2025;059401059011;Conservatori di Musica;Ottorino Respighi;LATINA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;059401059011;Conservatori di Musica;Ottorino Respighi;LATINA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;060402060038;Conservatori di Musica;Licinio Refice;FROSINONE;01a;Tasse e contributi per iscrizione e frequenza;52164,43;0;382999,89;0
+2024-2025;060402060038;Conservatori di Musica;Licinio Refice;FROSINONE;02a;Tasse per esami di ammissione ed esami finali;2397,64;0;11426,12;0
+2024-2025;060402060038;Conservatori di Musica;Licinio Refice;FROSINONE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;060402060038;Conservatori di Musica;Licinio Refice;FROSINONE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;74340;0
+2024-2025;060402060038;Conservatori di Musica;Licinio Refice;FROSINONE;04 ;Diritti di segreteria;1400;0;9100;0
+2024-2025;060402060038;Conservatori di Musica;Licinio Refice;FROSINONE;05 ;Altro da studenti non costituenti gettito;1664;0;8608;0
+2024-2025;062401062008;Conservatori di Musica;Nicola Sala;BENEVENTO;01a;Tasse e contributi per iscrizione e frequenza;24750;0;681822,07;0
+2024-2025;062401062008;Conservatori di Musica;Nicola Sala;BENEVENTO;02a;Tasse per esami di ammissione ed esami finali;2000;0;29600;0
+2024-2025;062401062008;Conservatori di Musica;Nicola Sala;BENEVENTO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;062401062008;Conservatori di Musica;Nicola Sala;BENEVENTO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;98726,25;0
+2024-2025;062401062008;Conservatori di Musica;Nicola Sala;BENEVENTO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;062401062008;Conservatori di Musica;Nicola Sala;BENEVENTO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;063402063049;Conservatori di Musica;S. Pietro a Majella;NAPOLI;01a;Tasse e contributi per iscrizione e frequenza;0;901;622554,1;900
+2024-2025;063402063049;Conservatori di Musica;S. Pietro a Majella;NAPOLI;02a;Tasse per esami di ammissione ed esami finali;0;0;45318,94;0
+2024-2025;063402063049;Conservatori di Musica;S. Pietro a Majella;NAPOLI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;063402063049;Conservatori di Musica;S. Pietro a Majella;NAPOLI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;108166,62;0
+2024-2025;063402063049;Conservatori di Musica;S. Pietro a Majella;NAPOLI;04 ;Diritti di segreteria;0;0;750;0
+2024-2025;063402063049;Conservatori di Musica;S. Pietro a Majella;NAPOLI;05 ;Altro da studenti non costituenti gettito;0;0;8366,67;0
+2024-2025;064401064008;Conservatori di Musica;Domenico Cimarosa;AVELLINO;01a;Tasse e contributi per iscrizione e frequenza;71006,45;309156;519560,47;309156
+2024-2025;064401064008;Conservatori di Musica;Domenico Cimarosa;AVELLINO;02a;Tasse per esami di ammissione ed esami finali;490;0;2450;0
+2024-2025;064401064008;Conservatori di Musica;Domenico Cimarosa;AVELLINO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;064401064008;Conservatori di Musica;Domenico Cimarosa;AVELLINO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;1737;0;105684,5;0
+2024-2025;064401064008;Conservatori di Musica;Domenico Cimarosa;AVELLINO;04 ;Diritti di segreteria;2950;0;22070;0
+2024-2025;064401064008;Conservatori di Musica;Domenico Cimarosa;AVELLINO;05 ;Altro da studenti non costituenti gettito;3197;105;17273;105
+2024-2025;065401065116;Conservatori di Musica;Giuseppe Martucci;SALERNO;01a;Tasse e contributi per iscrizione e frequenza;0;0;678252,39;0
+2024-2025;065401065116;Conservatori di Musica;Giuseppe Martucci;SALERNO;02a;Tasse per esami di ammissione ed esami finali;0;0;36511,76;0
+2024-2025;065401065116;Conservatori di Musica;Giuseppe Martucci;SALERNO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;065401065116;Conservatori di Musica;Giuseppe Martucci;SALERNO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;124124,85;0
+2024-2025;065401065116;Conservatori di Musica;Giuseppe Martucci;SALERNO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;065401065116;Conservatori di Musica;Giuseppe Martucci;SALERNO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;066402066049;Conservatori di Musica;Alfredo Casella;L'AQUILA;01a;Tasse e contributi per iscrizione e frequenza;76137,22;19500;381138,04;19500
+2024-2025;066402066049;Conservatori di Musica;Alfredo Casella;L'AQUILA;02a;Tasse per esami di ammissione ed esami finali;2905,32;2952,68;16282;2952,68
+2024-2025;066402066049;Conservatori di Musica;Alfredo Casella;L'AQUILA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;066402066049;Conservatori di Musica;Alfredo Casella;L'AQUILA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;54321;0
+2024-2025;066402066049;Conservatori di Musica;Alfredo Casella;L'AQUILA;04 ;Diritti di segreteria;7793,8;0;4919,2;0
+2024-2025;066402066049;Conservatori di Musica;Alfredo Casella;L'AQUILA;05 ;Altro da studenti non costituenti gettito;1171,5;294;6976;294
+2024-2025;067401067041;Conservatori di Musica;Gaetano Braga;TERAMO;01a;Tasse e contributi per iscrizione e frequenza;52322,5;0;128915,1;0
+2024-2025;067401067041;Conservatori di Musica;Gaetano Braga;TERAMO;02a;Tasse per esami di ammissione ed esami finali;1280;0;3825,72;0
+2024-2025;067401067041;Conservatori di Musica;Gaetano Braga;TERAMO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;067401067041;Conservatori di Musica;Gaetano Braga;TERAMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;840;26320;840
+2024-2025;067401067041;Conservatori di Musica;Gaetano Braga;TERAMO;04 ;Diritti di segreteria;240;0;7509,68;0
+2024-2025;067401067041;Conservatori di Musica;Gaetano Braga;TERAMO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;068401068028;Conservatori di Musica;Luisa D’Annunzio;PESCARA;01a;Tasse e contributi per iscrizione e frequenza;121473,56;0;283903,85;0
+2024-2025;068401068028;Conservatori di Musica;Luisa D’Annunzio;PESCARA;02a;Tasse per esami di ammissione ed esami finali;573,8;2267,46;0;0
+2024-2025;068401068028;Conservatori di Musica;Luisa D’Annunzio;PESCARA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;64260;0
+2024-2025;068401068028;Conservatori di Musica;Luisa D’Annunzio;PESCARA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;068401068028;Conservatori di Musica;Luisa D’Annunzio;PESCARA;04 ;Diritti di segreteria;1350,26;0;6280;0
+2024-2025;068401068028;Conservatori di Musica;Luisa D’Annunzio;PESCARA;05 ;Altro da studenti non costituenti gettito;3460;0;20582;0
+2024-2025;070401070006;Conservatori di Musica;Lorenzo Perosi;CAMPOBASSO;01a;Tasse e contributi per iscrizione e frequenza;62139,84;0;169197,44;0
+2024-2025;070401070006;Conservatori di Musica;Lorenzo Perosi;CAMPOBASSO;02a;Tasse per esami di ammissione ed esami finali;3023,89;0;3697,82;0
+2024-2025;070401070006;Conservatori di Musica;Lorenzo Perosi;CAMPOBASSO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;070401070006;Conservatori di Musica;Lorenzo Perosi;CAMPOBASSO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;36416;0
+2024-2025;070401070006;Conservatori di Musica;Lorenzo Perosi;CAMPOBASSO;04 ;Diritti di segreteria;490;0;1444;0
+2024-2025;070401070006;Conservatori di Musica;Lorenzo Perosi;CAMPOBASSO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;071402071043;Conservatori di Musica;Umberto Giordano (sezione staccata);FOGGIA - RODI GARGANICO (FG);01a;Tasse e contributi per iscrizione e frequenza;57763,91;0;87684,7;0
+2024-2025;071402071043;Conservatori di Musica;Umberto Giordano (sezione staccata);FOGGIA - RODI GARGANICO (FG);02a;Tasse per esami di ammissione ed esami finali;2679,86;0;1932,3;0
+2024-2025;071402071043;Conservatori di Musica;Umberto Giordano (sezione staccata);FOGGIA - RODI GARGANICO (FG);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;071402071043;Conservatori di Musica;Umberto Giordano (sezione staccata);FOGGIA - RODI GARGANICO (FG);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;22273;0
+2024-2025;071402071043;Conservatori di Musica;Umberto Giordano (sezione staccata);FOGGIA - RODI GARGANICO (FG);04 ;Diritti di segreteria;370;0;1710;0
+2024-2025;071402071043;Conservatori di Musica;Umberto Giordano (sezione staccata);FOGGIA - RODI GARGANICO (FG);05 ;Altro da studenti non costituenti gettito;1050;0;5763;0
+2024-2025;071403071024;Conservatori di Musica;Umberto Giordano;FOGGIA;01a;Tasse e contributi per iscrizione e frequenza;76328,54;0;194625,27;0
+2024-2025;071403071024;Conservatori di Musica;Umberto Giordano;FOGGIA;02a;Tasse per esami di ammissione ed esami finali;3488,76;0;4030,44;0
+2024-2025;071403071024;Conservatori di Musica;Umberto Giordano;FOGGIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;071403071024;Conservatori di Musica;Umberto Giordano;FOGGIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;50887;0
+2024-2025;071403071024;Conservatori di Musica;Umberto Giordano;FOGGIA;04 ;Diritti di segreteria;830;0;3610;0
+2024-2025;071403071024;Conservatori di Musica;Umberto Giordano;FOGGIA;05 ;Altro da studenti non costituenti gettito;1687;0;8259;0
+2024-2025;072402072006;Conservatori di Musica;Niccolò Piccinni;BARI;01a;Tasse e contributi per iscrizione e frequenza;118694;2843;470446;0
+2024-2025;072402072006;Conservatori di Musica;Niccolò Piccinni;BARI;02a;Tasse per esami di ammissione ed esami finali;3291;150;16251;150
+2024-2025;072402072006;Conservatori di Musica;Niccolò Piccinni;BARI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;072402072006;Conservatori di Musica;Niccolò Piccinni;BARI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;286;78653;286
+2024-2025;072402072006;Conservatori di Musica;Niccolò Piccinni;BARI;04 ;Diritti di segreteria;4300;6500;6302;0
+2024-2025;072402072006;Conservatori di Musica;Niccolò Piccinni;BARI;05 ;Altro da studenti non costituenti gettito;4172;192;24404;0
+2024-2025;072403072030;Conservatori di Musica;Nino Rota;MONOPOLI (BA);01a;Tasse e contributi per iscrizione e frequenza;131499,99;0;194767,76;0
+2024-2025;072403072030;Conservatori di Musica;Nino Rota;MONOPOLI (BA);02a;Tasse per esami di ammissione ed esami finali;3125;0;13191,04;0
+2024-2025;072403072030;Conservatori di Musica;Nino Rota;MONOPOLI (BA);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;072403072030;Conservatori di Musica;Nino Rota;MONOPOLI (BA);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;59324,05;0
+2024-2025;072403072030;Conservatori di Musica;Nino Rota;MONOPOLI (BA);04 ;Diritti di segreteria;3560;0;4260;0
+2024-2025;072403072030;Conservatori di Musica;Nino Rota;MONOPOLI (BA);05 ;Altro da studenti non costituenti gettito;5266,6;0;8475,6;0
+2024-2025;073401073027;Conservatori di Musica;Giovanni Paisiello;TARANTO;01a;Tasse e contributi per iscrizione e frequenza;16542;0;118876;0
+2024-2025;073401073027;Conservatori di Musica;Giovanni Paisiello;TARANTO;02a;Tasse per esami di ammissione ed esami finali;3150;0;4800;0
+2024-2025;073401073027;Conservatori di Musica;Giovanni Paisiello;TARANTO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;073401073027;Conservatori di Musica;Giovanni Paisiello;TARANTO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;18269;0
+2024-2025;073401073027;Conservatori di Musica;Giovanni Paisiello;TARANTO;04 ;Diritti di segreteria;100;0;350;0
+2024-2025;073401073027;Conservatori di Musica;Giovanni Paisiello;TARANTO;05 ;Altro da studenti non costituenti gettito;1231;0;1365;0
+2024-2025;075402075035;Conservatori di Musica;Tito Schipa;LECCE;01a;Tasse e contributi per iscrizione e frequenza;22644,5;0;214138,5;0
+2024-2025;075402075035;Conservatori di Musica;Tito Schipa;LECCE;02a;Tasse per esami di ammissione ed esami finali;8805;0;4035;0
+2024-2025;075402075035;Conservatori di Musica;Tito Schipa;LECCE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;075402075035;Conservatori di Musica;Tito Schipa;LECCE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;56036;0
+2024-2025;075402075035;Conservatori di Musica;Tito Schipa;LECCE;04 ;Diritti di segreteria;945;0;3750;0
+2024-2025;075402075035;Conservatori di Musica;Tito Schipa;LECCE;05 ;Altro da studenti non costituenti gettito;800;0;8274;0
+2024-2025;075403074003;Conservatori di Musica;Tito Schipa (sezione staccata);LECCE - CEGLIE MESSAPICA (BR);01a;Tasse e contributi per iscrizione e frequenza;15535,4;0;27423,98;0
+2024-2025;075403074003;Conservatori di Musica;Tito Schipa (sezione staccata);LECCE - CEGLIE MESSAPICA (BR);02a;Tasse per esami di ammissione ed esami finali;150;0;880,84;0
+2024-2025;075403074003;Conservatori di Musica;Tito Schipa (sezione staccata);LECCE - CEGLIE MESSAPICA (BR);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;075403074003;Conservatori di Musica;Tito Schipa (sezione staccata);LECCE - CEGLIE MESSAPICA (BR);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;8025;0
+2024-2025;075403074003;Conservatori di Musica;Tito Schipa (sezione staccata);LECCE - CEGLIE MESSAPICA (BR);04 ;Diritti di segreteria;0;0;105;0
+2024-2025;075403074003;Conservatori di Musica;Tito Schipa (sezione staccata);LECCE - CEGLIE MESSAPICA (BR);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;076401076063;Conservatori di Musica;Gesualdo da Venosa;POTENZA;01a;Tasse e contributi per iscrizione e frequenza;0;0;335956;0
+2024-2025;076401076063;Conservatori di Musica;Gesualdo da Venosa;POTENZA;02a;Tasse per esami di ammissione ed esami finali;0;0;9482;0
+2024-2025;076401076063;Conservatori di Musica;Gesualdo da Venosa;POTENZA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;076401076063;Conservatori di Musica;Gesualdo da Venosa;POTENZA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;25000;0
+2024-2025;076401076063;Conservatori di Musica;Gesualdo da Venosa;POTENZA;04 ;Diritti di segreteria;0;0;2300;0
+2024-2025;076401076063;Conservatori di Musica;Gesualdo da Venosa;POTENZA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;077401077014;Conservatori di Musica;Egidio R. Duni;MATERA;01a;Tasse e contributi per iscrizione e frequenza;79565,8;0;224617,37;0
+2024-2025;077401077014;Conservatori di Musica;Egidio R. Duni;MATERA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;077401077014;Conservatori di Musica;Egidio R. Duni;MATERA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;077401077014;Conservatori di Musica;Egidio R. Duni;MATERA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;077401077014;Conservatori di Musica;Egidio R. Duni;MATERA;04 ;Diritti di segreteria;0;0;660;0
+2024-2025;077401077014;Conservatori di Musica;Egidio R. Duni;MATERA;05 ;Altro da studenti non costituenti gettito;0;0;5616;0
+2024-2025;078401078045;Conservatori di Musica;Stanislao Giacomantonio;COSENZA;01a;Tasse e contributi per iscrizione e frequenza;141237,59;0;232020,34;0
+2024-2025;078401078045;Conservatori di Musica;Stanislao Giacomantonio;COSENZA;02a;Tasse per esami di ammissione ed esami finali;5917,48;2117,44;15457,06;2117,44
+2024-2025;078401078045;Conservatori di Musica;Stanislao Giacomantonio;COSENZA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;078401078045;Conservatori di Musica;Stanislao Giacomantonio;COSENZA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;1410;42260;1410
+2024-2025;078401078045;Conservatori di Musica;Stanislao Giacomantonio;COSENZA;04 ;Diritti di segreteria;1400;0;1050;0
+2024-2025;078401078045;Conservatori di Musica;Stanislao Giacomantonio;COSENZA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;079402079087;Conservatori di Musica;P.I. Tchaikovsky;NOCERA TERINESE (CZ);01a;Tasse e contributi per iscrizione e frequenza;98864;0;546854,17;0
+2024-2025;079402079087;Conservatori di Musica;P.I. Tchaikovsky;NOCERA TERINESE (CZ);02a;Tasse per esami di ammissione ed esami finali;7575;0;24807,96;0
+2024-2025;079402079087;Conservatori di Musica;P.I. Tchaikovsky;NOCERA TERINESE (CZ);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;079402079087;Conservatori di Musica;P.I. Tchaikovsky;NOCERA TERINESE (CZ);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;079402079087;Conservatori di Musica;P.I. Tchaikovsky;NOCERA TERINESE (CZ);04 ;Diritti di segreteria;32700;0;5170;0
+2024-2025;079402079087;Conservatori di Musica;P.I. Tchaikovsky;NOCERA TERINESE (CZ);05 ;Altro da studenti non costituenti gettito;4000;0;5200;0
+2024-2025;080402080063;Conservatori di Musica;Francesco Cilea;REGGIO CALABRIA;01a;Tasse e contributi per iscrizione e frequenza;123923;0;132902;0
+2024-2025;080402080063;Conservatori di Musica;Francesco Cilea;REGGIO CALABRIA;02a;Tasse per esami di ammissione ed esami finali;9547;0;12404;0
+2024-2025;080402080063;Conservatori di Musica;Francesco Cilea;REGGIO CALABRIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;080402080063;Conservatori di Musica;Francesco Cilea;REGGIO CALABRIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;20910;0
+2024-2025;080402080063;Conservatori di Musica;Francesco Cilea;REGGIO CALABRIA;04 ;Diritti di segreteria;5759;0;8716;0
+2024-2025;080402080063;Conservatori di Musica;Francesco Cilea;REGGIO CALABRIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;081401081021;Conservatori di Musica;Antonio Scontrino;TRAPANI;01a;Tasse e contributi per iscrizione e frequenza;88395,69;0;89684,81;0
+2024-2025;081401081021;Conservatori di Musica;Antonio Scontrino;TRAPANI;02a;Tasse per esami di ammissione ed esami finali;4106,92;0;10736,56;0
+2024-2025;081401081021;Conservatori di Musica;Antonio Scontrino;TRAPANI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;38500;0
+2024-2025;081401081021;Conservatori di Musica;Antonio Scontrino;TRAPANI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;081401081021;Conservatori di Musica;Antonio Scontrino;TRAPANI;04 ;Diritti di segreteria;6935,2;0;10715;0
+2024-2025;081401081021;Conservatori di Musica;Antonio Scontrino;TRAPANI;05 ;Altro da studenti non costituenti gettito;8288;0;4800;0
+2024-2025;082402082053;Conservatori di Musica;Alessandro Scarlatti;PALERMO;01a;Tasse e contributi per iscrizione e frequenza;286238;20000;354912;20000
+2024-2025;082402082053;Conservatori di Musica;Alessandro Scarlatti;PALERMO;02a;Tasse per esami di ammissione ed esami finali;8696;0;29440;0
+2024-2025;082402082053;Conservatori di Musica;Alessandro Scarlatti;PALERMO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;94080;0
+2024-2025;082402082053;Conservatori di Musica;Alessandro Scarlatti;PALERMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;082402082053;Conservatori di Musica;Alessandro Scarlatti;PALERMO;04 ;Diritti di segreteria;744;0;15755;0
+2024-2025;082402082053;Conservatori di Musica;Alessandro Scarlatti;PALERMO;05 ;Altro da studenti non costituenti gettito;7312;0;17712;0
+2024-2025;083401083048;Conservatori di Musica;Arcangelo Corelli;MESSINA;01a;Tasse e contributi per iscrizione e frequenza;49094;0;222699;0
+2024-2025;083401083048;Conservatori di Musica;Arcangelo Corelli;MESSINA;02a;Tasse per esami di ammissione ed esami finali;3630;0;5916;0
+2024-2025;083401083048;Conservatori di Musica;Arcangelo Corelli;MESSINA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;59780;0
+2024-2025;083401083048;Conservatori di Musica;Arcangelo Corelli;MESSINA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;083401083048;Conservatori di Musica;Arcangelo Corelli;MESSINA;04 ;Diritti di segreteria;0;0;5440;0
+2024-2025;083401083048;Conservatori di Musica;Arcangelo Corelli;MESSINA;05 ;Altro da studenti non costituenti gettito;0;0;12880;0
+2024-2025;084402084033;Conservatori di Musica;Arturo Toscanini;RIBERA (AG);01a;Tasse e contributi per iscrizione e frequenza;28500;0;107755;0
+2024-2025;084402084033;Conservatori di Musica;Arturo Toscanini;RIBERA (AG);02a;Tasse per esami di ammissione ed esami finali;1200;0;4710;0
+2024-2025;084402084033;Conservatori di Musica;Arturo Toscanini;RIBERA (AG);03a;Tassa regionale per il DSU versata all'Istituto;0;0;32760;0
+2024-2025;084402084033;Conservatori di Musica;Arturo Toscanini;RIBERA (AG);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;084402084033;Conservatori di Musica;Arturo Toscanini;RIBERA (AG);04 ;Diritti di segreteria;0;0;550;0
+2024-2025;084402084033;Conservatori di Musica;Arturo Toscanini;RIBERA (AG);05 ;Altro da studenti non costituenti gettito;3125;0;6204;0
+2024-2025;085401085004;Conservatori di Musica;Vincenzo Bellini;CALTANISSETTA;01a;Tasse e contributi per iscrizione e frequenza;83301,72;0;141821,06;0
+2024-2025;085401085004;Conservatori di Musica;Vincenzo Bellini;CALTANISSETTA;02a;Tasse per esami di ammissione ed esami finali;3124,22;0;10809,58;0
+2024-2025;085401085004;Conservatori di Musica;Vincenzo Bellini;CALTANISSETTA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;44664;0
+2024-2025;085401085004;Conservatori di Musica;Vincenzo Bellini;CALTANISSETTA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;085401085004;Conservatori di Musica;Vincenzo Bellini;CALTANISSETTA;04 ;Diritti di segreteria;125;0;0;0
+2024-2025;085401085004;Conservatori di Musica;Vincenzo Bellini;CALTANISSETTA;05 ;Altro da studenti non costituenti gettito;0;0;6128;0
+2024-2025;087402087015;Conservatori di Musica;Vincenzo Bellini;CATANIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;245846;0
+2024-2025;087402087015;Conservatori di Musica;Vincenzo Bellini;CATANIA;02a;Tasse per esami di ammissione ed esami finali;0;0;13631,06;0
+2024-2025;087402087015;Conservatori di Musica;Vincenzo Bellini;CATANIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;087402087015;Conservatori di Musica;Vincenzo Bellini;CATANIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;69197,63;0
+2024-2025;087402087015;Conservatori di Musica;Vincenzo Bellini;CATANIA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;087402087015;Conservatori di Musica;Vincenzo Bellini;CATANIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;090402090064;Conservatori di Musica;Luigi Canepa;SASSARI;01a;Tasse e contributi per iscrizione e frequenza;41350;0;107669,8;0
+2024-2025;090402090064;Conservatori di Musica;Luigi Canepa;SASSARI;02a;Tasse per esami di ammissione ed esami finali;3246,64;0;3570;0
+2024-2025;090402090064;Conservatori di Musica;Luigi Canepa;SASSARI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;090402090064;Conservatori di Musica;Luigi Canepa;SASSARI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;10220;0
+2024-2025;090402090064;Conservatori di Musica;Luigi Canepa;SASSARI;04 ;Diritti di segreteria;796;0;955;0
+2024-2025;090402090064;Conservatori di Musica;Luigi Canepa;SASSARI;05 ;Altro da studenti non costituenti gettito;80;0;6192;0
+2024-2025;092401092009;Conservatori di Musica;Pierluigi da Palestrina;CAGLIARI;01a;Tasse e contributi per iscrizione e frequenza;82639,16;0;215963,04;0
+2024-2025;092401092009;Conservatori di Musica;Pierluigi da Palestrina;CAGLIARI;02a;Tasse per esami di ammissione ed esami finali;2800;0;2780;0
+2024-2025;092401092009;Conservatori di Musica;Pierluigi da Palestrina;CAGLIARI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;092401092009;Conservatori di Musica;Pierluigi da Palestrina;CAGLIARI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;092401092009;Conservatori di Musica;Pierluigi da Palestrina;CAGLIARI;04 ;Diritti di segreteria;0;0;3088;0
+2024-2025;092401092009;Conservatori di Musica;Pierluigi da Palestrina;CAGLIARI;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;102401102047;Conservatori di Musica;Fausto Torrefranca;VIBO VALENTIA;01a;Tasse e contributi per iscrizione e frequenza;75951,4;0;130320,6;0
+2024-2025;102401102047;Conservatori di Musica;Fausto Torrefranca;VIBO VALENTIA;02a;Tasse per esami di ammissione ed esami finali;3300;0;8500;0
+2024-2025;102401102047;Conservatori di Musica;Fausto Torrefranca;VIBO VALENTIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;102401102047;Conservatori di Musica;Fausto Torrefranca;VIBO VALENTIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;45687;0
+2024-2025;102401102047;Conservatori di Musica;Fausto Torrefranca;VIBO VALENTIA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;102401102047;Conservatori di Musica;Fausto Torrefranca;VIBO VALENTIA;05 ;Altro da studenti non costituenti gettito;850;0;1000;0
+2024-2025;007501007003;Istituti superiori di Studi Musicali;della VALLE D'AOSTA;AOSTA;01a;Tasse e contributi per iscrizione e frequenza;0;0;133385;0
+2024-2025;007501007003;Istituti superiori di Studi Musicali;della VALLE D'AOSTA;AOSTA;02a;Tasse per esami di ammissione ed esami finali;0;0;12100;0
+2024-2025;007501007003;Istituti superiori di Studi Musicali;della VALLE D'AOSTA;AOSTA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;007501007003;Istituti superiori di Studi Musicali;della VALLE D'AOSTA;AOSTA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;14840;0
+2024-2025;007501007003;Istituti superiori di Studi Musicali;della VALLE D'AOSTA;AOSTA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;007501007003;Istituti superiori di Studi Musicali;della VALLE D'AOSTA;AOSTA;05 ;Altro da studenti non costituenti gettito;0;0;1390;0
+2024-2025;039602039010;Istituti superiori per le Industrie Artistiche;;FAENZA (RA);01a;Tasse e contributi per iscrizione e frequenza;0;0,3;158372,52;0
+2024-2025;039602039010;Istituti superiori per le Industrie Artistiche;;FAENZA (RA);02a;Tasse per esami di ammissione ed esami finali;0;0;2735,46;0
+2024-2025;039602039010;Istituti superiori per le Industrie Artistiche;;FAENZA (RA);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;039602039010;Istituti superiori per le Industrie Artistiche;;FAENZA (RA);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;20860;0
+2024-2025;039602039010;Istituti superiori per le Industrie Artistiche;;FAENZA (RA);04 ;Diritti di segreteria;0;0;371,39;0
+2024-2025;039602039010;Istituti superiori per le Industrie Artistiche;;FAENZA (RA);05 ;Altro da studenti non costituenti gettito;0;0;2581;0
+2024-2025;041603041067;Istituti superiori per le Industrie Artistiche;;URBINO (PU);01a;Tasse e contributi per iscrizione e frequenza;0;0;321889,1;0
+2024-2025;041603041067;Istituti superiori per le Industrie Artistiche;;URBINO (PU);02a;Tasse per esami di ammissione ed esami finali;0;0;12120;0
+2024-2025;041603041067;Istituti superiori per le Industrie Artistiche;;URBINO (PU);03a;Tassa regionale per il DSU versata all'Istituto;0;0;32620;0
+2024-2025;041603041067;Istituti superiori per le Industrie Artistiche;;URBINO (PU);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;041603041067;Istituti superiori per le Industrie Artistiche;;URBINO (PU);04 ;Diritti di segreteria;0;0;0;0
+2024-2025;041603041067;Istituti superiori per le Industrie Artistiche;;URBINO (PU);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;048603048017;Istituti superiori per le Industrie Artistiche;;FIRENZE;01a;Tasse e contributi per iscrizione e frequenza;0;0;247974,38;0
+2024-2025;048603048017;Istituti superiori per le Industrie Artistiche;;FIRENZE;02a;Tasse per esami di ammissione ed esami finali;0;0;14072,76;0
+2024-2025;048603048017;Istituti superiori per le Industrie Artistiche;;FIRENZE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;048603048017;Istituti superiori per le Industrie Artistiche;;FIRENZE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;420;21560;420
+2024-2025;048603048017;Istituti superiori per le Industrie Artistiche;;FIRENZE;04 ;Diritti di segreteria;0;0;800;0
+2024-2025;048603048017;Istituti superiori per le Industrie Artistiche;;FIRENZE;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058605058091;Istituti superiori per le Industrie Artistiche;;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;192;462019,91;192
+2024-2025;058605058091;Istituti superiori per le Industrie Artistiche;;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;6729,56;0
+2024-2025;058605058091;Istituti superiori per le Industrie Artistiche;;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058605058091;Istituti superiori per le Industrie Artistiche;;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;1680;36680;1680
+2024-2025;058605058091;Istituti superiori per le Industrie Artistiche;;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058605058091;Istituti superiori per le Industrie Artistiche;;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058616093033;Istituti superiori per le Industrie Artistiche;;PORDENONE;01a;Tasse e contributi per iscrizione e frequenza;0;0;279513,2;0
+2024-2025;058616093033;Istituti superiori per le Industrie Artistiche;;PORDENONE;02a;Tasse per esami di ammissione ed esami finali;0;0;5162,09;0
+2024-2025;058616093033;Istituti superiori per le Industrie Artistiche;;PORDENONE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058616093033;Istituti superiori per le Industrie Artistiche;;PORDENONE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;23525,34;0
+2024-2025;058616093033;Istituti superiori per le Industrie Artistiche;;PORDENONE;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058616093033;Istituti superiori per le Industrie Artistiche;;PORDENONE;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;068602068028;Istituti superiori per le Industrie Artistiche;;PESCARA;01a;Tasse e contributi per iscrizione e frequenza;0;42000;96292,15;42000
+2024-2025;068602068028;Istituti superiori per le Industrie Artistiche;;PESCARA;02a;Tasse per esami di ammissione ed esami finali;0;0;998,94;0
+2024-2025;068602068028;Istituti superiori per le Industrie Artistiche;;PESCARA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;17640;0
+2024-2025;068602068028;Istituti superiori per le Industrie Artistiche;;PESCARA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;068602068028;Istituti superiori per le Industrie Artistiche;;PESCARA;04 ;Diritti di segreteria;0;100;800;100
+2024-2025;068602068028;Istituti superiori per le Industrie Artistiche;;PESCARA;05 ;Altro da studenti non costituenti gettito;0;224;2496;224
+2024-2025;004702004078;Accademie Legalmente Riconosciute;Accademia di Belle Arti di CUNEO;CUNEO;01a;Tasse e contributi per iscrizione e frequenza;0;0;1400000;0
+2024-2025;004702004078;Accademie Legalmente Riconosciute;Accademia di Belle Arti di CUNEO;CUNEO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;004702004078;Accademie Legalmente Riconosciute;Accademia di Belle Arti di CUNEO;CUNEO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;004702004078;Accademie Legalmente Riconosciute;Accademia di Belle Arti di CUNEO;CUNEO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;50000;0
+2024-2025;004702004078;Accademie Legalmente Riconosciute;Accademia di Belle Arti di CUNEO;CUNEO;04 ;Diritti di segreteria;0;0;3000;0
+2024-2025;004702004078;Accademie Legalmente Riconosciute;Accademia di Belle Arti di CUNEO;CUNEO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;008701008055;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di SANREMO;SANREMO (IM);01a;Tasse e contributi per iscrizione e frequenza;0;0;573100;0
+2024-2025;008701008055;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di SANREMO;SANREMO (IM);02a;Tasse per esami di ammissione ed esami finali;0;0;26700;0
+2024-2025;008701008055;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di SANREMO;SANREMO (IM);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;008701008055;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di SANREMO;SANREMO (IM);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;13177,8;0
+2024-2025;008701008055;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di SANREMO;SANREMO (IM);04 ;Diritti di segreteria;0;0;0;0
+2024-2025;008701008055;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di SANREMO;SANREMO (IM);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;008702015146;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di MILANO (sede decentrata Accademia I. Duncan di SANREMO);MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;1201700;0
+2024-2025;008702015146;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di MILANO (sede decentrata Accademia I. Duncan di SANREMO);MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;51600;0
+2024-2025;008702015146;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di MILANO (sede decentrata Accademia I. Duncan di SANREMO);MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;008702015146;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di MILANO (sede decentrata Accademia I. Duncan di SANREMO);MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;27840;0
+2024-2025;008702015146;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di MILANO (sede decentrata Accademia I. Duncan di SANREMO);MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;008702015146;Accademie Legalmente Riconosciute;Accademia di Belle Arti Isadora Duncan di MILANO (sede decentrata Accademia I. Duncan di SANREMO);MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;013702013075;Accademie Legalmente Riconosciute;Accademia di Belle Arti Aldo Galli di COMO;COMO;01a;Tasse e contributi per iscrizione e frequenza;0;683323,725;400237;194999,725
+2024-2025;013702013075;Accademie Legalmente Riconosciute;Accademia di Belle Arti Aldo Galli di COMO;COMO;02a;Tasse per esami di ammissione ed esami finali;0;360;11840;360
+2024-2025;013702013075;Accademie Legalmente Riconosciute;Accademia di Belle Arti Aldo Galli di COMO;COMO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;5180;0
+2024-2025;013702013075;Accademie Legalmente Riconosciute;Accademia di Belle Arti Aldo Galli di COMO;COMO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;013702013075;Accademie Legalmente Riconosciute;Accademia di Belle Arti Aldo Galli di COMO;COMO;04 ;Diritti di segreteria;0;0;1840;0
+2024-2025;013702013075;Accademie Legalmente Riconosciute;Accademia di Belle Arti Aldo Galli di COMO;COMO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015703015146;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;1493071;71912039;1493071
+2024-2025;015703015146;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;59350;1010450;59350
+2024-2025;015703015146;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;692720;0
+2024-2025;015703015146;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015703015146;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015703015146;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015704015145;Accademie Legalmente Riconosciute;Accademia di Belle Arti ACME di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;1008450;0
+2024-2025;015704015145;Accademie Legalmente Riconosciute;Accademia di Belle Arti ACME di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;21600;0
+2024-2025;015704015145;Accademie Legalmente Riconosciute;Accademia di Belle Arti ACME di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;20860;0
+2024-2025;015704015145;Accademie Legalmente Riconosciute;Accademia di Belle Arti ACME di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015704015145;Accademie Legalmente Riconosciute;Accademia di Belle Arti ACME di MILANO;MILANO;04 ;Diritti di segreteria;0;0;6840;0
+2024-2025;015704015145;Accademie Legalmente Riconosciute;Accademia di Belle Arti ACME di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015705058091;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di ROMA (sede decentrata Nuova Accademia di Belle Arti di MILANO);ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;17800;7462485;17800
+2024-2025;015705058091;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di ROMA (sede decentrata Nuova Accademia di Belle Arti di MILANO);ROMA;02a;Tasse per esami di ammissione ed esami finali;0;540;109890;540
+2024-2025;015705058091;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di ROMA (sede decentrata Nuova Accademia di Belle Arti di MILANO);ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;87920;0
+2024-2025;015705058091;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di ROMA (sede decentrata Nuova Accademia di Belle Arti di MILANO);ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015705058091;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di ROMA (sede decentrata Nuova Accademia di Belle Arti di MILANO);ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015705058091;Accademie Legalmente Riconosciute;Nuova Accademia di Belle Arti NABA di ROMA (sede decentrata Nuova Accademia di Belle Arti di MILANO);ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;017703017029;Accademie Legalmente Riconosciute;Accademia di Belle Arti SantaGiulia di BRESCIA;BRESCIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;4546665;0
+2024-2025;017703017029;Accademie Legalmente Riconosciute;Accademia di Belle Arti SantaGiulia di BRESCIA;BRESCIA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;017703017029;Accademie Legalmente Riconosciute;Accademia di Belle Arti SantaGiulia di BRESCIA;BRESCIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;135520;0
+2024-2025;017703017029;Accademie Legalmente Riconosciute;Accademia di Belle Arti SantaGiulia di BRESCIA;BRESCIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;017703017029;Accademie Legalmente Riconosciute;Accademia di Belle Arti SantaGiulia di BRESCIA;BRESCIA;04 ;Diritti di segreteria;0;0;19421;0
+2024-2025;017703017029;Accademie Legalmente Riconosciute;Accademia di Belle Arti SantaGiulia di BRESCIA;BRESCIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;017704017029;Accademie Legalmente Riconosciute;Libera Accademia di Belle Arti LABA di BRESCIA;BRESCIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;6240102,87;0
+2024-2025;017704017029;Accademie Legalmente Riconosciute;Libera Accademia di Belle Arti LABA di BRESCIA;BRESCIA;02a;Tasse per esami di ammissione ed esami finali;0;0;100700;0
+2024-2025;017704017029;Accademie Legalmente Riconosciute;Libera Accademia di Belle Arti LABA di BRESCIA;BRESCIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;201460;0
+2024-2025;017704017029;Accademie Legalmente Riconosciute;Libera Accademia di Belle Arti LABA di BRESCIA;BRESCIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;017704017029;Accademie Legalmente Riconosciute;Libera Accademia di Belle Arti LABA di BRESCIA;BRESCIA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;017704017029;Accademie Legalmente Riconosciute;Libera Accademia di Belle Arti LABA di BRESCIA;BRESCIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;056701056059;Accademie Legalmente Riconosciute;Accademia di Belle Arti Lorenzo da Viterbo di VITERBO;VITERBO;01a;Tasse e contributi per iscrizione e frequenza;0;0;449744;0
+2024-2025;056701056059;Accademie Legalmente Riconosciute;Accademia di Belle Arti Lorenzo da Viterbo di VITERBO;VITERBO;02a;Tasse per esami di ammissione ed esami finali;0;0;40500;0
+2024-2025;056701056059;Accademie Legalmente Riconosciute;Accademia di Belle Arti Lorenzo da Viterbo di VITERBO;VITERBO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;056701056059;Accademie Legalmente Riconosciute;Accademia di Belle Arti Lorenzo da Viterbo di VITERBO;VITERBO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;4760;0
+2024-2025;056701056059;Accademie Legalmente Riconosciute;Accademia di Belle Arti Lorenzo da Viterbo di VITERBO;VITERBO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;056701056059;Accademie Legalmente Riconosciute;Accademia di Belle Arti Lorenzo da Viterbo di VITERBO;VITERBO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058706058091;Accademie Legalmente Riconosciute;Rome University of fine arts  - Accademia di Belle Arti RUFA di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;302544,94;8086814,82;302544,94
+2024-2025;058706058091;Accademie Legalmente Riconosciute;Rome University of fine arts  - Accademia di Belle Arti RUFA di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;165002;0
+2024-2025;058706058091;Accademie Legalmente Riconosciute;Rome University of fine arts  - Accademia di Belle Arti RUFA di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058706058091;Accademie Legalmente Riconosciute;Rome University of fine arts  - Accademia di Belle Arti RUFA di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;163660;0
+2024-2025;058706058091;Accademie Legalmente Riconosciute;Rome University of fine arts  - Accademia di Belle Arti RUFA di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058706058091;Accademie Legalmente Riconosciute;Rome University of fine arts  - Accademia di Belle Arti RUFA di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058714015146;Accademie Legalmente Riconosciute;Rome University of fine arts - Accademia di Belle Arti RUFA di MILANO  (sede decentrata dell'Accademia RUFA di ROMA);MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;339804,73;0
+2024-2025;058714015146;Accademie Legalmente Riconosciute;Rome University of fine arts - Accademia di Belle Arti RUFA di MILANO  (sede decentrata dell'Accademia RUFA di ROMA);MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;2550;0
+2024-2025;058714015146;Accademie Legalmente Riconosciute;Rome University of fine arts - Accademia di Belle Arti RUFA di MILANO  (sede decentrata dell'Accademia RUFA di ROMA);MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058714015146;Accademie Legalmente Riconosciute;Rome University of fine arts - Accademia di Belle Arti RUFA di MILANO  (sede decentrata dell'Accademia RUFA di ROMA);MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;6580;0
+2024-2025;058714015146;Accademie Legalmente Riconosciute;Rome University of fine arts - Accademia di Belle Arti RUFA di MILANO  (sede decentrata dell'Accademia RUFA di ROMA);MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058714015146;Accademie Legalmente Riconosciute;Rome University of fine arts - Accademia di Belle Arti RUFA di MILANO  (sede decentrata dell'Accademia RUFA di ROMA);MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;089701089017;Accademie Legalmente Riconosciute;Accademia di Belle Arti Rosario Gagliardi di SIRACUSA;SIRACUSA;01a;Tasse e contributi per iscrizione e frequenza;0;17400;266044;0
+2024-2025;089701089017;Accademie Legalmente Riconosciute;Accademia di Belle Arti Rosario Gagliardi di SIRACUSA;SIRACUSA;02a;Tasse per esami di ammissione ed esami finali;0;0;1250;0
+2024-2025;089701089017;Accademie Legalmente Riconosciute;Accademia di Belle Arti Rosario Gagliardi di SIRACUSA;SIRACUSA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;089701089017;Accademie Legalmente Riconosciute;Accademia di Belle Arti Rosario Gagliardi di SIRACUSA;SIRACUSA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;1074;0
+2024-2025;089701089017;Accademie Legalmente Riconosciute;Accademia di Belle Arti Rosario Gagliardi di SIRACUSA;SIRACUSA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;089701089017;Accademie Legalmente Riconosciute;Accademia di Belle Arti Rosario Gagliardi di SIRACUSA;SIRACUSA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;001803001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto di Arte Applicata e Design (IAAD) di TORINO;TORINO;01a;Tasse e contributi per iscrizione e frequenza;0;0;5194264;0
+2024-2025;001803001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto di Arte Applicata e Design (IAAD) di TORINO;TORINO;02a;Tasse per esami di ammissione ed esami finali;0;0;42865;0
+2024-2025;001803001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto di Arte Applicata e Design (IAAD) di TORINO;TORINO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;81900;0
+2024-2025;001803001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto di Arte Applicata e Design (IAAD) di TORINO;TORINO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;001803001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto di Arte Applicata e Design (IAAD) di TORINO;TORINO;04 ;Diritti di segreteria;0;0;105331;0
+2024-2025;001803001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto di Arte Applicata e Design (IAAD) di TORINO;TORINO;05 ;Altro da studenti non costituenti gettito;0;0;1984;0
+2024-2025;003803003106;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola del Teatro Musicale di NOVARA;NOVARA;01a;Tasse e contributi per iscrizione e frequenza;0;0;746900;0
+2024-2025;003803003106;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola del Teatro Musicale di NOVARA;NOVARA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;003803003106;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola del Teatro Musicale di NOVARA;NOVARA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;14140;0
+2024-2025;003803003106;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola del Teatro Musicale di NOVARA;NOVARA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;003803003106;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola del Teatro Musicale di NOVARA;NOVARA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;003803003106;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola del Teatro Musicale di NOVARA;NOVARA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;10574442;0
+2024-2025;015806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;96863;0
+2024-2025;015806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;133140;0
+2024-2025;015806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015807001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di TORINO;TORINO;01a;Tasse e contributi per iscrizione e frequenza;0;19722;9319174;19722
+2024-2025;015807001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di TORINO;TORINO;02a;Tasse per esami di ammissione ed esami finali;0;0;33989;0
+2024-2025;015807001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di TORINO;TORINO;03a;Tassa regionale per il DSU versata all'Istituto;0;980;105560;980
+2024-2025;015807001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di TORINO;TORINO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015807001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di TORINO;TORINO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015807001272;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di TORINO;TORINO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015808092009;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di CAGLIARI;CAGLIARI;01a;Tasse e contributi per iscrizione e frequenza;0;0;1292483;0
+2024-2025;015808092009;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di CAGLIARI;CAGLIARI;02a;Tasse per esami di ammissione ed esami finali;0;0;16684;0
+2024-2025;015808092009;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di CAGLIARI;CAGLIARI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;21420;0
+2024-2025;015808092009;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di CAGLIARI;CAGLIARI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015808092009;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di CAGLIARI;CAGLIARI;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015808092009;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di CAGLIARI;CAGLIARI;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015809015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Milano Civica Scuola di Musica di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;1392508,69;0
+2024-2025;015809015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Milano Civica Scuola di Musica di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;39326;0
+2024-2025;015809015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Milano Civica Scuola di Musica di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;74200;0
+2024-2025;015809015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Milano Civica Scuola di Musica di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015809015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Milano Civica Scuola di Musica di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015809015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Milano Civica Scuola di Musica di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015810015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;308315;33663666;308315
+2024-2025;015810015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;320;272694;320
+2024-2025;015810015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;383180;0
+2024-2025;015810015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015810015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015810015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015811015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;11561571;38766547;11561571
+2024-2025;015811015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;015811015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;015811015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015811015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015811015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015812015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Mussida Music Publishing di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;1877867;0
+2024-2025;015812015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Mussida Music Publishing di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;81525;0
+2024-2025;015812015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Mussida Music Publishing di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;33600;0
+2024-2025;015812015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Mussida Music Publishing di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015812015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Mussida Music Publishing di MILANO;MILANO;04 ;Diritti di segreteria;0;0;60500;0
+2024-2025;015812015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Mussida Music Publishing di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;964;0
+2024-2025;015813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SAE Italia International Technology College di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;3814981;0
+2024-2025;015813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SAE Italia International Technology College di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;015813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SAE Italia International Technology College di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;015813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SAE Italia International Technology College di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SAE Italia International Technology College di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SAE Italia International Technology College di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015814015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Civica Scuola di Teatro Paolo Grassi di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;362003,8;0
+2024-2025;015814015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Civica Scuola di Teatro Paolo Grassi di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;75780;0
+2024-2025;015814015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Civica Scuola di Teatro Paolo Grassi di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;14700;0
+2024-2025;015814015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Civica Scuola di Teatro Paolo Grassi di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015814015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Civica Scuola di Teatro Paolo Grassi di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015814015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Civica Scuola di Teatro Paolo Grassi di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015814048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di FIRENZE;FIRENZE;01a;Tasse e contributi per iscrizione e frequenza;0;0;4911630;0
+2024-2025;015814048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di FIRENZE;FIRENZE;02a;Tasse per esami di ammissione ed esami finali;0;0;32090;0
+2024-2025;015814048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di FIRENZE;FIRENZE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;57960;0
+2024-2025;015814048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di FIRENZE;FIRENZE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015814048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di FIRENZE;FIRENZE;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015814048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Europeo del Design (IED) - sede di FIRENZE;FIRENZE;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Fondazione Accademia d’Arti e Mestieri dello spettacolo Teatro alla Scala di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;506745;0
+2024-2025;015815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Fondazione Accademia d’Arti e Mestieri dello spettacolo Teatro alla Scala di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;5246,08;0
+2024-2025;015815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Fondazione Accademia d’Arti e Mestieri dello spettacolo Teatro alla Scala di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;10220;0
+2024-2025;015815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Fondazione Accademia d’Arti e Mestieri dello spettacolo Teatro alla Scala di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Fondazione Accademia d’Arti e Mestieri dello spettacolo Teatro alla Scala di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Fondazione Accademia d’Arti e Mestieri dello spettacolo Teatro alla Scala di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015816048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di FIRENZE (sede decentrata dell'Istituto Marangoni MILANO);FIRENZE;01a;Tasse e contributi per iscrizione e frequenza;0;1196175;4118900;1196175
+2024-2025;015816048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di FIRENZE (sede decentrata dell'Istituto Marangoni MILANO);FIRENZE;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;015816048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di FIRENZE (sede decentrata dell'Istituto Marangoni MILANO);FIRENZE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;015816048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di FIRENZE (sede decentrata dell'Istituto Marangoni MILANO);FIRENZE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015816048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di FIRENZE (sede decentrata dell'Istituto Marangoni MILANO);FIRENZE;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015816048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Marangoni di FIRENZE (sede decentrata dell'Istituto Marangoni MILANO);FIRENZE;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015817015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;4955177;0
+2024-2025;015817015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;015817015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;015817015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;35602;0
+2024-2025;015817015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015817015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015818015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Raffles di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;451475;0
+2024-2025;015818015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Raffles di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;015818015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Raffles di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;5740;0
+2024-2025;015818015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Raffles di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015818015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Raffles di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015818015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Raffles di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;5473;0
+2024-2025;015819015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Secoli di MILANO;MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;813164;0
+2024-2025;015819015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Secoli di MILANO;MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;015819015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Secoli di MILANO;MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;12600;0
+2024-2025;015819015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Secoli di MILANO;MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015819015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Secoli di MILANO;MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015819015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Secoli di MILANO;MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;015820058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di ROMA  (sede decentrata dell'Accademia del Lusso di MILANO);ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;993576;0
+2024-2025;015820058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di ROMA  (sede decentrata dell'Accademia del Lusso di MILANO);ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;015820058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di ROMA  (sede decentrata dell'Accademia del Lusso di MILANO);ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;015820058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di ROMA  (sede decentrata dell'Accademia del Lusso di MILANO);ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;015820058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di ROMA  (sede decentrata dell'Accademia del Lusso di MILANO);ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;015820058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);ADLM s.r.l. a socio unico - Accademia del Lusso di ROMA  (sede decentrata dell'Accademia del Lusso di MILANO);ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;022803022205;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Trentino Art Academy di TRENTO;TRENTO;01a;Tasse e contributi per iscrizione e frequenza;0;0;271554;0
+2024-2025;022803022205;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Trentino Art Academy di TRENTO;TRENTO;02a;Tasse per esami di ammissione ed esami finali;0;0;2880;0
+2024-2025;022803022205;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Trentino Art Academy di TRENTO;TRENTO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;022803022205;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Trentino Art Academy di TRENTO;TRENTO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;022803022205;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Trentino Art Academy di TRENTO;TRENTO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;022803022205;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Trentino Art Academy di TRENTO;TRENTO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;028802028060;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SID - Scuola Italiana Design del Parco Scientifico e Tecnologico Galileo S.c.p.A di PADOVA;PADOVA;01a;Tasse e contributi per iscrizione e frequenza;0;0;903400;0
+2024-2025;028802028060;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SID - Scuola Italiana Design del Parco Scientifico e Tecnologico Galileo S.c.p.A di PADOVA;PADOVA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;028802028060;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SID - Scuola Italiana Design del Parco Scientifico e Tecnologico Galileo S.c.p.A di PADOVA;PADOVA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;028802028060;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SID - Scuola Italiana Design del Parco Scientifico e Tecnologico Galileo S.c.p.A di PADOVA;PADOVA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;028802028060;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SID - Scuola Italiana Design del Parco Scientifico e Tecnologico Galileo S.c.p.A di PADOVA;PADOVA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;028802028060;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);SID - Scuola Italiana Design del Parco Scientifico e Tecnologico Galileo S.c.p.A di PADOVA;PADOVA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;030802030129;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Belle Arti G.B. Tiepolo di UDINE;UDINE;01a;Tasse e contributi per iscrizione e frequenza;0;0;3733494,76;0
+2024-2025;030802030129;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Belle Arti G.B. Tiepolo di UDINE;UDINE;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;030802030129;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Belle Arti G.B. Tiepolo di UDINE;UDINE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;63047,56;0
+2024-2025;030802030129;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Belle Arti G.B. Tiepolo di UDINE;UDINE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;030802030129;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Belle Arti G.B. Tiepolo di UDINE;UDINE;04 ;Diritti di segreteria;0;0;1300,32;0
+2024-2025;030802030129;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Belle Arti G.B. Tiepolo di UDINE;UDINE;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;037804037006;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);The Bernstein School of Musical Theater di BOLOGNA;BOLOGNA;01a;Tasse e contributi per iscrizione e frequenza;0;0;893658;0
+2024-2025;037804037006;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);The Bernstein School of Musical Theater di BOLOGNA;BOLOGNA;02a;Tasse per esami di ammissione ed esami finali;0;0;3500;0
+2024-2025;037804037006;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);The Bernstein School of Musical Theater di BOLOGNA;BOLOGNA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;037804037006;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);The Bernstein School of Musical Theater di BOLOGNA;BOLOGNA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;037804037006;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);The Bernstein School of Musical Theater di BOLOGNA;BOLOGNA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;037804037006;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);The Bernstein School of Musical Theater di BOLOGNA;BOLOGNA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;042802042002;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Poliarte di ANCONA;ANCONA;01a;Tasse e contributi per iscrizione e frequenza;0;0;1224280;0
+2024-2025;042802042002;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Poliarte di ANCONA;ANCONA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;042802042002;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Poliarte di ANCONA;ANCONA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;27580;0
+2024-2025;042802042002;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Poliarte di ANCONA;ANCONA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;042802042002;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Poliarte di ANCONA;ANCONA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;042802042002;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Poliarte di ANCONA;ANCONA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;048805048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di FIRENZE;FIRENZE;01a;Tasse e contributi per iscrizione e frequenza;0;0;4221015;0
+2024-2025;048805048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di FIRENZE;FIRENZE;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;048805048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di FIRENZE;FIRENZE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;048805048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di FIRENZE;FIRENZE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;61180;0
+2024-2025;048805048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di FIRENZE;FIRENZE;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;048805048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di FIRENZE;FIRENZE;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;048806048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di FIRENZE;FIRENZE;01a;Tasse e contributi per iscrizione e frequenza;0;0;4992525;0
+2024-2025;048806048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di FIRENZE;FIRENZE;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;048806048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di FIRENZE;FIRENZE;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;048806048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di FIRENZE;FIRENZE;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;88060;0
+2024-2025;048806048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di FIRENZE;FIRENZE;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;048806048017;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di FIRENZE;FIRENZE;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;048806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;2171170;0
+2024-2025;048806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;600;0
+2024-2025;048806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;048806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;24220;0
+2024-2025;048806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;048806058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Italiana di Arte, Moda e Design - sede di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;048807048015;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola di Musica di FIESOLE;FIESOLE (FI);01a;Tasse e contributi per iscrizione e frequenza;0;0;369453;0
+2024-2025;048807048015;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola di Musica di FIESOLE;FIESOLE (FI);02a;Tasse per esami di ammissione ed esami finali;0;0;11800;0
+2024-2025;048807048015;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola di Musica di FIESOLE;FIESOLE (FI);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;048807048015;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola di Musica di FIESOLE;FIESOLE (FI);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;14280;0
+2024-2025;048807048015;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola di Musica di FIESOLE;FIESOLE (FI);04 ;Diritti di segreteria;0;0;0;0
+2024-2025;048807048015;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Scuola di Musica di FIESOLE;FIESOLE (FI);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;050801050026;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Modartech di PISA;PISA;01a;Tasse e contributi per iscrizione e frequenza;0;64500;2644450;64500
+2024-2025;050801050026;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Modartech di PISA;PISA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;050801050026;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Modartech di PISA;PISA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;050801050026;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Modartech di PISA;PISA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;1260;43400;1260
+2024-2025;050801050026;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Modartech di PISA;PISA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;050801050026;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Modartech di PISA;PISA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;052802052032;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Siena Jazz - Accademia Nazionale del Jazz di SIENA;SIENA;01a;Tasse e contributi per iscrizione e frequenza;0;0;217400;0
+2024-2025;052802052032;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Siena Jazz - Accademia Nazionale del Jazz di SIENA;SIENA;02a;Tasse per esami di ammissione ed esami finali;0;0;4800;0
+2024-2025;052802052032;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Siena Jazz - Accademia Nazionale del Jazz di SIENA;SIENA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;052802052032;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Siena Jazz - Accademia Nazionale del Jazz di SIENA;SIENA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;16940;0
+2024-2025;052802052032;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Siena Jazz - Accademia Nazionale del Jazz di SIENA;SIENA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;052802052032;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Siena Jazz - Accademia Nazionale del Jazz di SIENA;SIENA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;054803054039;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Italiano di Design di PERUGIA;PERUGIA;01a;Tasse e contributi per iscrizione e frequenza;0;0;301910,62;0
+2024-2025;054803054039;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Italiano di Design di PERUGIA;PERUGIA;02a;Tasse per esami di ammissione ed esami finali;0;0;4558,88;0
+2024-2025;054803054039;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Italiano di Design di PERUGIA;PERUGIA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;054803054039;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Italiano di Design di PERUGIA;PERUGIA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;054803054039;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Italiano di Design di PERUGIA;PERUGIA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;054803054039;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Italiano di Design di PERUGIA;PERUGIA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058807058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;1517903;3419463;1517903
+2024-2025;058807058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;30684;0
+2024-2025;058807058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058807058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;40320;0
+2024-2025;058807058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058807058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058808058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;3046500;0
+2024-2025;058808058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;058808058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058808058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;91280;0
+2024-2025;058808058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058808058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058809058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Pantheon Design e Technology di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;2426633;0
+2024-2025;058809058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Pantheon Design e Technology di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;058809058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Pantheon Design e Technology di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058809058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Pantheon Design e Technology di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;058809058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Pantheon Design e Technology di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058809058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto Pantheon Design e Technology di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058810058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Internazionale di Teatro di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;358570;0
+2024-2025;058810058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Internazionale di Teatro di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;6750;0
+2024-2025;058810058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Internazionale di Teatro di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058810058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Internazionale di Teatro di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;15400;0
+2024-2025;058810058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Internazionale di Teatro di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058810058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia Internazionale di Teatro di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;1840;0
+2024-2025;058811058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Quasar progetto S.R.L. di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;0;1579080;0
+2024-2025;058811058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Quasar progetto S.R.L. di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;65000;0
+2024-2025;058811058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Quasar progetto S.R.L. di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058811058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Quasar progetto S.R.L. di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;23940;0
+2024-2025;058811058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Quasar progetto S.R.L. di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058811058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Quasar progetto S.R.L. di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058812058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto DUOFIN ART - Accademia delle Arti e Nuove Tecnologie di ROMA;ROMA;01a;Tasse e contributi per iscrizione e frequenza;0;190820;2565432,659;190820
+2024-2025;058812058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto DUOFIN ART - Accademia delle Arti e Nuove Tecnologie di ROMA;ROMA;02a;Tasse per esami di ammissione ed esami finali;0;0;11900;0
+2024-2025;058812058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto DUOFIN ART - Accademia delle Arti e Nuove Tecnologie di ROMA;ROMA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058812058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto DUOFIN ART - Accademia delle Arti e Nuove Tecnologie di ROMA;ROMA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;66640;0
+2024-2025;058812058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto DUOFIN ART - Accademia delle Arti e Nuove Tecnologie di ROMA;ROMA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058812058091;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto DUOFIN ART - Accademia delle Arti e Nuove Tecnologie di ROMA;ROMA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di MILANO (sede decentrata dell'Accademia di Costume e Moda di ROMA);MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;454025;937597;454025
+2024-2025;058813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di MILANO (sede decentrata dell'Accademia di Costume e Moda di ROMA);MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;4501;0
+2024-2025;058813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di MILANO (sede decentrata dell'Accademia di Costume e Moda di ROMA);MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di MILANO (sede decentrata dell'Accademia di Costume e Moda di ROMA);MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;11620;0
+2024-2025;058813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di MILANO (sede decentrata dell'Accademia di Costume e Moda di ROMA);MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058813015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia di Costume e Moda di MILANO (sede decentrata dell'Accademia di Costume e Moda di ROMA);MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;058815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di MILANO (sede decentrata Saint Louis Music Center di ROMA);MILANO;01a;Tasse e contributi per iscrizione e frequenza;0;0;0;0
+2024-2025;058815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di MILANO (sede decentrata Saint Louis Music Center di ROMA);MILANO;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;058815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di MILANO (sede decentrata Saint Louis Music Center di ROMA);MILANO;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;058815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di MILANO (sede decentrata Saint Louis Music Center di ROMA);MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;0;0
+2024-2025;058815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di MILANO (sede decentrata Saint Louis Music Center di ROMA);MILANO;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;058815015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Saint Louis Music Center, College of Music di MILANO (sede decentrata Saint Louis Music Center di ROMA);MILANO;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;063803063049;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di NAPOLI;NAPOLI;01a;Tasse e contributi per iscrizione e frequenza;-1;-1;-1;-1
+2024-2025;063803063049;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di NAPOLI;NAPOLI;02a;Tasse per esami di ammissione ed esami finali;-1;-1;-1;-1
+2024-2025;063803063049;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di NAPOLI;NAPOLI;03a;Tassa regionale per il DSU versata all'Istituto;-1;-1;-1;-1
+2024-2025;063803063049;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di NAPOLI;NAPOLI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;-1;-1;-1;-1
+2024-2025;063803063049;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di NAPOLI;NAPOLI;04 ;Diritti di segreteria;-1;-1;-1;-1
+2024-2025;063803063049;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di NAPOLI;NAPOLI;05 ;Altro da studenti non costituenti gettito;-1;-1;-1;-1
+2024-2025;063804015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di MILANO (sede decentrata dell'Accademia della Moda di NAPOLI);MILANO;01a;Tasse e contributi per iscrizione e frequenza;-1;-1;-1;-1
+2024-2025;063804015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di MILANO (sede decentrata dell'Accademia della Moda di NAPOLI);MILANO;02a;Tasse per esami di ammissione ed esami finali;-1;-1;-1;-1
+2024-2025;063804015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di MILANO (sede decentrata dell'Accademia della Moda di NAPOLI);MILANO;03a;Tassa regionale per il DSU versata all'Istituto;-1;-1;-1;-1
+2024-2025;063804015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di MILANO (sede decentrata dell'Accademia della Moda di NAPOLI);MILANO;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;-1;-1;-1;-1
+2024-2025;063804015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di MILANO (sede decentrata dell'Accademia della Moda di NAPOLI);MILANO;04 ;Diritti di segreteria;-1;-1;-1;-1
+2024-2025;063804015146;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia della Moda di MILANO (sede decentrata dell'Accademia della Moda di NAPOLI);MILANO;05 ;Altro da studenti non costituenti gettito;-1;-1;-1;-1
+2024-2025;077802077014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto del Design (IFOR s.r.l.) di MATERA;MATERA;01a;Tasse e contributi per iscrizione e frequenza;0;0;278400;0
+2024-2025;077802077014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto del Design (IFOR s.r.l.) di MATERA;MATERA;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;077802077014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto del Design (IFOR s.r.l.) di MATERA;MATERA;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;077802077014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto del Design (IFOR s.r.l.) di MATERA;MATERA;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;8120;0
+2024-2025;077802077014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto del Design (IFOR s.r.l.) di MATERA;MATERA;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;077802077014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Istituto del Design (IFOR s.r.l.) di MATERA;MATERA;05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;087805087045;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia ABADIR di Sant'Agata Li Battiati;S.AGATA LI BATTIATI (CT);01a;Tasse e contributi per iscrizione e frequenza;0;120700;211100;120700
+2024-2025;087805087045;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia ABADIR di Sant'Agata Li Battiati;S.AGATA LI BATTIATI (CT);02a;Tasse per esami di ammissione ed esami finali;0;0;2480;0
+2024-2025;087805087045;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia ABADIR di Sant'Agata Li Battiati;S.AGATA LI BATTIATI (CT);03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;087805087045;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia ABADIR di Sant'Agata Li Battiati;S.AGATA LI BATTIATI (CT);03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;7756,5;0
+2024-2025;087805087045;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia ABADIR di Sant'Agata Li Battiati;S.AGATA LI BATTIATI (CT);04 ;Diritti di segreteria;0;0;0;0
+2024-2025;087805087045;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Accademia ABADIR di Sant'Agata Li Battiati;S.AGATA LI BATTIATI (CT);05 ;Altro da studenti non costituenti gettito;0;0;0;0
+2024-2025;099802099014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di RIMINI;RIMINI;01a;Tasse e contributi per iscrizione e frequenza;0;0;1500722;0
+2024-2025;099802099014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di RIMINI;RIMINI;02a;Tasse per esami di ammissione ed esami finali;0;0;0;0
+2024-2025;099802099014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di RIMINI;RIMINI;03a;Tassa regionale per il DSU versata all'Istituto;0;0;0;0
+2024-2025;099802099014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di RIMINI;RIMINI;03b;Tassa regionale per il DSU versata all'ente regionale per il DSU o alla Regione;0;0;58520;0
+2024-2025;099802099014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di RIMINI;RIMINI;04 ;Diritti di segreteria;0;0;0;0
+2024-2025;099802099014;Istituzioni autorizzate a rilasciare titoli AFAM (art.11 DPR 8.7.2005, n.212);Libera Accademia di Belle Arti di RIMINI;RIMINI;05 ;Altro da studenti non costituenti gettito;0;0;0;0

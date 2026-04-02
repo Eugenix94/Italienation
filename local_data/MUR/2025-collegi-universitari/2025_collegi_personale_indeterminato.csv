@@ -1,0 +1,77 @@
+DATA;TIPOLOGIA_COLLEGIO;CODICE_COLLEGIO;NOME_COLLEGIO;CODICE_TIPOLOGIA_PERSONALE;DESCRIZIONE_TIPOLOGIA_PERSONALE;NUMERO
+31/12/2024;CLR;0102;"Collegio universitario di Torino ''Renato Einaudi""";87;Dipendente dall'Ente full time a tempo indeterminato maschio;11
+31/12/2024;CLR;0102;"Collegio universitario di Torino ''Renato Einaudi""";88;Dipendente dall'Ente full time a tempo indeterminato femmina;13
+31/12/2024;CLR;0102;"Collegio universitario di Torino ''Renato Einaudi""";89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;0102;"Collegio universitario di Torino ''Renato Einaudi""";90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;0313;"Almo Collegio ''Borromeo""";87;Dipendente dall'Ente full time a tempo indeterminato maschio;13
+31/12/2024;CLR;0313;"Almo Collegio ''Borromeo""";88;Dipendente dall'Ente full time a tempo indeterminato femmina;4
+31/12/2024;CLR;0313;"Almo Collegio ''Borromeo""";89;Dipendente dall'Ente part time a tempo indeterminato maschio;5
+31/12/2024;CLR;0313;"Almo Collegio ''Borromeo""";90;Dipendente dall'Ente part time a tempo indeterminato femmina;4
+31/12/2024;CLR;0314;Collegio Nuovo - Fondazione Sandra e Enea Mattei;87;Dipendente dall'Ente full time a tempo indeterminato maschio;7
+31/12/2024;CLR;0314;Collegio Nuovo - Fondazione Sandra e Enea Mattei;88;Dipendente dall'Ente full time a tempo indeterminato femmina;11
+31/12/2024;CLR;0314;Collegio Nuovo - Fondazione Sandra e Enea Mattei;89;Dipendente dall'Ente part time a tempo indeterminato maschio;2
+31/12/2024;CLR;0314;Collegio Nuovo - Fondazione Sandra e Enea Mattei;90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;0316;Collegio universitario Ghislieri;87;Dipendente dall'Ente full time a tempo indeterminato maschio;10
+31/12/2024;CLR;0316;Collegio universitario Ghislieri;88;Dipendente dall'Ente full time a tempo indeterminato femmina;15
+31/12/2024;CLR;0316;Collegio universitario Ghislieri;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;0316;Collegio universitario Ghislieri;90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;0317;"Collegio universitario ''S. Caterina da Siena""";87;Dipendente dall'Ente full time a tempo indeterminato maschio;3
+31/12/2024;CLR;0317;"Collegio universitario ''S. Caterina da Siena""";88;Dipendente dall'Ente full time a tempo indeterminato femmina;2
+31/12/2024;CLR;0317;"Collegio universitario ''S. Caterina da Siena""";89;Dipendente dall'Ente part time a tempo indeterminato maschio;2
+31/12/2024;CLR;0317;"Collegio universitario ''S. Caterina da Siena""";90;Dipendente dall'Ente part time a tempo indeterminato femmina;4
+31/12/2024;CLR;0318;Fondazione Collegio delle Università Milanesi;87;Dipendente dall'Ente full time a tempo indeterminato maschio;3
+31/12/2024;CLR;0318;Fondazione Collegio delle Università Milanesi;88;Dipendente dall'Ente full time a tempo indeterminato femmina;5
+31/12/2024;CLR;0318;Fondazione Collegio delle Università Milanesi;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;0318;Fondazione Collegio delle Università Milanesi;90;Dipendente dall'Ente part time a tempo indeterminato femmina;1
+31/12/2024;CLR;0346;Collegio Universitario Lucchini di Brescia;87;Dipendente dall'Ente full time a tempo indeterminato maschio;2
+31/12/2024;CLR;0346;Collegio Universitario Lucchini di Brescia;88;Dipendente dall'Ente full time a tempo indeterminato femmina;1
+31/12/2024;CLR;0346;Collegio Universitario Lucchini di Brescia;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;0346;Collegio Universitario Lucchini di Brescia;90;Dipendente dall'Ente part time a tempo indeterminato femmina;1
+31/12/2024;CLR;0508;"Collegio universitario ''don Nicola Mazza""";87;Dipendente dall'Ente full time a tempo indeterminato maschio;8
+31/12/2024;CLR;0508;"Collegio universitario ''don Nicola Mazza""";88;Dipendente dall'Ente full time a tempo indeterminato femmina;10
+31/12/2024;CLR;0508;"Collegio universitario ''don Nicola Mazza""";89;Dipendente dall'Ente part time a tempo indeterminato maschio;3
+31/12/2024;CLR;0508;"Collegio universitario ''don Nicola Mazza""";90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;0604;Collegio Universitario L. Fonda di Trieste;87;Dipendente dall'Ente full time a tempo indeterminato maschio;0
+31/12/2024;CLR;0604;Collegio Universitario L. Fonda di Trieste;88;Dipendente dall'Ente full time a tempo indeterminato femmina;1
+31/12/2024;CLR;0604;Collegio Universitario L. Fonda di Trieste;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;0604;Collegio Universitario L. Fonda di Trieste;90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;0805;Fondazione Ceur - Centro europeo università e ricerca;87;Dipendente dall'Ente full time a tempo indeterminato maschio;36
+31/12/2024;CLR;0805;Fondazione Ceur - Centro europeo università e ricerca;88;Dipendente dall'Ente full time a tempo indeterminato femmina;22
+31/12/2024;CLR;0805;Fondazione Ceur - Centro europeo università e ricerca;89;Dipendente dall'Ente part time a tempo indeterminato maschio;13
+31/12/2024;CLR;0805;Fondazione Ceur - Centro europeo università e ricerca;90;Dipendente dall'Ente part time a tempo indeterminato femmina;8
+31/12/2024;CLR;0806;Fondazione Collegio San Carlo di Modena;87;Dipendente dall'Ente full time a tempo indeterminato maschio;1
+31/12/2024;CLR;0806;Fondazione Collegio San Carlo di Modena;88;Dipendente dall'Ente full time a tempo indeterminato femmina;0
+31/12/2024;CLR;0806;Fondazione Collegio San Carlo di Modena;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;0806;Fondazione Collegio San Carlo di Modena;90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;1002;Collegio della Sapienza - Fondazione ONAOSI di Perugia;87;Dipendente dall'Ente full time a tempo indeterminato maschio;15
+31/12/2024;CLR;1002;Collegio della Sapienza - Fondazione ONAOSI di Perugia;88;Dipendente dall'Ente full time a tempo indeterminato femmina;27
+31/12/2024;CLR;1002;Collegio della Sapienza - Fondazione ONAOSI di Perugia;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;1002;Collegio della Sapienza - Fondazione ONAOSI di Perugia;90;Dipendente dall'Ente part time a tempo indeterminato femmina;2
+31/12/2024;CLR;1210;"Fondazione  ''Comunità  Domenico Tardini""";87;Dipendente dall'Ente full time a tempo indeterminato maschio;1
+31/12/2024;CLR;1210;"Fondazione  ''Comunità  Domenico Tardini""";88;Dipendente dall'Ente full time a tempo indeterminato femmina;2
+31/12/2024;CLR;1210;"Fondazione  ''Comunità  Domenico Tardini""";89;Dipendente dall'Ente part time a tempo indeterminato maschio;1
+31/12/2024;CLR;1210;"Fondazione  ''Comunità  Domenico Tardini""";90;Dipendente dall'Ente part time a tempo indeterminato femmina;5
+31/12/2024;CLR;1211;Associazione Cuir ;87;Dipendente dall'Ente full time a tempo indeterminato maschio;2
+31/12/2024;CLR;1211;Associazione Cuir ;88;Dipendente dall'Ente full time a tempo indeterminato femmina;0
+31/12/2024;CLR;1211;Associazione Cuir ;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;1211;Associazione Cuir ;90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;1212;Fondazione Rui - ROMA;87;Dipendente dall'Ente full time a tempo indeterminato maschio;9
+31/12/2024;CLR;1212;Fondazione Rui - ROMA;88;Dipendente dall'Ente full time a tempo indeterminato femmina;33
+31/12/2024;CLR;1212;Fondazione Rui - ROMA;89;Dipendente dall'Ente part time a tempo indeterminato maschio;2
+31/12/2024;CLR;1212;Fondazione Rui - ROMA;90;Dipendente dall'Ente part time a tempo indeterminato femmina;66
+31/12/2024;CLR;1214;Collegio Universitario Pozzani di Roma;87;Dipendente dall'Ente full time a tempo indeterminato maschio;1
+31/12/2024;CLR;1214;Collegio Universitario Pozzani di Roma;88;Dipendente dall'Ente full time a tempo indeterminato femmina;2
+31/12/2024;CLR;1214;Collegio Universitario Pozzani di Roma;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;1214;Collegio Universitario Pozzani di Roma;90;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;CLR;1508;Ipe - Istituto per ricerche ed attività educative;87;Dipendente dall'Ente full time a tempo indeterminato maschio;7
+31/12/2024;CLR;1508;Ipe - Istituto per ricerche ed attività educative;88;Dipendente dall'Ente full time a tempo indeterminato femmina;17
+31/12/2024;CLR;1508;Ipe - Istituto per ricerche ed attività educative;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;1508;Ipe - Istituto per ricerche ed attività educative;90;Dipendente dall'Ente part time a tempo indeterminato femmina;8
+31/12/2024;CLR;1905;Associazione ARCES;87;Dipendente dall'Ente full time a tempo indeterminato maschio;3
+31/12/2024;CLR;1905;Associazione ARCES;88;Dipendente dall'Ente full time a tempo indeterminato femmina;6
+31/12/2024;CLR;1905;Associazione ARCES;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;1905;Associazione ARCES;90;Dipendente dall'Ente part time a tempo indeterminato femmina;9
+31/12/2024;CLR;2003;College Universitario Sant’Efisio di Cagliari;87;Dipendente dall'Ente full time a tempo indeterminato maschio;2
+31/12/2024;CLR;2003;College Universitario Sant’Efisio di Cagliari;88;Dipendente dall'Ente full time a tempo indeterminato femmina;4
+31/12/2024;CLR;2003;College Universitario Sant’Efisio di Cagliari;89;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;CLR;2003;College Universitario Sant’Efisio di Cagliari;90;Dipendente dall'Ente part time a tempo indeterminato femmina;0

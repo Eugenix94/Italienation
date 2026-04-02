@@ -1,0 +1,401 @@
+ANNO_ACCADEMICO;COD_ATENEO;NOME_ATENEO;CODICE_ISCRIZIONE;DESCRIZIONE_ISCRIZIONE;ISCRITTI_LAUREA;ISCRITTI_DOTTORATO;ISCRITTI_SPECIALIZZAZIONE;ISCRITTI_MASTER
+2023-2024;00101;Torino - Università degli studi;T1 ;Totale iscritti;74703;1281;2599;2046
+2023-2024;00101;Torino - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1195;;
+2023-2024;00101;Torino - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;00101;Torino - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;5037;;;
+2023-2024;00102;Torino - Politecnico;T1 ;Totale iscritti;35992;1480;0;71
+2023-2024;00102;Torino - Politecnico;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1353;;
+2023-2024;00102;Torino - Politecnico;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;00102;Torino - Politecnico;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;3768;;;
+2023-2024;00201;"Vercelli - Università degli studi del Piemonte orientale ""A. Avogadro""";T1 ;Totale iscritti;13337;268;643;205
+2023-2024;00201;"Vercelli - Università degli studi del Piemonte orientale ""A. Avogadro""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;226;;
+2023-2024;00201;"Vercelli - Università degli studi del Piemonte orientale ""A. Avogadro""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;1
+2023-2024;00201;"Vercelli - Università degli studi del Piemonte orientale ""A. Avogadro""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;360;;;
+2023-2024;00401;Bra (CN) - Università di Scienze Gastronomiche;T1 ;Totale iscritti;290;15;0;98
+2023-2024;00401;Bra (CN) - Università di Scienze Gastronomiche;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;13;;
+2023-2024;00401;Bra (CN) - Università di Scienze Gastronomiche;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;00401;Bra (CN) - Università di Scienze Gastronomiche;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1;;;
+2023-2024;00701;Aosta - Università degli studi;T1 ;Totale iscritti;978;0;0;0
+2023-2024;00701;Aosta - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;0;;
+2023-2024;00701;Aosta - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;00701;Aosta - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;01001;Genova - Università degli studi;T1 ;Totale iscritti;31732;1300;1307;620
+2023-2024;01001;Genova - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1269;;
+2023-2024;01001;Genova - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01001;Genova - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1704;;;
+2023-2024;01201;"Castellanza - Università ""Carlo Cattaneo""";T1 ;Totale iscritti;2474;28;0;65
+2023-2024;01201;"Castellanza - Università ""Carlo Cattaneo""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;25;;
+2023-2024;01201;"Castellanza - Università ""Carlo Cattaneo""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01201;"Castellanza - Università ""Carlo Cattaneo""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;01202;Varese - Università dell' Insubria;T1 ;Totale iscritti;10690;249;619;68
+2023-2024;01202;Varese - Università dell' Insubria;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;206;;
+2023-2024;01202;Varese - Università dell' Insubria;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01202;Varese - Università dell' Insubria;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;33;;;
+2023-2024;01301;"Novedrate (CO) - Università telematica ""e-Campus""";T1 ;Totale iscritti;48630;43;0;14017
+2023-2024;01301;"Novedrate (CO) - Università telematica ""e-Campus""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;29;;
+2023-2024;01301;"Novedrate (CO) - Università telematica ""e-Campus""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01301;"Novedrate (CO) - Università telematica ""e-Campus""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;4526;;;
+2023-2024;01501;Milano - Università degli studi;T1 ;Totale iscritti;58890;1465;3739;368
+2023-2024;01501;Milano - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1377;;
+2023-2024;01501;Milano - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01501;Milano - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1701;;;
+2023-2024;01502;Milano - Politecnico;T1 ;Totale iscritti;48008;2393;19;1937
+2023-2024;01502;Milano - Politecnico;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;2148;;
+2023-2024;01502;Milano - Politecnico;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01502;Milano - Politecnico;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;10889;;;
+2023-2024;01503;"Milano - Università commerciale ""Luigi Bocconi""";T1 ;Totale iscritti;13765;181;0;1365
+2023-2024;01503;"Milano - Università commerciale ""Luigi Bocconi""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;172;;
+2023-2024;01503;"Milano - Università commerciale ""Luigi Bocconi""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;15
+2023-2024;01503;"Milano - Università commerciale ""Luigi Bocconi""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;01504;"Milano - Università Cattolica del ""Sacro Cuore""";T1 ;Totale iscritti;42337;788;1640;3404
+2023-2024;01504;"Milano - Università Cattolica del ""Sacro Cuore""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;540;;
+2023-2024;01504;"Milano - Università Cattolica del ""Sacro Cuore""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01504;"Milano - Università Cattolica del ""Sacro Cuore""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;144;;;
+2023-2024;01505;Milano - Libera Università di Lingue e Comunicazione (IULM);T1 ;Totale iscritti;7956;60;0;463
+2023-2024;01505;Milano - Libera Università di Lingue e Comunicazione (IULM);T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;52;;
+2023-2024;01505;Milano - Libera Università di Lingue e Comunicazione (IULM);T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;11
+2023-2024;01505;Milano - Libera Università di Lingue e Comunicazione (IULM);T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;29;;;
+2023-2024;01508;Milano - Università Vita-Salute San Raffaele;T1 ;Totale iscritti;5207;168;922;206
+2023-2024;01508;Milano - Università Vita-Salute San Raffaele;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;150;;
+2023-2024;01508;Milano - Università Vita-Salute San Raffaele;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01508;Milano - Università Vita-Salute San Raffaele;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;01509;Milano-Bicocca - Università degli studi;T1 ;Totale iscritti;35812;834;1292;632
+2023-2024;01509;Milano-Bicocca - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;792;;
+2023-2024;01509;Milano-Bicocca - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01509;Milano-Bicocca - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;116;;;
+2023-2024;01510;Rozzano (MI) - Humanitas University;T1 ;Totale iscritti;2021;103;532;24
+2023-2024;01510;Rozzano (MI) - Humanitas University;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;97;;
+2023-2024;01510;Rozzano (MI) - Humanitas University;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01510;Rozzano (MI) - Humanitas University;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;4;;;
+2023-2024;01601;Bergamo - Università degli studi;T1 ;Totale iscritti;19476;210;11;142
+2023-2024;01601;Bergamo - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;186;;
+2023-2024;01601;Bergamo - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;5
+2023-2024;01601;Bergamo - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;449;;;
+2023-2024;01701;Brescia - Università degli studi;T1 ;Totale iscritti;16108;363;1277;179
+2023-2024;01701;Brescia - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;285;;
+2023-2024;01701;Brescia - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01701;Brescia - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;236;;;
+2023-2024;01801;Pavia - Università degli studi;T1 ;Totale iscritti;26155;881;1318;1069
+2023-2024;01801;Pavia - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;765;;
+2023-2024;01801;Pavia - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01801;Pavia - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;237;;;
+2023-2024;01802;Pavia - Istituto universitario di studi superiori;T1 ;Totale iscritti;0;410;0;0
+2023-2024;01802;Pavia - Istituto universitario di studi superiori;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;408;;
+2023-2024;01802;Pavia - Istituto universitario di studi superiori;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;01802;Pavia - Istituto universitario di studi superiori;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;02101;Bolzano - Libera Università;T1 ;Totale iscritti;3371;239;0;0
+2023-2024;02101;Bolzano - Libera Università;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;220;;
+2023-2024;02101;Bolzano - Libera Università;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;02101;Bolzano - Libera Università;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;02201;Trento - Università degli studi;T1 ;Totale iscritti;16502;848;20;80
+2023-2024;02201;Trento - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;808;;
+2023-2024;02201;Trento - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;28;0;0;0
+2023-2024;02201;Trento - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;138;;;
+2023-2024;02301;Verona - Università degli studi;T1 ;Totale iscritti;25076;563;1790;882
+2023-2024;02301;Verona - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;492;;
+2023-2024;02301;Verona - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;02301;Verona - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1004;;;
+2023-2024;02701;Venezia - Università Ca' Foscari Venezia;T1 ;Totale iscritti;19312;426;0;72
+2023-2024;02701;Venezia - Università Ca' Foscari Venezia;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;400;;
+2023-2024;02701;Venezia - Università Ca' Foscari Venezia;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;02701;Venezia - Università Ca' Foscari Venezia;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;18;;;
+2023-2024;02702;Venezia - Università IUAV;T1 ;Totale iscritti;4551;121;23;97
+2023-2024;02702;Venezia - Università IUAV;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;107;;
+2023-2024;02702;Venezia - Università IUAV;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;02702;Venezia - Università IUAV;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;02801;Padova - Università degli studi;T1 ;Totale iscritti;71310;2071;2730;2642
+2023-2024;02801;Padova - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;2000;;
+2023-2024;02801;Padova - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;02801;Padova - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;784;;;
+2023-2024;03001;Udine - Università degli studi;T1 ;Totale iscritti;14377;317;565;461
+2023-2024;03001;Udine - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;290;;
+2023-2024;03001;Udine - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;03001;Udine - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;258;;;
+2023-2024;03201;Trieste - Università degli studi;T1 ;Totale iscritti;16658;546;788;305
+2023-2024;03201;Trieste - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;500;;
+2023-2024;03201;Trieste - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;03201;Trieste - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;93;;;
+2023-2024;03202;Trieste - Scuola internazionale superiore di studi avanzati;T1 ;Totale iscritti;0;303;0;0
+2023-2024;03202;Trieste - Scuola internazionale superiore di studi avanzati;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;303;;
+2023-2024;03202;Trieste - Scuola internazionale superiore di studi avanzati;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;03202;Trieste - Scuola internazionale superiore di studi avanzati;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;03401;Parma - Università degli studi;T1 ;Totale iscritti;28542;613;906;627
+2023-2024;03401;Parma - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;594;;
+2023-2024;03401;Parma - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;27
+2023-2024;03401;Parma - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;494;;;
+2023-2024;03601;Modena e Reggio Emilia - Università degli studi;T1 ;Totale iscritti;25719;677;1467;135
+2023-2024;03601;Modena e Reggio Emilia - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;590;;
+2023-2024;03601;Modena e Reggio Emilia - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;03601;Modena e Reggio Emilia - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;478;;;
+2023-2024;03701;Bologna - Università degli studi;T1 ;Totale iscritti;83415;2618;2640;1285
+2023-2024;03701;Bologna - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;2517;;
+2023-2024;03701;Bologna - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;03701;Bologna - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1934;;;
+2023-2024;03801;Ferrara - Università degli studi;T1 ;Totale iscritti;26595;470;1002;435
+2023-2024;03801;Ferrara - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;442;;
+2023-2024;03801;Ferrara - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;21
+2023-2024;03801;Ferrara - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;281;;;
+2023-2024;04101;"Urbino - Università degli studi ""Carlo Bo""";T1 ;Totale iscritti;13292;179;0;430
+2023-2024;04101;"Urbino - Università degli studi ""Carlo Bo""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;154;;
+2023-2024;04101;"Urbino - Università degli studi ""Carlo Bo""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;04101;"Urbino - Università degli studi ""Carlo Bo""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;83;;;
+2023-2024;04201;Ancona - Università Politecnica delle Marche;T1 ;Totale iscritti;15016;365;864;197
+2023-2024;04201;Ancona - Università Politecnica delle Marche;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;298;;
+2023-2024;04201;Ancona - Università Politecnica delle Marche;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;04201;Ancona - Università Politecnica delle Marche;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;217;;;
+2023-2024;04301;Macerata - Università degli studi;T1 ;Totale iscritti;8914;170;93;116
+2023-2024;04301;Macerata - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;160;;
+2023-2024;04301;Macerata - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;04301;Macerata - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1022;;;
+2023-2024;04302;Camerino - Università degli studi;T1 ;Totale iscritti;5664;332;184;493
+2023-2024;04302;Camerino - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;296;;
+2023-2024;04302;Camerino - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;04302;Camerino - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;563;;;
+2023-2024;04601;Lucca - Scuola IMT Alti Studi;T1 ;Totale iscritti;0;250;0;0
+2023-2024;04601;Lucca - Scuola IMT Alti Studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;206;;
+2023-2024;04601;Lucca - Scuola IMT Alti Studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;04601;Lucca - Scuola IMT Alti Studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;04801;Firenze - Università degli studi;T1 ;Totale iscritti;54049;1165;2049;879
+2023-2024;04801;Firenze - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1078;;
+2023-2024;04801;Firenze - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;04801;Firenze - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1460;;;
+2023-2024;04804;"Firenze - Università telematica ""Italian University line""";T1 ;Totale iscritti;1793;0;0;308
+2023-2024;04804;"Firenze - Università telematica ""Italian University line""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;0;;
+2023-2024;04804;"Firenze - Università telematica ""Italian University line""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;04804;"Firenze - Università telematica ""Italian University line""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;120;;;
+2023-2024;05001;Pisa - Università;T1 ;Totale iscritti;44870;1159;1351;1445
+2023-2024;05001;Pisa - Università;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1022;;
+2023-2024;05001;Pisa - Università;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;18;0;0;21
+2023-2024;05001;Pisa - Università;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;137;;;
+2023-2024;05002;Pisa - Scuola normale superiore;T1 ;Totale iscritti;0;353;0;0
+2023-2024;05002;Pisa - Scuola normale superiore;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;353;;
+2023-2024;05002;Pisa - Scuola normale superiore;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05002;Pisa - Scuola normale superiore;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05003;"Pisa - Scuola superiore studi universitari e perfezionamento ""S. Anna""";T1 ;Totale iscritti;0;369;0;118
+2023-2024;05003;"Pisa - Scuola superiore studi universitari e perfezionamento ""S. Anna""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;344;;
+2023-2024;05003;"Pisa - Scuola superiore studi universitari e perfezionamento ""S. Anna""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05003;"Pisa - Scuola superiore studi universitari e perfezionamento ""S. Anna""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05201;Siena - Università degli studi;T1 ;Totale iscritti;15009;622;632;482
+2023-2024;05201;Siena - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;547;;
+2023-2024;05201;Siena - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;18
+2023-2024;05201;Siena - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;277;;;
+2023-2024;05202;Siena - Università per stranieri;T1 ;Totale iscritti;1574;39;29;60
+2023-2024;05202;Siena - Università per stranieri;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;35;;
+2023-2024;05202;Siena - Università per stranieri;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05202;Siena - Università per stranieri;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;17;;;
+2023-2024;05401;Perugia - Università degli studi;T1 ;Totale iscritti;28019;554;581;116
+2023-2024;05401;Perugia - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;518;;
+2023-2024;05401;Perugia - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;5
+2023-2024;05401;Perugia - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;58;;;
+2023-2024;05403;Perugia - Università per stranieri;T1 ;Totale iscritti;935;32;0;40
+2023-2024;05403;Perugia - Università per stranieri;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;28;;
+2023-2024;05403;Perugia - Università per stranieri;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05403;Perugia - Università per stranieri;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05601;Viterbo - Università della Tuscia;T1 ;Totale iscritti;7702;280;0;95
+2023-2024;05601;Viterbo - Università della Tuscia;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;266;;
+2023-2024;05601;Viterbo - Università della Tuscia;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;922;0;0;0
+2023-2024;05601;Viterbo - Università della Tuscia;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;65;;;
+2023-2024;05801;"Roma - Università degli studi ""La Sapienza""";T1 ;Totale iscritti;111332;3940;2943;2853
+2023-2024;05801;"Roma - Università degli studi ""La Sapienza""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;3272;;
+2023-2024;05801;"Roma - Università degli studi ""La Sapienza""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05801;"Roma - Università degli studi ""La Sapienza""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;218;;;
+2023-2024;05802;"Roma - Università degli studi di ""Tor Vergata""";T1 ;Totale iscritti;30190;1607;548;909
+2023-2024;05802;"Roma - Università degli studi di ""Tor Vergata""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1219;;
+2023-2024;05802;"Roma - Università degli studi di ""Tor Vergata""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05802;"Roma - Università degli studi di ""Tor Vergata""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;531;;;
+2023-2024;05803;Roma - Libera Università Maria SS.Assunta (LUMSA);T1 ;Totale iscritti;8822;91;10;1100
+2023-2024;05803;Roma - Libera Università Maria SS.Assunta (LUMSA);T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;79;;
+2023-2024;05803;Roma - Libera Università Maria SS.Assunta (LUMSA);T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;10;1;0;270
+2023-2024;05803;Roma - Libera Università Maria SS.Assunta (LUMSA);T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;13;;;
+2023-2024;05805;Roma - Luiss Libera Università internazionale degli studi sociali Guido Carli;T1 ;Totale iscritti;11037;123;0;1558
+2023-2024;05805;Roma - Luiss Libera Università internazionale degli studi sociali Guido Carli;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;118;;
+2023-2024;05805;Roma - Luiss Libera Università internazionale degli studi sociali Guido Carli;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05805;Roma - Luiss Libera Università internazionale degli studi sociali Guido Carli;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05806;"Roma - Università degli studi del ""Foro Italico""";T1 ;Totale iscritti;2364;44;0;7
+2023-2024;05806;"Roma - Università degli studi del ""Foro Italico""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;38;;
+2023-2024;05806;"Roma - Università degli studi del ""Foro Italico""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05806;"Roma - Università degli studi del ""Foro Italico""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;2;;;
+2023-2024;05807;Roma - III Università degli studi;T1 ;Totale iscritti;34118;576;0;27
+2023-2024;05807;Roma - III Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;492;;
+2023-2024;05807;Roma - III Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05807;Roma - III Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1269;;;
+2023-2024;05808;"Roma - Università ""Campus Bio-Medico""";T1 ;Totale iscritti;2937;230;623;187
+2023-2024;05808;"Roma - Università ""Campus Bio-Medico""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;187;;
+2023-2024;05808;"Roma - Università ""Campus Bio-Medico""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05808;"Roma - Università ""Campus Bio-Medico""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05809;Roma - Università degli Studi Internazionali – UNINT;T1 ;Totale iscritti;1350;24;0;296
+2023-2024;05809;Roma - Università degli Studi Internazionali – UNINT;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;21;;
+2023-2024;05809;Roma - Università degli Studi Internazionali – UNINT;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05809;Roma - Università degli Studi Internazionali – UNINT;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;19;;;
+2023-2024;05810;"Roma - Università telematica ""Guglielmo Marconi""";T1 ;Totale iscritti;14590;59;60;1899
+2023-2024;05810;"Roma - Università telematica ""Guglielmo Marconi""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;16;;
+2023-2024;05810;"Roma - Università telematica ""Guglielmo Marconi""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05810;"Roma - Università telematica ""Guglielmo Marconi""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;496;;;
+2023-2024;05811;"Roma - Università telematica ""Unitelma Sapienza""";T1 ;Totale iscritti;5055;0;0;6111
+2023-2024;05811;"Roma - Università telematica ""Unitelma Sapienza""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;0;;
+2023-2024;05811;"Roma - Università telematica ""Unitelma Sapienza""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05811;"Roma - Università telematica ""Unitelma Sapienza""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05812;Roma - Università Europea;T1 ;Totale iscritti;2233;27;0;163
+2023-2024;05812;Roma - Università Europea;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;21;;
+2023-2024;05812;Roma - Università Europea;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05812;Roma - Università Europea;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;2;;;
+2023-2024;05813;"Roma - Università telematica internazionale ""UNINETTUNO""";T1 ;Totale iscritti;10614;35;0;1010
+2023-2024;05813;"Roma - Università telematica internazionale ""UNINETTUNO""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;14;;
+2023-2024;05813;"Roma - Università telematica internazionale ""UNINETTUNO""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05813;"Roma - Università telematica internazionale ""UNINETTUNO""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05814;Roma - Universitas telematica Mercatorum;T1 ;Totale iscritti;44592;49;0;1161
+2023-2024;05814;Roma - Universitas telematica Mercatorum;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;37;;
+2023-2024;05814;Roma - Universitas telematica Mercatorum;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05814;Roma - Universitas telematica Mercatorum;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05815;Roma - Università telematica Niccolò Cusano (già UNISU);T1 ;Totale iscritti;17473;25;0;0
+2023-2024;05815;Roma - Università telematica Niccolò Cusano (già UNISU);T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;21;;
+2023-2024;05815;Roma - Università telematica Niccolò Cusano (già UNISU);T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05815;Roma - Università telematica Niccolò Cusano (già UNISU);T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05816;"Roma - Università telematica ""San Raffaele"" - già ""UNITEL""";T1 ;Totale iscritti;11279;14;0;1184
+2023-2024;05816;"Roma - Università telematica ""San Raffaele"" - già ""UNITEL""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;11;;
+2023-2024;05816;"Roma - Università telematica ""San Raffaele"" - già ""UNITEL""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05816;"Roma - Università telematica ""San Raffaele"" - già ""UNITEL""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05817;Roma - Link Campus University;T1 ;Totale iscritti;867;23;0;131
+2023-2024;05817;Roma - Link Campus University;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;15;;
+2023-2024;05817;Roma - Link Campus University;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05817;Roma - Link Campus University;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;05818;Roma - Saint Camillus International;T1 ;Totale iscritti;3077;0;6;6158
+2023-2024;05818;Roma - Saint Camillus International;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;0;;
+2023-2024;05818;Roma - Saint Camillus International;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05818;Roma - Saint Camillus International;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;8;;;
+2023-2024;05819;Roma - CASD - Centro Alti Studi per la Difesa;T1 ;Totale iscritti;0;24;0;0
+2023-2024;05819;Roma - CASD - Centro Alti Studi per la Difesa;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;12;;
+2023-2024;05819;Roma - CASD - Centro Alti Studi per la Difesa;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;05819;Roma - CASD - Centro Alti Studi per la Difesa;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;06001;Cassino - Università degli Studi di Cassino e del Lazio Meridionale;T1 ;Totale iscritti;7172;142;0;237
+2023-2024;06001;Cassino - Università degli Studi di Cassino e del Lazio Meridionale;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;119;;
+2023-2024;06001;Cassino - Università degli Studi di Cassino e del Lazio Meridionale;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06001;Cassino - Università degli Studi di Cassino e del Lazio Meridionale;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1002;;;
+2023-2024;06201;Benevento - Università degli studi del Sannio;T1 ;Totale iscritti;3522;120;0;70
+2023-2024;06201;Benevento - Università degli studi del Sannio;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;103;;
+2023-2024;06201;Benevento - Università degli studi del Sannio;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06201;Benevento - Università degli studi del Sannio;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;4;;;
+2023-2024;06202;"Benevento - Università telematica ""Giustino Fortunato""";T1 ;Totale iscritti;2057;0;0;1002
+2023-2024;06202;"Benevento - Università telematica ""Giustino Fortunato""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;0;;
+2023-2024;06202;"Benevento - Università telematica ""Giustino Fortunato""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06202;"Benevento - Università telematica ""Giustino Fortunato""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;06301;"Napoli - Università degli studi ""Federico II""";T1 ;Totale iscritti;73551;2018;1717;791
+2023-2024;06301;"Napoli - Università degli studi ""Federico II""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;1715;;
+2023-2024;06301;"Napoli - Università degli studi ""Federico II""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06301;"Napoli - Università degli studi ""Federico II""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;06302;"Napoli - Università degli studi ""Parthenope""";T1 ;Totale iscritti;13350;271;18;300
+2023-2024;06302;"Napoli - Università degli studi ""Parthenope""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;257;;
+2023-2024;06302;"Napoli - Università degli studi ""Parthenope""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06302;"Napoli - Università degli studi ""Parthenope""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;97;;;
+2023-2024;06303;"Napoli - Università degli studi ""L' Orientale""";T1 ;Totale iscritti;9191;135;0;9
+2023-2024;06303;"Napoli - Università degli studi ""L' Orientale""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;108;;
+2023-2024;06303;"Napoli - Università degli studi ""L' Orientale""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06303;"Napoli - Università degli studi ""L' Orientale""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;11;;;
+2023-2024;06304;"Napoli - Università degli studi ""Suor Orsola Benincasa""";T1 ;Totale iscritti;8714;36;96;2670
+2023-2024;06304;"Napoli - Università degli studi ""Suor Orsola Benincasa""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;30;;
+2023-2024;06304;"Napoli - Università degli studi ""Suor Orsola Benincasa""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06304;"Napoli - Università degli studi ""Suor Orsola Benincasa""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;06306;"Napoli - Università degli studi della Campania ""Luigi Vanvitelli""";T1 ;Totale iscritti;22330;1003;1386;324
+2023-2024;06306;"Napoli - Università degli studi della Campania ""Luigi Vanvitelli""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;840;;
+2023-2024;06306;"Napoli - Università degli studi della Campania ""Luigi Vanvitelli""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06306;"Napoli - Università degli studi della Campania ""Luigi Vanvitelli""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;68;;;
+2023-2024;06307;"Napoli - Università telematica ""Pegaso""";T1 ;Totale iscritti;89080;153;0;20286
+2023-2024;06307;"Napoli - Università telematica ""Pegaso""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;0;;
+2023-2024;06307;"Napoli - Università telematica ""Pegaso""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06307;"Napoli - Università telematica ""Pegaso""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;06308;Napoli - Scuola Superiore Meridionale;T1 ;Totale iscritti;0;85;0;0
+2023-2024;06308;Napoli - Scuola Superiore Meridionale;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;85;;
+2023-2024;06308;Napoli - Scuola Superiore Meridionale;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06308;Napoli - Scuola Superiore Meridionale;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;06501;Salerno - Università degli studi;T1 ;Totale iscritti;33100;764;651;145
+2023-2024;06501;Salerno - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;623;;
+2023-2024;06501;Salerno - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06501;Salerno - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;126;;;
+2023-2024;06601;L'Aquila - Università degli studi;T1 ;Totale iscritti;15899;354;591;194
+2023-2024;06601;L'Aquila - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;280;;
+2023-2024;06601;L'Aquila - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06601;L'Aquila - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;105;;;
+2023-2024;06603;L'Aquila - Gran Sasso Science Institute;T1 ;Totale iscritti;0;145;0;0
+2023-2024;06603;L'Aquila - Gran Sasso Science Institute;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;145;;
+2023-2024;06603;L'Aquila - Gran Sasso Science Institute;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06603;L'Aquila - Gran Sasso Science Institute;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;06701;Teramo - Università degli studi;T1 ;Totale iscritti;4718;151;213;325
+2023-2024;06701;Teramo - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;135;;
+2023-2024;06701;Teramo - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06701;Teramo - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;275;;;
+2023-2024;06901;Chieti e Pescara - Università degli studi Gabriele D'Annunzio;T1 ;Totale iscritti;20587;423;583;275
+2023-2024;06901;Chieti e Pescara - Università degli studi Gabriele D'Annunzio;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;393;;
+2023-2024;06901;Chieti e Pescara - Università degli studi Gabriele D'Annunzio;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06901;Chieti e Pescara - Università degli studi Gabriele D'Annunzio;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;252;;;
+2023-2024;06902;"Torrevecchia Teatina (CH) - Università telematica ""Leonardo da Vinci""";T1 ;Totale iscritti;239;18;0;706
+2023-2024;06902;"Torrevecchia Teatina (CH) - Università telematica ""Leonardo da Vinci""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;17;;
+2023-2024;06902;"Torrevecchia Teatina (CH) - Università telematica ""Leonardo da Vinci""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;06902;"Torrevecchia Teatina (CH) - Università telematica ""Leonardo da Vinci""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;07001;Campobasso - Università degli studi del Molise;T1 ;Totale iscritti;6610;156;89;185
+2023-2024;07001;Campobasso - Università degli studi del Molise;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;135;;
+2023-2024;07001;Campobasso - Università degli studi del Molise;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07001;Campobasso - Università degli studi del Molise;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;77;;;
+2023-2024;07101;Foggia - Università degli studi;T1 ;Totale iscritti;12485;304;496;47
+2023-2024;07101;Foggia - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;216;;
+2023-2024;07101;Foggia - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07101;Foggia - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;69;;;
+2023-2024;07201;Bari - Università degli studi;T1 ;Totale iscritti;38956;938;2010;237
+2023-2024;07201;Bari - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;888;;
+2023-2024;07201;Bari - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07201;Bari - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;212;;;
+2023-2024;07202;Bari - Politecnico;T1 ;Totale iscritti;9666;380;9;13
+2023-2024;07202;Bari - Politecnico;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;318;;
+2023-2024;07202;Bari - Politecnico;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07202;Bari - Politecnico;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;308;;;
+2023-2024;07203;"Casamassima - Libera Università Mediterranea ""Giuseppe Degennaro""";T1 ;Totale iscritti;2028;30;0;982
+2023-2024;07203;"Casamassima - Libera Università Mediterranea ""Giuseppe Degennaro""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;27;;
+2023-2024;07203;"Casamassima - Libera Università Mediterranea ""Giuseppe Degennaro""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07203;"Casamassima - Libera Università Mediterranea ""Giuseppe Degennaro""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;07501;Lecce - Università del Salento;T1 ;Totale iscritti;18966;436;46;132
+2023-2024;07501;Lecce - Università del Salento;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;383;;
+2023-2024;07501;Lecce - Università del Salento;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07501;Lecce - Università del Salento;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;17;;;
+2023-2024;07601;Potenza - Università degli studi della Basilicata;T1 ;Totale iscritti;5074;156;35;12
+2023-2024;07601;Potenza - Università degli studi della Basilicata;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;142;;
+2023-2024;07601;Potenza - Università degli studi della Basilicata;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07601;Potenza - Università degli studi della Basilicata;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;32;;;
+2023-2024;07801;Arcavacata di Rende - Università della Calabria;T1 ;Totale iscritti;23101;358;46;662
+2023-2024;07801;Arcavacata di Rende - Università della Calabria;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;358;;
+2023-2024;07801;Arcavacata di Rende - Università della Calabria;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;2
+2023-2024;07801;Arcavacata di Rende - Università della Calabria;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;34;;;
+2023-2024;07901;"Catanzaro - Università degli studi ""Magna Grecia""";T1 ;Totale iscritti;11282;241;814;419
+2023-2024;07901;"Catanzaro - Università degli studi ""Magna Grecia""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;212;;
+2023-2024;07901;"Catanzaro - Università degli studi ""Magna Grecia""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;07901;"Catanzaro - Università degli studi ""Magna Grecia""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;08001;Reggio Calabria - Università degli studi Mediterranea;T1 ;Totale iscritti;4500;98;11;204
+2023-2024;08001;Reggio Calabria - Università degli studi Mediterranea;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;87;;
+2023-2024;08001;Reggio Calabria - Università degli studi Mediterranea;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;1;0;0
+2023-2024;08001;Reggio Calabria - Università degli studi Mediterranea;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;3;;;
+2023-2024;08003;Reggio Calabria - Università per Stranieri;T1 ;Totale iscritti;298;0;0;0
+2023-2024;08003;Reggio Calabria - Università per Stranieri;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;0;;
+2023-2024;08003;Reggio Calabria - Università per Stranieri;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;08003;Reggio Calabria - Università per Stranieri;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;0;;;
+2023-2024;08201;Palermo - Università degli studi;T1 ;Totale iscritti;44382;1095;1414;264
+2023-2024;08201;Palermo - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;949;;
+2023-2024;08201;Palermo - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;08201;Palermo - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;2131;;;
+2023-2024;08301;Messina - Università degli studi;T1 ;Totale iscritti;24633;505;1329;122
+2023-2024;08301;Messina - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;403;;
+2023-2024;08301;Messina - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;08301;Messina - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;101;;;
+2023-2024;08601;"Enna - Libera Università della Sicilia Centrale ""KORE""";T1 ;Totale iscritti;5359;101;19;16
+2023-2024;08601;"Enna - Libera Università della Sicilia Centrale ""KORE""";T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;70;;
+2023-2024;08601;"Enna - Libera Università della Sicilia Centrale ""KORE""";T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;08601;"Enna - Libera Università della Sicilia Centrale ""KORE""";T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;7;;;
+2023-2024;08701;Catania - Università degli studi;T1 ;Totale iscritti;38595;704;1479;337
+2023-2024;08701;Catania - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;640;;
+2023-2024;08701;Catania - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;08701;Catania - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;684;;;
+2023-2024;09001;Sassari - Università degli studi;T1 ;Totale iscritti;11512;268;499;9
+2023-2024;09001;Sassari - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;241;;
+2023-2024;09001;Sassari - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;09001;Sassari - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;590;;;
+2023-2024;09201;Cagliari - Università degli studi;T1 ;Totale iscritti;23791;392;1053;49
+2023-2024;09201;Cagliari - Università degli studi;T1a;Totale iscritti - di cui dottorandi con supporto finanziario;;350;;
+2023-2024;09201;Cagliari - Università degli studi;T1b;Totale iscritti - di cui studenti con parziale copertura delle tasse da enti esterni;0;0;0;0
+2023-2024;09201;Cagliari - Università degli studi;T1c;Totale iscritti - di cui studenti iscritti a tempo parziale;1387;;;
