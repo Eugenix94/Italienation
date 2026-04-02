@@ -1,0 +1,299 @@
+ANNO;GENERE;COD_QUALIFICA;DESC_QUALIFICA;N_PERS_DR
+1997;F;1PO;Professore I fascia (ordinario);1525
+1997;M;1PO;Professore I fascia (ordinario);11876
+1997;F;2PA;Professore II fascia (associato);4073
+1997;M;2PA;Professore II fascia (associato);11545
+1997;F;3RU;Ricercatore a tempo indeterminato;7976
+1997;M;3RU;Ricercatore a tempo indeterminato;12192
+1998;F;1PO;Professore I fascia (ordinario);1525
+1998;M;1PO;Professore I fascia (ordinario);11876
+1998;F;2PA;Professore II fascia (associato);4073
+1998;M;2PA;Professore II fascia (associato);11546
+1998;F;3RU;Ricercatore a tempo indeterminato;7981
+1998;M;3RU;Ricercatore a tempo indeterminato;12206
+1999;F;1PO;Professore I fascia (ordinario);1497
+1999;M;1PO;Professore I fascia (ordinario);11415
+1999;F;2PA;Professore II fascia (associato);4752
+1999;M;2PA;Professore II fascia (associato);13280
+1999;F;3RU;Ricercatore a tempo indeterminato;8083
+1999;M;3RU;Ricercatore a tempo indeterminato;11474
+2000;F;1PO;Professore I fascia (ordinario);2002
+2000;M;1PO;Professore I fascia (ordinario);13024
+2000;F;2PA;Professore II fascia (associato);4781
+2000;M;2PA;Professore II fascia (associato);12478
+2000;F;3RU;Ricercatore a tempo indeterminato;8187
+2000;M;3RU;Ricercatore a tempo indeterminato;11481
+2000;F;4AR;Titolare di assegno di ricerca;2909
+2000;M;4AR;Titolare di assegno di ricerca;2640
+2001;F;1PO;Professore I fascia (ordinario);2468
+2001;M;1PO;Professore I fascia (ordinario);14423
+2001;F;2PA;Professore II fascia (associato);5324
+2001;M;2PA;Professore II fascia (associato);12551
+2001;F;3RU;Ricercatore a tempo indeterminato;8580
+2001;M;3RU;Ricercatore a tempo indeterminato;11510
+2001;F;4AR;Titolare di assegno di ricerca;3798
+2001;M;4AR;Titolare di assegno di ricerca;3454
+2002;F;1PO;Professore I fascia (ordinario);2831
+2002;M;1PO;Professore I fascia (ordinario);15299
+2002;F;2PA;Professore II fascia (associato);5690
+2002;M;2PA;Professore II fascia (associato);12813
+2002;F;3RU;Ricercatore a tempo indeterminato;9069
+2002;M;3RU;Ricercatore a tempo indeterminato;11831
+2002;F;4AR;Titolare di assegno di ricerca;4458
+2002;M;4AR;Titolare di assegno di ricerca;3958
+2003;F;1PO;Professore I fascia (ordinario);2862
+2003;M;1PO;Professore I fascia (ordinario);15095
+2003;F;2PA;Professore II fascia (associato);5638
+2003;M;2PA;Professore II fascia (associato);12459
+2003;F;3RU;Ricercatore a tempo indeterminato;8871
+2003;M;3RU;Ricercatore a tempo indeterminato;11555
+2003;F;4AR;Titolare di assegno di ricerca;5320
+2003;M;4AR;Titolare di assegno di ricerca;4782
+2004;F;1PO;Professore I fascia (ordinario);2960
+2004;M;1PO;Professore I fascia (ordinario);15110
+2004;F;2PA;Professore II fascia (associato);5682
+2004;M;2PA;Professore II fascia (associato);12421
+2004;F;3RU;Ricercatore a tempo indeterminato;9296
+2004;M;3RU;Ricercatore a tempo indeterminato;11933
+2004;F;4AR;Titolare di assegno di ricerca;5409
+2004;M;4AR;Titolare di assegno di ricerca;4982
+2005;F;1PO;Professore I fascia (ordinario);3362
+2005;M;1PO;Professore I fascia (ordinario);15912
+2005;F;2PA;Professore II fascia (associato);6184
+2005;M;2PA;Professore II fascia (associato);12783
+2005;F;3RU;Ricercatore a tempo indeterminato;9835
+2005;M;3RU;Ricercatore a tempo indeterminato;12175
+2005;F;4AR;Titolare di assegno di ricerca;5082
+2005;M;4AR;Titolare di assegno di ricerca;4923
+2006;F;1PO;Professore I fascia (ordinario);3590
+2006;M;1PO;Professore I fascia (ordinario);16253
+2006;F;2PA;Professore II fascia (associato);6378
+2006;M;2PA;Professore II fascia (associato);12708
+2006;F;3RU;Ricercatore a tempo indeterminato;10421
+2006;M;3RU;Ricercatore a tempo indeterminato;12624
+2006;F;4AR;Titolare di assegno di ricerca;5474
+2006;M;4AR;Titolare di assegno di ricerca;5357
+2007;F;1PO;Professore I fascia (ordinario);3631
+2007;M;1PO;Professore I fascia (ordinario);15992
+2007;F;2PA;Professore II fascia (associato);6280
+2007;M;2PA;Professore II fascia (associato);12455
+2007;F;3RU;Ricercatore a tempo indeterminato;10658
+2007;M;3RU;Ricercatore a tempo indeterminato;12913
+2007;F;4AR;Titolare di assegno di ricerca;5872
+2007;M;4AR;Titolare di assegno di ricerca;5817
+2008;F;1PO;Professore I fascia (ordinario);3565
+2008;M;1PO;Professore I fascia (ordinario);15364
+2008;F;2PA;Professore II fascia (associato);6176
+2008;M;2PA;Professore II fascia (associato);12080
+2008;F;3RU;Ricercatore a tempo indeterminato;11539
+2008;M;3RU;Ricercatore a tempo indeterminato;14044
+2008;F;4AR;Titolare di assegno di ricerca;6161
+2008;M;4AR;Titolare di assegno di ricerca;5929
+2009;F;1PO;Professore I fascia (ordinario);3422
+2009;M;1PO;Professore I fascia (ordinario);14458
+2009;F;2PA;Professore II fascia (associato);5983
+2009;M;2PA;Professore II fascia (associato);11584
+2009;F;3RU;Ricercatore a tempo indeterminato;11494
+2009;M;3RU;Ricercatore a tempo indeterminato;13941
+2009;F;4AR;Titolare di assegno di ricerca;6756
+2009;M;4AR;Titolare di assegno di ricerca;6470
+2010;F;1PO;Professore I fascia (ordinario);3182
+2010;M;1PO;Professore I fascia (ordinario);12672
+2010;F;2PA;Professore II fascia (associato);5814
+2010;M;2PA;Professore II fascia (associato);11141
+2010;F;3RU;Ricercatore a tempo indeterminato;11286
+2010;M;3RU;Ricercatore a tempo indeterminato;13653
+2010;F;4AR;Titolare di assegno di ricerca;6662
+2010;M;4AR;Titolare di assegno di ricerca;6447
+2011;F;1PO;Professore I fascia (ordinario);3145
+2011;M;1PO;Professore I fascia (ordinario);12097
+2011;F;2PA;Professore II fascia (associato);5754
+2011;M;2PA;Professore II fascia (associato);10857
+2011;F;3RTD;Ricercatore a tempo determinato L. 230/2005;588
+2011;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;73
+2011;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2
+2011;M;3RTD;Ricercatore a tempo determinato L. 230/2005;802
+2011;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;77
+2011;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;5
+2011;F;3RU;Ricercatore a tempo indeterminato;11131
+2011;M;3RU;Ricercatore a tempo indeterminato;13465
+2011;F;4AR;Titolare di assegno di ricerca;6816
+2011;M;4AR;Titolare di assegno di ricerca;6554
+2012;F;1PO;Professore I fascia (ordinario);3030
+2012;M;1PO;Professore I fascia (ordinario);11492
+2012;F;2PA;Professore II fascia (associato);5628
+2012;M;2PA;Professore II fascia (associato);10515
+2012;F;3RTD;Ricercatore a tempo determinato L. 230/2005;508
+2012;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;468
+2012;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;6
+2012;M;3RTD;Ricercatore a tempo determinato L. 230/2005;659
+2012;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;612
+2012;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;14
+2012;F;3RU;Ricercatore a tempo indeterminato;11025
+2012;M;3RU;Ricercatore a tempo indeterminato;13239
+2012;F;4AR;Titolare di assegno di ricerca;8071
+2012;M;4AR;Titolare di assegno di ricerca;7676
+2013;F;1PO;Professore I fascia (ordinario);2935
+2013;M;1PO;Professore I fascia (ordinario);10955
+2013;F;2PA;Professore II fascia (associato);5532
+2013;M;2PA;Professore II fascia (associato);10278
+2013;F;3RTD;Ricercatore a tempo determinato L. 230/2005;394
+2013;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;833
+2013;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;50
+2013;M;3RTD;Ricercatore a tempo determinato L. 230/2005;498
+2013;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1084
+2013;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;66
+2013;F;3RU;Ricercatore a tempo indeterminato;10823
+2013;M;3RU;Ricercatore a tempo indeterminato;12923
+2013;F;4AR;Titolare di assegno di ricerca;8183
+2013;M;4AR;Titolare di assegno di ricerca;8097
+2014;F;1PO;Professore I fascia (ordinario);2832
+2014;M;1PO;Professore I fascia (ordinario);10431
+2014;F;2PA;Professore II fascia (associato);6241
+2014;M;2PA;Professore II fascia (associato);11300
+2014;F;3RTD;Ricercatore a tempo determinato L. 230/2005;295
+2014;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1125
+2014;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;117
+2014;M;3RTD;Ricercatore a tempo determinato L. 230/2005;346
+2014;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1500
+2014;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;183
+2014;F;3RU;Ricercatore a tempo indeterminato;9757
+2014;M;3RU;Ricercatore a tempo indeterminato;11278
+2014;F;4AR;Titolare di assegno di ricerca;8048
+2014;M;4AR;Titolare di assegno di ricerca;7861
+2015;F;1PO;Professore I fascia (ordinario);2777
+2015;M;1PO;Professore I fascia (ordinario);10101
+2015;F;2PA;Professore II fascia (associato);7310
+2015;M;2PA;Professore II fascia (associato);12733
+2015;F;3RTD;Ricercatore a tempo determinato L. 230/2005;208
+2015;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1280
+2015;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;271
+2015;M;3RTD;Ricercatore a tempo determinato L. 230/2005;237
+2015;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1686
+2015;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;433
+2015;F;3RU;Ricercatore a tempo indeterminato;8290
+2015;M;3RU;Ricercatore a tempo indeterminato;9143
+2015;F;4AR;Titolare di assegno di ricerca;7151
+2015;M;4AR;Titolare di assegno di ricerca;6891
+2016;F;1PO;Professore I fascia (ordinario);2880
+2016;M;1PO;Professore I fascia (ordinario);10093
+2016;F;2PA;Professore II fascia (associato);7409
+2016;M;2PA;Professore II fascia (associato);12514
+2016;F;3RTD;Ricercatore a tempo determinato L. 230/2005;104
+2016;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1383
+2016;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;759
+2016;M;3RTD;Ricercatore a tempo determinato L. 230/2005;108
+2016;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1871
+2016;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;1132
+2016;F;3RU;Ricercatore a tempo indeterminato;7651
+2016;M;3RU;Ricercatore a tempo indeterminato;8331
+2016;F;4AR;Titolare di assegno di ricerca;7096
+2016;M;4AR;Titolare di assegno di ricerca;6850
+2017;F;1PO;Professore I fascia (ordinario);2970
+2017;M;1PO;Professore I fascia (ordinario);9920
+2017;F;2PA;Professore II fascia (associato);7551
+2017;M;2PA;Professore II fascia (associato);12593
+2017;F;3RTD;Ricercatore a tempo determinato L. 230/2005;39
+2017;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1607
+2017;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;995
+2017;M;3RTD;Ricercatore a tempo determinato L. 230/2005;42
+2017;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2094
+2017;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;1427
+2017;F;3RU;Ricercatore a tempo indeterminato;7042
+2017;M;3RU;Ricercatore a tempo indeterminato;7513
+2017;F;4AR;Titolare di assegno di ricerca;7110
+2017;M;4AR;Titolare di assegno di ricerca;7014
+2018;F;1PO;Professore I fascia (ordinario);3130
+2018;M;1PO;Professore I fascia (ordinario);10055
+2018;F;2PA;Professore II fascia (associato);7984
+2018;M;2PA;Professore II fascia (associato);12800
+2018;F;3RTD;Ricercatore a tempo determinato L. 230/2005;26
+2018;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;1759
+2018;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;1513
+2018;M;3RTD;Ricercatore a tempo determinato L. 230/2005;30
+2018;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2234
+2018;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2130
+2018;F;3RU;Ricercatore a tempo indeterminato;6194
+2018;M;3RU;Ricercatore a tempo indeterminato;6407
+2018;F;4AR;Titolare di assegno di ricerca;7071
+2018;M;4AR;Titolare di assegno di ricerca;7034
+2019;F;1PO;Professore I fascia (ordinario);3394
+2019;M;1PO;Professore I fascia (ordinario);10291
+2019;F;2PA;Professore II fascia (associato);8748
+2019;M;2PA;Professore II fascia (associato);13535
+2019;F;3RTD;Ricercatore a tempo determinato L. 230/2005;25
+2019;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2028
+2019;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;1776
+2019;M;3RTD;Ricercatore a tempo determinato L. 230/2005;26
+2019;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2405
+2019;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2500
+2019;F;3RU;Ricercatore a tempo indeterminato;5300
+2019;M;3RU;Ricercatore a tempo indeterminato;5398
+2019;F;4AR;Titolare di assegno di ricerca;7195
+2019;M;4AR;Titolare di assegno di ricerca;7264
+2020;F;1PO;Professore I fascia (ordinario);3602
+2020;M;1PO;Professore I fascia (ordinario);10575
+2020;F;2PA;Professore II fascia (associato);9350
+2020;M;2PA;Professore II fascia (associato);13797
+2020;F;3RTD;Ricercatore a tempo determinato L. 230/2005;15
+2020;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2357
+2020;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;1907
+2020;M;3RTD;Ricercatore a tempo determinato L. 230/2005;15
+2020;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2805
+2020;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2709
+2020;F;3RU;Ricercatore a tempo indeterminato;4416
+2020;M;3RU;Ricercatore a tempo indeterminato;4505
+2020;F;4AR;Titolare di assegno di ricerca;7511
+2020;M;4AR;Titolare di assegno di ricerca;7978
+2021;F;1PO;Professore I fascia (ordinario);3973
+2021;M;1PO;Professore I fascia (ordinario);11177
+2021;F;2PA;Professore II fascia (associato);9971
+2021;M;2PA;Professore II fascia (associato);14184
+2021;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2600
+2021;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2201
+2021;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;2990
+2021;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;3142
+2021;F;3RU;Ricercatore a tempo indeterminato;3762
+2021;M;3RU;Ricercatore a tempo indeterminato;3792
+2021;F;4AR;Titolare di assegno di ricerca;7716
+2021;M;4AR;Titolare di assegno di ricerca;7985
+2022;F;1PO;Professore I fascia (ordinario);4238
+2022;M;1PO;Professore I fascia (ordinario);11448
+2022;F;2PA;Professore II fascia (associato);11263
+2022;M;2PA;Professore II fascia (associato);15341
+2022;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;3199
+2022;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2727
+2022;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;3604
+2022;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;3879
+2022;F;3RU;Ricercatore a tempo indeterminato;2601
+2022;M;3RU;Ricercatore a tempo indeterminato;2698
+2022;F;4AR;Titolare di assegno di ricerca;7931
+2022;M;4AR;Titolare di assegno di ricerca;7812
+2023;F;1PO;Professore I fascia (ordinario);4617
+2023;M;1PO;Professore I fascia (ordinario);11957
+2023;F;2PA;Professore II fascia (associato);11310
+2023;M;2PA;Professore II fascia (associato);15162
+2023;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;4292
+2023;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2794
+2023;F;3RTD;Ricercatore a tempo determinato L. 79/2022;73
+2023;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;4930
+2023;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;3972
+2023;M;3RTD;Ricercatore a tempo determinato L. 79/2022;76
+2023;F;3RU;Ricercatore a tempo indeterminato;2409
+2023;M;3RU;Ricercatore a tempo indeterminato;2422
+2023;F;4AR;Titolare di assegno di ricerca;8019
+2023;M;4AR;Titolare di assegno di ricerca;7872
+2024;F;1PO;Professore I fascia (ordinario);5116
+2024;M;1PO;Professore I fascia (ordinario);12579
+2024;F;2PA;Professore II fascia (associato);11951
+2024;M;2PA;Professore II fascia (associato);15895
+2024;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;3722
+2024;F;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;2264
+2024;F;3RTD;Ricercatore a tempo determinato L. 79/2022;724
+2024;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo A;4093
+2024;M;3RTD;Ricercatore a tempo determinato L. 240/2010 tipo B;3129
+2024;M;3RTD;Ricercatore a tempo determinato L. 79/2022;889
+2024;F;3RU;Ricercatore a tempo indeterminato;2125
+2024;M;3RU;Ricercatore a tempo indeterminato;2146
+2024;F;4AR;Titolare di assegno di ricerca;12648
+2024;M;4AR;Titolare di assegno di ricerca;12505

@@ -1,0 +1,937 @@
+DATA;CODICE_REGIONE;NOME_REGIONE;CODICE_ENTE;NOME_ENTE;CODICE_SERVIZIO;DESCRIZIONE_SERVIZIO;NUMERO
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;1;Posti alloggio in residenze - anno corrente;3197
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);2744
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;359
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;9;Mense attive a gestione indiretta - anno corrente;9
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;10;Posti a sedere in mense a gestione indiretta - anno corrente;1485
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;63
+01/11/2025;01;Piemonte;0101;EDISU del Piemonte;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;63
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;1;Posti alloggio in residenze - anno corrente;1636
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);985
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;443
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;94
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;9;Mense attive a gestione indiretta - anno corrente;9
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;10;Posti a sedere in mense a gestione indiretta - anno corrente;1351
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;1;Posti alloggio in residenze - anno corrente;1654
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);690
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;759
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);80
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;125
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;7;Mense attive a gestione diretta - anno corrente;1
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;8;Posti a sedere in mense a gestione diretta - anno corrente;148
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;10;Posti a sedere in mense a gestione indiretta - anno corrente;700
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0303;EDiSU di Pavia;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;1;Posti alloggio in residenze - anno corrente;1705
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);372
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;1327
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;9;Mense attive a gestione indiretta - anno corrente;2
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;10;Posti a sedere in mense a gestione indiretta - anno corrente;420
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;1;Posti alloggio in residenze - anno corrente;204
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);187
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;16
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;9;Mense attive a gestione indiretta - anno corrente;5
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;10;Posti a sedere in mense a gestione indiretta - anno corrente;752
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0305;SIS - Università degli studi di Bergamo;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;1;Posti alloggio in residenze - anno corrente;468
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);182
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;200
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);60
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;25
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;9;Mense attive a gestione indiretta - anno corrente;2
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;10;Posti a sedere in mense a gestione indiretta - anno corrente;673
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;1;Posti alloggio in residenze - anno corrente;1395
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);363
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;931
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);28
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;73
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;7;Mense attive a gestione diretta - anno corrente;4
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;8;Posti a sedere in mense a gestione diretta - anno corrente;1025
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;9;Mense attive a gestione indiretta - anno corrente;10
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;10;Posti a sedere in mense a gestione indiretta - anno corrente;1385
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0307;Fondazione EDUCatt di Milano;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;1;Posti alloggio in residenze - anno corrente;38
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);33
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;5
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;9;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;10;Posti a sedere in mense a gestione indiretta - anno corrente;150
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);1;Posti alloggio in residenze - anno corrente;307
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);85
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;184
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);14
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;24
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);9;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);10;Posti a sedere in mense a gestione indiretta - anno corrente;280
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";1;Posti alloggio in residenze - anno corrente;35
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);34
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";9;Mense attive a gestione indiretta - anno corrente;10
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";10;Posti a sedere in mense a gestione indiretta - anno corrente;400
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;9;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;10;Posti a sedere in mense a gestione indiretta - anno corrente;200
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);1;Posti alloggio in residenze - anno corrente;8
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);4
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;4
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;1;Posti alloggio in residenze - anno corrente;1346
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);1115
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);150
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;81
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;9;Mense attive a gestione indiretta - anno corrente;126
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;10;Posti a sedere in mense a gestione indiretta - anno corrente;3500
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;1;Posti alloggio in residenze - anno corrente;831
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);691
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;116
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);14
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;10
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;7;Mense attive a gestione diretta - anno corrente;4
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;8;Posti a sedere in mense a gestione diretta - anno corrente;580
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;9;Mense attive a gestione indiretta - anno corrente;2
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;10;Posti a sedere in mense a gestione indiretta - anno corrente;200
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;215
+01/11/2025;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;215
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;1;Posti alloggio in residenze - anno corrente;233
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);88
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;103
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);16
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;26
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;9;Mense attive a gestione indiretta - anno corrente;2
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;10;Posti a sedere in mense a gestione indiretta - anno corrente;150
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;1;Posti alloggio in residenze - anno corrente;63
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);6
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;51
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;6
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;1;Posti alloggio in residenze - anno corrente;731
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);138
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;533
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);60
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;10;Posti a sedere in mense a gestione indiretta - anno corrente;930
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;1;Posti alloggio in residenze - anno corrente;1187
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);881
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;156
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);20
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;18
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;9;Mense attive a gestione indiretta - anno corrente;7
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;10;Posti a sedere in mense a gestione indiretta - anno corrente;1018
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;6
+01/11/2025;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;6
+01/11/2025;05;Veneto;0501;ESU di Venezia;1;Posti alloggio in residenze - anno corrente;1003
+01/11/2025;05;Veneto;0501;ESU di Venezia;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);693
+01/11/2025;05;Veneto;0501;ESU di Venezia;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;160
+01/11/2025;05;Veneto;0501;ESU di Venezia;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);150
+01/11/2025;05;Veneto;0501;ESU di Venezia;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;05;Veneto;0501;ESU di Venezia;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;05;Veneto;0501;ESU di Venezia;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;05;Veneto;0501;ESU di Venezia;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;05;Veneto;0501;ESU di Venezia;10;Posti a sedere in mense a gestione indiretta - anno corrente;338
+01/11/2025;05;Veneto;0501;ESU di Venezia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;05;Veneto;0501;ESU di Venezia;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;05;Veneto;0501;ESU di Venezia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;05;Veneto;0501;ESU di Venezia;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;05;Veneto;0503;ESU di Padova;1;Posti alloggio in residenze - anno corrente;1639
+01/11/2025;05;Veneto;0503;ESU di Padova;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);1100
+01/11/2025;05;Veneto;0503;ESU di Padova;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;248
+01/11/2025;05;Veneto;0503;ESU di Padova;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);230
+01/11/2025;05;Veneto;0503;ESU di Padova;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;61
+01/11/2025;05;Veneto;0503;ESU di Padova;7;Mense attive a gestione diretta - anno corrente;2
+01/11/2025;05;Veneto;0503;ESU di Padova;8;Posti a sedere in mense a gestione diretta - anno corrente;1024
+01/11/2025;05;Veneto;0503;ESU di Padova;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;05;Veneto;0503;ESU di Padova;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;05;Veneto;0503;ESU di Padova;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;05;Veneto;0503;ESU di Padova;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;05;Veneto;0503;ESU di Padova;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;76
+01/11/2025;05;Veneto;0503;ESU di Padova;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;76
+01/11/2025;05;Veneto;0505;ESU di Verona;1;Posti alloggio in residenze - anno corrente;433
+01/11/2025;05;Veneto;0505;ESU di Verona;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);288
+01/11/2025;05;Veneto;0505;ESU di Verona;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;100
+01/11/2025;05;Veneto;0505;ESU di Verona;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);38
+01/11/2025;05;Veneto;0505;ESU di Verona;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;7
+01/11/2025;05;Veneto;0505;ESU di Verona;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;05;Veneto;0505;ESU di Verona;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;05;Veneto;0505;ESU di Verona;9;Mense attive a gestione indiretta - anno corrente;9
+01/11/2025;05;Veneto;0505;ESU di Verona;10;Posti a sedere in mense a gestione indiretta - anno corrente;1200
+01/11/2025;05;Veneto;0505;ESU di Verona;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;05;Veneto;0505;ESU di Verona;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;05;Veneto;0505;ESU di Verona;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;05;Veneto;0505;ESU di Verona;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;1;Posti alloggio in residenze - anno corrente;1252
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);1001
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;145
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);8
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;10;Posti a sedere in mense a gestione indiretta - anno corrente;1360
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;161
+01/11/2025;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;159
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;1;Posti alloggio in residenze - anno corrente;995
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);690
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;225
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;7;Mense attive a gestione diretta - anno corrente;1
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;8;Posti a sedere in mense a gestione diretta - anno corrente;250
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;10;Posti a sedere in mense a gestione indiretta - anno corrente;280
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;07;Liguria;0701;ALISEO LIGURIA;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;1;Posti alloggio in residenze - anno corrente;4061
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);3639
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;422
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;9;Mense attive a gestione indiretta - anno corrente;15
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;10;Posti a sedere in mense a gestione indiretta - anno corrente;2397
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;30
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;30
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;65
+01/11/2025;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;63
+01/11/2025;09;Toscana;0900;ARDSU Toscana;1;Posti alloggio in residenze - anno corrente;4680
+01/11/2025;09;Toscana;0900;ARDSU Toscana;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);4652
+01/11/2025;09;Toscana;0900;ARDSU Toscana;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;09;Toscana;0900;ARDSU Toscana;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;09;Toscana;0900;ARDSU Toscana;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;09;Toscana;0900;ARDSU Toscana;7;Mense attive a gestione diretta - anno corrente;7
+01/11/2025;09;Toscana;0900;ARDSU Toscana;8;Posti a sedere in mense a gestione diretta - anno corrente;2642
+01/11/2025;09;Toscana;0900;ARDSU Toscana;9;Mense attive a gestione indiretta - anno corrente;32
+01/11/2025;09;Toscana;0900;ARDSU Toscana;10;Posti a sedere in mense a gestione indiretta - anno corrente;3215
+01/11/2025;09;Toscana;0900;ARDSU Toscana;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;09;Toscana;0900;ARDSU Toscana;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;09;Toscana;0900;ARDSU Toscana;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;09;Toscana;0900;ARDSU Toscana;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;1;Posti alloggio in residenze - anno corrente;1335
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);1230
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;42
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;63
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;9;Mense attive a gestione indiretta - anno corrente;12
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;10;Posti a sedere in mense a gestione indiretta - anno corrente;1490
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;10;Umbria;1001;Agenzia per il DSU dell'Umbria;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;11;Marche;1100;ERDIS Marche;1;Posti alloggio in residenze - anno corrente;3622
+01/11/2025;11;Marche;1100;ERDIS Marche;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);2611
+01/11/2025;11;Marche;1100;ERDIS Marche;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;764
+01/11/2025;11;Marche;1100;ERDIS Marche;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;11;Marche;1100;ERDIS Marche;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;157
+01/11/2025;11;Marche;1100;ERDIS Marche;7;Mense attive a gestione diretta - anno corrente;4
+01/11/2025;11;Marche;1100;ERDIS Marche;8;Posti a sedere in mense a gestione diretta - anno corrente;1270
+01/11/2025;11;Marche;1100;ERDIS Marche;9;Mense attive a gestione indiretta - anno corrente;5
+01/11/2025;11;Marche;1100;ERDIS Marche;10;Posti a sedere in mense a gestione indiretta - anno corrente;1048
+01/11/2025;11;Marche;1100;ERDIS Marche;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;11;Marche;1100;ERDIS Marche;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;11;Marche;1100;ERDIS Marche;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;11;Marche;1100;ERDIS Marche;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;12;Lazio;1200;LAZIODISCO;1;Posti alloggio in residenze - anno corrente;3159
+01/11/2025;12;Lazio;1200;LAZIODISCO;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);3157
+01/11/2025;12;Lazio;1200;LAZIODISCO;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;2
+01/11/2025;12;Lazio;1200;LAZIODISCO;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;12;Lazio;1200;LAZIODISCO;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;12;Lazio;1200;LAZIODISCO;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;12;Lazio;1200;LAZIODISCO;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;12;Lazio;1200;LAZIODISCO;9;Mense attive a gestione indiretta - anno corrente;16
+01/11/2025;12;Lazio;1200;LAZIODISCO;10;Posti a sedere in mense a gestione indiretta - anno corrente;2942
+01/11/2025;12;Lazio;1200;LAZIODISCO;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;12;Lazio;1200;LAZIODISCO;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;12;Lazio;1200;LAZIODISCO;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;9
+01/11/2025;12;Lazio;1200;LAZIODISCO;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;9
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;1;Posti alloggio in residenze - anno corrente;218
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);215
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;10;Posti a sedere in mense a gestione indiretta - anno corrente;557
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;100
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;61
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;18
+01/11/2025;13;Abruzzo;1301;ADSU di L'Aquila;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;18
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;9;Mense attive a gestione indiretta - anno corrente;2
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;10;Posti a sedere in mense a gestione indiretta - anno corrente;180
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;13;Abruzzo;1302;ADSU di Teramo;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;1;Posti alloggio in residenze - anno corrente;163
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);128
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;1
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);18
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;2
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;9;Mense attive a gestione indiretta - anno corrente;2
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;10;Posti a sedere in mense a gestione indiretta - anno corrente;708
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;13;Abruzzo;1303;ADSU di Chieti;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;14;Molise;1401;ESU del Molise;1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;14;Molise;1401;ESU del Molise;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;14;Molise;1401;ESU del Molise;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;14;Molise;1401;ESU del Molise;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;14;Molise;1401;ESU del Molise;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;14;Molise;1401;ESU del Molise;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;14;Molise;1401;ESU del Molise;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;14;Molise;1401;ESU del Molise;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;14;Molise;1401;ESU del Molise;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;14;Molise;1401;ESU del Molise;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;14;Molise;1401;ESU del Molise;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;14;Molise;1401;ESU del Molise;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;14;Molise;1401;ESU del Molise;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;15;Campania;1500;ADISURC Campania;1;Posti alloggio in residenze - anno corrente;906
+01/11/2025;15;Campania;1500;ADISURC Campania;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);320
+01/11/2025;15;Campania;1500;ADISURC Campania;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;172
+01/11/2025;15;Campania;1500;ADISURC Campania;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);17
+01/11/2025;15;Campania;1500;ADISURC Campania;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;15;Campania;1500;ADISURC Campania;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;15;Campania;1500;ADISURC Campania;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;15;Campania;1500;ADISURC Campania;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;15;Campania;1500;ADISURC Campania;10;Posti a sedere in mense a gestione indiretta - anno corrente;1160
+01/11/2025;15;Campania;1500;ADISURC Campania;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;15;Campania;1500;ADISURC Campania;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;15;Campania;1500;ADISURC Campania;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;83
+01/11/2025;15;Campania;1500;ADISURC Campania;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;46
+01/11/2025;16;Puglia;1600;ADISU Puglia;1;Posti alloggio in residenze - anno corrente;2306
+01/11/2025;16;Puglia;1600;ADISU Puglia;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);2174
+01/11/2025;16;Puglia;1600;ADISU Puglia;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;16;Puglia;1600;ADISU Puglia;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);32
+01/11/2025;16;Puglia;1600;ADISU Puglia;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;16;Puglia;1600;ADISU Puglia;7;Mense attive a gestione diretta - anno corrente;8
+01/11/2025;16;Puglia;1600;ADISU Puglia;8;Posti a sedere in mense a gestione diretta - anno corrente;880
+01/11/2025;16;Puglia;1600;ADISU Puglia;9;Mense attive a gestione indiretta - anno corrente;16
+01/11/2025;16;Puglia;1600;ADISU Puglia;10;Posti a sedere in mense a gestione indiretta - anno corrente;604
+01/11/2025;16;Puglia;1600;ADISU Puglia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;16;Puglia;1600;ADISU Puglia;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;16;Puglia;1600;ADISU Puglia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;16;Puglia;1600;ADISU Puglia;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;1;Posti alloggio in residenze - anno corrente;110
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);80
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;10
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);10
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;5
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;9;Mense attive a gestione indiretta - anno corrente;2
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;10;Posti a sedere in mense a gestione indiretta - anno corrente;250
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;17;Basilicata;1701;ARDSU della Basilicata;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;1;Posti alloggio in residenze - anno corrente;104
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);98
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;10;Posti a sedere in mense a gestione indiretta - anno corrente;150
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;1;Posti alloggio in residenze - anno corrente;2376
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);1870
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;127
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);2
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;153
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;9;Mense attive a gestione indiretta - anno corrente;5
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;10;Posti a sedere in mense a gestione indiretta - anno corrente;1700
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;68
+01/11/2025;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;50
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";1;Posti alloggio in residenze - anno corrente;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;1;Posti alloggio in residenze - anno corrente;240
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);240
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;7;Mense attive a gestione diretta - anno corrente;1
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;8;Posti a sedere in mense a gestione diretta - anno corrente;250
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;10;Posti a sedere in mense a gestione indiretta - anno corrente;120
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;18;Calabria;1805;Fondazione UMG - Catanzaro;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;19;Sicilia;1901;ERSU Palermo;1;Posti alloggio in residenze - anno corrente;938
+01/11/2025;19;Sicilia;1901;ERSU Palermo;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);938
+01/11/2025;19;Sicilia;1901;ERSU Palermo;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;19;Sicilia;1901;ERSU Palermo;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;19;Sicilia;1901;ERSU Palermo;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;19;Sicilia;1901;ERSU Palermo;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1901;ERSU Palermo;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1901;ERSU Palermo;9;Mense attive a gestione indiretta - anno corrente;4
+01/11/2025;19;Sicilia;1901;ERSU Palermo;10;Posti a sedere in mense a gestione indiretta - anno corrente;790
+01/11/2025;19;Sicilia;1901;ERSU Palermo;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;48
+01/11/2025;19;Sicilia;1901;ERSU Palermo;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;48
+01/11/2025;19;Sicilia;1901;ERSU Palermo;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;96
+01/11/2025;19;Sicilia;1901;ERSU Palermo;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;96
+01/11/2025;19;Sicilia;1902;ERSU Messina;1;Posti alloggio in residenze - anno corrente;298
+01/11/2025;19;Sicilia;1902;ERSU Messina;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);298
+01/11/2025;19;Sicilia;1902;ERSU Messina;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;19;Sicilia;1902;ERSU Messina;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;19;Sicilia;1902;ERSU Messina;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;19;Sicilia;1902;ERSU Messina;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1902;ERSU Messina;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1902;ERSU Messina;9;Mense attive a gestione indiretta - anno corrente;4
+01/11/2025;19;Sicilia;1902;ERSU Messina;10;Posti a sedere in mense a gestione indiretta - anno corrente;1294
+01/11/2025;19;Sicilia;1902;ERSU Messina;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;19;Sicilia;1902;ERSU Messina;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;19;Sicilia;1902;ERSU Messina;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;19;Sicilia;1902;ERSU Messina;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;19;Sicilia;1903;ERSU Catania;1;Posti alloggio in residenze - anno corrente;459
+01/11/2025;19;Sicilia;1903;ERSU Catania;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);410
+01/11/2025;19;Sicilia;1903;ERSU Catania;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;19;Sicilia;1903;ERSU Catania;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);15
+01/11/2025;19;Sicilia;1903;ERSU Catania;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;10
+01/11/2025;19;Sicilia;1903;ERSU Catania;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1903;ERSU Catania;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1903;ERSU Catania;9;Mense attive a gestione indiretta - anno corrente;5
+01/11/2025;19;Sicilia;1903;ERSU Catania;10;Posti a sedere in mense a gestione indiretta - anno corrente;540
+01/11/2025;19;Sicilia;1903;ERSU Catania;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;19;Sicilia;1903;ERSU Catania;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;19;Sicilia;1903;ERSU Catania;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;19;Sicilia;1903;ERSU Catania;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;1;Posti alloggio in residenze - anno corrente;70
+01/11/2025;19;Sicilia;1904;ERSU di Enna;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);70
+01/11/2025;19;Sicilia;1904;ERSU di Enna;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;9;Mense attive a gestione indiretta - anno corrente;4
+01/11/2025;19;Sicilia;1904;ERSU di Enna;10;Posti a sedere in mense a gestione indiretta - anno corrente;220
+01/11/2025;19;Sicilia;1904;ERSU di Enna;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;19;Sicilia;1904;ERSU di Enna;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;1;Posti alloggio in residenze - anno corrente;396
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);396
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;0
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);0
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;7;Mense attive a gestione diretta - anno corrente;1
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;8;Posti a sedere in mense a gestione diretta - anno corrente;200
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;9;Mense attive a gestione indiretta - anno corrente;3
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;10;Posti a sedere in mense a gestione indiretta - anno corrente;980
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;20;Sardegna;2001;ERSU di Cagliari;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;1;Posti alloggio in residenze - anno corrente;652
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;2a;Posti alloggio in residenze - di cui assegnati a studenti idonei (borsisti e non borsisti);487
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;4;Posti alloggio in residenze - anno corrente - di cui assegnati a studenti non idonei;83
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;5;Posti alloggio in residenze - anno corrente - di cui riservati a studenti in mobilità (es. Erasmus);82
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;6;Posti alloggio in residenze - anno corrente - di cui riservati ad uso foresteria;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;7;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;8;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;9;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;10;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;132;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta - assegnati;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;20;Sardegna;2002;ERSU di Sassari;136;Posti alloggio in residenze - creati con fondi PNRR - convenzione - assegnati;0

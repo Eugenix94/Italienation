@@ -1,0 +1,740 @@
+Decreto Ministeriale;Cod_settore;Settore_Descrizione;Area_Descrizione;FoRD;Area STEM
+DM ottobre 2000;AGR/01;AGR/01 ECONOMIA ED ESTIMO RURALE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/02;AGR/02 AGRONOMIA E COLTIVAZIONI ERBACEE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/03;AGR/03 ARBORICOLTURA GENERALE E COLTIVAZIONI ARBOREE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/04;AGR/04 ORTICOLTURA E FLORICOLTURA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/05;AGR/05 ASSESTAMENTO FORESTALE E SELVICOLTURA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/06;AGR/06 TECNOLOGIA DEL LEGNO E UTILIZZAZIONI FORESTALI;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/07;AGR/07 GENETICA AGRARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/08;AGR/08 IDRAULICA AGRARIA E SISTEMAZIONI IDRAULICO-FORESTALI;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/09;AGR/09 MECCANICA AGRARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/10;AGR/10 COSTRUZIONI RURALI E TERRITORIO AGROFORESTALE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/11;AGR/11 ENTOMOLOGIA GENERALE E APPLICATA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/12;AGR/12 PATOLOGIA VEGETALE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/13;AGR/13 CHIMICA AGRARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/14;AGR/14 PEDOLOGIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/15;AGR/15 SCIENZE E TECNOLOGIE ALIMENTARI;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/16;AGR/16 MICROBIOLOGIA AGRARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/17;AGR/17 ZOOTECNICA GENERALE E MIGLIORAMENTO GENETICO;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/18;AGR/18 NUTRIZIONE E ALIMENTAZIONE ANIMALE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/19;AGR/19 ZOOTECNICA SPECIALE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;AGR/20;AGR/20 ZOOCOLTURE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-01/A;AGRI-01/A Economia agraria, alimentare ed estimo rurale;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-02/A;AGRI-02/A Agronomia e coltivazioni erbacee;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-02/B;AGRI-02/B Orticoltura e floricoltura;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-03/A;AGRI-03/A Arboricoltura generale e coltivazioni arboree;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-03/B;AGRI-03/B Selvicoltura, pianificazione ed ecologia forestal;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-03/C;AGRI-03/C Tecnologia del legno e utilizzazioni forestali;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-04/A;AGRI-04/A Idraulica agraria e sistemazioni idraulico-forestali;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-04/B;AGRI-04/B Meccanica agraria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-04/C;AGRI-04/C Costruzioni rurali e territorio agroforestale;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-05/A;AGRI-05/A Entomologia generale e applicata;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-05/B;AGRI-05/B Patologia vegetale;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-06/A;AGRI-06/A Genetica agraria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-06/B;AGRI-06/B Chimica agraria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-06/C;AGRI-06/C Pedologia;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-07/A;AGRI-07/A Scienze e tecnologie alimentari;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-08/A;AGRI-08/A Microbiologia agraria, alimentare e ambientale;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-09/A;AGRI-09/A Zootecnia generale e miglioramento genetico;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-09/B;AGRI-09/B Nutrizione e alimentazione animale;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-09/C;AGRI-09/C Zootecnia speciale;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;AGRI-09/D;AGRI-09/D Zoocolture;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;ANGL-01/A;ANGL-01/A Letteratura inglese;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ANGL-01/B;ANGL-01/B Letterature anglo-americane;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ANGL-01/C;ANGL-01/C Lingua, traduzione e linguistica inglese;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARCH-01/A;ARCH-01/A Preistoria e protostoria;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARCH-01/B;ARCH-01/B Numismatica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARCH-01/C;ARCH-01/C Civiltà dell’Italia preromana ed etruscologia;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARCH-01/D;ARCH-01/D Archeologia classica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARCH-01/E;ARCH-01/E Archeologia cristiana, tardoantica e medievale;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARCH-01/F;ARCH-01/F Topografia antica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARCH-01/G;ARCH-01/G Metodologie della ricerca archeologica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARTE-01/A;ARTE-01/A Storia dell’arte medievale;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARTE-01/B;ARTE-01/B Storia dell’arte moderna;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARTE-01/C;ARTE-01/C Storia dell’arte contemporanea;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ARTE-01/D;ARTE-01/D Museologia e critica artistica e del restauro;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/A;ASIA-01/A Archeologia e storia dell’arte dell’Asia centrale e dell’India;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/B;ASIA-01/B Storia, religioni e filosofie dell’Asia meridionale e centrale;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/C;ASIA-01/C Indologia e tibetologia;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/D;ASIA-01/D Lingue e letterature moderne del subcontinente indiano;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/E;ASIA-01/E Archeologia, storia dell’arte, religioni e filosofie dell’Asia orientale e sud-orientale;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/F;ASIA-01/F Lingue e letterature della Cina e dell’Asia sud-orientale;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/G;ASIA-01/G Lingua e letteratura del Giappone, lingua e letteratura della Corea;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ASIA-01/H;ASIA-01/H Storia dell’Asia orientale e sud-orientale;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;BIO/01;BIO/01 BOTANICA GENERALE;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/02;BIO/02 BOTANICA SISTEMATICA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/03;BIO/03 BOTANICA AMBIENTALE E APPLICATA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/04;BIO/04 FISIOLOGIA VEGETALE;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/05;BIO/05 ZOOLOGIA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/06;BIO/06 ANATOMIA COMPARATA E CITOLOGIA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/07;BIO/07 ECOLOGIA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/08;BIO/08 ANTROPOLOGIA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/09;BIO/09 FISIOLOGIA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/10;BIO/10 BIOCHIMICA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/11;BIO/11 BIOLOGIA MOLECOLARE;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/12;BIO/12 BIOCHIMICA CLINICA E BIOLOGIA MOLECOLARE CLINICA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/13;BIO/13 BIOLOGIA APPLICATA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/14;BIO/14 FARMACOLOGIA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/15;BIO/15 BIOLOGIA FARMACEUTICA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/16;BIO/16 ANATOMIA UMANA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/17;BIO/17 ISTOLOGIA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/18;BIO/18 GENETICA;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM ottobre 2000;BIO/19;BIO/19 MICROBIOLOGIA GENERALE;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-01/A;BIOS-01/A Botanica generale;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-01/B;BIOS-01/B Botanica sistematica;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-01/C;BIOS-01/C Botanica ambientale e applicata;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-01/D;BIOS-01/D Biologia farmaceutica;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-02/A;BIOS-02/A Fisiologia vegetale;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-03/A;BIOS-03/A Zoologia;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-03/B;BIOS-03/B Antropologia;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-04/A;BIOS-04/A Anatomia, biologia cellulare e biologia dello sviluppo comparate;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-05/A;BIOS-05/A Ecologia;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-06/A;BIOS-06/A Fisiologia;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-07/A;BIOS-07/A Biochimica;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-08/A;BIOS-08/A Biologia molecolare;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-09/A;BIOS-09/A Biochimica clinica e biologia molecolare clinica;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-10/A;BIOS-10/A Biologia cellulare e applicata;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-11/A;BIOS-11/A Farmacologia;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-12/A;BIOS-12/A Anatomia umana;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-13/A;BIOS-13/A Istologia ed embriologia umana;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-14/A;BIOS-14/A Genetica;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;BIOS-15/A;BIOS-15/A Microbiologia;05 - Scienze biologiche;01 - Natural sciences;Sì
+DM  639/2024 ;CEAR-01/A;CEAR-01/A Idraulica;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-01/B;CEAR-01/B Costruzioni idrauliche e marittime e idrologia;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-02/A;CEAR-02/A Ingegneria sanitaria-ambientale;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-02/B;CEAR-02/B Ingegneria e sicurezza degli scavi;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-02/C;CEAR-02/C Ingegneria delle materie prime;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-02/D;CEAR-02/D Idrocarburi e fluidi nel sottosuolo;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-03/A;CEAR-03/A Strade, ferrovie e aeroporti;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-03/B;CEAR-03/B Trasporti;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-03/C;CEAR-03/C Estimo e valutazione;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-04/A;CEAR-04/A Geomatica;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-05/A;CEAR-05/A Geotecnica;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-06/A;CEAR-06/A Scienza delle costruzioni;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-07/A;CEAR-07/A Tecnica delle costruzioni;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-08/A;CEAR-08/A Architettura tecnica;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-08/B;CEAR-08/B Produzione e gestione dell’ambiente costruito;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-08/C;CEAR-08/C Progettazione tecnologica e ambientale dell’architettura;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-08/D;CEAR-08/D Design;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-09/A;CEAR-09/A Composizione architettonica e urbana;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-09/B;CEAR-09/B Architettura del paesaggio;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-09/C;CEAR-09/C Architettura degli interni e allestimento;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-10/A;CEAR-10/A Disegno;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-11/A;CEAR-11/A Storia dell’architettura;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-11/B;CEAR-11/B Restauro dell’architettura;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-12/A;CEAR-12/A Tecnica e pianificazione urbanistica;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CEAR-12/B;CEAR-12/B Urbanistica;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;CHEM-01/A;CHEM-01/A Chimica analitica;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-01/B;CHEM-01/B Chimica dell’ambiente e dei beni culturali;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-02/A;CHEM-02/A Chimica fisica;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-03/A;CHEM-03/A Chimica generale e inorganica;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-04/A;CHEM-04/A Chimica industriale;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-05/A;CHEM-05/A Chimica organica;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-06/A;CHEM-06/A Fondamenti chimici delle tecnologie;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-07/A;CHEM-07/A Chimica farmaceutica;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-07/B;CHEM-07/B Chimica degli alimenti;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-07/C;CHEM-07/C Chimica e biotecnologia delle fermentazioni;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;CHEM-08/A;CHEM-08/A Tecnologia, socioeconomia e normativa dei medicinali e dei prodotti per il benessere e per la salute;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/01;CHIM/01 CHIMICA ANALITICA;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/02;CHIM/02 CHIMICA FISICA;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/03;CHIM/03 CHIMICA GENERALE E INORGANICA;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/04;CHIM/04 CHIMICA INDUSTRIALE;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/05;CHIM/05 SCIENZA E TECNOLOGIA DEI MATERIALI POLIMERICI;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/06;CHIM/06 CHIMICA ORGANICA;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/07;CHIM/07 FONDAMENTI CHIMICI DELLE TECNOLOGIE;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/08;CHIM/08 CHIMICA FARMACEUTICA;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/09;CHIM/09 FARMACEUTICO TECNOLOGICO APPLICATIVO;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/10;CHIM/10 CHIMICA DEGLI ALIMENTI;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/11;CHIM/11 CHIMICA E BIOTECNOLOGIA DELLE FERMENTAZIONI;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM ottobre 2000;CHIM/12;CHIM/12 CHIMICA DELL'AMBIENTE E DEI BENI CULTURALI;03 - Scienze chimiche;01 - Natural sciences;Sì
+DM  639/2024 ;COMP-01/A;COMP-01/A Critica letteraria e letterature comparate;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;ECON-01/A;ECON-01/A Economia politica;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-02/A;ECON-02/A Politica economica;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-03/A;ECON-03/A Scienza delle finanze;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-04/A;ECON-04/A Economia applicata;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-05/A;ECON-05/A Econometria;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-06/A;ECON-06/A Economia aziendale;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-07/A;ECON-07/A Economia e gestione delle imprese;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-08/A;ECON-08/A Organizzazione aziendale;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-09/A;ECON-09/A Finanza aziendale;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-09/B;ECON-09/B Economia degli intermediari finanziari;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;ECON-10/A;ECON-10/A Scienze merceologiche;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;FICP-01/A;FICP-01/A Filologia greca e latina;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FICP-01/B;FICP-01/B Letteratura cristiana antica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FICP-01/C;FICP-01/C Papirologia;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;FIS/01;FIS/01 FISICA SPERIMENTALE;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM ottobre 2000;FIS/02;FIS/02 FISICA TEORICA, MODELLI E METODI MATEMATICI;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM ottobre 2000;FIS/03;FIS/03 FISICA DELLA MATERIA;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM ottobre 2000;FIS/04;FIS/04 FISICA NUCLEARE E SUBNUCLEARE;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM ottobre 2000;FIS/05;FIS/05 ASTRONOMIA E ASTROFISICA;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM ottobre 2000;FIS/06;FIS/06 FISICA PER IL SISTEMA TERRA E IL MEZZO CIRCUMTERRESTRE;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM ottobre 2000;FIS/07;FIS/07 FISICA APPLICATA (A BENI CULTURALI, AMBIENTALI, BIOLOGIA E MEDICINA);02 - Scienze fisiche;01 - Natural sciences;Sì
+DM ottobre 2000;FIS/08;FIS/08 DIDATTICA E STORIA DELLA FISICA ;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;FLMR-01/A;FLMR-01/A Letteratura latina medievale e umanistica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FLMR-01/B;FLMR-01/B Filologia e linguistica romanza;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FLMR-01/C;FLMR-01/C Letterature portoghese, brasiliana e di espressione lusofona;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FLMR-01/D;FLMR-01/D Lingua, traduzione e linguistica portoghese / brasiliana;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FLMR-01/E;FLMR-01/E Lingua e letteratura romena;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FRAN-01/A;FRAN-01/A Letteratura francese;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;FRAN-01/B;FRAN-01/B Lingua, traduzione e linguistica francese;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;GEO/01;GEO/01 PALEONTOLOGIA E PALEOECOLOGIA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/02;GEO/02 GEOLOGIA STRATIGRAFICA E SEDIMENTOLOGICA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/03;GEO/03 GEOLOGIA STRUTTURALE;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/04;GEO/04 GEOGRAFIA FISICA E GEOMORFOLOGIA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/05;GEO/05 GEOLOGIA APPLICATA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/06;GEO/06 MINERALOGIA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/07;GEO/07 PETROLOGIA E PETROGRAFIA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/08;GEO/08 GEOCHIMICA E VULCANOLOGIA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/09;GEO/09 GEORISORSE MINERARIE E APPLICAZIONI MINERALOGICO- PETROGRAFICHE PER L'AMBIENTE ED I BENI CULTURALI;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/10;GEO/10 GEOFISICA DELLA TERRA SOLIDA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/11;GEO/11 GEOFISICA APPLICATA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM ottobre 2000;GEO/12;GEO/12 OCEANOGRAFIA E FISICA DELL'ATMOSFERA;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOG-01/A;GEOG-01/A Geografia;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;GEOG-01/B;GEOG-01/B Geografia economico-politica;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;GEOS-01/A;GEOS-01/A Mineralogia;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-01/B;GEOS-01/B Petrologia;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-01/C;GEOS-01/C Geochimica e vulcanologia;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-01/D;GEOS-01/D Georisorse minerarie e applicazioni mineralogico-petrografiche per l’ambiente e per i beni culturali;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-02/A;GEOS-02/A Paleontologia e paleoecologia;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-02/B;GEOS-02/B Geologia stratigrafica e sedimentologia;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-02/C;GEOS-02/C Geologia strutturale e tettonica;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-03/A;GEOS-03/A Geografia fisica e geomorfologia;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-03/B;GEOS-03/B Geologia applicata;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-04/A;GEOS-04/A Geofisica della Terra solida;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-04/B;GEOS-04/B Geofisica applicata;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GEOS-04/C;GEOS-04/C Oceanografia, meteorologia e climatologia;04 - Scienze della terra;01 - Natural sciences;Sì
+DM  639/2024 ;GERM-01/A;GERM-01/A Filologia e linguistica germanica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GERM-01/B;GERM-01/B Letteratura tedesca;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GERM-01/C;GERM-01/C Lingua, traduzione e linguistica tedesca;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GERM-01/D;GERM-01/D Lingue e letterature nordiche;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GERM-01/E;GERM-01/E Lingua e letteratura nederlandese;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GIUR-01/A;GIUR-01/A Diritto privato;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-02/A;GIUR-02/A Diritto commerciale;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-02/B;GIUR-02/B Diritto della navigazione e dei trasporti;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-03/A;GIUR-03/A Diritto dell’economia;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-03/B;GIUR-03/B Diritto agrario e alimentare;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-04/A;GIUR-04/A Diritto del lavoro;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-05/A;GIUR-05/A Diritto costituzionale e pubblico;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-06/A;GIUR-06/A Diritto amministrativo e pubblico;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-07/A;GIUR-07/A Diritto e religione;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-08/A;GIUR-08/A Diritto tributario;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-09/A;GIUR-09/A Diritto internazionale;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-10/A;GIUR-10/A Diritto dell’unione europea;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-11/A;GIUR-11/A Diritto privato comparato;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-11/B;GIUR-11/B Diritto pubblico comparato;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-12/A;GIUR-12/A Diritto processuale civile;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-13/A;GIUR-13/A Diritto processuale penale;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-14/A;GIUR-14/A Diritto penale;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-15/A;GIUR-15/A Diritto romano e fondamenti del diritto europeo;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-16/A;GIUR-16/A Storia del diritto medievale e moderno;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GIUR-17/A;GIUR-17/A Filosofia del diritto;12 - Scienze giuridiche;05 - Social sciences;No
+DM  639/2024 ;GLOT-01/A;GLOT-01/A Glottologia e linguistica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GLOT-01/B;GLOT-01/B Didattica delle lingue moderne;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GLOT-01/C;GLOT-01/C Lingua e letteratura albanese;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GLOT-01/D;GLOT-01/D Filologia ugro-finnica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;GSPS-01/A;GSPS-01/A Filosofia politica;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-02/A;GSPS-02/A Scienza politica;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-03/A;GSPS-03/A Storia del pensiero politico;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-03/B;GSPS-03/B Storia delle istituzioni politiche;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-04/A;GSPS-04/A Storia e istituzioni delle Americhe;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-04/B;GSPS-04/B Storia delle relazioni internazionali;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-04/C;GSPS-04/C Storia e istituzioni dell’Africa;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-04/D;GSPS-04/D Storia e istituzioni dell’Asia;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-05/A;GSPS-05/A Sociologia generale;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-06/A;GSPS-06/A Sociologia dei processi culturali e comunicativi;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-07/A;GSPS-07/A Sociologia dei fenomeni politici;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-07/B;GSPS-07/B Sociologia del diritto e della devianza;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-08/A;GSPS-08/A Sociologia dei processi economici e del lavoro;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;GSPS-08/B;GSPS-08/B Sociologia dell’ambiente e del territorio;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;HELL-01/A;HELL-01/A Filologia e civiltà dell’Egeo e del Mediterraneo preclassico;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;HELL-01/B;HELL-01/B Lingua e letteratura greca;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;HELL-01/C;HELL-01/C Civiltà bizantina;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;HELL-01/D;HELL-01/D Lingua e letteratura neogreca;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-01/A;HIST-01/A Storia medievale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-02/A;HIST-02/A Storia moderna;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-03/A;HIST-03/A Storia contemporanea;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-03/B;HIST-03/B Storia dell'europa orientale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-04/A;HIST-04/A Storia delle religioni;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-04/B;HIST-04/B Storia del cristianesimo e delle chiese;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-04/C;HIST-04/C Archivistica, bibliografia e biblioteconomia;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;HIST-04/D;HIST-04/D Paleografia;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;IBIO-01/A;IBIO-01/A Bioingegneria;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/01;ICAR/01 IDRAULICA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/02;ICAR/02 COSTRUZIONI IDRAULICHE E MARITTIME E IDROLOGIA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/03;ICAR/03 INGEGNERIA SANITARIA-AMBIENTALE;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/04;ICAR/04 STRADE, FERROVIE ED AEROPORTI;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/05;ICAR/05 TRASPORTI;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/06;ICAR/06 TOPOGRAFIA E CARTOGRAFIA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/07;ICAR/07 GEOTECNICA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/08;ICAR/08 SCIENZA DELLE COSTRUZIONI;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/09;ICAR/09 TECNICA DELLE COSTRUZIONI;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/10;ICAR/10 ARCHITETTURA TECNICA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/11;ICAR/11 PRODUZIONE EDILIZIA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/12;ICAR/12 TECNOLOGIA DELL'ARCHITETTURA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/13;ICAR/13 DISEGNO INDUSTRIALE;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/14;ICAR/14 COMPOSIZIONE ARCHITETTONICA E URBANA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/15;ICAR/15 ARCHITETTURA DEL PAESAGGIO;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/16;ICAR/16 ARCHITETTURA DEGLI INTERNI E ALLESTIMENTO;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/17;ICAR/17 DISEGNO;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/18;ICAR/18 STORIA DELL'ARCHITETTURA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/19;ICAR/19 RESTAURO;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/20;ICAR/20 TECNICA E PIANIFICAZIONE URBANISTICA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/21;ICAR/21 URBANISTICA;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM ottobre 2000;ICAR/22;ICAR/22 ESTIMO;08 - Ingegneria civile e Architettura;02 - Engineering and technology;Sì
+DM  639/2024 ;ICHI-01/A;ICHI-01/A Chimica fisica applicata;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;ICHI-01/B;ICHI-01/B Principi di ingegneria chimica;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;ICHI-01/C;ICHI-01/C Teoria dello sviluppo dei processi chimici;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;ICHI-02/A;ICHI-02/A Impianti chimici;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;ICHI-02/B;ICHI-02/B Chimica industriale e tecnologica;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IEGE-01/A;IEGE-01/A Ingegneria economico-gestionale;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIET-01/A;IIET-01/A Elettrotecnica;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-01/A;IIND-01/A Architettura navale;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-01/B;IIND-01/B Costruzioni e impianti navali;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-01/C;IIND-01/C Meccanica del volo;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-01/D;IIND-01/D Costruzioni e strutture aerospaziali;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-01/E;IIND-01/E Impianti e sistemi aerospaziali;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-01/F;IIND-01/F Fluidodinamica;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-01/G;IIND-01/G Propulsione aerospaziale;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-02/A;IIND-02/A Meccanica applicata alle macchine;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-03/A;IIND-03/A Progettazione meccanica e costruzione di macchine;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-03/B;IIND-03/B Disegno e metodi dell'ingegneria industriale;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-03/C;IIND-03/C Metallurgia;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-04/A;IIND-04/A Tecnologie e sistemi di lavorazione;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-05/A;IIND-05/A Impianti industriali meccanici;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-06/A;IIND-06/A Macchine a fluido;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-06/B;IIND-06/B Sistemi per l'energia e l'ambiente;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-07/A;IIND-07/A Fisica tecnica industriale;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-07/B;IIND-07/B Fisica tecnica ambientale;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-07/C;IIND-07/C Fisica dei reattori nucleari;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-07/D;IIND-07/D Impianti nucleari;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-07/E;IIND-07/E Misure e strumentazione nucleari;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-08/A;IIND-08/A Convertitori, macchine e azionamenti elettrici;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IIND-08/B;IIND-08/B Sistemi elettrici per l’energia;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IINF-01/A;IINF-01/A Elettronica;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IINF-02/A;IINF-02/A Campi elettromagnetici;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IINF-03/A;IINF-03/A Telecomunicazioni;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IINF-04/A;IINF-04/A Automatica;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IINF-05/A;IINF-05/A Sistemi di elaborazione delle informazioni;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IMAT-01/A;IMAT-01/A Scienza e tecnologia dei materiali;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IMIS-01/A;IMIS-01/A Misure meccaniche e termiche;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;IMIS-01/B;IMIS-01/B Misure elettriche ed elettroniche;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;INF/01;INF/01 INFORMATICA ;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;INFO-01/A;INFO-01/A Informatica;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;ING-IND/01;ING-IND/01 ARCHITETTURA NAVALE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/02;ING-IND/02 COSTRUZIONI E IMPIANTI NAVALI E MARINI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/03;ING-IND/03 MECCANICA DEL VOLO;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/04;ING-IND/04 COSTRUZIONI E STRUTTURE AEROSPAZIALI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/05;ING-IND/05 IMPIANTI E SISTEMI AEROSPAZIALI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/06;ING-IND/06 FLUIDODINAMICA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/07;ING-IND/07 PROPULSIONE AEROSPAZIALE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/08;ING-IND/08 MACCHINE A FLUIDO;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/09;ING-IND/09 SISTEMI PER L'ENERGIA E L'AMBIENTE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/10;ING-IND/10 FISICA TECNICA INDUSTRIALE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/11;ING-IND/11 FISICA TECNICA AMBIENTALE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/12;ING-IND/12 MISURE MECCANICHE E TERMICHE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/13;ING-IND/13 MECCANICA APPLICATA ALLE MACCHINE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/14;ING-IND/14 PROGETTAZIONE MECCANICA E COSTRUZIONE DI MACCHINE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/15;ING-IND/15 DISEGNO E METODI DELL'INGEGNERIA INDUSTRIALE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/16;ING-IND/16 TECNOLOGIE E SISTEMI DI LAVORAZIONE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/17;ING-IND/17 IMPIANTI INDUSTRIALI MECCANICI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/18;ING-IND/18 FISICA DEI REATTORI NUCLEARI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/19;ING-IND/19 IMPIANTI NUCLEARI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/20;ING-IND/20 MISURE E STRUMENTAZIONE NUCLEARI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/21;ING-IND/21 METALLURGIA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/22;ING-IND/22 SCIENZA E TECNOLOGIA DEI MATERIALI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/23;ING-IND/23 CHIMICA FISICA APPLICATA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/24;ING-IND/24 PRINCIPI DI INGEGNERIA CHIMICA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/25;ING-IND/25 IMPIANTI CHIMICI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/26;ING-IND/26 TEORIA DELLO SVILUPPO DEI PROCESSI CHIMICI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/27;ING-IND/27 CHIMICA INDUSTRIALE E TECNOLOGICA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/28;ING-IND/28 INGEGNERIA E SICUREZZA DEGLI SCAVI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/29;ING-IND/29 INGEGNERIA DELLE MATERIE PRIME;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/30;ING-IND/30 IDROCARBURI E FLUIDI DEL SOTTOSUOLO;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/31;ING-IND/31 ELETTROTECNICA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/32;ING-IND/32 CONVERTITORI, MACCHINE E AZIONAMENTI ELETTRICI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/33;ING-IND/33 SISTEMI ELETTRICI PER L'ENERGIA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/34;ING-IND/34 BIOINGEGNERIA INDUSTRIALE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-IND/35;ING-IND/35 INGEGNERIA ECONOMICO-GESTIONALE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-INF/01;ING-INF/01 ELETTRONICA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-INF/02;ING-INF/02 CAMPI ELETTROMAGNETICI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-INF/03;ING-INF/03 TELECOMUNICAZIONI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-INF/04;ING-INF/04 AUTOMATICA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-INF/05;ING-INF/05 SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-INF/06;ING-INF/06 BIOINGEGNERIA ELETTRONICA E INFORMATICA;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM ottobre 2000;ING-INF/07;ING-INF/07 MISURE ELETTRICHE E ELETTRONICHE;09 - Ingegneria industriale e dell'informazione;02 - Engineering and technology;Sì
+DM  639/2024 ;ITAL-01/A;ITAL-01/A Letteratura italiana;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;IUS/01;IUS/01 DIRITTO PRIVATO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/02;IUS/02 DIRITTO PRIVATO COMPARATO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/03;IUS/03 DIRITTO AGRARIO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/04;IUS/04 DIRITTO COMMERCIALE;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/05;IUS/05 DIRITTO DELL'ECONOMIA;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/06;IUS/06 DIRITTO DELLA NAVIGAZIONE;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/07;IUS/07 DIRITTO DEL LAVORO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/08;IUS/08 DIRITTO COSTITUZIONALE;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/09;IUS/09 ISTITUZIONI DI DIRITTO PUBBLICO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/10;IUS/10 DIRITTO AMMINISTRATIVO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/11;IUS/11 DIRITTO CANONICO E DIRITTO ECCLESIASTICO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/12;IUS/12 DIRITTO TRIBUTARIO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/13;IUS/13 DIRITTO INTERNAZIONALE;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/14;IUS/14 DIRITTO DELL'UNIONE EUROPEA;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/15;IUS/15 DIRITTO PROCESSUALE CIVILE;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/16;IUS/16 DIRITTO PROCESSUALE PENALE;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/17;IUS/17 DIRITTO PENALE;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/18;IUS/18 DIRITTO ROMANO E DIRITTI DELL'ANTICHITÀ;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/19;IUS/19 STORIA DEL DIRITTO MEDIEVALE E MODERNO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/20;IUS/20 FILOSOFIA DEL DIRITTO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;IUS/21;IUS/21 DIRITTO PUBBLICO COMPARATO;12 - Scienze giuridiche;05 - Social sciences;No
+DM ottobre 2000;L-ANT/01;L-ANT/01 PREISTORIA E PROTOSTORIA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/02;L-ANT/02 STORIA GRECA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/03;L-ANT/03 STORIA ROMANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/04;L-ANT/04 NUMISMATICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/05;L-ANT/05 PAPIROLOGIA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/06;L-ANT/06 ETRUSCOLOGIA E ANTICHITÀ ITALICHE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/07;L-ANT/07 ARCHEOLOGIA CLASSICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/08;L-ANT/08 ARCHEOLOGIA CRISTIANA E MEDIEVALE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/09;L-ANT/09 TOPOGRAFIA ANTICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ANT/10;L-ANT/10 METODOLOGIE DELLA RICERCA ARCHEOLOGICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/01;L-ART/01 STORIA DELL'ARTE MEDIEVALE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/02;L-ART/02 STORIA DELL'ARTE MODERNA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/03;L-ART/03 STORIA DELL'ARTE CONTEMPORANEA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/04;L-ART/04 MUSEOLOGIA E CRITICA ARTISTICA E DEL RESTAURO;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/05;L-ART/05 DISCIPLINE DELLO SPETTACOLO;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/06;L-ART/06 CINEMA, FOTOGRAFIA E TELEVISIONE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/07;L-ART/07 MUSICOLOGIA E STORIA DELLA MUSICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-ART/08;L-ART/08 ETNOMUSICOLOGIA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;LATI-01/A;LATI-01/A Lingua e letteratura latina;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/01;L-FIL-LET/01 CIVILTÀ EGEE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/02;L-FIL-LET/02 LINGUA E LETTERATURA GRECA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/03;L-FIL-LET/03 FILOLOGIA ITALICA, ILLIRICA, CELTICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/04;L-FIL-LET/04 LINGUA E LETTERATURA LATINA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/05;L-FIL-LET/05 FILOLOGIA CLASSICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/06;L-FIL-LET/06 LETTERATURA CRISTIANA ANTICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/07;L-FIL-LET/07 CIVILTÀ BIZANTINA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/08;L-FIL-LET/08 LETTERATURA LATINA MEDIEVALE E UMANISTICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/09;L-FIL-LET/09 FILOLOGIA E LINGUISTICA ROMANZA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/10;L-FIL-LET/10 LETTERATURA ITALIANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/11;L-FIL-LET/11 LETTERATURA ITALIANA CONTEMPORANEA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/12;L-FIL-LET/12 LINGUISTICA ITALIANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/13;L-FIL-LET/13 FILOLOGIA DELLA LETTERATURA ITALIANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/14;L-FIL-LET/14 CRITICA LETTERARIA E LETTERATURE COMPARATE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-FIL-LET/15;L-FIL-LET/15 FILOLOGIA GERMANICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;LICO-01/A;LICO-01/A Letteratura italiana contemporanea;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;LIFI-01/A;LIFI-01/A Linguistica italiana;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;LIFI-01/B;LIFI-01/B Filologia della letteratura italiana;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/01;L-LIN/01 GLOTTOLOGIA E LINGUISTICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/02;L-LIN/02 DIDATTICA DELLE LINGUE MODERNE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/03;L-LIN/03 LETTERATURA FRANCESE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/04;L-LIN/04 LINGUA E TRADUZIONE - LINGUA FRANCESE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/05;L-LIN/05 LETTERATURA SPAGNOLA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/06;L-LIN/06 LINGUA E LETTERATURE ISPANO-AMERICANE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/07;L-LIN/07 LINGUA E TRADUZIONE - LINGUA SPAGNOLA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/08;L-LIN/08 LETTERATURA PORTOGHESE E BRASILIANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/09;L-LIN/09 LINGUA E TRADUZIONE - LINGUE PORTOGHESE E BRASILIANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/10;L-LIN/10 LETTERATURA INGLESE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/11;L-LIN/11 LINGUE E LETTERATURE ANGLO-AMERICANE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/12;L-LIN/12 LINGUA E TRADUZIONE - LINGUA INGLESE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/13;L-LIN/13 LETTERATURA TEDESCA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/14;L-LIN/14 LINGUA E TRADUZIONE - LINGUA TEDESCA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/15;L-LIN/15 LINGUE E LETTERATURE NORDICHE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/16;L-LIN/16 LINGUA E LETTERATURA NEDERLANDESE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/17;L-LIN/17 LINGUA E LETTERATURA ROMENA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/18;L-LIN/18 LINGUA E LETTERATURA ALBANESE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/19;L-LIN/19 FILOLOGIA UGRO-FINNICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/20;L-LIN/20 LINGUA E LETTERATURA NEOGRECA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-LIN/21;L-LIN/21 SLAVISTICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/01;L-OR/01 STORIA DEL VICINO ORIENTE ANTICO;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/02;L-OR/02 EGITTOLOGIA E CIVILTÀ COPTA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/03;L-OR/03 ASSIRIOLOGIA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/04;L-OR/04 ANATOLISTICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/05;L-OR/05 ARCHEOLOGIA E STORIA DELL'ARTE DEL VICINO ORIENTE ANTICO;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/06;L-OR/06 ARCHEOLOGIA FENICIO-PUNICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/07;L-OR/07 SEMITISTICA - LINGUE E LETTERATURE DELL'ETIOPIA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/08;L-OR/08 EBRAICO;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/09;L-OR/09 LINGUE E LETTERATURE DELL'AFRICA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/10;L-OR/10 STORIA DEI PAESI ISLAMICI;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/11;L-OR/11 ARCHEOLOGIA E STORIA DELL'ARTE MUSULMANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/12;L-OR/12 LINGUA E LETTERATURA ARABA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/13;L-OR/13 ARMENISTICA, CAUCASOLOGIA, MONGOLISTICA E TURCOLOGIA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/14;L-OR/14 FILOLOGIA, RELIGIONI E STORIA DELL'IRAN;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/15;L-OR/15 LINGUA E LETTERATURA PERSIANA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/16;L-OR/16 ARCHEOLOGIA E STORIA DELL'ARTE DELL'INDIA E DELL'ASIA CENTRALE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/17;L-OR/17 FILOSOFIE, RELIGIONI E STORIA DELL'INDIA E DELL'ASIA CENTRALE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/18;L-OR/18 INDOLOGIA E TIBETOLOGIA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/19;L-OR/19 LINGUE E LETTERATURE MODERNE DEL SUBCONTINENTE INDIANO;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/20;L-OR/20 ARCHEOLOGIA, STORIA DELL'ARTE E FILOSOFIE DELL'ASIA ORIENTALE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/21;L-OR/21 LINGUE E LETTERATURE DELLA CINA E DELL'ASIA SUD-ORIENTALE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/22;L-OR/22 LINGUE E LETTERATURE DEL GIAPPONE E DELLA COREA;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;L-OR/23;L-OR/23 STORIA DELL'ASIA ORIENTALE E SUD-ORIENTALE;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;MAT/01;MAT/01 LOGICA MATEMATICA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/02;MAT/02 ALGEBRA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/03;MAT/03 GEOMETRIA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/04;MAT/04 MATEMATICHE COMPLEMENTARI;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/05;MAT/05 ANALISI MATEMATICA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/06;MAT/06 PROBABILITÀ E STATISTICA MATEMATICA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/07;MAT/07 FISICA MATEMATICA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/08;MAT/08 ANALISI NUMERICA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;MAT/09;MAT/09 RICERCA OPERATIVA;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-01/A;MATH-01/A Logica matematica;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-01/B;"MATH-01/B Didattica e storia della
+matematica";01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-02/A;MATH-02/A Algebra;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-02/B;MATH-02/B Geometria;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-03/A;MATH-03/A Analisi matematica;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-03/B;"MATH-03/B Probabilità e statistica
+matematica";01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-04/A;MATH-04/A Fisica matematica;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-05/A;MATH-05/A Analisi numerica;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM  639/2024 ;MATH-06/A;MATH-06/A Ricerca operativa;01 - Scienze matematiche e informatiche;01 - Natural sciences;Sì
+DM ottobre 2000;M-DEA/01;M-DEA/01 DISCIPLINE DEMOETNOANTROPOLOGICHE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;MED/01;MED/01 STATISTICA MEDICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/02;MED/02 STORIA DELLA MEDICINA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/03;MED/03 GENETICA MEDICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/04;MED/04 PATOLOGIA GENERALE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/05;MED/05 PATOLOGIA CLINICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/06;MED/06 ONCOLOGIA MEDICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/07;MED/07 MICROBIOLOGIA E MICROBIOLOGIA CLINICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/08;MED/08 ANATOMIA PATOLOGICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/09;MED/09 MEDICINA INTERNA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/10;MED/10 MALATTIE DELL'APPARATO RESPIRATORIO;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/11;MED/11 MALATTIE DELL'APPARATO CARDIOVASCOLARE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/12;MED/12 GASTROENTEROLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/13;MED/13 ENDOCRINOLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/14;MED/14 NEFROLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/15;MED/15 MALATTIE DEL SANGUE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/16;MED/16 REUMATOLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/17;MED/17 MALATTIE INFETTIVE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/18;MED/18 CHIRURGIA GENERALE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/19;MED/19 CHIRURGIA PLASTICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/20;MED/20 CHIRURGIA PEDIATRICA E INFANTILE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/21;MED/21 CHIRURGIA TORACICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/22;MED/22 CHIRURGIA VASCOLARE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/23;MED/23 CHIRURGIA CARDIACA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/24;MED/24 UROLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/25;MED/25 PSCHIATRIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/26;MED/26 NEUROLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/27;MED/27 NEUROCHIRURGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/28;MED/28 MALATTIE ODONTOSTOMATOLOGICHE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/29;MED/29 CHIRURGIA MAXILLOFACCIALE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/30;MED/30 MALATTIE APPARATO VISIVO;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/31;MED/31 OTORINOLARINGOIATRIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/32;MED/32 AUDIOLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/33;MED/33 MALATTIE APPARATO LOCOMOTORE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/34;MED/34 MEDICINA FISICA E RIABILITATIVA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/35;MED/35 MALATTIE CUTANEE E VENEREE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/36;MED/36 DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/37;MED/37 NEURORADIOLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/38;MED/38 PEDIATRIA GENERALE E SPECIALISTICA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/39;MED/39 NEUROPSICHIATRIA INFANTILE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/40;MED/40 GINECOLOGIA E OSTETRICIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/41;MED/41 ANESTESIOLOGIA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/42;MED/42 IGIENE GENERALE E APPLICATA;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/43;MED/43 MEDICINA LEGALE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/44;MED/44 MEDICINA DEL LAVORO;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/45;MED/45 SCIENZE INFERMIERISTICHE GENERALI, CLINICHE E PEDIATRICHE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/46;MED/46 SCIENZE TECNICHE DI MEDICINA DI LABORATORIO;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/47;MED/47 SCIENZE INFERMIERISTICHE OSTETRICO-GINECOLOGICHE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/48;MED/48 SCIENZE INFERMIERISTICHE E TECNICHE NEURO-PSICHIATRICHE E RIABILITATIVE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/49;MED/49 SCIENZE TECNICHE DIETETICHE APPLICATE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;MED/50;MED/50 SCIENZE TECNICHE MEDICHE APPLICATE;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;M-EDF/01;M-EDF/01 METODI E DIDATTICHE DELLE ATTIVITÀ MOTORIE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;03 - Medical and health sciences;No
+DM ottobre 2000;M-EDF/02;M-EDF/02 METODI E DIDATTICHE DELLE ATTIVITÀ SPORTIVE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDF-01/A;MEDF-01/A Metodi e didattiche delle attività motorie;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDF-01/B;MEDF-01/B Metodi e didattiche delle attività sportive;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-01/A;MEDS-01/A Genetica medica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-02/A;MEDS-02/A Patologia generale;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-02/B;MEDS-02/B Patologia clinica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-02/C;MEDS-02/C Storia della medicina;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-03/A;MEDS-03/A Microbiologia e microbiologia clinica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-04/A;MEDS-04/A Anatomia patologica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-05/A;MEDS-05/A Medicina interna;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-06/A;MEDS-06/A Chirurgia generale;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-07/A;MEDS-07/A Malattie dell'apparato respiratorio;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-07/B;MEDS-07/B Malattie dell'apparato cardiovascolare;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-08/A;MEDS-08/A Endocrinologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-08/B;MEDS-08/B Nefrologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-08/C;MEDS-08/C Scienza dell’alimentazione e delle tecniche dietetiche applicate;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-09/A;MEDS-09/A Oncologia medica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-09/B;MEDS-09/B Malattie del sangue;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-09/C;MEDS-09/C Reumatologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-10/A;MEDS-10/A Gastroenterologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-10/B;MEDS-10/B Malattie infettive;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-10/C;MEDS-10/C Malattie cutanee e veneree;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-11/A;MEDS-11/A Psichiatria;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-12/A;MEDS-12/A Neurologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-13/A;MEDS-13/A Chirurgia toracica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-13/B;MEDS-13/B Chirurgia vascolare;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-13/C;MEDS-13/C Chirurgia cardiaca;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-14/A;MEDS-14/A Chirurgia plastica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-14/B;MEDS-14/B Chirurgia pediatrica e infantile;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-14/C;MEDS-14/C Urologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-15/A;MEDS-15/A Neurochirurgia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-15/B;MEDS-15/B Chirurgia maxillo-facciale;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-16/A;MEDS-16/A Malattie odontostomatologiche;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-17/A;MEDS-17/A Malattie dell’apparato visivo;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-18/A;MEDS-18/A Otorinolaringoiatria;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-18/B;MEDS-18/B Audiologia e foniatria;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-19/A;MEDS-19/A Malattie dell’apparato locomotore;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-19/B;MEDS-19/B Medicina fisica e riabilitativa;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-20/A;MEDS-20/A Pediatria generale e specialistica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-20/B;MEDS-20/B Neuropsichiatria infantile;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-21/A;MEDS-21/A Ginecologia e ostetricia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-22/A;MEDS-22/A Diagnostica per immagini e radioterapia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-22/B;MEDS-22/B Neuroradiologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-23/A;MEDS-23/A Anestesiologia;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-24/A;MEDS-24/A Statistica medica;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-24/B;MEDS-24/B Igiene generale e applicata;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-24/C;MEDS-24/C Scienze infermieristiche generali, cliniche, pediatriche e ostetrico- ginecologiche e neonatali;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-25/A;MEDS-25/A Medicina legale;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-25/B;MEDS-25/B Medicina del lavoro;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-26/A;MEDS-26/A Scienze tecniche di medicina di laboratorio;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-26/B;MEDS-26/B Scienze delle professioni sanitarie tecniche diagnostiche, assistenziali e della prevenzione;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-26/C;MEDS-26/C Scienze delle professioni sanitarie della riabilitazione;06 - Scienze mediche;03 - Medical and health sciences;No
+DM  639/2024 ;MEDS-26/D;MEDS-26/D Scienze tecniche mediche e chirurgiche avanzate;06 - Scienze mediche;03 - Medical and health sciences;No
+DM ottobre 2000;M-FIL/01;M-FIL/01 FILOSOFIA TEORETICA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-FIL/02;M-FIL/02 LOGICA E FILOSOFIA DELLA SCIENZA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-FIL/03;M-FIL/03 FILOSOFIA MORALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-FIL/04;M-FIL/04 ESTETICA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-FIL/05;M-FIL/05 FILOSOFIA E TEORIA DEI LINGUAGGI;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-FIL/06;M-FIL/06 STORIA DELLA FILOSOFIA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-FIL/07;M-FIL/07 STORIA DELLA FILOSOFIA ANTICA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-FIL/08;M-FIL/08 STORIA DELLA FILOSOFIA MEDIEVALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-GGR/01;M-GGR/01 GEOGRAFIA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-GGR/02;M-GGR/02 GEOGRAFIA ECONOMICO-POLITICA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PED/01;M-PED/01 PEDAGOGIA GENERALE E SOCIALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PED/02;M-PED/02 STORIA DELLA PEDAGOGIA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PED/03;M-PED/03 DIDATTICA E PEDAGOGIA SPECIALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PED/04;M-PED/04 PEDAGOGIA SPERIMENTALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/01;M-PSI/01 PSICOLOGIA GENERALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/02;M-PSI/02 PSICOBIOLOGIA E PSICOLOGIA FISIOLOGICA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/03;M-PSI/03 PSICOMETRIA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/04;M-PSI/04 PSICOLOGIA DELLO SVILUPPO E PSICOLOGIA DELL'EDUCAZIONE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/05;M-PSI/05 PSICOLOGIA SOCIALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/06;M-PSI/06 PSICOLOGIA DEL LAVORO E DELLE ORGANIZZAZIONI;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/07;M-PSI/07 PSICOLOGIA DINAMICA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-PSI/08;M-PSI/08 PSICOLOGIA CLINICA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM ottobre 2000;M-STO/01;M-STO/01 STORIA MEDIEVALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/02;M-STO/02 STORIA MODERNA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/03;M-STO/03 STORIA DELL'EUROPA ORIENTALE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/04;M-STO/04 STORIA CONTEMPORANEA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/05;M-STO/05 STORIA DELLA SCIENZA E DELLE TECNICHE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/06;M-STO/06 STORIA DELLE RELIGIONI;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/07;M-STO/07 STORIA DEL CRISTIANESIMO E DELLE CHIESE;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/08;M-STO/08 ARCHIVISTICA, BIBLIOGRAFIA E BIBLIOTECONOMIA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;M-STO/09;M-STO/09 PALEOGRAFIA;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;MVET-01/A;MVET-01/A Anatomia veterinaria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-01/B;MVET-01/B Fisiologia veterinaria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-02/A;MVET-02/A Patologia generale e anatomia patologica veterinaria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-02/B;MVET-02/B Ispezione degli alimenti di origine animale;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-03/A;MVET-03/A Malattie infettive degli animali;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-03/B;MVET-03/B Parassitologia e malattie parassitarie degli animali e dell’uomo;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-04/A;MVET-04/A Farmacologia e tossicologia veterinaria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-04/B;MVET-04/B Clinica medica veterinaria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-05/A;MVET-05/A Clinica chirurgica veterinaria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;MVET-05/B;MVET-05/B Clinica ostetrica, ginecologica, andrologica e neonatologia veterinaria;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM  639/2024 ;PAED-01/A;PAED-01/A Pedagogia generale e sociale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PAED-01/B;PAED-01/B Storia della pedagogia e dell’educazione;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PAED-02/A;PAED-02/A Didattica e pedagogia speciale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PAED-02/B;PAED-02/B Pedagogia sperimentale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PEMM-01/A;PEMM-01/A Discipline dello spettacolo;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;PEMM-01/B;PEMM-01/B Cinema, fotografia, radio, televisione e media digitali;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;PEMM-01/C;PEMM-01/C Musicologia e storia della musica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;PEMM-01/D;PEMM-01/D Etnomusicologia;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-01/A;PHIL-01/A Filosofia teoretica;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-02/A;PHIL-02/A Logica e filosofia della scienza;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-02/B;PHIL-02/B Storia della scienza e delle tecniche;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-03/A;PHIL-03/A Filosofia morale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-04/A;PHIL-04/A Estetica;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-04/B;PHIL-04/B Filosofia e teoria dei linguaggi;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-05/A;PHIL-05/A Storia della filosofia;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-05/B;PHIL-05/B Storia della filosofia antica;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHIL-05/C;PHIL-05/C Storia della filosofia medievale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM  639/2024 ;PHYS-01/A;PHYS-01/A Fisica sperimentale delle interazioni fondamentali e applicazioni;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PHYS-02/A;PHYS-02/A Fisica teorica delle interazioni fondamentali, modelli, metodi matematici e applicazioni;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PHYS-03/A;PHYS-03/A Fisica sperimentale della materia e applicazioni;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PHYS-04/A;PHYS-04/A Fisica teorica della materia, modelli, metodi matematici e applicazioni;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PHYS-05/A;PHYS-05/A Astrofisica, cosmologia e scienza dello spazio;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PHYS-05/B;PHYS-05/B Fisica del sistema Terra, dei pianeti, dello spazio e del clima;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PHYS-06/A;PHYS-06/A Fisica per le scienze della vita, l’ambiente e i beni culturali;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PHYS-06/B;PHYS-06/B Didattica e storia della fisica;02 - Scienze fisiche;01 - Natural sciences;Sì
+DM  639/2024 ;PSIC-01/A;PSIC-01/A Psicologia generale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PSIC-01/B;PSIC-01/B Neuropsicologia e neuroscienze cognitive;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PSIC-01/C;PSIC-01/C Psicometria;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PSIC-02/A;PSIC-02/A Psicologia dello sviluppo e dell’educazione;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PSIC-03/A;PSIC-03/A Psicologia sociale;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PSIC-03/B;PSIC-03/B Psicologia del lavoro e delle organizzazioni;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PSIC-04/A;PSIC-04/A Psicologia dinamica;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;PSIC-04/B;PSIC-04/B Psicologia clinica;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;05 - Social Sciences;No
+DM  639/2024 ;SDEA-01/A;SDEA-01/A Discipline demoetnoantropologiche;11 - Scienze storiche, filosofiche, pedagogiche e psicologiche;06 - Humanities and the arts;No
+DM ottobre 2000;SECS-P/01;SECS-P/01 ECONOMIA POLITICA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/02;SECS P/02 POLITICA ECONOMICA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/03;SECS-P/03 SCIENZA DELLE FINANZE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/04;SECS-P/04 STORIA DEL PENSIERO ECONOMICO;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/05;SECS-P/05 ECONOMETRIA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/06;SECS-P/06 ECONOMIA APPLICATA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/07;SECS-P/07 ECONOMIA AZIENDALE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/08;SECS-P/08 ECONOMIA E GESTIONE DELLE IMPRESE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/09;SECS-P/09 FINANZA AZIENDALE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/10;SECS-P/10 ORGANIZZAZIONE AZIENDALE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/11;SECS-P/11 ECONOMIA DEGLI INTERMEDIARI FINANZIARI;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/12;SECS-P/12 STORIA ECONOMICA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-P/13;SECS-P/13 SCIENZE MERCEOLOGICHE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-S/01;SECS-S/01 STATISTICA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-S/02;SECS-S/02 STATISTICA PER LA RICERCA SPERIMENTALE E TECNOLOGICA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-S/03;SECS-S/03 STATISTICA ECONOMICA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-S/04;SECS-S/04 DEMOGRAFIA;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-S/05;SECS-S/05 STATISTICA SOCIALE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;SECS-S/06;SECS-S/06 METODI MATEMATICI DELL'ECONOMIA E DELLE SCIENZE ATTUARIALI E FINANZIARIE;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;SLAV-01/A;SLAV-01/A Slavistica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;SPAN-01/A;SPAN-01/A Letteratura spagnola;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;SPAN-01/B;SPAN-01/B Lingua e letterature ispano-americane;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;SPAN-01/C;SPAN-01/C Lingua, traduzione e linguistica spagnola;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM ottobre 2000;SPS/01;SPS/01 FILOSOFIA POLITICA;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/02;SPS/02 STORIA DELLE DOTTRINE POLITICHE;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/03;SPS/03 STORIA DELLE ISTITUZIONI POLITICHE;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/04;SPS/04 SCIENZA POLITICA;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/05;SPS/05 STORIA E ISTITUZIONI DELLE AMERICHE;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/06;SPS/06 STORIA DELLE RELAZIONI INTERNAZIONALI;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/07;SPS/07 SOCIOLOGIA GENERALE;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/08;SPS/08 SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/09;SPS/09 SOCIOLOGIA DEI PROCESSI ECONOMICI E DEL LAVORO;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/10;SPS/10 SOCIOLOGIA DELL'AMBIENTE E DEL TERRITORIO;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/11;SPS/11 SOCIOLOGIA DEI FENOMENI POLITICI;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/12;SPS/12 SOCIOLOGIA GIURIDICA, DELLA DEVIANZA E MUTAMENTO SOCIALE;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/13;SPS/13 STORIA E ISTITUZIONI DELL'AFRICA;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM ottobre 2000;SPS/14;SPS/14 STORIA E ISTITUZIONI DELL'ASIA;14 - Scienze politiche e sociali;05 - Social sciences;No
+DM  639/2024 ;STAA-01/A;STAA-01/A Storia dell’Asia occidentale e del Mediterraneo orientale antichi;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/B;STAA-01/B Egittologia e civilta? copta;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/C;STAA-01/C Assiriologia;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/D;STAA-01/D Anatolistica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/E;STAA-01/E Archeologia e storia dell’arte dell’Asia occidentale e del Mediterraneo orientale antichi;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/F;STAA-01/F Archeologia fenicio-punica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/G;STAA-01/G Semitistica - lingue e letterature dell’Etiopia;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/H;STAA-01/H Ebraico;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/I;STAA-01/I Lingue e letterature dell’Africa;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/J;STAA-01/J Storia dei paesi islamici;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/K;STAA-01/K Archeologia e storia dell’arte musulmana;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/L;STAA-01/L Lingua e letteratura araba;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/M;STAA-01/M Armenistica, caucasologia, mongolistica e turcologia;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/N;STAA-01/N Filologia, religioni e storia dell’Iran;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAA-01/O;STAA-01/O Lingua e letteratura neopersiana e storia dell’Iran in epoca islamica;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAN-01/A;STAN-01/A Storia greca;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAN-01/B;STAN-01/B Storia romana;10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche;06 - Humanities and the arts;No
+DM  639/2024 ;STAT-01/A;STAT-01/A Statistica;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;STAT-01/B;STAT-01/B Statistica per la ricerca sperimentale e tecnologica;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;STAT-02/A;STAT-02/A Statistica economica;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;STAT-03/A;STAT-03/A Demografia;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;STAT-03/B;STAT-03/B Statistica sociale;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;STAT-04/A;STAT-04/A Metodi matematici dell’economia e delle scienze attuariali e finanziarie;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;STEC-01/A;STEC-01/A Storia del pensiero economico;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM  639/2024 ;STEC-01/B;STEC-01/B Storia economica;13 - Scienze economiche e statistiche;05 - Social sciences;No
+DM ottobre 2000;VET/01;VET/01 ANATOMIA DEGLI ANIMALI DOMESTICI;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/02;VET/02 FISIOLOGIA VETERINARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/03;VET/03 PATOLOGIA GENERALE E ANATOMIA PATOLOGICA VETERINARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/04;VET/04 ISPEZIONE DEGLI ALIMENTI DI ORIGINE ANIMALE;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/05;VET/05 MALATTIE INFETTIVE DEGLI ANIMALI DOMESTICI;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/06;VET/06 PARASSITOLOGIA E MALATTIE PARASSITARIE DEGLI ANIMALI;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/07;VET/07 FARMACOLOGIA E TOSSICOLOGIA VETERINARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/08;VET/08 CLINICA MEDICA VETERINARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/09;VET/09 CLINICA CHIRURGICA VETERINARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+DM ottobre 2000;VET/10;VET/10 CLINICA OSTETRICA E GINECOLOGIA VETERINARIA;07 - Scienze agrarie e veterinarie;04 - Agricultural and veterinary sciences;No
+XXXX;XXX0;XXX0 Non definito;99 - Non definito;99 - Unknown;UNK
