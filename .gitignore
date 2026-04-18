@@ -1,0 +1,21 @@
+# Python virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+# VS and IDE
+.vs/
+.vscode/
+
+# Notebook outputs (keep root neet_outputs)
+Notebooks/neet_outputs/
+
+# Bytecode and temp files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS artifacts
+Thumbs.db
+*.DS_Store
