@@ -1,2 +1,5 @@
 local_data/MinIstruzione/**/*.csv filter=lfs diff=lfs merge=lfs -text
 local_data/MUR_iscritti/**/*.csv filter=lfs diff=lfs merge=lfs -text
+local_data/eurostat/**/*.csv filter=lfs diff=lfs merge=lfs -text
+local_data/worldbank/**/*.csv filter=lfs diff=lfs merge=lfs -text
+local_data/oecd/oecd_teacher_experience.csv filter=lfs diff=lfs merge=lfs -text
