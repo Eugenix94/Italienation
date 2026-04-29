@@ -1,0 +1,24 @@
+Informazioni sulla variabile;;;
+Variabile;Posizione;Etichetta;Livello di misurazione
+Ripartizione_geografica;1;Denominazione della regione, Area geografica e della nazione;Nominale
+Ordinatore;2;Numero progressivo che permette di ordinare aree groagrafiche e regioni all'interno del grado scolastico, della materia e dell'anno scolastico;Scala
+Significatività_19vs21;3;Significatività della differenza dei punteggi WLE tra il 2019 e il 2021;Nominale
+Significatività_21vs22;4;Significatività della differenza dei punteggi WLE tra il 2021 e il 2022;Nominale
+Significatività_19vs22;5;Significatività della differenza dei punteggi WLE tra il 2019 e il 2022;Nominale
+Significatività_22vs23;6;Significatività della differenza dei punteggi WLE tra il 2022 e il 2023;Nominale
+Significatività_23vs24;7;Significatività della differenza dei punteggi WLE tra il 2023 e il 2024;Nominale
+Significatività_24vs25;8;Significatività della differenza dei punteggi WLE tra il 2024 e il 2025;Nominale
+Grado;9;Grado scolastico;Nominale
+Materia;10;Materia;Nominale
+Diff_WLE_19vs21;11;Differenza punteggi WLE tra il 2019 e il 2021;Scala
+Diff_WLE_21vs22;12;Differenza punteggi WLE tra il 2021 e il 2022;Scala
+Diff_WLE_19vs22;13;Differenza punteggi WLE tra il 2019 e il 2022;Scala
+Diff_WLE_22vs23;14;Differenza punteggi WLE tra il 2022 e il 2023;Scala
+Diff_WLE_23vs24;15;Differenza punteggi WLE tra il 2023 e il 2024;Scala
+Diff_WLE_24vs25;16;Differenza punteggi WLE tra il 2024 e il 2025;Scala
+;;;
+Valori di variabile;;;
+Valore;;Etichetta;
+Grado;Grado 10;Seconda Secondaria di Secondo Grado;
+;Grado 2;Seconda Primaria;
+;Grado 5;Quinta Primaria;

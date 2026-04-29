@@ -1,0 +1,107 @@
+{
+  "source": "https://serviziostatistico.invalsi.it/archivio-dati/?_sft_invalsi_ss_data_collective=open-data",
+  "posts_discovered": 20,
+  "posts_processed": 5,
+  "files_discovered": 72,
+  "files_offset": 24,
+  "files_attempted": 12,
+  "files_downloaded": 12,
+  "entries": [
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1091/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/13053/tracciato_wle_genere_origine_qescs_g08-g13_ms2025-2.xlsx",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13__tracciato_wle_genere_origine_qescs_g08-g13_ms2025-2.xlsx",
+      "downloaded": true,
+      "bytes": 11072,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1092/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10/13032/tracciato__differenza_wle_ms2025.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10__tracciato__differenza_wle_ms2025.csv",
+      "downloaded": true,
+      "bytes": 1642,
+      "note": "skip-existing"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1092/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10/13037/tracciato__traguardi_ms2025.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10__tracciato__traguardi_ms2025.csv",
+      "downloaded": true,
+      "bytes": 2395,
+      "note": "skip-existing"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1091/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/13049/tracciato__livelli-completo_g8_g13-pop.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13__tracciato__livelli-completo_g8_g13-pop.csv",
+      "downloaded": true,
+      "bytes": 2443,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1091/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/13055/tracciato__wle_medio-per-macrotipologia-dati-pop-g13-ms2025-2.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13__tracciato__wle_medio-per-macrotipologia-dati-pop-g13-ms2025-2.csv",
+      "downloaded": true,
+      "bytes": 1414,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1092/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10/13039/tracciato__traguardi-ms2025.xlsx",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-2-grado-5-grado-10__tracciato__traguardi-ms2025.xlsx",
+      "downloaded": true,
+      "bytes": 11188,
+      "note": "skip-existing"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1091/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/13048/tracciato__livelli-completo_g8_g13-pop-2.xlsx",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13__tracciato__livelli-completo_g8_g13-pop-2.xlsx",
+      "downloaded": true,
+      "bytes": 11938,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1091/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13/13051/tracciato__wle_medio-per-macrotipologia-dati-pop-g13-ms2025.xlsx",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-grado-13__tracciato__wle_medio-per-macrotipologia-dati-pop-g13-ms2025.xlsx",
+      "downloaded": true,
+      "bytes": 11403,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-2-grado-5-grado-10-2/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1025/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-2-grado-5-grado-10/11757/livelli_fasce_percentili_sig_variabilita_ms2024.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-2-grado-5-grado-10-2__livelli_fasce_percentili_sig_variabilita_ms2024.csv",
+      "downloaded": true,
+      "bytes": 124135,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-2-grado-5-grado-10-2/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1025/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-2-grado-5-grado-10/11769/wle_genere_origine_qescs_g02-g05-g10_ms2024.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-2-grado-5-grado-10-2__wle_genere_origine_qescs_g02-g05-g10_ms2024.csv",
+      "downloaded": true,
+      "bytes": 2219,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-8-grado-13/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1026/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-8-grado-13/11777/wle_genere_origine_qescs_g08-g13_ms2024.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-8-grado-13__wle_genere_origine_qescs_g08-g13_ms2024.csv",
+      "downloaded": true,
+      "bytes": 2480,
+      "note": "downloaded"
+    },
+    {
+      "post_url": "https://serviziostatistico.invalsi.it/invalsi_ss_data/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-8-grado-13/",
+      "file_url": "https://serviziostatistico.invalsi.it/download/1026/dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-8-grado-13/11786/trend_traguardi_ms2024-dati-pop-g08-e-g13-2.csv",
+      "file_name": "dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2023-2024-grado-8-grado-13__trend_traguardi_ms2024-dati-pop-g08-e-g13-2.csv",
+      "downloaded": true,
+      "bytes": 23498,
+      "note": "downloaded"
+    }
+  ]
+}

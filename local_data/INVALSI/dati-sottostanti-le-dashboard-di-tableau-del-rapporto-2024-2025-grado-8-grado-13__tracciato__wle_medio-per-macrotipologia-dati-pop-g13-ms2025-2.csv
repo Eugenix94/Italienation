@@ -1,0 +1,44 @@
+Informazioni sulla variabile;;;
+Variabile;Posizione;Etichetta;Livello di misurazione
+GRADO;1;Grado scolastico;Nominale
+MATERIA;2;Materia;Nominale
+Anno_scolastico;3;Anno scolastico;Nominale
+Cod_Reg;4;Ripartizione geografica;Nominale
+WLE_MEDIO;5;Rendimento medio;Scala
+;;;
+Valori di variabile;;;
+Valore;;Etichetta;
+GRADO;G13;Ultimo anno Secondaria di Secondo Grado;
+;G13 - Altri licei;Ultimo anno Secondaria di Secondo Grado - Altri licei;
+;G13 - Istituti professionali;Ultimo anno Secondaria di Secondo Grado - Istituti professionali;
+;G13 - Istituti tecnici;Ultimo anno Secondaria di Secondo Grado - Istituti tecnici;
+;G13 - Licei scientifici;Ultimo anno Secondaria di Secondo Grado - Licei scientifici;
+;G13 - Licei scientifici classici e linguistici;Ultimo anno Secondaria di Secondo Grado - Licei scientifici classici e linguistici;
+MATERIA;INGLESE Listening;Inglese Listening;
+;INGLESE Reading;Inglese Reading;
+;ITALIANO;Italiano;
+;MATEMATICA;Matematica;
+Cod_Reg;1;Valle D'Aosta;
+;2;Piemonte;
+;3;Liguria;
+;4;Lombardia;
+;6;Veneto;
+;7;Friuli-Venezia Giulia;
+;8;Emilia-Romagna;
+;9;Toscana;
+;10;Umbria;
+;11;Marche;
+;12;Lazio;
+;13;Abruzzo;
+;14;Molise;
+;15;Campania;
+;16;Puglia;
+;17;Basilicata;
+;18;Calabria;
+;19;Sicilia;
+;20;Sardegna;
+;51;Prov. Aut. Bolzano (l. it.);
+;52;Prov. Aut. Bolzano (l. lad.);
+;53;Prov. Aut. Bolzano (l. ted.);
+;54;Prov. Aut. Trento;
+;99;Italia;
