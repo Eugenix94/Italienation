@@ -1,0 +1,529 @@
+REF_AREA,REF_AREA_LABEL,TYPE_SCHOOL,TYPE_SCHOOL_LABEL,repeaters,TIME_PERIOD,SCHOOL_YEAR_PROXY,SOURCE,FLOW_ID,FLOW_TITLE_IT
+ITG25,Sassari,ALL,ALL,10.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG26,Nuoro,ALL,ALL,10.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG2,Sardegna,ALL,ALL,9.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE15,Prato,ALL,ALL,9.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT111,Sud Sardegna,ALL,ALL,9.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD53,Reggio nell'Emilia,ALL,ALL,8.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG27,Cagliari,ALL,ALL,8.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE13,Pistoia,ALL,ALL,8.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG28,Oristano,ALL,ALL,8.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC2,Valle d'Aosta / Vallée d'Aoste,ALL,ALL,7.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF62,Crotone,ALL,ALL,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG11,Trapani,ALL,ALL,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC15,Novara,ALL,ALL,7.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD54,Modena,ALL,ALL,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE11,Massa-Carrara,ALL,ALL,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE16,Livorno,ALL,ALL,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC31,Imperia,ALL,ALL,7.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE17,Pisa,ALL,ALL,7.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC49,Lodi,ALL,ALL,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1,Toscana,ALL,ALL,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1A,Grosseto,ALL,ALL,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE12,Lucca,ALL,ALL,6.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC48,Pavia,ALL,ALL,6.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC33,Genova,ALL,ALL,6.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD41,Pordenone,ALL,ALL,6.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD5,Emilia-Romagna,ALL,ALL,6.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD52,Parma,ALL,ALL,6.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF65,Reggio di Calabria,ALL,ALL,6.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC14,Verbano-Cusio-Ossola,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC17,Asti,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC3,Liguria,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC32,Savona,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC47,Brescia,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD59,Rimini,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF41,Foggia,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG,Isole,ALL,ALL,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD51,Piacenza,ALL,ALL,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE14,Firenze,ALL,ALL,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE19,Siena,ALL,ALL,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG12,Palermo,ALL,ALL,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD57,Ravenna,ALL,ALL,6.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC41,Varese,ALL,ALL,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD43,Gorizia,ALL,ALL,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF12,Teramo,ALL,ALL,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF43,Taranto,ALL,ALL,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG18,Ragusa,ALL,ALL,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC42,Como,ALL,ALL,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD55,Bologna,ALL,ALL,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD56,Ferrara,ALL,ALL,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF13,Pescara,ALL,ALL,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG15,Caltanissetta,ALL,ALL,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC43,Lecco,ALL,ALL,6.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD,Nord-est,ALL,ALL,6.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD35,Venezia,ALL,ALL,6.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD44,Trieste,ALL,ALL,6.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE34,Ascoli Piceno,ALL,ALL,6.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF33,Napoli,ALL,ALL,6.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT108,Monza e della Brianza,ALL,ALL,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC,Nord-ovest,ALL,ALL,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4,Lombardia,ALL,ALL,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD4,Friuli-Venezia Giulia,ALL,ALL,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC46,Bergamo,ALL,ALL,5.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF31,Caserta,ALL,ALL,5.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT,Italia,ALL,ALL,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT110,Barletta-Andria-Trani,ALL,ALL,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC13,Biella,ALL,ALL,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC45,Milano,ALL,ALL,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4B,Mantova,ALL,ALL,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD31,Verona,ALL,ALL,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG1,Sicilia,ALL,ALL,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC1,Piemonte,ALL,ALL,5.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC11,Torino,ALL,ALL,5.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD37,Rovigo,ALL,ALL,5.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF3,Campania,ALL,ALL,5.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG19,Siracusa,ALL,ALL,5.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC12,Vercelli,ALL,ALL,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD3,Veneto,ALL,ALL,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD33,Belluno,ALL,ALL,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD42,Udine,ALL,ALL,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE18,Arezzo,ALL,ALL,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE32,Ancona,ALL,ALL,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD1,Provincia Autonoma Bolzano / Bozen,ALL,ALL,5.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF1,Abruzzo,ALL,ALL,5.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF6,Calabria,ALL,ALL,5.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG16,Enna,ALL,ALL,5.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD32,Vicenza,ALL,ALL,5.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD36,Padova,ALL,ALL,5.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE41,Viterbo,ALL,ALL,5.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE44,Latina,ALL,ALL,5.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF,Sud,ALL,ALL,5.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT109,Fermo,ALL,ALL,5.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD34,Treviso,ALL,ALL,5.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITDA,Trentino Alto Adige / Südtirol,ALL,ALL,5.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE,Centro,ALL,ALL,5.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF4,Puglia,ALL,ALL,5.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF44,Brindisi,ALL,ALL,5.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC34,La Spezia,ALL,ALL,5.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC44,Sondrio,ALL,ALL,5.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD58,Forlì-Cesena,ALL,ALL,5.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE3,Marche,ALL,ALL,5.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG14,Agrigento,ALL,ALL,5.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4A,Cremona,ALL,ALL,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD2,Provincia Autonoma Trento,ALL,ALL,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE42,Rieti,ALL,ALL,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF11,L'Aquila,ALL,ALL,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF35,Salerno,ALL,ALL,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG17,Catania,ALL,ALL,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC18,Alessandria,ALL,ALL,4.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE33,Macerata,ALL,ALL,4.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF32,Benevento,ALL,ALL,4.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF45,Lecce,ALL,ALL,4.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE4,Lazio,ALL,ALL,4.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF52,Matera,ALL,ALL,4.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF63,Catanzaro,ALL,ALL,4.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC16,Cuneo,ALL,ALL,4.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF61,Cosenza,ALL,ALL,4.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF64,Vibo Valentia,ALL,ALL,4.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG13,Messina,ALL,ALL,4.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE43,Roma,ALL,ALL,4.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF14,Chieti,ALL,ALL,4.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF21,Isernia,ALL,ALL,4.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF42,Bari,ALL,ALL,4.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE31,Pesaro e Urbino,ALL,ALL,4.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF5,Basilicata,ALL,ALL,4.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE45,Frosinone,ALL,ALL,4.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE21,Perugia,ALL,ALL,3.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF2,Molise,ALL,ALL,3.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF22,Campobasso,ALL,ALL,3.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF51,Potenza,ALL,ALL,3.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE2,Umbria,ALL,ALL,3.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF34,Avellino,ALL,ALL,3.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE22,Terni,ALL,ALL,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE15,Prato,LIC,LIC,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC2,Valle d'Aosta / Vallée d'Aoste,LIC,LIC,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG25,Sassari,LIC,LIC,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE13,Pistoia,LIC,LIC,5.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC15,Novara,LIC,LIC,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG2,Sardegna,LIC,LIC,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG26,Nuoro,LIC,LIC,4.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG28,Oristano,LIC,LIC,4.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT111,Sud Sardegna,LIC,LIC,4.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG27,Cagliari,LIC,LIC,4.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC31,Imperia,LIC,LIC,4.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC42,Como,LIC,LIC,4.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD53,Reggio nell'Emilia,LIC,LIC,4.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4B,Mantova,LIC,LIC,4.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC48,Pavia,LIC,LIC,3.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE12,Lucca,LIC,LIC,3.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE17,Pisa,LIC,LIC,3.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE11,Massa-Carrara,LIC,LIC,3.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC47,Brescia,LIC,LIC,3.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD55,Bologna,LIC,LIC,3.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC33,Genova,LIC,LIC,3.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC46,Bergamo,LIC,LIC,3.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD1,Provincia Autonoma Bolzano / Bozen,LIC,LIC,3.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1,Toscana,LIC,LIC,3.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4,Lombardia,LIC,LIC,3.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD41,Pordenone,LIC,LIC,3.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE41,Viterbo,LIC,LIC,3.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC,Nord-ovest,LIC,LIC,3.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC14,Verbano-Cusio-Ossola,LIC,LIC,3.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC41,Varese,LIC,LIC,3.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC43,Lecco,LIC,LIC,3.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITDA,Trentino Alto Adige / Südtirol,LIC,LIC,3.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT108,Monza e della Brianza,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC1,Piemonte,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC17,Asti,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC3,Liguria,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC45,Milano,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD33,Belluno,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD36,Padova,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD44,Trieste,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD5,Emilia-Romagna,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD54,Modena,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD57,Ravenna,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE14,Firenze,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG18,Ragusa,LIC,LIC,3.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC11,Torino,LIC,LIC,3.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD2,Provincia Autonoma Trento,LIC,LIC,3.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC12,Vercelli,LIC,LIC,3.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC18,Alessandria,LIC,LIC,3.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD,Nord-est,LIC,LIC,3.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG12,Palermo,LIC,LIC,3.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC49,Lodi,LIC,LIC,2.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD31,Verona,LIC,LIC,2.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD52,Parma,LIC,LIC,2.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD59,Rimini,LIC,LIC,2.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE16,Livorno,LIC,LIC,2.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG,Isole,LIC,LIC,2.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC32,Savona,LIC,LIC,2.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD3,Veneto,LIC,LIC,2.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD4,Friuli-Venezia Giulia,LIC,LIC,2.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE44,Latina,LIC,LIC,2.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF41,Foggia,LIC,LIC,2.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT,Italia,LIC,LIC,2.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD32,Vicenza,LIC,LIC,2.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD35,Venezia,LIC,LIC,2.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD37,Rovigo,LIC,LIC,2.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD51,Piacenza,LIC,LIC,2.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE,Centro,LIC,LIC,2.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT109,Fermo,LIC,LIC,2.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD58,Forlì-Cesena,LIC,LIC,2.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC16,Cuneo,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC44,Sondrio,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD34,Treviso,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD56,Ferrara,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1A,Grosseto,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE34,Ascoli Piceno,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE4,Lazio,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE43,Roma,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF21,Isernia,LIC,LIC,2.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC13,Biella,LIC,LIC,2.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD42,Udine,LIC,LIC,2.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD43,Gorizia,LIC,LIC,2.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE32,Ancona,LIC,LIC,2.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF11,L'Aquila,LIC,LIC,2.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF12,Teramo,LIC,LIC,2.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG1,Sicilia,LIC,LIC,2.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE18,Arezzo,LIC,LIC,2.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE3,Marche,LIC,LIC,2.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF62,Crotone,LIC,LIC,2.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG17,Catania,LIC,LIC,2.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG19,Siracusa,LIC,LIC,2.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4A,Cremona,LIC,LIC,2.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE31,Pesaro e Urbino,LIC,LIC,2.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE42,Rieti,LIC,LIC,2.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF1,Abruzzo,LIC,LIC,2.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG11,Trapani,LIC,LIC,2.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF14,Chieti,LIC,LIC,2.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF33,Napoli,LIC,LIC,2.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG16,Enna,LIC,LIC,2.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC34,La Spezia,LIC,LIC,2.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE19,Siena,LIC,LIC,2.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF13,Pescara,LIC,LIC,2.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF65,Reggio di Calabria,LIC,LIC,2.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF3,Campania,LIC,LIC,1.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF43,Taranto,LIC,LIC,1.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG15,Caltanissetta,LIC,LIC,1.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE33,Macerata,LIC,LIC,1.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF,Sud,LIC,LIC,1.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF2,Molise,LIC,LIC,1.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF31,Caserta,LIC,LIC,1.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF35,Salerno,LIC,LIC,1.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF44,Brindisi,LIC,LIC,1.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE22,Terni,LIC,LIC,1.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE2,Umbria,LIC,LIC,1.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF22,Campobasso,LIC,LIC,1.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF4,Puglia,LIC,LIC,1.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF5,Basilicata,LIC,LIC,1.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF51,Potenza,LIC,LIC,1.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF6,Calabria,LIC,LIC,1.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG13,Messina,LIC,LIC,1.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE21,Perugia,LIC,LIC,1.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE45,Frosinone,LIC,LIC,1.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF52,Matera,LIC,LIC,1.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF45,Lecce,LIC,LIC,1.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF63,Catanzaro,LIC,LIC,1.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG14,Agrigento,LIC,LIC,1.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF32,Benevento,LIC,LIC,1.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF34,Avellino,LIC,LIC,1.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF61,Cosenza,LIC,LIC,1.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF64,Vibo Valentia,LIC,LIC,1.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT110,Barletta-Andria-Trani,LIC,LIC,1.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF42,Bari,LIC,LIC,1.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG26,Nuoro,TEC,TEC,15.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG25,Sassari,TEC,TEC,13.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG2,Sardegna,TEC,TEC,12.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG27,Cagliari,TEC,TEC,12.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC2,Valle d'Aosta / Vallée d'Aoste,TEC,TEC,11.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF13,Pescara,TEC,TEC,11.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT111,Sud Sardegna,TEC,TEC,10.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG28,Oristano,TEC,TEC,10.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE15,Prato,TEC,TEC,9.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1A,Grosseto,TEC,TEC,9.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG16,Enna,TEC,TEC,9.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG15,Caltanissetta,TEC,TEC,9.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE12,Lucca,TEC,TEC,9.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG12,Palermo,TEC,TEC,9.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF31,Caserta,TEC,TEC,9.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG,Isole,TEC,TEC,9.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG19,Siracusa,TEC,TEC,9.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE16,Livorno,TEC,TEC,9.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC32,Savona,TEC,TEC,8.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD44,Trieste,TEC,TEC,8.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD53,Reggio nell'Emilia,TEC,TEC,8.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF12,Teramo,TEC,TEC,8.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF64,Vibo Valentia,TEC,TEC,8.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC14,Verbano-Cusio-Ossola,TEC,TEC,8.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC15,Novara,TEC,TEC,8.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC33,Genova,TEC,TEC,8.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF43,Taranto,TEC,TEC,8.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD41,Pordenone,TEC,TEC,8.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF65,Reggio di Calabria,TEC,TEC,8.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD52,Parma,TEC,TEC,8.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD54,Modena,TEC,TEC,8.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE14,Firenze,TEC,TEC,8.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC3,Liguria,TEC,TEC,8.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC31,Imperia,TEC,TEC,8.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG11,Trapani,TEC,TEC,8.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD51,Piacenza,TEC,TEC,8.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF1,Abruzzo,TEC,TEC,8.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD4,Friuli-Venezia Giulia,TEC,TEC,8.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1,Toscana,TEC,TEC,8.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF41,Foggia,TEC,TEC,8.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG18,Ragusa,TEC,TEC,8.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC49,Lodi,TEC,TEC,8.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE11,Massa-Carrara,TEC,TEC,8.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE17,Pisa,TEC,TEC,8.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT108,Monza e della Brianza,TEC,TEC,7.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG1,Sicilia,TEC,TEC,7.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC45,Milano,TEC,TEC,7.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD59,Rimini,TEC,TEC,7.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE41,Viterbo,TEC,TEC,7.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC41,Varese,TEC,TEC,7.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC47,Brescia,TEC,TEC,7.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD42,Udine,TEC,TEC,7.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD5,Emilia-Romagna,TEC,TEC,7.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF3,Campania,TEC,TEC,7.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF33,Napoli,TEC,TEC,7.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD43,Gorizia,TEC,TEC,7.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD56,Ferrara,TEC,TEC,7.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF21,Isernia,TEC,TEC,7.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT,Italia,TEC,TEC,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC,Nord-ovest,TEC,TEC,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC11,Torino,TEC,TEC,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC12,Vercelli,TEC,TEC,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4,Lombardia,TEC,TEC,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC42,Como,TEC,TEC,7.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE18,Arezzo,TEC,TEC,7.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE43,Roma,TEC,TEC,7.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC43,Lecco,TEC,TEC,7.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD55,Bologna,TEC,TEC,7.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF35,Salerno,TEC,TEC,7.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF6,Calabria,TEC,TEC,7.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG14,Agrigento,TEC,TEC,7.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC13,Biella,TEC,TEC,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD,Nord-est,TEC,TEC,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD2,Provincia Autonoma Trento,TEC,TEC,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD31,Verona,TEC,TEC,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE4,Lazio,TEC,TEC,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF,Sud,TEC,TEC,7.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC1,Piemonte,TEC,TEC,7.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD35,Venezia,TEC,TEC,7.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE,Centro,TEC,TEC,7.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE13,Pistoia,TEC,TEC,7.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF62,Crotone,TEC,TEC,7.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC48,Pavia,TEC,TEC,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITDA,Trentino Alto Adige / Südtirol,TEC,TEC,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE44,Latina,TEC,TEC,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF61,Cosenza,TEC,TEC,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4B,Mantova,TEC,TEC,6.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG17,Catania,TEC,TEC,6.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4A,Cremona,TEC,TEC,6.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD1,Provincia Autonoma Bolzano / Bozen,TEC,TEC,6.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD37,Rovigo,TEC,TEC,6.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF14,Chieti,TEC,TEC,6.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT110,Barletta-Andria-Trani,TEC,TEC,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD3,Veneto,TEC,TEC,6.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD34,Treviso,TEC,TEC,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD36,Padova,TEC,TEC,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE32,Ancona,TEC,TEC,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF4,Puglia,TEC,TEC,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG13,Messina,TEC,TEC,6.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE45,Frosinone,TEC,TEC,6.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT109,Fermo,TEC,TEC,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC46,Bergamo,TEC,TEC,6.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC34,La Spezia,TEC,TEC,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD33,Belluno,TEC,TEC,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD57,Ravenna,TEC,TEC,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD58,Forlì-Cesena,TEC,TEC,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE42,Rieti,TEC,TEC,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF2,Molise,TEC,TEC,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF44,Brindisi,TEC,TEC,6.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC18,Alessandria,TEC,TEC,6.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC17,Asti,TEC,TEC,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE34,Ascoli Piceno,TEC,TEC,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF11,L'Aquila,TEC,TEC,5.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD32,Vicenza,TEC,TEC,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF22,Campobasso,TEC,TEC,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF34,Avellino,TEC,TEC,5.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF42,Bari,TEC,TEC,5.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF52,Matera,TEC,TEC,5.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE3,Marche,TEC,TEC,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF5,Basilicata,TEC,TEC,5.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF51,Potenza,TEC,TEC,5.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF63,Catanzaro,TEC,TEC,5.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE19,Siena,TEC,TEC,5.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC16,Cuneo,TEC,TEC,5.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC44,Sondrio,TEC,TEC,5.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE21,Perugia,TEC,TEC,5.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE2,Umbria,TEC,TEC,4.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE33,Macerata,TEC,TEC,4.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF45,Lecce,TEC,TEC,4.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF32,Benevento,TEC,TEC,4.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE22,Terni,TEC,TEC,4.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE31,Pesaro e Urbino,TEC,TEC,3.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF62,Crotone,VOC,VOC,20.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG25,Sassari,VOC,VOC,20.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE19,Siena,VOC,VOC,19.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG11,Trapani,VOC,VOC,18.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF65,Reggio di Calabria,VOC,VOC,17.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF11,L'Aquila,VOC,VOC,17.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE17,Pisa,VOC,VOC,16.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG2,Sardegna,VOC,VOC,16.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE16,Livorno,VOC,VOC,16.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG27,Cagliari,VOC,VOC,16.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF12,Teramo,VOC,VOC,16.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD53,Reggio nell'Emilia,VOC,VOC,15.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC17,Asti,VOC,VOC,15.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT111,Sud Sardegna,VOC,VOC,15.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE15,Prato,VOC,VOC,15.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1A,Grosseto,VOC,VOC,15.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF45,Lecce,VOC,VOC,15.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG12,Palermo,VOC,VOC,15.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF32,Benevento,VOC,VOC,14.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT110,Barletta-Andria-Trani,VOC,VOC,14.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG26,Nuoro,VOC,VOC,14.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF1,Abruzzo,VOC,VOC,14.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG28,Oristano,VOC,VOC,14.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE34,Ascoli Piceno,VOC,VOC,14.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE1,Toscana,VOC,VOC,13.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE11,Massa-Carrara,VOC,VOC,13.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF33,Napoli,VOC,VOC,13.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF13,Pescara,VOC,VOC,13.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG,Isole,VOC,VOC,13.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD52,Parma,VOC,VOC,13.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF6,Calabria,VOC,VOC,13.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF41,Foggia,VOC,VOC,13.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC32,Savona,VOC,VOC,13.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE18,Arezzo,VOC,VOC,13.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC48,Pavia,VOC,VOC,13.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE13,Pistoia,VOC,VOC,13.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE32,Ancona,VOC,VOC,13.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD59,Rimini,VOC,VOC,12.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE33,Macerata,VOC,VOC,12.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF43,Taranto,VOC,VOC,12.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF4,Puglia,VOC,VOC,12.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD35,Venezia,VOC,VOC,12.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD51,Piacenza,VOC,VOC,12.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF,Sud,VOC,VOC,12.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG1,Sicilia,VOC,VOC,12.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC31,Imperia,VOC,VOC,12.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF3,Campania,VOC,VOC,12.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF63,Catanzaro,VOC,VOC,12.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD54,Modena,VOC,VOC,12.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC3,Liguria,VOC,VOC,12.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD44,Trieste,VOC,VOC,12.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD5,Emilia-Romagna,VOC,VOC,12.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE3,Marche,VOC,VOC,12.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC33,Genova,VOC,VOC,12.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC34,La Spezia,VOC,VOC,12.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC49,Lodi,VOC,VOC,12.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE12,Lucca,VOC,VOC,12.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD43,Gorizia,VOC,VOC,11.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF31,Caserta,VOC,VOC,11.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG18,Ragusa,VOC,VOC,11.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT,Italia,VOC,VOC,11.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD57,Ravenna,VOC,VOC,11.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE,Centro,VOC,VOC,11.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE14,Firenze,VOC,VOC,11.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG14,Agrigento,VOC,VOC,11.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG15,Caltanissetta,VOC,VOC,11.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD55,Bologna,VOC,VOC,11.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC46,Bergamo,VOC,VOC,11.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE41,Viterbo,VOC,VOC,11.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG17,Catania,VOC,VOC,11.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC13,Biella,VOC,VOC,11.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD2,Provincia Autonoma Trento,VOC,VOC,11.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC15,Novara,VOC,VOC,11.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC43,Lecco,VOC,VOC,11.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF42,Bari,VOC,VOC,11.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC41,Varese,VOC,VOC,11.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD,Nord-est,VOC,VOC,11.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC42,Como,VOC,VOC,10.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE44,Latina,VOC,VOC,10.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF44,Brindisi,VOC,VOC,10.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC11,Torino,VOC,VOC,10.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT109,Fermo,VOC,VOC,10.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF52,Matera,VOC,VOC,10.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD4,Friuli-Venezia Giulia,VOC,VOC,10.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD56,Ferrara,VOC,VOC,10.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITDA,Trentino Alto Adige / Südtirol,VOC,VOC,10.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF14,Chieti,VOC,VOC,10.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF35,Salerno,VOC,VOC,10.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD41,Pordenone,VOC,VOC,10.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE21,Perugia,VOC,VOC,10.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE31,Pesaro e Urbino,VOC,VOC,10.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG19,Siracusa,VOC,VOC,10.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC,Nord-ovest,VOC,VOC,10.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE42,Rieti,VOC,VOC,10.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF61,Cosenza,VOC,VOC,10.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4,Lombardia,VOC,VOC,10.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC47,Brescia,VOC,VOC,10.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD1,Provincia Autonoma Bolzano / Bozen,VOC,VOC,10.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD31,Verona,VOC,VOC,10.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE2,Umbria,VOC,VOC,10.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG16,Enna,VOC,VOC,10.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD3,Veneto,VOC,VOC,9.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+IT108,Monza e della Brianza,VOC,VOC,9.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC1,Piemonte,VOC,VOC,9.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC14,Verbano-Cusio-Ossola,VOC,VOC,9.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF5,Basilicata,VOC,VOC,9.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD42,Udine,VOC,VOC,9.6,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD36,Padova,VOC,VOC,9.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC18,Alessandria,VOC,VOC,9.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC44,Sondrio,VOC,VOC,9.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITG13,Messina,VOC,VOC,9.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE4,Lazio,VOC,VOC,9.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE45,Frosinone,VOC,VOC,9.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF51,Potenza,VOC,VOC,9.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC45,Milano,VOC,VOC,9.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD32,Vicenza,VOC,VOC,9.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD33,Belluno,VOC,VOC,9.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD37,Rovigo,VOC,VOC,9.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE22,Terni,VOC,VOC,8.8,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD34,Treviso,VOC,VOC,8.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITD58,Forlì-Cesena,VOC,VOC,8.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITE43,Roma,VOC,VOC,8.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF2,Molise,VOC,VOC,8.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF22,Campobasso,VOC,VOC,8.3,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4A,Cremona,VOC,VOC,8.2,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC2,Valle d'Aosta / Vallée d'Aoste,VOC,VOC,8.1,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC4B,Mantova,VOC,VOC,8.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF21,Isernia,VOC,VOC,8.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF64,Vibo Valentia,VOC,VOC,7.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITF34,Avellino,VOC,VOC,7.4,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC12,Vercelli,VOC,VOC,6.9,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso
+ITC16,Cuneo,VOC,VOC,6.7,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_15,Secondaria II grado - ripetenti per anno di corso

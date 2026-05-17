@@ -1,0 +1,132 @@
+REF_AREA,REF_AREA_LABEL,DATA_TYPE,DATA_TYPE_LABEL,TYPE_SCHOOL_MANAGEMENT,TYPE_SCHOOL_MANAGEMENT_LABEL,OBS_VALUE,failure_at_exam_proxy,TIME_PERIOD,SCHOOL_YEAR_PROXY,SOURCE,FLOW_ID,FLOW_TITLE_IT,rank_failure_proxy
+ITF52,Matera,EXAM,licenziati per 100 esaminati,ALL,ALL,99.5,0.5,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,1
+ITG12,Palermo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.6,0.4000000000000057,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,2
+ITF63,Catanzaro,EXAM,licenziati per 100 esaminati,ALL,ALL,99.6,0.4000000000000057,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,2
+ITC2,Valle d'Aosta / Vallée d'Aoste,EXAM,licenziati per 100 esaminati,ALL,ALL,99.6,0.4000000000000057,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,2
+ITE33,Macerata,EXAM,licenziati per 100 esaminati,ALL,ALL,99.7,0.29999999999999716,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,3
+ITE15,Prato,EXAM,licenziati per 100 esaminati,ALL,ALL,99.7,0.29999999999999716,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,3
+ITC4A,Cremona,EXAM,licenziati per 100 esaminati,ALL,ALL,99.7,0.29999999999999716,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,3
+ITC32,Savona,EXAM,licenziati per 100 esaminati,ALL,ALL,99.7,0.29999999999999716,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,3
+ITC43,Lecco,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITD44,Trieste,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITD43,Gorizia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITD41,Pordenone,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITD4,Friuli-Venezia Giulia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITD37,Rovigo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITC4B,Mantova,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITC16,Cuneo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITC31,Imperia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITC3,Liguria,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITC17,Asti,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITE41,Viterbo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITC15,Novara,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+IT111,Sud Sardegna,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITD57,Ravenna,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITC33,Genova,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITF12,Teramo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG18,Ragusa,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITF41,Foggia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG28,Oristano,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG25,Sassari,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG2,Sardegna,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG19,Siracusa,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG26,Nuoro,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITF5,Basilicata,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG15,Caltanissetta,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG14,Agrigento,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG1,Sicilia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG,Isole,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITG16,Enna,EXAM,licenziati per 100 esaminati,ALL,ALL,99.8,0.20000000000000284,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,4
+ITE12,Lucca,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF,Sud,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE44,Latina,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE43,Roma,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE4,Lazio,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE34,Ascoli Piceno,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE18,Arezzo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE3,Marche,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE19,Siena,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE16,Livorno,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE14,Firenze,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF3,Campania,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF1,Abruzzo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF61,Cosenza,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF33,Napoli,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF35,Salerno,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF4,Puglia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF43,Taranto,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF44,Brindisi,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF6,Calabria,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF62,Crotone,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITF65,Reggio di Calabria,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITG11,Trapani,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITG17,Catania,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITG27,Cagliari,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE1,Toscana,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE11,Massa-Carrara,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE,Centro,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC14,Verbano-Cusio-Ossola,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD,Nord-est,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD59,Rimini,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+IT110,Barletta-Andria-Trani,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC,Nord-ovest,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC1,Piemonte,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC11,Torino,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC12,Vercelli,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC13,Biella,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC18,Alessandria,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC34,La Spezia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC4,Lombardia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC42,Como,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC46,Bergamo,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC48,Pavia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITC45,Milano,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD3,Veneto,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD42,Udine,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD58,Forlì-Cesena,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD56,Ferrara,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD55,Bologna,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD54,Modena,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD31,Verona,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD5,Emilia-Romagna,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD52,Parma,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD35,Venezia,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD34,Treviso,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD33,Belluno,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITD32,Vicenza,EXAM,licenziati per 100 esaminati,ALL,ALL,99.9,0.09999999999999432,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,5
+ITE21,Perugia,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE2,Umbria,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE1A,Grosseto,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITD51,Piacenza,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE17,Pisa,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE13,Pistoia,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITDA,Trentino Alto Adige / Südtirol,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITD53,Reggio nell'Emilia,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+IT109,Fermo,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITD36,Padova,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITD2,Provincia Autonoma Trento,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITD1,Provincia Autonoma Bolzano / Bozen,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITC49,Lodi,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITC47,Brescia,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITC44,Sondrio,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITC41,Varese,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE31,Pesaro e Urbino,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE22,Terni,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF51,Potenza,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE32,Ancona,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF31,Caserta,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITG13,Messina,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF64,Vibo Valentia,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF45,Lecce,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF42,Bari,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF34,Avellino,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF32,Benevento,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF22,Campobasso,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE42,Rieti,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF21,Isernia,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF2,Molise,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF14,Chieti,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF13,Pescara,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITF11,L'Aquila,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+ITE45,Frosinone,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6
+IT108,Monza e della Brianza,EXAM,licenziati per 100 esaminati,ALL,ALL,100.0,0.0,2024,2024/2025,ISTAT SDMX,52_1044_DF_DCIS_SCUOLE_10,Secondaria I grado - indicatori scolastici,6

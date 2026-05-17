@@ -1,0 +1,17 @@
+dataset,status,detail
+eurostat_self_reported_health,ok,rows:1504713
+eurostat_adult_learning_part_rate,ok,rows:2160
+eurostat_unmet_healthcare_needs,ok,rows:5940
+eurostat_fertility_by_age_birth_order_proxy,ok,rows:172781
+eurostat_almp_spending_by_type,missing,not available in Eurostat SDMX 2.1 dataflow catalog
+eurostat_almp_participants_stock,missing,not available in Eurostat SDMX 2.1 dataflow catalog
+eurostat_fertility_by_education,missing,not available as named dataflow; proxy added: DEMO_FORDAGEC
+oecd_piaac_adult_skills,missing,no public OECD SDMX flow resolved in this environment
+wb_learning_poverty,ok,downloaded via indicator SE.LPV.PRIM; rows:17556
+istat_disability_schools,ok,manual download: local_data/ISTAT/istat_disability_schools_2022_2023.xlsx
+istat_bes_rates_2022_2023,ok,derived from ISTAT Tavola 11 -> local_data/processed/istat_bes_rate_by_region_order_2022_2023.csv
+estimated_bes_students_2024_25,ok,students x ISTAT BES rates -> local_data/processed/estimated_bes_students_by_region_order_2024_25_using_istat_rates.csv
+estimated_disabled_students_2024_25,ok,students x ISTAT disability rates -> local_data/processed/estimated_disabled_students_by_region_order_2024_25_using_national_rates.csv
+mur_dsu_ersu_support_panel_2024_2025,ok,aggregated DSU/ERSU beneficiaries+spending+services -> local_data/processed/dsu_ersu_support_panel_2024_2025.csv
+mur_atenei_payment_support_panel_2023_2024,ok,ateneo tuition burden and support distribution -> local_data/processed/atenei_payment_support_panel_2023_2024.csv
+istat_mental_wellbeing,ok,manual download: local_data/ISTAT/istat_mental_wellbeing_tavole.xlsx

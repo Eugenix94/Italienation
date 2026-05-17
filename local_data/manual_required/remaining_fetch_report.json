@@ -1,0 +1,82 @@
+[
+  {
+    "dataset":"eurostat_self_reported_health",
+    "status":"ok",
+    "detail":"rows:1504713"
+  },
+  {
+    "dataset":"eurostat_adult_learning_part_rate",
+    "status":"ok",
+    "detail":"rows:2160"
+  },
+  {
+    "dataset":"eurostat_unmet_healthcare_needs",
+    "status":"ok",
+    "detail":"rows:5940"
+  },
+  {
+    "dataset":"eurostat_fertility_by_age_birth_order_proxy",
+    "status":"ok",
+    "detail":"rows:172781"
+  },
+  {
+    "dataset":"eurostat_almp_spending_by_type",
+    "status":"missing",
+    "detail":"not available in Eurostat SDMX 2.1 dataflow catalog"
+  },
+  {
+    "dataset":"eurostat_almp_participants_stock",
+    "status":"missing",
+    "detail":"not available in Eurostat SDMX 2.1 dataflow catalog"
+  },
+  {
+    "dataset":"eurostat_fertility_by_education",
+    "status":"missing",
+    "detail":"not available as named dataflow; proxy added: DEMO_FORDAGEC"
+  },
+  {
+    "dataset":"oecd_piaac_adult_skills",
+    "status":"missing",
+    "detail":"no public OECD SDMX flow resolved in this environment"
+  },
+  {
+    "dataset":"wb_learning_poverty",
+    "status":"ok",
+    "detail":"downloaded via indicator SE.LPV.PRIM; rows:17556"
+  },
+  {
+    "dataset":"istat_disability_schools",
+    "status":"ok",
+    "detail":"manual download: local_data\/ISTAT\/istat_disability_schools_2022_2023.xlsx"
+  },
+  {
+    "dataset":"istat_bes_rates_2022_2023",
+    "status":"ok",
+    "detail":"derived from ISTAT Tavola 11 -> local_data\/processed\/istat_bes_rate_by_region_order_2022_2023.csv"
+  },
+  {
+    "dataset":"estimated_bes_students_2024_25",
+    "status":"ok",
+    "detail":"students x ISTAT BES rates -> local_data\/processed\/estimated_bes_students_by_region_order_2024_25_using_istat_rates.csv"
+  },
+  {
+    "dataset":"estimated_disabled_students_2024_25",
+    "status":"ok",
+    "detail":"students x ISTAT disability rates -> local_data\/processed\/estimated_disabled_students_by_region_order_2024_25_using_national_rates.csv"
+  },
+  {
+    "dataset":"mur_dsu_ersu_support_panel_2024_2025",
+    "status":"ok",
+    "detail":"aggregated DSU\/ERSU beneficiaries+spending+services -> local_data\/processed\/dsu_ersu_support_panel_2024_2025.csv"
+  },
+  {
+    "dataset":"mur_atenei_payment_support_panel_2023_2024",
+    "status":"ok",
+    "detail":"ateneo tuition burden and support distribution -> local_data\/processed\/atenei_payment_support_panel_2023_2024.csv"
+  },
+  {
+    "dataset":"istat_mental_wellbeing",
+    "status":"ok",
+    "detail":"manual download: local_data\/ISTAT\/istat_mental_wellbeing_tavole.xlsx"
+  }
+]

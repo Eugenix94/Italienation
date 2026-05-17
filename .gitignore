@@ -11,6 +11,11 @@ env/
 # Notebook outputs (keep root neet_outputs)
 Notebooks/neet_outputs/
 
+# Raw SNV download cache and temporary inspection files
+local_data/MinIstruzione/SNV/esiti_raw/
+temp_esiti_*
+local_data/processed/snv_esiti_school_long.csv
+
 # Bytecode and temp files
 __pycache__/
 *.pyc
