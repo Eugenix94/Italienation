@@ -1,0 +1,39 @@
+CODE	Label - English	Label - French	Label - German	Standard code	Note (EN only)	EC_corporate_code	EC_corporate_uri
+TOTAL	Total	Total	Insgesamt	Y			
+BASIC	Basic training	Formation élémentaire	Grundausbildung	Y			
+PRACT	Practical experience only	Expérience pratique exclusive	Nur praktische Erfahrung	Y			
+FULL	Full agricultural training	Formation agricole complète	Umfassende landwirtschaftliche Ausbildung	Y			
+CO_OF	CVT courses and/or other forms of CVT	Cours de FPC et/ou autres formes de FPC	BWB-Kurse und/oder andere Arten der BWB	Y			
+CO	CVT courses	Cours de FPC	BWB-Kurse	Y			
+CO_INT	CVT courses - internal	Cours de FPC - interne	BWB-Kurse - intern	Y			
+CO_EXT	CVT courses - external	Cours de FPC - externe	BWB-Kurse - extern	Y			
+CO_HSW	Obligatory courses on health and safety at work	Cours obligatoires sur la santé et la sécurité au travail	Pflichtkurse zu Gesundheit und Sicherheit am Arbeitsplatz	Y			
+OF	Other forms of CVT	Autres formes de FPC	Andere Arten der BWB	Y			
+OF_GUID	Other forms of CVT - guided-on-the-job training	"Autres formes de FPC - formation ""sur le tas"" encadrée"	Andere Arten der BWB - betriebliche Weiterbildung am Arbeitsplatz	Y			
+OF_JROT	Other forms of CVT - job rotation, exchanges or secondments	Autres formes de FPC - rotation organisée sur les postes de travail, échanges ou détachements	Andere Arten der BWB - Jobrotation, Austausch oder Abordnung	Y			
+OF_CONF	Other forms of CVT - training at conferences, workshops, trade fairs and lectures	Autres formes de FPC - formation dans le cadre de congrès, d'ateliers, de foires commerciales ou de conférences	Andere Arten der BWB - Weiterbildung im Rahmen von Konferenzen, Workshops, Messen und Vorträgen	Y			
+OF_LQC	Other forms of CVT - learning/quality circles	Autres formes de FPC - cercles d'apprentissage ou de qualité	Andere Arten der BWB - Lern-/Qualitätszirkel	Y			
+OF_SDL	Other forms of CVT - self-directed learning	Autres formes de FPC - autoformation	Andere Arten der BWB - Selbststudium	Y			
+NO_CVT	No CVT	Aucune FPC	Keine BWB	Y			
+CO_LANG	Language course	Cours de langue	Sprachkurs	Y			
+CO_LANG_G	General language course	Cours de langue général	Allgemeiner Sprachkurs	Y			
+CO_LANG_WS	Work-specific language course	Cours de langue spécifique au travail	Arbeitsspezifischer Sprachkurs	Y			
+NO_CO_LANG	No language course	Pas de cours de langue	Kein Sprachkurs	Y			
+FE_NFE	Formal and non-formal education and training	Éducation et formation formelles et non-formelles	Formale und nicht-formale Bildung/Weiterbildung	Y			
+FE	Formal education and training	Éducation et formation formelles	Formale Bildung/Weiterbildung	Y			
+NFE	Non-formal education and training	Éducation et formation non-formelles	Nicht-formale Bildung/Weiterbildung	Y			
+NFE_JB	Non-formal education and training - job-related	Éducation et formation non-formelles - liées au travail	Nicht-formale Bildung/Weiterbildung - berufsbezogen	Y			
+NFE_JB_ES	Non-formal education and training - job-related and sponsored by the employer	Éducation et formation non-formelles - liées au travail et supportées par l'employeur	Nicht-formale Bildung/Weiterbildung - berufsbezogen und vom Arbeitgeber unterstützt	Y			
+NFE_JB_ES_SAL	Non-formal education and training - job-related and sponsored by the employer (employees only)	Éducation et formation non-formelles - liées au travail et supportées par l'employeur (salariés seulement)	Nicht-formale Bildung/Weiterbildung - berufsbezogen und vom Arbeitgeber unterstützt (nur Arbeitnehmer)	Y			
+NFE_JB_NES	Non-formal education and training - job-related and not sponsored by the employer	Éducation et formation non-formelles - liées au travail et non supportées par l'employeur	Nicht-formale Bildung/Weiterbildung - berufsbezogen und nicht vom Arbeitgeber unterstützt	Y			
+NFE_NJB	Non-formal education and training - not job-related	Éducation et formation non-formelles - non liées au travail	Nicht-formale Bildung/Weiterbildung - nicht berufsbezogen	Y			
+NFE_NJB_ONL	Non-formal education and training - not job-related only	Éducation et formation non-formelles - non liées au travail uniquement	Nicht-formale Bildung/Weiterbildung - nur nicht berufsbezogen	Y			
+NO_FE_NO_NFE	Neither formal nor non-formal education or training	Aucune éducation ou formation formelles ou non-formelles	Keine formale oder nicht-formale Bildung/Weiterbildung	Y			
+NO_FE	No formal education or training	Aucune éducation ou formation formelles	Keine formale Bildung/Weiterbildung	Y			
+NO_NFE	No non-formal education or training	Aucune éducation ou formation non-formelles	Keine nicht-formale Bildung/Weiterbildung	Y			
+INF	Informal learning	Apprentissage informel	Informelles Lernen	Y			
+INF_ONL	Informal learning only	Uniquement apprentissage informel	Nur informelles Lernen	Y			
+NO_LEARN	No learning activity	Pas d'activité d'apprentissage	Keine Lernaktivität	Y			
+UNK	Unknown	Inconnu	Unbekannt	Y			
+NAP	Not applicable	Non applicable	Nicht anwendbar	Y			
+NRP	No response	Sans réponse	Keine Antwort	Y			

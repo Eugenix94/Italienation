@@ -3,3 +3,5 @@ local_data/MUR_iscritti/**/*.csv filter=lfs diff=lfs merge=lfs -text
 local_data/eurostat/**/*.csv filter=lfs diff=lfs merge=lfs -text
 local_data/worldbank/**/*.csv filter=lfs diff=lfs merge=lfs -text
 local_data/oecd/oecd_teacher_experience.csv filter=lfs diff=lfs merge=lfs -text
+local_data/OpenCoesione/structural_projects/opencoesione_digital_projects_all_cycles/progetti_esteso_RETI_SERVIZI_DIGITALI_20251231.csv filter=lfs diff=lfs merge=lfs -text
+local_data/OpenCoesione/structural_projects/opencoesione_projects_aggregated/progetti_esteso_aggregati_20251231.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "opencoesione_projects_aggregated.zip",
+    "url": "https://opencoesione.gov.it/it/opendata/progetti_esteso_aggregati.zip",
+    "kind": "zip",
+    "description": "Extended aggregated OpenCoesione project dataset across programming cycles",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_projects_aggregated.zip",
+    "bytes": 44057684,
+    "content_type": "application/zip",
+    "extracted_files": [
+      "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_projects_aggregated\\progetti_esteso_aggregati_20251231.csv"
+    ]
+  },
+  {
+    "name": "opencoesione_projects_metadata.xlsx",
+    "url": "https://opencoesione.gov.it/media/opendata/metadati_progetti_tracciato_esteso.xlsx",
+    "kind": "xlsx",
+    "description": "Metadata for the extended OpenCoesione project trace",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_projects_metadata.xlsx",
+    "bytes": 44552,
+    "content_type": "application/octet-stream",
+    "extracted_files": []
+  },
+  {
+    "name": "opencoesione_synthetic_theme_mapping.xlsx",
+    "url": "https://opencoesione.gov.it/media/uploads/metadati_temi_sintetici.xlsx",
+    "kind": "xlsx",
+    "description": "Theme mapping between synthetic policy themes and CUP classifications",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_synthetic_theme_mapping.xlsx",
+    "bytes": 303542,
+    "content_type": "application/octet-stream",
+    "extracted_files": []
+  },
+  {
+    "name": "opencoesione_digital_projects_all_cycles.zip",
+    "url": "https://opencoesione.gov.it/it/opendata/temi/progetti_esteso_RETI_SERVIZI_DIGITALI.zip",
+    "kind": "zip",
+    "description": "All-cycle OpenCoesione projects in the digital networks and services theme",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_digital_projects_all_cycles.zip",
+    "bytes": 15276169,
+    "content_type": "application/zip",
+    "extracted_files": [
+      "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_digital_projects_all_cycles\\progetti_esteso_RETI_SERVIZI_DIGITALI_20251231.csv"
+    ]
+  },
+  {
+    "name": "opencoesione_digital_projects_2021_2027.zip",
+    "url": "https://opencoesione.gov.it/it/opendata/temi/progetti_esteso_RETI_SERVIZI_DIGITALI_2021-2027.zip",
+    "kind": "zip",
+    "description": "2021-2027 OpenCoesione projects in the digital networks and services theme",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_digital_projects_2021_2027.zip",
+    "bytes": 216483,
+    "content_type": "application/zip",
+    "extracted_files": [
+      "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\OpenCoesione\\structural_projects\\opencoesione_digital_projects_2021_2027\\progetti_esteso_RETI_SERVIZI_DIGITALI_2021-2027_20251231.csv"
+    ]
+  }
+]

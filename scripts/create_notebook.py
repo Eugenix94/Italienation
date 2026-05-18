@@ -1021,6 +1021,62 @@ comparison.set_index('Metric', inplace=True)
 display(comparison)
 """))
 
+# ── Section 9 — Gender, COVID Shock, and Predictive Panel ────────────────────
+cells.append(md("""\
+---
+## Section 9 — Gender, COVID Shock, and Predictive Panel
+
+The national ISTAT NEET source already contains sex and year dimensions, while the regional NEET file can be merged with the existing transition bridge panel to create a lightweight predictive panel.
+
+This section adds three derived views:
+- gender gaps by age group and year,
+- a pre-COVID vs shock vs recovery summary,
+- a region-level predictive panel based on the transition bridge features.
+"""))
+
+cells.append(code("""\
+from pathlib import Path
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+
+candidate_roots = [Path('..') / 'local_data' / 'processed', Path('local_data') / 'processed']
+PROC = next((p for p in candidate_roots if p.exists()), candidate_roots[0])
+
+gender_gap = pd.read_csv(PROC / 'neet_gender_gap_by_year.csv')
+
+focus_age = 'Y15-29'
+focus_gap = gender_gap[gender_gap['classe_eta'] == focus_age].copy().sort_values('year')
+
+fig, ax = plt.subplots(figsize=(10, 4))
+ax.plot(focus_gap['year'], focus_gap['female_minus_male_pp'], marker='o', color='#b03a2e', lw=2)
+ax.axhline(0, color='0.3', lw=1, ls='--')
+ax.set_title(f'Female-minus-male NEET gap — {focus_age}')
+ax.set_xlabel('Year')
+ax.set_ylabel('Difference (pp)')
+plt.tight_layout()
+plt.show()
+
+print('Latest gender-gap observations for', focus_age)
+display(focus_gap.tail(5)[['year', 'female', 'male', 'female_minus_male_pp', 'female_to_male_ratio']])
+"""))
+
+cells.append(code("""\
+metrics_path = PROC / 'neet_regional_risk_model_metrics.json'
+pred_path = PROC / 'neet_regional_risk_model_predictions.csv'
+
+with open(metrics_path, 'r', encoding='utf-8') as handle:
+    metrics = json.load(handle)
+
+print('Holdout metrics for the region-level baseline model')
+for key in ['train_rows', 'test_rows', 'rmse', 'mae', 'r2', 'holdout_year']:
+    print(f"{key}: {metrics.get(key)}")
+
+predictions = pd.read_csv(pred_path)
+print('\nTop over-predicted regions in the holdout year')
+display(predictions.sort_values('prediction_error').head(8)[['REF_AREA', 'REF_AREA_LABEL', 'neet_risk_index', 'predicted_neet_risk_index', 'prediction_error']])
+"""))
+
 # ── Section 8 — Synthesis ─────────────────────────────────────────────────────
 cells.append(md("""\
 ---
@@ -1079,6 +1135,7 @@ manifest_out = {
         'S6: Student privileges (exemptions)',
         'S7: Italy vs UK comparison (completion, adult learning)',
         'S8: Synthesis and policy recommendations',
+        'S9: Gender, COVID shock, and predictive panel',
     ]
 }
 (OUT / 'analysis_manifest.json').write_text(json.dumps(manifest_out, indent=2, ensure_ascii=False))

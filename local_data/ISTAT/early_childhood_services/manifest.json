@@ -1,0 +1,37 @@
+[
+  {
+    "source": "ISTAT",
+    "flow_id": "47_850_DF_DCIS_SERVSOCEDU1_1",
+    "description": "Early-childhood service indicators by province",
+    "status": "error",
+    "error": "500 Server Error: Internal Server Error for url: https://sdmx.istat.it/SDMXWS/rest/data/IT1,47_850_DF_DCIS_SERVSOCEDU1_1,1.0/all"
+  },
+  {
+    "source": "ISTAT",
+    "flow_id": "47_850_DF_DCIS_SERVSOCEDU1_2",
+    "description": "Services provided by municipalities by region",
+    "status": "error",
+    "error": "500 Server Error: Internal Server Error for url: https://sdmx.istat.it/SDMXWS/rest/data/IT1,47_850_DF_DCIS_SERVSOCEDU1_2,1.0/all"
+  },
+  {
+    "source": "ISTAT",
+    "flow_id": "47_850_DF_DCIS_SERVSOCEDU1_3",
+    "description": "Services provided by municipalities by province and municipality",
+    "status": "error",
+    "error": "500 Server Error: Internal Server Error for url: https://sdmx.istat.it/SDMXWS/rest/data/IT1,47_850_DF_DCIS_SERVSOCEDU1_3,1.0/all"
+  },
+  {
+    "source": "ISTAT",
+    "flow_id": "47_850_DF_DCIS_SERVSOCEDU1_5",
+    "description": "Territorial early-childhood services by region",
+    "status": "error",
+    "error": "500 Server Error: Internal Server Error for url: https://sdmx.istat.it/SDMXWS/rest/data/IT1,47_850_DF_DCIS_SERVSOCEDU1_5,1.0/all"
+  },
+  {
+    "source": "ISTAT",
+    "flow_id": "47_850_DF_DCIS_SERVSOCEDU1_6",
+    "description": "Territorial early-childhood services by province and municipality",
+    "status": "error",
+    "error": "500 Server Error: Internal Server Error for url: https://sdmx.istat.it/SDMXWS/rest/data/IT1,47_850_DF_DCIS_SERVSOCEDU1_6,1.0/all"
+  }
+]

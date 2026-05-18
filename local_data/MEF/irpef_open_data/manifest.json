@@ -1,0 +1,72 @@
+[
+  {
+    "name": "mef_reg_tipo_reddito_2025.csv",
+    "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/REG_tipo_reddito_2025.csv?d=1615465800",
+    "kind": "csv",
+    "description": "IRPEF by regional income class",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_reg_tipo_reddito_2025.csv",
+    "bytes": 190370,
+    "content_type": "text/csv",
+    "extracted_files": []
+  },
+  {
+    "name": "mef_reg_calcolo_irpef_2025.csv",
+    "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/REG_calcolo_irpef_2025.csv?d=1615465800",
+    "kind": "csv",
+    "description": "IRPEF calculation components by regional income class",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_reg_calcolo_irpef_2025.csv",
+    "bytes": 194125,
+    "content_type": "text/csv",
+    "extracted_files": []
+  },
+  {
+    "name": "mef_sesso_tipo_reddito_2025.csv",
+    "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sesso_tipo_reddito_2025.csv?d=1615465800",
+    "kind": "csv",
+    "description": "IRPEF by sex and income type",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_sesso_tipo_reddito_2025.csv",
+    "bytes": 24231,
+    "content_type": "text/csv",
+    "extracted_files": []
+  },
+  {
+    "name": "mef_sesso_calcolo_irpef_2025.csv",
+    "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sesso_calcolo_irpef_2025.csv?d=1615465800",
+    "kind": "csv",
+    "description": "IRPEF calculation components by sex",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_sesso_calcolo_irpef_2025.csv",
+    "bytes": 22029,
+    "content_type": "text/csv",
+    "extracted_files": []
+  },
+  {
+    "name": "mef_comunale_irpef_2024.zip",
+    "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/Redditi_e_principali_variabili_IRPEF_su_base_comunale_CSV_2024.zip?d=1615465800",
+    "kind": "zip",
+    "description": "Municipality-level IRPEF distribution and tax variables",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_comunale_irpef_2024.zip",
+    "bytes": 1028668,
+    "content_type": "application/zip",
+    "extracted_files": [
+      "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_comunale_irpef_2024\\Redditi_e_principali_variabili_IRPEF_su_base_comunale_CSV_2024.csv"
+    ]
+  },
+  {
+    "name": "mef_subcomunale_irpef_2024.zip",
+    "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/Redditi_e_principali_variabili_IRPEF_su_base_subcomunale_CSV_2024.zip?d=1615465800",
+    "kind": "zip",
+    "description": "Sub-municipality (CAP) IRPEF distribution and tax variables",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_subcomunale_irpef_2024.zip",
+    "bytes": 89542,
+    "content_type": "application/zip",
+    "extracted_files": [
+      "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\MEF\\irpef_open_data\\mef_subcomunale_irpef_2024\\Redditi_e_principali_variabili_IRPEF_su_base_subcomunale_CSV_2024.csv"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "istat_non_observed_economy_report_2023.pdf",
+    "url": "https://www.istat.it/wp-content/uploads/2025/10/Report-ECONOMIA-NON-OSSERVATA-NEI-CONTI-NAZIONALI_ANNO2023.pdf",
+    "description": "ISTAT report and methodological note",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\ISTAT\\non_observed_economy\\istat_non_observed_economy_report_2023.pdf",
+    "bytes": 600948,
+    "content_type": "application/pdf"
+  },
+  {
+    "name": "istat_non_observed_economy_tables_2025.xlsx",
+    "url": "https://www.istat.it/wp-content/uploads/2025/10/Tavole-Economia-non-osservata_2025.xlsx",
+    "description": "ISTAT companion tables workbook",
+    "status": "ok",
+    "path": "C:\\Users\\Dell\\Documents\\VSC Projects\\Italienation\\local_data\\ISTAT\\non_observed_economy\\istat_non_observed_economy_tables_2025.xlsx",
+    "bytes": 99140,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  }
+]
