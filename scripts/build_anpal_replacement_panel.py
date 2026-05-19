@@ -22,6 +22,8 @@ ROOT = Path(__file__).resolve().parent.parent
 LOCAL_DATA = ROOT / "local_data"
 OUTPUT_DIR = ROOT / "local_data" / "processed"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+ANPAL_DIR = ROOT / "local_data" / "ANPAL"
+ANPAL_DIR.mkdir(parents=True, exist_ok=True)
 
 print("Building ANPAL replacement panel from available datasets...\n")
 
@@ -53,6 +55,14 @@ for key, path in datasets_to_load.items():
 
 print(f"\nLoaded {len(loaded)}/{len(datasets_to_load)} datasets\n")
 
+
+def save_to_processed_and_anpal(df: pd.DataFrame, file_name: str, label: str) -> None:
+    processed_path = OUTPUT_DIR / file_name
+    anpal_path = ANPAL_DIR / file_name
+    df.to_csv(processed_path, index=False)
+    df.to_csv(anpal_path, index=False)
+    print(f"✓ {label}: {processed_path.name} (+ mirrored to ANPAL)")
+
 # Build summary: annual NEET rate by main breakdowns (substitute for ANPAL annual outcomes)
 if "neet_istat" in loaded:
     df_neet = loaded["neet_istat"].copy()
@@ -68,37 +78,45 @@ if "neet_istat" in loaded:
         # Aggregate to annual NEET rate
         annual_neet = df_neet.groupby(year_col)[value_col].mean().reset_index()
         annual_neet.columns = ["anno", "neet_rate_pct"]
-        
-        out_path = OUTPUT_DIR / "anpal_replacement_neet_annual.csv"
-        annual_neet.to_csv(out_path, index=False)
-        print(f"✓ Annual NEET proxy saved: {out_path.name}")
+
+        save_to_processed_and_anpal(
+            annual_neet,
+            "anpal_replacement_neet_annual.csv",
+            "Annual NEET proxy saved",
+        )
     else:
         print("⚠ Could not identify year/value columns in NEET data")
 
 # Build breakdowns: NEET by migration status (proxy for program participation equity)
 if "neet_migration" in loaded:
     df_mig = loaded["neet_migration"].copy()
-    out_path = OUTPUT_DIR / "anpal_replacement_neet_by_migration.csv"
-    
+
     # Keep as-is (already stratified by citizenship/migration)
-    df_mig.to_csv(out_path, index=False)
-    print(f"✓ NEET by migration status saved: {out_path.name}")
+    save_to_processed_and_anpal(
+        df_mig,
+        "anpal_replacement_neet_by_migration.csv",
+        "NEET by migration status saved",
+    )
 
 # Build transition proxy: youth unemployment as job-placement proxy
 if "youth_unemp" in loaded:
     df_yunemp = loaded["youth_unemp"].copy()
-    out_path = OUTPUT_DIR / "anpal_replacement_youth_unemployment.csv"
-    
-    df_yunemp.to_csv(out_path, index=False)
-    print(f"✓ Youth unemployment (placement inverse): {out_path.name}")
+
+    save_to_processed_and_anpal(
+        df_yunemp,
+        "anpal_replacement_youth_unemployment.csv",
+        "Youth unemployment (placement inverse)",
+    )
 
 # Build risk indicator: early school leavers
 if "esl_detail" in loaded:
     df_esl = loaded["esl_detail"].copy()
-    out_path = OUTPUT_DIR / "anpal_replacement_early_school_leavers.csv"
-    
-    df_esl.to_csv(out_path, index=False)
-    print(f"✓ Early school leavers (pre-program risk): {out_path.name}")
+
+    save_to_processed_and_anpal(
+        df_esl,
+        "anpal_replacement_early_school_leavers.csv",
+        "Early school leavers (pre-program risk)",
+    )
 
 # Create a manifest explaining the replacement datasets
 manifest = {
@@ -145,7 +163,33 @@ manifest = {
 manifest_path = OUTPUT_DIR / "anpal_replacement_manifest.json"
 with open(manifest_path, "w") as f:
     json.dump(manifest, f, indent=2)
-print(f"\n✓ Manifest saved: {manifest_path.name}\n")
+
+anpal_manifest_path = ANPAL_DIR / "anpal_replacement_manifest.json"
+with open(anpal_manifest_path, "w") as f:
+    json.dump(manifest, f, indent=2)
+
+status_note_path = ANPAL_DIR / "ANPAL_DATA_STATUS.md"
+status_note_path.write_text(
+    "\n".join(
+        [
+            "# ANPAL Data Status",
+            "",
+            "Official ANPAL Garanzia Giovani machine-readable datasets are currently unavailable via validated public endpoints.",
+            "This folder contains replacement public indicators mirrored from local_data/processed.",
+            "",
+            "Included files:",
+            "- anpal_replacement_neet_annual.csv",
+            "- anpal_replacement_neet_by_migration.csv",
+            "- anpal_replacement_youth_unemployment.csv",
+            "- anpal_replacement_early_school_leavers.csv",
+            "- anpal_replacement_manifest.json",
+        ]
+    ),
+    encoding="utf-8",
+)
+
+print(f"\n✓ Manifest saved: {manifest_path.name} (+ mirrored to ANPAL)")
+print(f"✓ ANPAL status note saved: {status_note_path.name}\n")
 
 print("ANPAL replacement panel complete.")
 print("\nNext: Import these files into the transition notebook to replace missing ANPAL data.")
