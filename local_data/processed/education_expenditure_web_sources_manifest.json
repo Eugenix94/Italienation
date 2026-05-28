@@ -1,0 +1,12 @@
+{
+  "history_panel": "italy_education_expenditure_history_panel.csv",
+  "household_snapshot": "italy_school_household_cost_snapshot.csv",
+  "save_children_stats": "save_the_children_italy_school_stats.csv",
+  "web_note": "education_expenditure_web_sources_2026-05-27.md",
+  "verified_urls": [
+    "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=IT",
+    "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS?locations=IT",
+    "https://www.istat.it/statistiche-per-temi/focus/la-poverta-educativa/",
+    "https://s3-www.savethechildren.it/public/files/Scheda_scuole.pdf"
+  ]
+}

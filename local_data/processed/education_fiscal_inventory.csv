@@ -1,0 +1,40 @@
+source_group,source_file,direction,coverage,latest_year,metric,value,unit,note
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,entries+expenditures,school-level,2025,importo_accertato_impegnato,4126142.3200000003,eur,Committed/assessed amount
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,entries+expenditures,school-level,2025,importo_da_riscuotere_da_pagare,1072297.83,eur,Receivable / payable amount
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,entries+expenditures,school-level,2025,importo_riscosso_pagato,3053844.4899999998,eur,Collected/paid amount
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,entries+expenditures,school-level,2025,rows,1067.0,count,Raw school finance/procurement rows
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,entries,school-level,2025,total_entries,6069629.99,eur,Final-account entries
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,expenditure,school-level,2025,total_expenditures,5418018.45,eur,Final-account expenditures
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,entries+expenditures,school-level,2025,unique_regions,5.0,count,Unique regions in the file
+MUR school finance and procurement,BISCONSUNTIVO202520251220.csv,entries+expenditures,school-level,2025,unique_schools,11.0,count,Unique school codes in the file
+MUR school finance and procurement,BISCONTRATTI202420250921.csv,contracts,school-level,2024,rows,673976.0,count,Raw school finance/procurement rows
+MUR school finance and procurement,BISCONTRATTI202420250921.csv,contracts,school-level,2024,total_awarded_importo,4304585310.33,eur,Awarded amount
+MUR school finance and procurement,BISCONTRATTI202420250921.csv,contracts,school-level,2024,total_gara_importo,37192185384.97001,eur,Tendered amount
+MUR school finance and procurement,BISCONTRATTI202420250921.csv,contracts,school-level,2024,unique_regions,18.0,count,Unique regions in the file
+MUR school finance and procurement,BISCONTRATTI202420250921.csv,contracts,school-level,2024,unique_schools,7462.0,count,Unique school codes in the file
+MUR school finance and procurement,BISPROGANNO202520260320.csv,entries+expenditures,school-level,2025,rows,775670.0,count,Raw school finance/procurement rows
+MUR school finance and procurement,BISPROGANNO202520260320.csv,entries,school-level,2025,total_entries,5328723542.64,eur,Planned budget entries
+MUR school finance and procurement,BISPROGANNO202520260320.csv,expenditure,school-level,2025,total_expenditures,5335387729.39,eur,Planned budget expenditures
+MUR school finance and procurement,BISPROGANNO202520260320.csv,entries+expenditures,school-level,2025,unique_regions,18.0,count,Unique regions in the file
+MUR school finance and procurement,BISPROGANNO202520260320.csv,entries+expenditures,school-level,2025,unique_schools,7347.0,count,Unique school codes in the file
+MUR tuition and cost sharing,italy_mur_tuition_benchmark_2024.csv,household cost,Totale Italia,2023-2024,avg_tuition_all_students_eur,1494.61,eur,MUR 2024 contribuzione e interventi atenei
+MUR tuition and cost sharing,italy_mur_tuition_benchmark_2024.csv,household cost,Totale Atenei Statali,2023-2024,avg_tuition_all_students_eur,943.14,eur,MUR 2024 contribuzione e interventi atenei
+MUR tuition and cost sharing,italy_mur_tuition_benchmark_2024.csv,household cost,Totale Italia,2023-2024,avg_tuition_payers_eur,2160.32,eur,MUR 2024 contribuzione e interventi atenei
+MUR tuition and cost sharing,italy_mur_tuition_benchmark_2024.csv,household cost,Totale Atenei Statali,2023-2024,avg_tuition_payers_eur,1492.59,eur,MUR 2024 contribuzione e interventi atenei
+OECD macro education spending,education_expenditure_state_parents_gdp_latest.csv,expenditure,system-wide,2022,parents_private_pct_gdp,0.490998520472824,pct_gdp,Household / private education spending share of GDP
+OECD macro education spending,education_expenditure_state_parents_gdp_latest.csv,expenditure,system-wide,2022,parents_private_share_of_total_pct,12.6840951356595,pct,Share of total spending funded by parents/households
+OECD macro education spending,education_expenditure_state_parents_gdp_latest.csv,expenditure,system-wide,2022,state_pct_gdp,3.32550643467073,pct_gdp,Government / state education spending share of GDP
+OECD macro education spending,education_expenditure_state_parents_gdp_latest.csv,expenditure,system-wide,2022,state_share_of_total_pct,85.90869062291998,pct,Share of total spending funded by the state
+OECD macro education spending,education_expenditure_state_parents_gdp_latest.csv,expenditure,system-wide,2022,total_pct_gdp,3.8709779075407,pct_gdp,Total education spending share of GDP
+SIOPE school ledgers,siope_school_expenditure_summary.csv,expenditure,school-level,2024,annual_school_expenditure,357022745.42,eur,annual total school expenditure in the summary table
+SIOPE school ledgers,siope_school_expenditure_summary.csv,expenditure,school-level,2025,annual_school_expenditure,658393461.13,eur,annual total school expenditure in the summary table
+SIOPE school ledgers,siope_school_expenditure_summary.csv,expenditure,school-level,2026,annual_school_expenditure,274015585.68,eur,in-year / partial school expenditure in the summary table
+SIOPE school ledgers,siope_school_expenditure_summary.csv,expenditure,school-level,2026,total_school_expenditure,1529532466.53,eur,"School expenditure aggregated from 7,959 school-year rows"
+SIOPE school ledgers,siope_school_expenditure_summary.csv,expenditure,school-level,2026,unique_schools,3609.0,count,Unique schools appearing in the summary table
+SIOPE school ledgers,siope_school_expenditure_summary.csv,expenditure,school-level,2026,years_covered,7.0,count,Number of years present in the summary table
+University student support,dsu_ersu_support_panel_2024_2025.csv,support expenditure,regional support bodies,2024-2025 ,applications_total,528381.0,count,Aggregated across regional support entities
+University student support,dsu_ersu_support_panel_2024_2025.csv,support expenditure,regional support bodies,2024-2025 ,beneficiaries_borse_total,802949.0,count,Aggregated across regional support entities
+University student support,dsu_ersu_support_panel_2024_2025.csv,support expenditure,regional support bodies,2024-2025 ,spesa_alloggi_total,56064307.940000005,eur,Aggregated across regional support entities
+University student support,dsu_ersu_support_panel_2024_2025.csv,support expenditure,regional support bodies,2024-2025 ,spesa_borse_total,1779138752.7118096,eur,Aggregated across regional support entities
+University student support,dsu_ersu_support_panel_2024_2025.csv,support expenditure,regional support bodies,2024-2025 ,spesa_dsu_total,1871127199.9818096,eur,Aggregated across regional support entities
+University student support,dsu_ersu_support_panel_2024_2025.csv,support expenditure,regional support bodies,2024-2025 ,spesa_ristorazione_total,0.0,eur,Aggregated across regional support entities

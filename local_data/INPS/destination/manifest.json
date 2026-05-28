@@ -1,0 +1,87 @@
+{
+  "generated_utc": "2026-05-24T14:45:05.870334+00:00",
+  "source_hits_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/processed/inps_apprenticeship_informal_hits_2026-05-24.csv",
+  "files": [
+    {
+      "package_id": "attività-ispettiva-di-vigilanza-per-ente-controllore,-aziende-ispezionate-e-lavoratori-non-regolari---anno-2008-2009-e-1°-semestre-2010",
+      "title": "Attività ispettiva di vigilanza per ente controllore, aziende ispezionate e lavoratori non regolari - Anno 2008-2009 e 1° semestre 2010",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/I.3.6.1_Attivita_ispettiva_di_vigilanza_sul_lavoro.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/attivit_-ispettiva-di-vigilanza-per-ente-controllore_-aziende-ispezionate-e-lavoratori-non__1.csv",
+      "status": "ok",
+      "bytes": 1192,
+      "error": ""
+    },
+    {
+      "package_id": "attività-ispettiva-di-vigilanza-per-ente-controllore,aziende-ispezionate-e-lavoratori-non-regolari---anni-2010-2011-e-2012",
+      "title": "Attività ispettiva di vigilanza per ente controllore,aziende ispezionate e lavoratori non regolari - Anni 2010-2011 e 2012",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/ID-2492.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-2492.csv",
+      "status": "ok",
+      "bytes": 1111,
+      "error": ""
+    },
+    {
+      "package_id": "bambini-da-0-a-3-anni-accuditi-con-assistenza-formale-e-informale-per-durata-e-accuditi-in-via-esclusiva-dai-genitori-nei-paesi-dell'ue-a-15-e-sinteticamente-nell'ue-a-27---anni-2005-2011---iii.4.2.3",
+      "title": "Bambini da 0 a 3 anni accuditi con assistenza formale e informale per durata e accuditi in via esclusiva dai genitori nei paesi dell'Ue a 15 e sinteticamente nell'Ue a 27 - Anni 2005-2011 - III.4.2.3",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/ID-2520.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-2520.csv",
+      "status": "ok",
+      "bytes": 3692,
+      "error": ""
+    },
+    {
+      "package_id": "bambini-dai-3-anni-età-obbligo-con-assistenza-formale-e-informale-e-accuditi-in-via-esclusiva-dai-genitori-nei-paesi-dell'ue-anni-2005-2011.iii.4.2.4",
+      "title": "Bambini dai 3 anni-età obbligo con assistenza formale e informale e accuditi in via esclusiva dai genitori nei paesi dell'UE-Anni 2005-2011.III.4.2.4",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/ID-2531.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-2531.csv",
+      "status": "ok",
+      "bytes": 3642,
+      "error": ""
+    },
+    {
+      "package_id": "lavoratori-in-nero-e-irregolari-distribuzione-per-area-geografica--attività-2013",
+      "title": "Lavoratori in nero e irregolari distribuzione per area geografica- Attività 2013",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/ID-2326.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-2326.csv",
+      "status": "ok",
+      "bytes": 214,
+      "error": ""
+    },
+    {
+      "package_id": "lavoratori-in-nero-e-irregolari-distribuzione-per-gestione--attività-2013",
+      "title": "Lavoratori in nero e irregolari distribuzione per gestione- Attività 2013",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/ID-2324.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-2324.csv",
+      "status": "ok",
+      "bytes": 251,
+      "error": ""
+    },
+    {
+      "package_id": "numero-dipendenti-apprendistato-e-con-contratto-a-termine,-numero-giornate-lavorate-e-variazioni-percentuali-nel-settore-extra-agricolo-e-nel-settore-pubblico-divisi-per-anno-e-tipologia-di-contratto.-anni-2016-2017.-tav.-1.13",
+      "title": "Numero dipendenti apprendistato e con contratto a termine, numero giornate lavorate e variazioni percentuali nel settore extra agricolo e nel settore pubblico divisi per anno e tipologia di contratto. Anni 2016-2017. Tav. 1.13",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/CSV/ID-5515.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-5515.csv",
+      "status": "ok",
+      "bytes": 684,
+      "error": ""
+    },
+    {
+      "package_id": "numero-dipendenti-apprendistato-e-con-contratto-a-termine,-numero-giornate-lavorate-e-variazioni-percentuali-nel-settore-extra-agricolo-e-nel-settore-pubblico-divisi-per-anno-e-tipologia-di-orario-di-lavoro.-anni-2016-2017.-tav.-1.13",
+      "title": "Numero dipendenti apprendistato e con contratto a termine, numero giornate lavorate e variazioni percentuali nel settore extra agricolo e nel settore pubblico divisi per anno e tipologia di orario di lavoro. Anni 2016-2017. Tav. 1.13",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/CSV/ID-5516.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-5516.csv",
+      "status": "ok",
+      "bytes": 639,
+      "error": ""
+    },
+    {
+      "package_id": "numero-rapporti-di-lavoro-operai-non-agricoli-ed-apprendisti-nelle-aziende-agricole-divisi-per-anno-e-regione.-serie-storica,-anni-2010-2016",
+      "title": "Numero rapporti di lavoro operai non agricoli ed apprendisti nelle aziende agricole divisi per anno e regione. Serie storica, anni 2010-2016",
+      "url": "http://www.inps.it/docallegati/Mig/OpenData/CSV/ID-5139.csv",
+      "local_file": "C:/Users/Dell/Documents/VSC Projects/Italienation/local_data/INPS/destination/ID-5139.csv",
+      "status": "ok",
+      "bytes": 4102,
+      "error": ""
+    }
+  ]
+}

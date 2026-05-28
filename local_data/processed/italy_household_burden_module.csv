@@ -1,0 +1,20 @@
+domain,reference_period,segment,indicator,value,unit,min_eur,max_eur,source_file,note
+macro_household_share,2022,system-wide,parents_private_pct_gdp,0.490998520472824,pct_gdp,,,italy_education_expenditure_state_parents_trend.csv,Household/private share of GDP devoted to education
+macro_household_share,2022,system-wide,parents_private_share_of_total_pct,12.6840951356595,pct,,,italy_education_expenditure_state_parents_trend.csv,Household/private share of total education expenditure
+household_micro_cost,2025-2026,primary,textbook_cover_price_total,,eur,187.07,187.07,ItalyPrimarySchoolBookExpenses.csv,Official primary textbook total from Ministerial Decree n. 73/2025
+household_micro_cost,undated-current,Scuola media (lower secondary),estimated_mean_annual_household_spending,,eur,800.0,1200.0,ItalianMeanSecondarySchoolExpenses.csv,Estimated textbooks plus other materials
+household_micro_cost,undated-current,Liceo classico,estimated_mean_annual_household_spending,,eur,1000.0,1300.0,ItalianMeanSecondarySchoolExpenses.csv,Estimated textbooks plus other materials
+household_micro_cost,undated-current,Liceo scientifico,estimated_mean_annual_household_spending,,eur,900.0,1200.0,ItalianMeanSecondarySchoolExpenses.csv,Estimated textbooks plus other materials
+household_micro_cost,undated-current,Liceo linguistico,estimated_mean_annual_household_spending,,eur,900.0,1200.0,ItalianMeanSecondarySchoolExpenses.csv,Estimated textbooks plus other materials
+household_micro_cost,undated-current,Istituto tecnico,estimated_mean_annual_household_spending,,eur,800.0,1100.0,ItalianMeanSecondarySchoolExpenses.csv,Estimated textbooks plus other materials
+household_micro_cost,undated-current,Istituto professionale,estimated_mean_annual_household_spending,,eur,700.0,950.0,ItalianMeanSecondarySchoolExpenses.csv,Estimated textbooks plus other materials
+household_micro_cost,undated-current,Overall mean across all secondary schools,estimated_mean_annual_household_spending,,eur,1000.0,1000.0,ItalianMeanSecondarySchoolExpenses.csv,Estimated textbooks plus other materials
+household_micro_cost,2023-2024,Totale Italia,average_university_tuition_all_students,,eur,1494.61,1494.61,italy_mur_tuition_benchmark_2024.csv,Average university tuition across all enrolled students
+household_micro_cost,2023-2024,Totale Italia,average_university_tuition_payers,,eur,2160.32,2160.32,italy_mur_tuition_benchmark_2024.csv,Average university tuition among payers only
+household_micro_cost,2023-2024,Totale Atenei Statali,average_university_tuition_all_students,,eur,943.14,943.14,italy_mur_tuition_benchmark_2024.csv,Average university tuition across all enrolled students
+household_micro_cost,2023-2024,Totale Atenei Statali,average_university_tuition_payers,,eur,1492.59,1492.59,italy_mur_tuition_benchmark_2024.csv,Average university tuition among payers only
+tertiary_access_buffer,2023-2024,national weighted,share_no_contrib_class,0.0052565900211088284,share,,,atenei_payment_support_panel_2023_2024.csv,Weighted share of university students in no-contribution class
+tertiary_access_buffer,2023-2024,national weighted,share_contrib_up_to_500,0.14713793451066284,share,,,atenei_payment_support_panel_2023_2024.csv,Weighted share of university students paying at most 500 EUR
+tertiary_support,2024-2025,national total,spesa_dsu_total,1871127199.9818096,eur,,,dsu_ersu_support_panel_2024_2025.csv,Observed regional DSU/ERSU support expenditure total
+tertiary_support,2024-2025,national total,support_eur_per_eligible_student,5417.182098694897,eur_per_student,,,dsu_ersu_support_panel_2024_2025.csv,Support expenditure divided by eligible students
+tertiary_support,2024-2025,national total,support_eur_per_grant_beneficiary,2330.3188620719493,eur_per_beneficiary,,,dsu_ersu_support_panel_2024_2025.csv,Support expenditure divided by observed grant beneficiaries

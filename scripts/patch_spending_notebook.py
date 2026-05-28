@@ -1,13 +1,14 @@
-"""
-Patch education_spending_outcomes.ipynb to replace hardcoded placeholder cells
-with code that loads real data from CSVs in the local_data/ directory.
+"""Rebuild the front section of education_spending_outcomes.ipynb.
 
-Cells replaced (by original index):
-  3  - spending_data    (OECD per-student, USD PPP)
-  4  - spending chart   (adapts to total-only data)
-  6  - neet_data        (Eurostat NEET by migration, wstatus=NEMP, 15-29)
-  8  - hci_data         (World Bank HCI 2020)
-  10 - gini_data        (World Bank Gini, latest available year)
+The notebook had drifted into a half-patched state with duplicated placeholder
+cells and misordered sections. This script rewrites the first analytical block
+so it consistently uses real data for:
+    - total/state/parent education expenditure
+    - expenditure as % of GDP
+    - Italy trend over time
+    - NEET rates
+    - Human Capital Index
+    - Gini index
 """
 
 import json
@@ -16,49 +17,129 @@ from pathlib import Path
 NB_PATH = Path(__file__).resolve().parents[1] / "Notebooks" / "education_spending_outcomes.ipynb"
 
 # ---------------------------------------------------------------------------
-# New cell sources (as lists of lines matching .ipynb convention)
+# Replacement cell sources
 # ---------------------------------------------------------------------------
 
-SPENDING_SOURCE = [
+SECTION_1_MD = [
+    "## 1. Education Spending: State, Parents, and GDP Burden\n",
+    "Data: OECD funding-source accounts for all education levels (ISCED11_1T8), latest year and Italy trend."
+]
+
+SECTION_1B_MD = [
+    "## 1b. Italy Trend: State vs Parents and GDP Burden\n",
+    "Data: OECD funding sources, 2015-2022."
+]
+
+SECTION_2_MD = [
+    "## 2. NEET Rates (latest available, % of youth 15-29)\n",
+    "Data: Eurostat, wstatus=NEMP from the NEET by migration panel."
+]
+
+SECTION_3_MD = [
+    "## 3. Human Capital Index (HCI, 2020)\n",
+    "Data: World Bank. Scale 0-1."
+]
+
+SECTION_4_MD = [
+    "## 4. Gini Index (latest available)\n",
+    "Data: World Bank WDI. Scale 0-100."
+]
+
+IMPORT_SOURCE = [
+    "# Import required libraries\n",
     "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "import numpy as np"
+]
+
+SPENDING_SOURCE = [
     "from pathlib import Path\n",
     "\n",
-    "ROOT = Path('..').resolve()  # Notebooks/ -> workspace root\n",
+    "ROOT = Path.cwd()\n",
+    "if not (ROOT / 'local_data').exists():\n",
+    "    ROOT = (ROOT / '..').resolve()\n",
+    "if not (ROOT / 'local_data').exists():\n",
+    "    raise FileNotFoundError('Could not resolve repository root containing local_data/')\n",
     "ORDER = ['Italy', 'UK', 'Germany', 'Spain', 'Greece']\n",
-    "COUNTRIES = {'ITA': 'Italy', 'GBR': 'UK', 'DEU': 'Germany', 'ESP': 'Spain', 'GRC': 'Greece'}\n",
     "\n",
-    "perstud = pd.read_csv(ROOT / 'local_data/oecd/oecd_education_fin_perstud.csv', low_memory=False)\n",
+    "exp_latest = pd.read_csv(ROOT / 'local_data/processed/education_expenditure_state_parents_gdp_latest.csv')\n",
     "spending_data = (\n",
-    "    perstud[\n",
-    "        perstud['REF_AREA'].isin(COUNTRIES.keys()) &\n",
-    "        (perstud['EDUCATION_LEV'] == 'ISCED11_1T8') &\n",
-    "        (perstud['UNIT_MEASURE'] == 'USD_PPP_ST')\n",
-    "    ][['REF_AREA', 'OBS_VALUE', 'TIME_PERIOD']]\n",
-    "    .assign(Country=lambda d: d['REF_AREA'].map(COUNTRIES))\n",
-    "    .rename(columns={'OBS_VALUE': 'Total_per_student_USD_PPP'})\n",
-    "    [['Country', 'Total_per_student_USD_PPP', 'TIME_PERIOD']]\n",
+    "    exp_latest[[\n",
+    "        'Country',\n",
+    "        'TIME_PERIOD',\n",
+    "        'state_usd_ppp',\n",
+    "        'parents_private_usd_ppp',\n",
+    "        'total_usd_ppp',\n",
+    "        'state_pct_gdp',\n",
+    "        'parents_private_pct_gdp',\n",
+    "        'total_pct_gdp',\n",
+    "        'state_share_of_total_pct',\n",
+    "        'parents_private_share_of_total_pct',\n",
+    "    ]]\n",
     "    .set_index('Country')\n",
     "    .loc[ORDER]\n",
     "    .reset_index()\n",
     ")\n",
-    "print(f\"Source: OECD EAG, oecd_education_fin_perstud.csv, year \"\n",
-    "      f\"{spending_data['TIME_PERIOD'].iloc[0]}\")\n",
-    "print(\"Note: Govt/household expenditure breakdown not available in this dataset; \"\n",
-    "      \"total direct expenditure per student (ISCED 1-8, all levels) shown.\")\n",
+    "for col in ['state_usd_ppp', 'parents_private_usd_ppp', 'total_usd_ppp']:\n",
+    "    spending_data[col] = spending_data[col] / 1000.0\n",
+    "\n",
+    "spending_data = spending_data.rename(columns={\n",
+    "    'TIME_PERIOD': 'Year',\n",
+    "    'state_usd_ppp': 'State_Funding_USD_PPP_Bn',\n",
+    "    'parents_private_usd_ppp': 'Parents_Private_USD_PPP_Bn',\n",
+    "    'total_usd_ppp': 'Total_USD_PPP_Bn',\n",
+    "    'state_pct_gdp': 'State_pct_GDP',\n",
+    "    'parents_private_pct_gdp': 'Parents_Private_pct_GDP',\n",
+    "    'total_pct_gdp': 'Total_pct_GDP',\n",
+    "    'state_share_of_total_pct': 'State_share_pct',\n",
+    "    'parents_private_share_of_total_pct': 'Parents_Private_share_pct',\n",
+    "})\n",
+    "\n",
+    "print('Source: OECD funding sources, ISCED11_1T8, destination=INST_EDU, direct expenditure')\n",
+    "print('Interpretation: S13 = state/public, S1D_NON_EDU = parents/private, _T = total')\n",
     "spending_data",
 ]
 
 SPENDING_CHART_SOURCE = [
-    "# Bar chart: Total per-student spending by country\n",
-    "spending_data.set_index('Country')[['Total_per_student_USD_PPP']].plot(\n",
-    "    kind='bar', figsize=(8, 5), color='steelblue', legend=False)\n",
-    "import matplotlib.pyplot as plt\n",
-    "plt.title('Total Per-Student Education Spending (2022, USD PPP)\\nSource: OECD EAG')\n",
-    "plt.ylabel('USD PPP')\n",
-    "plt.xlabel('')\n",
-    "plt.xticks(rotation=30, ha='right')\n",
+    "fig, axes = plt.subplots(1, 2, figsize=(14, 5))\n",
+    "\n",
+    "spending_data.set_index('Country')[['State_Funding_USD_PPP_Bn', 'Parents_Private_USD_PPP_Bn']].plot(\n",
+    "    kind='bar', stacked=True, ax=axes[0], color=['#4C78A8', '#F58518']\n",
+    ")\n",
+    "axes[0].set_title('Education Funding by Source (2022, USD PPP billions)')\n",
+    "axes[0].set_ylabel('USD PPP billions')\n",
+    "axes[0].set_xlabel('')\n",
+    "axes[0].tick_params(axis='x', rotation=20)\n",
+    "\n",
+    "spending_data.set_index('Country')[['State_pct_GDP', 'Parents_Private_pct_GDP']].plot(\n",
+    "    kind='bar', stacked=True, ax=axes[1], color=['#4C78A8', '#F58518']\n",
+    ")\n",
+    "axes[1].set_title('Education Expenditure as % of GDP (2022)')\n",
+    "axes[1].set_ylabel('% of GDP')\n",
+    "axes[1].set_xlabel('')\n",
+    "axes[1].tick_params(axis='x', rotation=20)\n",
     "plt.tight_layout()\n",
     "plt.show()",
+]
+
+ITALY_TREND_SOURCE = [
+    "trend_it = pd.read_csv(ROOT / 'local_data/processed/italy_education_expenditure_state_parents_trend.csv')\n",
+    "trend_it = trend_it.sort_values('TIME_PERIOD')\n",
+    "\n",
+    "plt.figure(figsize=(9, 5))\n",
+    "plt.plot(trend_it['TIME_PERIOD'], trend_it['state_pct_gdp'], marker='o', label='State (% GDP)')\n",
+    "plt.plot(trend_it['TIME_PERIOD'], trend_it['parents_private_pct_gdp'], marker='o', label='Parents/Private (% GDP)')\n",
+    "plt.plot(trend_it['TIME_PERIOD'], trend_it['total_pct_gdp'], marker='o', linewidth=2, label='Total (% GDP)')\n",
+    "plt.title('Italy Education Expenditure Burden vs GDP (2015-2022)')\n",
+    "plt.xlabel('Year')\n",
+    "plt.ylabel('% of GDP')\n",
+    "plt.grid(alpha=0.3)\n",
+    "plt.legend()\n",
+    "plt.tight_layout()\n",
+    "plt.show()\n",
+    "\n",
+    "trend_it[['TIME_PERIOD', 'state_pct_gdp', 'parents_private_pct_gdp', 'total_pct_gdp',\n",
+    "          'state_share_of_total_pct', 'parents_private_share_of_total_pct']]",
 ]
 
 NEET_SOURCE = [
@@ -80,22 +161,24 @@ NEET_SOURCE = [
     "    .rename(columns={'OBS_VALUE': 'NEET_Rate', 'TIME_PERIOD': 'Year'})\n",
     "    [['Country', 'NEET_Rate', 'Year']]\n",
     "    .set_index('Country')\n",
-    "    .loc[[c for c in ORDER if c in GEO_MAP.values()]]\n",
+    "    .loc[ORDER]\n",
     "    .reset_index()\n",
     ")\n",
     "print('Source: Eurostat eurostat_neet_by_migration.csv')\n",
     "print('Metric: % of 15-29 not employed and not in education/training (wstatus=NEMP)')\n",
     "print('Note: UK data available to 2019 only (post-Brexit Eurostat coverage).')\n",
     "\n",
-    "import plotly.express as px\n",
-    "fig = px.bar(\n",
-    "    neet_data, x='Country', y='NEET_Rate',\n",
-    "    title='NEET Rate — % of youth 15-29 not employed and not in education/training<br>'\n",
-    "          '<sup>Source: Eurostat; latest available year per country</sup>',\n",
-    "    labels={'NEET_Rate': '% NEET'},\n",
-    "    text='Year'\n",
-    ")\n",
-    "fig.show()",
+    "fig, ax = plt.subplots(figsize=(8, 5))\n",
+    "ax.bar(neet_data['Country'], neet_data['NEET_Rate'], color='#E45756')\n",
+    "ax.set_title('NEET Rate: latest available by country')\n",
+    "ax.set_ylabel('% of youth 15-29')\n",
+    "ax.set_xlabel('')\n",
+    "for idx, row in neet_data.iterrows():\n",
+    "    ax.text(idx, row['NEET_Rate'] + 0.3, str(int(row['Year'])), ha='center', fontsize=9)\n",
+    "plt.xticks(rotation=20)\n",
+    "plt.tight_layout()\n",
+    "plt.show()\n",
+    "neet_data",
 ]
 
 HCI_SOURCE = [
@@ -117,10 +200,15 @@ HCI_SOURCE = [
     ")\n",
     "print('Source: World Bank Human Capital Index 2020 (scale 0-1)')\n",
     "\n",
-    "px.bar(\n",
-    "    hci_data, x='Country', y='HCI',\n",
-    "    title='Human Capital Index (2020, scale 0-1)<br><sup>Source: World Bank</sup>',\n",
-    "    labels={'HCI': 'HCI (0-1)'})",
+    "fig, ax = plt.subplots(figsize=(8, 5))\n",
+    "ax.bar(hci_data['Country'], hci_data['HCI'], color='#54A24B')\n",
+    "ax.set_title('Human Capital Index (2020)')\n",
+    "ax.set_ylabel('HCI (0-1)')\n",
+    "ax.set_xlabel('')\n",
+    "plt.xticks(rotation=20)\n",
+    "plt.tight_layout()\n",
+    "plt.show()\n",
+    "hci_data",
 ]
 
 GINI_SOURCE = [
@@ -142,43 +230,59 @@ GINI_SOURCE = [
     ")\n",
     "print('Source: World Bank WDI Gini index (latest available year per country)')\n",
     "\n",
-    "px.bar(\n",
-    "    gini_data, x='Country', y='Gini',\n",
-    "    title='Gini Index — Income Inequality<br>'\n",
-    "          '<sup>Source: World Bank WDI; latest available year per country</sup>',\n",
-    "    labels={'Gini': 'Gini (0-100)'},\n",
-    "    text='Year')",
+    "fig, ax = plt.subplots(figsize=(8, 5))\n",
+    "ax.bar(gini_data['Country'], gini_data['Gini'], color='#B279A2')\n",
+    "ax.set_title('Gini Index: latest available year by country')\n",
+    "ax.set_ylabel('Gini (0-100)')\n",
+    "ax.set_xlabel('')\n",
+    "for idx, row in gini_data.iterrows():\n",
+    "    ax.text(idx, row['Gini'] + 0.15, str(int(row['Year'])), ha='center', fontsize=9)\n",
+    "plt.xticks(rotation=20)\n",
+    "plt.tight_layout()\n",
+    "plt.show()\n",
+    "gini_data",
 ]
 
-# ---------------------------------------------------------------------------
-# Apply patches
-# ---------------------------------------------------------------------------
-
-CELL_PATCHES = {
-    3: SPENDING_SOURCE,
-    4: SPENDING_CHART_SOURCE,
-    6: NEET_SOURCE,
-    8: HCI_SOURCE,
-    10: GINI_SOURCE,
-}
+def make_cell(cell_type: str, source: list[str], cell_id: str, language: str | None = None) -> dict:
+    metadata = {}
+    if language is not None:
+        metadata["language"] = language
+    cell = {
+        "cell_type": cell_type,
+        "id": cell_id,
+        "metadata": metadata,
+        "source": source,
+    }
+    if cell_type == "code":
+        cell["outputs"] = []
+        cell["execution_count"] = None
+    return cell
 
 
 def main() -> None:
     nb = json.loads(NB_PATH.read_text(encoding="utf-8"))
 
-    patched = 0
-    for idx, new_source in CELL_PATCHES.items():
-        cell = nb["cells"][idx]
-        assert cell["cell_type"] == "code", f"Cell {idx} is not a code cell"
-        cell["source"] = new_source
-        cell["outputs"] = []
-        cell["execution_count"] = None
-        patched += 1
-        print(f"  Patched cell {idx}")
+    tail = nb["cells"][13:]
+    rebuilt_front = [
+        nb["cells"][0],
+        make_cell("code", IMPORT_SOURCE, "#VSC-imports", "python"),
+        make_cell("markdown", SECTION_1_MD, "#VSC-sec-1", "markdown"),
+        make_cell("code", SPENDING_SOURCE, "#VSC-code-spend-table", "python"),
+        make_cell("code", SPENDING_CHART_SOURCE, "#VSC-code-spend-charts", "python"),
+        make_cell("markdown", SECTION_1B_MD, "#VSC-sec-1b", "markdown"),
+        make_cell("code", ITALY_TREND_SOURCE, "#VSC-code-italy-trend", "python"),
+        make_cell("markdown", SECTION_2_MD, "#VSC-sec-2", "markdown"),
+        make_cell("code", NEET_SOURCE, "#VSC-code-neet", "python"),
+        make_cell("markdown", SECTION_3_MD, "#VSC-sec-3", "markdown"),
+        make_cell("code", HCI_SOURCE, "#VSC-code-hci", "python"),
+        make_cell("markdown", SECTION_4_MD, "#VSC-sec-4", "markdown"),
+        make_cell("code", GINI_SOURCE, "#VSC-code-gini", "python"),
+    ]
+    nb["cells"] = rebuilt_front + tail
 
     NB_PATH.write_text(json.dumps(nb, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"\nSaved: {NB_PATH}")
-    print(f"Total cells patched: {patched}")
+    print(f"Rebuilt front section with {len(rebuilt_front)} cells; preserved tail with {len(tail)} cells.")
 
 
 if __name__ == "__main__":

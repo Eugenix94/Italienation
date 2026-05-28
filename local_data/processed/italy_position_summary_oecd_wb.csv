@@ -1,0 +1,11 @@
+metric,better_direction,italy_value,italy_rank,countries_with_metric,italy_pct_better
+education_spending_pct_gdp,higher,4.06775999069214,116.0,244.0,52.674897119341566
+tertiary_enrollment_gross_pct,higher,75.9496536254883,51.0,245.0,79.50819672131148
+learning_poverty_pct,lower,5.49675559997558,18.0,155.0,88.96103896103897
+access_minus_learning_gap,higher,65.77776527404781,27.0,137.0,80.88235294117648
+cost_intensity_x_access,higher,1492.6188674659734,68.0,194.0,65.28497409326425
+state_pct_gdp_oecd,higher,3.32550643467073,32.0,47.0,32.608695652173914
+private_pct_gdp_oecd,lower,0.490998520472824,16.0,40.0,61.53846153846154
+state_share_pct_oecd,higher,85.90869062291998,18.0,41.0,57.49999999999999
+private_share_pct_oecd,lower,12.6840951356595,19.0,40.0,53.84615384615385
+per_student_usd_ppp_oecd,higher,13750.4075177952,19.0,40.0,53.84615384615385
