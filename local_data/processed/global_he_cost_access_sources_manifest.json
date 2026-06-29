@@ -1,6 +1,6 @@
 {
   "title": "Global HE Cost/Access Panel Sources Manifest",
-  "generated_at_utc": "2026-05-16T23:10:13.563243+00:00",
+  "generated_at_utc": "2026-06-06T16:25:40.766689+00:00",
   "outputs": [
     "local_data/processed/global_he_cost_access_panel.csv",
     "local_data/processed/global_he_cost_access_latest_year.csv",

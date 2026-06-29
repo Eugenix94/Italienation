@@ -14,6 +14,12 @@ This script builds the closest available substitute from:
   - Early school leavers (risk indicator)
 """
 
+import sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 import pandas as pd
 from pathlib import Path
 import json

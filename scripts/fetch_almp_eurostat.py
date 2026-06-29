@@ -4,6 +4,12 @@ Fetch missing Eurostat ALMP (Active Labour Market Policy) data to fill ANPAL gap
 These two flows show labour-market intervention spending and participant counts by type.
 """
 
+import sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 import requests
 import os
 from pathlib import Path

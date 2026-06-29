@@ -103,11 +103,11 @@ def build_destination_panel(manifest_rows: list[dict[str, object]]) -> pd.DataFr
         # Apprenticeship employees by year from ID-5515 table (avoids double counting with ID-5516).
         if "id-5515.csv" in file_path.name.lower() and {"Anno", "Tipologia contratto", "Numero dipendenti"}.issubset(df.columns):
             w = df.copy()
-            w["Anno"] = pd.to_numeric(w["Anno"], errors="coerce")
+            w["Anno"] = pd.to_numeric(w["Anno"], errors="coerce").astype(int)
             w = w[(w["Anno"] >= 2000) & (w["Anno"] <= 2035)]
             w = w[w["Tipologia contratto"].astype(str).str.contains("apprend", case=False, na=False)]
             if len(w):
-                grouped = w.groupby(w["Anno"].astype(int), as_index=False)["Numero dipendenti"].sum()
+                grouped = w.groupby("Anno", as_index=False)["Numero dipendenti"].sum()
                 for _, r in grouped.iterrows():
                     panel_rows.append(
                         {
@@ -122,12 +122,12 @@ def build_destination_panel(manifest_rows: list[dict[str, object]]) -> pd.DataFr
         # Agricultural apprenticeship-related labor relations by year (ID-5139).
         if {"Anno", "Numero rapporti"}.issubset(df.columns) and "apprend" in package_id:
             w = df.copy()
-            w["Anno"] = pd.to_numeric(w["Anno"], errors="coerce")
+            w["Anno"] = pd.to_numeric(w["Anno"], errors="coerce").astype(int)
             w["Numero rapporti"] = pd.to_numeric(w["Numero rapporti"], errors="coerce")
             w = w[(w["Anno"] >= 2000) & (w["Anno"] <= 2035)]
             w = w[w["Numero rapporti"].notna()]
             if len(w):
-                grouped = w.groupby(w["Anno"].astype(int), as_index=False)["Numero rapporti"].sum()
+                grouped = w.groupby("Anno", as_index=False)["Numero rapporti"].sum()
                 for _, r in grouped.iterrows():
                     panel_rows.append(
                         {

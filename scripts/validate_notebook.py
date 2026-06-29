@@ -1,4 +1,10 @@
 """Validation script: runs all notebook code cells to verify correctness."""
+import sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 import warnings, re, json
 from pathlib import Path
 import pandas as pd
@@ -67,10 +73,10 @@ errors = []
 # ── S1a: NEET incidence by education ──────────────────────────────────────────
 try:
     inc_path = next(
-        (p for p in ROOT.glob('*.csv') if 'incidenza' in p.name.lower() or 'titolo' in p.name.lower()),
+        (p for p in ROOT.glob('*.csv') if 'incidenza' in p.name.lower() and 'titolo' in p.name.lower()),
         None
     )
-    df_inc = smart_read_csv(inc_path)
+    df_inc = pd.read_csv(str(inc_path), sep=',', encoding='utf-8-sig', quotechar="'", low_memory=False)
     df_inc.columns = [str(c).strip() for c in df_inc.columns]
     TIME = find_col(df_inc, 'TIME_PERIOD', 'TIME')
     OBS  = find_col(df_inc, 'Osservazione', 'OBS_VALUE', 'OBS')
@@ -108,17 +114,24 @@ try:
     OBS2 = find_col(df_reg, 'Osservazione', 'OBS')
     GEO  = find_col(df_reg, 'Territorio')
     AGE2 = find_col(df_reg, 'AGE')
+    FREQ2 = find_col(df_reg, 'FREQ')
     df_reg[OBS2] = df_reg[OBS2].apply(parse_num)
-    lat2 = df_reg[T2].astype(str).max()
-    df_r = df_reg[df_reg[T2].astype(str) == lat2].copy()
-    if AGE2 and 'Y15-29' in df_r[AGE2].values:
-        df_r = df_r[df_r[AGE2] == 'Y15-29']
-    by_reg = (df_r.groupby(GEO)[OBS2].mean().dropna().sort_values(ascending=False).head(25))
-    by_reg = by_reg[~by_reg.index.str.upper().str.contains('ITALIA|TOTALE|NORD|SUD|CENTRO|ISOLE')]
+    df_annual = df_reg[df_reg[FREQ2] == 'A'].copy()
+    if AGE2 and 'Y15-29' in df_annual[AGE2].values:
+        df_annual = df_annual[df_annual[AGE2] == 'Y15-29']
+    EXCL = r'ITALIA|TOTALE|NORD|SUD|CENTRO|ISOLE|MEZZOGIORNO'
+    by_reg, lat2 = pd.Series(dtype=float), ''
+    for yr in sorted(df_annual[T2].astype(str).unique(), reverse=True):
+        df_yr = df_annual[df_annual[T2].astype(str) == yr]
+        br = df_yr.groupby(GEO)[OBS2].mean().dropna()
+        br_filt = br[~br.index.str.upper().str.contains(EXCL, na=False, regex=True)]
+        if len(br_filt) >= 5:
+            by_reg = br_filt.sort_values(ascending=False)
+            lat2 = yr; break
     fig, ax = plt.subplots(figsize=(11, 6))
     ax.bar(by_reg.index, by_reg.values, color='steelblue')
-    ax.set_ylabel('NEET rate (%)')
-    ax.set_title(f'NEET rate by region — {lat2}', fontweight='bold')
+    ax.set_ylabel('NEET count (thousands)')
+    ax.set_title(f'NEET count by region (thousands) — {lat2}', fontweight='bold')
     plt.xticks(rotation=45, ha='right')
     savefig('s1_neet_by_region.png')
     print(f'S1b OK: {len(by_reg)} regions')
@@ -128,13 +141,13 @@ try:
     df_nat = df_reg[nat_mask]
     if AGE2 and 'Y15-29' in df_nat[AGE2].values:
         df_nat = df_nat[df_nat[AGE2] == 'Y15-29']
-    trend = df_nat.groupby(T2)[OBS2].mean().sort_index().dropna()
+    trend = df_nat[df_nat[FREQ2] == 'A'].groupby(T2)[OBS2].mean().sort_index().dropna()
     fig, ax = plt.subplots(figsize=(11, 5))
     ax.plot(trend.index.astype(str), trend.values, marker='o', color='crimson')
-    ax.set_title('Italy NEET rate trend', fontweight='bold')
+    ax.set_title('Italy NEET absolute count trend (thousands)', fontweight='bold')
     plt.xticks(rotation=45)
     savefig('s1_neet_trend.png')
-    print(f'S1b trend OK: {len(trend)} years, latest={trend.iloc[-1]:.1f}%')
+    print(f'S1b trend OK: {len(trend)} years, latest={trend.iloc[-1]:.1f}k')
 except Exception as e:
     errors.append(f'S1b regional: {e}')
     print(f'S1b ERROR: {e}')
@@ -414,8 +427,11 @@ try:
     YR_P  = find_col(df_prod, 'Year')
     df_prod[EDU_P] = df_prod[EDU_P].apply(parse_num)
     df_prod[PROD_P] = df_prod[PROD_P].apply(parse_num)
-    latest_yr_p = df_prod[YR_P].max()
-    df_latest_p = df_prod[df_prod[YR_P] == latest_yr_p].dropna(subset=[EDU_P, PROD_P])
+    df_valid = df_prod.dropna(subset=[EDU_P, PROD_P])
+    latest_per = df_valid.groupby(ENT)[YR_P].max().reset_index()
+    latest_per.columns = [ENT, '_yr']
+    df_lat = df_valid.merge(latest_per, on=ENT)
+    df_latest_p = df_lat[df_lat[YR_P] == df_lat['_yr']].drop(columns=['_yr'])
     focus = ['Italy', 'United Kingdom', 'Germany', 'France', 'Spain', 'Greece']
     df_focus = df_latest_p[df_latest_p[ENT].isin(focus)]
     fig, ax = plt.subplots(figsize=(12, 7))
@@ -473,9 +489,8 @@ try:
     OBS_F  = find_col(df_fin, 'OBS_VALUE')
     TIM_F  = find_col(df_fin, 'TIME_PERIOD', 'TIME')
     SRC_F  = find_col(df_fin, 'EXP_SOURCE')
-    EDU_F  = find_col(df_fin, 'EDUCATION_LEV')
     df_fin[OBS_F] = df_fin[OBS_F].apply(parse_num)
-    df_fin_t = df_fin[(df_fin[SRC_F] == '_T') & (df_fin[EDU_F] == '_T')].copy()
+    df_fin_t = df_fin[df_fin[SRC_F] == '_T'].copy()
     fin_peers = {'ITA': 'Italy', 'GBR': 'United Kingdom', 'DEU': 'Germany', 'FRA': 'France', 'ESP': 'Spain'}
     df_fin_p = df_fin_t[df_fin_t[REF_F].isin(fin_peers.keys())].copy()
     df_fin_p['Country'] = df_fin_p[REF_F].map(fin_peers)

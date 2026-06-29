@@ -1,6 +1,6 @@
 # Global HE Cost/Access Sources
 
-Generated (UTC): 2026-05-16T23:10:13.563243+00:00
+Generated (UTC): 2026-06-06T16:25:40.766689+00:00
 
 ## Output files
 - local_data/processed/global_he_cost_access_panel.csv

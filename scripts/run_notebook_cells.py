@@ -3,6 +3,12 @@ Run all code cells from italy_neet_full_analysis.ipynb as a plain Python script.
 Uses matplotlib Agg (headless) and replaces display() with print().
 Run from workspace root: .venv\Scripts\python.exe scripts/run_notebook_cells.py
 """
+import sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 import json, re
 from pathlib import Path
 import matplotlib
