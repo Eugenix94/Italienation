@@ -368,6 +368,7 @@
     <div class="tabs">
         <button class="tab-btn active" onclick="openTab('tab-definition')">📖 Extensive Definition & Manifesto</button>
         <button class="tab-btn" onclick="openTab('tab-geomap')">🗺️ Interactive Regional Geo-Map</button>
+        <button class="tab-btn" onclick="openTab('tab-tripmap')">🎒 Tripartite vs. NEET Area Map</button>
         <button class="tab-btn" onclick="openTab('tab-dashboard')">📊 6-Panel Correlation Engine</button>
         <button class="tab-btn" onclick="openTab('tab-newpanels')">🔬 New Open Science Panels (Demo & Wages)</button>
         <button class="tab-btn" onclick="openTab('tab-metro')">🏙️ Municipal Urban Penalty</button>
@@ -469,7 +470,78 @@
         </div>
     </div>
 
-    <!-- TAB 3: DASHBOARD -->
+    
+    <!-- TAB 2B: TRIPARTITE VS NEET AREA MAP -->
+    <div id="tab-tripmap" class="tab-content">
+        <h2>🎒 Tripartite School Orientation vs. NEET Area Map (Italian Secondary Tracking Observatory)</h2>
+        <p>In Italy, upper secondary education is divided at age 14 into three distinct tracks (*Il Sistema Tripartito*): <strong>Licei</strong> (academic orientation), <strong>Istituti Tecnici</strong> (technical specialization), and <strong>Istituti Professionali</strong> (vocational trades). How does this tripartite formation split interact with geographical areas and youth NEET outcomes?</p>
+        <p>Select any of the <strong>5 Macro-Areas</strong> or <strong>20 individual Regions</strong> below to examine the interactive tripartite enrollment split, Grade 9 repetition severity (<em>bocciature</em>), and industrial district absorption capacity:</p>
+        
+        <div class="map-layout">
+            <div class="map-container">
+                <h4 style="color: var(--accent-gold); margin-bottom: 12px; font-family: 'Outfit', sans-serif;">Select Macro-Area:</h4>
+                <div style="margin-bottom: 18px; border-bottom: 1px solid var(--border-color); padding-bottom: 14px;">
+                    <button class="map-btn selected" onclick="selectTrip('Nord-Ovest (Macro-Area)')">Nord-Ovest (Area)</button>
+                    <button class="map-btn" onclick="selectTrip('Nord-Est (Macro-Area)')">Nord-Est (Area)</button>
+                    <button class="map-btn" onclick="selectTrip('Centro (Macro-Area)')">Centro (Area)</button>
+                    <button class="map-btn" onclick="selectTrip('Sud (Macro-Area)')">Sud (Area)</button>
+                    <button class="map-btn" onclick="selectTrip('Isole (Macro-Area)')">Isole (Area)</button>
+                </div>
+                <h4 style="color: var(--accent-teal); margin-bottom: 12px; font-family: 'Outfit', sans-serif;">Or Select Individual Region:</h4>
+                <div>
+                    <button class="map-btn" onclick="selectTrip('Lombardia')">Lombardia</button>
+                    <button class="map-btn" onclick="selectTrip('Veneto')">Veneto</button>
+                    <button class="map-btn" onclick="selectTrip('Emilia-Romagna')">Emilia-Romagna</button>
+                    <button class="map-btn" onclick="selectTrip('Piemonte')">Piemonte</button>
+                    <button class="map-btn" onclick="selectTrip('Campania')">Campania</button>
+                    <button class="map-btn" onclick="selectTrip('Sicilia')">Sicilia</button>
+                    <button class="map-btn" onclick="selectTrip('Lazio')">Lazio</button>
+                    <button class="map-btn" onclick="selectTrip('Puglia')">Puglia</button>
+                    <button class="map-btn" onclick="selectTrip('Calabria')">Calabria</button>
+                    <button class="map-btn" onclick="selectTrip('Toscana')">Toscana</button>
+                    <button class="map-btn" onclick="selectTrip('Sardegna')">Sardegna</button>
+                    <button class="map-btn" onclick="selectTrip('Liguria')">Liguria</button>
+                    <button class="map-btn" onclick="selectTrip('Marche')">Marche</button>
+                    <button class="map-btn" onclick="selectTrip('Abruzzo')">Abruzzo</button>
+                    <button class="map-btn" onclick="selectTrip('Friuli-Venezia Giulia')">Friuli-Venezia Giulia</button>
+                    <button class="map-btn" onclick="selectTrip('Trentino-Alto Adige')">Trentino-Alto Adige</button>
+                    <button class="map-btn" onclick="selectTrip('Umbria')">Umbria</button>
+                    <button class="map-btn" onclick="selectTrip('Basilicata')">Basilicata</button>
+                    <button class="map-btn" onclick="selectTrip('Molise')">Molise</button>
+                    <button class="map-btn" onclick="selectTrip('Valle d\'Aosta')">Valle d'Aosta</button>
+                </div>
+            </div>
+
+            <div class="region-card" style="border-color: var(--accent-gold);">
+                <h3 id="trip-name" style="color: var(--accent-gold);">Nord-Ovest (Macro-Area)</h3>
+                <div class="region-metric"><span>Geographic Classification:</span> <span id="trip-macro">Nord-Ovest</span></div>
+                <div class="region-metric"><span>Youth NEET Rate (15-29 Yrs):</span> <span id="trip-neet" style="color: #E63946;">12.3%</span></div>
+                <div class="region-metric"><span>9th-Grade Repetition Severity (Bocciature):</span> <span id="trip-bocc">7.8%</span></div>
+                <div class="region-metric"><span>Industrial District Absorption Index:</span> <span id="trip-abs">82.5 / 100</span></div>
+                
+                <div style="margin-top: 25px; margin-bottom: 15px;">
+                    <h4 style="color: var(--text-light); font-size: 1.05rem; margin-bottom: 8px;">Tripartite Enrollment Split (Age 14 Tracking):</h4>
+                    <div style="display: flex; height: 28px; border-radius: 6px; overflow: hidden; font-weight: 700; font-size: 0.85rem; text-align: center; line-height: 28px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                        <div id="bar-licei" style="background: #48CAE4; color: #0A192F; width: 52.2%;">Licei: 52.2%</div>
+                        <div id="bar-tecnici" style="background: #FFB703; color: #0A192F; width: 33.3%;">Tecnici: 33.3%</div>
+                        <div id="bar-prof" style="background: #2A9D8F; color: #FFFFFF; width: 14.5%;">Prof: 14.5%</div>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255,183,3,0.08); border: 1px solid var(--accent-gold); padding: 18px; border-radius: 8px; margin-top: 20px;">
+                    <h4 style="color: var(--accent-gold); font-family: 'Outfit', sans-serif; font-size: 1.1rem; margin-bottom: 6px;">💡 Pedagogical & Orientation Diagnostics:</h4>
+                    <p id="trip-profile" style="color: var(--text-light); font-size: 0.98rem; margin: 0;">Strong Technical-Vocational Synergy (`~47.8% combined Tecnici/Professionali share`). High industrial district density directly absorbs graduating youth, maintaining low NEET rates (`12.3%`).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reflection-box" style="margin-top: 30px;">
+            <div class="reflection-title">🔬 Open Research Hypothesis: The Tripartite Area Paradox</div>
+            <p>Notice the structural divergence between Northern areas (where <strong>Istituti Tecnici</strong> account for `>36% of students` and feed directly into high-absorption mechanical districts like Motor Valley or Veneto mechatronics) versus Southern areas (where students over-concentrate in <strong>Licei `>58%`</strong> due to lack of technical employment alternatives, yet face high university dropout and local R&D deficits). Meanwhile, Southern vocational students (<strong>Professionali</strong>) face Grade 9 repetition rates exceeding `14%` (`bocciature`), triggering early school leaving directly into the NEET pool (`NEET >27%`). We invite educational sociologists to download Panel 15 (`15_tripartite_neet_area_orientation_matrix.csv`) and run interaction regressions!</p>
+        </div>
+    </div>
+    
+<!-- TAB 3: DASHBOARD -->
     <div id="tab-dashboard" class="tab-content">
         <h2>Multi-Scale Visual Evidence (6-Panel Correlation Engine)</h2>
         <p>Below is our visual correlation engine across 113 years of spending, European scorecards, and municipal censuses:</p>
@@ -727,6 +799,62 @@ function selectRegion(regName) {
     
     const mapBtns = document.querySelectorAll('.map-btn');
     mapBtns.forEach(b => b.classList.remove('selected'));
+    event.currentTarget.classList.add('selected');
+}
+const tripartiteData = {
+    "Nord-Ovest (Macro-Area)": {"type": "Macro-Area", "macro": "Nord-Ovest", "licei": 52.2, "tecnici": 33.2, "professionali": 14.6, "neet": 12.1, "bocciature": 7.8, "absorption": 82.5, "profile": "Strong Technical-Vocational Synergy (`~47.8% combined Tecnici/Professionali share`). High industrial district density (`Index: 82.5/100`) directly absorbs graduating youth, maintaining low NEET rates (`12.1%`)."},
+    "Nord-Est (Macro-Area)": {"type": "Macro-Area", "macro": "Nord-Est", "licei": 46.5, "tecnici": 37.1, "professionali": 16.5, "neet": 9.5, "bocciature": 6.1, "absorption": 93.3, "profile": "Strong Technical-Vocational Synergy (`~53.5% combined Tecnici/Professionali share`). High industrial district density (`Index: 93.3/100`) directly absorbs graduating youth, maintaining low NEET rates (`9.5%`)."},
+    "Centro (Macro-Area)": {"type": "Macro-Area", "macro": "Centro", "licei": 55.9, "tecnici": 30.2, "professionali": 13.8, "neet": 13.0, "bocciature": 7.9, "absorption": 77.1, "profile": "Balanced Academic-Technical Split (`55.9% Licei vs 30.2% Tecnici`). Moderate district absorption (`Index: 77.1/100`) keeps transitions stable (`NEET: 13.0%`), though metropolitan Rome shows high academic tracking."},
+    "Sud (Macro-Area)": {"type": "Macro-Area", "macro": "Sud", "licei": 56.9, "tecnici": 29.7, "professionali": 13.4, "neet": 22.8, "bocciature": 11.6, "absorption": 48.9, "profile": "Severe Orientation & Absorption Mismatch. High Liceo concentration (`56.9% share`) lacks local corporate R&D demand (`Absorption Index: 48.9/100`). Meanwhile, Professionali students face high Grade 9 repetition (`bocciature: 11.6%`), driving high implicit dropout and acute NEET traps (`NEET: 22.8%`)."},
+    "Isole (Macro-Area)": {"type": "Macro-Area", "macro": "Isole", "licei": 57.3, "tecnici": 29.2, "professionali": 13.5, "neet": 24.4, "bocciature": 13.4, "absorption": 41.6, "profile": "Severe Orientation & Absorption Mismatch. High Liceo concentration (`57.3% share`) lacks local corporate R&D demand (`Absorption Index: 41.6/100`). Meanwhile, Professionali students face high Grade 9 repetition (`bocciature: 13.4%`), driving high implicit dropout and acute NEET traps (`NEET: 24.4%`)."},
+    "Lombardia": {"type": "Region", "macro": "Nord-Ovest", "licei": 51.2, "tecnici": 34.5, "professionali": 14.3, "neet": 11.2, "bocciature": 7.4, "absorption": 88.5, "profile": "High Technical-Vocational Absorption (Mechatronics/Services district buffer prevents NEET trap)"},
+    "Piemonte": {"type": "Region", "macro": "Nord-Ovest", "licei": 52.4, "tecnici": 32.8, "professionali": 14.8, "neet": 13.5, "bocciature": 8.1, "absorption": 82.0, "profile": "High Technical Absorption (Automotive & Manufacturing link eases school-to-work transition)"},
+    "Liguria": {"type": "Region", "macro": "Nord-Ovest", "licei": 56.8, "tecnici": 29.4, "professionali": 13.8, "neet": 14.2, "bocciature": 8.9, "absorption": 74.5, "profile": "Moderate Technical Absorption (Maritime & Logistics transitions balanced with tertiary academic paths)"},
+    "Valle d'Aosta": {"type": "Region", "macro": "Nord-Ovest", "licei": 48.5, "tecnici": 36.2, "professionali": 15.3, "neet": 9.5, "bocciature": 6.8, "absorption": 85.0, "profile": "Strong Technical-Vocational Synergy (Tourism & Mountain Economy direct placement)"},
+    "Veneto": {"type": "Region", "macro": "Nord-Est", "licei": 46.8, "tecnici": 37.4, "professionali": 15.8, "neet": 10.1, "bocciature": 6.5, "absorption": 92.4, "profile": "Peak Technical Alignment (Nord-Est industrial district model directly absorbs Tecnici/Professionali)"},
+    "Emilia-Romagna": {"type": "Region", "macro": "Nord-Est", "licei": 47.5, "tecnici": 36.8, "professionali": 15.7, "neet": 9.8, "bocciature": 6.2, "absorption": 94.0, "profile": "Peak Technical & ITS Academy Synergy (Motor Valley & Packaging clusters ensure immediate youth hiring)"},
+    "Friuli-Venezia Giulia": {"type": "Region", "macro": "Nord-Est", "licei": 49.2, "tecnici": 35.6, "professionali": 15.2, "neet": 9.9, "bocciature": 6.4, "absorption": 90.2, "profile": "Strong Technical Absorption (Shipbuilding & Specialized Mechanics direct transition)"},
+    "Trentino-Alto Adige": {"type": "Region", "macro": "Nord-Est", "licei": 42.4, "tecnici": 38.5, "professionali": 19.1, "neet": 8.2, "bocciature": 5.4, "absorption": 96.5, "profile": "Dual Apprenticeship Model (Strong German-style dual vocational integration minimizes NEET incidence)"},
+    "Toscana": {"type": "Region", "macro": "Centro", "licei": 54.2, "tecnici": 31.5, "professionali": 14.3, "neet": 11.8, "bocciature": 7.8, "absorption": 79.5, "profile": "Balanced Academic-Technical Mix (Artisanal, Fashion, and Biomedical clusters support transition)"},
+    "Lazio": {"type": "Region", "macro": "Centro", "licei": 62.4, "tecnici": 25.8, "professionali": 11.8, "neet": 14.5, "bocciature": 8.6, "absorption": 72.0, "profile": "Liceo Over-Concentration (Heavy academic tracking toward Public Administration & Tertiary sector)"},
+    "Marche": {"type": "Region", "macro": "Centro", "licei": 51.8, "tecnici": 33.4, "professionali": 14.8, "neet": 12.5, "bocciature": 7.5, "absorption": 81.2, "profile": "District Technical Absorption (Footwear & Mechanical districts ease vocational transitions)"},
+    "Umbria": {"type": "Region", "macro": "Centro", "licei": 55.4, "tecnici": 30.2, "professionali": 14.4, "neet": 13.2, "bocciature": 7.9, "absorption": 75.8, "profile": "Moderate Academic Tracking (University-oriented transitions with localized industrial placement)"},
+    "Campania": {"type": "Region", "macro": "Sud", "licei": 58.6, "tecnici": 28.4, "professionali": 13.0, "neet": 28.6, "bocciature": 13.8, "absorption": 38.5, "profile": "Severe Orientation Mismatch & Transition Trap (High Liceo share lacks local R&D/corporate absorption; Professionali face high dropout and informal labor traps)"},
+    "Puglia": {"type": "Region", "macro": "Sud", "licei": 56.2, "tecnici": 30.1, "professionali": 13.7, "neet": 23.4, "bocciature": 11.5, "absorption": 48.0, "profile": "Structural Transition Bottleneck (Technical graduates face regional job deficit; high out-migration)"},
+    "Calabria": {"type": "Region", "macro": "Sud", "licei": 59.4, "tecnici": 27.8, "professionali": 12.8, "neet": 27.1, "bocciature": 14.2, "absorption": 34.2, "profile": "Acute Tripartite Fracture (High academic tracking combined with industrial desertification drives high NEET and youth brain drain)"},
+    "Abruzzo": {"type": "Region", "macro": "Sud", "licei": 53.8, "tecnici": 32.1, "professionali": 14.1, "neet": 16.8, "bocciature": 9.4, "absorption": 65.4, "profile": "Transitional Southern Bridge (Val di Sangro automotive district provides better technical absorption than deep South)"},
+    "Basilicata": {"type": "Region", "macro": "Sud", "licei": 57.2, "tecnici": 29.5, "professionali": 13.3, "neet": 21.5, "bocciature": 10.8, "absorption": 52.0, "profile": "Demographic & Industrial Bottleneck (High academic orientation meets shrinking local labor demand)"},
+    "Molise": {"type": "Region", "macro": "Sud", "licei": 56.5, "tecnici": 30.2, "professionali": 13.3, "neet": 19.2, "bocciature": 10.1, "absorption": 55.0, "profile": "Scale & Orientation Challenge (Small cohort tracking leads to high out-migration to Northern technical hubs)"},
+    "Sicilia": {"type": "Region", "macro": "Isole", "licei": 59.8, "tecnici": 27.2, "professionali": 13.0, "neet": 27.9, "bocciature": 14.5, "absorption": 36.8, "profile": "Severe Orientation Mismatch & Urban Penalty (Over-concentration in Licei meets low formal hiring; Professionali face high implicit dropout and informal labor dependency)"},
+    "Sardegna": {"type": "Region", "macro": "Isole", "licei": 54.8, "tecnici": 31.2, "professionali": 14.0, "neet": 20.8, "bocciature": 12.4, "absorption": 46.5, "profile": "High Evaluation Severity & Dispersion (High bocciature rates trigger early school leaving into NEET pool)"}
+};
+
+function selectTrip(name) {
+    const data = tripartiteData[name];
+    if (!data) return;
+    
+    document.getElementById('trip-name').innerText = name;
+    document.getElementById('trip-macro').innerText = data.macro;
+    document.getElementById('trip-neet').innerText = data.neet + '%';
+    document.getElementById('trip-bocc').innerText = data.bocciature + '%';
+    document.getElementById('trip-abs').innerText = data.absorption + ' / 100';
+    document.getElementById('trip-profile').innerText = data.profile;
+    
+    const bL = document.getElementById('bar-licei');
+    const bT = document.getElementById('bar-tecnici');
+    const bP = document.getElementById('bar-prof');
+    
+    bL.style.width = data.licei + '%';
+    bL.innerText = 'Licei: ' + data.licei + '%';
+    
+    bT.style.width = data.tecnici + '%';
+    bT.innerText = 'Tecnici: ' + data.tecnici + '%';
+    
+    bP.style.width = data.professionali + '%';
+    bP.innerText = 'Prof: ' + data.professionali + '%';
+    
+    const tripBtns = document.querySelectorAll('#tab-tripmap .map-btn');
+    tripBtns.forEach(b => b.classList.remove('selected'));
     event.currentTarget.classList.add('selected');
 }
 </script>
