@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Italienation: Open Science Collaborative Observatory (18 Exact Panels)</title>
+    <title>Italienation: Open Science Collaborative Observatory (21 Exact Panels & 23 Notebooks)</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -86,7 +86,7 @@
             box-shadow: 0 6px 18px rgba(72, 202, 228, 0.6);
         }
         .container {
-            max-width: 1450px;
+            max-width: 1480px;
             margin: 40px auto;
             padding: 0 20px;
         }
@@ -135,10 +135,10 @@
             background: var(--bg-card);
             color: var(--text-muted);
             border: 1px solid var(--border-color);
-            padding: 11px 16px;
+            padding: 10px 15px;
             border-radius: 8px;
             font-family: 'Outfit', sans-serif;
-            font-size: 0.92rem;
+            font-size: 0.90rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease;
@@ -315,6 +315,102 @@
             font-weight: 700;
             color: var(--accent-gold);
         }
+        /* Notebook Gallery & Sandbox styles */
+        .nb-gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+            gap: 22px;
+            margin-top: 20px;
+        }
+        .notebook-card {
+            background: #121A30;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .notebook-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-gold);
+            box-shadow: 0 10px 25px rgba(255,183,3,0.15);
+        }
+        .nb-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-teal);
+            margin-bottom: 6px;
+        }
+        .nb-meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .nb-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .nb-btn {
+            text-decoration: none;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            display: inline-block;
+        }
+        .colab-btn { background: #F9AB00; color: #000; }
+        .colab-btn:hover { background: #ffbe2e; }
+        .binder-btn { background: #579ACA; color: #fff; }
+        .binder-btn:hover { background: #6bb2e4; }
+        .github-btn { background: #24292e; color: #fff; border: 1px solid var(--border-color); }
+        .github-btn:hover { background: #3b434b; }
+        .sandbox-box {
+            background: #121A30;
+            border: 2px solid var(--accent-gold);
+            border-radius: 12px;
+            padding: 28px;
+            margin: 25px 0;
+        }
+        .sandbox-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+            align-items: center;
+        }
+        .sandbox-select {
+            background: var(--bg-card);
+            color: var(--text-light);
+            border: 1px solid var(--border-color);
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: 'Outfit', sans-serif;
+        }
+        .sandbox-btn {
+            background: var(--accent-gold);
+            color: #0A192F;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 8px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(255,183,3,0.3);
+            transition: all 0.2s ease;
+        }
+        .sandbox-btn:hover {
+            background: #ffc933;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(255,183,3,0.5);
+        }
         .nb-embedded {
             background: #FFFFFF;
             color: #111111;
@@ -345,7 +441,7 @@
     <button class="print-btn-header" onclick="window.print()">🖨️ Print / Export to PDF</button>
     <div class="badge-open">Open Science Collaborative Observatory</div>
     <h1>ITALIENATION: AN OPEN DATA LABORATORY</h1>
-    <p>We do not prescribe closed policy dogma. We open-source 18 exact empirical data panels, 815,000+ teaching posts, and 113 years of fiscal evidence to invite global researchers, citizens, and educators to analyze, reflect, and debate Italy's educational reality.</p>
+    <p>We do not prescribe closed policy dogma. We open-source 21 exact empirical data panels, 815,000+ teaching posts, 23 complete Jupyter notebooks, and 113 years of fiscal evidence to invite global researchers, citizens, and educators to analyze, reflect, and debate Italy's educational reality.</p>
 </header>
 
 <div class="container">
@@ -360,24 +456,29 @@
             <div class="stat-label">Youth NEET Rate (15-29 Years vs 11.2% EU-27 Average)</div>
         </div>
         <div class="stat-card">
-            <div class="stat-number">815,482</div>
-            <div class="stat-label">Total Teaching Posts Analyzed (18.5% Precarious Substitutes)</div>
+            <div class="stat-number">23 Notebooks</div>
+            <div class="stat-label">Complete Executed Jupyter Notebooks Ready to Launch in Colab</div>
         </div>
         <div class="stat-card">
-            <div class="stat-number">-0.88</div>
-            <div class="stat-label">Metropolitan Correlation: Nursery Coverage vs Youth NEET</div>
+            <div class="stat-number">62.3%+</div>
+            <div class="stat-label">Precariato among Special Needs (*Sostegno*) Teaching Chairs</div>
         </div>
         <div class="stat-card">
-            <div class="stat-number">18 Panels</div>
+            <div class="stat-number">21 Panels</div>
             <div class="stat-label">Exact Open-Source CSV Datasets Available with Zero N/As</div>
         </div>
     </div>
 
-    <!-- Navigation Tabs (14 Comprehensive Tabs) -->
+    <!-- Navigation Tabs (17 Comprehensive Tabs) -->
     <div class="tabs">
         <button class="tab-btn active" onclick="openTab('tab-definition')">📖 7-Dimension Manifesto</button>
         <button class="tab-btn" onclick="openTab('tab-geomap')">🗺️ Regional Geo-Map (20 Regions)</button>
         <button class="tab-btn" onclick="openTab('tab-tripmap')">🎒 Tripartite vs. NEET Area Map</button>
+        <button class="tab-btn" onclick="openTab('tab-gallery')">📚 All 23 Notebooks Gallery & Colab/Binder</button>
+        <button class="tab-btn" onclick="openTab('tab-sandbox')">🧪 Live Notebook & Data Sandbox</button>
+        <button class="tab-btn" onclick="openTab('tab-mobility')">🧬 Social Mobility & ESCS (Panel 16)</button>
+        <button class="tab-btn" onclick="openTab('tab-sostegno')">🧩 Sostegno & Inclusion Precariato (Panel 17)</button>
+        <button class="tab-btn" onclick="openTab('tab-infra')">🏗️ School Infrastructure Safety (Panel 18)</button>
         <button class="tab-btn" onclick="openTab('tab-dashboard')">📊 6-Panel Correlation Engine</button>
         <button class="tab-btn" onclick="openTab('tab-macro')">📈 113-Year Fiscal Series (1913-2026)</button>
         <button class="tab-btn" onclick="openTab('tab-eu27')">🌍 Eurostat EU-27 & NUTS 2 Scorecard</button>
@@ -387,8 +488,6 @@
         <button class="tab-btn" onclick="openTab('tab-tracks')">🎒 Tripartite Tracking & INVALSI (20 Regions)</button>
         <button class="tab-btn" onclick="openTab('tab-covid')">🦠 COVID-19 Scarring & Gender Gaps</button>
         <button class="tab-btn" onclick="openTab('tab-burden')">💰 Household Burden & Textbook Tax</button>
-        <button class="tab-btn" onclick="openTab('tab-notebook')">💻 Executed Notebook Diagnostics</button>
-        <button class="tab-btn" onclick="openTab('tab-community')">🤝 Open Science Governance</button>
     </div>
 
     <!-- TAB 1: EXTENSIVE DEFINITION -->
@@ -438,7 +537,6 @@
     <div id="tab-geomap" class="tab-content">
         <h2>🗺️ Interactive Regional Geo-Map of Italy (Territorial Observatory)</h2>
         <p>Click on any of the 20 Italian regions below to instantly inspect its exact territorial indicators across early childhood care (`Asili Nido`), youth exclusion (`NEET rate`), teacher precariousness (`Precariato`), INVALSI implicit dropout (`Dispersione`), and 2070 demographic projections (`Inverno Demografico`):</p>
-        
         <div class="map-layout">
             <div class="map-container">
                 <h4 style="color: var(--accent-teal); margin-bottom: 15px; font-family: 'Outfit', sans-serif;">Select an Italian Region:</h4>
@@ -465,7 +563,6 @@
                     <button class="map-btn" onclick="selectRegion('Valle d\'Aosta')">Valle d'Aosta</button>
                 </div>
             </div>
-
             <div class="region-card" id="region-display">
                 <h3 id="reg-name">Lombardia</h3>
                 <div class="region-metric"><span>Macro Area:</span> <span id="reg-macro">Nord-Ovest</span></div>
@@ -481,9 +578,7 @@
     <!-- TAB 3: TRIPARTITE AREA MAP -->
     <div id="tab-tripmap" class="tab-content">
         <h2>🎒 Tripartite School Orientation vs. NEET Area Map (Italian Secondary Tracking Observatory)</h2>
-        <p>In Italy, upper secondary education is divided at age 14 into three distinct tracks (*Il Sistema Tripartito*): <strong>Licei</strong> (academic orientation), <strong>Istituti Tecnici</strong> (technical specialization), and <strong>Istituti Professionali</strong> (vocational trades). How does this tripartite formation split interact with geographical areas and youth NEET outcomes?</p>
         <p>Select any of the <strong>5 Macro-Areas</strong> or <strong>20 individual Regions</strong> below to examine the exact tripartite enrollment split, Grade 9 repetition severity (<em>bocciature</em>), and industrial district absorption capacity:</p>
-        
         <div class="map-layout">
             <div class="map-container">
                 <h4 style="color: var(--accent-gold); margin-bottom: 12px; font-family: 'Outfit', sans-serif;">Select Macro-Area:</h4>
@@ -518,14 +613,12 @@
                     <button class="map-btn" onclick="selectTrip('Valle d\'Aosta')">Valle d'Aosta</button>
                 </div>
             </div>
-
             <div class="region-card" style="border-color: var(--accent-gold);">
                 <h3 id="trip-name" style="color: var(--accent-gold);">Nord-Ovest (Macro-Area)</h3>
                 <div class="region-metric"><span>Geographic Classification:</span> <span id="trip-macro">Nord-Ovest</span></div>
                 <div class="region-metric"><span>Youth NEET Rate (15-29 Yrs):</span> <span id="trip-neet" style="color: #E63946;">12.3%</span></div>
                 <div class="region-metric"><span>9th-Grade Repetition Severity (Bocciature):</span> <span id="trip-bocc">7.8%</span></div>
                 <div class="region-metric"><span>Industrial District Absorption Index:</span> <span id="trip-abs">82.5 / 100</span></div>
-                
                 <div style="margin-top: 25px; margin-bottom: 15px;">
                     <h4 style="color: var(--text-light); font-size: 1.05rem; margin-bottom: 8px;">Tripartite Enrollment Split (Age 14 Tracking):</h4>
                     <div style="display: flex; height: 28px; border-radius: 6px; overflow: hidden; font-weight: 700; font-size: 0.85rem; text-align: center; line-height: 28px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
@@ -534,7 +627,6 @@
                         <div id="bar-prof" style="background: #2A9D8F; color: #FFFFFF; width: 14.5%;">Prof: 14.5%</div>
                     </div>
                 </div>
-
                 <div style="background: rgba(255,183,3,0.08); border: 1px solid var(--accent-gold); padding: 18px; border-radius: 8px; margin-top: 20px;">
                     <h4 style="color: var(--accent-gold); font-family: 'Outfit', sans-serif; font-size: 1.1rem; margin-bottom: 6px;">💡 Pedagogical & Orientation Diagnostics:</h4>
                     <p id="trip-profile" style="color: var(--text-light); font-size: 0.98rem; margin: 0;">Strong Technical-Vocational Synergy (`~47.8% combined Tecnici/Professionali share`). High industrial district density directly absorbs graduating youth, maintaining low NEET rates (`12.3%`).</p>
@@ -543,17 +635,418 @@
         </div>
     </div>
 
-    <!-- TAB 4: DASHBOARD -->
+    <!-- TAB 13: ALL 23 NOTEBOOKS GALLERY -->
+    <div id="tab-gallery" class="tab-content">
+        <h2>📚 All 23 Master & User Notebooks Gallery (Interactive Cloud Launchers)</h2>
+        <p>Explore every single Jupyter notebook authored across the repository (`Notebooks/*.ipynb` and `Final_Analysis/*.ipynb`). Click <strong>🚀 Open in Google Colab</strong> or <strong>⚡ Open in Binder</strong> to run and modify any notebook interactively inside your browser without installing Python, or download right to your machine (`.ipynb` / `.html` / `.pdf`):</p>
+        <div class="nb-gallery-grid">
+            
+    <div class="notebook-card">
+        <div class="nb-title">📓 italienation_holistic_master_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Final_Analysis/italienation_holistic_master_analysis.ipynb</code> | Size: <strong>524.8 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">537 KB Universal Synthesis Master Notebook running automated cross-sectional regressions.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Final_Analysis/italienation_holistic_master_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Final_Analysis/italienation_holistic_master_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Final_Analysis/italienation_holistic_master_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 07_geospatial_tripartite_distribution.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/07_geospatial_tripartite_distribution.ipynb</code> | Size: <strong>9.2 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/07_geospatial_tripartite_distribution.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/07_geospatial_tripartite_distribution.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/07_geospatial_tripartite_distribution.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 data_inventory_comprehensive.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/data_inventory_comprehensive.ipynb</code> | Size: <strong>245.3 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/data_inventory_comprehensive.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/data_inventory_comprehensive.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/data_inventory_comprehensive.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 education_spending_outcomes.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/education_spending_outcomes.ipynb</code> | Size: <strong>196.8 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/education_spending_outcomes.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/education_spending_outcomes.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/education_spending_outcomes.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_bocciatura_repeaters_full_analysis_v2.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_bocciatura_repeaters_full_analysis_v2.ipynb</code> | Size: <strong>725.4 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">742 KB exhaustive regional evaluation tracking Grade 9 repetition (bocciature) and transition traps.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_bocciatura_repeaters_full_analysis_v2.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_bocciatura_repeaters_full_analysis_v2.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_bocciatura_repeaters_full_analysis_v2.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_capital_formation_h_c_i.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_capital_formation_h_c_i.ipynb</code> | Size: <strong>9.1 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_capital_formation_h_c_i.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_capital_formation_h_c_i.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_capital_formation_h_c_i.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_full_fiscal_landscape.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_full_fiscal_landscape.ipynb</code> | Size: <strong>439.2 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_full_fiscal_landscape.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_full_fiscal_landscape.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_full_fiscal_landscape.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_human_capital_political_aspects.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_human_capital_political_aspects.ipynb</code> | Size: <strong>5.0 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_human_capital_political_aspects.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_human_capital_political_aspects.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_human_capital_political_aspects.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_lower_secondary_middle_school_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_lower_secondary_middle_school_analysis.ipynb</code> | Size: <strong>24.4 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_lower_secondary_middle_school_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_lower_secondary_middle_school_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_lower_secondary_middle_school_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_middle_to_upper_transition_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_middle_to_upper_transition_analysis.ipynb</code> | Size: <strong>27.7 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_middle_to_upper_transition_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_middle_to_upper_transition_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_middle_to_upper_transition_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_neet_full_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_neet_full_analysis.ipynb</code> | Size: <strong>112.8 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_neet_full_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_neet_full_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_neet_full_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_oecd_triangle_mobility_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_oecd_triangle_mobility_analysis.ipynb</code> | Size: <strong>8.0 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_oecd_triangle_mobility_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_oecd_triangle_mobility_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_oecd_triangle_mobility_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_oed_goldthorpe_mobility_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_oed_goldthorpe_mobility_analysis.ipynb</code> | Size: <strong>10.3 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_oed_goldthorpe_mobility_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_oed_goldthorpe_mobility_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_oed_goldthorpe_mobility_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_openpolis_neet_poverty.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_openpolis_neet_poverty.ipynb</code> | Size: <strong>190.4 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">195 KB Metropolitan Urban Penalty analysis linking 0-2 nursery coverage directly to youth NEET rates.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_openpolis_neet_poverty.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_openpolis_neet_poverty.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_openpolis_neet_poverty.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_textbooks_schools_territory.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_textbooks_schools_territory.ipynb</code> | Size: <strong>1927.4 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Massive 1.97 MB master analysis linking school book adoptions, municipal poverty, and classroom density.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_textbooks_schools_territory.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_textbooks_schools_territory.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_textbooks_schools_territory.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_thesis_capstone.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_thesis_capstone.ipynb</code> | Size: <strong>772.0 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">790 KB Capstone Thesis empirical notebook synthesizing macro-fiscal history and intergenerational accounting.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_thesis_capstone.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_thesis_capstone.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_thesis_capstone.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italy_tripartite_school_system.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/italy_tripartite_school_system.ipynb</code> | Size: <strong>4.9 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/italy_tripartite_school_system.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/italy_tripartite_school_system.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/italy_tripartite_school_system.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 neet_italy_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/neet_italy_analysis.ipynb</code> | Size: <strong>20.1 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/neet_italy_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/neet_italy_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/neet_italy_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 openEURYDICE_Italy_Summary.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/openEURYDICE_Italy_Summary.ipynb</code> | Size: <strong>176.6 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/openEURYDICE_Italy_Summary.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/openEURYDICE_Italy_Summary.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/openEURYDICE_Italy_Summary.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 siope_minister_data_exploration.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/siope_minister_data_exploration.ipynb</code> | Size: <strong>23.1 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/siope_minister_data_exploration.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/siope_minister_data_exploration.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/siope_minister_data_exploration.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 territorial_expenditure_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/territorial_expenditure_analysis.ipynb</code> | Size: <strong>20.9 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">Core empirical analysis notebook exploring econometric correlations and territorial datasets.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/territorial_expenditure_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/territorial_expenditure_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/territorial_expenditure_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 universal_italienation_master_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>Notebooks/universal_italienation_master_analysis.ipynb</code> | Size: <strong>524.8 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">537 KB Universal Synthesis Master Notebook running automated cross-sectional regressions.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/Notebooks/universal_italienation_master_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=Notebooks/universal_italienation_master_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/Notebooks/universal_italienation_master_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+
+    <div class="notebook-card">
+        <div class="nb-title">📓 italienation_holistic_master_analysis.ipynb</div>
+        <div class="nb-meta">Path: <code>holistic_analysis/jupyter_notebook/italienation_holistic_master_analysis.ipynb</code> | Size: <strong>524.8 KB</strong></div>
+        <p style="color: var(--text-light); font-size: 0.95rem; margin: 12px 0;">537 KB Universal Synthesis Master Notebook running automated cross-sectional regressions.</p>
+        <div class="nb-actions">
+            <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/holistic_analysis/jupyter_notebook/italienation_holistic_master_analysis.ipynb" target="_blank" class="nb-btn colab-btn">🚀 Open in Google Colab</a>
+            <a href="https://mybinder.org/v2/gh/Eugenix94/Italienation/main?filepath=holistic_analysis/jupyter_notebook/italienation_holistic_master_analysis.ipynb" target="_blank" class="nb-btn binder-btn">⚡ Open in Binder</a>
+            <a href="https://github.com/Eugenix94/Italienation/blob/main/holistic_analysis/jupyter_notebook/italienation_holistic_master_analysis.ipynb" target="_blank" class="nb-btn github-btn">📂 View on GitHub (.ipynb)</a>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+
+    <!-- TAB 14: LIVE INTERACTIVE SANDBOX & CUSTOM NOTEBOOK GENERATOR -->
+    <div id="tab-sandbox" class="tab-content">
+        <h2>🧪 Live Interactive Open Data Sandbox & Custom Notebook (`.ipynb`) Generator</h2>
+        <p>This sandbox allows you to pick any of our 21 Open Science CSV Data Panels, filter territorial indicators in real time right in your browser, and click <strong>📓 Generate & Download Custom Jupyter Notebook (.ipynb)</strong> to automatically download an executable Python notebook customized with your exact data query and plotting code!</p>
+        
+        <div class="sandbox-box">
+            <h3 style="margin-top: 0; color: var(--accent-gold);">Step 1: Select Data Panel & Filter Parameters</h3>
+            <div class="sandbox-controls">
+                <label for="sb-panel" style="font-weight: 700;">Choose Open Data Panel:</label>
+                <select id="sb-panel" class="sandbox-select">
+                    <option value="15_tripartite_neet_area_orientation_matrix.csv">Panel 15: Tripartite System vs NEET Area Matrix</option>
+                    <option value="08_openpolis_metropolitan_urban_penalty.csv">Panel 08: Municipal Nursery Coverage vs NEET (10 Capitals)</option>
+                    <option value="16_intergenerational_social_mobility_escs_tracking.csv">Panel 16: Intergenerational Social Mobility & ESCS Tracking</option>
+                    <option value="17_special_needs_sostegno_inclusion_precariato.csv">Panel 17: Special Needs (Sostegno) & Inclusion Precariato</option>
+                    <option value="18_school_infrastructure_seismic_safety_energetic_panel.csv">Panel 18: School Infrastructure Safety & Seismic Vulnerability</option>
+                    <option value="01_macro_fiscal_expenditure_1913_2026.csv">Panel 01: 113-Year Macro-Fiscal Expenditure Curve (1913-2026)</option>
+                </select>
+            </div>
+            <div class="sandbox-controls">
+                <button class="sandbox-btn" onclick="generateCustomNotebook()">📓 Generate & Download Custom Jupyter Notebook (.ipynb)</button>
+                <button class="sandbox-btn" style="background: var(--accent-teal); color: #0A192F;" onclick="downloadSelectedCSV()">📥 Download Raw CSV Dataset</button>
+            </div>
+            <p id="sandbox-status" style="color: var(--accent-green); font-weight: 700; margin-top: 15px;"></p>
+        </div>
+
+        <div class="reflection-box">
+            <div class="reflection-title">🤝 How to Submit Your User Notebook to the Repository (`Open Science PR`)</div>
+            <p>Did you run custom regressions or discover a new correlation using our data sandbox? We invite you to add your notebook directly into our repository so the global community can learn from your analysis:</p>
+            <ol style="margin-left: 20px; color: var(--text-light); font-size: 0.98rem; margin-top: 10px;">
+                <li>Fork our GitHub repository: <a href="https://github.com/Eugenix94/Italienation/fork" target="_blank" style="color: var(--accent-teal);">https://github.com/Eugenix94/Italienation/fork</a></li>
+                <li>Save your downloaded or executed notebook into the <code>/Community_Notebooks/</code> directory.</li>
+                <li>Open a Pull Request (PR) with title <code>[User Notebook Contribution] Your Analysis Title</code>. We will review and merge it into our permanent master gallery!</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- TAB 15: SOCIAL MOBILITY (PANEL 16) -->
+    <div id="tab-mobility" class="tab-content">
+        <h2>🧬 Intergenerational Social Mobility & ESCS Tracking (Panel 16)</h2>
+        <p>Empirical analysis linking parental Goldthorpe occupational class (`I through VII`), household ESCS index, upper-secondary tracking probabilities (`Licei vs Tecnici vs Professionali`), and intergenerational income elasticity (`IGR`):</p>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Parental Goldthorpe Class</th><th>Mean ESCS Index</th><th>Prob. Licei (%)</th><th>Prob. Tecnici (%)</th><th>Prob. Professionali (%)</th><th>Tertiary Attainment (%)</th><th>IGR Elasticity (Beta)</th></tr></thead>
+                <tbody><tr><td><strong>I - Higher Managerial & Professional (Dirigenti/Liberi Professionisti)</strong></td><td>+1.45</td><td><span style='color: #48CAE4; font-weight: bold;'>78.4%</span></td><td><span style='color: #FFB703;'>17.2%</span></td><td><span style='color: #2A9D8F;'>4.4%</span></td><td>82.5%</td><td><span style='color: #E63946; font-weight: bold;'>0.48</span></td></tr>
+<tr><td><strong>II - Lower Managerial & Professional (Quadri/Insegnanti/Impiegati Direttivi)</strong></td><td>+0.68</td><td><span style='color: #48CAE4; font-weight: bold;'>61.2%</span></td><td><span style='color: #FFB703;'>28.5%</span></td><td><span style='color: #2A9D8F;'>10.3%</span></td><td>64.0%</td><td><span style='color: #E63946; font-weight: bold;'>0.50</span></td></tr>
+<tr><td><strong>III - Routine Non-Manual & Clerical Workers (Impiegati Esecutivi/Amministrativi)</strong></td><td>+0.12</td><td><span style='color: #48CAE4; font-weight: bold;'>46.8%</span></td><td><span style='color: #FFB703;'>38.4%</span></td><td><span style='color: #2A9D8F;'>14.8%</span></td><td>45.2%</td><td><span style='color: #E63946; font-weight: bold;'>0.52</span></td></tr>
+<tr><td><strong>IV - Small Proprietors & Self-Employed Artisans (Artigiani/Piccoli Commercianti)</strong></td><td>-0.15</td><td><span style='color: #48CAE4; font-weight: bold;'>38.5%</span></td><td><span style='color: #FFB703;'>44.2%</span></td><td><span style='color: #2A9D8F;'>17.3%</span></td><td>34.8%</td><td><span style='color: #E63946; font-weight: bold;'>0.55</span></td></tr>
+<tr><td><strong>V/VI - Skilled & Semi-Skilled Manual Workers (Operai Qualificati e Specializzati)</strong></td><td>-0.65</td><td><span style='color: #48CAE4; font-weight: bold;'>28.4%</span></td><td><span style='color: #FFB703;'>46.8%</span></td><td><span style='color: #2A9D8F;'>24.8%</span></td><td>22.4%</td><td><span style='color: #E63946; font-weight: bold;'>0.58</span></td></tr>
+<tr><td><strong>VII - Unskilled Manual Workers & Precarious Laborers (Operai Non Qualificati / Precari)</strong></td><td>-1.25</td><td><span style='color: #48CAE4; font-weight: bold;'>18.2%</span></td><td><span style='color: #FFB703;'>43.5%</span></td><td><span style='color: #2A9D8F;'>38.3%</span></td><td>12.8%</td><td><span style='color: #E63946; font-weight: bold;'>0.62</span></td></tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 16: SOSTEGNO & INCLUSION (PANEL 17) -->
+    <div id="tab-sostegno" class="tab-content">
+        <h2>🧩 Special Needs (*Sostegno*) & Classroom Inclusion Precariato across 20 Regions (Panel 17)</h2>
+        <p>Exposing the structural precariousness of special education support teachers (`Insegnanti di Sostegno`) caring for over 340,000+ vulnerable students with disabilities (`Legge 104`):</p>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Region</th><th>Macro Area</th><th>Students with L.104 Disability</th><th>Total Sostegno Chairs</th><th>Precarious Substitute Chairs</th><th>Precariato Share (%)</th><th>Non-Specialized Share (%)</th><th>Student / Teacher Ratio</th></tr></thead>
+                <tbody><tr><td><strong>Lombardia</strong></td><td>Nord-Ovest</td><td>58,420</td><td>31,200</td><td>19,450</td><td><span style='color: #FFB703; font-weight: bold;'>62.3%</span></td><td><span style='color: #E63946;'>44.2%</span></td><td>1.87</td></tr>
+<tr><td><strong>Campania</strong></td><td>Sud</td><td>46,850</td><td>26,400</td><td>18,200</td><td><span style='color: #E63946; font-weight: bold;'>68.9%</span></td><td><span style='color: #E63946;'>52.8%</span></td><td>1.77</td></tr>
+<tr><td><strong>Sicilia</strong></td><td>Isole</td><td>41,200</td><td>23,800</td><td>16,800</td><td><span style='color: #E63946; font-weight: bold;'>70.5%</span></td><td><span style='color: #E63946;'>54.5%</span></td><td>1.73</td></tr>
+<tr><td><strong>Lazio</strong></td><td>Centro</td><td>38,900</td><td>21,500</td><td>14,200</td><td><span style='color: #E63946; font-weight: bold;'>66.0%</span></td><td><span style='color: #E63946;'>48.0%</span></td><td>1.81</td></tr>
+<tr><td><strong>Veneto</strong></td><td>Nord-Est</td><td>28,400</td><td>14,800</td><td>8,900</td><td><span style='color: #FFB703; font-weight: bold;'>60.1%</span></td><td><span style='color: #E63946;'>41.5%</span></td><td>1.92</td></tr>
+<tr><td><strong>Puglia</strong></td><td>Sud</td><td>29,800</td><td>16,900</td><td>11,500</td><td><span style='color: #E63946; font-weight: bold;'>68.0%</span></td><td><span style='color: #E63946;'>51.2%</span></td><td>1.76</td></tr>
+<tr><td><strong>Piemonte</strong></td><td>Nord-Ovest</td><td>26,200</td><td>13,800</td><td>8,400</td><td><span style='color: #FFB703; font-weight: bold;'>60.8%</span></td><td><span style='color: #E63946;'>42.8%</span></td><td>1.90</td></tr>
+<tr><td><strong>Emilia-Romagna</strong></td><td>Nord-Est</td><td>27,100</td><td>14,200</td><td>8,500</td><td><span style='color: #FFB703; font-weight: bold;'>59.8%</span></td><td><span style='color: #E63946;'>40.2%</span></td><td>1.91</td></tr>
+<tr><td><strong>Calabria</strong></td><td>Sud</td><td>18,500</td><td>11,200</td><td>8,100</td><td><span style='color: #E63946; font-weight: bold;'>72.3%</span></td><td><span style='color: #E63946;'>56.4%</span></td><td>1.65</td></tr>
+<tr><td><strong>Sardegna</strong></td><td>Isole</td><td>14,800</td><td>8,900</td><td>6,100</td><td><span style='color: #E63946; font-weight: bold;'>68.5%</span></td><td><span style='color: #E63946;'>51.0%</span></td><td>1.66</td></tr>
+<tr><td><strong>Toscana</strong></td><td>Centro</td><td>24,500</td><td>12,800</td><td>7,600</td><td><span style='color: #FFB703; font-weight: bold;'>59.3%</span></td><td><span style='color: #E63946;'>40.8%</span></td><td>1.91</td></tr>
+<tr><td><strong>Liguria</strong></td><td>Nord-Ovest</td><td>11,200</td><td>6,100</td><td>3,700</td><td><span style='color: #FFB703; font-weight: bold;'>60.6%</span></td><td><span style='color: #E63946;'>43.0%</span></td><td>1.84</td></tr>
+<tr><td><strong>Marche</strong></td><td>Centro</td><td>10,800</td><td>5,800</td><td>3,400</td><td><span style='color: #FFB703; font-weight: bold;'>58.6%</span></td><td><span style='color: #E63946;'>39.5%</span></td><td>1.86</td></tr>
+<tr><td><strong>Abruzzo</strong></td><td>Sud</td><td>9,800</td><td>5,600</td><td>3,600</td><td><span style='color: #FFB703; font-weight: bold;'>64.2%</span></td><td><span style='color: #E63946;'>46.8%</span></td><td>1.75</td></tr>
+<tr><td><strong>Friuli-Venezia Giulia</strong></td><td>Nord-Est</td><td>8,400</td><td>4,400</td><td>2,500</td><td><span style='color: #FFB703; font-weight: bold;'>56.8%</span></td><td><span style='color: #E63946;'>38.2%</span></td><td>1.91</td></tr>
+<tr><td><strong>Trentino-Alto Adige</strong></td><td>Nord-Est</td><td>7,200</td><td>3,500</td><td>1,800</td><td><span style='color: #FFB703; font-weight: bold;'>51.4%</span></td><td><span style='color: #E63946;'>32.5%</span></td><td>2.06</td></tr>
+<tr><td><strong>Umbria</strong></td><td>Centro</td><td>6,800</td><td>3,600</td><td>2,100</td><td><span style='color: #FFB703; font-weight: bold;'>58.3%</span></td><td><span style='color: #E63946;'>39.0%</span></td><td>1.89</td></tr>
+<tr><td><strong>Basilicata</strong></td><td>Sud</td><td>4,600</td><td>2,800</td><td>1,900</td><td><span style='color: #E63946; font-weight: bold;'>67.8%</span></td><td><span style='color: #E63946;'>50.5%</span></td><td>1.64</td></tr>
+<tr><td><strong>Molise</strong></td><td>Sud</td><td>2,400</td><td>1,500</td><td>1,050</td><td><span style='color: #E63946; font-weight: bold;'>70.0%</span></td><td><span style='color: #E63946;'>53.0%</span></td><td>1.60</td></tr>
+<tr><td><strong>Valle d'Aosta</strong></td><td>Nord-Ovest</td><td>1,100</td><td>550</td><td>280</td><td><span style='color: #FFB703; font-weight: bold;'>50.9%</span></td><td><span style='color: #E63946;'>31.8%</span></td><td>2.00</td></tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 17: SCHOOL INFRASTRUCTURE (PANEL 18) -->
+    <div id="tab-infra" class="tab-content">
+        <h2>🏗️ School Infrastructure Safety, Seismic Vulnerability & Gym/Canteen Access (Panel 18)</h2>
+        <p>Empirical breakdown across all 20 Italian regions tracking school building age (`pre-1976 anti-seismic law`), high seismic zone exposure (`Zone 1/2`), and full-time infrastructure access (`Palestre e Mense`):</p>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Region</th><th>Macro Area</th><th>Active School Buildings</th><th>Pre-1976 Anti-Seismic Law (%)</th><th>High Seismic Zone 1/2 (%)</th><th>Gym / Palestra Access (%)</th><th>Canteen / Mensa Access (%)</th><th>Infrastructure Safety Diagnostic</th></tr></thead>
+                <tbody><tr><td><strong>Lombardia</strong></td><td>Nord-Ovest</td><td>6,450</td><td><span style='color: #FFB703; font-weight: bold;'>58.4%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>18.2%</span></td><td>74.5%</td><td>48.2%</td><td>Moderate Vulnerability (High building age offset by strong municipal maintenance budgets)</td></tr>
+<tr><td><strong>Campania</strong></td><td>Sud</td><td>4,820</td><td><span style='color: #E63946; font-weight: bold;'>64.8%</span></td><td><span style='color: #E63946; font-weight: bold;'>68.4%</span></td><td>46.2%</td><td>22.8%</td><td>Acute Structural Vulnerability (High pre-1976 share in Zone 1/2 seismic risk; low gym/canteen access)</td></tr>
+<tr><td><strong>Sicilia</strong></td><td>Isole</td><td>4,380</td><td><span style='color: #E63946; font-weight: bold;'>66.2%</span></td><td><span style='color: #E63946; font-weight: bold;'>78.5%</span></td><td>42.8%</td><td>18.5%</td><td>Peak Infrastructure Deficit (High seismic exposure coupled with severe full-time canteen shortage)</td></tr>
+<tr><td><strong>Lazio</strong></td><td>Centro</td><td>4,150</td><td><span style='color: #E63946; font-weight: bold;'>61.5%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>44.8%</span></td><td>65.4%</td><td>42.0%</td><td>Suburban/Metropolitan Strain (High demographic wear across Rome periphery)</td></tr>
+<tr><td><strong>Veneto</strong></td><td>Nord-Est</td><td>3,420</td><td><span style='color: #FFB703; font-weight: bold;'>54.2%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>38.5%</span></td><td>82.0%</td><td>64.5%</td><td>Strong Structural Buffer (Active energetic retrofit and high gym density)</td></tr>
+<tr><td><strong>Puglia</strong></td><td>Sud</td><td>3,280</td><td><span style='color: #E63946; font-weight: bold;'>62.0%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>48.2%</span></td><td>52.4%</td><td>26.4%</td><td>Full-Time Schooling Bottleneck (Low canteen availability restricts full-time female employment)</td></tr>
+<tr><td><strong>Piemonte</strong></td><td>Nord-Ovest</td><td>3,150</td><td><span style='color: #E63946; font-weight: bold;'>63.5%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>28.4%</span></td><td>76.8%</td><td>52.0%</td><td>Aging Building Stock (High pre-1976 share requiring energetic modernization)</td></tr>
+<tr><td><strong>Emilia-Romagna</strong></td><td>Nord-Est</td><td>2,980</td><td><span style='color: #FFB703; font-weight: bold;'>52.8%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>42.0%</span></td><td>86.5%</td><td>72.4%</td><td>Benchmark Municipal Standards (High safety certification and peak canteen coverage)</td></tr>
+<tr><td><strong>Calabria</strong></td><td>Sud</td><td>2,250</td><td><span style='color: #E63946; font-weight: bold;'>68.5%</span></td><td><span style='color: #E63946; font-weight: bold;'>88.6%</span></td><td>38.5%</td><td>14.2%</td><td>Peak Seismic & Structural Risk (High exposure in Zone 1 combined with severe service gaps)</td></tr>
+<tr><td><strong>Sardegna</strong></td><td>Isole</td><td>1,850</td><td><span style='color: #E63946; font-weight: bold;'>64.0%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>12.5%</span></td><td>62.0%</td><td>38.4%</td><td>Demographic Emptying & Aging Facilities (High building maintenance cost per pupil)</td></tr>
+<tr><td><strong>Toscana</strong></td><td>Centro</td><td>2,680</td><td><span style='color: #FFB703; font-weight: bold;'>59.2%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>46.5%</span></td><td>78.4%</td><td>62.0%</td><td>Solid Municipal Cohesion (Above-average safety and dietary standards)</td></tr>
+<tr><td><strong>Liguria</strong></td><td>Nord-Ovest</td><td>1,420</td><td><span style='color: #E63946; font-weight: bold;'>71.2%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>32.0%</span></td><td>68.0%</td><td>45.0%</td><td>High Urban Density & Age (Historic building stock with spatial expansion constraints)</td></tr>
+<tr><td><strong>Marche</strong></td><td>Centro</td><td>1,380</td><td><span style='color: #FFB703; font-weight: bold;'>58.5%</span></td><td><span style='color: #E63946; font-weight: bold;'>62.4%</span></td><td>75.2%</td><td>56.8%</td><td>Post-Seismic Reconstruction Focus (Ongoing structural reinforcement following central earthquakes)</td></tr>
+<tr><td><strong>Abruzzo</strong></td><td>Sud</td><td>1,250</td><td><span style='color: #E63946; font-weight: bold;'>60.2%</span></td><td><span style='color: #E63946; font-weight: bold;'>76.8%</span></td><td>68.4%</td><td>44.2%</td><td>Seismic Modernization Priority (Active structural rebuilding protocols)</td></tr>
+<tr><td><strong>Friuli-Venezia Giulia</strong></td><td>Nord-Est</td><td>1,120</td><td><span style='color: #FFB703; font-weight: bold;'>48.5%</span></td><td><span style='color: #E63946; font-weight: bold;'>64.2%</span></td><td>88.2%</td><td>68.5%</td><td>Peak Seismic Resilience (High post-1976 reconstruction safety compliance)</td></tr>
+<tr><td><strong>Trentino-Alto Adige</strong></td><td>Nord-Est</td><td>980</td><td><span style='color: #FFB703; font-weight: bold;'>42.0%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>24.5%</span></td><td>94.5%</td><td>84.0%</td><td>European Gold Standard (State-of-the-art timber/green architecture and universal canteen coverage)</td></tr>
+<tr><td><strong>Umbria</strong></td><td>Centro</td><td>920</td><td><span style='color: #FFB703; font-weight: bold;'>57.8%</span></td><td><span style='color: #E63946; font-weight: bold;'>72.0%</span></td><td>76.0%</td><td>58.0%</td><td>High Seismic Adaptation (Active structural monitoring across historical towns)</td></tr>
+<tr><td><strong>Basilicata</strong></td><td>Sud</td><td>680</td><td><span style='color: #E63946; font-weight: bold;'>63.2%</span></td><td><span style='color: #E63946; font-weight: bold;'>68.5%</span></td><td>54.0%</td><td>32.0%</td><td>Rural Structural Maintenance Deficit</td></tr>
+<tr><td><strong>Molise</strong></td><td>Sud</td><td>420</td><td><span style='color: #E63946; font-weight: bold;'>65.0%</span></td><td><span style='color: #E63946; font-weight: bold;'>82.0%</span></td><td>48.5%</td><td>28.0%</td><td>High Seismic Exposure & Scale Challenges</td></tr>
+<tr><td><strong>Valle d'Aosta</strong></td><td>Nord-Ovest</td><td>280</td><td><span style='color: #FFB703; font-weight: bold;'>45.2%</span></td><td><span style='color: #48CAE4; font-weight: bold;'>14.0%</span></td><td>89.0%</td><td>76.0%</td><td>Mountain Infrastructure Resilience</td></tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 9: DASHBOARD -->
     <div id="tab-dashboard" class="tab-content">
         <h2>Multi-Scale Visual Evidence (6-Panel Correlation Engine)</h2>
         <p>Below is our visual correlation engine across 113 years of spending, European scorecards, and municipal censuses:</p>
         <img src="universal_synthesis_master_dashboard.png" alt="6-Panel Universal Synthesis Dashboard" class="dashboard-img">
     </div>
 
-    <!-- TAB 5: MACRO FISCAL -->
+    <!-- TAB 10: MACRO FISCAL -->
     <div id="tab-macro" class="tab-content">
         <h2>📈 Historical Macro-Fiscal Education Expenditure Series (1913-2026)</h2>
-        <p>Complete 113-year historical trajectory of Italian public education spending (% GDP and State/Private shares). No rows truncated:</p>
         <div class="table-scroll">
             <table>
                 <thead><tr><th>Year</th><th>Public Education (% GDP OWID)</th><th>Total Education (% GDP)</th><th>State Share (%)</th><th>SIOPE School Expenditure (€)</th></tr></thead>
@@ -612,11 +1105,9 @@
         </div>
     </div>
 
-    <!-- TAB 6: EUROSTAT EU27 & NUTS2 -->
+    <!-- TAB 11: EUROSTAT EU27 & NUTS2 -->
     <div id="tab-eu27" class="tab-content">
         <h2>🌍 Eurostat EU-27 Social Scoreboard & NUTS 2 Regional NEET Benchmarks</h2>
-        <p>Complete, exact comparisons across all 27 European member states and major regional NUTS 2 economies:</p>
-        <h3>All 27 European Member States (Youth NEET, Early School Leaving, and Unemployment)</h3>
         <div class="table-scroll">
             <table>
                 <thead><tr><th>Country</th><th>Youth NEET Rate (15-29 Yrs)</th><th>Early School Leaving (18-24 Yrs)</th><th>Tertiary Attainment (30-34 Yrs)</th><th>Youth Unemployment (15-24 Yrs)</th></tr></thead>
@@ -645,30 +1136,28 @@
         </div>
     </div>
 
-    <!-- TAB 7: METRO URBAN PENALTY -->
+    <!-- TAB 12: METRO URBAN PENALTY -->
     <div id="tab-metro" class="tab-content">
         <h2>🏙️ Municipal Urban Penalty across 10 Metropolitan Capitals</h2>
-        <p>Direct inspection of public nursery seat coverage (`0-2 years`) vs. youth NEET rates across Italy's major metropolitan cities:</p>
         <table>
             <thead><tr><th>Metropolitan Capital</th><th>Macro Area</th><th>Nursery Coverage (0-2 Yrs)</th><th>NEET Rate (15-29 Yrs)</th><th>ESCS Context Index</th><th>Child Poverty Risk</th></tr></thead>
-            <tbody><tr><td><strong>àCàaàtàaànàiàaà</strong></td><td>àSàuàdà</td><td>12.1%</td><td><span style='color: #E63946; font-weight: bold;'>25.4%</span></td><td>-0.42</td><td>38.5%</td></tr>
-<tr><td><strong>àPàaàlàeàràmàoà</strong></td><td>àSàuàdà</td><td>13.8%</td><td><span style='color: #E63946; font-weight: bold;'>24.1%</span></td><td>-0.38</td><td>36.8%</td></tr>
-<tr><td><strong>àNàaàpàoàlàià</strong></td><td>àSàuàdà</td><td>11.5%</td><td><span style='color: #E63946; font-weight: bold;'>23.5%</span></td><td>-0.45</td><td>39.2%</td></tr>
-<tr><td><strong>àBàaàràià</strong></td><td>àSàuàdà</td><td>18.4%</td><td><span style='color: #48CAE4; font-weight: bold;'>19.8%</span></td><td>-0.22</td><td>31.0%</td></tr>
-<tr><td><strong>àGàeànàoàvàaà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>31.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>14.5%</span></td><td>0.08</td><td>18.5%</td></tr>
-<tr><td><strong>àRàoàmàaà</strong></td><td>àCàeànàtàràoà</td><td>33.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>14.2%</span></td><td>0.12</td><td>19.8%</td></tr>
-<tr><td><strong>àTàoàràiànàoà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>34.1%</td><td><span style='color: #48CAE4; font-weight: bold;'>13.5%</span></td><td>0.15</td><td>17.9%</td></tr>
-<tr><td><strong>àMàiàlàaànàoà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>42.6%</td><td><span style='color: #48CAE4; font-weight: bold;'>11.8%</span></td><td>0.35</td><td>15.2%</td></tr>
-<tr><td><strong>àFàiàràeànàzàeà</strong></td><td>àCàeànàtàràoà</td><td>44.8%</td><td><span style='color: #48CAE4; font-weight: bold;'>10.4%</span></td><td>0.28</td><td>14.1%</td></tr>
-<tr><td><strong>àBàoàlàoàgànàaà</strong></td><td>àNàoàràdà-àEàsàtà</td><td>46.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>8.9%</span></td><td>0.38</td><td>12.5%</td></tr>
+            <tbody><tr><td><strong>àCàaàtàaànàiàaà</strong></td><td>àSàuàdà</td><td>12.10</td><td><span style='color: #E63946; font-weight: bold;'>25.4%</span></td><td>-0.42</td><td>38.50</td></tr>
+<tr><td><strong>àPàaàlàeàràmàoà</strong></td><td>àSàuàdà</td><td>13.80</td><td><span style='color: #E63946; font-weight: bold;'>24.1%</span></td><td>-0.38</td><td>36.80</td></tr>
+<tr><td><strong>àNàaàpàoàlàià</strong></td><td>àSàuàdà</td><td>11.50</td><td><span style='color: #E63946; font-weight: bold;'>23.5%</span></td><td>-0.45</td><td>39.20</td></tr>
+<tr><td><strong>àBàaàràià</strong></td><td>àSàuàdà</td><td>18.40</td><td><span style='color: #48CAE4; font-weight: bold;'>19.8%</span></td><td>-0.22</td><td>31.00</td></tr>
+<tr><td><strong>àGàeànàoàvàaà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>31.20</td><td><span style='color: #48CAE4; font-weight: bold;'>14.5%</span></td><td>0.08</td><td>18.50</td></tr>
+<tr><td><strong>àRàoàmàaà</strong></td><td>àCàeànàtàràoà</td><td>33.50</td><td><span style='color: #48CAE4; font-weight: bold;'>14.2%</span></td><td>0.12</td><td>19.80</td></tr>
+<tr><td><strong>àTàoàràiànàoà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>34.10</td><td><span style='color: #48CAE4; font-weight: bold;'>13.5%</span></td><td>0.15</td><td>17.90</td></tr>
+<tr><td><strong>àMàiàlàaànàoà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>42.60</td><td><span style='color: #48CAE4; font-weight: bold;'>11.8%</span></td><td>0.35</td><td>15.20</td></tr>
+<tr><td><strong>àFàiàràeànàzàeà</strong></td><td>àCàeànàtàràoà</td><td>44.80</td><td><span style='color: #48CAE4; font-weight: bold;'>10.4%</span></td><td>0.28</td><td>14.10</td></tr>
+<tr><td><strong>àBàoàlàoàgànàaà</strong></td><td>àNàoàràdà-àEàsàtà</td><td>46.50</td><td><span style='color: #48CAE4; font-weight: bold;'>8.9%</span></td><td>0.38</td><td>12.50</td></tr>
 </tbody>
         </table>
     </div>
 
-    <!-- TAB 8: TEACHERS -->
+    <!-- TAB 13: TEACHERS -->
     <div id="tab-teachers" class="tab-content">
         <h2>👩‍🏫 Teacher Workforce Anatomy & Special Needs (*Sostegno*) Precariato (815,482 Posts)</h2>
-        <p>Complete distribution of tenured (*Titolarità*) versus precarious substitute (*Supplenti*) teaching chairs across all Italian school orders:</p>
         <table>
             <thead><tr><th>School Order</th><th>Post Type</th><th>Tenured Chairs</th><th>Annual Substitutes</th><th>Total Teaching Posts</th><th>Precariato Rate (%)</th></tr></thead>
             <tbody><tr><td><strong>àSàCàUàOàLàAà àIàNàFàAàNàZàIàAà</strong></td><td>àNàOàRàMàAàLàEà</td><td>76,559</td><td>4,818</td><td>81,377</td><td><span style='color: #FFB703; font-weight: bold;'>5.9%</span></td></tr>
@@ -683,27 +1172,24 @@
         </table>
     </div>
 
-    <!-- TAB 9: MUR & ALMALAUREA -->
+    <!-- TAB 14: MUR & ALMALAUREA -->
     <div id="tab-mur" class="tab-content">
         <h2>🎓 University MUR Faculty Gender Sorting & Almalaurea Graduate Brain Drain</h2>
-        <p>Inspection of academic gender representation across Fields of Research (`FoRD`) and net monthly wages, employment rates, and emigration (`% working abroad / Fuga dei Cervelli`) 5 years post-graduation across all degree disciplines:</p>
-        
         <h3>Almalaurea Graduate Tracking (5 Years Post-Graduation across All 10 Tracks)</h3>
         <table>
             <thead><tr><th>Degree Discipline</th><th>FoRD Area</th><th>Employment Rate (5-Yr)</th><th>Net Monthly Wage (€)</th><th>Emigration Share (% Abroad)</th><th>Precarious Contract (%)</th></tr></thead>
-            <tbody><tr><td><strong>àIànàgàeàgànàeàràiàaà à/à àEànàgàiànàeàeàràiànàgà à(àSàTàEàMà)à</strong></td><td>àFàoàRàDà à0à2à</td><td>94.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,890</span></td><td><span style='color: #E63946; font-weight: bold;'>14.8%</span></td><td>8.5%</td></tr>
-<tr><td><strong>àIànàfàoàràmàaàtàiàcàaà à&à àIàCàTà à(àSàTàEàMà)à</strong></td><td>àFàoàRàDà à0à2à</td><td>95.8%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,950</span></td><td><span style='color: #E63946; font-weight: bold;'>16.2%</span></td><td>7.2%</td></tr>
-<tr><td><strong>àMàeàdàiàcàiànàaà àeà àCàhàiàràuàràgàiàaà</strong></td><td>àFàoàRàDà à0à3à</td><td>96.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>€2,150</span></td><td><span style='color: #E63946; font-weight: bold;'>11.5%</span></td><td>12.4%</td></tr>
-<tr><td><strong>àEàcàoànàoàmàiàaà àeà àSàtàaàtàiàsàtàiàcàaà</strong></td><td>àFàoàRàDà à0à5à</td><td>91.4%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,720</span></td><td><span style='color: #E63946; font-weight: bold;'>12.1%</span></td><td>14.2%</td></tr>
-<tr><td><strong>àAàràcàhàiàtàeàtàtàuàràaà àeà àIànàgàeàgànàeàràiàaà àCàiàvàiàlàeà</strong></td><td>àFàoàRàDà à0à2à</td><td>88.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,610</span></td><td><span style='color: #E63946; font-weight: bold;'>13.5%</span></td><td>22.8%</td></tr>
-<tr><td><strong>àSàcàiàeànàzàeà àBàiàoàlàoàgàiàcàhàeà àeà àCàhàiàmàiàcàhàeà</strong></td><td>àFàoàRàDà à0à1à</td><td>83.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,540</span></td><td><span style='color: #E63946; font-weight: bold;'>18.9%</span></td><td>31.4%</td></tr>
-<tr><td><strong>àSàcàiàeànàzàeà àGàiàuàràiàdàiàcàhàeà à(àGàiàuàràiàsàpàràuàdàeànàzàaà)à</strong></td><td>àFàoàRàDà à0à5à</td><td>78.4%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,480</span></td><td><span style='color: #E63946; font-weight: bold;'>4.8%</span></td><td>28.5%</td></tr>
-<tr><td><strong>àLàeàtàtàeàràeà,à àFàiàlàoàsàoàfàiàaà àeà àSàtàoàràiàaà à(àHàuàmàaànàiàtàiàeàsà)à</strong></td><td>àFàoàRàDà à0à6à</td><td>76.8%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,380</span></td><td><span style='color: #E63946; font-weight: bold;'>9.4%</span></td><td>36.8%</td></tr>
-<tr><td><strong>àPàsàiàcàoàlàoàgàiàaà àeà àSàcàiàeànàzàeà àdàeàlàlàaà àFàoàràmàaàzàiàoànàeà</strong></td><td>àFàoàRàDà à0à5à</td><td>79.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,350</span></td><td><span style='color: #E63946; font-weight: bold;'>6.5%</span></td><td>38.4%</td></tr>
-<tr><td><strong>àLàiànàgàuàeà àeà àMàeàdàiàaàzàiàoànàeà àCàuàlàtàuàràaàlàeà</strong></td><td>àFàoàRàDà à0à6à</td><td>77.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,390</span></td><td><span style='color: #E63946; font-weight: bold;'>15.2%</span></td><td>34.2%</td></tr>
+            <tbody><tr><td><strong>àIànàgàeàgànàeàràiàaà à/à àEànàgàiànàeàeàràiànàgà à(àSàTàEàMà)à</strong></td><td>àFàoàRàDà à0à2à</td><td>94.20</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,890</span></td><td><span style='color: #E63946; font-weight: bold;'>14.8%</span></td><td>8.50</td></tr>
+<tr><td><strong>àIànàfàoàràmàaàtàiàcàaà à&à àIàCàTà à(àSàTàEàMà)à</strong></td><td>àFàoàRàDà à0à2à</td><td>95.80</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,950</span></td><td><span style='color: #E63946; font-weight: bold;'>16.2%</span></td><td>7.20</td></tr>
+<tr><td><strong>àMàeàdàiàcàiànàaà àeà àCàhàiàràuàràgàiàaà</strong></td><td>àFàoàRàDà à0à3à</td><td>96.50</td><td><span style='color: #48CAE4; font-weight: bold;'>€2,150</span></td><td><span style='color: #E63946; font-weight: bold;'>11.5%</span></td><td>12.40</td></tr>
+<tr><td><strong>àEàcàoànàoàmàiàaà àeà àSàtàaàtàiàsàtàiàcàaà</strong></td><td>àFàoàRàDà à0à5à</td><td>91.40</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,720</span></td><td><span style='color: #E63946; font-weight: bold;'>12.1%</span></td><td>14.20</td></tr>
+<tr><td><strong>àAàràcàhàiàtàeàtàtàuàràaà àeà àIànàgàeàgànàeàràiàaà àCàiàvàiàlàeà</strong></td><td>àFàoàRàDà à0à2à</td><td>88.50</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,610</span></td><td><span style='color: #E63946; font-weight: bold;'>13.5%</span></td><td>22.80</td></tr>
+<tr><td><strong>àSàcàiàeànàzàeà àBàiàoàlàoàgàiàcàhàeà àeà àCàhàiàmàiàcàhàeà</strong></td><td>àFàoàRàDà à0à1à</td><td>83.20</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,540</span></td><td><span style='color: #E63946; font-weight: bold;'>18.9%</span></td><td>31.40</td></tr>
+<tr><td><strong>àSàcàiàeànàzàeà àGàiàuàràiàdàiàcàhàeà à(àGàiàuàràiàsàpàràuàdàeànàzàaà)à</strong></td><td>àFàoàRàDà à0à5à</td><td>78.40</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,480</span></td><td><span style='color: #E63946; font-weight: bold;'>4.8%</span></td><td>28.50</td></tr>
+<tr><td><strong>àLàeàtàtàeàràeà,à àFàiàlàoàsàoàfàiàaà àeà àSàtàoàràiàaà à(àHàuàmàaànàiàtàiàeàsà)à</strong></td><td>àFàoàRàDà à0à6à</td><td>76.80</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,380</span></td><td><span style='color: #E63946; font-weight: bold;'>9.4%</span></td><td>36.80</td></tr>
+<tr><td><strong>àPàsàiàcàoàlàoàgàiàaà àeà àSàcàiàeànàzàeà àdàeàlàlàaà àFàoàràmàaàzàiàoànàeà</strong></td><td>àFàoàRàDà à0à5à</td><td>79.20</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,350</span></td><td><span style='color: #E63946; font-weight: bold;'>6.5%</span></td><td>38.40</td></tr>
+<tr><td><strong>àLàiànàgàuàeà àeà àMàeàdàiàaàzàiàoànàeà àCàuàlàtàuàràaàlàeà</strong></td><td>àFàoàRàDà à0à6à</td><td>77.50</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,390</span></td><td><span style='color: #E63946; font-weight: bold;'>15.2%</span></td><td>34.20</td></tr>
 </tbody>
         </table>
-
         <h3 style="margin-top: 30px;">MUR Academic Staff & Faculty Gender Pyramid by FoRD</h3>
         <div class="table-scroll" style="max-height: 450px;">
             <table>
@@ -729,65 +1215,61 @@
         </div>
     </div>
 
-    <!-- TAB 10: TRACKS & INVALSI (ALL 20 REGIONS) -->
+    <!-- TAB 15: TRACKS & INVALSI (ALL 20 REGIONS) -->
     <div id="tab-tracks" class="tab-content">
         <h2>🎒 Tripartite Upper-Secondary Tracking, INVALSI Competency & Implicit Dropout (All 20 Regions)</h2>
-        <p>Complete, untruncated territorial breakdown across all 20 Italian regions for secondary school tracking, Grade 13 implicit dropout (`Dispersione Implicita`), and INVALSI math score deviations:</p>
-        
         <h3>Tripartite Enrollment Share across All 20 Regions</h3>
         <div class="table-scroll">
             <table>
                 <thead><tr><th>Region (Regione)</th><th>Licei Share (%)</th><th>Tecnici Share (%)</th><th>Professionali Share (%)</th><th>Total Students Analyzed</th></tr></thead>
-                <tbody><tr><td><strong>àAàBàRàUàZàZàOà</strong></td><td><span style='color: #48CAE4;'>59.7%</span></td><td><span style='color: #FFB703;'>29.0%</span></td><td><span style='color: #2A9D8F;'>10.6%</span></td><td>53,943.0</td></tr>
-<tr><td><strong>àBàAàSàIàLàIàCàAàTàAà</strong></td><td><span style='color: #48CAE4;'>53.4%</span></td><td><span style='color: #FFB703;'>28.9%</span></td><td><span style='color: #2A9D8F;'>17.8%</span></td><td>25,613.0</td></tr>
-<tr><td><strong>àCàAàLàAàBàRàIàAà</strong></td><td><span style='color: #48CAE4;'>51.4%</span></td><td><span style='color: #FFB703;'>32.0%</span></td><td><span style='color: #2A9D8F;'>16.6%</span></td><td>87,308.0</td></tr>
-<tr><td><strong>àCàAàMàPàAàNàIàAà</strong></td><td><span style='color: #48CAE4;'>55.0%</span></td><td><span style='color: #FFB703;'>27.4%</span></td><td><span style='color: #2A9D8F;'>17.6%</span></td><td>283,600.0</td></tr>
-<tr><td><strong>àEàMàIàLàIàAà àRàOàMàAàGàNàAà</strong></td><td><span style='color: #48CAE4;'>43.6%</span></td><td><span style='color: #FFB703;'>35.1%</span></td><td><span style='color: #2A9D8F;'>20.9%</span></td><td>197,935.0</td></tr>
-<tr><td><strong>àFàRàIàUàLàIà-àVàEàNàEàZàIàAà àGà.à</strong></td><td><span style='color: #48CAE4;'>48.9%</span></td><td><span style='color: #FFB703;'>37.2%</span></td><td><span style='color: #2A9D8F;'>13.4%</span></td><td>46,800.0</td></tr>
-<tr><td><strong>àLàAàZàIàOà</strong></td><td><span style='color: #48CAE4;'>66.3%</span></td><td><span style='color: #FFB703;'>24.2%</span></td><td><span style='color: #2A9D8F;'>9.5%</span></td><td>233,769.0</td></tr>
-<tr><td><strong>àLàIàGàUàRàIàAà</strong></td><td><span style='color: #48CAE4;'>53.2%</span></td><td><span style='color: #FFB703;'>28.5%</span></td><td><span style='color: #2A9D8F;'>17.8%</span></td><td>58,204.0</td></tr>
-<tr><td><strong>àLàOàMàBàAàRàDàIàAà</strong></td><td><span style='color: #48CAE4;'>47.3%</span></td><td><span style='color: #FFB703;'>35.7%</span></td><td><span style='color: #2A9D8F;'>15.5%</span></td><td>373,300.0</td></tr>
-<tr><td><strong>àMàAàRàCàHàEà</strong></td><td><span style='color: #48CAE4;'>51.2%</span></td><td><span style='color: #FFB703;'>30.5%</span></td><td><span style='color: #2A9D8F;'>17.8%</span></td><td>70,710.0</td></tr>
-<tr><td><strong>àMàOàLàIàSàEà</strong></td><td><span style='color: #48CAE4;'>56.6%</span></td><td><span style='color: #FFB703;'>29.1%</span></td><td><span style='color: #2A9D8F;'>14.3%</span></td><td>12,387.0</td></tr>
-<tr><td><strong>àPàIàEàMàOàNàTàEà</strong></td><td><span style='color: #48CAE4;'>49.2%</span></td><td><span style='color: #FFB703;'>34.0%</span></td><td><span style='color: #2A9D8F;'>16.8%</span></td><td>171,729.0</td></tr>
-<tr><td><strong>àPàUàGàLàIàAà</strong></td><td><span style='color: #48CAE4;'>52.2%</span></td><td><span style='color: #FFB703;'>30.6%</span></td><td><span style='color: #2A9D8F;'>17.2%</span></td><td>176,282.0</td></tr>
-<tr><td><strong>àSàAàRàDàEàGàNàAà</strong></td><td><span style='color: #48CAE4;'>53.1%</span></td><td><span style='color: #FFB703;'>31.0%</span></td><td><span style='color: #2A9D8F;'>15.9%</span></td><td>66,882.0</td></tr>
-<tr><td><strong>àSàIàCàIàLàIàAà</strong></td><td><span style='color: #48CAE4;'>56.5%</span></td><td><span style='color: #FFB703;'>27.9%</span></td><td><span style='color: #2A9D8F;'>15.3%</span></td><td>209,534.0</td></tr>
-<tr><td><strong>àTàOàSàCàAàNàAà</strong></td><td><span style='color: #48CAE4;'>51.5%</span></td><td><span style='color: #FFB703;'>29.7%</span></td><td><span style='color: #2A9D8F;'>17.3%</span></td><td>163,167.0</td></tr>
-<tr><td><strong>àUàMàBàRàIàAà</strong></td><td><span style='color: #48CAE4;'>55.5%</span></td><td><span style='color: #FFB703;'>28.8%</span></td><td><span style='color: #2A9D8F;'>15.6%</span></td><td>39,353.0</td></tr>
-<tr><td><strong>àVàEàNàEàTàOà</strong></td><td><span style='color: #48CAE4;'>43.3%</span></td><td><span style='color: #FFB703;'>38.1%</span></td><td><span style='color: #2A9D8F;'>18.1%</span></td><td>197,568.0</td></tr>
+                <tbody><tr><td><strong>àAàBàRàUàZàZàOà</strong></td><td>59.71</td><td>29.03</td><td>10.59</td><td>53943.00</td></tr>
+<tr><td><strong>àBàAàSàIàLàIàCàAàTàAà</strong></td><td>53.36</td><td>28.89</td><td>17.75</td><td>25613.00</td></tr>
+<tr><td><strong>àCàAàLàAàBàRàIàAà</strong></td><td>51.35</td><td>32.00</td><td>16.65</td><td>87308.00</td></tr>
+<tr><td><strong>àCàAàMàPàAàNàIàAà</strong></td><td>54.95</td><td>27.37</td><td>17.58</td><td>283600.00</td></tr>
+<tr><td><strong>àEàMàIàLàIàAà àRàOàMàAàGàNàAà</strong></td><td>43.63</td><td>35.15</td><td>20.93</td><td>197935.00</td></tr>
+<tr><td><strong>àFàRàIàUàLàIà-àVàEàNàEàZàIàAà àGà.à</strong></td><td>48.87</td><td>37.16</td><td>13.43</td><td>46800.00</td></tr>
+<tr><td><strong>àLàAàZàIàOà</strong></td><td>66.32</td><td>24.16</td><td>9.52</td><td>233769.00</td></tr>
+<tr><td><strong>àLàIàGàUàRàIàAà</strong></td><td>53.24</td><td>28.54</td><td>17.84</td><td>58204.00</td></tr>
+<tr><td><strong>àLàOàMàBàAàRàDàIàAà</strong></td><td>47.30</td><td>35.74</td><td>15.52</td><td>373300.00</td></tr>
+<tr><td><strong>àMàAàRàCàHàEà</strong></td><td>51.20</td><td>30.53</td><td>17.83</td><td>70710.00</td></tr>
+<tr><td><strong>àMàOàLàIàSàEà</strong></td><td>56.62</td><td>29.07</td><td>14.31</td><td>12387.00</td></tr>
+<tr><td><strong>àPàIàEàMàOàNàTàEà</strong></td><td>49.21</td><td>33.99</td><td>16.78</td><td>171729.00</td></tr>
+<tr><td><strong>àPàUàGàLàIàAà</strong></td><td>52.23</td><td>30.57</td><td>17.20</td><td>176282.00</td></tr>
+<tr><td><strong>àSàAàRàDàEàGàNàAà</strong></td><td>53.11</td><td>31.01</td><td>15.88</td><td>66882.00</td></tr>
+<tr><td><strong>àSàIàCàIàLàIàAà</strong></td><td>56.47</td><td>27.85</td><td>15.27</td><td>209534.00</td></tr>
+<tr><td><strong>àTàOàSàCàAàNàAà</strong></td><td>51.55</td><td>29.69</td><td>17.33</td><td>163167.00</td></tr>
+<tr><td><strong>àUàMàBàRàIàAà</strong></td><td>55.54</td><td>28.83</td><td>15.63</td><td>39353.00</td></tr>
+<tr><td><strong>àVàEàNàEàTàOà</strong></td><td>43.26</td><td>38.12</td><td>18.09</td><td>197568.00</td></tr>
 </tbody>
             </table>
         </div>
-
         <h3 style="margin-top: 30px;">INVALSI Implicit vs. Explicit Dropout & Competency Gaps (All 20 Regions)</h3>
         <div class="table-scroll">
             <table>
                 <thead><tr><th>Region</th><th>Explicit ESL Rate (%)</th><th>Implicit Dropout Grade 13 (%)</th><th>Total Dispersion Index (%)</th><th>Math Proficiency Dev vs National Avg</th></tr></thead>
-                <tbody><tr><td><strong>àAàbàràuàzàzàoà</strong></td><td>9.4%</td><td>8.2%</td><td><span style='color: #FFB703; font-weight: bold;'>17.6%</span></td><td>-14.2 pts</td></tr>
-<tr><td><strong>àBàaàsàiàlàiàcàaàtàaà</strong></td><td>10.2%</td><td>11.5%</td><td><span style='color: #FFB703; font-weight: bold;'>21.7%</span></td><td>-21.5 pts</td></tr>
-<tr><td><strong>àCàaàlàaàbàràiàaà</strong></td><td>14.9%</td><td>18.8%</td><td><span style='color: #FFB703; font-weight: bold;'>33.7%</span></td><td>-34.8 pts</td></tr>
-<tr><td><strong>àCàaàmàpàaànàiàaà</strong></td><td>16.4%</td><td>19.8%</td><td><span style='color: #FFB703; font-weight: bold;'>36.2%</span></td><td>-36.5 pts</td></tr>
-<tr><td><strong>àEàmàiàlàiàaà-àRàoàmàaàgànàaà</strong></td><td>8.2%</td><td>5.1%</td><td><span style='color: #FFB703; font-weight: bold;'>13.3%</span></td><td>+18.4 pts</td></tr>
-<tr><td><strong>àFàràiàuàlàià-àVàeànàeàzàiàaà àGàiàuàlàiàaà</strong></td><td>7.8%</td><td>4.8%</td><td><span style='color: #FFB703; font-weight: bold;'>12.6%</span></td><td>+21.2 pts</td></tr>
-<tr><td><strong>àLàaàzàiàoà</strong></td><td>9.8%</td><td>7.9%</td><td><span style='color: #FFB703; font-weight: bold;'>17.7%</span></td><td>-2.4 pts</td></tr>
-<tr><td><strong>àLàiàgàuàràiàaà</strong></td><td>10.5%</td><td>6.8%</td><td><span style='color: #FFB703; font-weight: bold;'>17.3%</span></td><td>+5.1 pts</td></tr>
-<tr><td><strong>àLàoàmàbàaàràdàiàaà</strong></td><td>8.9%</td><td>4.9%</td><td><span style='color: #FFB703; font-weight: bold;'>13.8%</span></td><td>+24.5 pts</td></tr>
-<tr><td><strong>àMàaàràcàhàeà</strong></td><td>8.5%</td><td>6.2%</td><td><span style='color: #FFB703; font-weight: bold;'>14.7%</span></td><td>+12.8 pts</td></tr>
-<tr><td><strong>àMàoàlàiàsàeà</strong></td><td>9.1%</td><td>9.8%</td><td><span style='color: #FFB703; font-weight: bold;'>18.9%</span></td><td>-18.2 pts</td></tr>
-<tr><td><strong>àPàiàeàmàoànàtàeà</strong></td><td>9.6%</td><td>5.8%</td><td><span style='color: #FFB703; font-weight: bold;'>15.4%</span></td><td>+16.2 pts</td></tr>
-<tr><td><strong>àPàuàgàlàiàaà</strong></td><td>15.2%</td><td>16.2%</td><td><span style='color: #FFB703; font-weight: bold;'>31.4%</span></td><td>-28.4 pts</td></tr>
-<tr><td><strong>àSàaàràdàeàgànàaà</strong></td><td>17.3%</td><td>18.5%</td><td><span style='color: #FFB703; font-weight: bold;'>35.8%</span></td><td>-31.2 pts</td></tr>
-<tr><td><strong>àSàiàcàiàlàiàaà</strong></td><td>18.8%</td><td>21.4%</td><td><span style='color: #FFB703; font-weight: bold;'>40.2%</span></td><td>-38.9 pts</td></tr>
-<tr><td><strong>àTàoàsàcàaànàaà</strong></td><td>8.8%</td><td>5.9%</td><td><span style='color: #FFB703; font-weight: bold;'>14.7%</span></td><td>+14.5 pts</td></tr>
-<tr><td><strong>àTàràeànàtàiànàoà-àAàlàtàoà àAàdàiàgàeà</strong></td><td>7.1%</td><td>3.8%</td><td><span style='color: #FFB703; font-weight: bold;'>10.9%</span></td><td>+32.1 pts</td></tr>
-<tr><td><strong>àUàmàbàràiàaà</strong></td><td>8.4%</td><td>6.5%</td><td><span style='color: #FFB703; font-weight: bold;'>14.9%</span></td><td>+9.8 pts</td></tr>
-<tr><td><strong>àVàaàlàlàeà àdà'àAàoàsàtàaà</strong></td><td>9.2%</td><td>5.2%</td><td><span style='color: #FFB703; font-weight: bold;'>14.4%</span></td><td>+15.8 pts</td></tr>
-<tr><td><strong>àVàeànàeàtàoà</strong></td><td>8.5%</td><td>4.5%</td><td><span style='color: #FFB703; font-weight: bold;'>13.0%</span></td><td>+26.8 pts</td></tr>
+                <tbody><tr><td><strong>àAàbàràuàzàzàoà</strong></td><td>9.40</td><td>8.20</td><td><span style='color: #FFB703; font-weight: bold;'>17.6%</span></td><td>-14.20</td></tr>
+<tr><td><strong>àBàaàsàiàlàiàcàaàtàaà</strong></td><td>10.20</td><td>11.50</td><td><span style='color: #FFB703; font-weight: bold;'>21.7%</span></td><td>-21.50</td></tr>
+<tr><td><strong>àCàaàlàaàbàràiàaà</strong></td><td>14.90</td><td>18.80</td><td><span style='color: #FFB703; font-weight: bold;'>33.7%</span></td><td>-34.80</td></tr>
+<tr><td><strong>àCàaàmàpàaànàiàaà</strong></td><td>16.40</td><td>19.80</td><td><span style='color: #FFB703; font-weight: bold;'>36.2%</span></td><td>-36.50</td></tr>
+<tr><td><strong>àEàmàiàlàiàaà-àRàoàmàaàgànàaà</strong></td><td>8.20</td><td>5.10</td><td><span style='color: #FFB703; font-weight: bold;'>13.3%</span></td><td>18.40</td></tr>
+<tr><td><strong>àFàràiàuàlàià-àVàeànàeàzàiàaà àGàiàuàlàiàaà</strong></td><td>7.80</td><td>4.80</td><td><span style='color: #FFB703; font-weight: bold;'>12.6%</span></td><td>21.20</td></tr>
+<tr><td><strong>àLàaàzàiàoà</strong></td><td>9.80</td><td>7.90</td><td><span style='color: #FFB703; font-weight: bold;'>17.7%</span></td><td>-2.40</td></tr>
+<tr><td><strong>àLàiàgàuàràiàaà</strong></td><td>10.50</td><td>6.80</td><td><span style='color: #FFB703; font-weight: bold;'>17.3%</span></td><td>5.10</td></tr>
+<tr><td><strong>àLàoàmàbàaàràdàiàaà</strong></td><td>8.90</td><td>4.90</td><td><span style='color: #FFB703; font-weight: bold;'>13.8%</span></td><td>24.50</td></tr>
+<tr><td><strong>àMàaàràcàhàeà</strong></td><td>8.50</td><td>6.20</td><td><span style='color: #FFB703; font-weight: bold;'>14.7%</span></td><td>12.80</td></tr>
+<tr><td><strong>àMàoàlàiàsàeà</strong></td><td>9.10</td><td>9.80</td><td><span style='color: #FFB703; font-weight: bold;'>18.9%</span></td><td>-18.20</td></tr>
+<tr><td><strong>àPàiàeàmàoànàtàeà</strong></td><td>9.60</td><td>5.80</td><td><span style='color: #FFB703; font-weight: bold;'>15.4%</span></td><td>16.20</td></tr>
+<tr><td><strong>àPàuàgàlàiàaà</strong></td><td>15.20</td><td>16.20</td><td><span style='color: #FFB703; font-weight: bold;'>31.4%</span></td><td>-28.40</td></tr>
+<tr><td><strong>àSàaàràdàeàgànàaà</strong></td><td>17.30</td><td>18.50</td><td><span style='color: #FFB703; font-weight: bold;'>35.8%</span></td><td>-31.20</td></tr>
+<tr><td><strong>àSàiàcàiàlàiàaà</strong></td><td>18.80</td><td>21.40</td><td><span style='color: #FFB703; font-weight: bold;'>40.2%</span></td><td>-38.90</td></tr>
+<tr><td><strong>àTàoàsàcàaànàaà</strong></td><td>8.80</td><td>5.90</td><td><span style='color: #FFB703; font-weight: bold;'>14.7%</span></td><td>14.50</td></tr>
+<tr><td><strong>àTàràeànàtàiànàoà-àAàlàtàoà àAàdàiàgàeà</strong></td><td>7.10</td><td>3.80</td><td><span style='color: #FFB703; font-weight: bold;'>10.9%</span></td><td>32.10</td></tr>
+<tr><td><strong>àUàmàbàràiàaà</strong></td><td>8.40</td><td>6.50</td><td><span style='color: #FFB703; font-weight: bold;'>14.9%</span></td><td>9.80</td></tr>
+<tr><td><strong>àVàaàlàlàeà àdà'àAàoàsàtàaà</strong></td><td>9.20</td><td>5.20</td><td><span style='color: #FFB703; font-weight: bold;'>14.4%</span></td><td>15.80</td></tr>
+<tr><td><strong>àVàeànàeàtàoà</strong></td><td>8.50</td><td>4.50</td><td><span style='color: #FFB703; font-weight: bold;'>13.0%</span></td><td>26.80</td></tr>
 </tbody>
             </table>
         </div>
-
         <h3 style="margin-top: 30px;">ISTAT Demographic Winter Cohort Projections (2024–2070 across All 20 Regions)</h3>
         <div class="table-scroll">
             <table>
@@ -817,10 +1299,9 @@
         </div>
     </div>
 
-    <!-- TAB 11: COVID & GENDER -->
+    <!-- TAB 16: COVID & GENDER -->
     <div id="tab-covid" class="tab-content">
         <h2>🦠 COVID-19 Age-Selective Labor Market Scarring & Gender Disparity</h2>
-        <p>Quarterly employment shocks separating transitioning youth (`15–29`) from adult incumbents during the pandemic recovery cycle:</p>
         <div class="table-scroll">
             <table>
                 <thead><tr><th>Quarter / Period</th><th>Youth Cohort (15-29) Employment Change (%)</th><th>Prime Cohort (35-49) Employment Change (%)</th><th>Senior Cohort (50+) Employment Change (%)</th><th>Quarterly NEET Rate (%)</th></tr></thead>
@@ -883,10 +1364,9 @@
         </div>
     </div>
 
-    <!-- TAB 12: HOUSEHOLD BURDEN -->
+    <!-- TAB 17: HOUSEHOLD BURDEN -->
     <div id="tab-burden" class="tab-content">
         <h2>💰 Household Financial Burden, Textbook Tax & Public University Tuition</h2>
-        <p>Out-of-pocket textbook expenditure burdens across secondary school tracks and Italian public university tuition benchmarks against peer European economies:</p>
         <table>
             <thead><tr><th>School Track</th><th>Year of Study</th><th>Textbook Cost (€)</th><th>Mandatory Materials (€)</th><th>Total Household Burden (€)</th><th>Burden (% Median Income)</th></tr></thead>
             <tbody><tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -903,27 +1383,6 @@
 <tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
 </tbody>
         </table>
-    </div>
-
-    <!-- TAB 13: NOTEBOOK DIAGNOSTICS -->
-    <div id="tab-notebook" class="tab-content">
-        <h2>💻 Complete Executed Master Notebook Diagnostics</h2>
-        <div class='nb-embedded'>
-<main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=31b24865">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div><!-- END NB -->
-    </div>
-
-    <!-- TAB 14: COMMUNITY -->
-    <div id="tab-community" class="tab-content">
-        <h2>🤝 Community Research Invitations & Open Science Governance</h2>
-        <p>This repository is designed as a living, collaborative open science observatory. We explicitly invite students, educators, academic researchers, journalists, and policy analysts to engage with our curated datasets, challenge existing interpretations, and propose novel analytical angles.</p>
-        <div class="reflection-box">
-            <div class="reflection-title">🌟 The Open Science Commitment</div>
-            <p>Science progresses through rigorous inquiry, public debate, and collaborative replication. By making the structural anatomy of *Italienation* open and transparent across all 18 data panels, we foster an informed, evidence-based dialogue across Italian society and the international research community.</p>
-        </div>
     </div>
 </div>
 
@@ -1327,7 +1786,6 @@ function openTab(tabId) {
 function selectRegion(regName) {
     const data = geomapData[regName];
     if (!data) return;
-    
     document.getElementById('reg-name').innerText = regName;
     document.getElementById('reg-macro').innerText = data.macro;
     document.getElementById('reg-nursery').innerText = data.nursery;
@@ -1335,7 +1793,6 @@ function selectRegion(regName) {
     document.getElementById('reg-precariato').innerText = data.precariato;
     document.getElementById('reg-dropout').innerText = data.dropout;
     document.getElementById('reg-demo').innerText = data.demo_change;
-    
     const btns = document.querySelectorAll('#geomap-buttons .map-btn');
     btns.forEach(b => b.classList.remove('selected'));
     event.currentTarget.classList.add('selected');
@@ -1344,30 +1801,119 @@ function selectRegion(regName) {
 function selectTrip(name) {
     const data = tripartiteData[name];
     if (!data) return;
-    
     document.getElementById('trip-name').innerText = name;
     document.getElementById('trip-macro').innerText = data.macro;
     document.getElementById('trip-neet').innerText = data.neet + '%';
     document.getElementById('trip-bocc').innerText = data.bocciature + '%';
     document.getElementById('trip-abs').innerText = data.absorption + ' / 100';
     document.getElementById('trip-profile').innerText = data.profile;
-    
     const bL = document.getElementById('bar-licei');
     const bT = document.getElementById('bar-tecnici');
     const bP = document.getElementById('bar-prof');
-    
-    bL.style.width = data.licei + '%';
-    bL.innerText = 'Licei: ' + data.licei + '%';
-    
-    bT.style.width = data.tecnici + '%';
-    bT.innerText = 'Tecnici: ' + data.tecnici + '%';
-    
-    bP.style.width = data.professionali + '%';
-    bP.innerText = 'Prof: ' + data.professionali + '%';
-    
+    bL.style.width = data.licei + '%'; bL.innerText = 'Licei: ' + data.licei + '%';
+    bT.style.width = data.tecnici + '%'; bT.innerText = 'Tecnici: ' + data.tecnici + '%';
+    bP.style.width = data.professionali + '%'; bP.innerText = 'Prof: ' + data.professionali + '%';
     const tripBtns = document.querySelectorAll('#tab-tripmap .map-btn');
     tripBtns.forEach(b => b.classList.remove('selected'));
     event.currentTarget.classList.add('selected');
+}
+
+function generateCustomNotebook() {
+    const sel = document.getElementById('sb-panel');
+    const panelName = sel.value;
+    const panelTitle = sel.options[sel.selectedIndex].text;
+    
+    const nbContent = {
+        "cells": [
+            {
+                "cell_type": "markdown",
+                "metadata": {},
+                "source": [
+                    "# Italienation Open Science: Custom User Analysis\n",
+                    "**Target Dataset:** `" + panelTitle + "`\n",
+                    "**Source Repository:** [Eugenix94/Italienation](https://github.com/Eugenix94/Italienation)\n\n",
+                    "This Jupyter notebook dynamically imports the exact live data from the Italienation Open Science repository and runs custom exploratory data analysis."
+                ]
+            },
+            {
+                "cell_type": "code",
+                "execution_count": null,
+                "metadata": {},
+                "outputs": [],
+                "source": [
+                    "import pandas as pd\n",
+                    "import matplotlib.pyplot as plt\n",
+                    "import seaborn as sns\n\n",
+                    "url = 'https://raw.githubusercontent.com/Eugenix94/Italienation/main/holistic_analysis/data_panels/" + panelName + "'\n",
+                    "df = pd.read_csv(url)\n",
+                    "print('Dataset Shape:', df.shape)\n",
+                    "df.head(10)"
+                ]
+            },
+            {
+                "cell_type": "code",
+                "execution_count": null,
+                "metadata": {},
+                "outputs": [],
+                "source": [
+                    "# Summary Statistics across numeric columns\n",
+                    "df.describe().round(2)"
+                ]
+            },
+            {
+                "cell_type": "code",
+                "execution_count": null,
+                "metadata": {},
+                "outputs": [],
+                "source": [
+                    "# Custom Visualization Template\n",
+                    "plt.figure(figsize=(12, 6))\n",
+                    "# Select numeric column to plot if available\n",
+                    "num_cols = df.select_dtypes(include=['float64', 'int64']).columns\n",
+                    "if len(num_cols) > 0:\n",
+                    "    sns.histplot(df[num_cols[0]], kde=True, color='#48CAE4')\n",
+                    "    plt.title('Distribution of ' + num_cols[0], fontsize=14, fontweight='bold')\n",
+                    "    plt.show()\n"
+                ]
+            }
+        ],
+        "metadata": {
+            "kernelspec": {
+                "display_name": "Python 3",
+                "language": "python",
+                "name": "python3"
+            },
+            "language_info": {
+                "codemirror_mode": {
+                    "name": "ipython",
+                    "version": 3
+                },
+                "file_extension": ".py",
+                "mimetype": "text/x-python",
+                "name": "python",
+                "nbconvert_exporter": "python",
+                "pygments_lexer": "ipython3",
+                "version": "3.10.12"
+            }
+        },
+        "nbformat": 4,
+        "nbformat_minor": 5
+    };
+    
+    const blob = new Blob([JSON.stringify(nbContent, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'Custom_Italienation_Analysis_' + panelName.replace('.csv', '.ipynb');
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    document.getElementById('sandbox-status').innerText = '✅ Custom Notebook (' + a.download + ') generated and downloaded directly to your machine!';
+}
+
+function downloadSelectedCSV() {
+    const sel = document.getElementById('sb-panel');
+    const panelName = sel.value;
+    window.open('holistic_analysis/data_panels/' + panelName, '_blank');
 }
 </script>
 </body>
