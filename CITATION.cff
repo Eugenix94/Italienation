@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, code, or analysis in your research, please cite it using these metadata."
+title: "Italienation: A Data-Driven Study of Italian NEETs, Educational Tracking, and Socioeconomic Exclusion"
+authors:
+  - family-names: "Eugenix94"
+    given-names: "Author"
+    alias: "Eugenix94"
+abstract: >-
+  A comprehensive, data-first repository and comparative empirical study of Italian NEETs (Not in Education, Employment, or Training), early school leavers, tripartite secondary education tracking (Liceo vs. Tecnico/Professionale), and macroeconomic stagnation. This repository integrates structured micro-data (textbook prices, INVALSI school outcomes, regional tuition rates) and international policy benchmarks (OECD, Eurostat, World Bank) to analyze structural barriers to higher education and social mobility in Italy.
+keywords:
+  - NEET
+  - Italy
+  - Education Tracking
+  - Social Exclusion
+  - Early School Leavers
+  - VET
+  - ISTAT
+  - Eurostat
+  - OECD
+  - Social Mobility
+license: MIT
+repository-code: "https://github.com/Eugenix94/Italienation"
+version: "1.0.0"
+date-released: "2026-07-09"
