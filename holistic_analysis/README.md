@@ -4,7 +4,19 @@ Welcome to the **Holistic Analysis & Open Data Repository** of the *Italienation
 
 In the spirit of **Open Science and public scholarship**, we do not present closed, dogmatic policy prescriptions. Instead, this repository serves as an **open observatory and empirical laboratory** that gathers, cleans, and synthesizes multi-scale evidence across **11 distinct domains**, **815,000+ teaching records**, and **113 years of fiscal history (1913–2026)**.
 
-Our explicit goal is to invite **researchers, data scientists, educators, citizens, and policymakers** to access the data directly, test alternative hypotheses, debate structural paradoxes, and contribute their own reflections on Italy's educational and youth labor market dynamics.
+---
+
+## 📖 The Extensive Definition & Theoretical Anatomy of *Italienation* (*Italienazione*)
+
+To understand Italian educational and youth labor market dynamics, we must move beyond short, synthetic summaries. **Italienation** (*Italienazione*) is a profound, multi-generational, structural equilibrium that spans seven interconnected sociological, economic, and institutional dimensions:
+
+1. **Etymological & Conceptual Genesis (*Structural Anomie*):** A neologism fusing *Italy* and *Alienation*, describing a chronic condition where public institutions, economic incentives, and educational structures systematically estrange youth (*NEETs*, early school leavers, precarious workers, young researchers) from active civic and economic participation.
+2. **Intergenerational Breakdown & Demographic Winter (*Inverno Demografico*):** Operating alongside a birth rate of `1.20 children per woman` and an aging population, public wealth is disproportionately allocated toward passive incumbent preservation (pensions, senior welfare, debt servicing) while forward-looking human capital investments (schools, universities, research labs) face four decades of structural retrenchment.
+3. **Territorial Dualism & Municipal Urban Penalty (*Penalità Urbana*):** Where municipal nursery seat coverage (<code>0–2 years</code>) drops below `15%` across Southern metropolitan capitals (`Napoli, Catania, Palermo`), youth NEET rates systematically exceed `25% to 35%` (`r = -0.88`), pre-sorting educational inequality before age three.
+4. **Pedagogical Segregation & Workforce Precariato (*Giungla del Precariato*):** Secondary schools suffer from rigid age-14 tracking (*Licei* vs *Tecnici* vs *Professionali*) coupled with massive teaching instability: `18.5%` of classroom chairs and **over 60% of special needs (*Sostegno*) chairs** are filled by temporary annual substitutes (`Supplenti`), destroying pedagogical continuity for vulnerable students.
+5. **Higher Education Bottleneck & Brain Drain (*Fuga dei Cervelli*):** Chronic university underfunding (`MUR`) and rigid academic recruitment structures drive over **40,000+ young graduates to emigrate abroad annually** because domestic micro-enterprises cannot offer competitive R&D wages or meritocratic ladders.
+6. **Labor Market Trap & Real Wage Stagnation (*Lavoro Povero*):** Italy holds the highest youth NEET rate (`16.1%`) in the EU-27 and is the only OECD economy where real wages declined between 1990 and 2024, locking youth into precarious, low-wage dependency well into adulthood.
+7. **The Open Science Imperative:** Because *Italienation* is a complex web of interlocking historical and economic feedback loops, no single dogma can resolve it. It demands an **Open Science Collaborative Observatory** where global researchers and citizens can freely interrogate raw data, test hypotheses, and debate structural solutions.
 
 ---
 
@@ -13,7 +25,7 @@ Our explicit goal is to invite **researchers, data scientists, educators, citize
 ```
 holistic_analysis/
 │
-├── 📖 README.md                             <-- Open Science Guide & Domain Overview
+├── 📖 README.md                             <-- Open Science Guide & Definitional Framework
 │
 ├── 📊 data_panels/                          <-- 13 OPEN-SOURCE DATA PANELS (Clean CSVs ready for public analysis)
 │   ├── 01_macro_fiscal_expenditure_1913_2026.csv
@@ -31,7 +43,7 @@ holistic_analysis/
 │   └── 10b_public_university_tuition_benchmark.csv
 │
 ├── 🌐 interactive_web_experience/           <-- THE OPEN SCIENCE INTERACTIVE WEB OBSERVATORY
-│   ├── index.html (THE SOLE HTML FILE: open-ended exploration, reflection prompts, live tables, & diagnostic logs)
+│   ├── index.html (THE SOLE HTML FILE: 7-dimension definition, live tables, reflection prompts, & diagnostics)
 │   └── universal_synthesis_master_dashboard.png (High-resolution 300 DPI 6-panel correlation visualization)
 │
 └── 💻 jupyter_notebook/                     <-- THE EXECUTABLE OPEN-SOURCE NOTEBOOK
@@ -47,7 +59,7 @@ To provide an intuitive, zero-setup environment for reflection and exploration, 
 👉 **Double-click [`interactive_web_experience/index.html`](./interactive_web_experience/index.html) in your browser!**
 
 Inside `index.html`, you will find:
-- **📌 Open Science Observatory & Paradoxes:** Explores the 4 core structural dilemmas (`Fiscal Re-allocation`, `Early Childhood Urban Penalty`, `Transition Evaluation Severity`, and `Workforce Continuity vs Flexibility`).
+- **📖 Extensive Definition & Theoretical Anatomy:** Explores the 7 core pillars of *Italienation* (`Etymology`, `Demographic Winter`, `Urban Penalty`, `Precariato`, `Brain Drain`, `Wage Stagnation`, `Open Science`).
 - **💡 Open Research Prompts:** Dedicated callout boxes inviting researchers and citizens to investigate specific confounding variables and territorial nuances.
 - **📊 Live Interactive Data Tables:** Direct inspection of municipal nursery seat coverage vs. NEET rates across 10 metropolitan capitals, national teacher *precariato* breakdowns, and regional tracking patterns.
 - **💻 Executed Diagnostic Regressions:** Full, transparent execution outputs across all 14 cells of our Python analysis pipeline.
