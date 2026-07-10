@@ -1,6 +1,6 @@
 # 🌐 Italienation Holistic Analysis & Data Repository (`holistic_analysis/`)
 
-Welcome to the dedicated **Holistic Analysis & Data Repository** of the *Italienation* project. This standalone directory has been explicitly organized to let users, researchers, data scientists, and policymakers directly access all of our **highly analysed data panels (`data_panels/`)**, interactive web reports (`interactive_web_experience/`), and executable code (`jupyter_notebook/`).
+Welcome to the dedicated **Holistic Analysis & Data Repository** of the *Italienation* project. This standalone directory has been explicitly organized to let users, researchers, data scientists, and policymakers directly access all of our **highly analysed data panels (`data_panels/`)** and our **unified interactive web experience (`interactive_web_experience/index.html`)**.
 
 ---
 
@@ -9,7 +9,9 @@ Welcome to the dedicated **Holistic Analysis & Data Repository** of the *Italien
 ```
 holistic_analysis/
 │
-├── 📊 data_panels/                          <-- ALL 11 HIGHLY ANALYSED DATA PANELS (Clean CSVs ready for download)
+├── 📖 README.md                             <-- User Guide & Domain Navigation Table
+│
+├── 📊 data_panels/                          <-- ALL 13 HIGHLY ANALYSED DATA PANELS (Clean CSVs ready for download)
 │   ├── 01_macro_fiscal_expenditure_1913_2026.csv
 │   ├── 01b_global_italy_oecd_wb_benchmark.csv
 │   ├── 02_eurostat_social_scoreboard_eu27.csv
@@ -24,15 +26,25 @@ holistic_analysis/
 │   ├── 10_household_financial_burden_textbook_tax.csv
 │   └── 10b_public_university_tuition_benchmark.csv
 │
-├── 🌐 interactive_web_experience/           <-- THE HOLISTIC HTML DASHBOARDS & REPORTS FOR USERS
-│   ├── holistic_interactive_experience.html (Full standalone interactive web application with tabs & tables)
-│   ├── italienation_holistic_master_analysis.html (Complete 14-cell executed notebook rendered as searchable HTML)
-│   ├── italienation_holistic_master_analysis_printable_pdf.html (Pre-formatted with @media print CSS for PDF export)
+├── 🌐 interactive_web_experience/           <-- ONE SINGLE UNIFIED HTML WEB EXPERIENCE
+│   ├── index.html (THE SOLE HTML FILE: contains all tabs, live tables, notebook diagnostics, and PDF print button)
 │   └── universal_synthesis_master_dashboard.png (High-resolution 300 DPI 6-panel synthesis visualization)
 │
 └── 💻 jupyter_notebook/                     <-- THE EXECUTABLE MASTER NOTEBOOK
     └── italienation_holistic_master_analysis.ipynb (Self-contained executable Python notebook)
 ```
+
+---
+
+## ⭐ Exploring the Unified Web Experience (`index.html`)
+
+To avoid any confusion from multiple HTML files, we have consolidated our entire interactive web dashboard, statistical data tables, notebook diagnostic outputs, and publication print tools into **ONE SINGLE HTML FILE**:
+
+👉 **Double-click [`interactive_web_experience/index.html`](./interactive_web_experience/index.html) in your browser!**
+
+Inside `index.html`, you can:
+- **Switch instantly across 8 interactive tabs:** Overview, 6-Panel Dashboard, Openpolis Metropolitan Penalty, Teacher Precariato, Tripartite Tracking, Macro-Fiscal Expenditure Series, Full Executed Notebook Diagnostics, and The Final Blows (4-Point Policy Agenda).
+- **Print or Export to PDF:** Click the **"🖨️ Print / Export to PDF"** button at the top right of the dashboard to automatically format and export a clean, publication-ready multi-page PDF document.
 
 ---
 
@@ -53,15 +65,6 @@ Every single dataset in `data_panels/` has been cleaned, standardized, and cross
 | `08_openpolis_metropolitan_urban_penalty.csv` | **Domain 8: Openpolis Census** | Nursery seat coverage (`Asili Nido 0-2 yrs`) vs NEET rates (`r = -0.88`) across 10 capitals. |
 | `09_invalsi_foundational_competency_gaps.csv` | **Domain 9: INVALSI Deficits** | North-South territorial reading and mathematics proficiency gaps. |
 | `10_household_financial_burden_textbook_tax.csv` | **Domain 10: Household Burden** | Secondary school out-of-pocket textbook tax (`€700-€1,300/yr per student`). |
-
----
-
-## ⭐ Exploring the Full Web Experience
-
-You do **not** need Python or Jupyter installed to explore the full analysis:
-1. Double-click `interactive_web_experience/holistic_interactive_experience.html` in your browser to launch our **rich interactive web dashboard** featuring clickable tabs, live statistical tables, and the 4-point systemic reform roadmap.
-2. Double-click `interactive_web_experience/italienation_holistic_master_analysis.html` to review all 14 executed cells with complete diagnostic regression outputs.
-3. To generate a formal publication PDF, open `interactive_web_experience/italienation_holistic_master_analysis_printable_pdf.html` and press `Ctrl+P -> Save as PDF`.
 
 ---
 *Created by the Italienation Open Science Research Collaborative to ensure universal public access to rigorous, open educational statistics.*
