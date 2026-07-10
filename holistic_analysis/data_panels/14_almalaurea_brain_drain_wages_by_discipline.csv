@@ -1,0 +1,11 @@
+degree_discipline,ford_area,emp_rate_5yr_pct,net_monthly_wage_eur,working_abroad_brain_drain_pct,precarious_contract_pct
+Ingegneria / Engineering (STEM),FoRD 02,94.2,1890,14.8,8.5
+Informatica & ICT (STEM),FoRD 02,95.8,1950,16.2,7.2
+Medicina e Chirurgia,FoRD 03,96.5,2150,11.5,12.4
+Economia e Statistica,FoRD 05,91.4,1720,12.1,14.2
+Architettura e Ingegneria Civile,FoRD 02,88.5,1610,13.5,22.8
+Scienze Biologiche e Chimiche,FoRD 01,83.2,1540,18.9,31.4
+Scienze Giuridiche (Giurisprudenza),FoRD 05,78.4,1480,4.8,28.5
+"Lettere, Filosofia e Storia (Humanities)",FoRD 06,76.8,1380,9.4,36.8
+Psicologia e Scienze della Formazione,FoRD 05,79.2,1350,6.5,38.4
+Lingue e Mediazione Culturale,FoRD 06,77.5,1390,15.2,34.2

@@ -1,0 +1,15 @@
+region,country,nuts2_code,neet_rate_15_29_pct,early_school_leaving_pct,youth_unemployment_pct
+Campania (IT),Italy,ITF3,28.6,16.4,36.8
+Sicilia (IT),Italy,ITG1,27.9,18.8,35.2
+Calabria (IT),Italy,ITF6,27.1,14.9,34.1
+Puglia (IT),Italy,ITF4,23.4,15.2,29.8
+Sardegna (IT),Italy,ITG2,20.8,17.3,26.5
+Lazio (IT),Italy,ITI4,14.5,9.8,18.2
+Lombardia (IT),Italy,ITC4,11.2,8.9,13.5
+Emilia-Romagna (IT),Italy,ITH5,9.8,8.2,11.8
+Veneto (IT),Italy,ITH3,10.1,8.5,12.1
+Trentino-Alto Adige (IT),Italy,ITH1,8.2,7.1,9.4
+Andalucía (ES),Spain,ES61,18.5,15.3,28.4
+Île-de-France (FR),France,FR10,10.4,8.1,14.2
+Oberbayern / Munich (DE),Germany,DE21,5.8,6.2,4.5
+Attiki / Athens (EL),Greece,EL30,16.2,6.8,24.1
