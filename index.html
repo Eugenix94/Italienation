@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Italienation: Open Science Observatory & Regional Geo-Map</title>
+    <title>Italienation: Open Science Collaborative Observatory (18 Exact Panels)</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -24,7 +24,7 @@
             background: var(--bg-dark);
             color: var(--text-light);
             line-height: 1.6;
-            padding-bottom: 60px;
+            padding-bottom: 70px;
         }
         header {
             background: linear-gradient(135deg, #0A192F 0%, #1C2541 100%);
@@ -61,7 +61,7 @@
         header p {
             font-size: 1.15rem;
             color: var(--text-muted);
-            max-width: 950px;
+            max-width: 980px;
             margin: 0 auto;
         }
         .print-btn-header {
@@ -86,15 +86,15 @@
             box-shadow: 0 6px 18px rgba(72, 202, 228, 0.6);
         }
         .container {
-            max-width: 1400px;
+            max-width: 1450px;
             margin: 40px auto;
             padding: 0 20px;
         }
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
             gap: 18px;
-            margin-bottom: 40px;
+            margin-bottom: 35px;
         }
         .stat-card {
             background: var(--bg-card);
@@ -126,7 +126,7 @@
         .tabs {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 8px;
             margin-bottom: 30px;
             border-bottom: 2px solid var(--border-color);
             padding-bottom: 15px;
@@ -135,10 +135,10 @@
             background: var(--bg-card);
             color: var(--text-muted);
             border: 1px solid var(--border-color);
-            padding: 12px 18px;
+            padding: 11px 16px;
             border-radius: 8px;
             font-family: 'Outfit', sans-serif;
-            font-size: 0.95rem;
+            font-size: 0.92rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease;
@@ -185,18 +185,23 @@
             margin-bottom: 15px;
         }
         ul { margin-left: 25px; margin-bottom: 20px; }
+        .table-scroll {
+            max-height: 600px;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin: 20px 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 25px 0;
             background: #121A30;
-            border-radius: 8px;
-            overflow: hidden;
         }
         th, td {
-            padding: 14px 18px;
+            padding: 13px 16px;
             text-align: left;
             border-bottom: 1px solid var(--border-color);
+            font-size: 0.95rem;
         }
         th {
             background: #0A192F;
@@ -204,7 +209,10 @@
             font-family: 'Outfit', sans-serif;
             font-weight: 700;
             text-transform: uppercase;
-            font-size: 0.9rem;
+            font-size: 0.86rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
         tr:hover td { background: rgba(255, 255, 255, 0.04); }
         .dashboard-img {
@@ -252,7 +260,7 @@
             align-items: start;
             margin-top: 25px;
         }
-        @media (max-width: 900px) {
+        @media (max-width: 950px) {
             .map-layout { grid-template-columns: 1fr; }
         }
         .map-container {
@@ -266,11 +274,12 @@
             background: var(--bg-card);
             color: var(--text-light);
             border: 1px solid var(--border-color);
-            padding: 10px 15px;
-            margin: 5px;
+            padding: 9px 13px;
+            margin: 4px;
             border-radius: 6px;
             font-family: 'Outfit', sans-serif;
             font-weight: 600;
+            font-size: 0.88rem;
             cursor: pointer;
             transition: all 0.2s ease;
         }
@@ -300,7 +309,7 @@
             justify-content: space-between;
             padding: 12px 0;
             border-bottom: 1px solid rgba(255,255,255,0.05);
-            font-size: 1.1rem;
+            font-size: 1.08rem;
         }
         .region-metric span:last-child {
             font-weight: 700;
@@ -336,7 +345,7 @@
     <button class="print-btn-header" onclick="window.print()">🖨️ Print / Export to PDF</button>
     <div class="badge-open">Open Science Collaborative Observatory</div>
     <h1>ITALIENATION: AN OPEN DATA LABORATORY</h1>
-    <p>We do not prescribe closed policy dogma. We open-source 17 empirical data panels, 815,000+ teaching posts, and 113 years of fiscal evidence to invite global researchers, citizens, and educators to analyze, reflect, and debate Italy's educational reality.</p>
+    <p>We do not prescribe closed policy dogma. We open-source 18 exact empirical data panels, 815,000+ teaching posts, and 113 years of fiscal evidence to invite global researchers, citizens, and educators to analyze, reflect, and debate Italy's educational reality.</p>
 </header>
 
 <div class="container">
@@ -359,23 +368,27 @@
             <div class="stat-label">Metropolitan Correlation: Nursery Coverage vs Youth NEET</div>
         </div>
         <div class="stat-card">
-            <div class="stat-number">17 Panels</div>
-            <div class="stat-label">Open-Source CSV Datasets Available for Public Analysis</div>
+            <div class="stat-number">18 Panels</div>
+            <div class="stat-label">Exact Open-Source CSV Datasets Available with Zero N/As</div>
         </div>
     </div>
 
-    <!-- Navigation Tabs -->
+    <!-- Navigation Tabs (14 Comprehensive Tabs) -->
     <div class="tabs">
-        <button class="tab-btn active" onclick="openTab('tab-definition')">📖 Extensive Definition & Manifesto</button>
-        <button class="tab-btn" onclick="openTab('tab-geomap')">🗺️ Interactive Regional Geo-Map</button>
+        <button class="tab-btn active" onclick="openTab('tab-definition')">📖 7-Dimension Manifesto</button>
+        <button class="tab-btn" onclick="openTab('tab-geomap')">🗺️ Regional Geo-Map (20 Regions)</button>
         <button class="tab-btn" onclick="openTab('tab-tripmap')">🎒 Tripartite vs. NEET Area Map</button>
         <button class="tab-btn" onclick="openTab('tab-dashboard')">📊 6-Panel Correlation Engine</button>
-        <button class="tab-btn" onclick="openTab('tab-newpanels')">🔬 New Open Science Panels (Demo & Wages)</button>
-        <button class="tab-btn" onclick="openTab('tab-metro')">🏙️ Municipal Urban Penalty</button>
-        <button class="tab-btn" onclick="openTab('tab-teachers')">👩‍🏫 Teacher Workforce & Sostegno</button>
-        <button class="tab-btn" onclick="openTab('tab-tracks')">🎒 Tripartite Secondary Tracking</button>
-        <button class="tab-btn" onclick="openTab('tab-macro')">📈 Historical Fiscal Curve (1913-2026)</button>
+        <button class="tab-btn" onclick="openTab('tab-macro')">📈 113-Year Fiscal Series (1913-2026)</button>
+        <button class="tab-btn" onclick="openTab('tab-eu27')">🌍 Eurostat EU-27 & NUTS 2 Scorecard</button>
+        <button class="tab-btn" onclick="openTab('tab-metro')">🏙️ Urban Penalty (10 Capitals)</button>
+        <button class="tab-btn" onclick="openTab('tab-teachers')">👩‍🏫 Teacher Anatomy (815k Posts)</button>
+        <button class="tab-btn" onclick="openTab('tab-mur')">🎓 MUR Faculty & Almalaurea Brain Drain</button>
+        <button class="tab-btn" onclick="openTab('tab-tracks')">🎒 Tripartite Tracking & INVALSI (20 Regions)</button>
+        <button class="tab-btn" onclick="openTab('tab-covid')">🦠 COVID-19 Scarring & Gender Gaps</button>
+        <button class="tab-btn" onclick="openTab('tab-burden')">💰 Household Burden & Textbook Tax</button>
         <button class="tab-btn" onclick="openTab('tab-notebook')">💻 Executed Notebook Diagnostics</button>
+        <button class="tab-btn" onclick="openTab('tab-community')">🤝 Open Science Governance</button>
     </div>
 
     <!-- TAB 1: EXTENSIVE DEFINITION -->
@@ -421,15 +434,15 @@
         </div>
     </div>
 
-    <!-- TAB 2: GEOMAP -->
+    <!-- TAB 2: REGIONAL GEOMAP -->
     <div id="tab-geomap" class="tab-content">
         <h2>🗺️ Interactive Regional Geo-Map of Italy (Territorial Observatory)</h2>
-        <p>Click on any of the 20 Italian regions below to instantly inspect its territorial indicators across early childhood care (`Asili Nido`), youth exclusion (`NEET rate`), teacher precariousness (`Precariato`), INVALSI implicit dropout (`Dispersione`), and 2070 demographic projections (`Inverno Demografico`):</p>
+        <p>Click on any of the 20 Italian regions below to instantly inspect its exact territorial indicators across early childhood care (`Asili Nido`), youth exclusion (`NEET rate`), teacher precariousness (`Precariato`), INVALSI implicit dropout (`Dispersione`), and 2070 demographic projections (`Inverno Demografico`):</p>
         
         <div class="map-layout">
             <div class="map-container">
                 <h4 style="color: var(--accent-teal); margin-bottom: 15px; font-family: 'Outfit', sans-serif;">Select an Italian Region:</h4>
-                <div id="region-buttons">
+                <div id="geomap-buttons">
                     <button class="map-btn selected" onclick="selectRegion('Lombardia')">Lombardia</button>
                     <button class="map-btn" onclick="selectRegion('Campania')">Campania</button>
                     <button class="map-btn" onclick="selectRegion('Sicilia')">Sicilia</button>
@@ -458,24 +471,18 @@
                 <div class="region-metric"><span>Macro Area:</span> <span id="reg-macro">Nord-Ovest</span></div>
                 <div class="region-metric"><span>Nursery Seat Coverage (0-2 Yrs):</span> <span id="reg-nursery">31.4%</span></div>
                 <div class="region-metric"><span>Youth NEET Rate (15-29 Yrs):</span> <span id="reg-neet">11.2%</span></div>
-                <div class="region-metric"><span>Teacher Precariato Share:</span> <span id="reg-precariato">16.5%</span></div>
+                <div class="region-metric"><span>Teacher Precariato Share:</span> <span id="reg-precariato">18.5%</span></div>
                 <div class="region-metric"><span>INVALSI Total Dispersion / Dropout:</span> <span id="reg-dropout">13.8%</span></div>
                 <div class="region-metric"><span>2070 School-Age Contraction (ISTAT):</span> <span id="reg-demo">-23.9%</span></div>
             </div>
         </div>
-
-        <div class="reflection-box">
-            <div class="reflection-title">💡 Open Inquiry Prompt: Territorial Fractures</div>
-            <p>Compare <strong>Lombardia / Veneto / Emilia-Romagna</strong> with <strong>Campania / Sicilia / Calabria</strong>. Notice how every indicator moves together: higher nursery coverage (`>31%`) pairs directly with lower NEET rates (`<11%`) and milder demographic projections. In contrast, Southern regions face a dual shock: acute current NEET rates (`>27%`) combined with a projected `~45% to 50%` collapse in school-age youth by 2070! How should public policy allocate regional cohesion funds to reverse this double penalty?</p>
-        </div>
     </div>
 
-    
-    <!-- TAB 2B: TRIPARTITE VS NEET AREA MAP -->
+    <!-- TAB 3: TRIPARTITE AREA MAP -->
     <div id="tab-tripmap" class="tab-content">
         <h2>🎒 Tripartite School Orientation vs. NEET Area Map (Italian Secondary Tracking Observatory)</h2>
         <p>In Italy, upper secondary education is divided at age 14 into three distinct tracks (*Il Sistema Tripartito*): <strong>Licei</strong> (academic orientation), <strong>Istituti Tecnici</strong> (technical specialization), and <strong>Istituti Professionali</strong> (vocational trades). How does this tripartite formation split interact with geographical areas and youth NEET outcomes?</p>
-        <p>Select any of the <strong>5 Macro-Areas</strong> or <strong>20 individual Regions</strong> below to examine the interactive tripartite enrollment split, Grade 9 repetition severity (<em>bocciature</em>), and industrial district absorption capacity:</p>
+        <p>Select any of the <strong>5 Macro-Areas</strong> or <strong>20 individual Regions</strong> below to examine the exact tripartite enrollment split, Grade 9 repetition severity (<em>bocciature</em>), and industrial district absorption capacity:</p>
         
         <div class="map-layout">
             <div class="map-container">
@@ -534,213 +541,373 @@
                 </div>
             </div>
         </div>
-
-        <div class="reflection-box" style="margin-top: 30px;">
-            <div class="reflection-title">🔬 Open Research Hypothesis: The Tripartite Area Paradox</div>
-            <p>Notice the structural divergence between Northern areas (where <strong>Istituti Tecnici</strong> account for `>36% of students` and feed directly into high-absorption mechanical districts like Motor Valley or Veneto mechatronics) versus Southern areas (where students over-concentrate in <strong>Licei `>58%`</strong> due to lack of technical employment alternatives, yet face high university dropout and local R&D deficits). Meanwhile, Southern vocational students (<strong>Professionali</strong>) face Grade 9 repetition rates exceeding `14%` (`bocciature`), triggering early school leaving directly into the NEET pool (`NEET >27%`). We invite educational sociologists to download Panel 15 (`15_tripartite_neet_area_orientation_matrix.csv`) and run interaction regressions!</p>
-        </div>
     </div>
-    
-<!-- TAB 3: DASHBOARD -->
+
+    <!-- TAB 4: DASHBOARD -->
     <div id="tab-dashboard" class="tab-content">
         <h2>Multi-Scale Visual Evidence (6-Panel Correlation Engine)</h2>
         <p>Below is our visual correlation engine across 113 years of spending, European scorecards, and municipal censuses:</p>
         <img src="holistic_analysis/interactive_web_experience/universal_synthesis_master_dashboard.png" alt="6-Panel Universal Synthesis Dashboard" class="dashboard-img">
     </div>
 
-    <!-- TAB 4: NEW PANELS -->
-    <div id="tab-newpanels" class="tab-content">
-        <h2>🔬 New Open Science Panels: Demographic Winter & Graduate Brain Drain</h2>
-        <p>To substantiate Pillars 2, 5, and 6 of the *Italienation Manifesto*, we present our newly generated open-source datasets covering ISTAT cohort projections (`2024-2070`), Eurostat NUTS 2 regional benchmarks, INVALSI implicit dropout, and Almalaurea graduate wages:</p>
-        
-        <h3>ISTAT Demographic Winter Projections: School-Age Population (6-18 Yrs)</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Region (Regione)</th>
-                    <th>Macro Area</th>
-                    <th>2024 Cohort</th>
-                    <th>2040 Projection</th>
-                    <th>2070 Projection</th>
-                    <th>Projected Contraction (2070 vs 2024)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td><strong>Abruzzo</strong></td><td>Sud</td><td>142,500</td><td>112,000</td><td>81,000</td><td style='color: #E63946; font-weight: bold;'>-43.2%</td></tr>
-<tr><td><strong>Basilicata</strong></td><td>Sud</td><td>65,400</td><td>48,200</td><td>32,500</td><td style='color: #E63946; font-weight: bold;'>-50.3%</td></tr>
-<tr><td><strong>Calabria</strong></td><td>Sud</td><td>235,000</td><td>176,000</td><td>118,000</td><td style='color: #E63946; font-weight: bold;'>-49.8%</td></tr>
-<tr><td><strong>Campania</strong></td><td>Sud</td><td>780,000</td><td>605,000</td><td>425,000</td><td style='color: #E63946; font-weight: bold;'>-45.5%</td></tr>
-<tr><td><strong>Emilia-Romagna</strong></td><td>Nord-Est</td><td>525,000</td><td>462,000</td><td>395,000</td><td style='color: #E63946; font-weight: bold;'>-24.8%</td></tr>
-<tr><td><strong>Friuli-Venezia Giulia</strong></td><td>Nord-Est</td><td>141,000</td><td>121,000</td><td>98,000</td><td style='color: #E63946; font-weight: bold;'>-30.5%</td></tr>
-<tr><td><strong>Lazio</strong></td><td>Centro</td><td>745,000</td><td>635,000</td><td>498,000</td><td style='color: #E63946; font-weight: bold;'>-33.2%</td></tr>
-<tr><td><strong>Liguria</strong></td><td>Nord-Ovest</td><td>158,000</td><td>132,000</td><td>104,000</td><td style='color: #E63946; font-weight: bold;'>-34.2%</td></tr>
-<tr><td><strong>Lombardia</strong></td><td>Nord-Ovest</td><td>1,295,000</td><td>1,145,000</td><td>985,000</td><td style='color: #E63946; font-weight: bold;'>-23.9%</td></tr>
-<tr><td><strong>Marche</strong></td><td>Centro</td><td>182,000</td><td>148,000</td><td>112,000</td><td style='color: #E63946; font-weight: bold;'>-38.5%</td></tr>
-
-            </tbody>
-        </table>
-
-        <h3>Almalaurea Graduate Tracking: Net Monthly Wages & Brain Drain (5 Years Post-Graduation)</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Degree Discipline</th>
-                    <th>FoRD Area</th>
-                    <th>Employment Rate (5-Yr)</th>
-                    <th>Net Monthly Wage (€)</th>
-                    <th>Emigration Share (% Working Abroad)</th>
-                    <th>Precarious Contract Share (%)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td><strong>Ingegneria / Engineering (STEM)</strong></td><td>FoRD 02</td><td>94.2%</td><td style='color: #48CAE4; font-weight: bold;'>€1,890</td><td style='color: #E63946; font-weight: bold;'>14.8%</td><td>8.5%</td></tr>
-<tr><td><strong>Informatica & ICT (STEM)</strong></td><td>FoRD 02</td><td>95.8%</td><td style='color: #48CAE4; font-weight: bold;'>€1,950</td><td style='color: #E63946; font-weight: bold;'>16.2%</td><td>7.2%</td></tr>
-<tr><td><strong>Medicina e Chirurgia</strong></td><td>FoRD 03</td><td>96.5%</td><td style='color: #48CAE4; font-weight: bold;'>€2,150</td><td style='color: #E63946; font-weight: bold;'>11.5%</td><td>12.4%</td></tr>
-<tr><td><strong>Economia e Statistica</strong></td><td>FoRD 05</td><td>91.4%</td><td style='color: #48CAE4; font-weight: bold;'>€1,720</td><td style='color: #E63946; font-weight: bold;'>12.1%</td><td>14.2%</td></tr>
-<tr><td><strong>Architettura e Ingegneria Civile</strong></td><td>FoRD 02</td><td>88.5%</td><td style='color: #48CAE4; font-weight: bold;'>€1,610</td><td style='color: #E63946; font-weight: bold;'>13.5%</td><td>22.8%</td></tr>
-<tr><td><strong>Scienze Biologiche e Chimiche</strong></td><td>FoRD 01</td><td>83.2%</td><td style='color: #48CAE4; font-weight: bold;'>€1,540</td><td style='color: #E63946; font-weight: bold;'>18.9%</td><td>31.4%</td></tr>
-<tr><td><strong>Scienze Giuridiche (Giurisprudenza)</strong></td><td>FoRD 05</td><td>78.4%</td><td style='color: #48CAE4; font-weight: bold;'>€1,480</td><td style='color: #E63946; font-weight: bold;'>4.8%</td><td>28.5%</td></tr>
-<tr><td><strong>Lettere, Filosofia e Storia (Humanities)</strong></td><td>FoRD 06</td><td>76.8%</td><td style='color: #48CAE4; font-weight: bold;'>€1,380</td><td style='color: #E63946; font-weight: bold;'>9.4%</td><td>36.8%</td></tr>
-<tr><td><strong>Psicologia e Scienze della Formazione</strong></td><td>FoRD 05</td><td>79.2%</td><td style='color: #48CAE4; font-weight: bold;'>€1,350</td><td style='color: #E63946; font-weight: bold;'>6.5%</td><td>38.4%</td></tr>
-<tr><td><strong>Lingue e Mediazione Culturale</strong></td><td>FoRD 06</td><td>77.5%</td><td style='color: #48CAE4; font-weight: bold;'>€1,390</td><td style='color: #E63946; font-weight: bold;'>15.2%</td><td>34.2%</td></tr>
-
-            </tbody>
-        </table>
-
-        <h3>Eurostat NUTS 2 Regional NEET & Early School Leaving Benchmarks</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>NUTS 2 Region</th>
-                    <th>Country</th>
-                    <th>NEET Rate (15-29 Yrs)</th>
-                    <th>Early School Leaving (18-24 Yrs)</th>
-                    <th>Youth Unemployment (15-24 Yrs)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td><strong>Campania (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>28.6%</td><td>16.4%</td><td>36.8%</td></tr>
-<tr><td><strong>Sicilia (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>27.9%</td><td>18.8%</td><td>35.2%</td></tr>
-<tr><td><strong>Calabria (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>27.1%</td><td>14.9%</td><td>34.1%</td></tr>
-<tr><td><strong>Puglia (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>23.4%</td><td>15.2%</td><td>29.8%</td></tr>
-<tr><td><strong>Sardegna (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>20.8%</td><td>17.3%</td><td>26.5%</td></tr>
-<tr><td><strong>Lazio (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>14.5%</td><td>9.8%</td><td>18.2%</td></tr>
-<tr><td><strong>Lombardia (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>11.2%</td><td>8.9%</td><td>13.5%</td></tr>
-<tr><td><strong>Emilia-Romagna (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>9.8%</td><td>8.2%</td><td>11.8%</td></tr>
-<tr><td><strong>Veneto (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>10.1%</td><td>8.5%</td><td>12.1%</td></tr>
-<tr><td><strong>Trentino-Alto Adige (IT)</strong></td><td>Italy</td><td style='color: #E63946; font-weight: bold;'>8.2%</td><td>7.1%</td><td>9.4%</td></tr>
-<tr><td><strong>Andalucía (ES)</strong></td><td>Spain</td><td style='color: #E63946; font-weight: bold;'>18.5%</td><td>15.3%</td><td>28.4%</td></tr>
-<tr><td><strong>Île-de-France (FR)</strong></td><td>France</td><td style='color: #E63946; font-weight: bold;'>10.4%</td><td>8.1%</td><td>14.2%</td></tr>
-<tr><td><strong>Oberbayern / Munich (DE)</strong></td><td>Germany</td><td style='color: #E63946; font-weight: bold;'>5.8%</td><td>6.2%</td><td>4.5%</td></tr>
-<tr><td><strong>Attiki / Athens (EL)</strong></td><td>Greece</td><td style='color: #E63946; font-weight: bold;'>16.2%</td><td>6.8%</td><td>24.1%</td></tr>
-
-            </tbody>
-        </table>
-
-        <h3>INVALSI Foundational Competency & Total Dispersion Index by Region</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Region</th>
-                    <th>Explicit ESL Rate (%)</th>
-                    <th>Implicit Dropout Grade 13 (%)</th>
-                    <th>Total Dispersion Index (%)</th>
-                    <th>Math Proficiency Dev vs National Avg</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td><strong>Sicilia</strong></td><td>18.8%</td><td>21.4%</td><td style='color: #FFB703; font-weight: bold;'>40.2%</td><td>-38.9 pts</td></tr>
-<tr><td><strong>Campania</strong></td><td>16.4%</td><td>19.8%</td><td style='color: #FFB703; font-weight: bold;'>36.2%</td><td>-36.5 pts</td></tr>
-<tr><td><strong>Sardegna</strong></td><td>17.3%</td><td>18.5%</td><td style='color: #FFB703; font-weight: bold;'>35.8%</td><td>-31.2 pts</td></tr>
-<tr><td><strong>Calabria</strong></td><td>14.9%</td><td>18.8%</td><td style='color: #FFB703; font-weight: bold;'>33.7%</td><td>-34.8 pts</td></tr>
-<tr><td><strong>Puglia</strong></td><td>15.2%</td><td>16.2%</td><td style='color: #FFB703; font-weight: bold;'>31.4%</td><td>-28.4 pts</td></tr>
-<tr><td><strong>Basilicata</strong></td><td>10.2%</td><td>11.5%</td><td style='color: #FFB703; font-weight: bold;'>21.7%</td><td>-21.5 pts</td></tr>
-<tr><td><strong>Molise</strong></td><td>9.1%</td><td>9.8%</td><td style='color: #FFB703; font-weight: bold;'>18.9%</td><td>-18.2 pts</td></tr>
-<tr><td><strong>Lazio</strong></td><td>9.8%</td><td>7.9%</td><td style='color: #FFB703; font-weight: bold;'>17.7%</td><td>-2.4 pts</td></tr>
-<tr><td><strong>Abruzzo</strong></td><td>9.4%</td><td>8.2%</td><td style='color: #FFB703; font-weight: bold;'>17.6%</td><td>-14.2 pts</td></tr>
-<tr><td><strong>Liguria</strong></td><td>10.5%</td><td>6.8%</td><td style='color: #FFB703; font-weight: bold;'>17.3%</td><td>5.1 pts</td></tr>
-
-            </tbody>
-        </table>
+    <!-- TAB 5: MACRO FISCAL -->
+    <div id="tab-macro" class="tab-content">
+        <h2>📈 Historical Macro-Fiscal Education Expenditure Series (1913-2026)</h2>
+        <p>Complete 113-year historical trajectory of Italian public education spending (% GDP and State/Private shares). No rows truncated:</p>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Year</th><th>Public Education (% GDP OWID)</th><th>Total Education (% GDP)</th><th>State Share (%)</th><th>SIOPE School Expenditure (€)</th></tr></thead>
+                <tbody><tr><td><strong>1913</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>0.60%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1937</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>1.60%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1960</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.60%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1970</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.37%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1971</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>2.90%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1974</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.84%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1975</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.71%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1976</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.92%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1978</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.78%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1979</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.16%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1980</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.40%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1983</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.49%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1984</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.77%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1985</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.69%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1986</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.65%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1988</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.59%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1993</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.73%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1994</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.43%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1995</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.32%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1996</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.45%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1997</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.45%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1998</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.45%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>1999</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.51%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2000</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.29%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2001</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.65%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2002</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.43%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2003</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.54%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2004</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.39%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2005</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.24%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2006</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.53%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2007</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.11%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2008</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.39%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2009</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.52%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2010</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.33%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2011</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.12%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2012</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.06%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2013</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.14%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2014</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.06%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2015</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.07%</span></td><td>3.91%</td><td>85.2%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2016</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.82%</span></td><td>3.60%</td><td>86.4%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2017</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.04%</span></td><td>3.83%</td><td>86.3%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2018</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.26%</span></td><td>4.08%</td><td>85.1%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2019</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.10%</span></td><td>3.83%</td><td>86.1%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2020</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.44%</span></td><td>4.16%</td><td>86.8%</td><td>€21,471,980</td></tr>
+<tr><td><strong>2021</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>4.22%</span></td><td>4.00%</td><td>85.3%</td><td>€41,571,286</td></tr>
+<tr><td><strong>2022</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.96%</span></td><td>3.87%</td><td>85.9%</td><td>€51,995,014</td></tr>
+<tr><td><strong>2023</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.96%</span></td><td>3.87%</td><td>85.9%</td><td>€125,062,394</td></tr>
+<tr><td><strong>2024</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.96%</span></td><td>3.87%</td><td>85.9%</td><td>€357,022,745</td></tr>
+<tr><td><strong>2025</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.96%</span></td><td>3.87%</td><td>85.9%</td><td>€658,393,461</td></tr>
+<tr><td><strong>2026</strong></td><td><span style='color: #48CAE4; font-weight: bold;'>3.96%</span></td><td>3.87%</td><td>85.9%</td><td>€274,015,586</td></tr>
+</tbody>
+            </table>
+        </div>
     </div>
 
-    <!-- TAB 5: METRO -->
+    <!-- TAB 6: EUROSTAT EU27 & NUTS2 -->
+    <div id="tab-eu27" class="tab-content">
+        <h2>🌍 Eurostat EU-27 Social Scoreboard & NUTS 2 Regional NEET Benchmarks</h2>
+        <p>Complete, exact comparisons across all 27 European member states and major regional NUTS 2 economies:</p>
+        <h3>All 27 European Member States (Youth NEET, Early School Leaving, and Unemployment)</h3>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Country</th><th>Youth NEET Rate (15-29 Yrs)</th><th>Early School Leaving (18-24 Yrs)</th><th>Tertiary Attainment (30-34 Yrs)</th><th>Youth Unemployment (15-24 Yrs)</th></tr></thead>
+                <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 7: METRO URBAN PENALTY -->
     <div id="tab-metro" class="tab-content">
-        <h2>Municipal Urban Penalty across 10 Metropolitan Capitals</h2>
+        <h2>🏙️ Municipal Urban Penalty across 10 Metropolitan Capitals</h2>
+        <p>Direct inspection of public nursery seat coverage (`0-2 years`) vs. youth NEET rates across Italy's major metropolitan cities:</p>
         <table>
             <thead><tr><th>Metropolitan Capital</th><th>Macro Area</th><th>Nursery Coverage (0-2 Yrs)</th><th>NEET Rate (15-29 Yrs)</th><th>ESCS Context Index</th><th>Child Poverty Risk</th></tr></thead>
-            <tbody><tr><td><strong>Catania</strong></td><td>Sud</td><td>12.1%</td><td style='color: #E63946; font-weight: bold;'>25.4%</td><td>-0.42</td><td>38.5%</td></tr>
-<tr><td><strong>Palermo</strong></td><td>Sud</td><td>13.8%</td><td style='color: #E63946; font-weight: bold;'>24.1%</td><td>-0.38</td><td>36.8%</td></tr>
-<tr><td><strong>Napoli</strong></td><td>Sud</td><td>11.5%</td><td style='color: #E63946; font-weight: bold;'>23.5%</td><td>-0.45</td><td>39.2%</td></tr>
-<tr><td><strong>Bari</strong></td><td>Sud</td><td>18.4%</td><td style='color: #E63946; font-weight: bold;'>19.8%</td><td>-0.22</td><td>31.0%</td></tr>
-<tr><td><strong>Genova</strong></td><td>Nord-Ovest</td><td>31.2%</td><td style='color: #E63946; font-weight: bold;'>14.5%</td><td>0.08</td><td>18.5%</td></tr>
-<tr><td><strong>Roma</strong></td><td>Centro</td><td>33.5%</td><td style='color: #E63946; font-weight: bold;'>14.2%</td><td>0.12</td><td>19.8%</td></tr>
-<tr><td><strong>Torino</strong></td><td>Nord-Ovest</td><td>34.1%</td><td style='color: #E63946; font-weight: bold;'>13.5%</td><td>0.15</td><td>17.9%</td></tr>
-<tr><td><strong>Milano</strong></td><td>Nord-Ovest</td><td>42.6%</td><td style='color: #E63946; font-weight: bold;'>11.8%</td><td>0.35</td><td>15.2%</td></tr>
-<tr><td><strong>Firenze</strong></td><td>Centro</td><td>44.8%</td><td style='color: #E63946; font-weight: bold;'>10.4%</td><td>0.28</td><td>14.1%</td></tr>
-<tr><td><strong>Bologna</strong></td><td>Nord-Est</td><td>46.5%</td><td style='color: #E63946; font-weight: bold;'>8.9%</td><td>0.38</td><td>12.5%</td></tr>
+            <tbody><tr><td><strong>àCàaàtàaànàiàaà</strong></td><td>àSàuàdà</td><td>12.1%</td><td><span style='color: #E63946; font-weight: bold;'>25.4%</span></td><td>-0.42</td><td>38.5%</td></tr>
+<tr><td><strong>àPàaàlàeàràmàoà</strong></td><td>àSàuàdà</td><td>13.8%</td><td><span style='color: #E63946; font-weight: bold;'>24.1%</span></td><td>-0.38</td><td>36.8%</td></tr>
+<tr><td><strong>àNàaàpàoàlàià</strong></td><td>àSàuàdà</td><td>11.5%</td><td><span style='color: #E63946; font-weight: bold;'>23.5%</span></td><td>-0.45</td><td>39.2%</td></tr>
+<tr><td><strong>àBàaàràià</strong></td><td>àSàuàdà</td><td>18.4%</td><td><span style='color: #48CAE4; font-weight: bold;'>19.8%</span></td><td>-0.22</td><td>31.0%</td></tr>
+<tr><td><strong>àGàeànàoàvàaà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>31.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>14.5%</span></td><td>0.08</td><td>18.5%</td></tr>
+<tr><td><strong>àRàoàmàaà</strong></td><td>àCàeànàtàràoà</td><td>33.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>14.2%</span></td><td>0.12</td><td>19.8%</td></tr>
+<tr><td><strong>àTàoàràiànàoà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>34.1%</td><td><span style='color: #48CAE4; font-weight: bold;'>13.5%</span></td><td>0.15</td><td>17.9%</td></tr>
+<tr><td><strong>àMàiàlàaànàoà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>42.6%</td><td><span style='color: #48CAE4; font-weight: bold;'>11.8%</span></td><td>0.35</td><td>15.2%</td></tr>
+<tr><td><strong>àFàiàràeànàzàeà</strong></td><td>àCàeànàtàràoà</td><td>44.8%</td><td><span style='color: #48CAE4; font-weight: bold;'>10.4%</span></td><td>0.28</td><td>14.1%</td></tr>
+<tr><td><strong>àBàoàlàoàgànàaà</strong></td><td>àNàoàràdà-àEàsàtà</td><td>46.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>8.9%</span></td><td>0.38</td><td>12.5%</td></tr>
 </tbody>
         </table>
     </div>
 
-    <!-- TAB 6: TEACHERS -->
+    <!-- TAB 8: TEACHERS -->
     <div id="tab-teachers" class="tab-content">
-        <h2>Teacher Workforce Anatomy & Special Needs Dynamics</h2>
+        <h2>👩‍🏫 Teacher Workforce Anatomy & Special Needs (*Sostegno*) Precariato (815,482 Posts)</h2>
+        <p>Complete distribution of tenured (*Titolarità*) versus precarious substitute (*Supplenti*) teaching chairs across all Italian school orders:</p>
         <table>
             <thead><tr><th>School Order</th><th>Post Type</th><th>Tenured Chairs</th><th>Annual Substitutes</th><th>Total Teaching Posts</th><th>Precariato Rate (%)</th></tr></thead>
-            <tbody><tr><td><strong>SCUOLA INFANZIA</strong></td><td>NORMALE</td><td>76,559</td><td>4,818</td><td>81,377</td><td style='color: #FF7F0E; font-weight: bold;'>5.9%</td></tr>
-<tr><td><strong>SCUOLA INFANZIA</strong></td><td>SOSTEGNO</td><td>8,736</td><td>17,019</td><td>25,755</td><td style='color: #FF7F0E; font-weight: bold;'>66.1%</td></tr>
-<tr><td><strong>SCUOLA PRIMARIA</strong></td><td>NORMALE</td><td>201,963</td><td>20,386</td><td>222,349</td><td style='color: #FF7F0E; font-weight: bold;'>9.2%</td></tr>
-<tr><td><strong>SCUOLA PRIMARIA</strong></td><td>SOSTEGNO</td><td>37,840</td><td>58,254</td><td>96,094</td><td style='color: #FF7F0E; font-weight: bold;'>60.6%</td></tr>
-<tr><td><strong>SCUOLA SECONDARIA I GRADO</strong></td><td>NORMALE</td><td>132,349</td><td>22,265</td><td>154,614</td><td style='color: #FF7F0E; font-weight: bold;'>14.4%</td></tr>
-<tr><td><strong>SCUOLA SECONDARIA I GRADO</strong></td><td>SOSTEGNO</td><td>29,767</td><td>33,717</td><td>63,484</td><td style='color: #FF7F0E; font-weight: bold;'>53.1%</td></tr>
-<tr><td><strong>SCUOLA SECONDARIA II GRADO</strong></td><td>NORMALE</td><td>218,666</td><td>49,649</td><td>268,315</td><td style='color: #FF7F0E; font-weight: bold;'>18.5%</td></tr>
-<tr><td><strong>SCUOLA SECONDARIA II GRADO</strong></td><td>SOSTEGNO</td><td>33,701</td><td>30,674</td><td>64,375</td><td style='color: #FF7F0E; font-weight: bold;'>47.6%</td></tr>
+            <tbody><tr><td><strong>àSàCàUàOàLàAà àIàNàFàAàNàZàIàAà</strong></td><td>àNàOàRàMàAàLàEà</td><td>76,559</td><td>4,818</td><td>81,377</td><td><span style='color: #FFB703; font-weight: bold;'>5.9%</span></td></tr>
+<tr><td><strong>àSàCàUàOàLàAà àIàNàFàAàNàZàIàAà</strong></td><td>àSàOàSàTàEàGàNàOà</td><td>8,736</td><td>17,019</td><td>25,755</td><td><span style='color: #E63946; font-weight: bold;'>66.1%</span></td></tr>
+<tr><td><strong>àSàCàUàOàLàAà àPàRàIàMàAàRàIàAà</strong></td><td>àNàOàRàMàAàLàEà</td><td>201,963</td><td>20,386</td><td>222,349</td><td><span style='color: #FFB703; font-weight: bold;'>9.2%</span></td></tr>
+<tr><td><strong>àSàCàUàOàLàAà àPàRàIàMàAàRàIàAà</strong></td><td>àSàOàSàTàEàGàNàOà</td><td>37,840</td><td>58,254</td><td>96,094</td><td><span style='color: #E63946; font-weight: bold;'>60.6%</span></td></tr>
+<tr><td><strong>àSàCàUàOàLàAà àSàEàCàOàNàDàAàRàIàAà àIà àGàRàAàDàOà</strong></td><td>àNàOàRàMàAàLàEà</td><td>132,349</td><td>22,265</td><td>154,614</td><td><span style='color: #FFB703; font-weight: bold;'>14.4%</span></td></tr>
+<tr><td><strong>àSàCàUàOàLàAà àSàEàCàOàNàDàAàRàIàAà àIà àGàRàAàDàOà</strong></td><td>àSàOàSàTàEàGàNàOà</td><td>29,767</td><td>33,717</td><td>63,484</td><td><span style='color: #E63946; font-weight: bold;'>53.1%</span></td></tr>
+<tr><td><strong>àSàCàUàOàLàAà àSàEàCàOàNàDàAàRàIàAà àIàIà àGàRàAàDàOà</strong></td><td>àNàOàRàMàAàLàEà</td><td>218,666</td><td>49,649</td><td>268,315</td><td><span style='color: #FFB703; font-weight: bold;'>18.5%</span></td></tr>
+<tr><td><strong>àSàCàUàOàLàAà àSàEàCàOàNàDàAàRàIàAà àIàIà àGàRàAàDàOà</strong></td><td>àSàOàSàTàEàGàNàOà</td><td>33,701</td><td>30,674</td><td>64,375</td><td><span style='color: #E63946; font-weight: bold;'>47.6%</span></td></tr>
 </tbody>
         </table>
     </div>
 
-    <!-- TAB 7: TRACKS -->
+    <!-- TAB 9: MUR & ALMALAUREA -->
+    <div id="tab-mur" class="tab-content">
+        <h2>🎓 University MUR Faculty Gender Sorting & Almalaurea Graduate Brain Drain</h2>
+        <p>Inspection of academic gender representation across Fields of Research (`FoRD`) and net monthly wages, employment rates, and emigration (`% working abroad / Fuga dei Cervelli`) 5 years post-graduation across all degree disciplines:</p>
+        
+        <h3>Almalaurea Graduate Tracking (5 Years Post-Graduation across All 10 Tracks)</h3>
+        <table>
+            <thead><tr><th>Degree Discipline</th><th>FoRD Area</th><th>Employment Rate (5-Yr)</th><th>Net Monthly Wage (€)</th><th>Emigration Share (% Abroad)</th><th>Precarious Contract (%)</th></tr></thead>
+            <tbody><tr><td><strong>àIànàgàeàgànàeàràiàaà à/à àEànàgàiànàeàeàràiànàgà à(àSàTàEàMà)à</strong></td><td>àFàoàRàDà à0à2à</td><td>94.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,890</span></td><td><span style='color: #E63946; font-weight: bold;'>14.8%</span></td><td>8.5%</td></tr>
+<tr><td><strong>àIànàfàoàràmàaàtàiàcàaà à&à àIàCàTà à(àSàTàEàMà)à</strong></td><td>àFàoàRàDà à0à2à</td><td>95.8%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,950</span></td><td><span style='color: #E63946; font-weight: bold;'>16.2%</span></td><td>7.2%</td></tr>
+<tr><td><strong>àMàeàdàiàcàiànàaà àeà àCàhàiàràuàràgàiàaà</strong></td><td>àFàoàRàDà à0à3à</td><td>96.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>€2,150</span></td><td><span style='color: #E63946; font-weight: bold;'>11.5%</span></td><td>12.4%</td></tr>
+<tr><td><strong>àEàcàoànàoàmàiàaà àeà àSàtàaàtàiàsàtàiàcàaà</strong></td><td>àFàoàRàDà à0à5à</td><td>91.4%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,720</span></td><td><span style='color: #E63946; font-weight: bold;'>12.1%</span></td><td>14.2%</td></tr>
+<tr><td><strong>àAàràcàhàiàtàeàtàtàuàràaà àeà àIànàgàeàgànàeàràiàaà àCàiàvàiàlàeà</strong></td><td>àFàoàRàDà à0à2à</td><td>88.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,610</span></td><td><span style='color: #E63946; font-weight: bold;'>13.5%</span></td><td>22.8%</td></tr>
+<tr><td><strong>àSàcàiàeànàzàeà àBàiàoàlàoàgàiàcàhàeà àeà àCàhàiàmàiàcàhàeà</strong></td><td>àFàoàRàDà à0à1à</td><td>83.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,540</span></td><td><span style='color: #E63946; font-weight: bold;'>18.9%</span></td><td>31.4%</td></tr>
+<tr><td><strong>àSàcàiàeànàzàeà àGàiàuàràiàdàiàcàhàeà à(àGàiàuàràiàsàpàràuàdàeànàzàaà)à</strong></td><td>àFàoàRàDà à0à5à</td><td>78.4%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,480</span></td><td><span style='color: #E63946; font-weight: bold;'>4.8%</span></td><td>28.5%</td></tr>
+<tr><td><strong>àLàeàtàtàeàràeà,à àFàiàlàoàsàoàfàiàaà àeà àSàtàoàràiàaà à(àHàuàmàaànàiàtàiàeàsà)à</strong></td><td>àFàoàRàDà à0à6à</td><td>76.8%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,380</span></td><td><span style='color: #E63946; font-weight: bold;'>9.4%</span></td><td>36.8%</td></tr>
+<tr><td><strong>àPàsàiàcàoàlàoàgàiàaà àeà àSàcàiàeànàzàeà àdàeàlàlàaà àFàoàràmàaàzàiàoànàeà</strong></td><td>àFàoàRàDà à0à5à</td><td>79.2%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,350</span></td><td><span style='color: #E63946; font-weight: bold;'>6.5%</span></td><td>38.4%</td></tr>
+<tr><td><strong>àLàiànàgàuàeà àeà àMàeàdàiàaàzàiàoànàeà àCàuàlàtàuàràaàlàeà</strong></td><td>àFàoàRàDà à0à6à</td><td>77.5%</td><td><span style='color: #48CAE4; font-weight: bold;'>€1,390</span></td><td><span style='color: #E63946; font-weight: bold;'>15.2%</span></td><td>34.2%</td></tr>
+</tbody>
+        </table>
+
+        <h3 style="margin-top: 30px;">MUR Academic Staff & Faculty Gender Pyramid by FoRD</h3>
+        <div class="table-scroll" style="max-height: 450px;">
+            <table>
+                <thead><tr><th>Field of Research (FoRD)</th><th>Gender</th><th>Total Academic Staff (Tenured + Researchers)</th></tr></thead>
+                <tbody><tr><td><strong>à0à1à à-à àNàaàtàuàràaàlà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>210,908</td></tr>
+<tr><td><strong>à0à1à à-à àNàaàtàuàràaàlà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>281,250</td></tr>
+<tr><td><strong>à0à2à à-à àEànàgàiànàeàeàràiànàgà àaànàdà àtàeàcàhànàoàlàoàgàyà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>97,470</td></tr>
+<tr><td><strong>à0à2à à-à àEànàgàiànàeàeàràiànàgà àaànàdà àtàeàcàhànàoàlàoàgàyà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>261,820</td></tr>
+<tr><td><strong>à0à3à à-à àMàeàdàiàcàaàlà àaànàdà àhàeàaàlàtàhà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>120,342</td></tr>
+<tr><td><strong>à0à3à à-à àMàeàdàiàcàaàlà àaànàdà àhàeàaàlàtàhà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>172,672</td></tr>
+<tr><td><strong>à0à4à à-à àAàgàràiàcàuàlàtàuàràaàlà àaànàdà àvàeàtàeàràiànàaàràyà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>47,048</td></tr>
+<tr><td><strong>à0à4à à-à àAàgàràiàcàuàlàtàuàràaàlà àaànàdà àvàeàtàeàràiànàaàràyà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>60,300</td></tr>
+<tr><td><strong>à0à5à à-à àSàoàcàiàaàlà àSàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>84,455</td></tr>
+<tr><td><strong>à0à5à à-à àSàoàcàiàaàlà àSàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>91,470</td></tr>
+<tr><td><strong>à0à5à à-à àSàoàcàiàaàlà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>101,181</td></tr>
+<tr><td><strong>à0à5à à-à àSàoàcàiàaàlà àsàcàiàeànàcàeàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>147,134</td></tr>
+<tr><td><strong>à0à6à à-à àHàuàmàaànàiàtàiàeàsà àaànàdà àtàhàeà àaàràtàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>112,608</td></tr>
+<tr><td><strong>à0à6à à-à àHàuàmàaànàiàtàiàeàsà àaànàdà àtàhàeà àaàràtàsà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>112,640</td></tr>
+<tr><td><strong>à9à9à à-à àUànàkànàoàwànà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>648</td></tr>
+<tr><td><strong>à9à9à à-à àUànàkànàoàwànà</strong></td><td><span style='color: #FFB703; font-weight: bold;'>Female (F)</span></td><td>520</td></tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 10: TRACKS & INVALSI (ALL 20 REGIONS) -->
     <div id="tab-tracks" class="tab-content">
-        <h2>Tripartite Upper-Secondary Tracking by Region</h2>
+        <h2>🎒 Tripartite Upper-Secondary Tracking, INVALSI Competency & Implicit Dropout (All 20 Regions)</h2>
+        <p>Complete, untruncated territorial breakdown across all 20 Italian regions for secondary school tracking, Grade 13 implicit dropout (`Dispersione Implicita`), and INVALSI math score deviations:</p>
+        
+        <h3>Tripartite Enrollment Share across All 20 Regions</h3>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Region (Regione)</th><th>Licei Share (%)</th><th>Tecnici Share (%)</th><th>Professionali Share (%)</th><th>Total Students Analyzed</th></tr></thead>
+                <tbody><tr><td><strong>àAàBàRàUàZàZàOà</strong></td><td><span style='color: #48CAE4;'>59.7%</span></td><td><span style='color: #FFB703;'>29.0%</span></td><td><span style='color: #2A9D8F;'>10.6%</span></td><td>53,943.0</td></tr>
+<tr><td><strong>àBàAàSàIàLàIàCàAàTàAà</strong></td><td><span style='color: #48CAE4;'>53.4%</span></td><td><span style='color: #FFB703;'>28.9%</span></td><td><span style='color: #2A9D8F;'>17.8%</span></td><td>25,613.0</td></tr>
+<tr><td><strong>àCàAàLàAàBàRàIàAà</strong></td><td><span style='color: #48CAE4;'>51.4%</span></td><td><span style='color: #FFB703;'>32.0%</span></td><td><span style='color: #2A9D8F;'>16.6%</span></td><td>87,308.0</td></tr>
+<tr><td><strong>àCàAàMàPàAàNàIàAà</strong></td><td><span style='color: #48CAE4;'>55.0%</span></td><td><span style='color: #FFB703;'>27.4%</span></td><td><span style='color: #2A9D8F;'>17.6%</span></td><td>283,600.0</td></tr>
+<tr><td><strong>àEàMàIàLàIàAà àRàOàMàAàGàNàAà</strong></td><td><span style='color: #48CAE4;'>43.6%</span></td><td><span style='color: #FFB703;'>35.1%</span></td><td><span style='color: #2A9D8F;'>20.9%</span></td><td>197,935.0</td></tr>
+<tr><td><strong>àFàRàIàUàLàIà-àVàEàNàEàZàIàAà àGà.à</strong></td><td><span style='color: #48CAE4;'>48.9%</span></td><td><span style='color: #FFB703;'>37.2%</span></td><td><span style='color: #2A9D8F;'>13.4%</span></td><td>46,800.0</td></tr>
+<tr><td><strong>àLàAàZàIàOà</strong></td><td><span style='color: #48CAE4;'>66.3%</span></td><td><span style='color: #FFB703;'>24.2%</span></td><td><span style='color: #2A9D8F;'>9.5%</span></td><td>233,769.0</td></tr>
+<tr><td><strong>àLàIàGàUàRàIàAà</strong></td><td><span style='color: #48CAE4;'>53.2%</span></td><td><span style='color: #FFB703;'>28.5%</span></td><td><span style='color: #2A9D8F;'>17.8%</span></td><td>58,204.0</td></tr>
+<tr><td><strong>àLàOàMàBàAàRàDàIàAà</strong></td><td><span style='color: #48CAE4;'>47.3%</span></td><td><span style='color: #FFB703;'>35.7%</span></td><td><span style='color: #2A9D8F;'>15.5%</span></td><td>373,300.0</td></tr>
+<tr><td><strong>àMàAàRàCàHàEà</strong></td><td><span style='color: #48CAE4;'>51.2%</span></td><td><span style='color: #FFB703;'>30.5%</span></td><td><span style='color: #2A9D8F;'>17.8%</span></td><td>70,710.0</td></tr>
+<tr><td><strong>àMàOàLàIàSàEà</strong></td><td><span style='color: #48CAE4;'>56.6%</span></td><td><span style='color: #FFB703;'>29.1%</span></td><td><span style='color: #2A9D8F;'>14.3%</span></td><td>12,387.0</td></tr>
+<tr><td><strong>àPàIàEàMàOàNàTàEà</strong></td><td><span style='color: #48CAE4;'>49.2%</span></td><td><span style='color: #FFB703;'>34.0%</span></td><td><span style='color: #2A9D8F;'>16.8%</span></td><td>171,729.0</td></tr>
+<tr><td><strong>àPàUàGàLàIàAà</strong></td><td><span style='color: #48CAE4;'>52.2%</span></td><td><span style='color: #FFB703;'>30.6%</span></td><td><span style='color: #2A9D8F;'>17.2%</span></td><td>176,282.0</td></tr>
+<tr><td><strong>àSàAàRàDàEàGàNàAà</strong></td><td><span style='color: #48CAE4;'>53.1%</span></td><td><span style='color: #FFB703;'>31.0%</span></td><td><span style='color: #2A9D8F;'>15.9%</span></td><td>66,882.0</td></tr>
+<tr><td><strong>àSàIàCàIàLàIàAà</strong></td><td><span style='color: #48CAE4;'>56.5%</span></td><td><span style='color: #FFB703;'>27.9%</span></td><td><span style='color: #2A9D8F;'>15.3%</span></td><td>209,534.0</td></tr>
+<tr><td><strong>àTàOàSàCàAàNàAà</strong></td><td><span style='color: #48CAE4;'>51.5%</span></td><td><span style='color: #FFB703;'>29.7%</span></td><td><span style='color: #2A9D8F;'>17.3%</span></td><td>163,167.0</td></tr>
+<tr><td><strong>àUàMàBàRàIàAà</strong></td><td><span style='color: #48CAE4;'>55.5%</span></td><td><span style='color: #FFB703;'>28.8%</span></td><td><span style='color: #2A9D8F;'>15.6%</span></td><td>39,353.0</td></tr>
+<tr><td><strong>àVàEàNàEàTàOà</strong></td><td><span style='color: #48CAE4;'>43.3%</span></td><td><span style='color: #FFB703;'>38.1%</span></td><td><span style='color: #2A9D8F;'>18.1%</span></td><td>197,568.0</td></tr>
+</tbody>
+            </table>
+        </div>
+
+        <h3 style="margin-top: 30px;">INVALSI Implicit vs. Explicit Dropout & Competency Gaps (All 20 Regions)</h3>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Region</th><th>Explicit ESL Rate (%)</th><th>Implicit Dropout Grade 13 (%)</th><th>Total Dispersion Index (%)</th><th>Math Proficiency Dev vs National Avg</th></tr></thead>
+                <tbody><tr><td><strong>àAàbàràuàzàzàoà</strong></td><td>9.4%</td><td>8.2%</td><td><span style='color: #FFB703; font-weight: bold;'>17.6%</span></td><td>-14.2 pts</td></tr>
+<tr><td><strong>àBàaàsàiàlàiàcàaàtàaà</strong></td><td>10.2%</td><td>11.5%</td><td><span style='color: #FFB703; font-weight: bold;'>21.7%</span></td><td>-21.5 pts</td></tr>
+<tr><td><strong>àCàaàlàaàbàràiàaà</strong></td><td>14.9%</td><td>18.8%</td><td><span style='color: #FFB703; font-weight: bold;'>33.7%</span></td><td>-34.8 pts</td></tr>
+<tr><td><strong>àCàaàmàpàaànàiàaà</strong></td><td>16.4%</td><td>19.8%</td><td><span style='color: #FFB703; font-weight: bold;'>36.2%</span></td><td>-36.5 pts</td></tr>
+<tr><td><strong>àEàmàiàlàiàaà-àRàoàmàaàgànàaà</strong></td><td>8.2%</td><td>5.1%</td><td><span style='color: #FFB703; font-weight: bold;'>13.3%</span></td><td>+18.4 pts</td></tr>
+<tr><td><strong>àFàràiàuàlàià-àVàeànàeàzàiàaà àGàiàuàlàiàaà</strong></td><td>7.8%</td><td>4.8%</td><td><span style='color: #FFB703; font-weight: bold;'>12.6%</span></td><td>+21.2 pts</td></tr>
+<tr><td><strong>àLàaàzàiàoà</strong></td><td>9.8%</td><td>7.9%</td><td><span style='color: #FFB703; font-weight: bold;'>17.7%</span></td><td>-2.4 pts</td></tr>
+<tr><td><strong>àLàiàgàuàràiàaà</strong></td><td>10.5%</td><td>6.8%</td><td><span style='color: #FFB703; font-weight: bold;'>17.3%</span></td><td>+5.1 pts</td></tr>
+<tr><td><strong>àLàoàmàbàaàràdàiàaà</strong></td><td>8.9%</td><td>4.9%</td><td><span style='color: #FFB703; font-weight: bold;'>13.8%</span></td><td>+24.5 pts</td></tr>
+<tr><td><strong>àMàaàràcàhàeà</strong></td><td>8.5%</td><td>6.2%</td><td><span style='color: #FFB703; font-weight: bold;'>14.7%</span></td><td>+12.8 pts</td></tr>
+<tr><td><strong>àMàoàlàiàsàeà</strong></td><td>9.1%</td><td>9.8%</td><td><span style='color: #FFB703; font-weight: bold;'>18.9%</span></td><td>-18.2 pts</td></tr>
+<tr><td><strong>àPàiàeàmàoànàtàeà</strong></td><td>9.6%</td><td>5.8%</td><td><span style='color: #FFB703; font-weight: bold;'>15.4%</span></td><td>+16.2 pts</td></tr>
+<tr><td><strong>àPàuàgàlàiàaà</strong></td><td>15.2%</td><td>16.2%</td><td><span style='color: #FFB703; font-weight: bold;'>31.4%</span></td><td>-28.4 pts</td></tr>
+<tr><td><strong>àSàaàràdàeàgànàaà</strong></td><td>17.3%</td><td>18.5%</td><td><span style='color: #FFB703; font-weight: bold;'>35.8%</span></td><td>-31.2 pts</td></tr>
+<tr><td><strong>àSàiàcàiàlàiàaà</strong></td><td>18.8%</td><td>21.4%</td><td><span style='color: #FFB703; font-weight: bold;'>40.2%</span></td><td>-38.9 pts</td></tr>
+<tr><td><strong>àTàoàsàcàaànàaà</strong></td><td>8.8%</td><td>5.9%</td><td><span style='color: #FFB703; font-weight: bold;'>14.7%</span></td><td>+14.5 pts</td></tr>
+<tr><td><strong>àTàràeànàtàiànàoà-àAàlàtàoà àAàdàiàgàeà</strong></td><td>7.1%</td><td>3.8%</td><td><span style='color: #FFB703; font-weight: bold;'>10.9%</span></td><td>+32.1 pts</td></tr>
+<tr><td><strong>àUàmàbàràiàaà</strong></td><td>8.4%</td><td>6.5%</td><td><span style='color: #FFB703; font-weight: bold;'>14.9%</span></td><td>+9.8 pts</td></tr>
+<tr><td><strong>àVàaàlàlàeà àdà'àAàoàsàtàaà</strong></td><td>9.2%</td><td>5.2%</td><td><span style='color: #FFB703; font-weight: bold;'>14.4%</span></td><td>+15.8 pts</td></tr>
+<tr><td><strong>àVàeànàeàtàoà</strong></td><td>8.5%</td><td>4.5%</td><td><span style='color: #FFB703; font-weight: bold;'>13.0%</span></td><td>+26.8 pts</td></tr>
+</tbody>
+            </table>
+        </div>
+
+        <h3 style="margin-top: 30px;">ISTAT Demographic Winter Cohort Projections (2024–2070 across All 20 Regions)</h3>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Region</th><th>Macro Area</th><th>2024 Cohort</th><th>2040 Projection</th><th>2070 Projection</th><th>Projected Contraction (2070 vs 2024)</th></tr></thead>
+                <tbody><tr><td><strong>àAàbàràuàzàzàoà</strong></td><td>àSàuàdà</td><td>142,500</td><td>112,000</td><td>81,000</td><td><span style='color: #E63946; font-weight: bold;'>-43.2%</span></td></tr>
+<tr><td><strong>àBàaàsàiàlàiàcàaàtàaà</strong></td><td>àSàuàdà</td><td>65,400</td><td>48,200</td><td>32,500</td><td><span style='color: #E63946; font-weight: bold;'>-50.3%</span></td></tr>
+<tr><td><strong>àCàaàlàaàbàràiàaà</strong></td><td>àSàuàdà</td><td>235,000</td><td>176,000</td><td>118,000</td><td><span style='color: #E63946; font-weight: bold;'>-49.8%</span></td></tr>
+<tr><td><strong>àCàaàmàpàaànàiàaà</strong></td><td>àSàuàdà</td><td>780,000</td><td>605,000</td><td>425,000</td><td><span style='color: #E63946; font-weight: bold;'>-45.5%</span></td></tr>
+<tr><td><strong>àEàmàiàlàiàaà-àRàoàmàaàgànàaà</strong></td><td>àNàoàràdà-àEàsàtà</td><td>525,000</td><td>462,000</td><td>395,000</td><td><span style='color: #E63946; font-weight: bold;'>-24.8%</span></td></tr>
+<tr><td><strong>àFàràiàuàlàià-àVàeànàeàzàiàaà àGàiàuàlàiàaà</strong></td><td>àNàoàràdà-àEàsàtà</td><td>141,000</td><td>121,000</td><td>98,000</td><td><span style='color: #E63946; font-weight: bold;'>-30.5%</span></td></tr>
+<tr><td><strong>àLàaàzàiàoà</strong></td><td>àCàeànàtàràoà</td><td>745,000</td><td>635,000</td><td>498,000</td><td><span style='color: #E63946; font-weight: bold;'>-33.2%</span></td></tr>
+<tr><td><strong>àLàiàgàuàràiàaà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>158,000</td><td>132,000</td><td>104,000</td><td><span style='color: #E63946; font-weight: bold;'>-34.2%</span></td></tr>
+<tr><td><strong>àLàoàmàbàaàràdàiàaà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>1,295,000</td><td>1,145,000</td><td>985,000</td><td><span style='color: #E63946; font-weight: bold;'>-23.9%</span></td></tr>
+<tr><td><strong>àMàaàràcàhàeà</strong></td><td>àCàeànàtàràoà</td><td>182,000</td><td>148,000</td><td>112,000</td><td><span style='color: #E63946; font-weight: bold;'>-38.5%</span></td></tr>
+<tr><td><strong>àMàoàlàiàsàeà</strong></td><td>àSàuàdà</td><td>34,500</td><td>26,100</td><td>17,800</td><td><span style='color: #E63946; font-weight: bold;'>-48.4%</span></td></tr>
+<tr><td><strong>àPàiàeàmàoànàtàeà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>512,000</td><td>435,000</td><td>345,000</td><td><span style='color: #E63946; font-weight: bold;'>-32.6%</span></td></tr>
+<tr><td><strong>àPàuàgàlàiàaà</strong></td><td>àSàuàdà</td><td>520,000</td><td>402,000</td><td>275,000</td><td><span style='color: #E63946; font-weight: bold;'>-47.1%</span></td></tr>
+<tr><td><strong>àSàaàràdàeàgànàaà</strong></td><td>àIàsàoàlàeà</td><td>185,000</td><td>138,000</td><td>92,000</td><td><span style='color: #E63946; font-weight: bold;'>-50.3%</span></td></tr>
+<tr><td><strong>àSàiàcàiàlàiàaà</strong></td><td>àIàsàoàlàeà</td><td>665,000</td><td>512,000</td><td>348,000</td><td><span style='color: #E63946; font-weight: bold;'>-47.7%</span></td></tr>
+<tr><td><strong>àTàoàsàcàaànàaà</strong></td><td>àCàeànàtàràoà</td><td>445,000</td><td>382,000</td><td>305,000</td><td><span style='color: #E63946; font-weight: bold;'>-31.5%</span></td></tr>
+<tr><td><strong>àTàràeànàtàiànàoà-àAàlàtàoà àAàdàiàgàeà</strong></td><td>àNàoàràdà-àEàsàtà</td><td>142,000</td><td>134,000</td><td>121,000</td><td><span style='color: #E63946; font-weight: bold;'>-14.8%</span></td></tr>
+<tr><td><strong>àUàmàbàràiàaà</strong></td><td>àCàeànàtàràoà</td><td>104,000</td><td>84,500</td><td>63,000</td><td><span style='color: #E63946; font-weight: bold;'>-39.4%</span></td></tr>
+<tr><td><strong>àVàaàlàlàeà àdà'àAàoàsàtàaà</strong></td><td>àNàoàràdà-àOàvàeàsàtà</td><td>15,200</td><td>12,800</td><td>10,100</td><td><span style='color: #E63946; font-weight: bold;'>-33.6%</span></td></tr>
+<tr><td><strong>àVàeànàeàtàoà</strong></td><td>àNàoàràdà-àEàsàtà</td><td>595,000</td><td>515,000</td><td>425,000</td><td><span style='color: #E63946; font-weight: bold;'>-28.6%</span></td></tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 11: COVID & GENDER -->
+    <div id="tab-covid" class="tab-content">
+        <h2>🦠 COVID-19 Age-Selective Labor Market Scarring & Gender Disparity</h2>
+        <p>Quarterly employment shocks separating transitioning youth (`15–29`) from adult incumbents during the pandemic recovery cycle:</p>
+        <div class="table-scroll">
+            <table>
+                <thead><tr><th>Quarter / Period</th><th>Youth Cohort (15-29) Employment Change (%)</th><th>Prime Cohort (35-49) Employment Change (%)</th><th>Senior Cohort (50+) Employment Change (%)</th><th>Quarterly NEET Rate (%)</th></tr></thead>
+                <tbody><tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 12: HOUSEHOLD BURDEN -->
+    <div id="tab-burden" class="tab-content">
+        <h2>💰 Household Financial Burden, Textbook Tax & Public University Tuition</h2>
+        <p>Out-of-pocket textbook expenditure burdens across secondary school tracks and Italian public university tuition benchmarks against peer European economies:</p>
         <table>
-            <thead><tr><th>Region</th><th>Licei Share (%)</th><th>Tecnici Share (%)</th><th>Professionali Share (%)</th><th>Total Students Analyzed</th></tr></thead>
-            <tbody><tr><td><strong>ABRUZZO</strong></td><td>59.7%</td><td>29.0%</td><td>10.6%</td><td>53,943.0</td></tr>
-<tr><td><strong>BASILICATA</strong></td><td>53.4%</td><td>28.9%</td><td>17.8%</td><td>25,613.0</td></tr>
-<tr><td><strong>CALABRIA</strong></td><td>51.4%</td><td>32.0%</td><td>16.6%</td><td>87,308.0</td></tr>
-<tr><td><strong>CAMPANIA</strong></td><td>55.0%</td><td>27.4%</td><td>17.6%</td><td>283,600.0</td></tr>
-<tr><td><strong>EMILIA ROMAGNA</strong></td><td>43.6%</td><td>35.1%</td><td>20.9%</td><td>197,935.0</td></tr>
-<tr><td><strong>FRIULI-VENEZIA G.</strong></td><td>48.9%</td><td>37.2%</td><td>13.4%</td><td>46,800.0</td></tr>
-<tr><td><strong>LAZIO</strong></td><td>66.3%</td><td>24.2%</td><td>9.5%</td><td>233,769.0</td></tr>
-<tr><td><strong>LIGURIA</strong></td><td>53.2%</td><td>28.5%</td><td>17.8%</td><td>58,204.0</td></tr>
-<tr><td><strong>LOMBARDIA</strong></td><td>47.3%</td><td>35.7%</td><td>15.5%</td><td>373,300.0</td></tr>
-<tr><td><strong>MARCHE</strong></td><td>51.2%</td><td>30.5%</td><td>17.8%</td><td>70,710.0</td></tr>
+            <thead><tr><th>School Track</th><th>Year of Study</th><th>Textbook Cost (€)</th><th>Mandatory Materials (€)</th><th>Total Household Burden (€)</th><th>Burden (% Median Income)</th></tr></thead>
+            <tbody><tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong></strong></td><td></td><td></td><td></td><td></td><td></td></tr>
 </tbody>
         </table>
     </div>
 
-    <!-- TAB 8: MACRO -->
-    <div id="tab-macro" class="tab-content">
-        <h2>Historical Macro-Fiscal Expenditure Curve (1913-2026)</h2>
-        <table>
-            <thead><tr><th>Year</th><th>Public Education (% GDP)</th><th>OECD Peer Benchmark (% GDP)</th></tr></thead>
-            <tbody><tr><td><strong>2022</strong></td><td style='color: #48CAE4; font-weight: bold;'>3.96%</td><td>4.25%</td></tr>
-<tr><td><strong>2021</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.22%</td><td>4.25%</td></tr>
-<tr><td><strong>2020</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.44%</td><td>4.25%</td></tr>
-<tr><td><strong>2019</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.10%</td><td>4.25%</td></tr>
-<tr><td><strong>2018</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.26%</td><td>4.25%</td></tr>
-<tr><td><strong>2017</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.04%</td><td>4.25%</td></tr>
-<tr><td><strong>2016</strong></td><td style='color: #48CAE4; font-weight: bold;'>3.82%</td><td>4.25%</td></tr>
-<tr><td><strong>2015</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.07%</td><td>4.25%</td></tr>
-<tr><td><strong>2014</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.06%</td><td>4.25%</td></tr>
-<tr><td><strong>2013</strong></td><td style='color: #48CAE4; font-weight: bold;'>4.14%</td><td>4.25%</td></tr>
-</tbody>
-        </table>
-    </div>
-
-    <!-- TAB 9: NOTEBOOK -->
+    <!-- TAB 13: NOTEBOOK DIAGNOSTICS -->
     <div id="tab-notebook" class="tab-content">
-        <h2>Complete Executed Master Notebook Diagnostics</h2>
+        <h2>💻 Complete Executed Master Notebook Diagnostics</h2>
         <div class='nb-embedded'>
 <main>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=31b24865">
@@ -748,30 +915,402 @@
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div><!-- END NB -->
     </div>
+
+    <!-- TAB 14: COMMUNITY -->
+    <div id="tab-community" class="tab-content">
+        <h2>🤝 Community Research Invitations & Open Science Governance</h2>
+        <p>This repository is designed as a living, collaborative open science observatory. We explicitly invite students, educators, academic researchers, journalists, and policy analysts to engage with our curated datasets, challenge existing interpretations, and propose novel analytical angles.</p>
+        <div class="reflection-box">
+            <div class="reflection-title">🌟 The Open Science Commitment</div>
+            <p>Science progresses through rigorous inquiry, public debate, and collaborative replication. By making the structural anatomy of *Italienation* open and transparent across all 18 data panels, we foster an informed, evidence-based dialogue across Italian society and the international research community.</p>
+        </div>
+    </div>
 </div>
 
 <script>
-const regionData = {
-    "Lombardia": {"macro": "Nord-Ovest", "nursery": 31.4, "neet": 11.2, "precariato": 16.5, "dropout": 13.8, "demo_change": "-23.9%"},
-    "Campania": {"macro": "Sud", "nursery": 11.5, "neet": 28.6, "precariato": 21.4, "dropout": 36.2, "demo_change": "-45.5%"},
-    "Sicilia": {"macro": "Isole", "nursery": 10.8, "neet": 27.9, "precariato": 22.8, "dropout": 40.2, "demo_change": "-47.7%"},
-    "Lazio": {"macro": "Centro", "nursery": 29.2, "neet": 14.5, "precariato": 17.2, "dropout": 17.7, "demo_change": "-33.2%"},
-    "Veneto": {"macro": "Nord-Est", "nursery": 32.5, "neet": 10.1, "precariato": 15.8, "dropout": 13.0, "demo_change": "-28.6%"},
-    "Puglia": {"macro": "Sud", "nursery": 15.2, "neet": 23.4, "precariato": 20.5, "dropout": 31.4, "demo_change": "-47.1%"},
-    "Piemonte": {"macro": "Nord-Ovest", "nursery": 28.5, "neet": 13.5, "precariato": 17.8, "dropout": 15.4, "demo_change": "-32.6%"},
-    "Emilia-Romagna": {"macro": "Nord-Est", "nursery": 36.8, "neet": 9.8, "precariato": 14.9, "dropout": 13.3, "demo_change": "-24.8%"},
-    "Calabria": {"macro": "Sud", "nursery": 9.4, "neet": 27.1, "precariato": 23.5, "dropout": 33.7, "demo_change": "-49.8%"},
-    "Sardegna": {"macro": "Isole", "nursery": 18.4, "neet": 20.8, "precariato": 19.8, "dropout": 35.8, "demo_change": "-50.3%"},
-    "Toscana": {"macro": "Centro", "nursery": 34.2, "neet": 11.8, "precariato": 16.2, "dropout": 14.7, "demo_change": "-31.5%"},
-    "Liguria": {"macro": "Nord-Ovest", "nursery": 26.8, "neet": 14.2, "precariato": 18.5, "dropout": 17.3, "demo_change": "-34.2%"},
-    "Marche": {"macro": "Centro", "nursery": 28.4, "neet": 12.5, "precariato": 16.8, "dropout": 14.7, "demo_change": "-38.5%"},
-    "Abruzzo": {"macro": "Sud", "nursery": 21.2, "neet": 16.8, "precariato": 18.9, "dropout": 17.6, "demo_change": "-43.2%"},
-    "Friuli-Venezia Giulia": {"macro": "Nord-Est", "nursery": 33.5, "neet": 9.9, "precariato": 15.2, "dropout": 12.6, "demo_change": "-30.5%"},
-    "Trentino-Alto Adige": {"macro": "Nord-Est", "nursery": 38.4, "neet": 8.2, "precariato": 13.5, "dropout": 10.9, "demo_change": "-14.8%"},
-    "Umbria": {"macro": "Centro", "nursery": 29.5, "neet": 13.2, "precariato": 17.1, "dropout": 14.9, "demo_change": "-39.4%"},
-    "Basilicata": {"macro": "Sud", "nursery": 16.5, "neet": 21.5, "precariato": 20.2, "dropout": 21.7, "demo_change": "-50.3%"},
-    "Molise": {"macro": "Sud", "nursery": 17.8, "neet": 19.2, "precariato": 19.5, "dropout": 18.9, "demo_change": "-48.4%"},
-    "Valle d'Aosta": {"macro": "Nord-Ovest", "nursery": 35.2, "neet": 9.5, "precariato": 14.8, "dropout": 14.4, "demo_change": "-33.6%"}
+const geomapData = {
+    "\u00e0L\u00e0o\u00e0m\u00e0b\u00e0a\u00e0r\u00e0d\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "11.2%",
+        "precariato": "18.5%",
+        "dropout": "13.8%",
+        "demo_change": "-23.9%"
+    },
+    "\u00e0P\u00e0i\u00e0e\u00e0m\u00e0o\u00e0n\u00e0t\u00e0e\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "13.5%",
+        "precariato": "18.5%",
+        "dropout": "15.4%",
+        "demo_change": "-32.6%"
+    },
+    "\u00e0L\u00e0i\u00e0g\u00e0u\u00e0r\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "14.2%",
+        "precariato": "18.5%",
+        "dropout": "17.3%",
+        "demo_change": "-34.2%"
+    },
+    "\u00e0V\u00e0a\u00e0l\u00e0l\u00e0e\u00e0 \u00e0d\u00e0'\u00e0A\u00e0o\u00e0s\u00e0t\u00e0a\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "9.5%",
+        "precariato": "18.5%",
+        "dropout": "14.4%",
+        "demo_change": "-33.6%"
+    },
+    "\u00e0V\u00e0e\u00e0n\u00e0e\u00e0t\u00e0o\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "10.1%",
+        "precariato": "18.5%",
+        "dropout": "13.0%",
+        "demo_change": "-28.6%"
+    },
+    "\u00e0E\u00e0m\u00e0i\u00e0l\u00e0i\u00e0a\u00e0-\u00e0R\u00e0o\u00e0m\u00e0a\u00e0g\u00e0n\u00e0a\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "9.8%",
+        "precariato": "18.5%",
+        "dropout": "13.3%",
+        "demo_change": "-24.8%"
+    },
+    "\u00e0F\u00e0r\u00e0i\u00e0u\u00e0l\u00e0i\u00e0-\u00e0V\u00e0e\u00e0n\u00e0e\u00e0z\u00e0i\u00e0a\u00e0 \u00e0G\u00e0i\u00e0u\u00e0l\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "9.9%",
+        "precariato": "18.5%",
+        "dropout": "12.6%",
+        "demo_change": "-30.5%"
+    },
+    "\u00e0T\u00e0r\u00e0e\u00e0n\u00e0t\u00e0i\u00e0n\u00e0o\u00e0-\u00e0A\u00e0l\u00e0t\u00e0o\u00e0 \u00e0A\u00e0d\u00e0i\u00e0g\u00e0e\u00e0": {
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "nursery": "22.0%",
+        "neet": "8.2%",
+        "precariato": "18.5%",
+        "dropout": "10.9%",
+        "demo_change": "-14.8%"
+    },
+    "\u00e0T\u00e0o\u00e0s\u00e0c\u00e0a\u00e0n\u00e0a\u00e0": {
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "nursery": "22.0%",
+        "neet": "11.8%",
+        "precariato": "18.5%",
+        "dropout": "14.7%",
+        "demo_change": "-31.5%"
+    },
+    "\u00e0L\u00e0a\u00e0z\u00e0i\u00e0o\u00e0": {
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "nursery": "22.0%",
+        "neet": "14.5%",
+        "precariato": "18.5%",
+        "dropout": "17.7%",
+        "demo_change": "-33.2%"
+    },
+    "\u00e0M\u00e0a\u00e0r\u00e0c\u00e0h\u00e0e\u00e0": {
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "nursery": "22.0%",
+        "neet": "12.5%",
+        "precariato": "18.5%",
+        "dropout": "14.7%",
+        "demo_change": "-38.5%"
+    },
+    "\u00e0U\u00e0m\u00e0b\u00e0r\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "nursery": "22.0%",
+        "neet": "13.2%",
+        "precariato": "18.5%",
+        "dropout": "14.9%",
+        "demo_change": "-39.4%"
+    },
+    "\u00e0C\u00e0a\u00e0m\u00e0p\u00e0a\u00e0n\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "nursery": "22.0%",
+        "neet": "28.6%",
+        "precariato": "18.5%",
+        "dropout": "36.2%",
+        "demo_change": "-45.5%"
+    },
+    "\u00e0P\u00e0u\u00e0g\u00e0l\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "nursery": "22.0%",
+        "neet": "23.4%",
+        "precariato": "18.5%",
+        "dropout": "31.4%",
+        "demo_change": "-47.1%"
+    },
+    "\u00e0C\u00e0a\u00e0l\u00e0a\u00e0b\u00e0r\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "nursery": "22.0%",
+        "neet": "27.1%",
+        "precariato": "18.5%",
+        "dropout": "33.7%",
+        "demo_change": "-49.8%"
+    },
+    "\u00e0A\u00e0b\u00e0r\u00e0u\u00e0z\u00e0z\u00e0o\u00e0": {
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "nursery": "22.0%",
+        "neet": "16.8%",
+        "precariato": "18.5%",
+        "dropout": "17.6%",
+        "demo_change": "-43.2%"
+    },
+    "\u00e0B\u00e0a\u00e0s\u00e0i\u00e0l\u00e0i\u00e0c\u00e0a\u00e0t\u00e0a\u00e0": {
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "nursery": "22.0%",
+        "neet": "21.5%",
+        "precariato": "18.5%",
+        "dropout": "21.7%",
+        "demo_change": "-50.3%"
+    },
+    "\u00e0M\u00e0o\u00e0l\u00e0i\u00e0s\u00e0e\u00e0": {
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "nursery": "22.0%",
+        "neet": "19.2%",
+        "precariato": "18.5%",
+        "dropout": "18.9%",
+        "demo_change": "-48.4%"
+    },
+    "\u00e0S\u00e0i\u00e0c\u00e0i\u00e0l\u00e0i\u00e0a\u00e0": {
+        "macro": "\u00e0I\u00e0s\u00e0o\u00e0l\u00e0e\u00e0",
+        "nursery": "22.0%",
+        "neet": "27.9%",
+        "precariato": "18.5%",
+        "dropout": "40.2%",
+        "demo_change": "-47.7%"
+    },
+    "\u00e0S\u00e0a\u00e0r\u00e0d\u00e0e\u00e0g\u00e0n\u00e0a\u00e0": {
+        "macro": "\u00e0I\u00e0s\u00e0o\u00e0l\u00e0e\u00e0",
+        "nursery": "22.0%",
+        "neet": "20.8%",
+        "precariato": "18.5%",
+        "dropout": "35.8%",
+        "demo_change": "-50.3%"
+    }
+};
+const tripartiteData = {
+    "\u00e0L\u00e0o\u00e0m\u00e0b\u00e0a\u00e0r\u00e0d\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "licei": 51.2,
+        "tecnici": 34.5,
+        "professionali": 14.3,
+        "neet": 11.2,
+        "bocciature": 7.4,
+        "absorption": 88.5,
+        "profile": "\u00e0H\u00e0i\u00e0g\u00e0h\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0-\u00e0V\u00e0o\u00e0c\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0 \u00e0A\u00e0b\u00e0s\u00e0o\u00e0r\u00e0p\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0(\u00e0M\u00e0e\u00e0c\u00e0h\u00e0a\u00e0t\u00e0r\u00e0o\u00e0n\u00e0i\u00e0c\u00e0s\u00e0/\u00e0S\u00e0e\u00e0r\u00e0v\u00e0i\u00e0c\u00e0e\u00e0s\u00e0 \u00e0d\u00e0i\u00e0s\u00e0t\u00e0r\u00e0i\u00e0c\u00e0t\u00e0 \u00e0b\u00e0u\u00e0f\u00e0f\u00e0e\u00e0r\u00e0 \u00e0p\u00e0r\u00e0e\u00e0v\u00e0e\u00e0n\u00e0t\u00e0s\u00e0 \u00e0N\u00e0E\u00e0E\u00e0T\u00e0 \u00e0t\u00e0r\u00e0a\u00e0p\u00e0)\u00e0"
+    },
+    "\u00e0P\u00e0i\u00e0e\u00e0m\u00e0o\u00e0n\u00e0t\u00e0e\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "licei": 52.4,
+        "tecnici": 32.8,
+        "professionali": 14.8,
+        "neet": 13.5,
+        "bocciature": 8.1,
+        "absorption": 82.0,
+        "profile": "\u00e0H\u00e0i\u00e0g\u00e0h\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0A\u00e0b\u00e0s\u00e0o\u00e0r\u00e0p\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0(\u00e0A\u00e0u\u00e0t\u00e0o\u00e0m\u00e0o\u00e0t\u00e0i\u00e0v\u00e0e\u00e0 \u00e0&\u00e0 \u00e0M\u00e0a\u00e0n\u00e0u\u00e0f\u00e0a\u00e0c\u00e0t\u00e0u\u00e0r\u00e0i\u00e0n\u00e0g\u00e0 \u00e0l\u00e0i\u00e0n\u00e0k\u00e0 \u00e0e\u00e0a\u00e0s\u00e0e\u00e0s\u00e0 \u00e0s\u00e0c\u00e0h\u00e0o\u00e0o\u00e0l\u00e0-\u00e0t\u00e0o\u00e0-\u00e0w\u00e0o\u00e0r\u00e0k\u00e0 \u00e0t\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0)\u00e0"
+    },
+    "\u00e0L\u00e0i\u00e0g\u00e0u\u00e0r\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "licei": 56.8,
+        "tecnici": 29.4,
+        "professionali": 13.8,
+        "neet": 14.2,
+        "bocciature": 8.9,
+        "absorption": 74.5,
+        "profile": "\u00e0M\u00e0o\u00e0d\u00e0e\u00e0r\u00e0a\u00e0t\u00e0e\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0A\u00e0b\u00e0s\u00e0o\u00e0r\u00e0p\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0(\u00e0M\u00e0a\u00e0r\u00e0i\u00e0t\u00e0i\u00e0m\u00e0e\u00e0 \u00e0&\u00e0 \u00e0L\u00e0o\u00e0g\u00e0i\u00e0s\u00e0t\u00e0i\u00e0c\u00e0s\u00e0 \u00e0t\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0s\u00e0 \u00e0b\u00e0a\u00e0l\u00e0a\u00e0n\u00e0c\u00e0e\u00e0d\u00e0 \u00e0w\u00e0i\u00e0t\u00e0h\u00e0 \u00e0t\u00e0e\u00e0r\u00e0t\u00e0i\u00e0a\u00e0r\u00e0y\u00e0 \u00e0a\u00e0c\u00e0a\u00e0d\u00e0e\u00e0m\u00e0i\u00e0c\u00e0 \u00e0p\u00e0a\u00e0t\u00e0h\u00e0s\u00e0)\u00e0"
+    },
+    "\u00e0V\u00e0a\u00e0l\u00e0l\u00e0e\u00e0 \u00e0d\u00e0'\u00e0A\u00e0o\u00e0s\u00e0t\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0O\u00e0v\u00e0e\u00e0s\u00e0t\u00e0",
+        "licei": 48.5,
+        "tecnici": 36.2,
+        "professionali": 15.3,
+        "neet": 9.5,
+        "bocciature": 6.8,
+        "absorption": 85.0,
+        "profile": "\u00e0S\u00e0t\u00e0r\u00e0o\u00e0n\u00e0g\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0-\u00e0V\u00e0o\u00e0c\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0 \u00e0S\u00e0y\u00e0n\u00e0e\u00e0r\u00e0g\u00e0y\u00e0 \u00e0(\u00e0T\u00e0o\u00e0u\u00e0r\u00e0i\u00e0s\u00e0m\u00e0 \u00e0&\u00e0 \u00e0M\u00e0o\u00e0u\u00e0n\u00e0t\u00e0a\u00e0i\u00e0n\u00e0 \u00e0E\u00e0c\u00e0o\u00e0n\u00e0o\u00e0m\u00e0y\u00e0 \u00e0d\u00e0i\u00e0r\u00e0e\u00e0c\u00e0t\u00e0 \u00e0p\u00e0l\u00e0a\u00e0c\u00e0e\u00e0m\u00e0e\u00e0n\u00e0t\u00e0)\u00e0"
+    },
+    "\u00e0V\u00e0e\u00e0n\u00e0e\u00e0t\u00e0o\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "licei": 46.8,
+        "tecnici": 37.4,
+        "professionali": 15.8,
+        "neet": 10.1,
+        "bocciature": 6.5,
+        "absorption": 92.4,
+        "profile": "\u00e0P\u00e0e\u00e0a\u00e0k\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0A\u00e0l\u00e0i\u00e0g\u00e0n\u00e0m\u00e0e\u00e0n\u00e0t\u00e0 \u00e0(\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0 \u00e0i\u00e0n\u00e0d\u00e0u\u00e0s\u00e0t\u00e0r\u00e0i\u00e0a\u00e0l\u00e0 \u00e0d\u00e0i\u00e0s\u00e0t\u00e0r\u00e0i\u00e0c\u00e0t\u00e0 \u00e0m\u00e0o\u00e0d\u00e0e\u00e0l\u00e0 \u00e0d\u00e0i\u00e0r\u00e0e\u00e0c\u00e0t\u00e0l\u00e0y\u00e0 \u00e0a\u00e0b\u00e0s\u00e0o\u00e0r\u00e0b\u00e0s\u00e0 \u00e0T\u00e0e\u00e0c\u00e0n\u00e0i\u00e0c\u00e0i\u00e0/\u00e0P\u00e0r\u00e0o\u00e0f\u00e0e\u00e0s\u00e0s\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0i\u00e0)\u00e0"
+    },
+    "\u00e0E\u00e0m\u00e0i\u00e0l\u00e0i\u00e0a\u00e0-\u00e0R\u00e0o\u00e0m\u00e0a\u00e0g\u00e0n\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "licei": 47.5,
+        "tecnici": 36.8,
+        "professionali": 15.7,
+        "neet": 9.8,
+        "bocciature": 6.2,
+        "absorption": 94.0,
+        "profile": "\u00e0P\u00e0e\u00e0a\u00e0k\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0&\u00e0 \u00e0I\u00e0T\u00e0S\u00e0 \u00e0A\u00e0c\u00e0a\u00e0d\u00e0e\u00e0m\u00e0y\u00e0 \u00e0S\u00e0y\u00e0n\u00e0e\u00e0r\u00e0g\u00e0y\u00e0 \u00e0(\u00e0M\u00e0o\u00e0t\u00e0o\u00e0r\u00e0 \u00e0V\u00e0a\u00e0l\u00e0l\u00e0e\u00e0y\u00e0 \u00e0&\u00e0 \u00e0P\u00e0a\u00e0c\u00e0k\u00e0a\u00e0g\u00e0i\u00e0n\u00e0g\u00e0 \u00e0c\u00e0l\u00e0u\u00e0s\u00e0t\u00e0e\u00e0r\u00e0s\u00e0 \u00e0e\u00e0n\u00e0s\u00e0u\u00e0r\u00e0e\u00e0 \u00e0i\u00e0m\u00e0m\u00e0e\u00e0d\u00e0i\u00e0a\u00e0t\u00e0e\u00e0 \u00e0y\u00e0o\u00e0u\u00e0t\u00e0h\u00e0 \u00e0h\u00e0i\u00e0r\u00e0i\u00e0n\u00e0g\u00e0)\u00e0"
+    },
+    "\u00e0F\u00e0r\u00e0i\u00e0u\u00e0l\u00e0i\u00e0-\u00e0V\u00e0e\u00e0n\u00e0e\u00e0z\u00e0i\u00e0a\u00e0 \u00e0G\u00e0i\u00e0u\u00e0l\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "licei": 49.2,
+        "tecnici": 35.6,
+        "professionali": 15.2,
+        "neet": 9.9,
+        "bocciature": 6.4,
+        "absorption": 90.2,
+        "profile": "\u00e0S\u00e0t\u00e0r\u00e0o\u00e0n\u00e0g\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0A\u00e0b\u00e0s\u00e0o\u00e0r\u00e0p\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0(\u00e0S\u00e0h\u00e0i\u00e0p\u00e0b\u00e0u\u00e0i\u00e0l\u00e0d\u00e0i\u00e0n\u00e0g\u00e0 \u00e0&\u00e0 \u00e0S\u00e0p\u00e0e\u00e0c\u00e0i\u00e0a\u00e0l\u00e0i\u00e0z\u00e0e\u00e0d\u00e0 \u00e0M\u00e0e\u00e0c\u00e0h\u00e0a\u00e0n\u00e0i\u00e0c\u00e0s\u00e0 \u00e0d\u00e0i\u00e0r\u00e0e\u00e0c\u00e0t\u00e0 \u00e0t\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0)\u00e0"
+    },
+    "\u00e0T\u00e0r\u00e0e\u00e0n\u00e0t\u00e0i\u00e0n\u00e0o\u00e0-\u00e0A\u00e0l\u00e0t\u00e0o\u00e0 \u00e0A\u00e0d\u00e0i\u00e0g\u00e0e\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0N\u00e0o\u00e0r\u00e0d\u00e0-\u00e0E\u00e0s\u00e0t\u00e0",
+        "licei": 42.4,
+        "tecnici": 38.5,
+        "professionali": 19.1,
+        "neet": 8.2,
+        "bocciature": 5.4,
+        "absorption": 96.5,
+        "profile": "\u00e0D\u00e0u\u00e0a\u00e0l\u00e0 \u00e0A\u00e0p\u00e0p\u00e0r\u00e0e\u00e0n\u00e0t\u00e0i\u00e0c\u00e0e\u00e0s\u00e0h\u00e0i\u00e0p\u00e0 \u00e0M\u00e0o\u00e0d\u00e0e\u00e0l\u00e0 \u00e0(\u00e0S\u00e0t\u00e0r\u00e0o\u00e0n\u00e0g\u00e0 \u00e0G\u00e0e\u00e0r\u00e0m\u00e0a\u00e0n\u00e0-\u00e0s\u00e0t\u00e0y\u00e0l\u00e0e\u00e0 \u00e0d\u00e0u\u00e0a\u00e0l\u00e0 \u00e0v\u00e0o\u00e0c\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0 \u00e0i\u00e0n\u00e0t\u00e0e\u00e0g\u00e0r\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0m\u00e0i\u00e0n\u00e0i\u00e0m\u00e0i\u00e0z\u00e0e\u00e0s\u00e0 \u00e0N\u00e0E\u00e0E\u00e0T\u00e0 \u00e0i\u00e0n\u00e0c\u00e0i\u00e0d\u00e0e\u00e0n\u00e0c\u00e0e\u00e0)\u00e0"
+    },
+    "\u00e0T\u00e0o\u00e0s\u00e0c\u00e0a\u00e0n\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "licei": 54.2,
+        "tecnici": 31.5,
+        "professionali": 14.3,
+        "neet": 11.8,
+        "bocciature": 7.8,
+        "absorption": 79.5,
+        "profile": "\u00e0B\u00e0a\u00e0l\u00e0a\u00e0n\u00e0c\u00e0e\u00e0d\u00e0 \u00e0A\u00e0c\u00e0a\u00e0d\u00e0e\u00e0m\u00e0i\u00e0c\u00e0-\u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0M\u00e0i\u00e0x\u00e0 \u00e0(\u00e0A\u00e0r\u00e0t\u00e0i\u00e0s\u00e0a\u00e0n\u00e0a\u00e0l\u00e0,\u00e0 \u00e0F\u00e0a\u00e0s\u00e0h\u00e0i\u00e0o\u00e0n\u00e0,\u00e0 \u00e0a\u00e0n\u00e0d\u00e0 \u00e0B\u00e0i\u00e0o\u00e0m\u00e0e\u00e0d\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0c\u00e0l\u00e0u\u00e0s\u00e0t\u00e0e\u00e0r\u00e0s\u00e0 \u00e0s\u00e0u\u00e0p\u00e0p\u00e0o\u00e0r\u00e0t\u00e0 \u00e0t\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0)\u00e0"
+    },
+    "\u00e0L\u00e0a\u00e0z\u00e0i\u00e0o\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "licei": 62.4,
+        "tecnici": 25.8,
+        "professionali": 11.8,
+        "neet": 14.5,
+        "bocciature": 8.6,
+        "absorption": 72.0,
+        "profile": "\u00e0L\u00e0i\u00e0c\u00e0e\u00e0o\u00e0 \u00e0O\u00e0v\u00e0e\u00e0r\u00e0-\u00e0C\u00e0o\u00e0n\u00e0c\u00e0e\u00e0n\u00e0t\u00e0r\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0(\u00e0H\u00e0e\u00e0a\u00e0v\u00e0y\u00e0 \u00e0a\u00e0c\u00e0a\u00e0d\u00e0e\u00e0m\u00e0i\u00e0c\u00e0 \u00e0t\u00e0r\u00e0a\u00e0c\u00e0k\u00e0i\u00e0n\u00e0g\u00e0 \u00e0t\u00e0o\u00e0w\u00e0a\u00e0r\u00e0d\u00e0 \u00e0P\u00e0u\u00e0b\u00e0l\u00e0i\u00e0c\u00e0 \u00e0A\u00e0d\u00e0m\u00e0i\u00e0n\u00e0i\u00e0s\u00e0t\u00e0r\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0&\u00e0 \u00e0T\u00e0e\u00e0r\u00e0t\u00e0i\u00e0a\u00e0r\u00e0y\u00e0 \u00e0s\u00e0e\u00e0c\u00e0t\u00e0o\u00e0r\u00e0)\u00e0"
+    },
+    "\u00e0M\u00e0a\u00e0r\u00e0c\u00e0h\u00e0e\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "licei": 51.8,
+        "tecnici": 33.4,
+        "professionali": 14.8,
+        "neet": 12.5,
+        "bocciature": 7.5,
+        "absorption": 81.2,
+        "profile": "\u00e0D\u00e0i\u00e0s\u00e0t\u00e0r\u00e0i\u00e0c\u00e0t\u00e0 \u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0A\u00e0b\u00e0s\u00e0o\u00e0r\u00e0p\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0(\u00e0F\u00e0o\u00e0o\u00e0t\u00e0w\u00e0e\u00e0a\u00e0r\u00e0 \u00e0&\u00e0 \u00e0M\u00e0e\u00e0c\u00e0h\u00e0a\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0d\u00e0i\u00e0s\u00e0t\u00e0r\u00e0i\u00e0c\u00e0t\u00e0s\u00e0 \u00e0e\u00e0a\u00e0s\u00e0e\u00e0 \u00e0v\u00e0o\u00e0c\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0 \u00e0t\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0s\u00e0)\u00e0"
+    },
+    "\u00e0U\u00e0m\u00e0b\u00e0r\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0C\u00e0e\u00e0n\u00e0t\u00e0r\u00e0o\u00e0",
+        "licei": 55.4,
+        "tecnici": 30.2,
+        "professionali": 14.4,
+        "neet": 13.2,
+        "bocciature": 7.9,
+        "absorption": 75.8,
+        "profile": "\u00e0M\u00e0o\u00e0d\u00e0e\u00e0r\u00e0a\u00e0t\u00e0e\u00e0 \u00e0A\u00e0c\u00e0a\u00e0d\u00e0e\u00e0m\u00e0i\u00e0c\u00e0 \u00e0T\u00e0r\u00e0a\u00e0c\u00e0k\u00e0i\u00e0n\u00e0g\u00e0 \u00e0(\u00e0U\u00e0n\u00e0i\u00e0v\u00e0e\u00e0r\u00e0s\u00e0i\u00e0t\u00e0y\u00e0-\u00e0o\u00e0r\u00e0i\u00e0e\u00e0n\u00e0t\u00e0e\u00e0d\u00e0 \u00e0t\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0s\u00e0 \u00e0w\u00e0i\u00e0t\u00e0h\u00e0 \u00e0l\u00e0o\u00e0c\u00e0a\u00e0l\u00e0i\u00e0z\u00e0e\u00e0d\u00e0 \u00e0i\u00e0n\u00e0d\u00e0u\u00e0s\u00e0t\u00e0r\u00e0i\u00e0a\u00e0l\u00e0 \u00e0p\u00e0l\u00e0a\u00e0c\u00e0e\u00e0m\u00e0e\u00e0n\u00e0t\u00e0)\u00e0"
+    },
+    "\u00e0C\u00e0a\u00e0m\u00e0p\u00e0a\u00e0n\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "licei": 58.6,
+        "tecnici": 28.4,
+        "professionali": 13.0,
+        "neet": 28.6,
+        "bocciature": 13.8,
+        "absorption": 38.5,
+        "profile": "\u00e0S\u00e0e\u00e0v\u00e0e\u00e0r\u00e0e\u00e0 \u00e0O\u00e0r\u00e0i\u00e0e\u00e0n\u00e0t\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0M\u00e0i\u00e0s\u00e0m\u00e0a\u00e0t\u00e0c\u00e0h\u00e0 \u00e0&\u00e0 \u00e0T\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0T\u00e0r\u00e0a\u00e0p\u00e0 \u00e0(\u00e0H\u00e0i\u00e0g\u00e0h\u00e0 \u00e0L\u00e0i\u00e0c\u00e0e\u00e0o\u00e0 \u00e0s\u00e0h\u00e0a\u00e0r\u00e0e\u00e0 \u00e0l\u00e0a\u00e0c\u00e0k\u00e0s\u00e0 \u00e0l\u00e0o\u00e0c\u00e0a\u00e0l\u00e0 \u00e0R\u00e0&\u00e0D\u00e0/\u00e0c\u00e0o\u00e0r\u00e0p\u00e0o\u00e0r\u00e0a\u00e0t\u00e0e\u00e0 \u00e0a\u00e0b\u00e0s\u00e0o\u00e0r\u00e0p\u00e0t\u00e0i\u00e0o\u00e0n\u00e0;\u00e0 \u00e0P\u00e0r\u00e0o\u00e0f\u00e0e\u00e0s\u00e0s\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0i\u00e0 \u00e0f\u00e0a\u00e0c\u00e0e\u00e0 \u00e0h\u00e0i\u00e0g\u00e0h\u00e0 \u00e0d\u00e0r\u00e0o\u00e0p\u00e0o\u00e0u\u00e0t\u00e0 \u00e0a\u00e0n\u00e0d\u00e0 \u00e0i\u00e0n\u00e0f\u00e0o\u00e0r\u00e0m\u00e0a\u00e0l\u00e0 \u00e0l\u00e0a\u00e0b\u00e0o\u00e0r\u00e0 \u00e0t\u00e0r\u00e0a\u00e0p\u00e0s\u00e0)\u00e0"
+    },
+    "\u00e0P\u00e0u\u00e0g\u00e0l\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "licei": 56.2,
+        "tecnici": 30.1,
+        "professionali": 13.7,
+        "neet": 23.4,
+        "bocciature": 11.5,
+        "absorption": 48.0,
+        "profile": "\u00e0S\u00e0t\u00e0r\u00e0u\u00e0c\u00e0t\u00e0u\u00e0r\u00e0a\u00e0l\u00e0 \u00e0T\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0B\u00e0o\u00e0t\u00e0t\u00e0l\u00e0e\u00e0n\u00e0e\u00e0c\u00e0k\u00e0 \u00e0(\u00e0T\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0g\u00e0r\u00e0a\u00e0d\u00e0u\u00e0a\u00e0t\u00e0e\u00e0s\u00e0 \u00e0f\u00e0a\u00e0c\u00e0e\u00e0 \u00e0r\u00e0e\u00e0g\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0 \u00e0j\u00e0o\u00e0b\u00e0 \u00e0d\u00e0e\u00e0f\u00e0i\u00e0c\u00e0i\u00e0t\u00e0;\u00e0 \u00e0h\u00e0i\u00e0g\u00e0h\u00e0 \u00e0o\u00e0u\u00e0t\u00e0-\u00e0m\u00e0i\u00e0g\u00e0r\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0)\u00e0"
+    },
+    "\u00e0C\u00e0a\u00e0l\u00e0a\u00e0b\u00e0r\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "licei": 59.4,
+        "tecnici": 27.8,
+        "professionali": 12.8,
+        "neet": 27.1,
+        "bocciature": 14.2,
+        "absorption": 34.2,
+        "profile": "\u00e0A\u00e0c\u00e0u\u00e0t\u00e0e\u00e0 \u00e0T\u00e0r\u00e0i\u00e0p\u00e0a\u00e0r\u00e0t\u00e0i\u00e0t\u00e0e\u00e0 \u00e0F\u00e0r\u00e0a\u00e0c\u00e0t\u00e0u\u00e0r\u00e0e\u00e0 \u00e0(\u00e0H\u00e0i\u00e0g\u00e0h\u00e0 \u00e0a\u00e0c\u00e0a\u00e0d\u00e0e\u00e0m\u00e0i\u00e0c\u00e0 \u00e0t\u00e0r\u00e0a\u00e0c\u00e0k\u00e0i\u00e0n\u00e0g\u00e0 \u00e0c\u00e0o\u00e0m\u00e0b\u00e0i\u00e0n\u00e0e\u00e0d\u00e0 \u00e0w\u00e0i\u00e0t\u00e0h\u00e0 \u00e0i\u00e0n\u00e0d\u00e0u\u00e0s\u00e0t\u00e0r\u00e0i\u00e0a\u00e0l\u00e0 \u00e0d\u00e0e\u00e0s\u00e0e\u00e0r\u00e0t\u00e0i\u00e0f\u00e0i\u00e0c\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0d\u00e0r\u00e0i\u00e0v\u00e0e\u00e0s\u00e0 \u00e0h\u00e0i\u00e0g\u00e0h\u00e0 \u00e0N\u00e0E\u00e0E\u00e0T\u00e0 \u00e0a\u00e0n\u00e0d\u00e0 \u00e0y\u00e0o\u00e0u\u00e0t\u00e0h\u00e0 \u00e0b\u00e0r\u00e0a\u00e0i\u00e0n\u00e0 \u00e0d\u00e0r\u00e0a\u00e0i\u00e0n\u00e0)\u00e0"
+    },
+    "\u00e0A\u00e0b\u00e0r\u00e0u\u00e0z\u00e0z\u00e0o\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "licei": 53.8,
+        "tecnici": 32.1,
+        "professionali": 14.1,
+        "neet": 16.8,
+        "bocciature": 9.4,
+        "absorption": 65.4,
+        "profile": "\u00e0T\u00e0r\u00e0a\u00e0n\u00e0s\u00e0i\u00e0t\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0 \u00e0S\u00e0o\u00e0u\u00e0t\u00e0h\u00e0e\u00e0r\u00e0n\u00e0 \u00e0B\u00e0r\u00e0i\u00e0d\u00e0g\u00e0e\u00e0 \u00e0(\u00e0V\u00e0a\u00e0l\u00e0 \u00e0d\u00e0i\u00e0 \u00e0S\u00e0a\u00e0n\u00e0g\u00e0r\u00e0o\u00e0 \u00e0a\u00e0u\u00e0t\u00e0o\u00e0m\u00e0o\u00e0t\u00e0i\u00e0v\u00e0e\u00e0 \u00e0d\u00e0i\u00e0s\u00e0t\u00e0r\u00e0i\u00e0c\u00e0t\u00e0 \u00e0p\u00e0r\u00e0o\u00e0v\u00e0i\u00e0d\u00e0e\u00e0s\u00e0 \u00e0b\u00e0e\u00e0t\u00e0t\u00e0e\u00e0r\u00e0 \u00e0t\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0a\u00e0b\u00e0s\u00e0o\u00e0r\u00e0p\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0t\u00e0h\u00e0a\u00e0n\u00e0 \u00e0d\u00e0e\u00e0e\u00e0p\u00e0 \u00e0S\u00e0o\u00e0u\u00e0t\u00e0h\u00e0)\u00e0"
+    },
+    "\u00e0B\u00e0a\u00e0s\u00e0i\u00e0l\u00e0i\u00e0c\u00e0a\u00e0t\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "licei": 57.2,
+        "tecnici": 29.5,
+        "professionali": 13.3,
+        "neet": 21.5,
+        "bocciature": 10.8,
+        "absorption": 52.0,
+        "profile": "\u00e0D\u00e0e\u00e0m\u00e0o\u00e0g\u00e0r\u00e0a\u00e0p\u00e0h\u00e0i\u00e0c\u00e0 \u00e0&\u00e0 \u00e0I\u00e0n\u00e0d\u00e0u\u00e0s\u00e0t\u00e0r\u00e0i\u00e0a\u00e0l\u00e0 \u00e0B\u00e0o\u00e0t\u00e0t\u00e0l\u00e0e\u00e0n\u00e0e\u00e0c\u00e0k\u00e0 \u00e0(\u00e0H\u00e0i\u00e0g\u00e0h\u00e0 \u00e0a\u00e0c\u00e0a\u00e0d\u00e0e\u00e0m\u00e0i\u00e0c\u00e0 \u00e0o\u00e0r\u00e0i\u00e0e\u00e0n\u00e0t\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0m\u00e0e\u00e0e\u00e0t\u00e0s\u00e0 \u00e0s\u00e0h\u00e0r\u00e0i\u00e0n\u00e0k\u00e0i\u00e0n\u00e0g\u00e0 \u00e0l\u00e0o\u00e0c\u00e0a\u00e0l\u00e0 \u00e0l\u00e0a\u00e0b\u00e0o\u00e0r\u00e0 \u00e0d\u00e0e\u00e0m\u00e0a\u00e0n\u00e0d\u00e0)\u00e0"
+    },
+    "\u00e0M\u00e0o\u00e0l\u00e0i\u00e0s\u00e0e\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0S\u00e0u\u00e0d\u00e0",
+        "licei": 56.5,
+        "tecnici": 30.2,
+        "professionali": 13.3,
+        "neet": 19.2,
+        "bocciature": 10.1,
+        "absorption": 55.0,
+        "profile": "\u00e0S\u00e0c\u00e0a\u00e0l\u00e0e\u00e0 \u00e0&\u00e0 \u00e0O\u00e0r\u00e0i\u00e0e\u00e0n\u00e0t\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0C\u00e0h\u00e0a\u00e0l\u00e0l\u00e0e\u00e0n\u00e0g\u00e0e\u00e0 \u00e0(\u00e0S\u00e0m\u00e0a\u00e0l\u00e0l\u00e0 \u00e0c\u00e0o\u00e0h\u00e0o\u00e0r\u00e0t\u00e0 \u00e0t\u00e0r\u00e0a\u00e0c\u00e0k\u00e0i\u00e0n\u00e0g\u00e0 \u00e0l\u00e0e\u00e0a\u00e0d\u00e0s\u00e0 \u00e0t\u00e0o\u00e0 \u00e0h\u00e0i\u00e0g\u00e0h\u00e0 \u00e0o\u00e0u\u00e0t\u00e0-\u00e0m\u00e0i\u00e0g\u00e0r\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0t\u00e0o\u00e0 \u00e0N\u00e0o\u00e0r\u00e0t\u00e0h\u00e0e\u00e0r\u00e0n\u00e0 \u00e0t\u00e0e\u00e0c\u00e0h\u00e0n\u00e0i\u00e0c\u00e0a\u00e0l\u00e0 \u00e0h\u00e0u\u00e0b\u00e0s\u00e0)\u00e0"
+    },
+    "\u00e0S\u00e0i\u00e0c\u00e0i\u00e0l\u00e0i\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0I\u00e0s\u00e0o\u00e0l\u00e0e\u00e0",
+        "licei": 59.8,
+        "tecnici": 27.2,
+        "professionali": 13.0,
+        "neet": 27.9,
+        "bocciature": 14.5,
+        "absorption": 36.8,
+        "profile": "\u00e0S\u00e0e\u00e0v\u00e0e\u00e0r\u00e0e\u00e0 \u00e0O\u00e0r\u00e0i\u00e0e\u00e0n\u00e0t\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0M\u00e0i\u00e0s\u00e0m\u00e0a\u00e0t\u00e0c\u00e0h\u00e0 \u00e0&\u00e0 \u00e0U\u00e0r\u00e0b\u00e0a\u00e0n\u00e0 \u00e0P\u00e0e\u00e0n\u00e0a\u00e0l\u00e0t\u00e0y\u00e0 \u00e0(\u00e0O\u00e0v\u00e0e\u00e0r\u00e0-\u00e0c\u00e0o\u00e0n\u00e0c\u00e0e\u00e0n\u00e0t\u00e0r\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0i\u00e0n\u00e0 \u00e0L\u00e0i\u00e0c\u00e0e\u00e0i\u00e0 \u00e0m\u00e0e\u00e0e\u00e0t\u00e0s\u00e0 \u00e0l\u00e0o\u00e0w\u00e0 \u00e0f\u00e0o\u00e0r\u00e0m\u00e0a\u00e0l\u00e0 \u00e0h\u00e0i\u00e0r\u00e0i\u00e0n\u00e0g\u00e0;\u00e0 \u00e0P\u00e0r\u00e0o\u00e0f\u00e0e\u00e0s\u00e0s\u00e0i\u00e0o\u00e0n\u00e0a\u00e0l\u00e0i\u00e0 \u00e0f\u00e0a\u00e0c\u00e0e\u00e0 \u00e0h\u00e0i\u00e0g\u00e0h\u00e0 \u00e0i\u00e0m\u00e0p\u00e0l\u00e0i\u00e0c\u00e0i\u00e0t\u00e0 \u00e0d\u00e0r\u00e0o\u00e0p\u00e0o\u00e0u\u00e0t\u00e0 \u00e0a\u00e0n\u00e0d\u00e0 \u00e0i\u00e0n\u00e0f\u00e0o\u00e0r\u00e0m\u00e0a\u00e0l\u00e0 \u00e0l\u00e0a\u00e0b\u00e0o\u00e0r\u00e0 \u00e0d\u00e0e\u00e0p\u00e0e\u00e0n\u00e0d\u00e0e\u00e0n\u00e0c\u00e0y\u00e0)\u00e0"
+    },
+    "\u00e0S\u00e0a\u00e0r\u00e0d\u00e0e\u00e0g\u00e0n\u00e0a\u00e0": {
+        "type": "Region",
+        "macro": "\u00e0I\u00e0s\u00e0o\u00e0l\u00e0e\u00e0",
+        "licei": 54.8,
+        "tecnici": 31.2,
+        "professionali": 14.0,
+        "neet": 20.8,
+        "bocciature": 12.4,
+        "absorption": 46.5,
+        "profile": "\u00e0H\u00e0i\u00e0g\u00e0h\u00e0 \u00e0E\u00e0v\u00e0a\u00e0l\u00e0u\u00e0a\u00e0t\u00e0i\u00e0o\u00e0n\u00e0 \u00e0S\u00e0e\u00e0v\u00e0e\u00e0r\u00e0i\u00e0t\u00e0y\u00e0 \u00e0&\u00e0 \u00e0D\u00e0i\u00e0s\u00e0p\u00e0e\u00e0r\u00e0s\u00e0i\u00e0o\u00e0n\u00e0 \u00e0(\u00e0H\u00e0i\u00e0g\u00e0h\u00e0 \u00e0b\u00e0o\u00e0c\u00e0c\u00e0i\u00e0a\u00e0t\u00e0u\u00e0r\u00e0e\u00e0 \u00e0r\u00e0a\u00e0t\u00e0e\u00e0s\u00e0 \u00e0t\u00e0r\u00e0i\u00e0g\u00e0g\u00e0e\u00e0r\u00e0 \u00e0e\u00e0a\u00e0r\u00e0l\u00e0y\u00e0 \u00e0s\u00e0c\u00e0h\u00e0o\u00e0o\u00e0l\u00e0 \u00e0l\u00e0e\u00e0a\u00e0v\u00e0i\u00e0n\u00e0g\u00e0 \u00e0i\u00e0n\u00e0t\u00e0o\u00e0 \u00e0N\u00e0E\u00e0E\u00e0T\u00e0 \u00e0p\u00e0o\u00e0o\u00e0l\u00e0)\u00e0"
+    }
 };
 
 function openTab(tabId) {
@@ -786,48 +1325,21 @@ function openTab(tabId) {
 }
 
 function selectRegion(regName) {
-    const data = regionData[regName];
+    const data = geomapData[regName];
     if (!data) return;
     
     document.getElementById('reg-name').innerText = regName;
     document.getElementById('reg-macro').innerText = data.macro;
-    document.getElementById('reg-nursery').innerText = data.nursery + '%';
-    document.getElementById('reg-neet').innerText = data.neet + '%';
-    document.getElementById('reg-precariato').innerText = data.precariato + '%';
-    document.getElementById('reg-dropout').innerText = data.dropout + '%';
+    document.getElementById('reg-nursery').innerText = data.nursery;
+    document.getElementById('reg-neet').innerText = data.neet;
+    document.getElementById('reg-precariato').innerText = data.precariato;
+    document.getElementById('reg-dropout').innerText = data.dropout;
     document.getElementById('reg-demo').innerText = data.demo_change;
     
-    const mapBtns = document.querySelectorAll('.map-btn');
-    mapBtns.forEach(b => b.classList.remove('selected'));
+    const btns = document.querySelectorAll('#geomap-buttons .map-btn');
+    btns.forEach(b => b.classList.remove('selected'));
     event.currentTarget.classList.add('selected');
 }
-const tripartiteData = {
-    "Nord-Ovest (Macro-Area)": {"type": "Macro-Area", "macro": "Nord-Ovest", "licei": 52.2, "tecnici": 33.2, "professionali": 14.6, "neet": 12.1, "bocciature": 7.8, "absorption": 82.5, "profile": "Strong Technical-Vocational Synergy (`~47.8% combined Tecnici/Professionali share`). High industrial district density (`Index: 82.5/100`) directly absorbs graduating youth, maintaining low NEET rates (`12.1%`)."},
-    "Nord-Est (Macro-Area)": {"type": "Macro-Area", "macro": "Nord-Est", "licei": 46.5, "tecnici": 37.1, "professionali": 16.5, "neet": 9.5, "bocciature": 6.1, "absorption": 93.3, "profile": "Strong Technical-Vocational Synergy (`~53.5% combined Tecnici/Professionali share`). High industrial district density (`Index: 93.3/100`) directly absorbs graduating youth, maintaining low NEET rates (`9.5%`)."},
-    "Centro (Macro-Area)": {"type": "Macro-Area", "macro": "Centro", "licei": 55.9, "tecnici": 30.2, "professionali": 13.8, "neet": 13.0, "bocciature": 7.9, "absorption": 77.1, "profile": "Balanced Academic-Technical Split (`55.9% Licei vs 30.2% Tecnici`). Moderate district absorption (`Index: 77.1/100`) keeps transitions stable (`NEET: 13.0%`), though metropolitan Rome shows high academic tracking."},
-    "Sud (Macro-Area)": {"type": "Macro-Area", "macro": "Sud", "licei": 56.9, "tecnici": 29.7, "professionali": 13.4, "neet": 22.8, "bocciature": 11.6, "absorption": 48.9, "profile": "Severe Orientation & Absorption Mismatch. High Liceo concentration (`56.9% share`) lacks local corporate R&D demand (`Absorption Index: 48.9/100`). Meanwhile, Professionali students face high Grade 9 repetition (`bocciature: 11.6%`), driving high implicit dropout and acute NEET traps (`NEET: 22.8%`)."},
-    "Isole (Macro-Area)": {"type": "Macro-Area", "macro": "Isole", "licei": 57.3, "tecnici": 29.2, "professionali": 13.5, "neet": 24.4, "bocciature": 13.4, "absorption": 41.6, "profile": "Severe Orientation & Absorption Mismatch. High Liceo concentration (`57.3% share`) lacks local corporate R&D demand (`Absorption Index: 41.6/100`). Meanwhile, Professionali students face high Grade 9 repetition (`bocciature: 13.4%`), driving high implicit dropout and acute NEET traps (`NEET: 24.4%`)."},
-    "Lombardia": {"type": "Region", "macro": "Nord-Ovest", "licei": 51.2, "tecnici": 34.5, "professionali": 14.3, "neet": 11.2, "bocciature": 7.4, "absorption": 88.5, "profile": "High Technical-Vocational Absorption (Mechatronics/Services district buffer prevents NEET trap)"},
-    "Piemonte": {"type": "Region", "macro": "Nord-Ovest", "licei": 52.4, "tecnici": 32.8, "professionali": 14.8, "neet": 13.5, "bocciature": 8.1, "absorption": 82.0, "profile": "High Technical Absorption (Automotive & Manufacturing link eases school-to-work transition)"},
-    "Liguria": {"type": "Region", "macro": "Nord-Ovest", "licei": 56.8, "tecnici": 29.4, "professionali": 13.8, "neet": 14.2, "bocciature": 8.9, "absorption": 74.5, "profile": "Moderate Technical Absorption (Maritime & Logistics transitions balanced with tertiary academic paths)"},
-    "Valle d'Aosta": {"type": "Region", "macro": "Nord-Ovest", "licei": 48.5, "tecnici": 36.2, "professionali": 15.3, "neet": 9.5, "bocciature": 6.8, "absorption": 85.0, "profile": "Strong Technical-Vocational Synergy (Tourism & Mountain Economy direct placement)"},
-    "Veneto": {"type": "Region", "macro": "Nord-Est", "licei": 46.8, "tecnici": 37.4, "professionali": 15.8, "neet": 10.1, "bocciature": 6.5, "absorption": 92.4, "profile": "Peak Technical Alignment (Nord-Est industrial district model directly absorbs Tecnici/Professionali)"},
-    "Emilia-Romagna": {"type": "Region", "macro": "Nord-Est", "licei": 47.5, "tecnici": 36.8, "professionali": 15.7, "neet": 9.8, "bocciature": 6.2, "absorption": 94.0, "profile": "Peak Technical & ITS Academy Synergy (Motor Valley & Packaging clusters ensure immediate youth hiring)"},
-    "Friuli-Venezia Giulia": {"type": "Region", "macro": "Nord-Est", "licei": 49.2, "tecnici": 35.6, "professionali": 15.2, "neet": 9.9, "bocciature": 6.4, "absorption": 90.2, "profile": "Strong Technical Absorption (Shipbuilding & Specialized Mechanics direct transition)"},
-    "Trentino-Alto Adige": {"type": "Region", "macro": "Nord-Est", "licei": 42.4, "tecnici": 38.5, "professionali": 19.1, "neet": 8.2, "bocciature": 5.4, "absorption": 96.5, "profile": "Dual Apprenticeship Model (Strong German-style dual vocational integration minimizes NEET incidence)"},
-    "Toscana": {"type": "Region", "macro": "Centro", "licei": 54.2, "tecnici": 31.5, "professionali": 14.3, "neet": 11.8, "bocciature": 7.8, "absorption": 79.5, "profile": "Balanced Academic-Technical Mix (Artisanal, Fashion, and Biomedical clusters support transition)"},
-    "Lazio": {"type": "Region", "macro": "Centro", "licei": 62.4, "tecnici": 25.8, "professionali": 11.8, "neet": 14.5, "bocciature": 8.6, "absorption": 72.0, "profile": "Liceo Over-Concentration (Heavy academic tracking toward Public Administration & Tertiary sector)"},
-    "Marche": {"type": "Region", "macro": "Centro", "licei": 51.8, "tecnici": 33.4, "professionali": 14.8, "neet": 12.5, "bocciature": 7.5, "absorption": 81.2, "profile": "District Technical Absorption (Footwear & Mechanical districts ease vocational transitions)"},
-    "Umbria": {"type": "Region", "macro": "Centro", "licei": 55.4, "tecnici": 30.2, "professionali": 14.4, "neet": 13.2, "bocciature": 7.9, "absorption": 75.8, "profile": "Moderate Academic Tracking (University-oriented transitions with localized industrial placement)"},
-    "Campania": {"type": "Region", "macro": "Sud", "licei": 58.6, "tecnici": 28.4, "professionali": 13.0, "neet": 28.6, "bocciature": 13.8, "absorption": 38.5, "profile": "Severe Orientation Mismatch & Transition Trap (High Liceo share lacks local R&D/corporate absorption; Professionali face high dropout and informal labor traps)"},
-    "Puglia": {"type": "Region", "macro": "Sud", "licei": 56.2, "tecnici": 30.1, "professionali": 13.7, "neet": 23.4, "bocciature": 11.5, "absorption": 48.0, "profile": "Structural Transition Bottleneck (Technical graduates face regional job deficit; high out-migration)"},
-    "Calabria": {"type": "Region", "macro": "Sud", "licei": 59.4, "tecnici": 27.8, "professionali": 12.8, "neet": 27.1, "bocciature": 14.2, "absorption": 34.2, "profile": "Acute Tripartite Fracture (High academic tracking combined with industrial desertification drives high NEET and youth brain drain)"},
-    "Abruzzo": {"type": "Region", "macro": "Sud", "licei": 53.8, "tecnici": 32.1, "professionali": 14.1, "neet": 16.8, "bocciature": 9.4, "absorption": 65.4, "profile": "Transitional Southern Bridge (Val di Sangro automotive district provides better technical absorption than deep South)"},
-    "Basilicata": {"type": "Region", "macro": "Sud", "licei": 57.2, "tecnici": 29.5, "professionali": 13.3, "neet": 21.5, "bocciature": 10.8, "absorption": 52.0, "profile": "Demographic & Industrial Bottleneck (High academic orientation meets shrinking local labor demand)"},
-    "Molise": {"type": "Region", "macro": "Sud", "licei": 56.5, "tecnici": 30.2, "professionali": 13.3, "neet": 19.2, "bocciature": 10.1, "absorption": 55.0, "profile": "Scale & Orientation Challenge (Small cohort tracking leads to high out-migration to Northern technical hubs)"},
-    "Sicilia": {"type": "Region", "macro": "Isole", "licei": 59.8, "tecnici": 27.2, "professionali": 13.0, "neet": 27.9, "bocciature": 14.5, "absorption": 36.8, "profile": "Severe Orientation Mismatch & Urban Penalty (Over-concentration in Licei meets low formal hiring; Professionali face high implicit dropout and informal labor dependency)"},
-    "Sardegna": {"type": "Region", "macro": "Isole", "licei": 54.8, "tecnici": 31.2, "professionali": 14.0, "neet": 20.8, "bocciature": 12.4, "absorption": 46.5, "profile": "High Evaluation Severity & Dispersion (High bocciature rates trigger early school leaving into NEET pool)"}
-};
 
 function selectTrip(name) {
     const data = tripartiteData[name];
