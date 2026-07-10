@@ -1,3 +1,19 @@
+# 🇮🇹 Italienation: An Open Science Observatory & Data Laboratory on Italian Education & Youth Transitions
+
+> **Open Science Philosophy & Invitation:** This repository is built on the conviction that structural challenges in education and youth labor markets cannot be resolved through top-down policy dogma. Instead of dictating closed conclusions, we provide an **open-ended empirical laboratory** across **11 open data domains**, **815,000+ teaching posts**, and **113 years of fiscal history**. We invite researchers, data scientists, educators, citizens, and policymakers to explore the data, test alternative hypotheses, and debate interpretations collaboratively.
+
+---
+
+## 🌟 Quick Access: The Holistic Open Science Observatory (`holistic_analysis/`)
+
+We have gathered our complete, highly analysed data panels (`data_panels/`) and a zero-setup interactive web observatory into a dedicated standalone folder for the public:
+
+* **👉 Explore the Interactive HTML Observatory:** [`holistic_analysis/interactive_web_experience/index.html`](./holistic_analysis/interactive_web_experience/index.html) (Single-file open-ended web experience with tabs, live tables, reflection prompts, and notebook diagnostics).
+* **📊 Download the 13 Open Data Panels:** [`holistic_analysis/data_panels/`](./holistic_analysis/data_panels/) (Curated CSV tables covering public expenditure, Eurostat benchmarks, Openpolis municipal censuses, HuggingFace teacher registries, and INVALSI competency gaps).
+* **💻 Fork the Master Python Pipeline:** [`holistic_analysis/jupyter_notebook/italienation_holistic_master_analysis.ipynb`](./holistic_analysis/jupyter_notebook/italienation_holistic_master_analysis.ipynb) (Fully reproducible, open-source synthesis notebook).
+
+---
+
 # Italienation
 
 A compact, data-first repository supporting a comparative study of Italian NEETs (Not in Education, Employment, or Training). The Jupyter notebooks show how the author analysed the data in Python, but you do not need Python to use the data — the datasets are ready for exploration with spreadsheets or any analysis tool.
