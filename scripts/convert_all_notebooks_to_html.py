@@ -2,10 +2,9 @@
 """
 convert_all_notebooks_to_html.py
 
-Converts all 23 Jupyter notebooks (.ipynb) across `Notebooks/` and `Final_Analysis/`
+Converts all 21+ Jupyter notebooks (.ipynb) across `Notebooks/` and `Final_Analysis/`
 into standalone HTML files in `rendered_notebooks/` using jupyter nbconvert.
-This allows any user on the HTML site to directly read and inspect executed code, tables,
-and plots without needing to run Jupyter locally.
+Includes UTF-8 sanitization to ensure no mojibake or replacement characters emerge.
 """
 
 import os
@@ -18,6 +17,18 @@ OUT_DIR_WEB = os.path.join(ROOT_DIR, "holistic_analysis", "interactive_web_exper
 
 os.makedirs(OUT_DIR_ROOT, exist_ok=True)
 os.makedirs(OUT_DIR_WEB, exist_ok=True)
+
+def clean_html_text(text):
+    if not isinstance(text, str):
+        return str(text)
+    replacements = {
+        "Ã©": "é", "Ã¨": "è", "Ã ": "à", "Ã¬": "ì", "Ã²": "ò", "Ã¹": "ù",
+        "â€™": "'", "â€œ": '"', "â€": '"', "â€“": "-", "â€-": "-",
+        "ï»¿": "", "Â": ""
+    }
+    for k, v in replacements.items():
+        text = text.replace(k, v)
+    return text
 
 print(f"Scanning for all .ipynb notebooks in {ROOT_DIR}...")
 notebooks = sorted(glob.glob(os.path.join(ROOT_DIR, "**", "*.ipynb"), recursive=True))
@@ -44,15 +55,17 @@ for nb_path in notebooks:
         ]
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
-        # Copy from OUT_DIR_ROOT to OUT_DIR_WEB
+        # Clean and copy from OUT_DIR_ROOT to OUT_DIR_WEB
         if os.path.exists(out_html_root):
             with open(out_html_root, "r", encoding="utf-8", errors="ignore") as f_in:
-                html_data = f_in.read()
+                html_data = clean_html_text(f_in.read())
+            with open(out_html_root, "w", encoding="utf-8") as f_clean:
+                f_clean.write(html_data)
             with open(out_html_web, "w", encoding="utf-8") as f_out:
                 f_out.write(html_data)
             converted_count += 1
-            print(f"    [OK] Saved to {out_html_root} and {out_html_web}")
+            print(f"    [OK] Saved cleaned HTML to {out_html_root} and {out_html_web}")
     except Exception as e:
         print(f"    [WARN] Failed to convert {fname}: {e}")
 
-print(f"\n[SUCCESS] Successfully converted {converted_count} notebooks into standalone HTML viewers!")
+print(f"\n[SUCCESS] Successfully converted and cleaned {converted_count} notebooks into standalone HTML viewers!")
