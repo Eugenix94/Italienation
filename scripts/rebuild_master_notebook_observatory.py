@@ -789,7 +789,13 @@ sys.stdout = io.StringIO()
 # Write to both locations
 with open(os.path.join(ROOT_DIR, "index.html"), "w", encoding="utf-8") as f1:
     f1.write(html_template)
+
+# For mirror inside holistic_analysis/interactive_web_experience/, adjust relative links back to root
+html_template_mirror = html_template.replace('href="rendered_notebooks/', 'href="../../rendered_notebooks/')
+html_template_mirror = html_template_mirror.replace('href="DATASET_STATISTICAL_CONNECTIONS.md"', 'href="../../DATASET_STATISTICAL_CONNECTIONS.md"')
+html_template_mirror = html_template_mirror.replace('href="HOLISTIC_CRITICAL_DATA_AUDIT.md"', 'href="../../HOLISTIC_CRITICAL_DATA_AUDIT.md"')
+
 with open(os.path.join(rendered_dir, "..", "index.html"), "w", encoding="utf-8") as f2:
-    f2.write(html_template)
+    f2.write(html_template_mirror)
 
 print("[SUCCESS] Rebuilt Bilingual Citizen-First Open Science Laboratory across both index.html files!")
