@@ -332,8 +332,8 @@ html_template = f"""<!DOCTYPE html>
                 <div>
                     <h2 class="text-2xl md:text-3xl font-bold text-white brand-font flex items-center gap-3">
                         <span>📊</span>
-                        <span class="lang-it">Esploratore Interattivo dei Dati e dei Grafici (`Stile Our World in Data`)</span>
-                        <span class="lang-en hidden">Interactive Data Explorer & Visualization (`Our World in Data Style`)</span>
+                        <span class="lang-it">Esploratore Interattivo dei Dati e delle Dinamiche Territoriali</span>
+                        <span class="lang-en hidden">Interactive Explorer of Educational Data & Territorial Dynamics</span>
                     </h2>
                     <p class="text-slate-400 text-sm mt-1">
                         <span class="lang-it">Scegli un indicatore e confronta direttamente le statistiche territoriali e storiche con tabelle ufficiali chiare e trasparenti.</span>
@@ -430,8 +430,8 @@ html_template = f"""<!DOCTYPE html>
                         <span class="text-xl">📋</span>
                         <div>
                             <h4 class="text-base font-bold text-white">
-                                <span class="lang-it">Tabella Dati Interattiva (`Stile Our World in Data`)</span>
-                                <span class="lang-en hidden">Interactive Data Table (`Our World in Data Style`)</span>
+                                <span class="lang-it">Tabella Riassuntiva dei Dati Ufficiali e degli Indicatori</span>
+                                <span class="lang-en hidden">Summary Table of Official Data & Indicators</span>
                             </h4>
                             <p class="text-xs text-slate-400">
                                 <span class="lang-it">Tutti i valori numerici e le percentuali per territorio o anno, consultabili e confrontabili in modo immediato.</span>
