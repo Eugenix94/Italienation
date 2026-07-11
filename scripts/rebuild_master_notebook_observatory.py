@@ -510,7 +510,7 @@ df = pd.read_csv(url)
 print("Long-Run Fiscal Curve Loaded! Total years tracked:", len(df))
 print("\\nRecent Decades Education Spending (% GDP):")
 print(df[["Year", "Public_Education_Spending_Pct_GDP_OWID"]].dropna().tail(10))`;
-            }} else {{
+            }} else if (dataset === 'siope_municipal') {{
                 chartTitleEl.innerText = (currentLang === 'it') ? '🏛️ Bilanci della Scuola nei 7.959 Comuni (SIOPE)' : '🏛️ School Operations Budgets across 7,959 Municipalities (SIOPE)';
                 kpiTitleEl.innerText = (currentLang === 'it') ? 'Diseguaglianza Territoriale di Bilancio' : 'Territorial Budget Inequality';
                 kpiDescEl.innerText = (currentLang === 'it') ?
@@ -535,6 +535,31 @@ df = pd.read_csv(url)
 print("SIOPE Municipal Registry Loaded! Total municipality rows:", len(df))
 print("\\nTop & Bottom Spending Municipalities Summary:")
 print(df.describe())`;
+            }} else {{
+                chartTitleEl.innerText = (currentLang === 'it') ? '🎒 Licei vs Tecnici e Professionali: Destini degli Studenti' : '🎒 Academic vs Vocational Tracks: Student Destinations';
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'Segregazione di Indirizzo e Dispersione' : 'High School Tracking & Dropout Risk';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'Mentre oltre l\'82% dei diplomati dai Licei si iscrive all\'Università, tra chi frequenta gli Istituti Professionali il tasso di transizione universitaria crolla al 14%, e il tasso di bocciature e abbandono precoce supera il 28%.' :
+                    'While over 82% of Liceo graduates enter University, among students in Vocational paths university enrollment drops to 14%, and Grade 9 repetition or early dropout exceeds 28%.';
+                kpiMetricEl.innerText = '28.4% Abbandono Professionali';
+
+                labels = ['Liceo Classico', 'Liceo Scientifico', 'Istituto Tecnico', 'Istituto Professionale'];
+                dataValues = [88, 85, 42, 14];
+                chartLabel = (currentLang === 'it') ? 'Tasso Iscrizione Università (%)' : 'University Transition Rate (%)';
+
+                generatedPy = `# ==============================================================================
+# ITALIENATION CITIZEN LABORATORY - AUTO-GENERATED PYTHON SCRIPT
+# Dataset: Tripartite Upper Secondary School Orientation & Outcomes Matrix
+# Target Analysis: Student Destinations across Licei vs Technical vs Vocational Tracks
+# ==============================================================================
+import pandas as pd
+
+url = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/holistic_analysis/data_panels/15_tripartite_neet_area_orientation_matrix.csv"
+df = pd.read_csv(url)
+
+print("Tripartite Tracking Matrix Loaded! Total rows:", len(df))
+print("\\nTrack Comparison Overview:")
+print(df.head(10))`;
             }}
 
             pyScriptEl.value = generatedPy;
@@ -577,7 +602,7 @@ print(df.describe())`;
             try {{
                 if (!pyodideInstance) {{
                     pyodideInstance = await loadPyodide();
-                    await pyodideInstance.loadPackage(['pandas', 'numpy']);
+                    await pyodideInstance.loadPackage(['pandas', 'numpy', 'matplotlib']);
                 }}
                 terminal.innerText = "⚡ Motore Pyodide pronto! Esecuzione calcolo empirico sui dati in corso...\\n\\n";
                 
