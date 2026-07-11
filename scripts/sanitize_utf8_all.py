@@ -12,9 +12,9 @@ import glob
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..")) if os.path.basename(os.getcwd()) == 'scripts' else os.path.abspath(".")
 
 replacements = {
-    "Ã©": "é", "Ã¨": "è", "Ã ": "à", "Ã¬": "ì", "Ã²": "ò", "Ã¹": "ù",
-    "â€™": "'", "â€œ": '"', "â€": '"', "â€“": "-", "â€-": "-",
-    "ï»¿": "", "Â": ""
+    "é": "é", "è": "è", "à": "à", "ì": "ì", "ò": "ò", "ù": "ù",
+    "'": "'", """: '"', """: '"', ""“": "-", ""-": "-",
+    "": "", "": ""
 }
 
 print("Running fast UTF-8 sanitization across all HTML, CSV, and script files...")
