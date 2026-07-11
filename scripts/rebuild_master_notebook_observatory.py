@@ -325,7 +325,7 @@ html_template = f"""<!DOCTYPE html>
         </div>
     </section>
 
-    <!-- SECTION 1: THE CITIZEN INTERACTIVE OPEN SCIENCE LABORATORY & AUTO-PYTHON ENGINE -->
+    <!-- SECTION 1: THE CITIZEN INTERACTIVE OPEN SCIENCE LABORATORY & OUR WORLD IN DATA TABLE -->
     <section id="interactive-lab" class="max-w-7xl mx-auto px-6 py-10">
         <div class="glass-panel rounded-3xl p-8 md:p-10 border border-blue-500/30 shadow-2xl">
             <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-700/80 pb-6 mb-8">
