@@ -1,0 +1,21 @@
+region,macro_area,total_active_school_buildings,built_before_1976_anti_seismic_law_pct,located_in_high_seismic_risk_zone_1_2_pct,buildings_with_gym_palestra_pct,buildings_with_canteen_mensa_pct,fire_safety_certification_cpi_pct,infrastructure_safety_diagnostic
+Lombardia,Nord-Ovest,6450,58.4,18.2,74.5,48.2,63.3,Moderate Vulnerability (High building age offset by strong municipal maintenance budgets)
+Campania,Sud,4820,64.8,68.4,46.2,22.8,39.3,Acute Structural Vulnerability (High pre-1976 share in Zone 1/2 seismic risk; low gym/canteen access)
+Sicilia,Isole,4380,66.2,78.5,42.8,18.5,36.4,Peak Infrastructure Deficit (High seismic exposure coupled with severe full-time canteen shortage)
+Lazio,Centro,4150,61.5,44.8,65.4,42.0,55.6,Suburban/Metropolitan Strain (High demographic wear across Rome periphery)
+Veneto,Nord-Est,3420,54.2,38.5,82.0,64.5,69.7,Strong Structural Buffer (Active energetic retrofit and high gym density)
+Puglia,Sud,3280,62.0,48.2,52.4,26.4,44.5,Full-Time Schooling Bottleneck (Low canteen availability restricts full-time female employment)
+Piemonte,Nord-Ovest,3150,63.5,28.4,76.8,52.0,65.3,Aging Building Stock (High pre-1976 share requiring energetic modernization)
+Emilia-Romagna,Nord-Est,2980,52.8,42.0,86.5,72.4,73.5,Benchmark Municipal Standards (High safety certification and peak canteen coverage)
+Calabria,Sud,2250,68.5,88.6,38.5,14.2,32.7,Peak Seismic & Structural Risk (High exposure in Zone 1 combined with severe service gaps)
+Sardegna,Isole,1850,64.0,12.5,62.0,38.4,52.7,Demographic Emptying & Aging Facilities (High building maintenance cost per pupil)
+Toscana,Centro,2680,59.2,46.5,78.4,62.0,66.6,Solid Municipal Cohesion (Above-average safety and dietary standards)
+Liguria,Nord-Ovest,1420,71.2,32.0,68.0,45.0,57.8,High Urban Density & Age (Historic building stock with spatial expansion constraints)
+Marche,Centro,1380,58.5,62.4,75.2,56.8,63.9,Post-Seismic Reconstruction Focus (Ongoing structural reinforcement following central earthquakes)
+Abruzzo,Sud,1250,60.2,76.8,68.4,44.2,58.1,Seismic Modernization Priority (Active structural rebuilding protocols)
+Friuli-Venezia Giulia,Nord-Est,1120,48.5,64.2,88.2,68.5,75.0,Peak Seismic Resilience (High post-1976 reconstruction safety compliance)
+Trentino-Alto Adige,Nord-Est,980,42.0,24.5,94.5,84.0,80.3,European Gold Standard (State-of-the-art timber/green architecture and universal canteen coverage)
+Umbria,Centro,920,57.8,72.0,76.0,58.0,64.6,High Seismic Adaptation (Active structural monitoring across historical towns)
+Basilicata,Sud,680,63.2,68.5,54.0,32.0,45.9,Rural Structural Maintenance Deficit
+Molise,Sud,420,65.0,82.0,48.5,28.0,41.2,High Seismic Exposure & Scale Challenges
+Valle d'Aosta,Nord-Ovest,280,45.2,14.0,89.0,76.0,75.6,Mountain Infrastructure Resilience

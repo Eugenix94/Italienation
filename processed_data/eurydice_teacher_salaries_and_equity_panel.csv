@@ -1,0 +1,193 @@
+Year,ISCED level,Qualification,Salary progression,DK,DE,ES,FR,IT,FI
+2020/2021,ISCED 02,Minimum,Starting salary,356828,:,30992.36885282224,26839.498521066667,24297.490766666666,30001.8784
+2020/2021,ISCED 1,Minimum,Starting salary,411355.17658205057,54128.94536287058,30992.36885282224,26839.498521066667,24297.490766666666,34196.572799999994
+2020/2021,ISCED 24,Minimum,Starting salary,413442.15316842304,60162.82409294328,34619.35540557267,29381.99807452821,26114.216443333335,36734.1312
+2020/2021,ISCED 34,Minimum,Starting salary,384928.934544,62926.14224436363,34619.35540557267,29381.99807452821,26114.216443333335,38823.865600000005
+2020/2021,ISCED 02,Minimum,After 10 years,404768,:,33648.650335654835,30960.70687626667,26639.460174166667,32713.586640000005
+2020/2021,ISCED 1,Minimum,After 10 years,456644.6408563503,62293.422738734786,33648.650335654835,30960.70687626667,26639.460174166667,39454.90122537601
+2020/2021,ISCED 24,Minimum,After 10 years,462287.07625153015,68440.13383439842,37597.00915308765,33503.206429728205,28843.1777125,42382.654065024006
+2020/2021,ISCED 34,Minimum,After 10 years,500239.089504,71102.71366373966,37597.00915308765,33503.206429728205,29530.1933925,46617.98060304002
+2020/2021,ISCED 02,Minimum,After 15 years,404768,:,35861.82731972296,32947.962228799996,29161.896674166666,33025.144608
+2020/2021,ISCED 1,Minimum,After 15 years,473443.38134945947,66144.53064280246,35861.82731972296,32947.962228799996,29161.896674166666,42220.50192079284
+2020/2021,ISCED 24,Minimum,After 15 years,478004.5189299258,71990.77755522582,40033.769781953364,35490.46178226154,31706.5693075,45353.47629281998
+2020/2021,ISCED 34,Minimum,After 15 years,500239.089504,74609.64574915977,40033.769781953364,35490.46178226154,32588.466340833336,48944.43982551554
+2020/2021,ISCED 02,Minimum,At the top of the range,404768,:,44248.17636196196,47628.6412544,35373.33197666666,33025.144608
+2020/2021,ISCED 1,Minimum,At the top of the range,473443.38134945947,70749.38840648974,44248.17636196196,47628.6412544,35373.33197666666,44753.73203604041
+2020/2021,ISCED 24,Minimum,At the top of the range,478004.5189299258,78520.7482971402,49306.93447488961,50424.03476320769,38842.937889166664,48074.68487038918
+2020/2021,ISCED 34,Minimum,At the top of the range,500239.089504,85588.79738899824,49306.93447488961,50424.03476320769,40597.24098083333,51881.10621504647
+2020/2021,ISCED 02,Higher (if most common),Starting salary,a,a,a,a,a,a
+2020/2021,ISCED 1,Higher (if most common),Starting salary,a,a,a,a,a,a
+2020/2021,ISCED 24,Higher (if most common),Starting salary,a,a,a,a,a,a
+2020/2021,ISCED 34,Higher (if most common),Starting salary,a,a,a,a,a,a
+2020/2021,ISCED 02,Higher (if most common),After 10 years,a,a,a,a,a,a
+2020/2021,ISCED 1,Higher (if most common),After 10 years,a,a,a,a,a,a
+2020/2021,ISCED 24,Higher (if most common),After 10 years,a,a,a,a,a,a
+2020/2021,ISCED 34,Higher (if most common),After 10 years,a,a,a,a,a,a
+2020/2021,ISCED 02,Higher (if most common),After 15 years,a,a,a,a,a,a
+2020/2021,ISCED 1,Higher (if most common),After 15 years,a,a,a,a,a,a
+2020/2021,ISCED 24,Higher (if most common),After 15 years,a,a,a,a,a,a
+2020/2021,ISCED 34,Higher (if most common),After 15 years,a,a,a,a,a,a
+2020/2021,ISCED 02,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2020/2021,ISCED 1,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2020/2021,ISCED 24,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2020/2021,ISCED 34,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2020/2021,ISCED 02,Other (if different from minimum and most common),Starting salary,a,m,a,a,a,a
+2020/2021,ISCED 1,Other (if different from minimum and most common),Starting salary,a,54128.94536287058,a,a,a,a
+2020/2021,ISCED 24,Other (if different from minimum and most common),Starting salary,a,60162.82409294328,a,33738.175937558975,a,a
+2020/2021,ISCED 34,Other (if different from minimum and most common),Starting salary,a,62926.14224436363,a,33738.175937558975,a,a
+2020/2021,ISCED 02,Other (if different from minimum and most common),After 10 years,a,m,a,a,a,a
+2020/2021,ISCED 1,Other (if different from minimum and most common),After 10 years,a,62293.422738734786,a,a,a,a
+2020/2021,ISCED 24,Other (if different from minimum and most common),After 10 years,a,68440.13383439842,a,42564.00343995897,a,a
+2020/2021,ISCED 34,Other (if different from minimum and most common),After 10 years,a,71102.71366373966,a,42564.00343995897,a,a
+2020/2021,ISCED 02,Other (if different from minimum and most common),After 15 years,a,m,a,a,a,a
+2020/2021,ISCED 1,Other (if different from minimum and most common),After 15 years,a,66144.53064280246,a,a,a,a
+2020/2021,ISCED 24,Other (if different from minimum and most common),After 15 years,a,71990.77755522582,a,45288.12685169231,a,a
+2020/2021,ISCED 34,Other (if different from minimum and most common),After 15 years,a,74609.64574915977,a,45288.12685169231,a,a
+2020/2021,ISCED 02,Other (if different from minimum and most common),At the top of the range,a,m,a,a,a,a
+2020/2021,ISCED 1,Other (if different from minimum and most common),At the top of the range,a,70749.38840648974,a,a,a,a
+2020/2021,ISCED 24,Other (if different from minimum and most common),At the top of the range,a,78520.7482971402,a,60504.27579126154,a,a
+2020/2021,ISCED 34,Other (if different from minimum and most common),At the top of the range,a,85588.79738899824,a,60504.27579126154,a,a
+2021/2022,ISCED 02,Minimum,Starting salary,362608,:,31847.145954907013,28385.311114,24297.490766666666,30301.8976
+2021/2022,ISCED 1,Minimum,Starting salary,415668,55551.032064554915,31847.145954907013,28385.311114,24297.490766666666,34701.7424
+2021/2022,ISCED 24,Minimum,Starting salary,417494,61456.96963749131,35595.62848057983,30934.893447,26114.216443333335,37276.8032
+2021/2022,ISCED 34,Minimum,Starting salary,392924,64009.84764963576,35595.62848057983,30934.893447,26114.216443333335,39139.776000000005
+2021/2022,ISCED 02,Minimum,After 10 years,407077,:,34604.66432917975,31698.976118,26639.460174166667,33040.72296
+2021/2022,ISCED 1,Minimum,After 10 years,461862,63700.66882358295,34604.66432917975,31698.976118,26639.460174166667,39781.73046993601
+2021/2022,ISCED 24,Minimum,After 10 years,466818,69768.82871869221,38689.97148779445,34248.558451,28843.1777125,42733.754420448015
+2021/2022,ISCED 34,Minimum,After 10 years,510629,72362.35299165772,38689.97148779445,34248.558451,29530.1933925,46997.31183840002
+2021/2022,ISCED 02,Minimum,After 15 years,407077,:,36887.00930562697,33365.462488,29161.896674166666,33355.39651200001
+2021/2022,ISCED 1,Minimum,After 15 years,478832,67605.27207619372,36887.00930562697,33365.462488,29161.896674166666,42570.24033906677
+2021/2022,ISCED 24,Minimum,After 15 years,482689,73431.36103926749,41197.28137613353,35915.044821,31706.5693075,45729.18711125276
+2021/2022,ISCED 34,Minimum,After 15 years,510629,76316.9253428138,41197.28137613353,35915.044821,32588.466340833336,49342.70149585922
+2021/2022,ISCED 02,Minimum,At the top of the range,407077,:,45585.2182177197,48183.508143,35373.33197666666,33355.39651200001
+2021/2022,ISCED 1,Minimum,At the top of the range,478832,72349.34339288119,45585.2182177197,48183.508143,35373.33197666666,45124.45475941077
+2021/2022,ISCED 24,Minimum,At the top of the range,482689,80077.81506575515,50810.05753509274,50985.980477,38842.937889166664,48472.93833792792
+2021/2022,ISCED 34,Minimum,At the top of the range,510629,87323.23131213825,50810.05753509274,50985.980477,40597.24098083333,52303.26358561077
+2021/2022,ISCED 02,Higher (if most common),Starting salary,a,a,a,a,a,a
+2021/2022,ISCED 1,Higher (if most common),Starting salary,a,a,a,a,a,a
+2021/2022,ISCED 24,Higher (if most common),Starting salary,a,a,a,a,a,a
+2021/2022,ISCED 34,Higher (if most common),Starting salary,a,a,a,a,a,a
+2021/2022,ISCED 02,Higher (if most common),After 10 years,a,a,a,a,a,a
+2021/2022,ISCED 1,Higher (if most common),After 10 years,a,a,a,a,a,a
+2021/2022,ISCED 24,Higher (if most common),After 10 years,a,a,a,a,a,a
+2021/2022,ISCED 34,Higher (if most common),After 10 years,a,a,a,a,a,a
+2021/2022,ISCED 02,Higher (if most common),After 15 years,a,a,a,a,a,a
+2021/2022,ISCED 1,Higher (if most common),After 15 years,a,a,a,a,a,a
+2021/2022,ISCED 24,Higher (if most common),After 15 years,a,a,a,a,a,a
+2021/2022,ISCED 34,Higher (if most common),After 15 years,a,a,a,a,a,a
+2021/2022,ISCED 02,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2021/2022,ISCED 1,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2021/2022,ISCED 24,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2021/2022,ISCED 34,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2021/2022,ISCED 02,Other (if different from minimum and most common),Starting salary,a,:,a,a,a,a
+2021/2022,ISCED 1,Other (if different from minimum and most common),Starting salary,415555,a,a,a,a,a
+2021/2022,ISCED 24,Other (if different from minimum and most common),Starting salary,a,a,a,35309.91338929231,a,a
+2021/2022,ISCED 34,Other (if different from minimum and most common),Starting salary,a,a,a,35309.91338929231,a,a
+2021/2022,ISCED 02,Other (if different from minimum and most common),After 10 years,a,:,a,a,a,a
+2021/2022,ISCED 1,Other (if different from minimum and most common),After 10 years,461741,a,a,a,a,a
+2021/2022,ISCED 24,Other (if different from minimum and most common),After 10 years,a,a,a,43355.64072715897,a,a
+2021/2022,ISCED 34,Other (if different from minimum and most common),After 10 years,510629,a,a,43355.64072715897,a,a
+2021/2022,ISCED 02,Other (if different from minimum and most common),After 15 years,a,:,a,a,a,a
+2021/2022,ISCED 1,Other (if different from minimum and most common),After 15 years,478704,a,a,a,a,a
+2021/2022,ISCED 24,Other (if different from minimum and most common),After 15 years,a,a,a,45763.29348635898,a,a
+2021/2022,ISCED 34,Other (if different from minimum and most common),After 15 years,a,a,a,45763.29348635898,a,a
+2021/2022,ISCED 02,Other (if different from minimum and most common),At the top of the range,a,:,a,a,a,a
+2021/2022,ISCED 1,Other (if different from minimum and most common),At the top of the range,478704,a,a,a,a,a
+2021/2022,ISCED 24,Other (if different from minimum and most common),At the top of the range,a,a,a,60832.73698219487,a,a
+2021/2022,ISCED 34,Other (if different from minimum and most common),At the top of the range,a,a,a,60832.73698219487,a,a
+2022/2023,ISCED 02,Minimum,Starting salary,372904,:,32905.938344274124,29512.3862352,25194.893333333333,31952.856000000003
+2022/2023,ISCED 1,Minimum,Starting salary,429785,56371.999147708666,32905.938344274124,29512.3862352,25194.893333333333,35432.384
+2022/2023,ISCED 24,Minimum,Starting salary,431690,62321.83313506448,36849.99401630169,32196,27078.636666666665,38061.608
+2022/2023,ISCED 34,Minimum,Starting salary,400281,64717.32007860409,36849.99401630169,32196,27186.97,39963.934400000006
+2022/2023,ISCED 02,Minimum,After 10 years,422697,:,35808.1508200274,32799.7742768,27613.57583333333,34840.9026
+2022/2023,ISCED 1,Minimum,After 10 years,477550,64718.350441728864,35808.1508200274,32799.7742768,27613.57583333333,40619.33069376001
+2022/2023,ISCED 24,Minimum,After 10 years,482692,70774.33086681756,40119.13533878374,35483,29895.097499999996,43633.446795120006
+2022/2023,ISCED 34,Minimum,After 10 years,520190,72998.52940008965,40119.13533878374,35483,30603.3375,47986.92479196001
+2022/2023,ISCED 02,Minimum,After 15 years,422697,:,38164.831860911756,34534.6556304,30271.445833333335,35172.72072
+2022/2023,ISCED 1,Minimum,After 15 years,495097,68290.66384446844,38164.831860911756,34534.6556304,30271.445833333335,43466.552350008336
+2022/2023,ISCED 24,Minimum,After 15 years,499103,74392.59013686991,42709.345396681616,37218,32891.5525,46691.94363713985
+2022/2023,ISCED 34,Minimum,After 15 years,520190,76893.5725590248,42709.345396681616,37218,33806.31916666667,50381.700848244494
+2022/2023,ISCED 02,Minimum,At the top of the range,422697,m,47186.938689569426,49661.1997712,36733.26333333333,35172.72072
+2022/2023,ISCED 1,Minimum,At the top of the range,495097,73254.59697973296,47186.938689569426,49661.1997712,36733.26333333333,46074.54549100883
+2022/2023,ISCED 24,Minimum,At the top of the range,499103,81367.66834747864,52690.549024079024,52607,40308.75083333333,49493.460255368234
+2022/2023,ISCED 34,Minimum,At the top of the range,520190,87647.8770149222,52690.549024079024,52607,42115.85916666667,53404.602899139165
+2022/2023,ISCED 02,Higher (if most common),Starting salary,a,a,a,a,a,a
+2022/2023,ISCED 1,Higher (if most common),Starting salary,a,a,a,a,a,a
+2022/2023,ISCED 24,Higher (if most common),Starting salary,a,a,a,a,a,a
+2022/2023,ISCED 34,Higher (if most common),Starting salary,a,a,a,a,a,a
+2022/2023,ISCED 02,Higher (if most common),After 10 years,a,a,a,a,a,a
+2022/2023,ISCED 1,Higher (if most common),After 10 years,a,a,a,a,a,a
+2022/2023,ISCED 24,Higher (if most common),After 10 years,a,a,a,a,a,a
+2022/2023,ISCED 34,Higher (if most common),After 10 years,a,a,a,a,a,a
+2022/2023,ISCED 02,Higher (if most common),After 15 years,a,a,a,a,a,a
+2022/2023,ISCED 1,Higher (if most common),After 15 years,a,a,a,a,a,a
+2022/2023,ISCED 24,Higher (if most common),After 15 years,a,a,a,a,a,a
+2022/2023,ISCED 34,Higher (if most common),After 15 years,a,a,a,a,a,a
+2022/2023,ISCED 02,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2022/2023,ISCED 1,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2022/2023,ISCED 24,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2022/2023,ISCED 34,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2022/2023,ISCED 02,Other (if different from minimum and most common),Starting salary,a,a,a,a,a,a
+2022/2023,ISCED 1,Other (if different from minimum and most common),Starting salary,a,a,a,a,a,a
+2022/2023,ISCED 24,Other (if different from minimum and most common),Starting salary,a,a,a,36715,a,a
+2022/2023,ISCED 34,Other (if different from minimum and most common),Starting salary,a,a,a,36715,a,a
+2022/2023,ISCED 02,Other (if different from minimum and most common),After 10 years,a,a,a,a,a,a
+2022/2023,ISCED 1,Other (if different from minimum and most common),After 10 years,a,a,a,a,a,a
+2022/2023,ISCED 24,Other (if different from minimum and most common),After 10 years,a,a,a,44884,a,a
+2022/2023,ISCED 34,Other (if different from minimum and most common),After 10 years,a,a,a,44884,a,a
+2022/2023,ISCED 02,Other (if different from minimum and most common),After 15 years,a,a,a,a,a,a
+2022/2023,ISCED 1,Other (if different from minimum and most common),After 15 years,a,a,a,a,a,a
+2022/2023,ISCED 24,Other (if different from minimum and most common),After 15 years,a,a,a,47384,a,a
+2022/2023,ISCED 34,Other (if different from minimum and most common),After 15 years,a,a,a,47384,a,a
+2022/2023,ISCED 02,Other (if different from minimum and most common),At the top of the range,a,a,a,a,a,a
+2022/2023,ISCED 1,Other (if different from minimum and most common),At the top of the range,a,a,a,a,a,a
+2022/2023,ISCED 24,Other (if different from minimum and most common),At the top of the range,a,a,a,62772,a,a
+2022/2023,ISCED 34,Other (if different from minimum and most common),At the top of the range,a,a,a,62772,a,a
+2023/2024,ISCED 02,Minimum,Starting salary,396885,:,33905.418722177405,32164.249063679992,25194.893333333333,32845.696
+2023/2024,ISCED 1,Minimum,Starting salary,455224,57990.77899528746,33905.418722177405,32164.249063679992,25194.893333333333,36194.13200000001
+2023/2024,ISCED 24,Minimum,Starting salary,456911,64029.86067727048,38003.840748580726,34837.62154398768,27078.636666666665,38879.8592
+2023/2024,ISCED 34,Minimum,Starting salary,428063,66562.87684090913,38003.840748580726,34837.62154398768,27186.97,40823.1408
+2023/2024,ISCED 02,Minimum,After 10 years,449587,:,36894.82754797586,35328.83292032,27613.57583333333,35814.4416
+2023/2024,ISCED 1,Minimum,After 10 years,505778,66734.64522840589,36894.82754797586,35328.83292032,27613.57583333333,41492.59098348001
+2023/2024,ISCED 24,Minimum,After 10 years,510891,72546.69176134003,41383.95538539935,38002.20540062769,29895.097499999996,44571.481788288016
+2023/2024,ISCED 34,Minimum,After 10 years,556294,74807.12243133712,41383.95538539935,38002.20540062769,30603.3375,49018.62183372001
+2023/2024,ISCED 02,Minimum,After 15 years,449587,:,39342.326172791945,36491.57890176,30271.445833333335,36155.531520000004
+2023/2024,ISCED 1,Minimum,After 15 years,524351,70304.12528211816,39342.326172791945,36491.57890176,30271.445833333335,44401.02402765537
+2023/2024,ISCED 24,Minimum,After 15 years,528260,76400.37594272668,44090.77348152561,39164.95138206769,32891.5525,47695.73041649563
+2023/2024,ISCED 34,Minimum,After 15 years,556294,79001.5807826998,44090.77348152561,39164.95138206769,33806.31916666667,51464.88448523138
+2023/2024,ISCED 02,Minimum,At the top of the range,449587,:,48602.55639411326,51811.70887807999,36733.26333333333,36155.531520000004
+2023/2024,ISCED 1,Minimum,At the top of the range,524351,75288.5776465185,48602.55639411326,51811.70887807999,36733.26333333333,47065.0854693147
+2023/2024,ISCED 24,Minimum,At the top of the range,528260,83450.3200173537,54326.27025775229,54752.418606418454,40308.75083333333,50557.47424148537
+2023/2024,ISCED 34,Minimum,At the top of the range,556294,89849.29349155654,54326.27025775229,54752.418606418454,42115.85916666667,54552.77755434526
+2023/2024,ISCED 02,Higher (if most common),Starting salary,a,a,a,a,a,a
+2023/2024,ISCED 1,Higher (if most common),Starting salary,a,a,a,a,a,a
+2023/2024,ISCED 24,Higher (if most common),Starting salary,a,a,a,a,a,a
+2023/2024,ISCED 34,Higher (if most common),Starting salary,a,a,a,a,a,a
+2023/2024,ISCED 02,Higher (if most common),After 10 years,a,a,a,a,a,a
+2023/2024,ISCED 1,Higher (if most common),After 10 years,a,a,a,a,a,a
+2023/2024,ISCED 24,Higher (if most common),After 10 years,a,a,a,a,a,a
+2023/2024,ISCED 34,Higher (if most common),After 10 years,a,a,a,a,a,a
+2023/2024,ISCED 02,Higher (if most common),After 15 years,a,a,a,a,a,a
+2023/2024,ISCED 1,Higher (if most common),After 15 years,a,a,a,a,a,a
+2023/2024,ISCED 24,Higher (if most common),After 15 years,a,a,a,a,a,a
+2023/2024,ISCED 34,Higher (if most common),After 15 years,a,a,a,a,a,a
+2023/2024,ISCED 02,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2023/2024,ISCED 1,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2023/2024,ISCED 24,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2023/2024,ISCED 34,Higher (if most common),At the top of the range,a,a,a,a,a,a
+2023/2024,ISCED 02,Other (if different from minimum and most common),Starting salary,a,a,a,a,a,a
+2023/2024,ISCED 1,Other (if different from minimum and most common),Starting salary,a,a,a,a,a,a
+2023/2024,ISCED 24,Other (if different from minimum and most common),Starting salary,a,a,a,39417,a,a
+2023/2024,ISCED 34,Other (if different from minimum and most common),Starting salary,a,a,a,39417,a,a
+2023/2024,ISCED 02,Other (if different from minimum and most common),After 10 years,a,a,a,a,a,a
+2023/2024,ISCED 1,Other (if different from minimum and most common),After 10 years,a,a,a,a,a,a
+2023/2024,ISCED 24,Other (if different from minimum and most common),After 10 years,a,a,a,47524,a,a
+2023/2024,ISCED 34,Other (if different from minimum and most common),After 10 years,a,a,a,47524,a,a
+2023/2024,ISCED 02,Other (if different from minimum and most common),After 15 years,a,a,a,a,a,a
+2023/2024,ISCED 1,Other (if different from minimum and most common),After 15 years,a,a,a,a,a,a
+2023/2024,ISCED 24,Other (if different from minimum and most common),After 15 years,a,a,a,49461,a,a
+2023/2024,ISCED 34,Other (if different from minimum and most common),After 15 years,a,a,a,49461,a,a
+2023/2024,ISCED 02,Other (if different from minimum and most common),At the top of the range,a,a,a,a,a,a
+2023/2024,ISCED 1,Other (if different from minimum and most common),At the top of the range,a,a,a,a,a,a
+2023/2024,ISCED 24,Other (if different from minimum and most common),At the top of the range,a,a,a,65048,a,a
+2023/2024,ISCED 34,Other (if different from minimum and most common),At the top of the range,a,a,a,65048,a,a

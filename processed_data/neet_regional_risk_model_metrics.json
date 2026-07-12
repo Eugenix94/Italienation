@@ -1,0 +1,28 @@
+{
+  "train_rows": 22,
+  "test_rows": 22,
+  "features": [
+    "lower_disability_per_1000_t_minus_1",
+    "lower_class_size_t_minus_1",
+    "lower_exam_success_t_minus_1",
+    "lower_foreign_share_t_minus_1",
+    "lower_median_grade_t_minus_1",
+    "lower_public_share_t_minus_1",
+    "lower_exam_failure_t_minus_1",
+    "upper_repeaters_all_t",
+    "upper_repeaters_fir_t",
+    "upper_lic_t",
+    "upper_tec_t",
+    "upper_voc_t",
+    "upper_voc_minus_lic_t",
+    "upper_tec_minus_lic_t",
+    "transition_jump_all_t",
+    "transition_jump_fir_t",
+    "TIME_PERIOD"
+  ],
+  "rmse": 0.5664617916574903,
+  "mae": 0.43569421784418316,
+  "r2": 0.5889210501888318,
+  "target": "neet_risk_index",
+  "holdout_year": 2024
+}

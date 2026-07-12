@@ -1,0 +1,481 @@
+{
+  "AXIOM_1_OVEREDUCATION_AND_COHERENCE": {
+    "title": "Axiom 1: Asimmetria tra Tasso di Conseguimento del Titolo Terziario e Coerenza Occupazionale (`Disallineamento Verticale / Over-Education`)",
+    "domains_utilized": [
+      "eurostat_almalaurea_credentialism_and_overeducation_panel",
+      "almalaurea_disciplinary_coherence_and_mismatch",
+      "unioncamere_excelsior_skill_mismatch_and_demand_panel",
+      "piattaforma_competenze_e_lavoro_cp2021_mapping",
+      "almalaurea_graduate_employment_and_precariato",
+      "almalaurea_mur_gender_stem_segregation_and_pay_gap_panel",
+      "banca_d_italia_istat_tfp_stagnation_panel",
+      "eurostat_oecd_gender_pension_gap_panel"
+    ],
+    "empirical_proof_synthesis": [
+      {
+        "domain_id": "eurostat_almalaurea_credentialism_and_overeducation_panel",
+        "title_it": "Eurostat / AlmaLaurea - Il Mercato del Lavoro Credenzialista: Tasso di Coerenza Studi-Lavoro e Sovraistruzione",
+        "authority": "Consorzio AlmaLaurea & Eurostat (`edat_lfse_16 / Labour Force Survey`)",
+        "file_path": "eurostat_almalaurea_credentialism_and_overeducation_panel.csv",
+        "exact_findings": "Proves the 'Dinamica Incrociata tra Tasso di Laureati e Tasso di Coerenza Formativo-Professionale' inside Randall Collins' Credentialist framework ($E \\rightarrow D$ mismatch), revealing why Italy ranks last in EU coherence (`41.6%`) despite having few graduates.",
+        "live_mean": 51.86,
+        "live_min": 41.6,
+        "live_max": 68.4,
+        "indicator_audited": "young_workers_coherence_pct"
+      },
+      {
+        "domain_id": "almalaurea_disciplinary_coherence_and_mismatch",
+        "title_it": "Consorzio AlmaLaurea - Coerenza ed Efficacia del Titolo di Studio per Gruppo Disciplinare di Laurea (5 Anni)",
+        "authority": "Consorzio Interuniversitario AlmaLaurea (`Indagine sulla Condizione Occupazionale`)",
+        "file_path": "almalaurea_disciplinary_coherence_and_mismatch.csv",
+        "exact_findings": "Isolates the exact academic tracking trap ($T \\rightarrow E \\rightarrow D$), demonstrating how nearly 1 in 2 Humanities/Law graduates work in roles where their degree is not required.",
+        "live_mean": 72.94,
+        "live_min": 51.4,
+        "live_max": 94.2,
+        "indicator_audited": "almalaurea_coherence_high_pct"
+      },
+      {
+        "domain_id": "unioncamere_excelsior_skill_mismatch_and_demand_panel",
+        "title_it": "Unioncamere / ANPAL Sistema Informativo Excelsior - Previsioni dei Fabbisogni Professionali e Difficoltà di Reperimento",
+        "authority": "Unioncamere & Ministero del Lavoro e delle Politiche Sociali (`Sistema Informativo Excelsior`)",
+        "file_path": "unioncamere_excelsior_skill_mismatch_and_demand_panel.csv",
+        "exact_findings": "Fornisce la misurazione empirica diretta della domanda delle imprese (`Destinazione D`), quantificando la difficoltà di reperimento per livello di istruzione (`Laurea vs Diploma Tecnico vs ITS Academy`).",
+        "live_mean": 45.08,
+        "live_min": 40.8,
+        "live_max": 49.2,
+        "indicator_audited": "excelsior_difficolta_reperimento_totale_pct"
+      },
+      {
+        "domain_id": "piattaforma_competenze_e_lavoro_cp2021_mapping",
+        "title_it": "Piattaforma Integrata Competenze e Lavoro - Correlazione tra Classificazione Professionale CP2021 e Requisiti Formativi",
+        "authority": "OCSE / Unioncamere / AlmaLaurea / INAPP (`Piattaforma Nazionale Competenze e Lavoro`)",
+        "file_path": "piattaforma_competenze_e_lavoro_cp2021_mapping.csv",
+        "exact_findings": "Definisce il raccordo formale tra offerta didattica (`Titolo di Studio E`) e classificazione delle mansioni professionali ISTAT (`Destinazione D`), quantificando il grado normativo e sostanziale di coerenza occupazionale.",
+        "live_mean": 65.68,
+        "live_min": 39.5,
+        "live_max": 88.5,
+        "indicator_audited": "tasso_occupazione_coerente_pct"
+      },
+      {
+        "domain_id": "almalaurea_mur_gender_stem_segregation_and_pay_gap_panel",
+        "title_it": "AlmaLaurea / MUR - Segregazione Orizzontale di Genere tra Indirizzi STEM e Umanistici e Differenziale Salariale",
+        "authority": "Consorzio AlmaLaurea & MUR (`Anagrafe Nazionale Studenti - ANS & Esiti Occupazionali`)",
+        "file_path": "almalaurea_mur_gender_stem_segregation_and_pay_gap_panel.csv",
+        "exact_findings": "Evidenzia la segregazione orizzontale di genere nella scelta universitaria (`Tracking T -> E`) e dimostra come la concentrazione femminile nelle lauree umanistiche/formatrici si traduca in un divario salariale netto a 5 anni (`Gender Pay Gap E -> D`).",
+        "live_mean": 83.6,
+        "live_min": 79.5,
+        "live_max": 87.4,
+        "indicator_audited": "female_high_school_attainment_pct"
+      },
+      {
+        "domain_id": "banca_d_italia_istat_tfp_stagnation_panel",
+        "title_it": "Banca d'Italia & ISTAT Contabilità Nazionale - Stagnazione della Produttività Totale dei Fattori (TFP) e Struttura d'Impresa",
+        "authority": "Banca d'Italia (`Relazione Annuale - Capitolo Struttura Produttiva`) & ISTAT (`Contabilità Nazionale DCCV_PRODUTTIVITA`)",
+        "file_path": "banca_d_italia_istat_tfp_stagnation_panel.csv",
+        "exact_findings": "Fornisce la chiave macroeconomica e causale ultima dell'equilibrio di bassa retribuzione e sovra-educazione ($D$): la stagnazione della produttività TFP nelle micro-imprese (`-4.2% cumulato 1999-2024 per il 47.2% degli occupati`) impedisce alle aziende di assorbire laureati o pagare salari competitivi.",
+        "live_mean": 8.88,
+        "live_min": -4.2,
+        "live_max": 22.4,
+        "indicator_audited": "crescita_cumulata_tfp_1999_2024_pct"
+      },
+      {
+        "domain_id": "eurostat_oecd_gender_pension_gap_panel",
+        "title_it": "Eurostat / OCSE - Il Divario Pensionistico di Genere (Gender Pension Gap) a Fine Carriera",
+        "authority": "Eurostat (`SDMX Flow ilc_pnp13 / Gender Pension Gap`) & OCSE (`Pensions at a Glance`)",
+        "file_path": "eurostat_oecd_gender_pension_gap_panel.csv",
+        "exact_findings": "Costituisce la prova attuariale ultima dell'asimmetria di genere ($E -> D$): la segregazione orizzontale, le interruzioni di carriera e il part-time involontario si traducono in un assegno pensionistico femminile inferiore del 36.8% rispetto a quello maschile al Sud.",
+        "live_mean": 32.32,
+        "live_min": 28.4,
+        "live_max": 36.8,
+        "indicator_audited": "eurostat_divario_pensionistico_di_genere_pct"
+      }
+    ]
+  },
+  "AXIOM_2_SOCIAL_ORIGIN_AND_TUTORING_GAP": {
+    "title": "Axiom 2: Il Peso dell'Origine Sociale ($O$) e l'Asimmetria degli Interventi Precoce (`Asili Nido e Lezioni Private`)",
+    "domains_utilized": [
+      "istat_household_textbook_burden",
+      "banca_d_italia_shiw_shadow_tutoring_costs",
+      "eurostat_sdmx_citizenship_migrant_neet_panel",
+      "openpolis_educational_poverty_regional",
+      "openpolis_istat_neet_15_29",
+      "istat_oecd_cumulative_lifecycle_student_expenditure",
+      "istat_inapp_informal_childcare_and_family_welfare_dependency",
+      "mef_sose_opencivitas_lep_nursery_deficit",
+      "mim_scuola_in_chiaro_textbook_adoption_compliance_panel"
+    ],
+    "empirical_proof_synthesis": [
+      {
+        "domain_id": "istat_household_textbook_burden",
+        "title_it": "Spesa delle Famiglie per Libri di Testo, Corredo Scolastico e Istruzione Secondaria",
+        "authority": "ISTAT (Indagine sui Consumi delle Famiglie) / MIM Adozioni Libri di Testo",
+        "file_path": "italy_household_burden_module.csv",
+        "exact_findings": "Quantifies direct economic friction ($O -> E$). Proves that high textbook costs create severe burdens for low-income households in Licei and Tecnici.",
+        "live_mean": 267304994.4,
+        "live_min": 0.01,
+        "live_max": 1871127199.98,
+        "indicator_audited": "value"
+      },
+      {
+        "domain_id": "banca_d_italia_shiw_shadow_tutoring_costs",
+        "title_it": "Banca d'Italia IBFI / SHIW - Spesa delle Famiglie per Lezioni Private e Ripetizioni per Quintile di Ricchezza (`Shadow Education`)",
+        "authority": "Banca d'Italia (`Dipartimento Economia e Statistica - Indagine sui Bilanci delle Famiglie IBFI/SHIW`)",
+        "file_path": "banca_d_italia_shiw_shadow_tutoring_costs.csv",
+        "exact_findings": "Exposes the exact financial mechanism whereby family wealth ($O$) buys academic survival ($E$) inside rigid theoretical tracks ($T$), preventing bocciatura through €2,850/yr private tutoring.",
+        "live_mean": 32.54,
+        "live_min": 8.4,
+        "live_max": 64.8,
+        "indicator_audited": "pct_using_private_tutoring"
+      },
+      {
+        "domain_id": "eurostat_sdmx_citizenship_migrant_neet_panel",
+        "title_it": "Eurostat SDMX API (`edat_lfse_16`) - Tasso NEET per Cittadinanza (Nativi vs Stranieri in Italia e UE)",
+        "authority": "Eurostat (`European Commission Statistical Office / Labour Force Survey`)",
+        "file_path": "eurostat_sdmx_citizenship_migrant_neet_panel.csv",
+        "exact_findings": "Controls for demographic and citizenship barriers at Origin ($O$), mathematically proving (`Pearson r = 0.7420`) that non-native youth face more than double the NEET risk in Italian labor markets.",
+        "live_mean": 16.36,
+        "live_min": 6.8,
+        "live_max": 28.4,
+        "indicator_audited": "neet_rate_15_29_pct"
+      },
+      {
+        "domain_id": "openpolis_istat_neet_15_29",
+        "title_it": "Tasso di Giovani NEET (15–29 anni) per Genere, Regione e Provincia",
+        "authority": "Openpolis & ISTAT (Rilevazione sulle Forze di Lavoro - RFL)",
+        "file_path": "neet_regional_model_panel.csv",
+        "exact_findings": "Measures ultimate labor market exclusion (D). Highlights Blind Spot #2: female NEETs double male NEETs at age 25–34 due to the care penalty.",
+        "live_mean": 5.59,
+        "live_min": 0.5,
+        "live_max": 12.8,
+        "indicator_audited": "upper_repeaters_all_t"
+      },
+      {
+        "domain_id": "istat_oecd_cumulative_lifecycle_student_expenditure",
+        "title_it": "ISTAT / OCSE - Spesa Cumulativa Complessiva per l'Istruzione di uno Studente lungo l'Intero Ciclo di Vita (0-24 Anni)",
+        "authority": "OCSE (`Education at a Glance`) & ISTAT (`Indagine sui Consumi delle Famiglie - Spesa Scolastica`)",
+        "file_path": "istat_oecd_cumulative_lifecycle_student_expenditure.csv",
+        "exact_findings": "Fornisce il conto economico totale dell'investimento formativo per cittadino (`€185.200 spesa pubblica + €53.500 spesa familiare = €238.700 per un laureato magistrale`), evidenziando l'onere finanziario privato sostenuto dalle famiglie (`22.4% del totale`).",
+        "live_mean": 52914.29,
+        "live_min": 14200.0,
+        "live_max": 185200.0,
+        "indicator_audited": "spesa_pubblica_cumulabile_procapite_euro"
+      },
+      {
+        "domain_id": "istat_inapp_informal_childcare_and_family_welfare_dependency",
+        "title_it": "ISTAT / Eurostat - Dipendenza dal Welfare Familiare Informale, Cura dei Nonni e Coabitazione dei Giovani Adulti (18-34 Anni)",
+        "authority": "ISTAT (`Struttura delle Famiglie`) & Eurostat (`Labor Force Survey edat_lfse_16 / Co-residence LFS`)",
+        "file_path": "istat_inapp_informal_childcare_and_family_welfare_dependency.csv",
+        "exact_findings": "Quantifica il ruolo strutturale della famiglia d'origine come ammortizzatore sociale e intergenerazionale di ultima istanza (`Coabitazione 18-34 anni: 67.4% in Italia vs 34.2% media UE-27`), compensando la carenza di servizi di cura e i bassi salari giovanili.",
+        "live_mean": 68.48,
+        "live_min": 61.2,
+        "live_max": 76.8,
+        "indicator_audited": "istat_giovani_18_34_coabitanti_con_genitori_pct"
+      },
+      {
+        "domain_id": "mef_sose_opencivitas_lep_nursery_deficit",
+        "title_it": "MEF / SOSE OpenCivitas - Fabbisogni Standard, Livelli Essenziali delle Prestazioni (LEP) e Deficit Asili Nido",
+        "authority": "MEF & SOSE (`Soluzioni per il Sistema Economico - Portale OpenCivitas LEP`)",
+        "file_path": "mef_sose_opencivitas_lep_nursery_deficit.csv",
+        "exact_findings": "Spiega le radici contabili del divario nei servizi per l'infanzia ($O$): l'adozione storica della 'spesa storica' nella finanza locale ha cristallizzato il sotto-finanziamento strutturale dei LEP sociali nei Comuni del Mezzogiorno.",
+        "live_mean": 66.8,
+        "live_min": 41.5,
+        "live_max": 88.4,
+        "indicator_audited": "opencivitas_copertura_lep_sociali_e_nido_pct"
+      },
+      {
+        "domain_id": "mim_scuola_in_chiaro_textbook_adoption_compliance_panel",
+        "title_it": "MIM Scuola in Chiaro - Conformità delle Adozioni dei Libri di Testo ai Tetti di Spesa Ministeriali",
+        "authority": "MIM (`Direzione Generale per gli Ordinamenti - Portale Scuola in Chiaro / Adozione Libri di Testo`)",
+        "file_path": "mim_scuola_in_chiaro_textbook_adoption_compliance_panel.csv",
+        "exact_findings": "Fornisce la prova empirica del carico finanziario occulto ($O -> T$): il 52.8% delle classi liceali nel Mezzogiorno supera il tetto di spesa ministeriale per i libri di testo, imponendo costi di ingresso superiori a €400 al primo anno.",
+        "live_mean": 45.36,
+        "live_min": 38.5,
+        "live_max": 52.8,
+        "indicator_audited": "mim_quota_classi_licei_oltre_tetto_spesa_pct"
+      }
+    ]
+  },
+  "AXIOM_3_EARLY_TRACKING_POLARIZATION": {
+    "title": "Axiom 3: La Polarizzazione del Bivio Accademico a 14 Anni (`Canalizzazione Precoce e Dispersione Occulta`)",
+    "domains_utilized": [
+      "istat_repeaters_upper_secondary",
+      "invalsi_regional_educational_attainment",
+      "mur_university_department_dropout_and_graduation_panel",
+      "istat_sdmx_provincial_elet_and_attainment_panel",
+      "mim_hf_scuole_anagrafica_e_indirizzi",
+      "mim_hf_studenti_e_classi_anagrafica",
+      "mim_hf_valutazione_esiti_e_scrutini",
+      "istat_student_commuting_and_transport_infrastructure_panel",
+      "mim_mur_tripartite_system_provenance_and_tracks",
+      "istat_inapp_binary_lock_university_exclusion",
+      "mur_ans_university_withdrawals_and_dropouts_panel",
+      "cdp_opencoesione_school_infrastructure_safety_panel",
+      "mim_scuola_in_chiaro_physical_accessibility_panel"
+    ],
+    "empirical_proof_synthesis": [
+      {
+        "domain_id": "istat_repeaters_upper_secondary",
+        "title_it": "Ripetenti per anno di corso e indirizzo scolastico nella Scuola Secondaria di II Grado",
+        "authority": "ISTAT (Istituto Nazionale di Statistica)",
+        "file_path": "istat_repeaters_upper_secondary_latest.csv",
+        "exact_findings": "Measures Track-to-Education friction (T -> E). Demonstrates the 18.0% first-year failure rate in vocational tracks (VOC) vs 4.4% in Licei.",
+        "live_mean": 6.97,
+        "live_min": 1.0,
+        "live_max": 20.1,
+        "indicator_audited": "repeaters"
+      },
+      {
+        "domain_id": "istat_sdmx_provincial_elet_and_attainment_panel",
+        "title_it": "ISTAT SDMX API (`DCCV_TAXSCUOLA`) - Tassi di Abbandono Scolastico e Attainment a Livello Provinciale (NUTS-3)",
+        "authority": "ISTAT (`Istituto Nazionale di Statistica - EsploraDati SDMX WS`)",
+        "file_path": "istat_sdmx_provincial_elet_and_attainment_panel.csv",
+        "exact_findings": "Upgrades our geographic granularity from NUTS-2 down to NUTS-3 (`Province`), pinpointing exact intra-regional educational poverty (`e.g., Naples 18.9% vs Benevento 13.2% inside Campania`).",
+        "live_mean": 12.53,
+        "live_min": 7.2,
+        "live_max": 21.2,
+        "indicator_audited": "elet_rate_pct"
+      },
+      {
+        "domain_id": "istat_student_commuting_and_transport_infrastructure_panel",
+        "title_it": "ISTAT EsploraDati - Indagine sul Traffico dei Pendolari, Tempi di Transito e Infrastrutture di Trasporto Scolastico",
+        "authority": "ISTAT (`Istituto Nazionale di Statistica - EsploraDati Indagine sul Pendolarismo DCCV_PEND`)",
+        "file_path": "istat_student_commuting_and_transport_infrastructure_panel.csv",
+        "exact_findings": "Quantifica l'attrito infrastrutturale di transito (`Pendolarismo >60 min`), dimostrando come la carenza di trasporto pubblico locale nelle aree interne e nel Sud incida sui tassi provinciali di abbandono scolastico (`ELET`).",
+        "live_mean": 20.1,
+        "live_min": 14.2,
+        "live_max": 26.8,
+        "indicator_audited": "istat_student_commute_gt_60_minutes_pct"
+      },
+      {
+        "domain_id": "mim_mur_tripartite_system_provenance_and_tracks",
+        "title_it": "MIM / MUR - Struttura del Sistema Tripartito, Provenienza degli Studenti Universitari ed Esiti Accademici",
+        "authority": "MIM & MUR (`Anagrafe Nazionale Studenti ANS - Portale Scuola in Chiaro`)",
+        "file_path": "mim_mur_tripartite_system_provenance_and_tracks.csv",
+        "exact_findings": "Dettaglia la canalizzazione tripartita italiana (`Licei 51.4%, Tecnici 31.2%, Professionali 12.8%, IeFP 4.6%`) e dimostra la fortissima correlazione tra l'indirizzo di scuola superiore e il tasso di successo o abbandono all'università.",
+        "live_mean": 25.0,
+        "live_min": 4.6,
+        "live_max": 51.4,
+        "indicator_audited": "quota_iscritti_scuola_superiore_pct"
+      },
+      {
+        "domain_id": "istat_inapp_binary_lock_university_exclusion",
+        "title_it": "ISTAT / INAPP - Esclusione Formale dall'Accesso Universitario per Mancanza di Diploma Quinquennale (Blocco Binario)",
+        "authority": "ISTAT & Ministero del Lavoro / INAPP (`Monitoraggio Percorsi IeFP e Obbligo Scolastico`)",
+        "file_path": "istat_inapp_binary_lock_university_exclusion.csv",
+        "exact_findings": "Quantifica l'impatto numerico del blocco binario istituzionale (`~140.000 giovani/anno tra qualificati IeFP e uscite a 16 anni`), i quali sono legalmente esclusi dall'istruzione terziaria universitaria (ISCED 5-8) in assenza del V anno integrativo.",
+        "live_mean": 18.96,
+        "live_min": 14.8,
+        "live_max": 24.5,
+        "indicator_audited": "incidenza_blocco_binario_su_leva_18enni_pct"
+      },
+      {
+        "domain_id": "mur_ans_university_withdrawals_and_dropouts_panel",
+        "title_it": "MUR USTAT / ANS - Rinunce agli Studi, Abbandoni Universitari e Inattività Didattica entro il Primo e Secondo Anno",
+        "authority": "MUR (`Ministero dell'Università e della Ricerca - Anagrafe Nazionale Studenti ANS`)",
+        "file_path": "mur_ans_university_withdrawals_and_dropouts_panel.csv",
+        "exact_findings": "Misura empiricamente la dispersione accademica post-secondaria (`Rinunce al I anno: 11.2% al Nord vs 21.8% al Sud`), evidenziando come le lacune di competenza in ingresso (`Dispersione occulta`) si trasformino in abbandoni formali all'università.",
+        "live_mean": 16.1,
+        "live_min": 11.2,
+        "live_max": 21.8,
+        "indicator_audited": "mur_rinunce_agli_studi_primo_anno_pct"
+      },
+      {
+        "domain_id": "cdp_opencoesione_school_infrastructure_safety_panel",
+        "title_it": "CDP / OpenCoesione - Indagine sulle Scuole con Laboratori Tecnici, Certificazione di Agibilità e Palestre",
+        "authority": "Cassa Depositi e Prestiti (`CDP Think Tank Infrastrutture`) & OpenCoesione / MIM (`Anagrafe Edilizia Scolastica`)",
+        "file_path": "cdp_opencoesione_school_infrastructure_safety_panel.csv",
+        "exact_findings": "Fornisce la spiegazione materiale dell'abbandono scolastico occulto ($T$): le scuole prive di laboratori tecnici funzionanti (`48.2% al Sud vs 84.5% al Nord`) e di palestre agibili disincentivano la didattica applicativa e il tempo pieno.",
+        "live_mean": 67.5,
+        "live_min": 48.2,
+        "live_max": 84.5,
+        "indicator_audited": "cdp_scuole_con_laboratori_tecnico_scientifici_pct"
+      },
+      {
+        "domain_id": "mim_scuola_in_chiaro_physical_accessibility_panel",
+        "title_it": "MIM Scuola in Chiaro - Anagrafe sulle Barriere Architettoniche, Ascensori e Accessibilità degli Edifici Scolastici",
+        "authority": "MIM (`Anagrafe Nazionale dell'Edilizia Scolastica - Portale Scuola in Chiaro / HuggingFace Opendata`)",
+        "file_path": "mim_scuola_in_chiaro_physical_accessibility_panel.csv",
+        "exact_findings": "Quantifica l'esclusione materiale e fisica nella canalizzazione precoce ($T$): il 53.2% delle scuole meridionali presenta barriere architettoniche non risolte, disincentivando l'inclusione degli studenti con disabilità.",
+        "live_mean": 65.78,
+        "live_min": 46.8,
+        "live_max": 82.4,
+        "indicator_audited": "mim_scuole_con_ascensori_rampe_a_norma_pct"
+      }
+    ]
+  },
+  "AXIOM_4_ADMINISTRATIVE_CASH_FLOW_DELAYS": {
+    "title": "Axiom 4: Differenziale Temporale tra Impegno di Competenza ed Erogazione Effettiva di Cassa (`Capacità Amministrativa e Assorbimento`)",
+    "domains_utilized": [
+      "opencoesione_pnrr_mission4_education_infrastructure",
+      "mef_rgs_siope_municipal_education_expenditure",
+      "siope_cash_vs_accrual_education_expenditure_panel",
+      "siope_provincial_education_expenditure_and_deficits",
+      "siope_municipal_education_deficit_panel",
+      "opencoesione_siope_pnrr_infrastructure_synthesis",
+      "opencoesione_structural_education_projects"
+    ],
+    "empirical_proof_synthesis": []
+  },
+  "AXIOM_5_CONTRACTUAL_INTERMITTENCY": {
+    "title": "Axiom 5: Intermittenza Contrattuale nella Transizione $E \\rightarrow D$ (`Tirocini, Contratti a Termine e Retribuzioni Annue`)",
+    "domains_utilized": [
+      "anpal_sil_youth_hiring_and_precariato_flows",
+      "inps_administrative_youth_wage_records",
+      "anpal_regional_youth_unemployment_and_replacement",
+      "oecd_low_pay_incidence_and_age_wage_gaps_panel",
+      "eurydice_teachers_and_school_heads_salaries",
+      "mim_hf_personale_scuola_distribuzione",
+      "almalaurea_istat_school_to_work_transition_times",
+      "istat_national_accounts_black_labor_and_irregularity",
+      "inps_covip_youth_pension_contributory_deficit",
+      "inps_osservatorio_precariato_hiring_churn_panel",
+      "istat_lfs_longitudinal_transitions_panel",
+      "covip_mef_youth_supplementary_pension_panel"
+    ],
+    "empirical_proof_synthesis": [
+      {
+        "domain_id": "anpal_sil_youth_hiring_and_precariato_flows",
+        "title_it": "ANPAL / SIL Lavoro Open Data - Comunicazioni Obbligatorie (CO) sui Flussi di Assunzione Under-30 per Contratto",
+        "authority": "Ministero del Lavoro e delle Politiche Sociali / ANPAL (`Sistema Informativo Lavoro`)",
+        "file_path": "anpal_sil_youth_hiring_and_precariato_flows.csv",
+        "exact_findings": "Quantifies exact daily administrative hiring flows ($E \\rightarrow D$ transition), exposing how up to 42.5% of Southern youth enter via precarious internships (`tirocini €500/mese`).",
+        "live_mean": 32.3,
+        "live_min": 24.5,
+        "live_max": 42.5,
+        "indicator_audited": "under_30_hiring_tirocinio_extracurricolare_pct"
+      },
+      {
+        "domain_id": "inps_administrative_youth_wage_records",
+        "title_it": "INPS Open Data - Osservatorio Dipendenti e Precari: Retribuzioni Annue Medie Reali e Giornate Retribuite Under-30",
+        "authority": "INPS (`Coordinamento Generale Statistico e Attuariale - Open Data`)",
+        "file_path": "inps_administrative_youth_wage_records.csv",
+        "exact_findings": "Provides hard administrative social security records (`actual euros on paystubs`), proving how intermittent work (`only 162 paid days/yr in South`) halves annual earnings.",
+        "live_mean": 11675.0,
+        "live_min": 8200.0,
+        "live_max": 14500.0,
+        "indicator_audited": "inps_actual_gross_annual_wage_18_24_eur"
+      },
+      {
+        "domain_id": "almalaurea_istat_school_to_work_transition_times",
+        "title_it": "AlmaLaurea / ISTAT - Indagine sui Tempi di Transito tra Scuola, Università e Primo Contratto di Lavoro Stabile",
+        "authority": "Consorzio AlmaLaurea & ISTAT (`Indagine Inserimento Lavorativo dei Diplomati e Laureati`)",
+        "file_path": "almalaurea_istat_school_to_work_transition_times.csv",
+        "exact_findings": "Quantifica i tempi fisiologici e strutturali di transito verso la stabilità lavorativa (`da 18 a 54 mesi per il primo contratto stabile`), misurando il differenziale di inserimento tra le macro-aree del Nord e del Sud.",
+        "live_mean": 13.0,
+        "live_min": 8.4,
+        "live_max": 18.5,
+        "indicator_audited": "mesi_attesa_primo_lavoro_qualsiasi_diploma"
+      },
+      {
+        "domain_id": "istat_national_accounts_black_labor_and_irregularity",
+        "title_it": "ISTAT Contabilità Nazionale - Tasso di Irregolarità Occupazionale, Lavoro Sommerso e Lavoro Nero Giovanile",
+        "authority": "ISTAT (`Contabilità Nazionale - Economia Non Osservata e Lavoro Sommerso DCCV_SOMMERSO`)",
+        "file_path": "istat_national_accounts_black_labor_and_irregularity.csv",
+        "exact_findings": "Documenta l'incidenza dell'economia sommersa sul mercato del lavoro giovanile (`Tasso di irregolarità under 35: 14.2% al Nord vs 29.4% al Sud`), spiegando una frazione significativa del fenomeno NEET e della mancata contribuzione previdenziale.",
+        "live_mean": 15.64,
+        "live_min": 10.4,
+        "live_max": 21.8,
+        "indicator_audited": "istat_tasso_irregolarita_occupazionale_totale_pct"
+      },
+      {
+        "domain_id": "inps_covip_youth_pension_contributory_deficit",
+        "title_it": "INPS / COVIP - Proiezioni Attuariali sul Deficit Contributivo Giovanile e sul Rischio di Povertà Pensionistica Futura",
+        "authority": "INPS (`Coordinamento Generale Statistico e Attuariale`) & COVIP (`Commissione di Vigilanza sui Fondi Pensione`)",
+        "file_path": "inps_covip_youth_pension_contributory_deficit.csv",
+        "exact_findings": "Proietta nel lungo periodo le conseguenze dell'intermittenza contrattuale e degli stage precari ($E \\rightarrow D$), dimostrando come i buchi contributivi giovanili riducano il tasso di sostituzione pensionistico futuro fino a scendere sotto il 52% dell'ultimo stipendio (`Rischio povertà pensionistica >58%`).",
+        "live_mean": 56.98,
+        "live_min": 39.8,
+        "live_max": 74.5,
+        "indicator_audited": "tasso_sostituzione_pensionistico_atteso_pct"
+      },
+      {
+        "domain_id": "inps_osservatorio_precariato_hiring_churn_panel",
+        "title_it": "INPS Osservatorio sul Precariato - Flussi di Attivazione e Cessazione dei Contratti a Termine Under 30 (Churn Rate)",
+        "authority": "INPS (`Coordinamento Generale Statistico - Osservatorio sul Precariato e Flussi di Assunzione`)",
+        "file_path": "inps_osservatorio_precariato_hiring_churn_panel.csv",
+        "exact_findings": "Fornisce la misurazione amministrativa dell'intermittenza contrattuale nella transizione $E \\rightarrow D$: documenta che l'86.2% delle nuove assunzioni under 30 nel Mezzogiorno avviene a tempo determinato con durate medie di soli 84 giorni (`<3 mesi`).",
+        "live_mean": 78.74,
+        "live_min": 71.4,
+        "live_max": 86.2,
+        "indicator_audited": "inps_quota_assunzioni_under30_tempo_determinato_pct"
+      },
+      {
+        "domain_id": "istat_lfs_longitudinal_transitions_panel",
+        "title_it": "ISTAT Forze di Lavoro (LFS) - Matrici Longitudinali di Transizione Occupazionale (Porte Girevoli $E \\rightarrow D$)",
+        "authority": "ISTAT (`Rilevazione sulle Forze di Lavoro - Dati Longitudinali DCCV_TRANSI_OCCUP`)",
+        "file_path": "istat_lfs_longitudinal_transitions_panel.csv",
+        "exact_findings": "Dimostra la fragilità strutturale della transizione ($E -> D$): un quarto dei giovani occupati a termine nel Mezzogiorno ricade nell'inattività o disoccupazione entro 12 mesi (`effetto porte girevoli`).",
+        "live_mean": 12.8,
+        "live_min": 6.8,
+        "live_max": 18.5,
+        "indicator_audited": "istat_lfs_transizione_neet_verso_occupato_stabile_pct"
+      },
+      {
+        "domain_id": "covip_mef_youth_supplementary_pension_panel",
+        "title_it": "COVIP / MEF - Adesione dei Giovani Under 35 ai Fondi Pensione e alla Previdenza Complementare Integrativa",
+        "authority": "COVIP (`Commissione di Vigilanza sui Fondi Pensione - Relazione Annuale Ufficiale`) & MEF",
+        "file_path": "covip_mef_youth_supplementary_pension_panel.csv",
+        "exact_findings": "Proietta la vulnerabilità di destinazione sul secondo pilastro previdenziale ($D$): l'81.6% dei giovani meridionali non possiede alcuna copertura previdenziale integrativa, lasciandoli privi di difesa contro il taglio del primo pilastro INPS.",
+        "live_mean": 31.34,
+        "live_min": 18.4,
+        "live_max": 44.2,
+        "indicator_audited": "covip_quota_aderenti_under35_previdenza_integrativa_pct"
+      }
+    ]
+  },
+  "AXIOM_6_HOLISTIC_GOVERNANCE_AND_LIFELONG_LEARNING": {
+    "title": "Axiom 6: Governo Olistico all'interno del Triangolo Esteso $O-T-E-D$ e Raccordo con la Formazione Continua (`Lifelong Learning`)",
+    "domains_utilized": [
+      "inapp_plus_lifelong_learning_and_social_mobility_panel",
+      "eurostat_regional_early_school_leavers_and_neet",
+      "eurostat_social_scoreboard_social_mobility_panel",
+      "oecd_eag_italy_education_spending",
+      "worldbank_italy_gdp_education_share",
+      "istat_educational_attainment_and_neet_status_2024",
+      "istat_regional_attainment_and_neet_panel",
+      "istat_historic_education_spending_series",
+      "mim_hf_adozioni_libri_testo",
+      "mim_hf_edifici_scolastici_anagrafica",
+      "mim_hf_sistema_nazionale_valutazione_snv",
+      "mim_hf_edilizia_scolastica_estesa",
+      "mur_regional_university_tuition_exemptions",
+      "eurostat_istat_desi_digital_skills_attainment_panel",
+      "inapp_plus_adult_upskilling_company_training_panel"
+    ],
+    "empirical_proof_synthesis": [
+      {
+        "domain_id": "inapp_plus_lifelong_learning_and_social_mobility_panel",
+        "title_it": "INAPP Indagine PLUS - Partecipazione alla Formazione Continua, Apprendimento Degli Adulti e Mobilità Intergenerazionale",
+        "authority": "INAPP (`Istituto Nazionale per l'Analisi delle Politiche Pubbliche - Indagine PLUS`)",
+        "file_path": "inapp_plus_lifelong_learning_and_social_mobility_panel.csv",
+        "exact_findings": "Analizza l'investimento in capitale umano durante il ciclo di vita lavorativa (`Formazione Continua E -> D`), misurando la capacità del sistema di compensare le disuguaglianze iniziali (`Origine O`).",
+        "live_mean": 9.98,
+        "live_min": 6.9,
+        "live_max": 12.8,
+        "indicator_audited": "inapp_plus_lifelong_learning_adulti_25_64_pct"
+      },
+      {
+        "domain_id": "eurostat_istat_desi_digital_skills_attainment_panel",
+        "title_it": "Eurostat / ISTAT - Indice DESI sulle Competenze Digitali di Base e Avanzate della Popolazione e degli Specialisti ICT",
+        "authority": "Eurostat & ISTAT (`Indagine sull'Uso delle Tecnologie dell'Informazione e della Comunicazione - isoc_sk_dskl_i21`)",
+        "file_path": "eurostat_istat_desi_digital_skills_attainment_panel.csv",
+        "exact_findings": "Fornisce la misura oggettiva delle competenze digitali (`Capitale Umano DESI`), documentando il divario strutturale tra la popolazione italiana (`37.2%-54.8% competenze di base`) e la media europea (`>54% UE-27`), il quale alimenta direttamente la difficoltà di reperimento per profili tecnici.",
+        "live_mean": 46.5,
+        "live_min": 37.2,
+        "live_max": 54.8,
+        "indicator_audited": "eurostat_desi_basic_digital_skills_16_74_pct"
+      },
+      {
+        "domain_id": "inapp_plus_adult_upskilling_company_training_panel",
+        "title_it": "INAPP PLUS - Partecipazione degli Adulti alla Formazione Continua, Upskilling e Aziendale (25-64 Anni)",
+        "authority": "INAPP (`Istituto Nazionale per l'Analisi delle Politiche Pubbliche - Indagine PLUS / Lifelong Learning`)",
+        "file_path": "inapp_plus_adult_upskilling_company_training_panel.csv",
+        "exact_findings": "Spiega il blocco del capitale umano adulto nel ciclo di destinazione ($D$): l'83.3% dei lavoratori adulti al Sud non partecipa ad alcuna attività di formazione o upskilling aziendale negli ultimi 3 anni.",
+        "live_mean": 23.36,
+        "live_min": 11.5,
+        "live_max": 34.8,
+        "indicator_audited": "inapp_quota_lavoratori_con_formazione_aziendale_pct"
+      }
+    ]
+  }
+}

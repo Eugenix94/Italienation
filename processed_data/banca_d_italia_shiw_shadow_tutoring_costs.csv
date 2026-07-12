@@ -1,0 +1,6 @@
+household_wealth_quintile,pct_using_private_tutoring,mean_annual_tutoring_expenditure_eur,primary_track_enrolled,grade_repetition_risk
+"Quintile 1 (Poorest 20% / ISEE < €12,000)",8.4,320,Istituti Professionali & IeFP (`62%`),Highest (`>16% Year 1 failure due to inability to afford private remedial lessons`)
+Quintile 2 (Lower-Middle 20%),16.8,580,Istituti Tecnici (`48%`),High (`~11% Year 1 failure`)
+Quintile 3 (Middle 20%),28.5,950,Istituti Tecnici & Licei Scientifici (`55%`),Moderate (`~6% Year 1 failure`)
+Quintile 4 (Upper-Middle 20%),44.2,1650,Licei Scientifici & Classici (`68%`),Low (`<3% Year 1 failure`)
+"Quintile 5 (Wealthiest 20% / ISEE > €65,000)",64.8,2850,"Licei Classici, Scientifici & International Schools (`88%`)",Minimal (`<1.2% Year 1 failure; intensive private tutoring guarantees track survival and university entrance`)

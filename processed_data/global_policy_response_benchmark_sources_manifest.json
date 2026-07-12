@@ -1,0 +1,154 @@
+{
+  "title": "Global Policy-Response Benchmark Sources Manifest",
+  "version": "1.0",
+  "generated_at_utc": "2026-05-23T00:00:00Z",
+  "panel_file": "local_data/processed/global_policy_response_benchmark_template.csv",
+  "schema_file": "local_data/processed/global_policy_response_benchmark_schema.md",
+  "primary_keys": ["iso3", "year"],
+  "priority_order": [
+    "transition_systems",
+    "equity_financing",
+    "early_failure_prevention",
+    "active_labor_market_transition",
+    "institutional_permeability"
+  ],
+  "source_map": {
+    "transition_systems": [
+      {
+        "org": "OECD",
+        "dataset": "Education at a Glance / UOE",
+        "variables": [
+          "apprenticeship_participation_pct_youth",
+          "dual_vet_share_upper_secondary_pct",
+          "tertiary_access_rate_from_vet_pct"
+        ],
+        "status": "partial_available"
+      },
+      {
+        "org": "Eurostat",
+        "dataset": "NEET and labor transition flows",
+        "variables": [
+          "neet_15_29_pct",
+          "graduate_employment_rate_1y_pct"
+        ],
+        "status": "available_for_europe"
+      }
+    ],
+    "equity_financing": [
+      {
+        "org": "OECD",
+        "dataset": "Education funding-source accounts",
+        "variables": [
+          "public_education_spending_pct_gdp",
+          "state_funding_share_pct_total_edu",
+          "household_private_share_pct_total_edu",
+          "tuition_fee_public_usd_ppp"
+        ],
+        "status": "available"
+      },
+      {
+        "org": "World Bank",
+        "dataset": "WDI",
+        "variables": ["public_education_spending_pct_gdp"],
+        "status": "available"
+      }
+    ],
+    "early_failure_prevention": [
+      {
+        "org": "OECD",
+        "dataset": "PISA/TALIS/UOE",
+        "variables": [
+          "grade_repetition_rate_lower_secondary_pct",
+          "grade_repetition_rate_upper_secondary_pct",
+          "teacher_shortage_index",
+          "class_size_lower_secondary"
+        ],
+        "status": "mixed_manual_needed"
+      },
+      {
+        "org": "National Ministries / ISTAT",
+        "dataset": "School outcomes and repeaters",
+        "variables": [
+          "grade_repetition_rate_upper_secondary_pct",
+          "remedial_instruction_coverage_pct"
+        ],
+        "status": "country_specific"
+      }
+    ],
+    "active_labor_market_transition": [
+      {
+        "org": "OECD",
+        "dataset": "ALMP / labor market programs",
+        "variables": [
+          "youth_almp_spending_pct_gdp",
+          "youth_almp_spending_per_unemployed_usd_ppp"
+        ],
+        "status": "partially_blocked_in_current_env"
+      },
+      {
+        "org": "Eurostat",
+        "dataset": "LMP and youth employment indicators",
+        "variables": [
+          "share_temporary_contracts_youth_pct",
+          "median_months_school_to_first_job"
+        ],
+        "status": "requires_flow_remapping"
+      }
+    ],
+    "institutional_permeability": [
+      {
+        "org": "Cedefop / OECD / Eurydice",
+        "dataset": "VET governance and progression reports",
+        "variables": [
+          "track_switching_possible_binary",
+          "recognition_prior_learning_binary",
+          "second_chance_program_coverage_pct"
+        ],
+        "status": "manual_extraction_required"
+      },
+      {
+        "org": "Eurostat",
+        "dataset": "Adult learning participation",
+        "variables": ["adult_learning_participation_pct"],
+        "status": "available"
+      }
+    ]
+  },
+  "live_verification_2026_05_23": {
+    "report_file": "local_data/processed/sources_verified_2026-05-23.md",
+    "istat_parental_flow_candidates_file": "local_data/processed/istat_parental_keyword_flows.csv",
+    "inps": {
+      "status": "reachable",
+      "verified_pages": [
+        "https://www.inps.it/it/it/dati-e-bilanci/open-data.html",
+        "https://www.inps.it/it/it/dati-e-bilanci/open-data/scarica-gli-open-data.html",
+        "https://www.inps.it/it/it/dati-e-bilanci/open-data/api-inps.html"
+      ],
+      "verified_api_endpoints": [
+        "https://serviziweb2.inps.it/odapi/package_list",
+        "https://serviziweb2.inps.it/odapi/package_show?id={id-dataset}",
+        "https://serviziweb2.inps.it/odapi/current_package_list_with_resources?limit=50",
+        "https://serviziweb2.inps.it/odapi/bulk?limit=50",
+        "https://serviziweb2.inps.it/odapi/bulk_download?limit=50",
+        "https://serviziweb2.inps.it/odapi/status"
+      ],
+      "apprenticeship_status": "pathway_verified_exact_dataset_ids_pending"
+    },
+    "oecd_talis": {
+      "status": "reachable",
+      "italy_page": "https://www.oecd.org/en/about/programmes/talis/italy.html",
+      "database_page": "https://www.oecd.org/en/data/datasets/talis-2024-database.html",
+      "participants_xlsx": "https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/talis/directories-index/TALIS_cycles_participation.xlsx/_jcr_content/renditions/original.media_file.download_attachment.file/TALIS_cycles_participation.xlsx"
+    },
+    "istat": {
+      "status": "reachable",
+      "dataflow_endpoint": "https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1/all/latest",
+      "candidate_flow_rows": 351
+    }
+  },
+  "notes": [
+    "Keep both raw and standardized values for each metric.",
+    "Use confidence_tier=A/B/C to distinguish official direct values from proxies.",
+    "For sparse survey waves, set method_note and missing_reason explicitly."
+  ]
+}

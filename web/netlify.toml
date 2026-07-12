@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+  command = "echo 'Deploying static Open Science Observatory'"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+[[redirects]]
+  from = "/data/*"
+  to = "/holistic_analysis/data_panels/:splat"
+  status = 200

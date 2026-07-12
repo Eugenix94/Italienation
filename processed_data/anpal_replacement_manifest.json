@@ -1,0 +1,43 @@
+{
+  "title": "ANPAL Replacement Dataset Package (May 2026)",
+  "context": "ANPAL Garanzia Giovani data not available from official sources; using public Eurostat/ISTAT substitutes.",
+  "datasets": {
+    "anpal_replacement_neet_annual.csv": {
+      "description": "Annual NEET rate (proxy for Youth Guarantee population)",
+      "source": "ISTAT",
+      "columns": [
+        "anno (year)",
+        "neet_rate_pct (% not in employment/education/training)"
+      ],
+      "use_case": "Track aggregate youth exclusion trend"
+    },
+    "anpal_replacement_neet_by_migration.csv": {
+      "description": "NEET by citizenship/migration status (equity breakdown)",
+      "source": "Eurostat",
+      "use_case": "Assess program effectiveness across migrant vs. native youth"
+    },
+    "anpal_replacement_youth_unemployment.csv": {
+      "description": "Youth (15-24) unemployment rate (job-placement proxy)",
+      "source": "Eurostat",
+      "use_case": "Inverse of employment outcomes; shows non-placement rate"
+    },
+    "anpal_replacement_early_school_leavers.csv": {
+      "description": "Early school leavers (18-24) by education status (pre-program risk indicator)",
+      "source": "Eurostat",
+      "use_case": "Identify target population for intervention"
+    }
+  },
+  "limitations": [
+    "Eurostat/ISTAT data are observed outcomes, not program participation/placement counts",
+    "No regional breakdown by Garanzia Giovani jurisdiction",
+    "No intervention-type splits (training vs. job subsidy vs. direct employment)",
+    "Annual or quarterly granularity; ANPAL may report monthly"
+  ],
+  "how_to_use": [
+    "Merge these files by year to create a multi-indicator NEET/unemployment dashboard",
+    "Use NEET annual as the baseline population metric",
+    "Use migration breakdown to assess equity of unmet need",
+    "Use youth unemployment to estimate placement gap (100% - employment rate = NEET proxy)",
+    "Use early school leavers to understand the pre-program risk population"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "inventory_csv":"education_fiscal_inventory.csv",
+  "report_md":"education_fiscal_sources_map.md",
+  "source_files":[
+    "BISCONSUNTIVO202520251220.csv",
+    "BISCONTRATTI202420250921.csv",
+    "BISPROGANNO202520260320.csv",
+    "dsu_ersu_support_panel_2024_2025.csv",
+    "education_expenditure_state_parents_gdp_latest.csv",
+    "italy_mur_tuition_benchmark_2024.csv",
+    "siope_school_expenditure_summary.csv"
+  ],
+  "row_count":39
+}

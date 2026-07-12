@@ -1,0 +1,107 @@
+{
+  "project_title": "Italienation: Citizen-First Open Science Observatory on the Italian Educational Pipeline & NEET Exclusion",
+  "osf_repository_intent": "Empirical validation of the Extended Social Mobility Triangle with School Track (O-T-E-D) across Italian NUTS-2 regions and European benchmarks.",
+  "canonical_datasets": [
+    {
+      "indicator_id": "istat_repeaters_upper_secondary",
+      "name_it": "Ripetenti per anno di corso e indirizzo scolastico nella Scuola Secondaria di II Grado",
+      "name_en": "Upper Secondary Grade Repeaters by Year of Course and School Track",
+      "institution": "ISTAT (Istituto Nazionale di Statistica)",
+      "data_portal": "ISTAT SDMX Open Data Portal (I.Stat / Esploradati)",
+      "flow_id_sdmx": "52_1044_DF_DCIS_SCUOLE_15",
+      "direct_portal_url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0800,1.0/I_EDUC/DCIS_SCUOLE/52_1044_DF_DCIS_SCUOLE_15",
+      "coverage_years": "2015/2016 – 2024/2025",
+      "key_variables": [
+        "OBS_VALUE (Tasso di bocciatura %)",
+        "TYPE_SCHOOL (LIC, TEC, VOC)",
+        "SCHOOL_YEAR (FIR, SEC, THIR, ALL)",
+        "TYPE_SCHOOL_MANAGEMENT (PUB, PRI, ALL)"
+      ],
+      "role_in_oed_triangle": "Measures Track-to-Education friction (T -> E). Proves the 18.0% first-year failure concentration in Istituti Professionali."
+    },
+    {
+      "indicator_id": "openpolis_neet_and_poverty",
+      "name_it": "Tasso di Giovani NEET (15–29 anni) e Povertà Educativa Regionale / Provinciale",
+      "name_en": "Youth NEET Rate (15–29 years) and Territorial Educational Poverty",
+      "institution": "Openpolis & ISTAT (Osservatorio Povertà Educativa Con i Bambini)",
+      "data_portal": "Openpolis Dati Aperti / ISTAT Rilevazione sulle Forze di Lavoro (RFL)",
+      "flow_id_sdmx": "ISTAT RFL / Openpolis API",
+      "direct_portal_url": "https://www.openpolis.it/parole/che-cosa-si-intende-per-neet/",
+      "coverage_years": "2018 – 2024",
+      "key_variables": [
+        "tasso_neet_15_29_pct",
+        "abbandono_scolastico_precoce_elet_pct"
+      ],
+      "role_in_oed_triangle": "Measures the ultimate social and labor market destination (D) resulting from early school leaving (ELET)."
+    },
+    {
+      "indicator_id": "eurydice_structures_and_elet",
+      "name_it": "Strutture dei Sistemi Educativi Europei (ISCED 0–4) e Indicatori Politici ELET",
+      "name_en": "European Education System Structures (ISCED 0–4) and ELET System-Level Policy Indicators",
+      "institution": "EURYDICE Network (European Education and Culture Executive Agency - EACEA / European Commission)",
+      "data_portal": "Eurydice Data and Visuals / Eurydice Open Data",
+      "flow_id_sdmx": "EURYDICE_STRUCTURES_2025_2026 / ELET_2024_2025",
+      "direct_portal_url": "https://eurydice.eacea.ec.europa.eu/data-and-visuals/european-education-structures",
+      "coverage_years": "2024/2025 – 2025/2026",
+      "key_variables": [
+        "Starting age",
+        "Duration",
+        "ISCED category",
+        "Compulsory education age",
+        "Early warning systems (Indicator 1)",
+        "IEPs (Indicator 2)",
+        "CPD competences (Indicator 3)"
+      ],
+      "role_in_oed_triangle": "Provides the structural system parameters (Tracking Age T, Bocciatura legal rules) to conduct comparative causal analysis between Italy and European benchmarks."
+    },
+    {
+      "indicator_id": "mur_university_tuition_and_dropout",
+      "name_it": "Contribuzione Media Studentesca e Tasso di Abbandono Universitario al Primo Anno",
+      "name_en": "Average University Tuition Fees and First-Year University Dropout Rate",
+      "institution": "MUR (Ministero dell'Università e della Ricerca - Ufficio Statistica)",
+      "data_portal": "Portale Dati dell'Istruzione Superiore (Dati Aperti MUR)",
+      "flow_id_sdmx": "MUR_PARQUET_2025_Contribuzione_media / MUR_PARQUET_Tasso_di_abbandono",
+      "direct_portal_url": "https://dati.mur.gov.it/",
+      "coverage_years": "2011/2012 – 2024/2025",
+      "key_variables": [
+        "Contribuzione_media_paganti_eur",
+        "Tasso_abbandono_primo_anno_pct",
+        "COD_ATENEO"
+      ],
+      "role_in_oed_triangle": "Measures downstream tertiary progression shock (E -> D), showing how high school repetition predetermines first-year university dropout."
+    },
+    {
+      "indicator_id": "oecd_wb_international_tracking_benchmark",
+      "name_it": "Benchmark Internazionale OCSE/World Bank: Età di Tripartizione vs. Tasso Lordo di Iscrizione Terziaria",
+      "name_en": "OECD/World Bank International Benchmark: Tracking Age vs. Gross Tertiary Enrollment Rate",
+      "institution": "OECD (Education at a Glance) & World Bank (EdStats Database)",
+      "data_portal": "OECD Data Explorer / World Bank Open Data",
+      "flow_id_sdmx": "OECD_EAG_2024_B1_C1 / WB_EDSTATS_SE.TER.ENRR",
+      "direct_portal_url": "https://data.oecd.org/eduresource/public-spending-on-education.htm",
+      "coverage_years": "2020 – 2024",
+      "key_variables": [
+        "tracking_age",
+        "public_spending_pct_gdp",
+        "tertiary_enrollment_gross_pct",
+        "learning_poverty_pct"
+      ],
+      "role_in_oed_triangle": "Proves empirically that unified comprehensive secondary systems (>16 years tracking age) achieve +14.4% higher university enrollment than early tripartite models."
+    },
+    {
+      "indicator_id": "mim_siope_municipal_infrastructure",
+      "name_it": "Spesa Comunale SIOPE per Alunno e Anagrafe Edilizia Scolastica (Agibilità e Barriere Architettoniche)",
+      "name_en": "SIOPE Municipal Cash Expenditure per Pupil and School Building Safety Registry",
+      "institution": "MIM (Ministero dell'Istruzione e del Merito) & MEF (Banca d'Italia SIOPE)",
+      "data_portal": "Portale Unico Dati della Scuola (MIM Open Data) & SIOPE Open Data",
+      "flow_id_sdmx": "MIM_EDILIZIA_AGIBILITA / MEF_SIOPE_CASSA_COMUNI",
+      "direct_portal_url": "https://dati.istruzione.it/esplora/rilascio-dati/anagrafe-edilizia-scolastica",
+      "coverage_years": "2021 – 2024",
+      "key_variables": [
+        "siope_cassa_alunno_eur",
+        "cert_agibilita_pct",
+        "barriere_arch_pct"
+      ],
+      "role_in_oed_triangle": "Measures the baseline institutional and territorial resources (O -> School Environment) before secondary tracking begins."
+    }
+  ]
+}

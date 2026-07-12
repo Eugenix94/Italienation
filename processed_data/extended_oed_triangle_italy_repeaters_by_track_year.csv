@@ -1,0 +1,5 @@
+track_code,track_name,rep_pct_ALL,rep_pct_FIR,rep_pct_SEC,rep_pct_THIR,biennio_cumulative_failure_risk_pct
+ALL,Totale Scuole Superiori (All Tracks),5.7,8.7,6.1,6.2,14.27
+LIC,Licei (Academic General Track),2.7,4.4,2.8,2.9,7.08
+TEC,Istituti Tecnici (Technical Track),7.4,11.0,7.6,8.4,17.76
+VOC,Istituti Professionali (Vocational Track),11.7,18.0,13.3,11.9,28.91

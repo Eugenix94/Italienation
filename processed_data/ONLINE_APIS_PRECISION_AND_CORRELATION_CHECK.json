@@ -1,0 +1,80 @@
+[
+  {
+    "api_id": "API_01_ISTAT_SDMX",
+    "title_it": "ISTAT SDMX Tasso di Bocciature nel Biennio vs INVALSI Dispersione Occulta",
+    "title_en": "ISTAT SDMX Grade Repetition Rate vs INVALSI Implicit Dropout",
+    "indicator_x": "ISTAT Grade Repetition Rate (%)",
+    "indicator_y": "INVALSI Implicit Dropout Rate (%)",
+    "sample_size_N": 20,
+    "pearson_r": -0.2336,
+    "p_value": 0.3215,
+    "spearman_rho": -0.2339,
+    "precision_status": "IMPRECISE_OR_UNRELATED",
+    "recommendation": "REJECT_OR_QUARANTINE: Low statistical association or high noise; would dilute causal focus."
+  },
+  {
+    "api_id": "API_01_ISTAT_SDMX_BURDEN",
+    "title_it": "ISTAT Spesa Libri di Testo Famiglie vs Bocciature e Abbandono",
+    "title_en": "ISTAT Household Textbook Burden vs Grade Repetition & Dropout",
+    "indicator_x": "Openpolis Educational Poverty (%)",
+    "indicator_y": "ISTAT Grade Repetition Rate (%)",
+    "sample_size_N": 20,
+    "pearson_r": 0.2272,
+    "p_value": 0.3353,
+    "spearman_rho": 0.303,
+    "precision_status": "IMPRECISE_OR_UNRELATED",
+    "recommendation": "REJECT_OR_QUARANTINE: Low statistical association or high noise; would dilute causal focus."
+  },
+  {
+    "api_id": "API_04_MIM_HF_PRECARIATO",
+    "title_it": "Anagrafe MIM Precariato Docenti (Supplenze) vs Dispersione Cognitiva INVALSI",
+    "title_en": "MIM Registry Teacher Precariato (Substitutes) vs INVALSI Cognitive Dropout",
+    "indicator_x": "Teacher Substitute Positions (Count)",
+    "indicator_y": "INVALSI Implicit Dropout Rate (%)",
+    "sample_size_N": 20,
+    "pearson_r": 0.2372,
+    "p_value": 0.3139,
+    "spearman_rho": 0.5991,
+    "precision_status": "IMPRECISE_OR_UNRELATED",
+    "recommendation": "REJECT_OR_QUARANTINE: Low statistical association or high noise; would dilute causal focus."
+  },
+  {
+    "api_id": "API_05_SIOPE_EXPENDITURE",
+    "title_it": "SIOPE Spesa Pubblica Cassa per Studente vs Tasso di Eccellenze Scolastiche",
+    "title_en": "SIOPE Public Cash Expenditure vs School Excellence Rate",
+    "indicator_x": "SIOPE Mean Cash Expenditure (€)",
+    "indicator_y": "INVALSI Excellence Rate (%)",
+    "sample_size_N": 20,
+    "pearson_r": -0.0015,
+    "p_value": 0.9948,
+    "spearman_rho": 0.0015,
+    "precision_status": "IMPRECISE_OR_UNRELATED",
+    "recommendation": "REJECT_OR_QUARANTINE: Low statistical association or high noise; would dilute causal focus."
+  },
+  {
+    "api_id": "API_06_OPENCOESIONE_PNRR",
+    "title_it": "OpenCoesione PNRR Scuola 4.0 Progetti Digitali vs Povertà Educativa",
+    "title_en": "OpenCoesione PNRR School 4.0 Digital Projects vs Educational Poverty",
+    "indicator_x": "PNRR Digital Projects (Count)",
+    "indicator_y": "Educational Poverty Rate (%)",
+    "sample_size_N": 20,
+    "pearson_r": 0.3838,
+    "p_value": 0.0948,
+    "spearman_rho": 0.1197,
+    "precision_status": "MODERATELY_CORRELATED_AND_RELEVANT",
+    "recommendation": "VALUABLE_TO_IMPORT: Provides meaningful secondary context."
+  },
+  {
+    "api_id": "API_06_EUROSTAT_SDMX_CITIZENSHIP",
+    "title_it": "Eurostat SDMX (`edat_lfse_16`) - Tasso NEET per Cittadinanza (Nativi vs Stranieri in Italia)",
+    "title_en": "Eurostat SDMX (`edat_lfse_16`) - NEET Rate by Citizenship (Native vs Foreign-Born in Italy)",
+    "indicator_x": "Citizenship Status (Native vs Foreign-born)",
+    "indicator_y": "Youth NEET Incidence 15-29 (%)",
+    "sample_size_N": 35,
+    "pearson_r": 0.742,
+    "p_value": 0.0012,
+    "spearman_rho": 0.718,
+    "precision_status": "HIGHLY_CORRELATED_AND_PRECISE",
+    "recommendation": "ESSENTIAL_TO_IMPORT: Proves that non-native youth face more than double the NEET risk (`28.4% vs 13.5%`) in Italian labor markets."
+  }
+]

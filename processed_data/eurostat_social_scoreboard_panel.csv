@@ -1,0 +1,21 @@
+iso3,year,indicator_code,value_standardized,unit_standardized,source_org,source_dataset,last_verified_utc
+ITA,2024,neet_15_29_pct,16.1,pct_pop,Eurostat (tespm080),Social Scoreboard,2026-07-09T15:10:15Z
+ITA,2024,early_school_leavers_pct,10.5,pct_pop,Eurostat (tespm070),Social Scoreboard,2026-07-09T15:10:15Z
+ITA,2024,adult_learning_participation_pct,9.6,pct_pop,Eurostat (trng_lfs_01),Social Scoreboard,2026-07-09T15:10:15Z
+ITA,2024,arope_poverty_exclusion_risk_pct,22.8,pct_pop,Eurostat (ilc_peps01n),Social Scoreboard,2026-07-09T15:10:15Z
+DEU,2024,neet_15_29_pct,8.8,pct_pop,Eurostat (tespm080),Social Scoreboard,2026-07-09T15:10:15Z
+DEU,2024,early_school_leavers_pct,12.8,pct_pop,Eurostat (tespm070),Social Scoreboard,2026-07-09T15:10:15Z
+DEU,2024,adult_learning_participation_pct,8.1,pct_pop,Eurostat (trng_lfs_01),Social Scoreboard,2026-07-09T15:10:15Z
+DEU,2024,arope_poverty_exclusion_risk_pct,21.2,pct_pop,Eurostat (ilc_peps01n),Social Scoreboard,2026-07-09T15:10:15Z
+FRA,2024,neet_15_29_pct,12.3,pct_pop,Eurostat (tespm080),Social Scoreboard,2026-07-09T15:10:15Z
+FRA,2024,early_school_leavers_pct,8.5,pct_pop,Eurostat (tespm070),Social Scoreboard,2026-07-09T15:10:15Z
+FRA,2024,adult_learning_participation_pct,18.2,pct_pop,Eurostat (trng_lfs_01),Social Scoreboard,2026-07-09T15:10:15Z
+FRA,2024,arope_poverty_exclusion_risk_pct,20.4,pct_pop,Eurostat (ilc_peps01n),Social Scoreboard,2026-07-09T15:10:15Z
+ESP,2024,neet_15_29_pct,12.3,pct_pop,Eurostat (tespm080),Social Scoreboard,2026-07-09T15:10:15Z
+ESP,2024,early_school_leavers_pct,13.7,pct_pop,Eurostat (tespm070),Social Scoreboard,2026-07-09T15:10:15Z
+ESP,2024,adult_learning_participation_pct,15.3,pct_pop,Eurostat (trng_lfs_01),Social Scoreboard,2026-07-09T15:10:15Z
+ESP,2024,arope_poverty_exclusion_risk_pct,26.5,pct_pop,Eurostat (ilc_peps01n),Social Scoreboard,2026-07-09T15:10:15Z
+EU27,2024,neet_15_29_pct,11.2,pct_pop,Eurostat (tespm080),Social Scoreboard,2026-07-09T15:10:15Z
+EU27,2024,early_school_leavers_pct,9.5,pct_pop,Eurostat (tespm070),Social Scoreboard,2026-07-09T15:10:15Z
+EU27,2024,adult_learning_participation_pct,12.7,pct_pop,Eurostat (trng_lfs_01),Social Scoreboard,2026-07-09T15:10:15Z
+EU27,2024,arope_poverty_exclusion_risk_pct,21.4,pct_pop,Eurostat (ilc_peps01n),Social Scoreboard,2026-07-09T15:10:15Z

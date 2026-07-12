@@ -1,0 +1,26 @@
+{
+  "generated_on": "2026-05-27",
+  "outputs": [
+    "italy_education_finance_levels_real.csv",
+    "italy_household_burden_module.csv",
+    "italy_education_territorial_proxy_panel.csv",
+    "worldbank_italy_cpi_index.csv",
+    "education_gap_modules_note.md"
+  ],
+  "sources": [
+    "educ_uoe_fini01$defaultview_linear_2_0.csv",
+    "italy_education_expenditure_state_parents_trend.csv",
+    "italy_school_household_cost_snapshot.csv",
+    "italy_mur_tuition_benchmark_2024.csv",
+    "dsu_ersu_support_panel_2024_2025.csv",
+    "atenei_payment_support_panel_2023_2024.csv",
+    "siope_school_expenditure_summary.csv",
+    "ministry_students_by_region_order_2024_25.csv",
+    "neet_regional_target_panel.csv",
+    "istat_lower_secondary_indicators_latest.csv",
+    "istat_repeaters_upper_secondary_latest.csv",
+    "estimated_disabled_students_by_region_order_2024_25_using_national_rates.csv",
+    "estimated_bes_students_by_region_order_2024_25_using_istat_rates.csv",
+    "https://api.worldbank.org/v2/country/ITA/indicator/FP.CPI.TOTL?format=json&per_page=200"
+  ]
+}

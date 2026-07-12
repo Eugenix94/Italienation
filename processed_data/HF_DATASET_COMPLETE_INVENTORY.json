@@ -1,0 +1,3260 @@
+[
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTABRUZZO000020260610.parquet",
+    "type": "file",
+    "size_bytes": 957940
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTBASILICATA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 444412
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTCALABRIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 1459870
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTCAMPANIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 3956337
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTEMILIAROMAGNA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 2340711
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTFRIULIVENEZIAGIULIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 855713
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTLAZIO000020260610.parquet",
+    "type": "file",
+    "size_bytes": 3013204
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTLIGURIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 855479
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTLOMBARDIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 4746551
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTMARCHE000020260610.parquet",
+    "type": "file",
+    "size_bytes": 1113698
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTMOLISE000020260610.parquet",
+    "type": "file",
+    "size_bytes": 307916
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTPIEMONTE000020260610.parquet",
+    "type": "file",
+    "size_bytes": 2273617
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTPUGLIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 2363735
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTSARDEGNA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 1088189
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTSICILIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 2982724
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTTOSCANA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 2150184
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTTRENTINOALTOADIGE000020260610.parquet",
+    "type": "file",
+    "size_bytes": 478666
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTUMBRIA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 690583
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTVALLEDAOSTA000020260610.parquet",
+    "type": "file",
+    "size_bytes": 111064
+  },
+  {
+    "folder": "adozioni_libri_di_testo",
+    "path": "data/adozioni_libri_di_testo/ALTVENETO000020260610.parquet",
+    "type": "file",
+    "size_bytes": 2563475
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDIAMBFUNZSTA.parquet",
+    "type": "file",
+    "size_bytes": 1048434
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDIAMBIENTESTA.parquet",
+    "type": "file",
+    "size_bytes": 1050312
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDIANAGRAFESTA.parquet",
+    "type": "file",
+    "size_bytes": 1835131
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDICONSICUREZZASTA.parquet",
+    "type": "file",
+    "size_bytes": 1008678
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDICONSISTENZASTA.parquet",
+    "type": "file",
+    "size_bytes": 1477447
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDISUPBARARCSTA.parquet",
+    "type": "file",
+    "size_bytes": 1067539
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDITIPORISCSTA.parquet",
+    "type": "file",
+    "size_bytes": 1051767
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDIUNITASTRUTSTA.parquet",
+    "type": "file",
+    "size_bytes": 1081280
+  },
+  {
+    "folder": "edifici",
+    "path": "data/edifici/EDIVINCOLISTA.parquet",
+    "type": "file",
+    "size_bytes": 977377
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBFUNZSTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 945652
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBFUNZSTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1070700
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBFUNZSTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1071745
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBFUNZSTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1073983
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBFUNZSTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1075405
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBFUNZSTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1048434
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBIENTESTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 1173157
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBIENTESTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1061983
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBIENTESTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1065721
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBIENTESTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1072052
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBIENTESTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1075222
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIAMBIENTESTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1050312
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIANAGRAFESTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 1815280
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIANAGRAFESTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1872994
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIANAGRAFESTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1874137
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIANAGRAFESTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1876704
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIANAGRAFESTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1874947
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIANAGRAFESTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1835131
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICOLLEGAMENTISTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 966506
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICOLLEGAMENTISTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1036289
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICOLLEGAMENTISTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1035947
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICOLLEGAMENTISTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1040256
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICOLLEGAMENTISTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1037202
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICOLLEGAMENTISTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1013729
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSICUREZZASTA20181920190530.parquet",
+    "type": "file",
+    "size_bytes": 1019381
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSICUREZZASTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1032580
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSICUREZZASTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1031614
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSICUREZZASTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1034272
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSICUREZZASTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1008678
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSISTENZASTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 1405619
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSISTENZASTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1495600
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSISTENZASTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1505161
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSISTENZASTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1507933
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSISTENZASTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1508785
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDICONSISTENZASTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1477447
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIETAORIGINESTA20181920190530.parquet",
+    "type": "file",
+    "size_bytes": 1066562
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIETAORIGINESTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1100413
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIETAORIGINESTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1101720
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIETAORIGINESTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1102468
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIETAORIGINESTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1088641
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIETAORIGINESTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1060108
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIPROTEZRUMSTA20181920190530.parquet",
+    "type": "file",
+    "size_bytes": 959100
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIPROTEZRUMSTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 996859
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIPROTEZRUMSTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 997654
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIPROTEZRUMSTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 996771
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIPROTEZRUMSTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 996635
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIPROTEZRUMSTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 974280
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIRIDUZCONSENESTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 1021323
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIRIDUZCONSENESTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1032601
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIRIDUZCONSENESTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1031659
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIRIDUZCONSENESTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1032941
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIRIDUZCONSENESTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1032382
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIRIDUZCONSENESTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1008692
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDISUPBARARCSTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 1052442
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDISUPBARARCSTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1091109
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDISUPBARARCSTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1090128
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDISUPBARARCSTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1091457
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDISUPBARARCSTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1091174
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDISUPBARARCSTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1067539
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDITIPORISCSTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 1026904
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDITIPORISCSTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1074751
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDITIPORISCSTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 1075351
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDITIPORISCSTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 1077703
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDITIPORISCSTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 1076155
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDITIPORISCSTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1051767
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIUNITASTRUTSTA20242520250806.parquet",
+    "type": "file",
+    "size_bytes": 1081280
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIVINCOLISTA20171820180925.parquet",
+    "type": "file",
+    "size_bytes": 957269
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIVINCOLISTA202120202120211116.parquet",
+    "type": "file",
+    "size_bytes": 1000324
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIVINCOLISTA202120212220220908.parquet",
+    "type": "file",
+    "size_bytes": 998853
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIVINCOLISTA202120222320230731.parquet",
+    "type": "file",
+    "size_bytes": 999608
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIVINCOLISTA202120232420250714.parquet",
+    "type": "file",
+    "size_bytes": 999233
+  },
+  {
+    "folder": "edilizia_scolastica",
+    "path": "data/edilizia_scolastica/EDIVINCOLISTA202120242520250806.parquet",
+    "type": "file",
+    "size_bytes": 977377
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1997-2001-personale-universitario__1997-2001_Atenei.parquet",
+    "type": "file",
+    "size_bytes": 5592
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1997-2001-personale-universitario__1997-2001_Personale_docente_di_ruolo_e_ricercatore_per_area_scientifico_discipli.parquet",
+    "type": "file",
+    "size_bytes": 38733
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1997-2001-personale-universitario__1997-2001_Personale_docente_e_ricercatore_per_classi_di_età.parquet",
+    "type": "file",
+    "size_bytes": 19691
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1997-2001-personale-universitario__1997-2001_Personale_non_docente.parquet",
+    "type": "file",
+    "size_bytes": 9977
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1997-2001-personale-universitario__1997-2001_Personale_per_genere.parquet",
+    "type": "file",
+    "size_bytes": 17545
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1997-2001-personale-universitario__1998-2001_Personale_docente_a_contratto.parquet",
+    "type": "file",
+    "size_bytes": 10948
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1999-2011-laureati__1999-2009_Laureati_per_ateneo_e_genere.parquet",
+    "type": "file",
+    "size_bytes": 13873
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/1999-2011-laureati__2001-2009_Laureati_per_Classe_di_Laurea,_Corso_di_studi_e_Genere.parquet",
+    "type": "file",
+    "size_bytes": 177885
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2002-2008_Atenei.parquet",
+    "type": "file",
+    "size_bytes": 6725
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2002-2008_Personale_docente_a_contratto.parquet",
+    "type": "file",
+    "size_bytes": 27478
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2002-2008_Personale_docente_a_contratto_per_area_scientifico_disciplinare.parquet",
+    "type": "file",
+    "size_bytes": 35940
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2002-2008_Personale_docente_di_ruolo_e_ricercatore_per_area_scientifico_discipli.parquet",
+    "type": "file",
+    "size_bytes": 85082
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2002-2008_Personale_docente_e_ricercatore_per_classi_di_età.parquet",
+    "type": "file",
+    "size_bytes": 29257
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2002-2008_Personale_non_docente.parquet",
+    "type": "file",
+    "size_bytes": 33381
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2002-2008_Personale_per_genere.parquet",
+    "type": "file",
+    "size_bytes": 33295
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2002-2008-personale-universitario__2003-2008_Collaboratori_in_attività_di_ricerca.parquet",
+    "type": "file",
+    "size_bytes": 18755
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2006-2015-contribuzione-e-interventi-afam__2006-2015_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 80723
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2006-2015-contribuzione-e-interventi-afam__2006-2015_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 29646
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2006-2015-contribuzione-e-interventi-afam__2006-2015_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 37666
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2006-2015-contribuzione-e-interventi-afam__2006-2015_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 23444
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2006-2015-contribuzione-e-interventi-afam__2006-2015_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 23640
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 60889
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 13434
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 17184
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 22785
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 36530
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 21576
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 39313
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 89541
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2013-contribuzione-e-interventi-atenei__2009-2013_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 10794
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Atenei.parquet",
+    "type": "file",
+    "size_bytes": 6994
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Collaboratori_in_attività_di_ricerca.parquet",
+    "type": "file",
+    "size_bytes": 21100
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Personale_docente_a_contratto.parquet",
+    "type": "file",
+    "size_bytes": 15196
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Personale_docente_a_contratto_per_area_scientifico_disciplinare.parquet",
+    "type": "file",
+    "size_bytes": 33650
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Personale_docente_di_ruolo_e_ricercatore_per_area_scientifico_discipli.parquet",
+    "type": "file",
+    "size_bytes": 96862
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Personale_docente_e_ricercatore_per_cittadinanza.parquet",
+    "type": "file",
+    "size_bytes": 21744
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Personale_docente_e_ricercatore_per_classidi_età.parquet",
+    "type": "file",
+    "size_bytes": 35584
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Personale_non_docente.parquet",
+    "type": "file",
+    "size_bytes": 31117
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2009-2014-personale-universitario__2009-2014_Personale_per_genere.parquet",
+    "type": "file",
+    "size_bytes": 33166
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2011-diritto-allo-studio-universitario-dsu-regionale__2011_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9662
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2011-diritto-allo-studio-universitario-dsu-regionale__2011_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 31914
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2011-diritto-allo-studio-universitario-dsu-regionale__2011_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9369
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2011-diritto-allo-studio-universitario-dsu-regionale__2011_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5685
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2011-diritto-allo-studio-universitario-dsu-regionale__2011_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5752
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2011-diritto-allo-studio-universitario-dsu-regionale__2011_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 28082
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2012-diritto-allo-studio-universitario-dsu-regionale__2012_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9606
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2012-diritto-allo-studio-universitario-dsu-regionale__2012_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 34848
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2012-diritto-allo-studio-universitario-dsu-regionale__2012_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9745
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2012-diritto-allo-studio-universitario-dsu-regionale__2012_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5623
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2012-diritto-allo-studio-universitario-dsu-regionale__2012_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5797
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2012-diritto-allo-studio-universitario-dsu-regionale__2012_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 28448
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-collegi-universitari__2013_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6120
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-collegi-universitari__2013_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11066
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-collegi-universitari__2013_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6172
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-collegi-universitari__2013_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6176
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-collegi-universitari__2013_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5998
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-collegi-universitari__2013_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9098
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-diritto-allo-studio-universitario-dsu-regionale__2013_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9863
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-diritto-allo-studio-universitario-dsu-regionale__2013_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 34910
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-diritto-allo-studio-universitario-dsu-regionale__2013_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9738
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-diritto-allo-studio-universitario-dsu-regionale__2013_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5659
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-diritto-allo-studio-universitario-dsu-regionale__2013_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5815
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2013-diritto-allo-studio-universitario-dsu-regionale__2013_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 28759
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-collegi-universitari__2014_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 5943
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-collegi-universitari__2014_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 10958
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-collegi-universitari__2014_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6080
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-collegi-universitari__2014_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6174
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-collegi-universitari__2014_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 6006
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-collegi-universitari__2014_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9022
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 7054
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 21955
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 11165
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12619
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_gettito_contribuzione_atenei.parquet",
+    "type": "file",
+    "size_bytes": 14716
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 13006
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 18981
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 25928
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-contribuzione-e-interventi-atenei__2014_strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8658
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-diritto-allo-studio-universitario-dsu-regionale__2014_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9758
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-diritto-allo-studio-universitario-dsu-regionale__2014_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 35196
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-diritto-allo-studio-universitario-dsu-regionale__2014_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9738
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-diritto-allo-studio-universitario-dsu-regionale__2014_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5742
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-diritto-allo-studio-universitario-dsu-regionale__2014_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5813
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2014-diritto-allo-studio-universitario-dsu-regionale__2014_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 28885
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Atenei.parquet",
+    "type": "file",
+    "size_bytes": 6515
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Collaboratori_in_attività_di_ricerca.parquet",
+    "type": "file",
+    "size_bytes": 19160
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Personale_docente_a_contratto.parquet",
+    "type": "file",
+    "size_bytes": 13817
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Personale_docente_a_contratto_per_area_scientifico_disciplinare.parquet",
+    "type": "file",
+    "size_bytes": 26765
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Personale_docente_di_ruolo_e_ricercatore_per_area_scientifico_discipli.parquet",
+    "type": "file",
+    "size_bytes": 102670
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Personale_docente_e_ricercatore_per_cittadinanza.parquet",
+    "type": "file",
+    "size_bytes": 21109
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Personale_docente_e_ricercatore_per_classidi_età.parquet",
+    "type": "file",
+    "size_bytes": 36253
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Personale_non_docente.parquet",
+    "type": "file",
+    "size_bytes": 25193
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-2019-personale-universitario__2015-2019_Personale_per_genere.parquet",
+    "type": "file",
+    "size_bytes": 23050
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-collegi-universitari__2015_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 5942
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-collegi-universitari__2015_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 10951
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-collegi-universitari__2015_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6081
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-collegi-universitari__2015_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6176
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-collegi-universitari__2015_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5998
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-collegi-universitari__2015_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9007
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-diritto-allo-studio-universitario-dsu-regionale__2015_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9931
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-diritto-allo-studio-universitario-dsu-regionale__2015_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 35258
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-diritto-allo-studio-universitario-dsu-regionale__2015_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9816
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-diritto-allo-studio-universitario-dsu-regionale__2015_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5743
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-diritto-allo-studio-universitario-dsu-regionale__2015_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5831
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2015-diritto-allo-studio-universitario-dsu-regionale__2015_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 29649
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-collegi-universitari__2016_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 5943
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-collegi-universitari__2016_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11012
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-collegi-universitari__2016_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6072
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-collegi-universitari__2016_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6169
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-collegi-universitari__2016_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5998
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-collegi-universitari__2016_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9017
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-afam__2016_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 19050
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-afam__2016_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 14603
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-afam__2016_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 15218
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-afam__2016_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14124
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-afam__2016_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 13763
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 22496
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_contribuzione_media.parquet",
+    "type": "file",
+    "size_bytes": 8234
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 11172
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12677
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_gettito_contribuzione_atenei.parquet",
+    "type": "file",
+    "size_bytes": 14844
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12845
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_numero_interventi_atenei_.parquet",
+    "type": "file",
+    "size_bytes": 18684
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 25373
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-contribuzione-e-interventi-atenei__2016_strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8679
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-diritto-allo-studio-universitario-dsu-regionale__2016_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9982
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-diritto-allo-studio-universitario-dsu-regionale__2016_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 38311
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-diritto-allo-studio-universitario-dsu-regionale__2016_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9775
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-diritto-allo-studio-universitario-dsu-regionale__2016_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5622
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-diritto-allo-studio-universitario-dsu-regionale__2016_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5693
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2016-diritto-allo-studio-universitario-dsu-regionale__2016_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 28589
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-collegi-universitari__2017_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6008
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-collegi-universitari__2017_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11092
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-collegi-universitari__2017_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6086
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-collegi-universitari__2017_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6008
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-collegi-universitari__2017_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 6000
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-collegi-universitari__2017_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9011
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-afam__2017_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 19386
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-afam__2017_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 14651
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-afam__2017_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 15635
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-afam__2017_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14239
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-afam__2017_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14123
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 22094
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Contribuzione_media.parquet",
+    "type": "file",
+    "size_bytes": 7236
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 11396
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12833
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 15754
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 13006
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 19214
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8913
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-contribuzione-e-interventi-atenei__2017_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8751
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-diritto-allo-studio-universitario-dsu-regionale__2017_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 10040
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-diritto-allo-studio-universitario-dsu-regionale__2017_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 39185
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-diritto-allo-studio-universitario-dsu-regionale__2017_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9752
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-diritto-allo-studio-universitario-dsu-regionale__2017_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5579
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-diritto-allo-studio-universitario-dsu-regionale__2017_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5732
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2017-diritto-allo-studio-universitario-dsu-regionale__2017_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 29241
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-collegi-universitari__2018_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 5965
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-collegi-universitari__2018_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7683
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-collegi-universitari__2018_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11098
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-collegi-universitari__2018_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 5982
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-collegi-universitari__2018_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6176
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-collegi-universitari__2018_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 6983
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-collegi-universitari__2018_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9219
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-afam__2018_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 21942
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-afam__2018_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 14930
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-afam__2018_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 16497
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-afam__2018_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14165
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-afam__2018_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14839
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 21653
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 7136
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 11268
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 14371
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 15741
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12822
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 19333
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8902
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-contribuzione-e-interventi-atenei__2018_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9614
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-diritto-allo-studio-universitario-dsu-regionale__2018_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9683
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-diritto-allo-studio-universitario-dsu-regionale__2018_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7798
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-diritto-allo-studio-universitario-dsu-regionale__2018_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 41286
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-diritto-allo-studio-universitario-dsu-regionale__2018_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9266
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-diritto-allo-studio-universitario-dsu-regionale__2018_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5614
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-diritto-allo-studio-universitario-dsu-regionale__2018_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5690
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2018-diritto-allo-studio-universitario-dsu-regionale__2018_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 32970
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-collegi-universitari__2019_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6048
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-collegi-universitari__2019_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7740
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-collegi-universitari__2019_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11206
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-collegi-universitari__2019_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6041
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-collegi-universitari__2019_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6247
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-collegi-universitari__2019_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 7048
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-collegi-universitari__2019_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9245
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-afam__2019_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 22331
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-afam__2019_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 15286
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-afam__2019_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 16188
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-afam__2019_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14524
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-afam__2019_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14818
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 21559
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 7147
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 11345
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 14581
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 15914
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12894
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 19627
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8944
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-contribuzione-e-interventi-atenei__2019_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9718
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-diritto-allo-studio-universitario-dsu-regionale__2019_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9691
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-diritto-allo-studio-universitario-dsu-regionale__2019_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7840
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-diritto-allo-studio-universitario-dsu-regionale__2019_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 41537
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-diritto-allo-studio-universitario-dsu-regionale__2019_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9385
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-diritto-allo-studio-universitario-dsu-regionale__2019_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5598
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-diritto-allo-studio-universitario-dsu-regionale__2019_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5690
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2019-diritto-allo-studio-universitario-dsu-regionale__2019_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 33509
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-collegi-universitari__2020_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6039
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-collegi-universitari__2020_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7762
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-collegi-universitari__2020_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11344
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-collegi-universitari__2020_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6059
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-collegi-universitari__2020_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6270
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-collegi-universitari__2020_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 7113
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-collegi-universitari__2020_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9494
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-afam__2020_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 22279
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-afam__2020_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 15224
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-afam__2020_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 16237
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-afam__2020_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14496
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-afam__2020_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 14166
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 21189
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 8070
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 11483
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 15027
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 15976
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12914
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 19445
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8943
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-contribuzione-e-interventi-atenei__2020_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9676
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-diritto-allo-studio-universitario-dsu-regionale__2020_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9888
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-diritto-allo-studio-universitario-dsu-regionale__2020_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7888
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-diritto-allo-studio-universitario-dsu-regionale__2020_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 42133
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-diritto-allo-studio-universitario-dsu-regionale__2020_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9469
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-diritto-allo-studio-universitario-dsu-regionale__2020_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5664
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-diritto-allo-studio-universitario-dsu-regionale__2020_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5670
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2020-diritto-allo-studio-universitario-dsu-regionale__2020_Spesa_per_interventi_.parquet",
+    "type": "file",
+    "size_bytes": 34247
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-collegi-universitari__2021_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6039
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-collegi-universitari__2021_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7758
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-collegi-universitari__2021_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11300
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-collegi-universitari__2021_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6061
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-collegi-universitari__2021_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6233
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-collegi-universitari__2021_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 7105
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-collegi-universitari__2021_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9451
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-afam__2021_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 23426
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-afam__2021_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 15892
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-afam__2021_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 16436
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-afam__2021_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 15056
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-afam__2021_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 15338
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 21222
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 8064
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12286
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 15711
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 16134
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12997
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 19401
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-contribuzione-e-interventi-atenei__2021_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9721
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-diritto-allo-studio-universitario-dsu-regionale__2021_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9871
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-diritto-allo-studio-universitario-dsu-regionale__2021_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7822
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-diritto-allo-studio-universitario-dsu-regionale__2021_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 42456
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-diritto-allo-studio-universitario-dsu-regionale__2021_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9417
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-diritto-allo-studio-universitario-dsu-regionale__2021_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5607
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-diritto-allo-studio-universitario-dsu-regionale__2021_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5678
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2021-diritto-allo-studio-universitario-dsu-regionale__2021_Spesa_per_interventi_.parquet",
+    "type": "file",
+    "size_bytes": 35014
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-collegi-universitari__2022_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6105
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-collegi-universitari__2022_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7840
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-collegi-universitari__2022_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11537
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-collegi-universitari__2022_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6132
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-collegi-universitari__2022_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6309
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-collegi-universitari__2022_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 6158
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-collegi-universitari__2022_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9541
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-afam__2022_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 23665
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-afam__2022_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 16283
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-afam__2022_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 17012
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-afam__2022_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 16119
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-afam__2022_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 15789
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 21196
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 8156
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12210
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 15636
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 16142
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 13057
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 19815
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-contribuzione-e-interventi-atenei__2022_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9829
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-diritto-allo-studio-universitario-dsu-regionale__2022_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 9635
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-diritto-allo-studio-universitario-dsu-regionale__2022_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7859
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-diritto-allo-studio-universitario-dsu-regionale__2022_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 42352
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-diritto-allo-studio-universitario-dsu-regionale__2022_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9475
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-diritto-allo-studio-universitario-dsu-regionale__2022_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5359
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-diritto-allo-studio-universitario-dsu-regionale__2022_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5672
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2022-diritto-allo-studio-universitario-dsu-regionale__2022_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 34490
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-collegi-universitari__2023_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6350
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-collegi-universitari__2023_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 8001
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-collegi-universitari__2023_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11436
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-collegi-universitari__2023_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6181
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-collegi-universitari__2023_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6342
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-collegi-universitari__2023_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 6190
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-collegi-universitari__2023_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9652
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-afam__2023_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 23824
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-afam__2023_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 16086
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-afam__2023_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 17314
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-afam__2023_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 15894
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-afam__2023_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 15599
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 21467
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello.parquet",
+    "type": "file",
+    "size_bytes": 8145
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12252
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 15696
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 16280
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 13057
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 20741
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-contribuzione-e-interventi-atenei__2023_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9727
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-diritto-allo-studio-universitario-dsu-regionale__2023_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 10077
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-diritto-allo-studio-universitario-dsu-regionale__2023_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7895
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-diritto-allo-studio-universitario-dsu-regionale__2023_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 42884
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-diritto-allo-studio-universitario-dsu-regionale__2023_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9530
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-diritto-allo-studio-universitario-dsu-regionale__2023_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5602
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-diritto-allo-studio-universitario-dsu-regionale__2023_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5705
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2023-diritto-allo-studio-universitario-dsu-regionale__2023_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 35640
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-collegi-universitari__2024_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6388
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-collegi-universitari__2024_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 8068
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-collegi-universitari__2024_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11583
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-collegi-universitari__2024_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6228
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-collegi-universitari__2024_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6389
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-collegi-universitari__2024_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 6233
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-collegi-universitari__2024_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9771
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-afam__2024_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 23758
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-afam__2024_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 16920
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-afam__2024_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 17879
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-afam__2024_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 16423
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-afam__2024_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 16083
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 22138
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Contribuzione_media_per_corsi_di_laurea_di_I_e_II_livello_.parquet",
+    "type": "file",
+    "size_bytes": 8123
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12414
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 15885
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 16225
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 13201
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 21530
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-contribuzione-e-interventi-atenei__2024_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9974
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-diritto-allo-studio-universitario-dsu-regionale__2024_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 10091
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-diritto-allo-studio-universitario-dsu-regionale__2024_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7972
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-diritto-allo-studio-universitario-dsu-regionale__2024_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 43435
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-diritto-allo-studio-universitario-dsu-regionale__2024_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9542
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-diritto-allo-studio-universitario-dsu-regionale__2024_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5600
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-diritto-allo-studio-universitario-dsu-regionale__2024_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5673
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2024-diritto-allo-studio-universitario-dsu-regionale__2024_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 36526
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-collegi-universitari__2025_Collegi_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 6393
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-collegi-universitari__2025_Collegi_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 8077
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-collegi-universitari__2025_Collegi_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 11769
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-collegi-universitari__2025_Collegi_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 6223
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-collegi-universitari__2025_Collegi_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 6401
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-collegi-universitari__2025_Collegi_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 6237
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-collegi-universitari__2025_Collegi_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 9807
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-afam__2025_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 24493
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-afam__2025_Numero_di_Interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 17078
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-afam__2025_Spesa_degli_Istituti_per_interventi_in_favore_degli_studenti.parquet",
+    "type": "file",
+    "size_bytes": 18017
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-afam__2025_Studenti_parzialmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 16485
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-afam__2025_Studenti_totalmente_esonerati.parquet",
+    "type": "file",
+    "size_bytes": 16050
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Classi_contribuzione_studenti.parquet",
+    "type": "file",
+    "size_bytes": 22256
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Contribuzione_media_per_corsi_di_laurea.parquet",
+    "type": "file",
+    "size_bytes": 8134
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Esonero_parziale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12363
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 15975
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Gettito_della_contribuzione_studentesca.parquet",
+    "type": "file",
+    "size_bytes": 16408
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Iscritti_atenei.parquet",
+    "type": "file",
+    "size_bytes": 13202
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Numero_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 21871
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-contribuzione-e-interventi-atenei__2025_Strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 9966
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-diritto-allo-studio-universitario-dsu-regionale__2025_Alloggi_e_mense.parquet",
+    "type": "file",
+    "size_bytes": 10167
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-diritto-allo-studio-universitario-dsu-regionale__2025_Alloggi_per_comune.parquet",
+    "type": "file",
+    "size_bytes": 7958
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-diritto-allo-studio-universitario-dsu-regionale__2025_Numero_di_interventi.parquet",
+    "type": "file",
+    "size_bytes": 43541
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-diritto-allo-studio-universitario-dsu-regionale__2025_Pasti_erogati.parquet",
+    "type": "file",
+    "size_bytes": 9584
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-diritto-allo-studio-universitario-dsu-regionale__2025_Personale_a_tempo_determinato.parquet",
+    "type": "file",
+    "size_bytes": 5611
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-diritto-allo-studio-universitario-dsu-regionale__2025_Personale_a_tempo_indeterminato.parquet",
+    "type": "file",
+    "size_bytes": 5681
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/2025-diritto-allo-studio-universitario-dsu-regionale__2025_Spesa_per_interventi.parquet",
+    "type": "file",
+    "size_bytes": 36495
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/analisi-dati-e-indicatori__Tasso_di_abbandono.parquet",
+    "type": "file",
+    "size_bytes": 3425
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/contribuzione-atenei-2015__2015_esonero_totale_atenei.parquet",
+    "type": "file",
+    "size_bytes": 12871
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/contribuzione-atenei-2015__2015_gettito_contribuzione_atenei.parquet",
+    "type": "file",
+    "size_bytes": 15047
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/contribuzione-atenei-2015__2015_spesa_interventi_atenei.parquet",
+    "type": "file",
+    "size_bytes": 25878
+  },
+  {
+    "folder": "mur",
+    "path": "data/mur/contribuzione-atenei-2015__2015_strutture_atenei.parquet",
+    "type": "file",
+    "size_bytes": 8661
+  },
+  {
+    "folder": "personale",
+    "path": "data/personale/ATASUP.parquet",
+    "type": "file",
+    "size_bytes": 10667
+  },
+  {
+    "folder": "personale",
+    "path": "data/personale/ATATIT.parquet",
+    "type": "file",
+    "size_bytes": 9759
+  },
+  {
+    "folder": "personale",
+    "path": "data/personale/DOCSUPXXV.parquet",
+    "type": "file",
+    "size_bytes": 48861
+  },
+  {
+    "folder": "personale",
+    "path": "data/personale/DOCTIT.parquet",
+    "type": "file",
+    "size_bytes": 24462
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/AS1516ATASUP20160831.parquet",
+    "type": "file",
+    "size_bytes": 9263
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/AS1516ATATIT20160831.parquet",
+    "type": "file",
+    "size_bytes": 9834
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/AS1516DOCSUP20160831.parquet",
+    "type": "file",
+    "size_bytes": 23720
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/AS1516DOCTIT20160831.parquet",
+    "type": "file",
+    "size_bytes": 24802
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/ATASUP20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 10667
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/ATATIT20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 9759
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/DOCSUP20222320230831.parquet",
+    "type": "file",
+    "size_bytes": 31966
+  },
+  {
+    "folder": "personale_scuola",
+    "path": "data/personale_scuola/DOCSUPXXV20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 48861
+  },
+  {
+    "folder": "scuola_in_chiaro",
+    "path": "data/scuola_in_chiaro/SIC_ANAGRAFE_COMPLETA.parquet",
+    "type": "file",
+    "size_bytes": 8164494
+  },
+  {
+    "folder": "scuole",
+    "path": "data/scuole/SCUANAAUTPAR20252620250901.parquet",
+    "type": "file",
+    "size_bytes": 17057
+  },
+  {
+    "folder": "scuole",
+    "path": "data/scuole/SCUANAAUTSTAT20252620250901.parquet",
+    "type": "file",
+    "size_bytes": 87348
+  },
+  {
+    "folder": "scuole",
+    "path": "data/scuole/SCUANAGRAFEPAR.parquet",
+    "type": "file",
+    "size_bytes": 902406
+  },
+  {
+    "folder": "scuole",
+    "path": "data/scuole/SCUANAGRAFEPAR20252620250901.parquet",
+    "type": "file",
+    "size_bytes": 902406
+  },
+  {
+    "folder": "scuole",
+    "path": "data/scuole/SCUANAGRAFESTAT.parquet",
+    "type": "file",
+    "size_bytes": 3330226
+  },
+  {
+    "folder": "scuole",
+    "path": "data/scuole/SCUANAGRAFESTAT20252620250901.parquet",
+    "type": "file",
+    "size_bytes": 3330226
+  },
+  {
+    "folder": "scuole",
+    "path": "data/scuole/SIC_ANAGRAFE_COMPLETA.parquet",
+    "type": "file",
+    "size_bytes": 4830285
+  },
+  {
+    "folder": "sistema_nazionale_di_valutazione",
+    "path": "data/sistema_nazionale_di_valutazione/RUBRICA_VAL20161720170831.parquet",
+    "type": "file",
+    "size_bytes": 21012
+  },
+  {
+    "folder": "sistema_nazionale_di_valutazione",
+    "path": "data/sistema_nazionale_di_valutazione/VALUTAZIONE_ESITI_PAR20161720170831.parquet",
+    "type": "file",
+    "size_bytes": 1080827
+  },
+  {
+    "folder": "sistema_nazionale_di_valutazione",
+    "path": "data/sistema_nazionale_di_valutazione/VALUTAZIONE_ESITI_STA20161720170831.parquet",
+    "type": "file",
+    "size_bytes": 9125670
+  },
+  {
+    "folder": "sistema_nazionale_di_valutazione",
+    "path": "data/sistema_nazionale_di_valutazione/VALUTAZIONE_PROCESSI_PAR20161720170831.parquet",
+    "type": "file",
+    "size_bytes": 2142768
+  },
+  {
+    "folder": "sistema_nazionale_di_valutazione",
+    "path": "data/sistema_nazionale_di_valutazione/VALUTAZIONE_PROCESSI_STA20161720170831.parquet",
+    "type": "file",
+    "size_bytes": 18356858
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOETAPAR.parquet",
+    "type": "file",
+    "size_bytes": 161685
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOETAPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 161685
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOETASTA.parquet",
+    "type": "file",
+    "size_bytes": 1501417
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOETASTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 1501417
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOINDCLAPAR.parquet",
+    "type": "file",
+    "size_bytes": 96666
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOINDCLAPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 96666
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOINDCLASTA.parquet",
+    "type": "file",
+    "size_bytes": 845599
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUCORSOINDCLASTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 845599
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUITASTRACITPAR.parquet",
+    "type": "file",
+    "size_bytes": 119055
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUITASTRACITPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 119055
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUITASTRACITSTA.parquet",
+    "type": "file",
+    "size_bytes": 1071193
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUITASTRACITSTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 1071193
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUSECGRADOINDPAR.parquet",
+    "type": "file",
+    "size_bytes": 62766
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUSECGRADOINDPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 62766
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUSECGRADOINDSTA.parquet",
+    "type": "file",
+    "size_bytes": 434784
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUSECGRADOINDSTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 434784
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUTEMPOSCUOLAPAR.parquet",
+    "type": "file",
+    "size_bytes": 52168
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUTEMPOSCUOLAPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 52168
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUTEMPOSCUOLASTA.parquet",
+    "type": "file",
+    "size_bytes": 660871
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/ALUTEMPOSCUOLASTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 660871
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIACLAPAR.parquet",
+    "type": "file",
+    "size_bytes": 92319
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIACLAPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 92319
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIACLASTA.parquet",
+    "type": "file",
+    "size_bytes": 156901
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIACLASTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 156901
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIAETAPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 145051
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIAETASTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 249979
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIASTRACITPAR.parquet",
+    "type": "file",
+    "size_bytes": 89290
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIASTRACITPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 89290
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIASTRACITSTA.parquet",
+    "type": "file",
+    "size_bytes": 147128
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIASTRACITSTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 147128
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIATEMPOPAR20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 91358
+  },
+  {
+    "folder": "studenti",
+    "path": "data/studenti/INFANZIATEMPOSTA20242520250831.parquet",
+    "type": "file",
+    "size_bytes": 154177
+  },
+  {
+    "folder": "valutazione",
+    "path": "data/valutazione/VALUTAZIONE_ESITI_PAR.parquet",
+    "type": "file",
+    "size_bytes": 1080827
+  },
+  {
+    "folder": "valutazione",
+    "path": "data/valutazione/VALUTAZIONE_ESITI_STA.parquet",
+    "type": "file",
+    "size_bytes": 9125670
+  },
+  {
+    "folder": "valutazione",
+    "path": "data/valutazione/VALUTAZIONE_PROCESSI_PAR.parquet",
+    "type": "file",
+    "size_bytes": 2142768
+  },
+  {
+    "folder": "valutazione",
+    "path": "data/valutazione/VALUTAZIONE_PROCESSI_STA.parquet",
+    "type": "file",
+    "size_bytes": 18356858
+  }
+]

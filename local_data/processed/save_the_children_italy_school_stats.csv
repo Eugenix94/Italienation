@@ -1,6 +1,0 @@
-indicator,value,unit,reference_year,source_url,note
-students_below_minimum_italian_lower_secondary_pct,39.0,pct,INVALSI 2022,https://s3-www.savethechildren.it/public/files/Scheda_scuole.pdf,Lower secondary students below minimum Italian competency level
-students_below_minimum_math_lower_secondary_pct,44.0,pct,INVALSI 2022,https://s3-www.savethechildren.it/public/files/Scheda_scuole.pdf,Lower secondary students below minimum math competency level
-early_school_leavers_18_24_pct,12.7,pct,Eurostat 2021,https://s3-www.savethechildren.it/public/files/Scheda_scuole.pdf,Early school leavers aged 18-24
-archipelago_learning_gain_math_months,2.0,months,2022 evaluation,https://s3-www.savethechildren.it/public/files/Scheda_scuole.pdf,Equivalent math learning gain for participants
-archipelago_learning_gain_italian_months,3.5,months,2022 evaluation,https://s3-www.savethechildren.it/public/files/Scheda_scuole.pdf,Equivalent Italian learning gain for participants

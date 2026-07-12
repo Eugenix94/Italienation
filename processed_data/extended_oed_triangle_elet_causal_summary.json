@@ -1,0 +1,108 @@
+{
+  "italy_disaggregated_repeaters_2024": [
+    {
+      "track_code": "ALL",
+      "track_name": "Totale Scuole Superiori (All Tracks)",
+      "rep_pct_ALL": 5.7,
+      "rep_pct_FIR": 8.7,
+      "rep_pct_SEC": 6.1,
+      "rep_pct_THIR": 6.2,
+      "biennio_cumulative_failure_risk_pct": 14.27
+    },
+    {
+      "track_code": "LIC",
+      "track_name": "Licei (Academic General Track)",
+      "rep_pct_ALL": 2.7,
+      "rep_pct_FIR": 4.4,
+      "rep_pct_SEC": 2.8,
+      "rep_pct_THIR": 2.9,
+      "biennio_cumulative_failure_risk_pct": 7.08
+    },
+    {
+      "track_code": "TEC",
+      "track_name": "Istituti Tecnici (Technical Track)",
+      "rep_pct_ALL": 7.4,
+      "rep_pct_FIR": 11.0,
+      "rep_pct_SEC": 7.6,
+      "rep_pct_THIR": 8.4,
+      "biennio_cumulative_failure_risk_pct": 17.76
+    },
+    {
+      "track_code": "VOC",
+      "track_name": "Istituti Professionali (Vocational Track)",
+      "rep_pct_ALL": 11.7,
+      "rep_pct_FIR": 18.0,
+      "rep_pct_SEC": 13.3,
+      "rep_pct_THIR": 11.9,
+      "biennio_cumulative_failure_risk_pct": 28.91
+    }
+  ],
+  "international_elet_tracking_comparison": [
+    {
+      "iso3": "ITA",
+      "country": "Italia",
+      "system_type": "Early Tripartite (5-Year Upper Secondary: Licei / Tecnici / Professionali)",
+      "tracking_age": 14,
+      "compulsory_education_end_age": 16,
+      "grade_retention_rule": "High Grade Retention (Bocciatura). Applied heavily in Biennio (1°-2° Anno) of Professionali (18.0% in Yr 1, 13.3% in Yr 2).",
+      "elet_rate_pct_2024": 10.5,
+      "neet_rate_15_29_pct_2024": 16.6,
+      "oed_triangle_causal_mechanism": "Severe O->T->E->D canalization. Disadvantaged youth sorted into Professionali at Age 14 (O->T), where 28.9% cumulative Biennio failure rate causes early dropout right when compulsory school ends at Age 16 (T->ELET), feeding directly into NEET (E->D)."
+    },
+    {
+      "iso3": "GBR",
+      "country": "Regno Unito (Inghilterra & Scozia)",
+      "system_type": "Comprehensive Unified Secondary (Comprehensive Schools / GCSEs to Age 16)",
+      "tracking_age": 16,
+      "compulsory_education_end_age": 18,
+      "grade_retention_rule": "Zero Bocciatura (Social Promotion). Grade retention is not practiced during compulsory secondary schooling. Learning gaps addressed via IEPs & SEN support.",
+      "elet_rate_pct_2024": 5.2,
+      "neet_rate_15_29_pct_2024": 10.5,
+      "oed_triangle_causal_mechanism": "Absence of early tracking (T) up to Age 16 and zero bocciatura prevents early institutional expulsion. Students progress with age cohort, drastically suppressing ELET (5.2%) and university dropout."
+    },
+    {
+      "iso3": "FIN",
+      "country": "Finlandia",
+      "system_type": "Nordic Comprehensive (Peruskoulu to Age 16)",
+      "tracking_age": 16,
+      "compulsory_education_end_age": 18,
+      "grade_retention_rule": "Exceptional / Non-Existent. Grade repetition < 0.5%. Extensive 3-tier remedial guidance and learning support.",
+      "elet_rate_pct_2024": 7.4,
+      "neet_rate_15_29_pct_2024": 7.9,
+      "oed_triangle_causal_mechanism": "Unified compulsory school + zero repetition decouples social origin (O) from school exit (E), creating the lowest NEET rate and highest university progression in Europe (>110% gross enrollment)."
+    },
+    {
+      "iso3": "ESP",
+      "country": "Spagna",
+      "system_type": "Compulsory Comprehensive ESO (Educación Secundaria Obligatoria to Age 16)",
+      "tracking_age": 16,
+      "compulsory_education_end_age": 16,
+      "grade_retention_rule": "Moderate-to-High grade repetition traditionally, but legally reformed (LOMLOE 2021) to restrict repetition to an exceptional single measure across secondary school.",
+      "elet_rate_pct_2024": 13.7,
+      "neet_rate_15_29_pct_2024": 12.7,
+      "oed_triangle_causal_mechanism": "Mediterranean comparison: while historical repetition created high ELET (13.7%), keeping secondary schools comprehensive (ESO) up to Age 16 avoids early vocational segregation, enabling 93.8% gross university enrollment vs Italy's 75.9%."
+    },
+    {
+      "iso3": "DEU",
+      "country": "Germania",
+      "system_type": "Very Early Tripartite (Gymnasium / Realschule / Hauptschule at Age 10)",
+      "tracking_age": 10,
+      "compulsory_education_end_age": 18,
+      "grade_retention_rule": "Moderate grade repetition (~2-3% annually in Realschule/Gymnasium).",
+      "elet_rate_pct_2024": 12.8,
+      "neet_rate_15_29_pct_2024": 8.6,
+      "oed_triangle_causal_mechanism": "Extreme early tracking at Age 10 (O->T) creates high learning poverty (15.4%) and ELET (12.8%) among Hauptschule students. However, the corporate Dual Apprenticeship System (Dual System) acts as a direct work-based bridge, suppressing NEET (8.6%) despite academic segregation."
+    },
+    {
+      "iso3": "FRA",
+      "country": "Francia",
+      "system_type": "Unified Lower Secondary (Collège to Age 15) -> Tripartite Lycée (Age 15-18)",
+      "tracking_age": 15,
+      "compulsory_education_end_age": 16,
+      "grade_retention_rule": "Historically used ('redoublement'), but strictly limited by 2014 & 2018 ministerial decrees to rare consensus cases with pedagogical remediation plans.",
+      "elet_rate_pct_2024": 8.5,
+      "neet_rate_15_29_pct_2024": 11.8,
+      "oed_triangle_causal_mechanism": "Unified Collège delays tracking by 1 year compared to Italy (Age 15 vs 14) and legal restriction on redoublement keeps ELET down to 8.5%."
+    }
+  ]
+}

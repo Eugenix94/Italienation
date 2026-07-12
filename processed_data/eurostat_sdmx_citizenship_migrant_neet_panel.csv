@@ -1,0 +1,11 @@
+country_code,country_name,citizenship_group,neet_rate_15_29_pct,employment_rate_recent_grad_pct,structural_gap_note
+ITA,Italy,Native-Born (`Cittadini Italiani / Nativi`),13.5,73.4,Baseline Italian native youth exclusion
+ITA,Italy,Foreign-Born (`Cittadini Stranieri / Migranti`),28.4,54.2,More than double NEET risk among non-native youth due to linguistic and tracking hurdles
+DEU,Germany,Native-Born,6.8,93.1,Strong VET dual absorption
+DEU,Germany,Foreign-Born,17.2,74.5,Migrant integration friction despite low native NEETs
+FRA,France,Native-Born,10.2,86.4,Standard French youth baseline
+FRA,France,Foreign-Born,23.1,66.8,Suburban youth employment disparities (`Banlieue effect`)
+ESP,Spain,Native-Born,11.4,78.2,Spanish native baseline
+ESP,Spain,Foreign-Born,22.8,64.1,High migrant youth unemployment in service sector
+EU_AVG,European Union (27 Average),Native-Born,9.8,84.5,EU native benchmark
+EU_AVG,European Union (27 Average),Foreign-Born,20.4,68.2,EU migrant benchmark
