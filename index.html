@@ -126,6 +126,10 @@
                         <option value="textbook_costs">📚 Costo Libri di Testo a Carico delle Famiglie (Dati Ministero)</option>
                         <option value="snv_pedagogy">🎯 Valutazione e Ricadute Pedagogiche (Rubrica SNV / INVALSI)</option>
                         <option value="teacher_precariato">👩‍🏫 Precariato Docenti e Supplenze Sostegno (A.S. 2024-25)</option>
+                        <option value="building_safety">🏗️ Sicurezza e Agibilità Edifici Scolastici (Anagrafe Edilizia)</option>
+                        <option value="architectural_barriers">♿ Barriere Architettoniche per Alunni con Disabilità (MIM)</option>
+                        <option value="foreign_students">🌍 Inclusione Alunni Stranieri e Seconde Generazioni</option>
+                        <option value="didactic_process">⚙️ Qualità dei Processi Didattici e Formazione Continua</option>
                     </select>
                 </div>
 
@@ -1015,6 +1019,71 @@
                 }
                 chartLabel = (currentLang === 'it') ? '% Supplenze Assegnate su Sostegno' : '% Substitutes on Special Ed Support';
                 indicatorName = (currentLang === 'it') ? 'Incidenza Supplenze su Sostegno (%)' : 'Substitute Share on Special Ed (%)';
+            } else if (dataset === 'building_safety') {
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'Sicurezza e Certificato Agibilità' : 'Building Safety & Certification';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'L'Anagrafe dell'Edilizia Scolastica MIM evidenzia gravi divari territoriali sul possesso del Certificato di Agibilità e della Prevenzione Incendi (es. Roma 11.0% agibilità, Napoli 21.3%, Torino 59.0%).' :
+                    'Official School Building Registry shows severe regional gaps in safety certificates and fire prevention compliance (e.g. Rome 11.0% agibility, Naples 21.3%, Turin 59.0%).';
+                kpiMetricEl.innerText = '29.4% Agibilità Media Naz.';
+
+                labels = ['Torino', 'Milano', 'Salerno', 'Catania', 'Bologna', 'Bari', 'Napoli', 'Roma'];
+                dataValues = [59.0, 40.4, 39.4, 33.7, 31.8, 25.1, 21.3, 11.0];
+                if (region === 'nord') {
+                    labels = ['Torino', 'Milano', 'Venezia', 'Bologna', 'Genova', 'Brescia'];
+                    dataValues = [59.0, 40.4, 38.2, 31.8, 28.5, 45.1];
+                } else if (region === 'sud') {
+                    labels = ['Salerno', 'Catania', 'Bari', 'Palermo', 'Napoli', 'Lecce'];
+                    dataValues = [39.4, 33.7, 25.1, 24.2, 21.3, 19.8];
+                }
+                chartLabel = (currentLang === 'it') ? '% Edifici con Certificato di Agibilità' : '% Buildings with Safety Certificate';
+                indicatorName = (currentLang === 'it') ? 'Certificato Agibilità Scolastica (%)' : 'Safety Certificate Compliance (%)';
+            } else if (dataset === 'architectural_barriers') {
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'Barriere Architettoniche per Disabili' : 'Disability & Architectural Barriers';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'I dati ministeriali sulla conformità strutturale mostrano la quota di scuole che dispongono di ascensori per disabili e bagni a norma (es. Torino 89.2% bagni disabili, Roma 58.1%, Napoli 44.1%).' :
+                    'Ministerial structural compliance figures show the share of schools equipped with disability elevators and accessible restrooms (e.g. Turin 89.2% accessible restrooms, Rome 58.1%, Naples 44.1%).';
+                kpiMetricEl.innerText = '71.5% Accessibilità Bagni';
+
+                labels = ['Torino', 'Brescia', 'Milano', 'Bologna', 'Firenze', 'Bari', 'Roma', 'Napoli'];
+                dataValues = [89.2, 85.2, 79.3, 76.5, 71.2, 63.4, 58.1, 44.1];
+                if (region === 'nord') {
+                    labels = ['Torino', 'Brescia', 'Milano', 'Bologna', 'Venezia', 'Genova'];
+                    dataValues = [89.2, 85.2, 79.3, 76.5, 78.1, 74.0];
+                } else if (region === 'sud') {
+                    labels = ['Bari', 'Salerno', 'Lecce', 'Catania', 'Palermo', 'Napoli'];
+                    dataValues = [63.4, 61.2, 59.8, 55.4, 52.0, 44.1];
+                }
+                chartLabel = (currentLang === 'it') ? '% Scuole con Bagni e Strutture Disabili' : '% Schools with Accessible Restrooms';
+                indicatorName = (currentLang === 'it') ? 'Accessibilità Servizi Disabili (%)' : 'Disability Restroom Access (%)';
+            } else if (dataset === 'foreign_students') {
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'Inclusione Studenti non Italiani' : 'Foreign Student Integration';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'L'Anagrafe Alunni rileva la concentrazione di studenti con cittadinanza non italiana nelle scuole superiori del Centro-Nord rispetto al Mezzogiorno (es. Bologna 23.6%, Milano 19.8%, Napoli 2.4%).' :
+                    'Student Registry tracks non-Italian citizenship share across upper secondary schools in North-Central vs Southern Italy (e.g. Bologna 23.6%, Milan 19.8%, Naples 2.4%).';
+                kpiMetricEl.innerText = '11.4% Alunni Non Italiani';
+
+                labels = ['Bologna', 'Milano', 'Torino', 'Brescia', 'Firenze', 'Roma', 'Bari', 'Napoli'];
+                dataValues = [23.6, 19.8, 17.5, 18.2, 16.4, 10.2, 6.1, 2.4];
+                if (region === 'nord') {
+                    labels = ['Bologna', 'Milano', 'Brescia', 'Torino', 'Venezia', 'Genova'];
+                    dataValues = [23.6, 19.8, 18.2, 17.5, 15.8, 14.2];
+                } else if (region === 'sud') {
+                    labels = ['Bari', 'Salerno', 'Catania', 'Palermo', 'Lecce', 'Napoli'];
+                    dataValues = [6.1, 4.8, 4.2, 3.8, 3.1, 2.4];
+                }
+                chartLabel = (currentLang === 'it') ? '% Alunni Stranieri (Superiori)' : '% Non-Italian Citizenship (High School)';
+                indicatorName = (currentLang === 'it') ? 'Alunni Cittadinanza Non Italiana (%)' : 'Non-Italian Citizenship Share (%)';
+            } else if (dataset === 'didactic_process') {
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'Rubrica Processi Didattici RAV' : 'Didactic Process Rubric RAV';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'L'autovalutazione ministeriale sui processi formativi (scala 1-7) evidenzia punti di forza nel Curricolo (4.95 pt) ma ampi margini di miglioramento nell'Orientamento (4.72 pt) e Formazione Docenti (4.65 pt).' :
+                    'Ministerial self-assessment on didactic processes (1-7 scale) highlights strength in Curriculum (4.95 pt) but improvement gaps in Student Orientation (4.72 pt) and Teacher Training (4.65 pt).';
+                kpiMetricEl.innerText = '4.81 pt Media Processi RAV';
+
+                labels = ['Curricolo e Valutazione', 'Inclusione Didattica', 'Ambiente e Laboratori', 'Continuità e Orientamento', 'Formazione Continua Docenti'];
+                dataValues = [4.95, 4.90, 4.83, 4.72, 4.65];
+                chartLabel = (currentLang === 'it') ? 'Punteggio Processo Didattico (RAV 1-7)' : 'Didactic Process Score (RAV 1-7)';
+                indicatorName = (currentLang === 'it') ? 'Punteggio Valutazione Processo (pt)' : 'Process Assessment Score (pt)';
             }
 
             renderDataTable(labels, dataValues, indicatorName, dataset);
@@ -1081,6 +1150,19 @@
                 } else if (datasetType === 'teacher_precariato') {
                     if (values[i] > 60) statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Alta Precarizzazione Sostegno (>60%)' : 'High Substitute Share (>60%)'}</span>`;
                     else statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Continuità Didattica Stabile' : 'Stable Teacher Continuity'}</span>`;
+                } else if (datasetType === 'building_safety') {
+                    if (values[i] < 25) statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Allarme Agibilità (<25% Edifici)' : 'Safety Deficit (<25%)'}</span>`;
+                    else if (values[i] >= 50) statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Certificazione Elevata (>50%)' : 'High Safety Compliance'}</span>`;
+                    else statusBadge = `<span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 text-xs font-semibold border border-amber-500/30">🟡 ${currentLang === 'it' ? 'Agibilità Parziale' : 'Partial Compliance'}</span>`;
+                } else if (datasetType === 'architectural_barriers') {
+                    if (values[i] < 65) statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Barriere Critiche per Disabili' : 'Critical Accessibility Gap'}</span>`;
+                    else statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Accessibilità Buona (>65%)' : 'Good Accessibility'}</span>`;
+                } else if (datasetType === 'foreign_students') {
+                    if (values[i] >= 15) statusBadge = `<span class="px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 text-xs font-semibold border border-blue-500/30">🔵 ${currentLang === 'it' ? 'Alta Presenza Interculturale (>15%)' : 'High Intercultural Share (>15%)'}</span>`;
+                    else statusBadge = `<span class="px-2 py-0.5 rounded bg-slate-500/20 text-slate-300 text-xs font-semibold border border-slate-500/30">⚪ ${currentLang === 'it' ? 'Presenza Standard (<15%)' : 'Standard Share'}</span>`;
+                } else if (datasetType === 'didactic_process') {
+                    if (values[i] >= 5.0) statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Eccellenza Didattica e Inclusione' : 'Didactic Excellence'}</span>`;
+                    else statusBadge = `<span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 text-xs font-semibold border border-amber-500/30">🟡 ${currentLang === 'it' ? 'Sviluppo in Corso' : 'Developing Process'}</span>`;
                 } else {
                     if (values[i] > 70) statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Alta Transizione Universitaria' : 'High University Transition'}</span>`;
                     else statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Rischio Dispersione / Abbandono' : 'High Dropout & Exclusion Risk'}</span>`;
@@ -1144,6 +1226,18 @@
             } else if (dataset === 'teacher_precariato') {
                 fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_teacher_workforce_precariato_2024_25.csv";
                 fileName = "ministero_precariato_docenti_sostegno_2024_25.csv";
+            } else if (dataset === 'building_safety') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_school_building_safety_by_region.csv";
+                fileName = "ministero_sicurezza_agibilita_edifici.csv";
+            } else if (dataset === 'architectural_barriers') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_architectural_barriers_by_region.csv";
+                fileName = "ministero_barriere_architettoniche_disabili.csv";
+            } else if (dataset === 'foreign_students') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_foreign_students_integration.csv";
+                fileName = "ministero_inclusione_alunni_stranieri.csv";
+            } else if (dataset === 'didactic_process') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_snv_process_evaluation_rubric.csv";
+                fileName = "ministero_rubrica_processi_didattici_rav.csv";
             }
 
             window.open(fileUrl, '_blank');
