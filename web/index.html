@@ -1647,53 +1647,53 @@
 
         function downloadMinisterialDataset() {
             const dataset = document.getElementById('datasetSelector').value;
-            let fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/neet_regional_model_panel.csv";
+            let fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_regional_model_panel.csv";
             let fileName = "italienation_dataset_integrale.csv";
 
             if (dataset === 'openpolis') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/Openpolis/openpolis_neet_metropolitan_capitals.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/openpolis_neet_metropolitan_capitals.csv";
                 fileName = "openpolis_neet_capoluoghi.csv";
             } else if (dataset === 'macro_spending') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/italy_education_expenditure_history_panel.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/italy_education_expenditure_history_panel.csv";
                 fileName = "spesa_istruzione_pil_storica.csv";
             } else if (dataset === 'siope_municipal') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/siope_school_expenditure_summary.sample.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/siope_school_expenditure_summary.sample.csv";
                 fileName = "siope_bilanci_comunali_scuole.csv";
             } else if (dataset === 'tripartite') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/transition_bridge_model_panel.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/transition_bridge_model_panel.csv";
                 fileName = "transizione_universita_dispersione_panel.csv";
             } else if (dataset === 'textbook_costs') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_textbook_costs_by_region_level.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_textbook_costs_by_region_level.csv";
                 fileName = "ministero_costo_libri_di_testo_regioni.csv";
             } else if (dataset === 'snv_pedagogy') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_snv_pedagogy_outcomes_rubric.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_snv_pedagogy_outcomes_rubric.csv";
                 fileName = "ministero_rubrica_valutazione_snv_esiti.csv";
             } else if (dataset === 'teacher_precariato') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_teacher_workforce_precariato_2024_25.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_teacher_workforce_precariato_2024_25.csv";
                 fileName = "ministero_precariato_docenti_sostegno_2024_25.csv";
             } else if (dataset === 'building_safety') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_school_building_safety_by_region.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_school_building_safety_by_region.csv";
                 fileName = "ministero_sicurezza_agibilita_edifici.csv";
             } else if (dataset === 'architectural_barriers') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_architectural_barriers_by_region.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_architectural_barriers_by_region.csv";
                 fileName = "ministero_barriere_architettoniche_disabili.csv";
             } else if (dataset === 'foreign_students') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_foreign_students_integration.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_foreign_students_integration.csv";
                 fileName = "ministero_inclusione_alunni_stranieri.csv";
             } else if (dataset === 'didactic_process') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_snv_process_evaluation_rubric.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_snv_process_evaluation_rubric.csv";
                 fileName = "ministero_rubrica_processi_didattici_rav.csv";
             } else if (dataset === 'catania_case_study') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/catania_educational_pipeline_case_study.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/catania_educational_pipeline_case_study.csv";
                 fileName = "studio_di_caso_catania_pipeline_neet.csv";
             } else if (dataset === 'mur_major_unis') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/mur_major_universities_tuition_enrollment.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/mur_major_universities_tuition_enrollment.csv";
                 fileName = "mur_grandi_atenei_iscritti_tasse.csv";
             } else if (dataset === 'mur_dropout') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/mur_national_university_dropout_timeseries.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/mur_national_university_dropout_timeseries.csv";
                 fileName = "mur_dispersione_universitaria_storica.csv";
             } else if (dataset === 'international_benchmark') {
-                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/international_tripartite_vs_comprehensive_benchmark.csv";
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/international_tripartite_vs_comprehensive_benchmark.csv";
                 fileName = "ocse_wb_benchmark_tripartizione_vs_comprensivo.csv";
             }
 
