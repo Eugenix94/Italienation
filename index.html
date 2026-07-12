@@ -123,6 +123,9 @@
                         <option value="macro_spending">📈 Spesa Pubblica per la Scuola (% PIL 1913–Oggi)</option>
                         <option value="siope_municipal">🏛️ Spesa Comunale per Alunno (7.959 Comuni SIOPE)</option>
                         <option value="tripartite">🎒 Licei vs Istituti Tecnici e Professionali: Futuro degli Studenti</option>
+                        <option value="textbook_costs">📚 Costo Libri di Testo a Carico delle Famiglie (Dati Ministero)</option>
+                        <option value="snv_pedagogy">🎯 Valutazione e Ricadute Pedagogiche (Rubrica SNV / INVALSI)</option>
+                        <option value="teacher_precariato">👩‍🏫 Precariato Docenti e Supplenze Sostegno (A.S. 2024-25)</option>
                     </select>
                 </div>
 
@@ -205,7 +208,10 @@
 
                     <div class="flex flex-wrap items-center gap-2">
                         <button onclick="downloadCSVData()" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center gap-1.5 shadow-lg shadow-blue-500/20">
-                            <span>📥</span> <span class="lang-it">Scarica Tabella (CSV)</span><span class="lang-en hidden">Download Table (CSV)</span>
+                            <span>📥</span> <span class="lang-it">Esporta Tabella</span><span class="lang-en hidden">Export Table</span>
+                        </button>
+                        <button onclick="downloadMinisterialDataset()" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center gap-1.5 shadow-lg shadow-emerald-500/20">
+                            <span>📂</span> <span class="lang-it">Scarica Dataset Integrale (.CSV)</span><span class="lang-en hidden">Download Full Dataset (.CSV)</span>
                         </button>
                     </div>
                 </div>
@@ -935,7 +941,7 @@
                 }
                 chartLabel = (currentLang === 'it') ? 'Spesa Comunale per Alunno (€)' : 'Municipal Spending per Pupil (€)';
                 indicatorName = (currentLang === 'it') ? 'Bilancio Comunale Servizi per Alunno (€)' : 'Municipal Services Budget per Pupil (€)';
-            } else {
+            } else if (dataset === 'tripartite') {
                 chartTitleEl.innerText = (currentLang === 'it') ? '🎒 Licei vs Tecnici e Professionali: Destini degli Studenti' : '🎒 Academic vs Vocational Tracks: Student Destinations';
                 kpiTitleEl.innerText = (currentLang === 'it') ? 'Segregazione di Indirizzo e Dispersione' : 'High School Tracking & Dropout Risk';
                 kpiDescEl.innerText = (currentLang === 'it') ?
@@ -954,6 +960,61 @@
                 }
                 chartLabel = (currentLang === 'it') ? 'Tasso Iscrizione Università / Successo (%)' : 'University Transition & Success Rate (%)';
                 indicatorName = (currentLang === 'it') ? 'Tasso Transizione Universitaria vs Dispersione' : 'University Transition Rate vs Early Dropout';
+            } else if (dataset === 'textbook_costs') {
+                chartTitleEl.innerText = (currentLang === 'it') ? '📚 Costo Basket Libri di Testo a Carico delle Famiglie (Dati Ministero)' : '📚 Household Textbook Basket Financial Burden (Ministry Data)';
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'Il Peso Finanziario della Didattica' : 'The Financial Burden of Textbooks';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'L'analisi dei microdati ministeriali sulle adozioni dei libri di testo mostra che una famiglia spende in media tra 142€ (Scuole Medie) e oltre 260€ (Licei e Istituti Superiori) per l'acquisto obbligatorio dei manuali scolastici ogni anno.' :
+                    'Analysis of official Ministry textbook adoption microdata reveals that families spend between €142 (Middle Schools) and over €260 (High Schools / Licei) on mandatory textbook purchases each academic year.';
+                kpiMetricEl.innerText = '241€ - 262€ Costo Medio Superiori';
+
+                labels = ['Scuola Media (Lombardia)', 'Scuola Media (Lazio)', 'Scuola Media (Campania)', 'Superiori / Licei (Lombardia)', 'Superiori / Licei (Lazio)', 'Superiori / Licei (Campania)'];
+                dataValues = [142.8, 143.7, 139.5, 262.4, 258.1, 245.0];
+                if (region === 'nord') {
+                    labels = ['Medie (Lombardia)', 'Medie (Liguria)', 'Medie (Emilia-R.)', 'Superiori (Lombardia)', 'Superiori (Liguria)', 'Superiori (Emilia-R.)'];
+                    dataValues = [142.8, 141.6, 144.1, 262.4, 255.9, 260.5];
+                } else if (region === 'sud') {
+                    labels = ['Medie (Campania)', 'Medie (Abruzzo)', 'Medie (Puglia)', 'Superiori (Campania)', 'Superiori (Abruzzo)', 'Superiori (Puglia)'];
+                    dataValues = [139.5, 138.2, 140.0, 245.0, 242.8, 246.5];
+                }
+                chartLabel = (currentLang === 'it') ? 'Costo Medio Basket Libri di Testo (€)' : 'Average Textbook Basket Cost (€)';
+                indicatorName = (currentLang === 'it') ? 'Costo Medio Libri per Studente (€)' : 'Average Textbook Cost per Student (€)';
+            } else if (dataset === 'snv_pedagogy') {
+                chartTitleEl.innerText = (currentLang === 'it') ? '🎯 Esiti e Ricadute Pedagogiche: Rubrica di Valutazione SNV/INVALSI' : '🎯 Pedagogy Outcomes & Evaluation: National SNV/INVALSI Rubric';
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'Autovalutazione e Punteggi Nazionali' : 'National Self-Assessment Scores';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'Sulla scala ministeriale RAV (da 1 a 7), le scuole italiane ottengono un punteggio medio di 4.88 nei risultati scolastici generali (promozioni ed esami), ma scendono a 4.67 nelle prove nazionalizzate INVALSI e a 4.75 nelle competenze chiave di cittadinanza.' :
+                    'On the Ministry RAV evaluation scale (1 to 7), Italian schools average 4.88 in general school outcomes (grade transitions), but drop to 4.67 in standardized INVALSI tests and 4.75 in key citizenship competencies.';
+                kpiMetricEl.innerText = '4.67 Punteggio Medio INVALSI';
+
+                labels = ['Risultati Scolastici (Esami)', 'Prove Nazionali (INVALSI)', 'Competenze di Cittadinanza', 'Risultati a Distanza (Univ/Lavoro)'];
+                dataValues = [4.88, 4.67, 4.75, 4.84];
+                if (region === 'nord') {
+                    dataValues = [5.05, 4.92, 4.88, 5.10];
+                } else if (region === 'sud') {
+                    dataValues = [4.72, 4.35, 4.58, 4.55];
+                }
+                chartLabel = (currentLang === 'it') ? 'Punteggio Medio Rubrica RAV (1-7)' : 'Average RAV Rubric Score (1-7)';
+                indicatorName = (currentLang === 'it') ? 'Livello Rubrica Valutazione SNV' : 'SNV Rubric Evaluation Level';
+            } else {
+                chartTitleEl.innerText = (currentLang === 'it') ? '👩‍🏫 Formazione Docenti e Precariato: % Supplenze su Posti di Sostegno (2024-25)' : '👩‍🏫 Teacher Workforce & Precariato: % Substitutes on Special Ed Support (2024-25)';
+                kpiTitleEl.innerText = (currentLang === 'it') ? 'L'Emergenza Sostegno e Precariato' : 'Special Education Support Emergency';
+                kpiDescEl.innerText = (currentLang === 'it') ?
+                    'I dati ufficiali del Ministero rivelano che nelle grandi province italiane oltre il 60% dei contratti di supplenza annuale o temporanea è concentrato sui posti di sostegno per alunni con disabilità (es. Palermo 76.0%, Napoli 68.8%, Torino 63.6%).' :
+                    'Official Ministry figures reveal that across major Italian provinces over 60% of annual substitute contracts are concentrated on special education support for students with disabilities (e.g. Palermo 76.0%, Naples 68.8%, Turin 63.6%).';
+                kpiMetricEl.innerText = '64.6% Supplenze su Sostegno';
+
+                labels = ['Palermo', 'Napoli', 'Torino', 'Roma', 'Milano', 'Bologna', 'Firenze', 'Bari'];
+                dataValues = [76.0, 68.8, 63.6, 60.8, 57.1, 55.4, 58.2, 71.5];
+                if (region === 'nord') {
+                    labels = ['Torino', 'Milano', 'Bologna', 'Firenze', 'Genova', 'Venezia'];
+                    dataValues = [63.6, 57.1, 55.4, 58.2, 59.0, 54.8];
+                } else if (region === 'sud') {
+                    labels = ['Palermo', 'Bari', 'Napoli', 'Catania', 'Reggio C.', 'Cagliari'];
+                    dataValues = [76.0, 71.5, 68.8, 74.2, 72.0, 69.5];
+                }
+                chartLabel = (currentLang === 'it') ? '% Supplenze Assegnate su Sostegno' : '% Substitutes on Special Ed Support';
+                indicatorName = (currentLang === 'it') ? 'Incidenza Supplenze su Sostegno (%)' : 'Substitute Share on Special Ed (%)';
             }
 
             renderDataTable(labels, dataValues, indicatorName, dataset);
@@ -998,7 +1059,7 @@
             tbody.innerHTML = "";
 
             for (let i = 0; i < labels.length; i++) {
-                let valStr = values[i] + (datasetType === 'siope_municipal' ? ' €' : '%');
+                let valStr = values[i] + ((datasetType === 'siope_municipal' || datasetType === 'textbook_costs') ? ' €' : (datasetType === 'snv_pedagogy' ? ' pt' : '%'));
                 let statusBadge = "";
 
                 if (datasetType === 'openpolis') {
@@ -1011,6 +1072,15 @@
                 } else if (datasetType === 'siope_municipal') {
                     if (values[i] < 150) statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Sotto Media (€ <150)' : 'Below Average (< €150)'}</span>`;
                     else statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Servizi Potenziati (€ 250+)' : 'High Service Provision'}</span>`;
+                } else if (datasetType === 'textbook_costs') {
+                    if (values[i] > 200) statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Costo Elevato (>200€)' : 'High Cost Burden (>€200)'}</span>`;
+                    else statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Costo Moderato (<160€)' : 'Moderate Cost (<€160)'}</span>`;
+                } else if (datasetType === 'snv_pedagogy') {
+                    if (values[i] < 4.7) statusBadge = `<span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 text-xs font-semibold border border-amber-500/30">🟡 ${currentLang === 'it' ? 'Criticità Competenza (RAV <4.7)' : 'Competency Gap (<4.7)'}</span>`;
+                    else statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Esito Positivo (RAV 4.8+)' : 'Positive Outcome (4.8+)'}</span>`;
+                } else if (datasetType === 'teacher_precariato') {
+                    if (values[i] > 60) statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Alta Precarizzazione Sostegno (>60%)' : 'High Substitute Share (>60%)'}</span>`;
+                    else statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Continuità Didattica Stabile' : 'Stable Teacher Continuity'}</span>`;
                 } else {
                     if (values[i] > 70) statusBadge = `<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-xs font-semibold border border-emerald-500/30">🟢 ${currentLang === 'it' ? 'Alta Transizione Universitaria' : 'High University Transition'}</span>`;
                     else statusBadge = `<span class="px-2 py-0.5 rounded bg-red-500/20 text-red-400 text-xs font-semibold border border-red-500/30">🔴 ${currentLang === 'it' ? 'Rischio Dispersione / Abbandono' : 'High Dropout & Exclusion Risk'}</span>`;
@@ -1046,6 +1116,37 @@
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
+        }
+
+        function downloadMinisterialDataset() {
+            const dataset = document.getElementById('datasetSelector').value;
+            let fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/neet_regional_model_panel.csv";
+            let fileName = "italienation_dataset_integrale.csv";
+
+            if (dataset === 'openpolis') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/Openpolis/openpolis_neet_metropolitan_capitals.csv";
+                fileName = "openpolis_neet_capoluoghi.csv";
+            } else if (dataset === 'macro_spending') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/italy_education_expenditure_history_panel.csv";
+                fileName = "spesa_istruzione_pil_storica.csv";
+            } else if (dataset === 'siope_municipal') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/siope_school_expenditure_summary.sample.csv";
+                fileName = "siope_bilanci_comunali_scuole.csv";
+            } else if (dataset === 'tripartite') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/transition_bridge_model_panel.csv";
+                fileName = "transizione_universita_dispersione_panel.csv";
+            } else if (dataset === 'textbook_costs') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_textbook_costs_by_region_level.csv";
+                fileName = "ministero_costo_libri_di_testo_regioni.csv";
+            } else if (dataset === 'snv_pedagogy') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_snv_pedagogy_outcomes_rubric.csv";
+                fileName = "ministero_rubrica_valutazione_snv_esiti.csv";
+            } else if (dataset === 'teacher_precariato') {
+                fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/ministerial_teacher_workforce_precariato_2024_25.csv";
+                fileName = "ministero_precariato_docenti_sostegno_2024_25.csv";
+            }
+
+            window.open(fileUrl, '_blank');
         }
 
         window.addEventListener('DOMContentLoaded', () => {
