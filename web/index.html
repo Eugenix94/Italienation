@@ -44,6 +44,15 @@
             font-weight: 700;
             box-shadow: 0 4px 15px -3px rgba(59, 130, 246, 0.4);
         }
+        .sub-tab {
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .sub-tab.active {
+            background-color: #3b82f6;
+            color: #ffffff;
+            font-weight: 700;
+        }
         .slider-thumb::-webkit-slider-thumb {
             -webkit-appearance: none;
             appearance: none;
@@ -92,13 +101,13 @@
             </button>
             <button onclick="switchTab('interactive-data')" id="tab-btn-interactive-data" class="nav-tab px-5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>📊</span>
-                <span class="lang-it">2. Esplora i Dati e i Grafici Ufficiali</span>
-                <span class="lang-en hidden">2. Interactive Charts & Official Data</span>
+                <span class="lang-it">2. Esplora Tutti i 15 Dati e Slideshow</span>
+                <span class="lang-en hidden">2. Explore All 15 Datasets & Slideshow</span>
             </button>
             <button onclick="switchTab('simulator')" id="tab-btn-simulator" class="nav-tab px-5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
-                <span>⚙️</span>
-                <span class="lang-it">3. Simulatore Civico (Prova a Cambiare il Futuro)</span>
-                <span class="lang-en hidden">3. Civic Simulator (Test Policy Changes)</span>
+                <span>👤/⚙️</span>
+                <span class="lang-it">3. Simulatore Studente OTED & Policy DIY</span>
+                <span class="lang-en hidden">3. Student OTED Simulator & Policy DIY</span>
             </button>
             <button onclick="switchTab('notebooks')" id="tab-btn-notebooks" class="nav-tab px-5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>📑</span>
@@ -197,31 +206,57 @@
             <div class="bg-slate-900/90 p-8 rounded-3xl border border-slate-800 flex flex-wrap items-center justify-between gap-6">
                 <div>
                     <h3 class="text-xl font-bold text-white">
-                        <span class="lang-it">Pronto per verificare i numeri con i tuoi occhi?</span>
-                        <span class="lang-en hidden">Ready to verify the data with your own eyes?</span>
+                        <span class="lang-it">Pronto per verificare i numeri con i tuoi occhi o simulare il tuo percorso?</span>
+                        <span class="lang-en hidden">Ready to verify the data with your own eyes or simulate your student journey?</span>
                     </h3>
                     <p class="text-slate-400 text-sm mt-1">
-                        <span class="lang-it">Nessuna formula segreta: ogni singolo grafico e tabella mostra esattamente la fonte ufficiale di provenienza.</span>
-                        <span class="lang-en hidden">No secret formulas: every single chart and table directly cites its official public data source.</span>
+                        <span class="lang-it">Esplora la presentazione completa di tutti i 15 dataset oppure mettiti nei panni di uno studente italiano.</span>
+                        <span class="lang-en hidden">Explore the complete slideshow of all 15 datasets or step into the shoes of an Italian student.</span>
                     </p>
                 </div>
                 <div class="flex flex-wrap items-center gap-4">
                     <button onclick="switchTab('interactive-data')" class="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm transition shadow-lg shadow-blue-500/30 flex items-center gap-2">
-                        <span>📊</span> <span class="lang-it">Esplora i Grafici Interattivi</span><span class="lang-en hidden">Explore Interactive Charts</span>
+                        <span>🖼️</span> <span class="lang-it">Vedi Slideshow Dati</span><span class="lang-en hidden">View Data Slideshow</span>
                     </button>
-                    <button onclick="switchTab('notebooks')" class="px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-sm border border-slate-700 transition flex items-center gap-2">
-                        <span>📑</span> <span class="lang-it">Leggi i 16 Quaderni di Ricerca</span><span class="lang-en hidden">Read the 16 Research Notebooks</span>
+                    <button onclick="switchTab('simulator')" class="px-6 py-3.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm transition shadow-lg shadow-purple-500/30 flex items-center gap-2">
+                        <span>👤</span> <span class="lang-it">Simula Percorso Studente</span><span class="lang-en hidden">Simulate Student Journey</span>
                     </button>
                 </div>
             </div>
         </section>
 
 
-        <!-- ========================================== -->
-        <!-- TAB 2: INTERACTIVE DATA EXPLORER & CHARTS  -->
-        <!-- ========================================== -->
-        <section id="tab-interactive-data" class="space-y-8 hidden">
-            <div class="glass-card rounded-3xl p-8 border border-blue-500/30 shadow-2xl">
+        <!-- ========================================================= -->
+        <!-- TAB 2: EXPLORE ALL 15 DATASETS (SLIDESHOW & MULTI-VISUAL) -->
+        <!-- ========================================================= -->
+        <section id="tab-interactive-data" class="space-y-10 hidden">
+            <!-- Top Sub-Mode Switcher: Quick Dropdown vs Slideshow vs All Cards -->
+            <div class="flex flex-wrap items-center justify-between gap-4 bg-slate-900/90 p-3 rounded-2xl border border-slate-800">
+                <div class="flex flex-wrap gap-2">
+                    <button onclick="switchDataSubMode('quick')" id="data-btn-quick" class="sub-tab active px-4 py-2 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2">
+                        <span>⚡</span>
+                        <span class="lang-it">Selettore Rapido & Grafico</span>
+                        <span class="lang-en hidden">Quick Selector & Chart</span>
+                    </button>
+                    <button onclick="switchDataSubMode('slideshow')" id="data-btn-slideshow" class="sub-tab px-4 py-2 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2 bg-slate-800 text-slate-300">
+                        <span>🖼️</span>
+                        <span class="lang-it">Presentazione Slideshow (1-15)</span>
+                        <span class="lang-en hidden">Slideshow Showcase (1-15)</span>
+                    </button>
+                    <button onclick="switchDataSubMode('grid')" id="data-btn-grid" class="sub-tab px-4 py-2 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2 bg-slate-800 text-slate-300">
+                        <span>📐</span>
+                        <span class="lang-it">Multi-Visualizzazione (Tutti in Vista)</span>
+                        <span class="lang-en hidden">Multi-Visualization Grid (All 15)</span>
+                    </button>
+                </div>
+                <div class="text-xs text-slate-400 font-semibold px-3">
+                    <span class="lang-it">15 Dataset Ufficiali Integrati</span>
+                    <span class="lang-en hidden">15 Official Integrated Datasets</span>
+                </div>
+            </div>
+
+            <!-- SUB-MODE A: QUICK SELECTOR (Our clean dropdown tool) -->
+            <div id="data-mode-quick" class="glass-card rounded-3xl p-8 border border-blue-500/30 shadow-2xl block">
                 <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-6 mb-6">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
@@ -230,25 +265,20 @@
                             <span class="lang-en hidden">Interactive Territorial Data Explorer</span>
                         </h2>
                         <p class="text-slate-400 text-sm mt-1">
-                            <span class="lang-it">Seleziona un argomento per vedere il confronto tra province, città e storici nazionali con spiegazioni in parole semplici.</span>
-                            <span class="lang-en hidden">Select a topic to compare provinces, cities, and historical series with clear, plain-language explanations.</span>
+                            <span class="lang-it">Seleziona uno dei 15 argomenti per vedere il confronto tra province, città e storici nazionali con spiegazioni chiare.</span>
+                            <span class="lang-en hidden">Select one of the 15 topics to compare provinces, cities, and historical series with clear explanations.</span>
                         </p>
                     </div>
-                    <span class="px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-400 text-xs font-semibold border border-blue-500/30">
-                        <span class="lang-it">Dati Ufficiali 100% Verificabili</span>
-                        <span class="lang-en hidden">100% Verifiable Public Data</span>
-                    </span>
                 </div>
 
-                <!-- 3 Dropdown Controls (Plain terms) -->
+                <!-- 3 Dropdown Controls -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 bg-slate-900/80 p-6 rounded-2xl border border-slate-800">
                     <div>
                         <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
-                            <span class="lang-it">1. Scegli l'Indicatore da Visualizzare</span>
-                            <span class="lang-en hidden">1. Select Indicator to Visualize</span>
+                            <span class="lang-it">1. Scegli tra i 15 Indicatori Ufficiali</span>
+                            <span class="lang-en hidden">1. Select from 15 Official Indicators</span>
                         </label>
                         <select id="datasetSelector" onchange="updateCitizenLab()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-blue-500 transition">
-                            <!-- Populated dynamically / cleanly by bilingual JS -->
                             <option value="openpolis">👶 Asili Nido vs Giovani NEET (11 Grandi Città - Openpolis/ISTAT)</option>
                             <option value="macro_spending">📈 Spesa Pubblica per la Scuola (% del PIL 1913–Oggi)</option>
                             <option value="siope_municipal">🏛️ Spesa dei Comuni per Alunno (7.959 Comuni SIOPE)</option>
@@ -352,22 +382,274 @@
                     </button>
                 </div>
             </div>
+
+            <!-- SUB-MODE B: SLIDESHOW SHOWCASE (Slide 1 to 15) -->
+            <div id="data-mode-slideshow" class="glass-card rounded-3xl p-8 border border-blue-500/30 shadow-2xl hidden">
+                <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-6 mb-6">
+                    <div>
+                        <div class="flex items-center gap-3">
+                            <span id="slideCounterBadge" class="px-3 py-1 rounded-full bg-blue-500 text-white font-black text-xs uppercase tracking-wider shadow">Slide 1 / 15</span>
+                            <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">
+                                <span class="lang-it">Presentazione Sequenziale Dati</span>
+                                <span class="lang-en hidden">Sequential Data Showcase</span>
+                            </span>
+                        </div>
+                        <h3 id="slideTitle" class="text-2xl md:text-3xl font-extrabold text-white mt-2">1. Asili Nido vs Giovani NEET</h3>
+                    </div>
+                    <!-- Navigation Prev / Next Buttons -->
+                    <div class="flex items-center gap-3">
+                        <button onclick="prevSlide()" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs border border-slate-600 transition flex items-center gap-2 shadow">
+                            <span>◀</span> <span class="lang-it">Precedente</span><span class="lang-en hidden">Previous</span>
+                        </button>
+                        <button onclick="nextSlide()" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition flex items-center gap-2 shadow-lg shadow-blue-500/20">
+                            <span class="lang-it">Successivo</span><span class="lang-en hidden">Next</span> <span>▶</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="lg:col-span-2 bg-slate-900/90 p-6 rounded-2xl border border-slate-800 shadow-inner">
+                        <div class="flex items-center justify-between mb-4">
+                            <span id="slideChartSubtitle" class="text-xs font-bold text-slate-400 uppercase">Confronto Territoriale</span>
+                            <!-- Chart Type Switcher for Slide -->
+                            <div class="flex gap-1.5 bg-slate-950 p-1 rounded-lg border border-slate-800">
+                                <button onclick="changeSlideChartType('bar')" id="slide-btn-bar" class="px-2.5 py-1 rounded bg-blue-600 text-white text-[11px] font-bold">Barre 📊</button>
+                                <button onclick="changeSlideChartType('line')" id="slide-btn-line" class="px-2.5 py-1 rounded text-slate-400 hover:text-white text-[11px] font-bold">Linea 📈</button>
+                            </div>
+                        </div>
+                        <div class="relative w-full h-80 md:h-96">
+                            <canvas id="slideChartCanvas"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
+                        <div>
+                            <span class="px-2.5 py-1 rounded-md bg-amber-500/20 text-amber-400 text-xs font-bold uppercase tracking-wider">
+                                <span class="lang-it">🎯 Sintesi della Slide</span>
+                                <span class="lang-en hidden">🎯 Slide Takeaway</span>
+                            </span>
+                            <p id="slideDescription" class="text-slate-300 text-sm mt-4 leading-relaxed font-medium">
+                                Descrizione dettagliata e verificabile dell'indicatore.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-6 border-t border-slate-800">
+                            <div class="text-xs text-slate-400 font-bold uppercase mb-1">
+                                <span class="lang-it">Indicatore Statistico</span>
+                                <span class="lang-en hidden">Statistical Metric</span>
+                            </div>
+                            <div id="slideMetric" class="text-3xl font-black text-emerald-400 mb-4">+68% Correlazione</div>
+                            
+                            <div class="grid grid-cols-2 gap-3">
+                                <a id="slideSourceBtn" href="https://www.istat.it" target="_blank" class="py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-600 text-blue-300 font-bold text-xs text-center flex items-center justify-center gap-1.5 transition">
+                                    <span>🔗 Fonte</span>
+                                </a>
+                                <button onclick="downloadSlideCSV()" class="py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs text-center flex items-center justify-center gap-1.5 transition shadow">
+                                    <span>📥 CSV</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SUB-MODE C: MULTI-VISUALIZATION GRID (ALL 15 IN VIEW) -->
+            <div id="data-mode-grid" class="hidden space-y-6">
+                <div class="border-b border-slate-800 pb-4">
+                    <h3 class="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
+                        <span>📐</span>
+                        <span class="lang-it">Multi-Visualizzazione: Tutti i 15 Dataset del Repository</span>
+                        <span class="lang-en hidden">Multi-Visualization: All 15 Repository Datasets</span>
+                    </h3>
+                    <p class="text-slate-400 text-xs mt-1">
+                        <span class="lang-it">Scorri l'intera raccolta dei dati con mini-grafici interattivi e download diretto.</span>
+                        <span class="lang-en hidden">Browse the complete dataset catalog with interactive mini-charts and direct download options.</span>
+                    </p>
+                </div>
+
+                <div id="all-datasets-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Populated dynamically by JS for all 15 datasets -->
+                </div>
+            </div>
         </section>
 
 
-        <!-- ========================================== -->
-        <!-- TAB 3: CIVIC POLICY DIY SIMULATOR          -->
-        <!-- ========================================== -->
-        <section id="tab-simulator" class="space-y-8 hidden">
-            <div class="glass-card rounded-3xl p-8 md:p-10 border border-blue-500/30 shadow-2xl bg-gradient-to-br from-slate-900 via-slate-900/90 to-blue-950/30">
+        <!-- ========================================================= -->
+        <!-- TAB 3: STUDENT OTED SIMULATOR & CIVIC POLICY DIY          -->
+        <!-- ========================================================= -->
+        <section id="tab-simulator" class="space-y-12 hidden">
+            <!-- Sub-Switcher: Student OTED Emulation vs Policy DIY -->
+            <div class="flex flex-wrap items-center justify-between gap-4 bg-slate-900/90 p-3 rounded-2xl border border-slate-800">
+                <div class="flex flex-wrap gap-2">
+                    <button onclick="switchSimSubMode('student')" id="sim-btn-student" class="sub-tab active px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2">
+                        <span>👤</span>
+                        <span class="lang-it">Simulatore Studente O-T-E-D (Emula il Tuo Destino)</span>
+                        <span class="lang-en hidden">O-T-E-D Student Life-Course Simulator</span>
+                    </button>
+                    <button onclick="switchSimSubMode('policy')" id="sim-btn-policy" class="sub-tab px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2 bg-slate-800 text-slate-300">
+                        <span>⚙️</span>
+                        <span class="lang-it">Simulatore Politiche "Policy DIY" (Leve Pubbliche)</span>
+                        <span class="lang-en hidden">Public Policy DIY Simulator (Levers)</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- SUB-MODE 1: STUDENT OTED SIMULATOR ("EMULATE YOUR DESTINY") -->
+            <div id="sim-mode-student" class="glass-card rounded-3xl p-8 md:p-10 border border-purple-500/40 shadow-2xl bg-gradient-to-br from-slate-900 via-slate-900/90 to-purple-950/30 block">
+                <div class="border-b border-slate-800 pb-6 mb-8">
+                    <span class="px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-bold uppercase tracking-wider border border-purple-500/30 inline-block mb-3">
+                        <span class="lang-it">👤 Simulazione Biografica Basata sul Triangolo O-T-E-D</span>
+                        <span class="lang-en hidden">👤 Life-Course Simulation Based on the O-T-E-D Triangle</span>
+                    </span>
+                    <h2 class="text-2xl md:text-4xl font-extrabold text-white">
+                        <span class="lang-it">Emula il Tuo Percorso: Che Destino Avrai in Italia?</span>
+                        <span class="lang-en hidden">Emulate Your Student Journey: What Destiny Awaits?</span>
+                    </h2>
+                    <p class="text-slate-300 text-sm md:text-base mt-2 max-w-3xl leading-relaxed">
+                        <span class="lang-it">
+                            In Italia, l'<strong>Obbligo Scolastico</strong> termina a 16 anni (fine 2° anno delle superiori). Molti ragazzi, se demotivati o indirizzati in scuole non adatte a 13 anni, esercitano il diritto legale di uscire senza diploma, perdendo ogni accesso all'università e cadendo nel rischio NEET. Seleziona le tappe qui sotto e scopri cosa dicono i dati ufficiali sulla tua carriera e pensione futura!
+                        </span>
+                        <span class="lang-en hidden">
+                            In Italy, compulsory schooling ends at age 16. Many students, when tracked into vocational schools at age 13 without early support, exercise their right to leave school without a diploma, blocking university access and spiking NEET risk. Select the life steps below to see empirical career and pension outcomes!
+                        </span>
+                    </p>
+                </div>
+
+                <!-- Step-by-step Selection Grid (Origin -> Tracking -> Destination) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 bg-slate-900/80 p-6 rounded-2xl border border-slate-800">
+                    <!-- Step 1: Origin (O) -->
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-blue-400 mb-2">
+                            <span class="lang-it">1. Origine (O): Dove Sei Nato e Asili?</span>
+                            <span class="lang-en hidden">1. Origin (O): Birthplace & Daycares?</span>
+                        </label>
+                        <select id="studentOriginSel" onchange="simulateStudentOTED()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-blue-500 transition">
+                            <option value="sud_no_nido">📍 Sud/Isole - Comune senza Asilo Nido (<12% copertura)</option>
+                            <option value="centro_med_nido">📍 Centro/Nord - Comune con Copertura Media (~25% nidi)</option>
+                            <option value="nord_hi_nido">📍 Nord/Centro - Comune con Asilo Nido e Tempo Pieno (>35%)</option>
+                        </select>
+
+                        <label class="block text-xs font-bold uppercase tracking-wider text-blue-400 mt-4 mb-2">
+                            <span class="lang-it">Contesto Famigliare (Reddito/Titoli)</span>
+                            <span class="lang-en hidden">Family Context (Income/Degree)</span>
+                        </label>
+                        <select id="studentFamilySel" onchange="simulateStudentOTED()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-blue-500 transition">
+                            <option value="basso">🏠 Reddito Basso / Genitori Senza Diploma</option>
+                            <option value="medio">🏠 Reddito Medio / Genitori con Diploma Superiore</option>
+                            <option value="alto">🏠 Reddito Alto / Genitori Laureati</option>
+                        </select>
+                    </div>
+
+                    <!-- Step 2: Tracking (T) & 16yo Compulsory Leaving -->
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-amber-400 mb-2">
+                            <span class="lang-it">2. Scelta a 13 Anni (Fine Media)</span>
+                            <span class="lang-en hidden">2. Age 13 High School Selection</span>
+                        </label>
+                        <select id="studentTrackSel" onchange="simulateStudentOTED()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-amber-500 transition">
+                            <option value="liceo">🎒 Liceo (Classico, Scientifico o Scienze Umane)</option>
+                            <option value="tecnico">🔧 Istituto Tecnico (Economico o Tecnologico)</option>
+                            <option value="professionale">🛠️ Istituto Professionale / IeFP (Formazione Regionale)</option>
+                        </select>
+
+                        <label class="block text-xs font-bold uppercase tracking-wider text-amber-400 mt-4 mb-2">
+                            <span class="lang-it">Bivio dei 16 Anni (Fine Obbligo Scolastico)</span>
+                            <span class="lang-en hidden">Age 16 Compulsory Leaving Crossroads</span>
+                        </label>
+                        <select id="studentLeave16Sel" onchange="simulateStudentOTED()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-amber-500 transition">
+                            <option value="diploma_5anni">🎓 Completo i 5 Anni (Diploma di Maturità a 19 Anni)</option>
+                            <option value="lascia_16">🚪 LASCIO LA SCUOLA A 16 ANNI (Senza Diploma di Maturità)</option>
+                            <option value="bocciato_ripete">⚠️ Bocciatura e Ripetenze (+1 o 2 Anni di Ritardo)</option>
+                        </select>
+                    </div>
+
+                    <!-- Step 3: Education & Destination (E -> D) -->
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2">
+                            <span class="lang-it">3. Destinazione Post-Scuola (19+ Anni)</span>
+                            <span class="lang-en hidden">3. Post-School Destination (Age 19+)</span>
+                        </label>
+                        <select id="studentPostSel" onchange="simulateStudentOTED()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-emerald-500 transition">
+                            <option value="uni_sud">🎓 Iscrizione Università nel Mezzogiorno (es. Catania, Palermo, Bari)</option>
+                            <option value="uni_nord">🎓 Iscrizione Università nel Nord/Centro (es. Polimi, Bologna)</option>
+                            <option value="lavoro_con_diploma">💼 Ingresso Diretto nel Lavoro con Diploma Tecnico/Professionale</option>
+                            <option value="lavoro_senza_diploma">🚧 Ingresso Lavoro Precarizzato / NEET (Senza Diploma - Solo Licenza Media)</option>
+                            <option value="emigrazione">✈️ Emigrazione verso Nord/Estero (Ricerca Lavoro o Studio all'Estero)</option>
+                        </select>
+
+                        <div class="mt-4 p-3.5 rounded-xl bg-slate-950/80 border border-slate-800 text-xs text-slate-400 italic leading-relaxed">
+                            <span class="lang-it">💡 Nota Legale: Se scegli di lasciare la scuola a 16 anni, l'accesso all'università è bloccato dalla legge italiana.</span>
+                            <span class="lang-en hidden">💡 Legal Note: If leaving secondary school at age 16 without a diploma, university access is strictly blocked by Italian law.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 Real-Life Outcome Cards based on exact official statistics -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                    <!-- Outcome Card 1: NEET Risk -->
+                    <div id="otedCardNeet" class="bg-slate-950/90 p-6 rounded-2xl border border-red-500/40 relative overflow-hidden">
+                        <div class="text-xs font-bold text-red-400 uppercase tracking-wider">
+                            <span class="lang-it">Rischio NEET / Abbandono</span><span class="lang-en hidden">NEET / Dropout Risk</span>
+                        </div>
+                        <div id="otedNeetVal" class="text-3xl font-black text-white mt-2">18.4%</div>
+                        <p id="otedNeetDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">Stima del rischio di trovarsi senza studio né lavoro stabile.</p>
+                    </div>
+
+                    <!-- Outcome Card 2: Estimated Net Monthly Income at Age 30 -->
+                    <div id="otedCardIncome" class="bg-slate-950/90 p-6 rounded-2xl border border-emerald-500/40 relative overflow-hidden">
+                        <div class="text-xs font-bold text-emerald-400 uppercase tracking-wider">
+                            <span class="lang-it">Stima Reddito Netto a 30 Anni</span><span class="lang-en hidden">Estimated Net Income at Age 30</span>
+                        </div>
+                        <div id="otedIncomeVal" class="text-3xl font-black text-white mt-2">€ 1.350 <span class="text-xs font-normal text-slate-400">/ mese</span></div>
+                        <p id="otedIncomeDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">Stima basata su indagini di Banca d'Italia e Almalaurea.</p>
+                    </div>
+
+                    <!-- Outcome Card 3: Pension Projection at Age 67 (Metodo Contributivo) -->
+                    <div id="otedCardPension" class="bg-slate-950/90 p-6 rounded-2xl border border-blue-500/40 relative overflow-hidden">
+                        <div class="text-xs font-bold text-blue-400 uppercase tracking-wider">
+                            <span class="lang-it">Proiezione Pensione (67 Anni)</span><span class="lang-en hidden">Pension Projection (Age 67)</span>
+                        </div>
+                        <div id="otedPensionVal" class="text-2xl font-black text-white mt-2">Pensione Stabile</div>
+                        <p id="otedPensionDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">Metodo contributivo protetto da continuità lavorativa.</p>
+                    </div>
+
+                    <!-- Outcome Card 4: Systemic Verdict -->
+                    <div id="otedCardVerdict" class="bg-slate-950/90 p-6 rounded-2xl border border-purple-500/40 relative overflow-hidden">
+                        <div class="text-xs font-bold text-purple-400 uppercase tracking-wider">
+                            <span class="lang-it">Verdetto Sistemico O-T-E-D</span><span class="lang-en hidden">O-T-E-D Systemic Verdict</span>
+                        </div>
+                        <div id="otedVerdictVal" class="text-xl font-bold text-white mt-2">Percorso Standard</div>
+                        <p id="otedVerdictDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">Come le condizioni di partenza hanno influenzato la traiettoria.</p>
+                    </div>
+                </div>
+
+                <!-- Explanation Banner on How Public Policy Could Have Changed This -->
+                <div class="bg-gradient-to-r from-blue-950/80 to-purple-950/80 p-6 rounded-2xl border border-blue-500/30 flex flex-wrap items-center justify-between gap-4">
+                    <div>
+                        <h4 class="text-base font-bold text-white flex items-center gap-2">
+                            <span>💡</span>
+                            <span class="lang-it">Cosa Avrebbe Cambiato Questa Storia? Il Ruolo delle Politiche Civiche</span>
+                            <span class="lang-en hidden">What Would Have Changed This Story? The Role of Public Policy</span>
+                        </h4>
+                        <p id="otedPolicyRescueText" class="text-slate-300 text-xs mt-1 max-w-4xl leading-relaxed">
+                            Se il Comune d'origine avesse avuto asili nido per almeno il 33% e la scuola media avesse offerto ponti di orientamento, le probabilità di abbandono a 16 anni sarebbero crollate del 65%.
+                        </p>
+                    </div>
+                    <button onclick="switchSimSubMode('policy')" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition shadow flex items-center gap-2">
+                        <span>⚙️</span> <span class="lang-it">Prova le Leve di Riforma</span><span class="lang-en hidden">Test Policy Levers</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- SUB-MODE 2: CIVIC POLICY DIY SIMULATOR ("LEVERS OF REFORM") -->
+            <div id="sim-mode-policy" class="glass-card rounded-3xl p-8 md:p-10 border border-blue-500/30 shadow-2xl bg-gradient-to-br from-slate-900 via-slate-900/90 to-blue-950/30 hidden">
                 <div class="border-b border-slate-800 pb-6 mb-8">
                     <span class="px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-wider border border-blue-500/30 inline-block mb-3">
                         <span class="lang-it">⚙️ Simulazione Interattiva Basata su Regressioni OLS Reali</span>
                         <span class="lang-en hidden">⚙️ Interactive Simulation Based on Real OLS Regressions</span>
                     </span>
                     <h2 class="text-2xl md:text-4xl font-extrabold text-white">
-                        <span class="lang-it">Simulatore Civico: Cosa Succede se Cambiamo le Regole?</span>
-                        <span class="lang-en hidden">Civic Simulator: What Happens When We Change Policy?</span>
+                        <span class="lang-it">Simulatore Politiche Civiche: Cosa Succede se Cambiamo le Regole?</span>
+                        <span class="lang-en hidden">Civic Policy Simulator: What Happens When We Change Policy?</span>
                     </h2>
                     <p class="text-slate-300 text-sm md:text-base mt-2 max-w-3xl leading-relaxed">
                         <span class="lang-it">Muovi le 3 leve di investimento qui sotto (Asili Nido, Fondi alle Scuole e Orientamento) per vedere in tempo reale la stima empirica di quante vite di giovani, quante pensioni e quanti laureati potremmo salvare ogni anno.</span>
@@ -459,39 +741,30 @@
                     </div>
                 </div>
 
-                <!-- 3 Predicted Outcome Cards (Plain Language Impact) -->
+                <!-- 3 Predicted Outcome Cards -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Outcome 1 -->
                     <div class="bg-slate-950/90 p-6 rounded-2xl border border-emerald-500/40 relative overflow-hidden">
                         <div class="text-xs font-bold text-emerald-400 uppercase tracking-wider">
                             <span class="lang-it">1. Impatto sui Giovani NEET</span><span class="lang-en hidden">1. Impact on NEET Youth</span>
                         </div>
                         <div id="diyNeetVal" class="text-3xl font-black text-white mt-2">-0.0% <span class="text-sm font-normal text-slate-400">NEET</span></div>
-                        <p id="diyNeetDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">
-                            Mantenendo lo Status Quo, il tasso NEET resta fermo al 16.1% nazionale (e oltre il 24% nel Sud).
-                        </p>
+                        <p id="diyNeetDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">Mantenendo lo Status Quo, il tasso NEET resta fermo al 16.1% nazionale.</p>
                     </div>
 
-                    <!-- Outcome 2 -->
                     <div class="bg-slate-950/90 p-6 rounded-2xl border border-blue-500/40 relative overflow-hidden">
                         <div class="text-xs font-bold text-blue-400 uppercase tracking-wider">
                             <span class="lang-it">2. Impatto sulle Pensioni Futura</span><span class="lang-en hidden">2. Impact on Future Pensions</span>
                         </div>
                         <div id="diyPensionVal" class="text-3xl font-black text-white mt-2">-0.0% <span class="text-sm font-normal text-slate-400">Precarizzazione</span></div>
-                        <p id="diyPensionDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">
-                            Meno carriere discontinue o precarie che porteranno a pensioni minime insufficienti.
-                        </p>
+                        <p id="diyPensionDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">Meno carriere discontinue o precarie che porteranno a pensioni minime.</p>
                     </div>
 
-                    <!-- Outcome 3 -->
                     <div class="bg-slate-950/90 p-6 rounded-2xl border border-purple-500/40 relative overflow-hidden">
                         <div class="text-xs font-bold text-purple-400 uppercase tracking-wider">
                             <span class="lang-it">3. Laureati che Restano al Sud</span><span class="lang-en hidden">3. Retained Graduates in South</span>
                         </div>
                         <div id="diyDrainVal" class="text-3xl font-black text-white mt-2">+0 <span class="text-sm font-normal text-slate-400">Giovani / Anno</span></div>
-                        <p id="diyDrainDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">
-                            Stima dei giovani laureati e diplomati salvati dall'emigrazione forzata ogni anno dal Mezzogiorno.
-                        </p>
+                        <p id="diyDrainDesc" class="text-slate-300 text-xs mt-2 leading-relaxed">Stima dei giovani qualificati salvati dall'emigrazione forzata ogni anno.</p>
                     </div>
                 </div>
 
@@ -521,9 +794,9 @@
                     </p>
                 </div>
 
-                <!-- NOTEBOOKS GRID (EXACT 3 BUTTONS ON EVERY SINGLE ONE) -->
+                <!-- NOTEBOOKS GRID -->
                 <div id="notebooks-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Populated dynamically / cleanly below for maximum speed & clarity -->
+                    <!-- Populated dynamically by JS -->
                 </div>
             </div>
         </section>
@@ -543,6 +816,193 @@
     <script>
         let currentLang = 'it';
         let citizenChartInstance = null;
+        let slideChartInstance = null;
+        let currentSlideIndex = 0;
+        let currentSlideChartType = 'bar';
+
+        // THE COMPLETE 15 OFFICIAL DATASETS CATALOG FOR SLIDESHOW & MULTI-VISUALIZATION
+        const allDatasetsList = [
+            {
+                id: 'openpolis',
+                titleIt: '1. Asili Nido vs Giovani NEET (11 Grandi Città)',
+                titleEn: '1. Municipal Daycare Coverage vs Youth NEET (11 Major Cities)',
+                labels: ['Bologna', 'Firenze', 'Milano', 'Torino', 'Genova', 'Venezia', 'Roma', 'Bari', 'Palermo', 'Napoli', 'Catania'],
+                data: [41.2, 39.8, 35.4, 34.1, 31.5, 30.2, 26.8, 18.4, 11.2, 10.4, 8.9],
+                metricIt: '+68% Correlazione', metricEn: '+68% Correlation',
+                descIt: 'Nelle città dove mancano i posti nido comunali (<15%, es. Catania, Napoli, Palermo), i ragazzi subiscono un gap di partenza che fa triplicare il rischio di diventare NEET adolescenti.',
+                descEn: 'In cities where municipal daycares cover less than 15% of infants, adolescent dropout and NEET risk more than triple compared to cities exceeding the 33% EU target.',
+                sourceUrl: 'https://www.openpolis.it/parole/che-cosa-e-la-poverta-educativa/',
+                csv: 'openpolis_neet_metropolitan_capitals.csv'
+            },
+            {
+                id: 'macro_spending',
+                titleIt: '2. Spesa Pubblica Istruzione (% PIL 1913-Oggi)',
+                titleEn: '2. Public Expenditure on Education (% GDP 1913–Present)',
+                labels: ['1913', '1930', '1950', '1970', '1990', '2005', '2015', '2024'],
+                data: [1.3, 1.8, 2.4, 3.8, 5.1, 4.6, 4.0, 4.1],
+                metricIt: '4.1% PIL (vs 4.9% OCSE)', metricEn: '4.1% GDP (vs 4.9% OECD)',
+                descIt: 'L\'Italia investe oggi il 4.1% del PIL nell\'istruzione, rimanendo sistematicamente al di sotto della media delle economie avanzate OCSE (4.9%).',
+                descEn: 'Italy currently invests ~4.1% of its GDP in education, remaining systematically below the OECD advanced economy average of 4.9%.',
+                sourceUrl: 'https://www.rgs.mef.gov.it/',
+                csv: 'italy_education_expenditure_history_panel.csv'
+            },
+            {
+                id: 'siope_municipal',
+                titleIt: '3. Spesa dei Comuni per Alunno (€ - Bilanci SIOPE)',
+                titleEn: '3. Municipal Spending per Student (€ - SIOPE Budgets)',
+                labels: ['Milano', 'Bologna', 'Torino', 'Firenze', 'Roma', 'Bari', 'Napoli', 'Palermo', 'Catania'],
+                data: [285, 264, 241, 238, 192, 134, 118, 112, 104],
+                metricIt: '218€ vs 114€ / Alunno', metricEn: '€218 vs €114 / Student',
+                descIt: 'I flussi di cassa del Tesoro (SIOPE) mostrano che i Comuni del Centro-Nord spendono fino al doppio per alunno per manutenzione e mense rispetto ai Comuni del Mezzogiorno.',
+                descEn: 'Treasury cash flow analysis (SIOPE) reveals North-Central municipalities spend up to double per student on school maintenance and cafeterias compared to Southern municipalities.',
+                sourceUrl: 'https://www.siope.it/',
+                csv: 'siope_school_expenditure_summary.sample.csv'
+            },
+            {
+                id: 'tripartite',
+                titleIt: '4. Scuola Tripartita: Bocciature nei Diversi Indirizzi (%)',
+                titleEn: '4. Tripartite School System: Repetition Rates by Track (%)',
+                labels: ['Licei Classici/Scient.', 'Licei Scienze Umane', 'Istituti Tecnici Econ.', 'Istituti Tecnici Tecn.', 'Istituti Professionali'],
+                data: [3.5, 5.2, 9.4, 11.2, 14.8],
+                metricIt: '14.8% Bocciature nei Prof.', metricEn: '14.8% Repetition in Voc.',
+                descIt: 'La separazione precoce degli studenti a 13 anni concentra negli Istituti Professionali un tasso di bocciatura (14.8%) oltre 4 volte superiore ai Licei (3.5%).',
+                descEn: 'Early tracking at age 13 concentrates a grade repetition rate of 14.8% in Vocational institutes—over 4 times higher than in Academic Licei (3.5%).',
+                sourceUrl: 'https://dati.istruzione.it/',
+                csv: 'transition_bridge_model_panel.csv'
+            },
+            {
+                id: 'textbook_costs',
+                titleIt: '5. Costo Libri 1° Anno Superiori (€ per Famiglia)',
+                titleEn: '5. Mandatory Textbook Burden 1st Year High School (€)',
+                labels: ['Lombardia', 'Emilia-Romagna', 'Veneto', 'Lazio', 'Campania', 'Puglia', 'Sicilia'],
+                data: [262.4, 260.5, 258.1, 252.0, 245.0, 246.5, 244.2],
+                metricIt: '262€ Costo Medio per Figlio', metricEn: '€262 Average Cost',
+                descIt: 'Il costo del paniere di libri obbligatori supera i 250€ nel primo anno delle superiori, rappresentando un ostacolo economico rilevante per le famiglie monoreddito o fragili.',
+                descEn: 'The mandatory textbook basket for first-year upper secondary exceeds €250, posing a significant financial barrier for low-income families.',
+                sourceUrl: 'https://dati.istruzione.it/',
+                csv: 'ministerial_textbook_costs_by_region_level.csv'
+            },
+            {
+                id: 'teacher_precariato',
+                titleIt: '6. Precariato Docenti di Sostegno per Disabili (% Supplenze)',
+                titleEn: '6. Precarious Substitute Special Ed Teachers (%)',
+                labels: ['Palermo', 'Bari', 'Napoli', 'Torino', 'Roma', 'Firenze', 'Milano', 'Bologna'],
+                data: [76.0, 71.5, 68.8, 63.6, 60.8, 58.2, 57.1, 55.4],
+                metricIt: '64.6% Supplenze su Sostegno', metricEn: '64.6% Temporary Substitutes',
+                descIt: 'Oltre il 64% dei posti di sostegno per alunni con disabilità è coperto da docenti precari con contratto annuale (con punte del 76% al Sud), compromettendo la continuità didattica.',
+                descEn: 'Over 64% of special education support jobs are filled by annual precarious substitute teachers (topping 76% in Southern provinces), destroying continuity.',
+                sourceUrl: 'https://dati.istruzione.it/',
+                csv: 'ministerial_teacher_workforce_precariato_2024_25.csv'
+            },
+            {
+                id: 'building_safety',
+                titleIt: '7. Sicurezza Edifici con Certificato di Agibilità MIM (%)',
+                titleEn: '7. School Building Safety Compliance Certificates (%)',
+                labels: ['Lombardia', 'Veneto', 'Emilia-Romagna', 'Piemonte', 'Toscana', 'Lazio', 'Campania', 'Puglia', 'Sicilia', 'Calabria'],
+                data: [54.2, 51.8, 48.6, 45.1, 42.3, 36.4, 28.5, 26.2, 22.1, 18.9],
+                metricIt: '36% Media Nazionale Agibilità', metricEn: '36% Safety Certificate Rate',
+                descIt: 'Solo il 36% degli edifici scolastici in Italia possiede il certificato completo di agibilità e sicurezza antisismica, con gravi divari strutturali tra le regioni centrali e le isole.',
+                descEn: 'Only 36% of Italian school buildings hold complete structural safety and earthquake compliance certificates, with severe deficits in Southern regions.',
+                sourceUrl: 'https://dati.istruzione.it/',
+                csv: 'ministerial_school_building_safety_by_region.csv'
+            },
+            {
+                id: 'architectural_barriers',
+                titleIt: '8. Scuole Accessibili per Disabili (Ascensori/Bagni %)',
+                titleEn: '8. Disability Accessibility (Elevators/Restrooms %)',
+                labels: ['Valle d\'Aosta', 'Lombardia', 'Veneto', 'Emilia-Romagna', 'Toscana', 'Lazio', 'Campania', 'Puglia', 'Sicilia', 'Calabria'],
+                data: [74.5, 68.2, 65.4, 66.1, 62.0, 55.3, 41.2, 38.6, 33.4, 29.8],
+                metricIt: '53% Media Accessibilità', metricEn: '53% Average Accessibility',
+                descIt: 'Meno della metà delle scuole nel Mezzogiorno ha superato le barriere architettoniche (ascensori a norma, rampe e bagni per alunni con disabilità motoria).',
+                descEn: 'Fewer than half of schools in Southern Italy have eliminated architectural barriers such as compliant elevators, ramps, and accessible restrooms.',
+                sourceUrl: 'https://dati.istruzione.it/',
+                csv: 'ministerial_architectural_barriers_by_region.csv'
+            },
+            {
+                id: 'foreign_students',
+                titleIt: '9. Studenti Stranieri e Seconde Generazioni Nelle Scuole (%)',
+                titleEn: '9. Non-Italian Citizenship & 2nd Generation Students (%)',
+                labels: ['Lombardia', 'Emilia-Romagna', 'Veneto', 'Piemonte', 'Toscana', 'Lazio', 'Campania', 'Puglia', 'Sicilia'],
+                data: [16.4, 17.2, 14.8, 15.1, 14.2, 11.5, 4.2, 3.8, 3.6],
+                metricIt: '11.4% Media Studenti Stranieri', metricEn: '11.4% Non-Italian Share',
+                descIt: 'Gli studenti di cittadinanza non italiana o nati in Italia da genitori stranieri rappresentano oltre il 16% nelle scuole del Nord, richiedendo mediatori interculturali e supporto linguistico.',
+                descEn: 'Students with non-Italian citizenship represent over 16% of enrollment across Northern schools, highlighting the need for intercultural mediation.',
+                sourceUrl: 'https://dati.istruzione.it/',
+                csv: 'ministerial_foreign_students_integration.csv'
+            },
+            {
+                id: 'didactic_process',
+                titleIt: '10. Qualità Didattica e RAV Autovalutazione (Scala 1-7)',
+                titleEn: '10. Didactic Process & RAV Self-Assessment (Scale 1-7)',
+                labels: ['Lombardia', 'Veneto', 'Emilia-Romagna', 'Piemonte', 'Toscana', 'Lazio', 'Campania', 'Puglia', 'Sicilia', 'Calabria'],
+                data: [5.6, 5.5, 5.7, 5.4, 5.3, 4.9, 4.2, 4.4, 4.1, 3.9],
+                metricIt: '4.9 Punteggio Medio RAV', metricEn: '4.9 Average RAV Score',
+                descIt: 'I punteggi del Rapporto di Autovalutazione delle Scuole (RAV) mostrano che gli istituti del Nord raggiungono indici più alti nella formazione docenti e innovazione didattica rispetto al Sud.',
+                descEn: 'School Self-Assessment (RAV) scores indicate Northern schools achieve higher ratings in teacher ongoing professional training and didactic innovation.',
+                sourceUrl: 'https://invalsi.it/',
+                csv: 'ministerial_snv_process_evaluation_rubric.csv'
+            },
+            {
+                id: 'catania_case_study',
+                titleIt: '11. Studio di Caso Catania: Dai Nidi alla Laurea vs Milano/Bologna',
+                titleEn: '11. Catania Longitudinal Case Study vs Milan & Bologna',
+                labels: ['Catania-Nidi%', 'Catania-Abbandono%', 'Catania-Laureati%', 'Milano-Nidi%', 'Milano-Abbandono%', 'Milano-Laureati%', 'Bologna-Nidi%', 'Bologna-Abbandono%', 'Bologna-Laureati%'],
+                data: [8.9, 24.2, 18.4, 35.4, 11.5, 38.2, 41.2, 9.8, 42.5],
+                metricIt: '-62% Divario Laureati Catania vs BO', metricEn: '-62% Graduate Gap Catania vs BO',
+                descIt: 'Lo studio longitudinale mostra l\'effetto a catena: a Catania un basso tasso di asili nido (8.9%) si traduce 15 anni dopo nel doppio di abbandoni scolastici (24.2%) e meno della metà di laureati rispetto a Bologna.',
+                descEn: 'The longitudinal case study illustrates the chain reaction: Catania\'s low daycare coverage (8.9%) translates 15 years later into double the dropout rate and half the college graduates of Bologna.',
+                sourceUrl: 'https://www.istat.it',
+                csv: 'catania_educational_pipeline_case_study.csv'
+            },
+            {
+                id: 'mur_major_unis',
+                titleIt: '12. Tassa Universitaria Media (€ / anno nei Grandi Atenei)',
+                titleEn: '12. Average University Tuition (€ / year in Major Universities)',
+                labels: ['Polimi Milano', 'Bologna', 'Padova', 'Sapienza Roma', 'Federico II Napoli', 'Bari', 'Catania', 'Palermo'],
+                data: [1850, 1620, 1580, 1340, 1120, 980, 920, 890],
+                metricIt: '1.340€ Tassa Media Atenei', metricEn: '€1,340 Average Tuition',
+                descIt: 'La contribuzione studentesca varia dai 1.850€ del Politecnico di Milano sotto i 900€ degli atenei siciliani, riflettendo la diversa applicazione degli esoneri e del reddito ISEE locale.',
+                descEn: 'Student tuition fees range from €1,850 at Politecnico di Milano to under €900 across Sicilian universities, reflecting local income and exemption structures.',
+                sourceUrl: 'https://ustat.mur.gov.it/',
+                csv: 'mur_major_universities_tuition_enrollment.csv'
+            },
+            {
+                id: 'mur_dropout',
+                titleIt: '13. Abbandono e Fuoricorso Universitario al 1° Anno (%)',
+                titleEn: '13. University Dropout & Fuoricorso Rates by Institution (%)',
+                labels: ['Catania', 'Palermo', 'Bari', 'Napoli Federico II', 'Roma Sapienza', 'Firenze', 'Torino', 'Bologna', 'Milano Statale', 'Polimi'],
+                data: [31.4, 29.8, 28.5, 26.2, 22.1, 18.4, 16.8, 14.2, 13.5, 9.8],
+                metricIt: '31.4% Abbandono a Catania', metricEn: '31.4% Dropout in Catania',
+                descIt: 'I dati dell\'Anagrafe Studenti (MUR/CINECA) confermano che il tasso di abbandono o fuoricorso nei grandi atenei del Mezzogiorno supera il 30%, triplo rispetto a Politecnico di Milano o Bologna.',
+                descEn: 'Ministry student registry data (CINECA) show university dropout and fuoricorso rates in major Southern universities exceed 30%—triple that of Polimi or Bologna.',
+                sourceUrl: 'https://ustat.mur.gov.it/',
+                csv: 'mur_national_university_dropout_timeseries.csv'
+            },
+            {
+                id: 'snv_pedagogy',
+                titleIt: '14. Prove INVALSI V Anno Superiori (Punteggio Medio su 200)',
+                titleEn: '14. INVALSI National Standardized Test Scores (Out of 200)',
+                labels: ['Lombardia', 'Veneto', 'Emilia-Romagna', 'Piemonte', 'Toscana', 'Lazio', 'Campania', 'Puglia', 'Sicilia', 'Calabria'],
+                data: [206, 208, 205, 202, 198, 194, 181, 183, 176, 172],
+                metricIt: '192 Punteggio Medio INVALSI', metricEn: '192 Average INVALSI Score',
+                descIt: 'Le prove nazionali INVALSI al quinto anno delle superiori evidenziano un divario di competenze base in italiano e matematica di oltre 35 punti tra il Veneto/Lombardia e la Calabria/Sicilia.',
+                descEn: 'National INVALSI standardized tests in 5th year upper secondary reveal a basic competency gap in math and literacy of over 35 points between Veneto and Calabria.',
+                sourceUrl: 'https://invalsi.it/',
+                csv: 'ministerial_snv_pedagogy_outcomes_rubric.csv'
+            },
+            {
+                id: 'international_benchmark',
+                titleIt: '15. Transizione all\'Università: Scuola Tripartita vs Unica (%)',
+                titleEn: '15. University Transition: Tripartite vs Comprehensive Systems (%)',
+                labels: ['Finlandia (Unica 16y)', 'Regno Unito (Unica 16y)', 'Stati Uniti (Compr.)', 'Francia (Collège Unico)', 'Italia (Tripartita 13y)', 'Germania (Tripartita 10y)'],
+                data: [84.5, 81.2, 79.8, 72.4, 56.8, 54.2],
+                metricIt: '82% Transizione vs 56% Italia', metricEn: '82% Transition vs 56% Italy',
+                descIt: 'I paesi internazionali che mantengono la scuola unica (comprehensive) fino a 16 anni mostrano un tasso di prosecuzione agli studi universitari di 25 punti superiore all\'Italia.',
+                descEn: 'International countries maintaining comprehensive schooling until age 16 achieve university transition rates 25 percentage points higher than early-tracking systems.',
+                sourceUrl: 'https://www.oecd.org/education/education-at-a-glance/',
+                csv: 'international_tripartite_vs_comprehensive_benchmark.csv'
+            }
+        ];
 
         // 1. Language Toggle & Bilingual Engine
         function toggleLanguage() {
@@ -562,64 +1022,12 @@
                 document.querySelectorAll('.lang-it').forEach(el => el.classList.remove('hidden'));
             }
 
-            // Update Dataset Selector Options labels
-            const selector = document.getElementById('datasetSelector');
-            const regionSel = document.getElementById('regionSelector');
-            const chartSel = document.getElementById('chartTypeSelector');
-
-            if (currentLang === 'en') {
-                selector.options[0].text = "👶 Municipal Daycares vs NEET Youth (11 Major Cities - Openpolis)";
-                selector.options[1].text = "📈 Historical Public Spending on Education (% GDP 1913–Present)";
-                selector.options[2].text = "🏛️ Municipal School Expenditure per Student (7,959 Municipalities SIOPE)";
-                selector.options[3].text = "🎒 Academic (Licei) vs Vocational Schools: Dropout & Career Destiny";
-                selector.options[4].text = "📚 Household Textbook Cost Burden by Region (Ministry Data)";
-                selector.options[5].text = "🎯 INVALSI National Standardized Tests & School Evaluation (RAV)";
-                selector.options[6].text = "👩‍🏫 Special Ed Support Teacher Precariato & Substitutes (2024-25)";
-                selector.options[7].text = "🏗️ School Building Safety & Safety Compliance Certificates (MIM)";
-                selector.options[8].text = "♿ Disability Restroom Accessibility & Elevators across Schools";
-                selector.options[9].text = "🌍 Non-Italian Citizenship & Second-Generation Student Inclusion";
-                selector.options[10].text = "⚙️ Didactic Process Quality & Ongoing Teacher Training Evaluation";
-                selector.options[11].text = "🔍 Catania Case Study: Early Nursery Gaps to Tertiary Outcomes";
-                selector.options[12].text = "🎓 Student Enrollment & Tuition Fees in Major Universities (MUR)";
-                selector.options[13].text = "📉 National University Dropout & Fuoricorso Timeseries (CINECA)";
-                selector.options[14].text = "🌍 International Benchmark: Tripartite vs Comprehensive Systems";
-
-                regionSel.options[0].text = "🇮🇹 All Territories & Historical Series";
-                regionSel.options[1].text = "📍 Southern Italy & Islands (Sud e Isole)";
-                regionSel.options[2].text = "📍 Northern & Central Italy (Nord e Centro)";
-
-                chartSel.options[0].text = "📊 Bar Chart Comparison";
-                chartSel.options[1].text = "📈 Historical Line Chart";
-                chartSel.options[2].text = "🔴 Scatter Plot Correlation";
-            } else {
-                selector.options[0].text = "👶 Asili Nido vs Giovani NEET (11 Grandi Città - Openpolis/ISTAT)";
-                selector.options[1].text = "📈 Spesa Pubblica per la Scuola (% del PIL 1913–Oggi)";
-                selector.options[2].text = "🏛️ Spesa dei Comuni per Alunno (7.959 Comuni SIOPE)";
-                selector.options[3].text = "🎒 Licei vs Istituti Tecnici e Professionali: Futuro e Abbandono";
-                selector.options[4].text = "📚 Costo Libri di Testo a Carico delle Famiglie (Dati Ministero)";
-                selector.options[5].text = "🎯 Valutazione delle Scuole e Prove INVALSI (Autovalutazione RAV)";
-                selector.options[6].text = "👩‍🏫 Precariato Docenti e Supplenze di Sostegno per Disabili (2024-25)";
-                selector.options[7].text = "🏗️ Sicurezza degli Edifici e Certificato di Agibilità (MIM)";
-                selector.options[8].text = "♿ Barriere Architettoniche e Servizi per Alunni con Disabilità (MIM)";
-                selector.options[9].text = "🌍 Inclusione Studenti Stranieri e Seconde Generazioni nelle Scuole";
-                selector.options[10].text = "⚙️ Qualità della Didattica e Formazione Continua degli Insegnanti";
-                selector.options[11].text = "🔍 Studio di Caso Catania: Dai Nidi al Lavoro (Confronto Milano/Bologna)";
-                selector.options[12].text = "🎓 Iscritti e Tasse Universitarie nei Grandi Atenei Italiani (MUR)";
-                selector.options[13].text = "📉 Abbandono e Dispersione Universitaria Nazionale (Serie CINECA/MUR)";
-                selector.options[14].text = "🌍 Confronto Internazionale: Scuola Tripartita (Italia/Germania) vs Scuola Unica";
-
-                regionSel.options[0].text = "🇮🇹 Tutte le Aree del Paese / All Territories";
-                regionSel.options[1].text = "📍 Sud e Isole / Southern Italy & Islands";
-                regionSel.options[2].text = "📍 Nord e Centro / Northern & Central Italy";
-
-                chartSel.options[0].text = "📊 Grafico a Barre / Bar Chart";
-                chartSel.options[1].text = "📈 Linea Temporale / Line Chart";
-                chartSel.options[2].text = "🔴 Punti di Dispersione / Scatter Plot";
-            }
-
             renderNotebookCards();
             updateCitizenLab();
             updateSimulatorUI();
+            renderSlideShow();
+            renderAllDatasetsGrid();
+            simulateStudentOTED();
         }
 
         // 2. Tab Switcher Engine
@@ -635,143 +1043,78 @@
 
             if (tabId === 'interactive-data') {
                 updateCitizenLab();
+                renderSlideShow();
+                renderAllDatasetsGrid();
             } else if (tabId === 'simulator') {
                 updateSimulatorUI();
+                simulateStudentOTED();
             } else if (tabId === 'notebooks') {
                 renderNotebookCards();
             }
         }
 
-        // 3. Notebooks Catalog Grid Generator (3 Pristine Options for each)
-        const canonicalNotebooks = [
-            {
-                id: '00',
-                file: '00_master_capstone_oted_66_domains',
-                titleIt: '00. Tesi Capstone: Quadro Generale e Sintesi Statistica',
-                titleEn: '00. Master Capstone Thesis: Holistic Statistical Overview',
-                descIt: 'Il documento principale che riassume l\'intera indagine e collega i dati dall\'asilo nido fino all\'università.',
-                descEn: 'The core master document unifying the entire empirical investigation from nursery school to tertiary outcomes.'
-            },
-            {
-                id: '01',
-                file: '01_holistic_master_statistical_analysis',
-                titleIt: '01. Analisi Statistica e Matrice di Correlazione Territoriale',
-                titleEn: '01. Master Statistical Analysis & Correlation Matrix',
-                descIt: 'Analisi matematica delle correlazioni empiriche tra povertà educativa, spesa pubblica e disoccupazione.',
-                descEn: 'Mathematical analysis of empirical correlations between educational poverty, public spending, and youth NEET rates.'
-            },
-            {
-                id: '02',
-                file: '02_origin_early_childhood_and_educational_poverty',
-                titleIt: '02. Prima Infanzia, Asili Nido e Disuguaglianze di Partenza',
-                titleEn: '02. Early Childhood, Nursery Daycares & Initial Inequality',
-                descIt: 'Indagine ISTAT e Openpolis sulla copertura dei nidi comunali 0-2 anni e il legame con la dispersione adolescente.',
-                descEn: 'ISTAT and Openpolis empirical study on 0-2 municipal daycare gaps and their direct link to adolescent dropout risk.'
-            },
-            {
-                id: '03',
-                file: '03_origin_textbook_burden_and_household_spending',
-                titleIt: '03. Costo dei Libri di Testo e Spesa delle Famiglie',
-                titleEn: '03. Textbook Burden & Household Financial Spending',
-                descIt: 'Studio sui costi del paniere scolastico per provincia e incidenza sul reddito familiare nel Mezzogiorno.',
-                descEn: 'Investigation of mandatory textbook basket costs across provinces and the financial burden on Southern families.'
-            },
-            {
-                id: '04',
-                file: '04_tracking_tripartite_system_provenance',
-                titleIt: '04. Scuola Tripartita: Licei vs Istituti Professionali',
-                titleEn: '04. Tripartite School Tracking: Licei vs Vocational Institutes',
-                descIt: 'Analisi sulla selezione precoce a 13 anni e come condiziona i tassi di bocciatura e la carriera successiva.',
-                descEn: 'Analysis of early tracking at age 13 into academic vs vocational high schools and its impact on dropout rates.'
-            },
-            {
-                id: '05',
-                file: '05_tracking_middle_to_upper_transition_and_barriers',
-                titleIt: '05. Il Passaggio alle Superiori e le Barriere di Transizione',
-                titleEn: '05. Middle to Upper Secondary Transition & Barriers',
-                descIt: 'Studio sui colli di bottiglia nel passaggio dalla scuola media alle superiori nelle aree ad alta dispersione.',
-                descEn: 'Study on systemic bottlenecks during the transition from middle school to upper secondary across high-risk provinces.'
-            },
-            {
-                id: '06',
-                file: '06_tracking_repeaters_and_implicit_dropout',
-                titleIt: '06. Bocciature, Ripetenze e Dispersione Scolastica Implicita',
-                titleEn: '06. Grade Repetition (Bocciature) & Implicit Dropout',
-                descIt: 'I dati ministeriali sulle ripetenze nei diversi indirizzi scolastici e il fenomeno degli studenti che terminano senza competenze base.',
-                descEn: 'Ministerial data on grade repetitions across school tracks and the phenomenon of graduation without basic literacy skills.'
-            },
-            {
-                id: '07',
-                file: '07_geospatial_tripartite_distribution',
-                titleIt: '07. Mappe Geografiche: Distribuzione Territoriale delle Scuole',
-                titleEn: '07. Geospatial Mapping: Territorial Distribution of Schools',
-                descIt: 'Cartografia statistica che mostra in quali province e quartieri si concentrano i licei rispetto agli istituti professionali.',
-                descEn: 'Statistical cartography mapping where academic high schools cluster versus where vocational schools dominate.'
-            },
-            {
-                id: '08',
-                file: '08_transition_social_mobility_and_intermittency',
-                titleIt: '08. Mobilità Sociale, Lavoro Intermittente e Pensioni',
-                titleEn: '08. Social Mobility, Precarious Jobs & Future Pensions',
-                descIt: 'Proiezioni empiriche su come le carriere discontinue dei giovani NEET incideranno sulla povertà pensionistica futura.',
-                descEn: 'Empirical projections showing how intermittent youth careers under the contributory system lead to future old-age poverty.'
-            },
-            {
-                id: '09',
-                file: '09_destination_fiscal_landscape_and_siope_delays',
-                titleIt: '09. Spesa Reale dei Comuni (SIOPE) e Tempi di Pagamento',
-                titleEn: '09. Municipal Real Cash Flows (SIOPE) & Infrastructure Delays',
-                descIt: 'Analisi di oltre 7.900 bilanci comunali sulla spesa effettiva per le scuole, la manutenzione e le mense scolastiche.',
-                descEn: 'Detailed cash-flow analysis of 7,900+ municipal budgets tracking actual expenditure on school infrastructure and cafeterias.'
-            },
-            {
-                id: '10',
-                file: '10_destination_territorial_expenditure_and_deficits',
-                titleIt: '10. Divario Nord-Sud nella Spesa Pubblica Scolastica',
-                titleEn: '10. North-South Territorial Public Spending Gap',
-                descIt: 'Confronto quantitativo sulla spesa per alunno tra le province del Nord, del Centro e del Mezzogiorno.',
-                descEn: 'Quantitative breakdown of structural spending differences per student across Northern, Central, and Southern provinces.'
-            },
-            {
-                id: '11',
-                file: '11_destination_tfp_stagnation_and_human_capital',
-                titleIt: '11. Capitale Umano, Stagnazione della Produttività e Fuga dei Cervelli',
-                titleEn: '11. Human Capital, TFP Productivity Stagnation & Brain Drain',
-                descIt: 'Indagine sulla perdita di oltre 40.000 laureati l\'anno dal Sud e l\'impatto sulla produttività economica nazionale.',
-                descEn: 'Investigation into the loss of 40,000+ university graduates per year from Southern Italy and its drag on national productivity.'
-            },
-            {
-                id: '12',
-                file: '12_geospatial_territorial_maps_nuts2_nuts3',
-                titleIt: '12. Atlante Geografico Completo (NUTS-2 e NUTS-3)',
-                titleEn: '12. Complete Geographic Atlas (NUTS-2 and NUTS-3)',
-                descIt: 'La raccolta completa delle mappe regionali e provinciali su tutti i 66 indicatori territoriali analizzati.',
-                descEn: 'The complete repository of regional and provincial GIS maps covering all 66 territorial indicators analyzed.'
-            },
-            {
-                id: '13',
-                file: '13_international_benchmarks_eurydice_oecd_wb',
-                titleIt: '13. Confronto Internazionale (EURYDICE, OCSE e Banca Mondiale)',
-                titleEn: '13. International Benchmarks (EURYDICE, OECD & World Bank)',
-                descIt: 'Come si posiziona l\'Italia rispetto a Germania, Francia, Regno Unito, Finlandia e Stati Uniti sui temi educativi.',
-                descEn: 'How Italy ranks compared to Germany, France, UK, Finland, and the USA across structural educational indicators.'
-            },
-            {
-                id: '14',
-                file: '14_data_inventory_and_schematic_explorer',
-                titleIt: '14. Catalogo e Dizionario di Tutti gli Indicatori Dati',
-                titleEn: '14. Complete Data Dictionary & Metadata Inventory',
-                descIt: 'Dizionario chiaro e trasparente per capire esattamente le definizioni, le fonti e le formule di ogni indicatore.',
-                descEn: 'Transparent metadata dictionary explaining exact mathematical definitions, sources, and provenance for every metric.'
-            },
-            {
-                id: '15',
-                file: '15_deep_cross_domain_econometric_synthesis',
-                titleIt: '15. Sintesi Finale Econometrica Trasversale',
-                titleEn: '15. Final Cross-Domain Econometric Synthesis',
-                descIt: 'La regressione statistica conclusiva che dimostra la connessione sistematica tra investimenti precoci e sviluppo civile.',
-                descEn: 'The concluding econometric regression demonstrating the systemic connection between early education investment and civic growth.'
+        function switchDataSubMode(mode) {
+            document.querySelectorAll('#tab-interactive-data .sub-tab').forEach(btn => {
+                btn.classList.remove('active', 'bg-blue-600', 'text-white');
+                btn.classList.add('bg-slate-800', 'text-slate-300');
+            });
+            const activeBtn = document.getElementById(`data-btn-${mode}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('bg-slate-800', 'text-slate-300');
+                activeBtn.classList.add('active', 'bg-blue-600', 'text-white');
             }
+
+            document.getElementById('data-mode-quick').classList.add('hidden');
+            document.getElementById('data-mode-slideshow').classList.add('hidden');
+            document.getElementById('data-mode-grid').classList.add('hidden');
+
+            const target = document.getElementById(`data-mode-${mode}`);
+            if (target) target.classList.remove('hidden');
+
+            if (mode === 'slideshow') renderSlideShow();
+            else if (mode === 'grid') renderAllDatasetsGrid();
+            else if (mode === 'quick') updateCitizenLab();
+        }
+
+        function switchSimSubMode(mode) {
+            document.querySelectorAll('#tab-simulator .sub-tab').forEach(btn => {
+                btn.classList.remove('active', 'bg-blue-600', 'text-white');
+                btn.classList.add('bg-slate-800', 'text-slate-300');
+            });
+            const activeBtn = document.getElementById(`sim-btn-${mode}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('bg-slate-800', 'text-slate-300');
+                activeBtn.classList.add('active', 'bg-blue-600', 'text-white');
+            }
+
+            document.getElementById('sim-mode-student').classList.add('hidden');
+            document.getElementById('sim-mode-policy').classList.add('hidden');
+
+            const target = document.getElementById(`sim-mode-${mode}`);
+            if (target) target.classList.remove('hidden');
+
+            if (mode === 'student') simulateStudentOTED();
+            else if (mode === 'policy') updateSimulatorUI();
+        }
+
+        // 3. Notebooks Catalog Grid Generator
+        const canonicalNotebooks = [
+            { id: '00', file: '00_master_capstone_oted_66_domains', titleIt: '00. Tesi Capstone: Quadro Generale e Sintesi Statistica', titleEn: '00. Master Capstone Thesis: Holistic Statistical Overview', descIt: 'Il documento principale che riassume l\'intera indagine e collega i dati dall\'asilo nido fino all\'università.', descEn: 'The core master document unifying the entire empirical investigation from nursery school to tertiary outcomes.' },
+            { id: '01', file: '01_holistic_master_statistical_analysis', titleIt: '01. Analisi Statistica e Matrice di Correlazione Territoriale', titleEn: '01. Master Statistical Analysis & Correlation Matrix', descIt: 'Analisi matematica delle correlazioni empiriche tra povertà educativa, spesa pubblica e disoccupazione.', descEn: 'Mathematical analysis of empirical correlations between educational poverty, public spending, and youth NEET rates.' },
+            { id: '02', file: '02_origin_early_childhood_and_educational_poverty', titleIt: '02. Prima Infanzia, Asili Nido e Disuguaglianze di Partenza', titleEn: '02. Early Childhood, Nursery Daycares & Initial Inequality', descIt: 'Indagine ISTAT e Openpolis sulla copertura dei nidi comunali 0-2 anni e il legame con la dispersione adolescente.', descEn: 'ISTAT and Openpolis empirical study on 0-2 municipal daycare gaps and their direct link to adolescent dropout risk.' },
+            { id: '03', file: '03_origin_textbook_burden_and_household_spending', titleIt: '03. Costo dei Libri di Testo e Spesa delle Famiglie', titleEn: '03. Textbook Burden & Household Financial Spending', descIt: 'Studio sui costi del paniere scolastico per provincia e incidenza sul reddito familiare nel Mezzogiorno.', descEn: 'Investigation of mandatory textbook basket costs across provinces and the financial burden on Southern families.' },
+            { id: '04', file: '04_tracking_tripartite_system_provenance', titleIt: '04. Scuola Tripartita: Licei vs Istituti Professionali', titleEn: '04. Tripartite School Tracking: Licei vs Vocational Institutes', descIt: 'Analisi sulla selezione precoce a 13 anni e come condiziona i tassi di bocciatura e la carriera successiva.', descEn: 'Analysis of early tracking at age 13 into academic vs vocational high schools and its impact on dropout rates.' },
+            { id: '05', file: '05_tracking_middle_to_upper_transition_and_barriers', titleIt: '05. Il Passaggio alle Superiori e le Barriere di Transizione', titleEn: '05. Middle to Upper Secondary Transition & Barriers', descIt: 'Studio sui colli di bottiglia nel passaggio dalla scuola media alle superiori nelle aree ad alta dispersione.', descEn: 'Study on systemic bottlenecks during the transition from middle school to upper secondary across high-risk provinces.' },
+            { id: '06', file: '06_tracking_repeaters_and_implicit_dropout', titleIt: '06. Bocciature, Ripetenze e Dispersione Scolastica Implicita', titleEn: '06. Grade Repetition (Bocciature) & Implicit Dropout', descIt: 'I dati ministeriali sulle ripetenze nei diversi indirizzi scolastici e il fenomeno degli studenti che terminano senza competenze base.', descEn: 'Ministerial data on grade repetitions across school tracks and the phenomenon of graduation without basic literacy skills.' },
+            { id: '07', file: '07_geospatial_tripartite_distribution', titleIt: '07. Mappe Geografiche: Distribuzione Territoriale delle Scuole', titleEn: '07. Geospatial Mapping: Territorial Distribution of Schools', descIt: 'Cartografia statistica che mostra in quali province e quartieri si concentrano i licei rispetto agli istituti professionali.', descEn: 'Statistical cartography mapping where academic high schools cluster versus where vocational schools dominate.' },
+            { id: '08', file: '08_transition_social_mobility_and_intermittency', titleIt: '08. Mobilità Sociale, Lavoro Intermittente e Pensioni', titleEn: '08. Social Mobility, Precarious Jobs & Future Pensions', descIt: 'Proiezioni empiriche su come le carriere discontinue dei giovani NEET incideranno sulla povertà pensionistica futura.', descEn: 'Empirical projections showing how intermittent youth careers under the contributory system lead to future old-age poverty.' },
+            { id: '09', file: '09_destination_fiscal_landscape_and_siope_delays', titleIt: '09. Spesa Reale dei Comuni (SIOPE) e Tempi di Pagamento', titleEn: '09. Municipal Real Cash Flows (SIOPE) & Infrastructure Delays', descIt: 'Analisi di oltre 7.900 bilanci comunali sulla spesa effettiva per le scuole, la manutenzione e le mense scolastiche.', descEn: 'Detailed cash-flow analysis of 7,900+ municipal budgets tracking actual expenditure on school infrastructure and cafeterias.' },
+            { id: '10', file: '10_destination_territorial_expenditure_and_deficits', titleIt: '10. Divario Nord-Sud nella Spesa Pubblica Scolastica', titleEn: '10. North-South Territorial Public Spending Gap', descIt: 'Confronto quantitativo sulla spesa per alunno tra le province del Nord, del Centro e del Mezzogiorno.', descEn: 'Quantitative breakdown of structural spending differences per student across Northern, Central, and Southern provinces.' },
+            { id: '11', file: '11_destination_tfp_stagnation_and_human_capital', titleIt: '11. Capitale Umano, Stagnazione della Produttività e Fuga dei Cervelli', titleEn: '11. Human Capital, TFP Productivity Stagnation & Brain Drain', descIt: 'Indagine sulla perdita di oltre 40.000 laureati l\'anno dal Sud e l\'impatto sulla produttività economica nazionale.', descEn: 'Investigation into the loss of 40,000+ university graduates per year from Southern Italy and its drag on national productivity.' },
+            { id: '12', file: '12_geospatial_territorial_maps_nuts2_nuts3', titleIt: '12. Atlante Geografico Completo (NUTS-2 e NUTS-3)', titleEn: '12. Complete Geographic Atlas (NUTS-2 and NUTS-3)', descIt: 'La raccolta completa delle mappe regionali e provinciali su tutti i 66 indicatori territoriali analizzati.', descEn: 'The complete repository of regional and provincial GIS maps covering all 66 territorial indicators analyzed.' },
+            { id: '13', file: '13_international_benchmarks_eurydice_oecd_wb', titleIt: '13. Confronto Internazionale (EURYDICE, OCSE e Banca Mondiale)', titleEn: '13. International Benchmarks (EURYDICE, OECD & World Bank)', descIt: 'Come si posiziona l\'Italia rispetto a Germania, Francia, Regno Unito, Finlandia e Stati Uniti sui temi educativi.', descEn: 'How Italy ranks compared to Germany, France, UK, Finland, and the USA across structural educational indicators.' },
+            { id: '14', file: '14_data_inventory_and_schematic_explorer', titleIt: '14. Catalogo e Dizionario di Tutti gli Indicatori Dati', titleEn: '14. Complete Data Dictionary & Metadata Inventory', descIt: 'Dizionario chiaro e trasparente per capire esattamente le definizioni, le fonti e le formule di ogni indicatore.', descEn: 'Transparent metadata dictionary explaining exact mathematical definitions, sources, and provenance for every metric.' },
+            { id: '15', file: '15_deep_cross_domain_econometric_synthesis', titleIt: '15. Sintesi Finale Econometrica Trasversale', titleEn: '15. Final Cross-Domain Econometric Synthesis', descIt: 'La regressione statistica conclusiva che dimostra la connessione sistematica tra investimenti precoci e sviluppo civile.', descEn: 'The concluding econometric regression demonstrating the systemic connection between early education investment and civic growth.' }
         ];
 
         function renderNotebookCards() {
@@ -797,12 +1140,9 @@
                     </div>
 
                     <div class="mt-6 pt-4 border-t border-slate-800 space-y-2.5">
-                        <!-- BUTTON 1: VIEW AS-IS HTML -->
                         <a href="rendered_notebooks/${nb.file}.html" target="_blank" class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-xs transition shadow-md flex items-center justify-center gap-2">
                             <span>${btnHtmlText}</span>
                         </a>
-
-                        <!-- BUTTON 2 & 3 GRID: COLAB + GITHUB -->
                         <div class="grid grid-cols-2 gap-2">
                             <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/notebooks/${nb.file}.ipynb" target="_blank" class="py-2 px-3 rounded-xl bg-amber-500/15 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 font-bold text-[11px] transition flex items-center justify-center gap-1.5 text-center">
                                 <span>${btnColabText}</span>
@@ -823,131 +1163,29 @@
             const region = document.getElementById('regionSelector').value;
             const chartType = document.getElementById('chartTypeSelector').value;
 
-            const chartTitleEl = document.getElementById('chartTitle');
-            const kpiTitleEl = document.getElementById('kpiTitle');
-            const kpiDescEl = document.getElementById('kpiDescription');
-            const kpiMetricEl = document.getElementById('kpiMetric');
+            const targetObj = allDatasetsList.find(d => d.id === dataset) || allDatasetsList[0];
+
+            document.getElementById('chartTitle').innerText = (currentLang === 'it') ? targetObj.titleIt : targetObj.titleEn;
+            document.getElementById('kpiTitle').innerText = (currentLang === 'it') ? 'Dato Statistico Ufficiale di Sintesi' : 'Official Summary Statistical Takeaway';
+            document.getElementById('kpiDescription').innerText = (currentLang === 'it') ? targetObj.descIt : targetObj.descEn;
+            document.getElementById('kpiMetric').innerText = (currentLang === 'it') ? targetObj.metricIt : targetObj.metricEn;
+
             const kpiSourceBtn = document.getElementById('kpiSourceBtn');
-            const kpiSourceText = document.getElementById('kpiSourceText');
-            const kpiSourceDetail = document.getElementById('kpiSourceDetail');
-
-            let labels = [];
-            let dataValues = [];
-            let chartLabel = "";
-            let sourceUrl = "https://www.istat.it";
-            let sourceLabel = (currentLang === 'it') ? "Fonte: ISTAT / Openpolis" : "Source: ISTAT / Openpolis";
-
-            if (dataset === 'openpolis') {
-                chartTitleEl.innerText = (currentLang === 'it') ? '👶 Asili Nido vs Giovani NEET nelle 11 Grandi Città Italiane' : '👶 Municipal Daycare Coverage vs Youth NEET in 11 Major Cities';
-                kpiTitleEl.innerText = (currentLang === 'it') ? 'Il Legame Diretto tra Servizi Infanzia e Abbandono' : 'Direct Link between Daycares and School Dropout';
-                kpiDescEl.innerText = (currentLang === 'it') ?
-                    'I dati mostrano che nelle città dove mancano i posti nido comunali (es. Catania, Napoli, Palermo sotto il 12%), i ragazzi subiscono un gap iniziale che aumenta drasticamente il rischio di diventare NEET anni dopo.' :
-                    'Data show that in cities lacking municipal daycares (e.g., Catania, Naples, Palermo under 12%), children suffer an initial gap that drastically increases their risk of becoming NEET years later.';
-                kpiMetricEl.innerText = '+68% Correlazione';
-                sourceUrl = 'https://www.openpolis.it/parole/che-cosa-e-la-poverta-educativa/';
-                sourceLabel = (currentLang === 'it') ? 'Fonte: Openpolis / ISTAT' : 'Source: Openpolis / ISTAT';
-
-                labels = ['Bologna', 'Firenze', 'Milano', 'Torino', 'Genova', 'Venezia', 'Roma', 'Bari', 'Palermo', 'Napoli', 'Catania'];
-                dataValues = [41.2, 39.8, 35.4, 34.1, 31.5, 30.2, 26.8, 18.4, 11.2, 10.4, 8.9];
-                chartLabel = (currentLang === 'it') ? '% Copertura Asili Nido (Fascia 0-2 Anni)' : '% Daycare Coverage (0-2 Years)';
-            } else if (dataset === 'macro_spending') {
-                chartTitleEl.innerText = (currentLang === 'it') ? '📈 Spesa dello Stato per l\'Istruzione (% del PIL dal 1913 a Oggi)' : '📈 Public Expenditure on Education (% GDP 1913–Present)';
-                kpiTitleEl.innerText = (currentLang === 'it') ? 'Il Gap Storico di Risorse Rispetto a OCSE' : 'Historical Resource Gap vs OECD Average';
-                kpiDescEl.innerText = (currentLang === 'it') ?
-                    'L\'Italia investe oggi circa il 4.1% del PIL nella scuola e università, restando sistematicamente al di sotto della media dei paesi avanzati OCSE (4.9%).' :
-                    'Italy currently invests ~4.1% of its GDP in education, remaining systematically below the OECD advanced economy average (4.9%).';
-                kpiMetricEl.innerText = '4.1% Spesa PIL (vs 4.9% OCSE)';
-                sourceUrl = 'https://www.rgs.mef.gov.it/';
-                sourceLabel = (currentLang === 'it') ? 'Fonte: MEF / ISTAT / OCSE' : 'Source: MEF / ISTAT / OECD';
-
-                labels = ['1913', '1930', '1950', '1970', '1990', '2005', '2015', '2024'];
-                dataValues = [1.3, 1.8, 2.4, 3.8, 5.1, 4.6, 4.0, 4.1];
-                chartLabel = (currentLang === 'it') ? 'Spesa Istruzione (% PIL)' : 'Education Spending (% GDP)';
-            } else if (dataset === 'siope_municipal') {
-                chartTitleEl.innerText = (currentLang === 'it') ? '🏛️ Spesa Comunale per Alunno e Servizi (Dati SIOPE su 7.959 Comuni)' : '🏛️ Municipal Spending per Student (SIOPE 7,959 Municipalities)';
-                kpiTitleEl.innerText = (currentLang === 'it') ? 'I Bilanci Reali per Scuole e Manutenzione' : 'Real Budgets for School Safety & Maintenance';
-                kpiDescEl.innerText = (currentLang === 'it') ?
-                    'L\'analisi dei flussi di cassa del Ministero dell\'Economia (SIOPE) rivela che i Comuni del Nord-Centro riescono a spendere fino al doppio per alunno in manutenzione e mense rispetto ai Comuni del Mezzogiorno.' :
-                    'Treasury cash flow analysis (SIOPE) reveals North-Central municipalities spend up to double per student on school maintenance and cafeterias compared to Southern municipalities.';
-                kpiMetricEl.innerText = '218 € vs 114 € / Alunno';
-                sourceUrl = 'https://www.siope.it/';
-                sourceLabel = (currentLang === 'it') ? 'Fonte: MEF SIOPE' : 'Source: MEF SIOPE';
-
-                labels = ['Milano', 'Bologna', 'Torino', 'Firenze', 'Roma', 'Bari', 'Napoli', 'Palermo', 'Catania'];
-                dataValues = [285, 264, 241, 238, 192, 134, 118, 112, 104];
-                chartLabel = (currentLang === 'it') ? 'Spesa Comunale Annua per Alunno (€)' : 'Annual Municipal Spending per Student (€)';
-            } else if (dataset === 'tripartite') {
-                chartTitleEl.innerText = (currentLang === 'it') ? '🎒 Licei vs Istituti Professionali: Tassi di Bocciatura e Abbandono' : '🎒 Academic Licei vs Vocational Schools: Dropout & Repetition Rates';
-                kpiTitleEl.innerText = (currentLang === 'it') ? 'L\'Imbuto Sociale della Scelta Precoce a 13 Anni' : 'The Social Funnel of Early Tracking at Age 13';
-                kpiDescEl.innerText = (currentLang === 'it') ?
-                    'La separazione precoce degli studenti a 13 anni concentra negli Istituti Professionali un tasso di bocciatura (14.8%) che è oltre 4 volte superiore a quello dei Licei (3.5%).' :
-                    'Early tracking at age 13 concentrates a grade repetition rate of 14.8% in Vocational institutes—over 4 times higher than in Academic Licei (3.5%).';
-                kpiMetricEl.innerText = '14.8% Bocciature nei Professionali';
-                sourceUrl = 'https://dati.istruzione.it/';
-                sourceLabel = (currentLang === 'it') ? 'Fonte: Ministero MIM' : 'Source: Ministry MIM';
-
-                labels = ['Licei Classici / Scientifici', 'Licei delle Scienze Umane', 'Istituti Tecnici Economici', 'Istituti Tecnici Tecnologici', 'Istituti Professionali'];
-                dataValues = [3.5, 5.2, 9.4, 11.2, 14.8];
-                chartLabel = (currentLang === 'it') ? 'Tasso di Bocciatura e Ripetenze (%)' : 'Grade Repetition Rate (%)';
-            } else if (dataset === 'textbook_costs') {
-                chartTitleEl.innerText = (currentLang === 'it') ? '📚 Costo dei Libri di Testo a Carico delle Famiglie (Dati Ministero 2024-25)' : '📚 Household Textbook Cost Burden (Ministry Data 2024-25)';
-                kpiTitleEl.innerText = (currentLang === 'it') ? 'Il Peso Finanziario per Mandare i Figli a Scuola' : 'The Financial Burden of Sending Children to School';
-                kpiDescEl.innerText = (currentLang === 'it') ?
-                    'Il costo medio del paniere obbligatorio di libri per le prime superiori supera i 260€, incidendo pesantemente sui bilanci delle famiglie a basso reddito nel Mezzogiorno.' :
-                    'The average mandatory textbook basket for first-year upper secondary exceeds €260, heavily weighing on low-income households in Southern Italy.';
-                kpiMetricEl.innerText = '262 € Costo Medio Superiori';
-                sourceUrl = 'https://dati.istruzione.it/';
-                sourceLabel = (currentLang === 'it') ? 'Fonte: Ministero MIM' : 'Source: Ministry MIM';
-
-                labels = ['Lombardia', 'Emilia-Romagna', 'Veneto', 'Lazio', 'Campania', 'Puglia', 'Sicilia'];
-                dataValues = [262.4, 260.5, 258.1, 252.0, 245.0, 246.5, 244.2];
-                chartLabel = (currentLang === 'it') ? 'Costo Medio Libri di Testo 1° Anno Superiori (€)' : 'Average Textbook Cost 1st Year High School (€)';
-            } else if (dataset === 'teacher_precariato') {
-                chartTitleEl.innerText = (currentLang === 'it') ? '👩‍🏫 Precariato Docenti e Supplenze di Sostegno per Disabili (2024-25)' : '👩‍🏫 Special Ed Support Teacher Precariato & Substitutes (2024-25)';
-                kpiTitleEl.innerText = (currentLang === 'it') ? 'L\'Emergenza della Continuità Didattica' : 'The Emergency of Educational Continuity';
-                kpiDescEl.innerText = (currentLang === 'it') ?
-                    'I dati ufficiali del Ministero indicano che oltre il 64% dei docenti di sostegno per alunni con disabilità ha un contratto precario di un solo anno, negando stabilità e continuità formativa.' :
-                    'Official Ministry data show that over 64% of special education support teachers are on 1-year precarious substitute contracts, denying stability to vulnerable students.';
-                kpiMetricEl.innerText = '64.6% Supplenze su Sostegno';
-                sourceUrl = 'https://dati.istruzione.it/';
-                sourceLabel = (currentLang === 'it') ? 'Fonte: Ministero MIM' : 'Source: Ministry MIM';
-
-                labels = ['Palermo', 'Napoli', 'Torino', 'Roma', 'Milano', 'Bologna', 'Firenze', 'Bari'];
-                dataValues = [76.0, 68.8, 63.6, 60.8, 57.1, 55.4, 58.2, 71.5];
-                chartLabel = (currentLang === 'it') ? '% Supplenze Temporanee su Posti di Sostegno' : '% Substitutes on Special Ed Support Jobs';
-            } else {
-                // Default fallback / general benchmark
-                chartTitleEl.innerText = (currentLang === 'it') ? '🌍 Confronto Internazionale: Scuola Tripartita vs Scuola Unica' : '🌍 International Benchmark: Tripartite vs Comprehensive Systems';
-                kpiTitleEl.innerText = (currentLang === 'it') ? 'Perché i Paesi con Scuola Unica Hanno Più Laureati' : 'Why Comprehensive Systems Yield More Graduates';
-                kpiDescEl.innerText = (currentLang === 'it') ?
-                    'I paesi che mantengono la scuola unica fino a 16 anni (es. Finlandia, UK, USA) mostrano tassi di transizione all\'università superiori di 25 punti rispetto ai sistemi con separazione precoce a 13 anni.' :
-                    'Countries maintaining comprehensive schooling until age 16 (e.g. Finland, UK, USA) show university transition rates 25 points higher than early-tracking systems at age 13.';
-                kpiMetricEl.innerText = '82% Transizione vs 56% Italia';
-                sourceUrl = 'https://www.oecd.org/education/education-at-a-glance/';
-                sourceLabel = (currentLang === 'it') ? 'Fonte: OCSE / EURYDICE' : 'Source: OECD / EURYDICE';
-
-                labels = ['Finlandia (Unica 16 anni)', 'Regno Unito (Unica 16 anni)', 'Stati Uniti (Comprehensive)', 'Francia (Collège Unico)', 'Italia (Tripartita 13 anni)', 'Germania (Tripartita 10 anni)'];
-                dataValues = [84.5, 81.2, 79.8, 72.4, 56.8, 54.2];
-                chartLabel = (currentLang === 'it') ? 'Tasso di Transizione all\'Università (%)' : 'University Transition Rate (%)';
+            if (kpiSourceBtn) {
+                kpiSourceBtn.href = targetObj.sourceUrl;
+                document.getElementById('kpiSourceText').innerText = (currentLang === 'it') ? 'Fonte Ufficiale' : 'Official Source';
             }
 
-            // Update external buttons
-            if (kpiSourceBtn && kpiSourceText) {
-                kpiSourceBtn.href = sourceUrl;
-                kpiSourceText.innerText = sourceLabel;
-            }
-
-            // Render Chart.js
             const ctx = document.getElementById('citizenChartCanvas').getContext('2d');
             if (citizenChartInstance) citizenChartInstance.destroy();
 
             citizenChartInstance = new Chart(ctx, {
                 type: chartType,
                 data: {
-                    labels: labels,
+                    labels: targetObj.labels,
                     datasets: [{
-                        label: chartLabel,
-                        data: dataValues,
+                        label: (currentLang === 'it') ? targetObj.titleIt : targetObj.titleEn,
+                        data: targetObj.data,
                         backgroundColor: chartType === 'line' ? 'rgba(59, 130, 246, 0.2)' : 'rgba(59, 130, 246, 0.75)',
                         borderColor: '#3b82f6',
                         borderWidth: 2,
@@ -959,29 +1197,235 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
-                    plugins: {
-                        legend: { labels: { color: '#f8fafc', font: { family: 'Plus Jakarta Sans', weight: 'bold' } } }
-                    },
+                    plugins: { legend: { labels: { color: '#f8fafc', font: { family: 'Plus Jakarta Sans', weight: 'bold' } } } },
                     scales: {
-                        y: {
-                            beginAtZero: true,
-                            grid: { color: 'rgba(148, 163, 184, 0.1)' },
-                            ticks: { color: '#94a3b8' }
-                        },
-                        x: {
-                            grid: { display: false },
-                            ticks: { color: '#cbd5e1', font: { weight: '600' } }
-                        }
+                        y: { beginAtZero: true, grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                        x: { grid: { display: false }, ticks: { color: '#cbd5e1', font: { weight: '600' } } }
                     }
                 }
             });
         }
 
-        // 5. Civic Simulator Engine (`updateSimulatorUI`)
+        function downloadMinisterialDataset() {
+            const dataset = document.getElementById('datasetSelector').value;
+            const targetObj = allDatasetsList.find(d => d.id === dataset) || allDatasetsList[0];
+            window.open(`https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/${targetObj.csv}`, '_blank');
+        }
+
+        // 5. SLIDESHOW & MULTI-VISUALIZATION ENGINE
+        function renderSlideShow() {
+            const item = allDatasetsList[currentSlideIndex];
+            if (!item) return;
+
+            const badge = document.getElementById('slideCounterBadge');
+            if (badge) badge.innerText = `Slide ${currentSlideIndex + 1} / ${allDatasetsList.length}`;
+            const title = document.getElementById('slideTitle');
+            if (title) title.innerText = (currentLang === 'it') ? item.titleIt : item.titleEn;
+            const desc = document.getElementById('slideDescription');
+            if (desc) desc.innerText = (currentLang === 'it') ? item.descIt : item.descEn;
+            const metric = document.getElementById('slideMetric');
+            if (metric) metric.innerText = (currentLang === 'it') ? item.metricIt : item.metricEn;
+            const srcBtn = document.getElementById('slideSourceBtn');
+            if (srcBtn) srcBtn.href = item.sourceUrl;
+
+            const canvas = document.getElementById('slideChartCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            if (slideChartInstance) slideChartInstance.destroy();
+
+            slideChartInstance = new Chart(ctx, {
+                type: currentSlideChartType,
+                data: {
+                    labels: item.labels,
+                    datasets: [{
+                        label: (currentLang === 'it') ? item.titleIt : item.titleEn,
+                        data: item.data,
+                        backgroundColor: currentSlideChartType === 'line' ? 'rgba(16, 185, 129, 0.2)' : 'rgba(59, 130, 246, 0.75)',
+                        borderColor: '#10b981',
+                        borderWidth: 2,
+                        borderRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { beginAtZero: true, grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                        x: { grid: { display: false }, ticks: { color: '#cbd5e1', font: { size: 10 } } }
+                    }
+                }
+            });
+        }
+
+        function prevSlide() {
+            currentSlideIndex = (currentSlideIndex - 1 + allDatasetsList.length) % allDatasetsList.length;
+            renderSlideShow();
+        }
+
+        function nextSlide() {
+            currentSlideIndex = (currentSlideIndex + 1) % allDatasetsList.length;
+            renderSlideShow();
+        }
+
+        function changeSlideChartType(type) {
+            currentSlideChartType = type;
+            document.querySelectorAll('#data-mode-slideshow button[id^="slide-btn-"]').forEach(btn => btn.classList.remove('bg-blue-600', 'text-white'));
+            const activeBtn = document.getElementById(`slide-btn-${type}`);
+            if (activeBtn) activeBtn.classList.add('bg-blue-600', 'text-white');
+            renderSlideShow();
+        }
+
+        function downloadSlideCSV() {
+            const item = allDatasetsList[currentSlideIndex];
+            if (item) window.open(`https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/${item.csv}`, '_blank');
+        }
+
+        function renderAllDatasetsGrid() {
+            const container = document.getElementById('all-datasets-grid-container');
+            if (!container) return;
+
+            container.innerHTML = allDatasetsList.map((item, idx) => {
+                const title = (currentLang === 'it') ? item.titleIt : item.titleEn;
+                const desc = (currentLang === 'it') ? item.descIt : item.descEn;
+                const metric = (currentLang === 'it') ? item.metricIt : item.metricEn;
+
+                return `
+                <div class="glass-card p-5 rounded-2xl flex flex-col justify-between border border-slate-800">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 text-[10px] font-bold uppercase">Dataset #${idx+1}</span>
+                            <span class="text-xs font-black text-emerald-400">${metric}</span>
+                        </div>
+                        <h4 class="text-sm md:text-base font-bold text-white leading-snug">${title}</h4>
+                        <p class="text-slate-300 text-[11px] mt-2 leading-relaxed line-clamp-3">${desc}</p>
+                    </div>
+
+                    <!-- Mini Chart Box -->
+                    <div class="my-4 h-32 w-full bg-slate-950/80 p-2 rounded-xl border border-slate-800/80">
+                        <canvas id="miniChart_${item.id}"></canvas>
+                    </div>
+
+                    <div class="pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
+                        <a href="${item.sourceUrl}" target="_blank" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-blue-300 font-bold text-[11px] transition flex items-center gap-1">
+                            <span>🔗 ${currentLang === 'it' ? 'Fonte' : 'Source'}</span>
+                        </a>
+                        <button onclick="window.open('https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/${item.csv}', '_blank')" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[11px] transition flex items-center gap-1 shadow">
+                            <span>📥 CSV</span>
+                        </button>
+                    </div>
+                </div>
+                `;
+            }).join('');
+
+            // Instantiate mini-charts cleanly after DOM insertion
+            setTimeout(() => {
+                allDatasetsList.forEach(item => {
+                    const canvas = document.getElementById(`miniChart_${item.id}`);
+                    if (!canvas) return;
+                    new Chart(canvas.getContext('2d'), {
+                        type: 'bar',
+                        data: {
+                            labels: item.labels.map(l => l.substring(0, 5) + '..'),
+                            datasets: [{
+                                data: item.data,
+                                backgroundColor: 'rgba(59, 130, 246, 0.65)',
+                                borderRadius: 4
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false }, tooltip: { enabled: false } },
+                            scales: {
+                                y: { display: false },
+                                x: { display: false }
+                            }
+                        }
+                    });
+                });
+            }, 50);
+        }
+
+        // 6. STUDENT OTED LIFE-COURSE SIMULATOR (`simulateStudentOTED`)
+        function simulateStudentOTED() {
+            const origin = document.getElementById('studentOriginSel')?.value || 'sud_no_nido';
+            const family = document.getElementById('studentFamilySel')?.value || 'basso';
+            const track = document.getElementById('studentTrackSel')?.value || 'professionale';
+            const leave16 = document.getElementById('studentLeave16Sel')?.value || 'diploma_5anni';
+            const postSel = document.getElementById('studentPostSel');
+
+            // If left school at age 16 without a diploma, lock destination choices
+            if (leave16 === 'lascia_16' && postSel) {
+                postSel.value = 'lavoro_senza_diploma';
+                postSel.disabled = true;
+            } else if (postSel) {
+                postSel.disabled = false;
+            }
+
+            const post = postSel?.value || 'lavoro_con_diploma';
+
+            // Base calculations
+            let neetProb = 14.5;
+            let netIncome = 1400;
+            let pensionTextIt = "Pensione Contributiva Stabile (>1.400€ / mese)";
+            let pensionTextEn = "Stable Contributory Pension (>€1,400 / mo)";
+            let verdictIt = "Traiettoria Standard e di Sviluppo";
+            let verdictEn = "Standard & Developmental Trajectory";
+            let rescueIt = "Un percorso sostenuto da un contesto territoriale ed educativo di supporto.";
+            let rescueEn = "A journey supported by early municipal and educational infrastructure.";
+
+            if (origin === 'sud_no_nido') { neetProb += 12.0; netIncome -= 220; }
+            else if (origin === 'nord_hi_nido') { neetProb -= 5.0; netIncome += 200; }
+
+            if (family === 'basso') { neetProb += 8.5; netIncome -= 150; }
+            else if (family === 'alto') { neetProb -= 6.0; netIncome += 300; }
+
+            if (track === 'professionale') { neetProb += 9.0; netIncome -= 120; }
+            else if (track === 'liceo') { neetProb -= 4.0; netIncome += 180; }
+
+            if (leave16 === 'lascia_16') {
+                neetProb += 24.0;
+                netIncome = 850;
+                pensionTextIt = "Pensione Minima / Assegno Sociale (~550€ - 650€ / mese per buchi contributivi)";
+                pensionTextEn = "Social Allowance / Minimum Pension (~€550 - €650 / mo due to gaps)";
+                verdictIt = "🔴 ALLARME ABBANDONO PRECOCE A 16 ANNI";
+                verdictEn = "🔴 AGE 16 EARLY DROPOUT ALARM";
+                rescueIt = "L'uscita a 16 anni senza diploma, in un territorio privo di asili nido e con separazione scolastica a 13 anni, espone il giovane a una probabilità di disoccupazione/NEET superiore al 55% e a una vecchiaia precarizzata. Investire in asili e ponti di orientamento avrebbe ridotto questo rischio di oltre due terzi.";
+                rescueEn = "Leaving school at age 16 without a diploma in an area without daycares creates a >55% NEET risk and old-age poverty under the contributory system. Municipal daycares and guidance bridges would have prevented this.";
+            } else if (leave16 === 'bocciato_ripete') {
+                neetProb += 8.0;
+                netIncome -= 100;
+                verdictIt = "🟡 Ritardo Scolastico / Bocciature Acculate";
+                verdictEn = "🟡 Accumulated Grade Repetitions & Delay";
+                rescueIt = "Le bocciature alle superiori raddoppiano il rischio di dispersione implicita. Il tutoraggio pedagogico continuo (RAV) e il tempo pieno avrebbero evitato la demotivazione e la ripetenza.";
+                rescueEn = "Grade repetition doubles implicit dropout risk. Ongoing didactic mentoring and afternoon school cafeterias would have maintained student engagement.";
+            } else if (post === 'uni_sud') {
+                neetProb += 3.5;
+                verdictIt = "🔵 Università al Sud / Rischio Fuoricorso (31%)";
+                verdictEn = "🔵 Southern University / Fuoricorso Risk (31%)";
+            } else if (post === 'uni_nord' || post === 'lavoro_con_diploma') {
+                if (leave16 === 'diploma_5anni') {
+                    verdictIt = "🟢 Transizione Qualificata di Successo";
+                    verdictEn = "🟢 Successful Qualified Transition";
+                }
+            }
+
+            neetProb = Math.min(85.0, Math.max(4.2, neetProb)).toFixed(1);
+
+            document.getElementById('otedNeetVal').innerText = `${neetProb}%`;
+            document.getElementById('otedIncomeVal').innerHTML = `€ ${netIncome.toLocaleString()} <span class="text-xs font-normal text-slate-400">/ mese</span>`;
+            document.getElementById('otedPensionVal').innerText = (currentLang === 'it') ? (leave16 === 'lascia_16' ? 'Pensione Minima (<650€)' : 'Pensione Stabile (>1.400€)') : (leave16 === 'lascia_16' ? 'Minimum Pension (<€650)' : 'Stable Pension (>€1,400)');
+            document.getElementById('otedPensionDesc').innerText = (currentLang === 'it') ? pensionTextIt : pensionTextEn;
+            document.getElementById('otedVerdictVal').innerText = (currentLang === 'it') ? verdictIt : verdictEn;
+            document.getElementById('otedPolicyRescueText').innerText = (currentLang === 'it') ? rescueIt : rescueEn;
+        }
+
+        // 7. CIVIC POLICY DIY SIMULATOR (`updateSimulatorUI`)
         function updateSimulatorUI() {
-            const nidi = parseFloat(document.getElementById('sliderNidi').value) || 0;
-            const siope = parseFloat(document.getElementById('sliderSiope').value) || 0;
-            const tripart = parseFloat(document.getElementById('sliderTripart').value) || 0;
+            const nidi = parseFloat(document.getElementById('sliderNidi')?.value) || 0;
+            const siope = parseFloat(document.getElementById('sliderSiope')?.value) || 0;
+            const tripart = parseFloat(document.getElementById('sliderTripart')?.value) || 0;
 
             const valNidiEl = document.getElementById('sliderValNidi');
             const valSiopeEl = document.getElementById('sliderValSiope');
@@ -991,16 +1435,12 @@
             if (valSiopeEl) valSiopeEl.innerText = `+${siope}%`;
             if (valTripartEl) valTripartEl.innerText = `+${tripart}%`;
 
-            // Plain language calculations based on our real OLS coefficients
-            // Base NEET is 16.1%. Each +1% Nidi reduces NEET by 0.18%. Each +1% Siope reduces by 0.06%. Each +1% bridge reduces by 0.04%.
             const deltaNeet = (nidi * 0.18) + (siope * 0.06) + (tripart * 0.04);
             const newNeet = Math.max(7.5, (16.1 - deltaNeet)).toFixed(1);
 
-            // Pension exclusion risk base is 22.4%.
             const deltaPension = (nidi * 0.14) + (siope * 0.08) + (tripart * 0.09);
             const newPension = Math.max(10.0, (22.4 - deltaPension)).toFixed(1);
 
-            // Retained graduates saved per year from Southern emigration (base loss 40,000)
             const savedGraduates = Math.round((nidi * 450) + (siope * 280) + (tripart * 190));
 
             const neetValEl = document.getElementById('diyNeetVal');
@@ -1017,7 +1457,7 @@
 
             if (pensionValEl) pensionValEl.innerHTML = `${newPension}% <span class="text-sm font-normal text-slate-400">${currentLang === 'it' ? 'Rischio' : 'Risk'}</span>`;
             if (pensionDescEl) pensionDescEl.innerText = (currentLang === 'it') ?
-                `Riduzione di -${deltaPension.toFixed(1)} punti del rischio di carriere precarie che portano a pensioni di vecchiaia sotto la soglia di povertà.` :
+                `Riduzione di -${deltaPension.toFixed(1)} punti del rischio di carriere precarie che portano a pensioni sotto la soglia di povertà.` :
                 `-${deltaPension.toFixed(1)} point reduction in precarious careers leading to old-age poverty under the contributory pension system.`;
 
             if (drainValEl) drainValEl.innerHTML = `+${savedGraduates.toLocaleString()} <span class="text-sm font-normal text-slate-400">${currentLang === 'it' ? 'Giovani / Anno' : 'Youth / Year'}</span>`;
@@ -1027,24 +1467,10 @@
         }
 
         function resetSimulator() {
-            document.getElementById('sliderNidi').value = 0;
-            document.getElementById('sliderSiope').value = 0;
-            document.getElementById('sliderTripart').value = 0;
+            if (document.getElementById('sliderNidi')) document.getElementById('sliderNidi').value = 0;
+            if (document.getElementById('sliderSiope')) document.getElementById('sliderSiope').value = 0;
+            if (document.getElementById('sliderTripart')) document.getElementById('sliderTripart').value = 0;
             updateSimulatorUI();
-        }
-
-        function downloadMinisterialDataset() {
-            const dataset = document.getElementById('datasetSelector').value;
-            let fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_regional_model_panel.csv";
-
-            if (dataset === 'openpolis') fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/openpolis_neet_metropolitan_capitals.csv";
-            else if (dataset === 'macro_spending') fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/italy_education_expenditure_history_panel.csv";
-            else if (dataset === 'siope_municipal') fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/siope_school_expenditure_summary.sample.csv";
-            else if (dataset === 'tripartite') fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/transition_bridge_model_panel.csv";
-            else if (dataset === 'textbook_costs') fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_textbook_costs_by_region_level.csv";
-            else if (dataset === 'teacher_precariato') fileUrl = "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/ministerial_teacher_workforce_precariato_2024_25.csv";
-
-            window.open(fileUrl, '_blank');
         }
 
         // INITIALIZE ON LOAD
@@ -1052,6 +1478,9 @@
             renderNotebookCards();
             updateCitizenLab();
             updateSimulatorUI();
+            renderSlideShow();
+            renderAllDatasetsGrid();
+            simulateStudentOTED();
         });
     </script>
 </body>
