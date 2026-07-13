@@ -91,28 +91,33 @@
         </div>
     </header>
 
-    <!-- TAB NAVIGATION BAR -->
+    <!-- TAB NAVIGATION BAR (5 TABS) -->
     <nav class="bg-slate-900/90 border-b border-slate-800 sticky top-20 z-40 py-3 px-6">
-        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center sm:justify-start gap-2 md:gap-4">
-            <button onclick="switchTab('manifesto')" id="tab-btn-manifesto" class="nav-tab active px-5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center sm:justify-start gap-2 md:gap-3">
+            <button onclick="switchTab('manifesto')" id="tab-btn-manifesto" class="nav-tab active px-4.5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>📜</span>
-                <span class="lang-it">1. Il Manifesto (Che Cosa Dicono i Numeri)</span>
-                <span class="lang-en hidden">1. The Manifesto (What the Numbers Show)</span>
+                <span class="lang-it">1. Il Manifesto</span>
+                <span class="lang-en hidden">1. The Manifesto</span>
             </button>
-            <button onclick="switchTab('interactive-data')" id="tab-btn-interactive-data" class="nav-tab px-5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
+            <button onclick="switchTab('interactive-data')" id="tab-btn-interactive-data" class="nav-tab px-4.5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>📊</span>
-                <span class="lang-it">2. Esplora Tutti i 15 Dati e Slideshow</span>
-                <span class="lang-en hidden">2. Explore All 15 Datasets & Slideshow</span>
+                <span class="lang-it">2. Tutti i 15 Dati & Slideshow</span>
+                <span class="lang-en hidden">2. All 15 Datasets & Slideshow</span>
             </button>
-            <button onclick="switchTab('simulator')" id="tab-btn-simulator" class="nav-tab px-5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
+            <button onclick="switchTab('simulator')" id="tab-btn-simulator" class="nav-tab px-4.5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>👤/⚙️</span>
-                <span class="lang-it">3. Simulatore Studente OTED & Policy DIY</span>
-                <span class="lang-en hidden">3. Student OTED Simulator & Policy DIY</span>
+                <span class="lang-it">3. Simulatore Studente & Policy</span>
+                <span class="lang-en hidden">3. Student Simulator & Policy</span>
             </button>
-            <button onclick="switchTab('notebooks')" id="tab-btn-notebooks" class="nav-tab px-5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
+            <button onclick="switchTab('notebooks')" id="tab-btn-notebooks" class="nav-tab px-4.5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>📑</span>
-                <span class="lang-it">4. I 16 Quaderni di Ricerca (HTML & Colab)</span>
-                <span class="lang-en hidden">4. The 16 Research Notebooks (HTML & Colab)</span>
+                <span class="lang-it">4. I 16 Quaderni</span>
+                <span class="lang-en hidden">4. The 16 Notebooks</span>
+            </button>
+            <button onclick="switchTab('collaborate')" id="tab-btn-collaborate" class="nav-tab px-4.5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
+                <span>🤝</span>
+                <span class="lang-it">5. Collabora & Open Science</span>
+                <span class="lang-en hidden">5. Collaborate & Open Science</span>
             </button>
         </div>
     </nav>
@@ -210,13 +215,13 @@
                         <span class="lang-en hidden">Ready to verify the data with your own eyes or simulate your student journey?</span>
                     </h3>
                     <p class="text-slate-400 text-sm mt-1">
-                        <span class="lang-it">Esplora la presentazione completa di tutti i 15 dataset oppure mettiti nei panni di uno studente italiano.</span>
-                        <span class="lang-en hidden">Explore the complete slideshow of all 15 datasets or step into the shoes of an Italian student.</span>
+                        <span class="lang-it">Esplora l'intero catalogo di tutti i 15 dataset oppure mettiti nei panni di uno studente italiano.</span>
+                        <span class="lang-en hidden">Browse the entire catalog of all 15 datasets or step into the shoes of an Italian student.</span>
                     </p>
                 </div>
                 <div class="flex flex-wrap items-center gap-4">
                     <button onclick="switchTab('interactive-data')" class="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm transition shadow-lg shadow-blue-500/30 flex items-center gap-2">
-                        <span>🖼️</span> <span class="lang-it">Vedi Slideshow Dati</span><span class="lang-en hidden">View Data Slideshow</span>
+                        <span>📊</span> <span class="lang-it">Esplora Tutti i 15 Dati</span><span class="lang-en hidden">Explore All 15 Datasets</span>
                     </button>
                     <button onclick="switchTab('simulator')" class="px-6 py-3.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm transition shadow-lg shadow-purple-500/30 flex items-center gap-2">
                         <span>👤</span> <span class="lang-it">Simula Percorso Studente</span><span class="lang-en hidden">Simulate Student Journey</span>
@@ -227,202 +232,87 @@
 
 
         <!-- ========================================================= -->
-        <!-- TAB 2: EXPLORE ALL 15 DATASETS (SLIDESHOW & MULTI-VISUAL) -->
+        <!-- TAB 2: EXPLORE ALL 15 DATASETS (SIMPLY DISPLAY ALL DATA)  -->
         <!-- ========================================================= -->
-        <section id="tab-interactive-data" class="space-y-10 hidden">
-            <!-- Top Sub-Mode Switcher: Quick Dropdown vs Slideshow vs All Cards -->
-            <div class="flex flex-wrap items-center justify-between gap-4 bg-slate-900/90 p-3 rounded-2xl border border-slate-800">
-                <div class="flex flex-wrap gap-2">
-                    <button onclick="switchDataSubMode('quick')" id="data-btn-quick" class="sub-tab active px-4 py-2 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2">
-                        <span>⚡</span>
-                        <span class="lang-it">Selettore Rapido & Grafico</span>
-                        <span class="lang-en hidden">Quick Selector & Chart</span>
-                    </button>
-                    <button onclick="switchDataSubMode('slideshow')" id="data-btn-slideshow" class="sub-tab px-4 py-2 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2 bg-slate-800 text-slate-300">
-                        <span>🖼️</span>
-                        <span class="lang-it">Presentazione Slideshow (1-15)</span>
-                        <span class="lang-en hidden">Slideshow Showcase (1-15)</span>
-                    </button>
-                    <button onclick="switchDataSubMode('grid')" id="data-btn-grid" class="sub-tab px-4 py-2 rounded-xl text-xs md:text-sm font-bold transition flex items-center gap-2 bg-slate-800 text-slate-300">
-                        <span>📐</span>
-                        <span class="lang-it">Multi-Visualizzazione (Tutti in Vista)</span>
-                        <span class="lang-en hidden">Multi-Visualization Grid (All 15)</span>
-                    </button>
-                </div>
-                <div class="text-xs text-slate-400 font-semibold px-3">
-                    <span class="lang-it">15 Dataset Ufficiali Integrati</span>
-                    <span class="lang-en hidden">15 Official Integrated Datasets</span>
-                </div>
-            </div>
-
-            <!-- SUB-MODE A: QUICK SELECTOR (Our clean dropdown tool) -->
-            <div id="data-mode-quick" class="glass-card rounded-3xl p-8 border border-blue-500/30 shadow-2xl block">
+        <section id="tab-interactive-data" class="space-y-12 hidden">
+            <!-- Header for Section 2 -->
+            <div class="glass-card rounded-3xl p-8 border border-blue-500/30 shadow-2xl bg-gradient-to-br from-slate-900 via-slate-900/90 to-blue-950/30">
                 <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-6 mb-6">
                     <div>
-                        <h2 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
-                            <span>📊</span>
-                            <span class="lang-it">Esploratore Interattivo dei Dati Territoriali</span>
-                            <span class="lang-en hidden">Interactive Territorial Data Explorer</span>
+                        <span class="px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-wider border border-blue-500/30 inline-block mb-3">
+                            <span class="lang-it">📊 Raccolta Dati Integrale (15 su 15 Indicatori in Vista)</span>
+                            <span class="lang-en hidden">📊 Complete Data Showcase (All 15 Indicators Displayed)</span>
+                        </span>
+                        <h2 class="text-2xl md:text-4xl font-extrabold text-white">
+                            <span class="lang-it">Tutti i Dati Ufficiali: Slideshow & Catalogo Completo</span>
+                            <span class="lang-en hidden">All Official Data: Slideshow & Complete Multi-Chart Catalog</span>
                         </h2>
-                        <p class="text-slate-400 text-sm mt-1">
-                            <span class="lang-it">Seleziona uno dei 15 argomenti per vedere il confronto tra province, città e storici nazionali con spiegazioni chiare.</span>
-                            <span class="lang-en hidden">Select one of the 15 topics to compare provinces, cities, and historical series with clear explanations.</span>
+                        <p class="text-slate-300 text-sm md:text-base mt-2 max-w-4xl leading-relaxed">
+                            <span class="lang-it">
+                                Qui puoi consultare l'intero patrimonio statistico del nostro osservatorio. Usa lo <strong>Slideshow Interattivo</strong> in alto per analizzare nel dettaglio un indicatore alla volta (con cambio grafico e download CSV), oppure scorri la pagina verso il basso per esplorare la <strong>Griglia Multi-Visualizzazione</strong> con tutti i 15 dataset aperti contemporaneamente.
+                            </span>
+                            <span class="lang-en hidden">
+                                Here you can explore the complete statistical repository of our observatory. Use the <strong>Interactive Slideshow</strong> above to analyze one indicator at a time in full detail (with chart toggle and CSV download), or scroll down to browse the <strong>Multi-Visualization Grid</strong> displaying all 15 datasets simultaneously.
+                            </span>
                         </p>
                     </div>
-                </div>
 
-                <!-- 3 Dropdown Controls -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 bg-slate-900/80 p-6 rounded-2xl border border-slate-800">
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
-                            <span class="lang-it">1. Scegli tra i 15 Indicatori Ufficiali</span>
-                            <span class="lang-en hidden">1. Select from 15 Official Indicators</span>
+                    <!-- Quick Jump Dropdown to Select Slide -->
+                    <div class="w-full md:w-auto min-w-[280px]">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-blue-400 mb-1.5">
+                            <span class="lang-it">🔍 Salta Rapido a un Argomento (Slide 1-15)</span>
+                            <span class="lang-en hidden">🔍 Quick Jump to Topic (Slide 1-15)</span>
                         </label>
-                        <select id="datasetSelector" onchange="updateCitizenLab()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-blue-500 transition">
-                            <option value="openpolis">👶 Asili Nido vs Giovani NEET (11 Grandi Città - Openpolis/ISTAT)</option>
-                            <option value="macro_spending">📈 Spesa Pubblica per la Scuola (% del PIL 1913–Oggi)</option>
-                            <option value="siope_municipal">🏛️ Spesa dei Comuni per Alunno (7.959 Comuni SIOPE)</option>
-                            <option value="tripartite">🎒 Licei vs Istituti Tecnici e Professionali: Futuro e Abbandono</option>
-                            <option value="textbook_costs">📚 Costo Libri di Testo a Carico delle Famiglie (Dati Ministero)</option>
-                            <option value="snv_pedagogy">🎯 Valutazione delle Scuole e Prove INVALSI (Autovalutazione RAV)</option>
-                            <option value="teacher_precariato">👩‍🏫 Precariato Docenti e Supplenze di Sostegno per Disabili (2024-25)</option>
-                            <option value="building_safety">🏗️ Sicurezza degli Edifici e Certificato di Agibilità (MIM)</option>
-                            <option value="architectural_barriers">♿ Barriere Architettoniche e Servizi per Alunni con Disabilità (MIM)</option>
-                            <option value="foreign_students">🌍 Inclusione Studenti Stranieri e Seconde Generazioni nelle Scuole</option>
-                            <option value="didactic_process">⚙️ Qualità della Didattica e Formazione Continua degli Insegnanti</option>
-                            <option value="catania_case_study">🔍 Studio di Caso Catania: Dai Nidi al Lavoro (Confronto Milano/Bologna)</option>
-                            <option value="mur_major_unis">🎓 Iscritti e Tasse Universitarie nei Grandi Atenei Italiani (MUR)</option>
-                            <option value="mur_dropout">📉 Abbandono e Dispersione Universitaria Nazionale (Serie CINECA/MUR)</option>
-                            <option value="international_benchmark">🌍 Confronto Internazionale: Scuola Tripartita (Italia/Germania) vs Scuola Unica</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
-                            <span class="lang-it">2. Filtro Territoriale</span>
-                            <span class="lang-en hidden">2. Territorial Filter</span>
-                        </label>
-                        <select id="regionSelector" onchange="updateCitizenLab()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-blue-500 transition">
-                            <option value="all">🇮🇹 Tutte le Aree del Paese / All Territories</option>
-                            <option value="sud">📍 Sud e Isole / Southern Italy & Islands</option>
-                            <option value="nord">📍 Nord e Centro / Northern & Central Italy</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
-                            <span class="lang-it">3. Tipo di Grafico</span>
-                            <span class="lang-en hidden">3. Chart Type</span>
-                        </label>
-                        <select id="chartTypeSelector" onchange="updateCitizenLab()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium text-sm focus:outline-none focus:border-blue-500 transition">
-                            <option value="bar">📊 Grafico a Barre / Bar Chart</option>
-                            <option value="line">📈 Linea Temporale / Line Chart</option>
-                            <option value="scatter">🔴 Punti di Dispersione / Scatter Plot</option>
+                        <select id="slideTopicSelector" onchange="jumpToSlide(this.value)" class="w-full px-4 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white font-semibold text-xs focus:outline-none focus:border-blue-500 transition shadow">
+                            <option value="0">1. Asili Nido vs Giovani NEET (11 Grandi Città)</option>
+                            <option value="1">2. Spesa Pubblica Istruzione (% PIL 1913-Oggi)</option>
+                            <option value="2">3. Spesa dei Comuni per Alunno (SIOPE)</option>
+                            <option value="3">4. Scuola Tripartita: Bocciature nei Diversi Indirizzi</option>
+                            <option value="4">5. Costo Libri di Testo 1° Anno Superiori (€)</option>
+                            <option value="5">6. Precariato Docenti di Sostegno per Disabili (%)</option>
+                            <option value="6">7. Sicurezza Edifici con Certificato di Agibilità (%)</option>
+                            <option value="7">8. Scuole Accessibili per Disabili (Ascensori/Bagni %)</option>
+                            <option value="8">9. Studenti Stranieri e Seconde Generazioni (%)</option>
+                            <option value="9">10. Qualità Didattica e Autovalutazione RAV (1-7)</option>
+                            <option value="10">11. Studio di Caso Catania: Dai Nidi alla Laurea vs BO/MI</option>
+                            <option value="11">12. Tassa Universitaria Media nei Grandi Atenei (€)</option>
+                            <option value="12">13. Abbandono e Fuoricorso Universitario al 1° Anno (%)</option>
+                            <option value="13">14. Prove INVALSI V Anno Superiori (Punteggio su 200)</option>
+                            <option value="14">15. Transizione Università: Scuola Tripartita vs Unica</option>
                         </select>
                     </div>
                 </div>
 
-                <!-- Chart Box & Explanation Grid -->
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-                    <div class="lg:col-span-2 bg-slate-900/90 p-6 rounded-2xl border border-slate-800 shadow-inner">
-                        <h3 id="chartTitle" class="text-lg font-bold text-white mb-4">Caricamento in corso...</h3>
-                        <div class="relative w-full h-80 md:h-96 min-h-[320px]">
-                            <canvas id="citizenChartCanvas"></canvas>
-                        </div>
-                    </div>
-
-                    <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
-                        <div>
-                            <span class="px-2.5 py-1 rounded-md bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-wider">
-                                <span class="lang-it">💡 Cosa Significa Questo Grafico</span>
-                                <span class="lang-en hidden">💡 What This Chart Means</span>
-                            </span>
-                            <h4 id="kpiTitle" class="text-xl font-bold text-white mt-3 leading-snug">Il Circolo Vizioso tra Asili Nido e Abbandono</h4>
-                            <p id="kpiDescription" class="text-slate-300 text-sm mt-3 leading-relaxed">
-                                Nelle città italiane dove mancano gli asili nido comunali (fascia 0-2 anni), i bambini subiscono uno svantaggio di partenza che fa triplicare il rischio di abbandonare la scuola durante l'adolescenza e diventare NEET.
-                            </p>
-                        </div>
-
-                        <div class="mt-6 pt-6 border-t border-slate-800">
-                            <div class="flex items-center justify-between gap-2 mb-3">
-                                <div>
-                                    <div class="text-xs text-slate-400 font-bold uppercase">
-                                        <span class="lang-it">Dato Chiave di Sintesi</span>
-                                        <span class="lang-en hidden">Key Summary Metric</span>
-                                    </div>
-                                    <div id="kpiMetric" class="text-3xl font-black text-emerald-400 mt-1">+68% Correlazione</div>
+                <!-- PART 1: SLIDESHOW SHOWCASE (Slide 1 to 15) -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-2">
+                    <div class="lg:col-span-2 bg-slate-900/95 p-6 rounded-2xl border border-slate-800 shadow-inner">
+                        <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+                            <div class="flex items-center gap-2">
+                                <span id="slideCounterBadge" class="px-3 py-1 rounded-full bg-blue-600 text-white font-black text-xs uppercase tracking-wider shadow">Slide 1 / 15</span>
+                                <h3 id="slideTitle" class="text-base md:text-xl font-extrabold text-white">1. Asili Nido vs Giovani NEET</h3>
+                            </div>
+                            
+                            <!-- Navigation Prev / Next Buttons + Chart Type Switcher -->
+                            <div class="flex items-center gap-2">
+                                <div class="flex gap-1 bg-slate-950 p-1 rounded-lg border border-slate-800 mr-2">
+                                    <button onclick="changeSlideChartType('bar')" id="slide-btn-bar" class="px-2.5 py-1 rounded bg-blue-600 text-white text-[11px] font-bold">Barre 📊</button>
+                                    <button onclick="changeSlideChartType('line')" id="slide-btn-line" class="px-2.5 py-1 rounded text-slate-400 hover:text-white text-[11px] font-bold">Linea 📈</button>
                                 </div>
-                                <a id="kpiSourceBtn" href="https://www.openpolis.it/" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-xl bg-blue-500/15 border border-blue-500/40 text-blue-300 hover:bg-blue-500/30 text-xs font-bold transition flex items-center gap-1.5 shadow">
-                                    <span>🔗</span> <span id="kpiSourceText">Fonte Ufficiale</span>
-                                </a>
-                            </div>
-                            <div id="kpiSourceDetail" class="text-xs text-slate-400 bg-slate-950/80 p-3 rounded-xl border border-slate-800 italic">
-                                Osservatorio Povertà Educativa Openpolis e Censimento ISTAT sui servizi educativi per l'infanzia.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Direct Data Download Bar -->
-                <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
-                    <div>
-                        <h4 class="text-base font-bold text-white">
-                            <span class="lang-it">Scarica la Tabella Dati (.CSV) di Questa Specificazione</span>
-                            <span class="lang-en hidden">Download the Data Table (.CSV) for This Indicator</span>
-                        </h4>
-                        <p class="text-slate-400 text-xs mt-0.5">
-                            <span class="lang-it">File aperto, compatibile con Excel, R e Python, con tutti i numeri provinciali e regionali pronti.</span>
-                            <span class="lang-en hidden">Open format file, compatible with Excel, R, and Python, containing exact provincial and regional figures.</span>
-                        </p>
-                    </div>
-                    <button onclick="downloadMinisterialDataset()" class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm transition shadow-lg shadow-emerald-600/30 flex items-center gap-2">
-                        <span>📥</span>
-                        <span class="lang-it">Scarica File CSV Ufficiale</span>
-                        <span class="lang-en hidden">Download Official CSV File</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- SUB-MODE B: SLIDESHOW SHOWCASE (Slide 1 to 15) -->
-            <div id="data-mode-slideshow" class="glass-card rounded-3xl p-8 border border-blue-500/30 shadow-2xl hidden">
-                <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-6 mb-6">
-                    <div>
-                        <div class="flex items-center gap-3">
-                            <span id="slideCounterBadge" class="px-3 py-1 rounded-full bg-blue-500 text-white font-black text-xs uppercase tracking-wider shadow">Slide 1 / 15</span>
-                            <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">
-                                <span class="lang-it">Presentazione Sequenziale Dati</span>
-                                <span class="lang-en hidden">Sequential Data Showcase</span>
-                            </span>
-                        </div>
-                        <h3 id="slideTitle" class="text-2xl md:text-3xl font-extrabold text-white mt-2">1. Asili Nido vs Giovani NEET</h3>
-                    </div>
-                    <!-- Navigation Prev / Next Buttons -->
-                    <div class="flex items-center gap-3">
-                        <button onclick="prevSlide()" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs border border-slate-600 transition flex items-center gap-2 shadow">
-                            <span>◀</span> <span class="lang-it">Precedente</span><span class="lang-en hidden">Previous</span>
-                        </button>
-                        <button onclick="nextSlide()" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition flex items-center gap-2 shadow-lg shadow-blue-500/20">
-                            <span class="lang-it">Successivo</span><span class="lang-en hidden">Next</span> <span>▶</span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                    <div class="lg:col-span-2 bg-slate-900/90 p-6 rounded-2xl border border-slate-800 shadow-inner">
-                        <div class="flex items-center justify-between mb-4">
-                            <span id="slideChartSubtitle" class="text-xs font-bold text-slate-400 uppercase">Confronto Territoriale</span>
-                            <!-- Chart Type Switcher for Slide -->
-                            <div class="flex gap-1.5 bg-slate-950 p-1 rounded-lg border border-slate-800">
-                                <button onclick="changeSlideChartType('bar')" id="slide-btn-bar" class="px-2.5 py-1 rounded bg-blue-600 text-white text-[11px] font-bold">Barre 📊</button>
-                                <button onclick="changeSlideChartType('line')" id="slide-btn-line" class="px-2.5 py-1 rounded text-slate-400 hover:text-white text-[11px] font-bold">Linea 📈</button>
+                                <button onclick="prevSlide()" class="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs border border-slate-600 transition flex items-center gap-1 shadow">
+                                    <span>◀</span> <span class="lang-it">Prec.</span><span class="lang-en hidden">Prev</span>
+                                </button>
+                                <button onclick="nextSlide()" class="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition flex items-center gap-1 shadow-lg shadow-blue-500/20">
+                                    <span class="lang-it">Succ.</span><span class="lang-en hidden">Next</span> <span>▶</span>
+                                </button>
                             </div>
                         </div>
-                        <div class="relative w-full h-80 md:h-96">
+                        
+                        <div class="relative w-full h-80 md:h-96 min-h-[320px]">
                             <canvas id="slideChartCanvas"></canvas>
                         </div>
                     </div>
 
-                    <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
+                    <div class="bg-slate-900/95 p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
                         <div>
                             <span class="px-2.5 py-1 rounded-md bg-amber-500/20 text-amber-400 text-xs font-bold uppercase tracking-wider">
                                 <span class="lang-it">🎯 Sintesi della Slide</span>
@@ -441,7 +331,7 @@
                             
                             <div class="grid grid-cols-2 gap-3">
                                 <a id="slideSourceBtn" href="https://www.istat.it" target="_blank" class="py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-600 text-blue-300 font-bold text-xs text-center flex items-center justify-center gap-1.5 transition">
-                                    <span>🔗 Fonte</span>
+                                    <span>🔗 <span class="lang-it">Fonte</span><span class="lang-en hidden">Source</span></span>
                                 </a>
                                 <button onclick="downloadSlideCSV()" class="py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs text-center flex items-center justify-center gap-1.5 transition shadow">
                                     <span>📥 CSV</span>
@@ -452,20 +342,27 @@
                 </div>
             </div>
 
-            <!-- SUB-MODE C: MULTI-VISUALIZATION GRID (ALL 15 IN VIEW) -->
-            <div id="data-mode-grid" class="hidden space-y-6">
-                <div class="border-b border-slate-800 pb-4">
-                    <h3 class="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-                        <span>📐</span>
-                        <span class="lang-it">Multi-Visualizzazione: Tutti i 15 Dataset del Repository</span>
-                        <span class="lang-en hidden">Multi-Visualization: All 15 Repository Datasets</span>
-                    </h3>
-                    <p class="text-slate-400 text-xs mt-1">
-                        <span class="lang-it">Scorri l'intera raccolta dei dati con mini-grafici interattivi e download diretto.</span>
-                        <span class="lang-en hidden">Browse the complete dataset catalog with interactive mini-charts and direct download options.</span>
-                    </p>
+            <!-- PART 2: MULTI-VISUALIZATION GRID (ALL 15 DATASETS DISPLAYED IN FULL) -->
+            <div class="space-y-6 pt-6">
+                <div class="border-b border-slate-800 pb-4 flex flex-wrap items-center justify-between gap-4">
+                    <div>
+                        <h3 class="text-xl md:text-3xl font-bold text-white flex items-center gap-2.5">
+                            <span>📐</span>
+                            <span class="lang-it">Multi-Visualizzazione: Tutti i 15 Dataset del Repository in Vista</span>
+                            <span class="lang-en hidden">Multi-Visualization: All 15 Repository Datasets Displayed</span>
+                        </h3>
+                        <p class="text-slate-400 text-xs md:text-sm mt-1">
+                            <span class="lang-it">Scorri l'intera raccolta dei 15 indicatori ufficiali. Ogni scheda include il grafico dinamico, il dato chiave e i link diretti alla fonte e al file CSV.</span>
+                            <span class="lang-en hidden">Browse all 15 official indicators simultaneously. Each card includes a live dynamic chart, key statistical takeaway, and direct source/CSV links.</span>
+                        </p>
+                    </div>
+                    <span class="px-3.5 py-1.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-300 font-bold text-xs">
+                        <span class="lang-it">15 / 15 Indicatori Attivi</span>
+                        <span class="lang-en hidden">15 / 15 Active Indicators</span>
+                    </span>
                 </div>
 
+                <!-- Dynamic Grid of All 15 Cards with Mini-Charts -->
                 <div id="all-datasets-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Populated dynamically by JS for all 15 datasets -->
                 </div>
@@ -801,6 +698,126 @@
             </div>
         </section>
 
+
+        <!-- ========================================== -->
+        <!-- TAB 5: COLLABORATE & OPEN SCIENCE          -->
+        <!-- ========================================== -->
+        <section id="tab-collaborate" class="space-y-12 hidden">
+            <!-- Hero Collaboration Card -->
+            <div class="glass-card rounded-3xl p-8 md:p-12 border-emerald-500/40 bg-gradient-to-br from-slate-900 via-slate-900/90 to-emerald-950/30 relative overflow-hidden">
+                <div class="max-w-4xl relative z-10">
+                    <span class="px-3.5 py-1.5 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold tracking-wide uppercase border border-emerald-500/30 inline-block mb-6">
+                        <span class="lang-it">🤝 Collaborazione Open Source & Ricerca Condivisa</span>
+                        <span class="lang-en hidden">🤝 Open Source Collaboration & Shared Research</span>
+                    </span>
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                        <span class="lang-it">I dati sono tuoi. Gioca con i numeri, espandi l'analisi o fai il fork del progetto!</span>
+                        <span class="lang-en hidden">The data is yours. Play with the numbers, expand the analysis, or fork the repository!</span>
+                    </h2>
+                    <p class="mt-6 text-slate-300 text-base md:text-lg leading-relaxed">
+                        <span class="lang-it">
+                            Questo osservatorio non è solo una vetrina statica, ma un ecosistema vivo e collaborativo. Che tu sia uno studente, un ricercatore, un giornalista o un cittadino, puoi eseguire i nostri notebook su Google Colab per testare le tue ipotesi, oppure fare il Fork dell'intero repository per aggiungere nuove serie di dati (es. dati comunali o regionali specifici).
+                        </span>
+                        <span class="lang-en hidden">
+                            This observatory is not just a static showcase, but a living collaborative ecosystem. Whether you are a student, researcher, data journalist, or citizen, you can run our notebooks live on Google Colab to test your own hypotheses, or fork the entire repository to add new regional or municipal datasets.
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3 Collaborative Action Pillars -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pillar 1: Colab Interactive Sandbox -->
+                <div class="glass-card p-8 rounded-3xl border border-blue-500/30 flex flex-col justify-between bg-gradient-to-b from-slate-900/90 to-slate-950">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-blue-500/20 border border-blue-500/30 flex items-center justify-center text-2xl mb-6">🚀</div>
+                        <h3 class="text-xl font-bold text-white mb-3">
+                            <span class="lang-it">Sandbox Interattivo nel Cloud (Google Colab)</span>
+                            <span class="lang-en hidden">Cloud Interactive Sandbox (Google Colab)</span>
+                        </h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            <span class="lang-it">Non serve installare Python o Jupyter sul tuo computer. Apri uno dei nostri 16 quaderni direttamente su Google Colab per modificare il codice in tempo reale, generare nuovi grafici personalizzati e verificare le formule OLS.</span>
+                            <span class="lang-en hidden">No local Python or Jupyter installation required. Open any of our 16 notebooks directly in Google Colab to tweak code live, generate custom visualizations, and verify OLS regressions.</span>
+                        </p>
+                    </div>
+                    <div class="mt-8 pt-6 border-t border-slate-800">
+                        <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/notebooks/00_master_capstone_oted_66_domains.ipynb" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-6 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs text-center block transition shadow-lg shadow-blue-500/25">
+                            <span>🚀 <span class="lang-it">Apri Sandbox Master su Colab</span><span class="lang-en hidden">Launch Master Sandbox on Colab</span></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pillar 2: GitHub Repository Fork & Expansion -->
+                <div class="glass-card p-8 rounded-3xl border border-purple-500/30 flex flex-col justify-between bg-gradient-to-b from-slate-900/90 to-slate-950">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-purple-500/20 border border-purple-500/30 flex items-center justify-center text-2xl mb-6">🍴</div>
+                        <h3 class="text-xl font-bold text-white mb-3">
+                            <span class="lang-it">Fai il Fork su GitHub & Espandi i Dati</span>
+                            <span class="lang-en hidden">Fork on GitHub & Expand the Dataset</span>
+                        </h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            <span class="lang-it">Vuoi aggiungere i dati del tuo Comune o di una specifica scuola? Fai il Fork del nostro repository GitHub, arricchisci la cartella <code class="text-purple-300 font-mono text-xs bg-purple-950/80 px-1.5 py-0.5 rounded">processed_data/</code> con il tuo file CSV e apri una Pull Request!</span>
+                            <span class="lang-en hidden">Want to add data for your municipality or specific school district? Fork our GitHub repository, add your CSV file to <code class="text-purple-300 font-mono text-xs bg-purple-950/80 px-1.5 py-0.5 rounded">processed_data/</code>, and submit a Pull Request!</span>
+                        </p>
+                    </div>
+                    <div class="mt-8 pt-6 border-t border-slate-800 space-y-3">
+                        <a href="https://github.com/Eugenix94/Italienation/fork" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-6 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs text-center block transition shadow-lg shadow-purple-500/25">
+                            <span>🍴 <span class="lang-it">Fai il Fork del Repository</span><span class="lang-en hidden">Fork Repository on GitHub</span></span>
+                        </a>
+                        <a href="https://github.com/Eugenix94/Italienation/pulls" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-6 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 font-bold text-xs text-center block transition">
+                            <span>➕ <span class="lang-it">Apri una Pull Request</span><span class="lang-en hidden">Submit a Pull Request</span></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pillar 3: Open Data Standards & Citation -->
+                <div class="glass-card p-8 rounded-3xl border border-emerald-500/30 flex flex-col justify-between bg-gradient-to-b from-slate-900/90 to-slate-950">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-2xl mb-6">📑</div>
+                        <h3 class="text-xl font-bold text-white mb-3">
+                            <span class="lang-it">Standard Dati & Licenza Aperta (CC-BY 4.0)</span>
+                            <span class="lang-en hidden">Data Standards & Open License (CC-BY 4.0)</span>
+                        </h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            <span class="lang-it">Tutti i dati grezzi e le tabelle elaborate nel repository seguono gli standard aperti interoperabili (CSV / JSONL). Puoi citare liberamente le analisi nei tuoi articoli o ricerche accademiche con licenza Creative Commons CC-BY 4.0.</span>
+                            <span class="lang-en hidden">All raw and processed tables adhere to interoperable open standards (CSV / JSONL). You can freely cite our analyses in articles or academic publications under Creative Commons CC-BY 4.0.</span>
+                        </p>
+                    </div>
+                    <div class="mt-8 pt-6 border-t border-slate-800">
+                        <a href="https://github.com/Eugenix94/Italienation/blob/main/DATA_INVENTORY.md" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs text-center block transition shadow-lg shadow-emerald-600/25">
+                            <span>📖 <span class="lang-it">Dizionario e Metadati Dati</span><span class="lang-en hidden">Read Data Dictionary & Metadata</span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contributor Quick Guide Banner -->
+            <div class="bg-slate-900/90 p-8 rounded-3xl border border-slate-800">
+                <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                    <span>💡</span>
+                    <span class="lang-it">Guida Rapida in 3 Passi per Espandere l'Osservatorio</span>
+                    <span class="lang-en hidden">3-Step Quick Guide to Expanding the Observatory</span>
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-300">
+                    <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800">
+                        <span class="text-blue-400 font-bold text-xs uppercase block mb-1">Passo 1 / Step 1</span>
+                        <strong class="text-white block mb-1">Clona in Locale / Clone Locally</strong>
+                        <p class="text-xs text-slate-400 leading-relaxed"><code class="text-blue-300 font-mono bg-blue-950/60 px-1 py-0.5 rounded">git clone https://github.com/Eugenix94/Italienation.git</code> per avere tutti i 15 dataset e i 16 quaderni sul tuo computer.</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800">
+                        <span class="text-purple-400 font-bold text-xs uppercase block mb-1">Passo 2 / Step 2</span>
+                        <strong class="text-white block mb-1">Aggiungi Dati / Add Data</strong>
+                        <p class="text-xs text-slate-400 leading-relaxed">Inserisci le tue elaborazioni in formato <code class="text-purple-300 font-mono bg-purple-950/60 px-1 py-0.5 rounded">.csv</code> dentro <code class="text-purple-300 font-mono bg-purple-950/60 px-1 py-0.5 rounded">processed_data/</code> con colonne per <code class="text-slate-300">regione, provincia, valore, anno</code>.</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800">
+                        <span class="text-emerald-400 font-bold text-xs uppercase block mb-1">Passo 3 / Step 3</span>
+                        <strong class="text-white block mb-1">Renderizza ed Invia / Render & Submit</strong>
+                        <p class="text-xs text-slate-400 leading-relaxed">Se aggiungi un nuovo quaderno Jupyter, esegui <code class="text-emerald-300 font-mono bg-emerald-950/60 px-1 py-0.5 rounded">jupyter nbconvert --to html tuo_file.ipynb</code> per generare la pagina web e apri la Pull Request!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -815,7 +832,6 @@
     <!-- JAVASCRIPT ENGINE & BILINGUAL ENGINE -->
     <script>
         let currentLang = 'it';
-        let citizenChartInstance = null;
         let slideChartInstance = null;
         let currentSlideIndex = 0;
         let currentSlideChartType = 'bar';
@@ -1023,14 +1039,13 @@
             }
 
             renderNotebookCards();
-            updateCitizenLab();
-            updateSimulatorUI();
             renderSlideShow();
             renderAllDatasetsGrid();
+            updateSimulatorUI();
             simulateStudentOTED();
         }
 
-        // 2. Tab Switcher Engine
+        // 2. Tab Switcher Engine (Now 5 Tabs)
         function switchTab(tabId) {
             document.querySelectorAll('.nav-tab').forEach(btn => btn.classList.remove('active'));
             document.querySelectorAll('main > section').forEach(sec => sec.classList.add('hidden'));
@@ -1042,7 +1057,6 @@
             if (targetSec) targetSec.classList.remove('hidden');
 
             if (tabId === 'interactive-data') {
-                updateCitizenLab();
                 renderSlideShow();
                 renderAllDatasetsGrid();
             } else if (tabId === 'simulator') {
@@ -1051,29 +1065,6 @@
             } else if (tabId === 'notebooks') {
                 renderNotebookCards();
             }
-        }
-
-        function switchDataSubMode(mode) {
-            document.querySelectorAll('#tab-interactive-data .sub-tab').forEach(btn => {
-                btn.classList.remove('active', 'bg-blue-600', 'text-white');
-                btn.classList.add('bg-slate-800', 'text-slate-300');
-            });
-            const activeBtn = document.getElementById(`data-btn-${mode}`);
-            if (activeBtn) {
-                activeBtn.classList.remove('bg-slate-800', 'text-slate-300');
-                activeBtn.classList.add('active', 'bg-blue-600', 'text-white');
-            }
-
-            document.getElementById('data-mode-quick').classList.add('hidden');
-            document.getElementById('data-mode-slideshow').classList.add('hidden');
-            document.getElementById('data-mode-grid').classList.add('hidden');
-
-            const target = document.getElementById(`data-mode-${mode}`);
-            if (target) target.classList.remove('hidden');
-
-            if (mode === 'slideshow') renderSlideShow();
-            else if (mode === 'grid') renderAllDatasetsGrid();
-            else if (mode === 'quick') updateCitizenLab();
         }
 
         function switchSimSubMode(mode) {
@@ -1157,62 +1148,7 @@
             }).join('');
         }
 
-        // 4. Interactive Data Explorer Engine (`updateCitizenLab`)
-        function updateCitizenLab() {
-            const dataset = document.getElementById('datasetSelector').value;
-            const region = document.getElementById('regionSelector').value;
-            const chartType = document.getElementById('chartTypeSelector').value;
-
-            const targetObj = allDatasetsList.find(d => d.id === dataset) || allDatasetsList[0];
-
-            document.getElementById('chartTitle').innerText = (currentLang === 'it') ? targetObj.titleIt : targetObj.titleEn;
-            document.getElementById('kpiTitle').innerText = (currentLang === 'it') ? 'Dato Statistico Ufficiale di Sintesi' : 'Official Summary Statistical Takeaway';
-            document.getElementById('kpiDescription').innerText = (currentLang === 'it') ? targetObj.descIt : targetObj.descEn;
-            document.getElementById('kpiMetric').innerText = (currentLang === 'it') ? targetObj.metricIt : targetObj.metricEn;
-
-            const kpiSourceBtn = document.getElementById('kpiSourceBtn');
-            if (kpiSourceBtn) {
-                kpiSourceBtn.href = targetObj.sourceUrl;
-                document.getElementById('kpiSourceText').innerText = (currentLang === 'it') ? 'Fonte Ufficiale' : 'Official Source';
-            }
-
-            const ctx = document.getElementById('citizenChartCanvas').getContext('2d');
-            if (citizenChartInstance) citizenChartInstance.destroy();
-
-            citizenChartInstance = new Chart(ctx, {
-                type: chartType,
-                data: {
-                    labels: targetObj.labels,
-                    datasets: [{
-                        label: (currentLang === 'it') ? targetObj.titleIt : targetObj.titleEn,
-                        data: targetObj.data,
-                        backgroundColor: chartType === 'line' ? 'rgba(59, 130, 246, 0.2)' : 'rgba(59, 130, 246, 0.75)',
-                        borderColor: '#3b82f6',
-                        borderWidth: 2,
-                        borderRadius: 8,
-                        pointRadius: 6,
-                        pointBackgroundColor: '#60a5fa'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { labels: { color: '#f8fafc', font: { family: 'Plus Jakarta Sans', weight: 'bold' } } } },
-                    scales: {
-                        y: { beginAtZero: true, grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
-                        x: { grid: { display: false }, ticks: { color: '#cbd5e1', font: { weight: '600' } } }
-                    }
-                }
-            });
-        }
-
-        function downloadMinisterialDataset() {
-            const dataset = document.getElementById('datasetSelector').value;
-            const targetObj = allDatasetsList.find(d => d.id === dataset) || allDatasetsList[0];
-            window.open(`https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/${targetObj.csv}`, '_blank');
-        }
-
-        // 5. SLIDESHOW & MULTI-VISUALIZATION ENGINE
+        // 4. SLIDESHOW & MULTI-VISUALIZATION ENGINE (`Section 2 displays all data`)
         function renderSlideShow() {
             const item = allDatasetsList[currentSlideIndex];
             if (!item) return;
@@ -1227,6 +1163,9 @@
             if (metric) metric.innerText = (currentLang === 'it') ? item.metricIt : item.metricEn;
             const srcBtn = document.getElementById('slideSourceBtn');
             if (srcBtn) srcBtn.href = item.sourceUrl;
+
+            const topicSel = document.getElementById('slideTopicSelector');
+            if (topicSel && topicSel.value != currentSlideIndex) topicSel.value = currentSlideIndex;
 
             const canvas = document.getElementById('slideChartCanvas');
             if (!canvas) return;
@@ -1268,9 +1207,14 @@
             renderSlideShow();
         }
 
+        function jumpToSlide(index) {
+            currentSlideIndex = parseInt(index) || 0;
+            renderSlideShow();
+        }
+
         function changeSlideChartType(type) {
             currentSlideChartType = type;
-            document.querySelectorAll('#data-mode-slideshow button[id^="slide-btn-"]').forEach(btn => btn.classList.remove('bg-blue-600', 'text-white'));
+            document.querySelectorAll('#tab-interactive-data button[id^="slide-btn-"]').forEach(btn => btn.classList.remove('bg-blue-600', 'text-white'));
             const activeBtn = document.getElementById(`slide-btn-${type}`);
             if (activeBtn) activeBtn.classList.add('bg-blue-600', 'text-white');
             renderSlideShow();
@@ -1347,7 +1291,7 @@
             }, 50);
         }
 
-        // 6. STUDENT OTED LIFE-COURSE SIMULATOR (`simulateStudentOTED`)
+        // 5. STUDENT OTED LIFE-COURSE SIMULATOR (`simulateStudentOTED`)
         function simulateStudentOTED() {
             const origin = document.getElementById('studentOriginSel')?.value || 'sud_no_nido';
             const family = document.getElementById('studentFamilySel')?.value || 'basso';
@@ -1421,7 +1365,7 @@
             document.getElementById('otedPolicyRescueText').innerText = (currentLang === 'it') ? rescueIt : rescueEn;
         }
 
-        // 7. CIVIC POLICY DIY SIMULATOR (`updateSimulatorUI`)
+        // 6. CIVIC POLICY DIY SIMULATOR (`updateSimulatorUI`)
         function updateSimulatorUI() {
             const nidi = parseFloat(document.getElementById('sliderNidi')?.value) || 0;
             const siope = parseFloat(document.getElementById('sliderSiope')?.value) || 0;
@@ -1476,10 +1420,9 @@
         // INITIALIZE ON LOAD
         window.addEventListener('DOMContentLoaded', () => {
             renderNotebookCards();
-            updateCitizenLab();
-            updateSimulatorUI();
             renderSlideShow();
             renderAllDatasetsGrid();
+            updateSimulatorUI();
             simulateStudentOTED();
         });
     </script>
