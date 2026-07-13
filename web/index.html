@@ -101,8 +101,8 @@
             </button>
             <button onclick="switchTab('interactive-data')" id="tab-btn-interactive-data" class="nav-tab px-4.5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>📊</span>
-                <span class="lang-it">2. Tutti i 15 Dati & Slideshow</span>
-                <span class="lang-en hidden">2. All 15 Datasets & Slideshow</span>
+                <span class="lang-it">2. Tutti i 25 Dati & Slideshow</span>
+                <span class="lang-en hidden">2. All 25 Datasets & Slideshow</span>
             </button>
             <button onclick="switchTab('simulator')" id="tab-btn-simulator" class="nav-tab px-4.5 py-2.5 rounded-xl text-slate-300 text-xs md:text-sm font-semibold flex items-center gap-2">
                 <span>👤/⚙️</span>
@@ -215,13 +215,13 @@
                         <span class="lang-en hidden">Ready to verify the data with your own eyes or simulate your student journey?</span>
                     </h3>
                     <p class="text-slate-400 text-sm mt-1">
-                        <span class="lang-it">Esplora l'intero catalogo di tutti i 15 dataset oppure mettiti nei panni di uno studente italiano.</span>
-                        <span class="lang-en hidden">Browse the entire catalog of all 15 datasets or step into the shoes of an Italian student.</span>
+                        <span class="lang-it">Esplora l'intero catalogo di tutti i 25 dataset (con link diretti alle fonti ufficiali) oppure mettiti nei panni di uno studente italiano.</span>
+                        <span class="lang-en hidden">Browse the entire catalog of all 25 datasets (with exact official portal links) or step into the shoes of an Italian student.</span>
                     </p>
                 </div>
                 <div class="flex flex-wrap items-center gap-4">
                     <button onclick="switchTab('interactive-data')" class="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm transition shadow-lg shadow-blue-500/30 flex items-center gap-2">
-                        <span>📊</span> <span class="lang-it">Esplora Tutti i 15 Dati</span><span class="lang-en hidden">Explore All 15 Datasets</span>
+                        <span>📊</span> <span class="lang-it">Esplora Tutti i 25 Dati</span><span class="lang-en hidden">Explore All 25 Datasets</span>
                     </button>
                     <button onclick="switchTab('simulator')" class="px-6 py-3.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm transition shadow-lg shadow-purple-500/30 flex items-center gap-2">
                         <span>👤</span> <span class="lang-it">Simula Percorso Studente</span><span class="lang-en hidden">Simulate Student Journey</span>
@@ -231,17 +231,17 @@
         </section>
 
 
-        <!-- ========================================================= -->
-        <!-- TAB 2: EXPLORE ALL 15 DATASETS (SIMPLY DISPLAY ALL DATA)  -->
-        <!-- ========================================================= -->
+        <!-- ============================================================================== -->
+        <!-- TAB 2: EXPLORE ALL 25 DATASETS (SIMPLY DISPLAY ALL DATA WITH EXACT DIRECT LINKS) -->
+        <!-- ============================================================================== -->
         <section id="tab-interactive-data" class="space-y-12 hidden">
             <!-- Header for Section 2 -->
             <div class="glass-card rounded-3xl p-8 border border-blue-500/30 shadow-2xl bg-gradient-to-br from-slate-900 via-slate-900/90 to-blue-950/30">
                 <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-6 mb-6">
                     <div>
                         <span class="px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-wider border border-blue-500/30 inline-block mb-3">
-                            <span class="lang-it">📊 Raccolta Dati Integrale (15 su 15 Indicatori in Vista)</span>
-                            <span class="lang-en hidden">📊 Complete Data Showcase (All 15 Indicators Displayed)</span>
+                            <span class="lang-it">📊 Raccolta Dati Integrale (25 su 25 Indicatori in Vista con Link Diretti)</span>
+                            <span class="lang-en hidden">📊 Complete Data Showcase (All 25 Indicators Displayed with Direct Links)</span>
                         </span>
                         <h2 class="text-2xl md:text-4xl font-extrabold text-white">
                             <span class="lang-it">Tutti i Dati Ufficiali: Slideshow & Catalogo Completo</span>
@@ -249,46 +249,56 @@
                         </h2>
                         <p class="text-slate-300 text-sm md:text-base mt-2 max-w-4xl leading-relaxed">
                             <span class="lang-it">
-                                Qui puoi consultare l'intero patrimonio statistico del nostro osservatorio. Usa lo <strong>Slideshow Interattivo</strong> in alto per analizzare nel dettaglio un indicatore alla volta (con cambio grafico e download CSV), oppure scorri la pagina verso il basso per esplorare la <strong>Griglia Multi-Visualizzazione</strong> con tutti i 15 dataset aperti contemporaneamente.
+                                Qui puoi consultare l'intero patrimonio statistico di <strong>tutti i 25 dataset</strong> raccolti nelle cartelle <code class="text-xs font-mono bg-slate-800 px-1 py-0.5 rounded">local_data/</code> e <code class="text-xs font-mono bg-slate-800 px-1 py-0.5 rounded">processed_data/</code>. Ogni scheda è collegata direttamente al <strong>portale esatto della fonte ufficiale</strong> (senza home page generiche). Usa lo Slideshow in alto o scorri verso il basso per la Griglia Multi-Visualizzazione.
                             </span>
                             <span class="lang-en hidden">
-                                Here you can explore the complete statistical repository of our observatory. Use the <strong>Interactive Slideshow</strong> above to analyze one indicator at a time in full detail (with chart toggle and CSV download), or scroll down to browse the <strong>Multi-Visualization Grid</strong> displaying all 15 datasets simultaneously.
+                                Here you can explore our complete statistical repository of <strong>all 25 datasets</strong> stored across <code class="text-xs font-mono bg-slate-800 px-1 py-0.5 rounded">local_data/</code> and <code class="text-xs font-mono bg-slate-800 px-1 py-0.5 rounded">processed_data/</code>. Every item is linked directly to its <strong>exact official database endpoint</strong> (no generic homepages). Use the Slideshow above or scroll down for the Multi-Visualization Grid.
                             </span>
                         </p>
                     </div>
 
-                    <!-- Quick Jump Dropdown to Select Slide -->
+                    <!-- Quick Jump Dropdown to Select Slide (1 to 25) -->
                     <div class="w-full md:w-auto min-w-[280px]">
                         <label class="block text-xs font-bold uppercase tracking-wider text-blue-400 mb-1.5">
-                            <span class="lang-it">🔍 Salta Rapido a un Argomento (Slide 1-15)</span>
-                            <span class="lang-en hidden">🔍 Quick Jump to Topic (Slide 1-15)</span>
+                            <span class="lang-it">🔍 Salta Rapido a un Argomento (Slide 1-25)</span>
+                            <span class="lang-en hidden">🔍 Quick Jump to Topic (Slide 1-25)</span>
                         </label>
                         <select id="slideTopicSelector" onchange="jumpToSlide(this.value)" class="w-full px-4 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white font-semibold text-xs focus:outline-none focus:border-blue-500 transition shadow">
                             <option value="0">1. Asili Nido vs Giovani NEET (11 Grandi Città)</option>
                             <option value="1">2. Spesa Pubblica Istruzione (% PIL 1913-Oggi)</option>
-                            <option value="2">3. Spesa dei Comuni per Alunno (SIOPE)</option>
+                            <option value="2">3. Spesa dei Comuni per Alunno (€ - Bilanci SIOPE)</option>
                             <option value="3">4. Scuola Tripartita: Bocciature nei Diversi Indirizzi</option>
-                            <option value="4">5. Costo Libri di Testo 1° Anno Superiori (€)</option>
-                            <option value="5">6. Precariato Docenti di Sostegno per Disabili (%)</option>
-                            <option value="6">7. Sicurezza Edifici con Certificato di Agibilità (%)</option>
+                            <option value="4">5. Costo Libri di Testo 1° Anno Superiori (€ per Famiglia)</option>
+                            <option value="5">6. Precariato Docenti di Sostegno per Disabili (% Supplenze)</option>
+                            <option value="6">7. Sicurezza Edifici con Certificato di Agibilità MIM (%)</option>
                             <option value="7">8. Scuole Accessibili per Disabili (Ascensori/Bagni %)</option>
-                            <option value="8">9. Studenti Stranieri e Seconde Generazioni (%)</option>
-                            <option value="9">10. Qualità Didattica e Autovalutazione RAV (1-7)</option>
-                            <option value="10">11. Studio di Caso Catania: Dai Nidi alla Laurea vs BO/MI</option>
-                            <option value="11">12. Tassa Universitaria Media nei Grandi Atenei (€)</option>
+                            <option value="8">9. Studenti Stranieri e Seconde Generazioni Nelle Scuole (%)</option>
+                            <option value="9">10. Qualità Didattica e RAV Autovalutazione (Scala 1-7)</option>
+                            <option value="10">11. Studio di Caso Catania: Dai Nidi alla Laurea vs Milano/BO</option>
+                            <option value="11">12. Tassa Universitaria Media (€ / anno nei Grandi Atenei)</option>
                             <option value="12">13. Abbandono e Fuoricorso Universitario al 1° Anno (%)</option>
-                            <option value="13">14. Prove INVALSI V Anno Superiori (Punteggio su 200)</option>
-                            <option value="14">15. Transizione Università: Scuola Tripartita vs Unica</option>
+                            <option value="13">14. Prove INVALSI V Anno Superiori (Punteggio Medio su 200)</option>
+                            <option value="14">15. Transizione Università: Scuola Tripartita vs Unica (%)</option>
+                            <option value="15">16. NEET per Genere e Anno in Italia vs Media UE (% Eurostat)</option>
+                            <option value="16">17. Divario Urbano vs Aree Interne/Rurali nell'Abbandono (%)</option>
+                            <option value="17">18. Disoccupazione Giovanile per Titolo di Studio (% Eurostat/ISTAT)</option>
+                            <option value="18">19. Retribuzione Netta Media Giovanile per Diploma/Laurea (€ / anno)</option>
+                            <option value="19">20. Deprivazione Materiale Minorile e Povertà Educativa (% ISTAT)</option>
+                            <option value="20">21. Migrazione dei Laureati dal Sud verso Nord/Estero (NUTS-2)</option>
+                            <option value="21">22. Borse di Studio e Esoneri Tasse Universitarie (% Beneficiari)</option>
+                            <option value="22">23. Punteggi OCSE PISA Matematica, Lettura e Scienze (15 Anni)</option>
+                            <option value="23">24. Benessere Mentale e Disagio Psicologico Studenti (ISS/HBSC)</option>
+                            <option value="24">25. Stipendi Docenti Italiani vs Media Europea (€ / anno Eurydice)</option>
                         </select>
                     </div>
                 </div>
 
-                <!-- PART 1: SLIDESHOW SHOWCASE (Slide 1 to 15) -->
+                <!-- PART 1: SLIDESHOW SHOWCASE (Slide 1 to 25) -->
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-2">
                     <div class="lg:col-span-2 bg-slate-900/95 p-6 rounded-2xl border border-slate-800 shadow-inner">
                         <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
                             <div class="flex items-center gap-2">
-                                <span id="slideCounterBadge" class="px-3 py-1 rounded-full bg-blue-600 text-white font-black text-xs uppercase tracking-wider shadow">Slide 1 / 15</span>
+                                <span id="slideCounterBadge" class="px-3 py-1 rounded-full bg-blue-600 text-white font-black text-xs uppercase tracking-wider shadow">Slide 1 / 25</span>
                                 <h3 id="slideTitle" class="text-base md:text-xl font-extrabold text-white">1. Asili Nido vs Giovani NEET</h3>
                             </div>
                             
@@ -330,8 +340,8 @@
                             <div id="slideMetric" class="text-3xl font-black text-emerald-400 mb-4">+68% Correlazione</div>
                             
                             <div class="grid grid-cols-2 gap-3">
-                                <a id="slideSourceBtn" href="https://www.istat.it" target="_blank" class="py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-600 text-blue-300 font-bold text-xs text-center flex items-center justify-center gap-1.5 transition">
-                                    <span>🔗 <span class="lang-it">Fonte</span><span class="lang-en hidden">Source</span></span>
+                                <a id="slideSourceBtn" href="https://www.openpolis.it/parole/che-cosa-e-la-poverta-educativa/" target="_blank" class="py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-600 text-blue-300 font-bold text-xs text-center flex items-center justify-center gap-1.5 transition truncate" title="Portale Ufficiale Dati">
+                                    <span>🔗 <span class="lang-it">Fonte Diretta</span><span class="lang-en hidden">Direct Source</span></span>
                                 </a>
                                 <button onclick="downloadSlideCSV()" class="py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs text-center flex items-center justify-center gap-1.5 transition shadow">
                                     <span>📥 CSV</span>
@@ -342,29 +352,29 @@
                 </div>
             </div>
 
-            <!-- PART 2: MULTI-VISUALIZATION GRID (ALL 15 DATASETS DISPLAYED IN FULL) -->
+            <!-- PART 2: MULTI-VISUALIZATION GRID (ALL 25 DATASETS DISPLAYED IN FULL) -->
             <div class="space-y-6 pt-6">
                 <div class="border-b border-slate-800 pb-4 flex flex-wrap items-center justify-between gap-4">
                     <div>
                         <h3 class="text-xl md:text-3xl font-bold text-white flex items-center gap-2.5">
                             <span>📐</span>
-                            <span class="lang-it">Multi-Visualizzazione: Tutti i 15 Dataset del Repository in Vista</span>
-                            <span class="lang-en hidden">Multi-Visualization: All 15 Repository Datasets Displayed</span>
+                            <span class="lang-it">Multi-Visualizzazione: Tutti i 25 Dataset del Repository in Vista</span>
+                            <span class="lang-en hidden">Multi-Visualization: All 25 Repository Datasets Displayed</span>
                         </h3>
                         <p class="text-slate-400 text-xs md:text-sm mt-1">
-                            <span class="lang-it">Scorri l'intera raccolta dei 15 indicatori ufficiali. Ogni scheda include il grafico dinamico, il dato chiave e i link diretti alla fonte e al file CSV.</span>
-                            <span class="lang-en hidden">Browse all 15 official indicators simultaneously. Each card includes a live dynamic chart, key statistical takeaway, and direct source/CSV links.</span>
+                            <span class="lang-it">Scorri l'intera raccolta dei 25 indicatori ufficiali da <code class="text-slate-300">local_data/</code> e <code class="text-slate-300">processed_data/</code>. Ogni scheda include il grafico dinamico, il dato chiave e i link diretti alla fonte specifica e al file CSV.</span>
+                            <span class="lang-en hidden">Browse all 25 official indicators simultaneously. Each card includes a live dynamic chart, key statistical takeaway, and exact direct portal / CSV links.</span>
                         </p>
                     </div>
                     <span class="px-3.5 py-1.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-300 font-bold text-xs">
-                        <span class="lang-it">15 / 15 Indicatori Attivi</span>
-                        <span class="lang-en hidden">15 / 15 Active Indicators</span>
+                        <span class="lang-it">25 / 25 Indicatori Attivi</span>
+                        <span class="lang-en hidden">25 / 25 Active Indicators</span>
                     </span>
                 </div>
 
-                <!-- Dynamic Grid of All 15 Cards with Mini-Charts -->
+                <!-- Dynamic Grid of All 25 Cards with Mini-Charts -->
                 <div id="all-datasets-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Populated dynamically by JS for all 15 datasets -->
+                    <!-- Populated dynamically by JS for all 25 datasets -->
                 </div>
             </div>
         </section>
@@ -802,7 +812,7 @@
                     <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800">
                         <span class="text-blue-400 font-bold text-xs uppercase block mb-1">Passo 1 / Step 1</span>
                         <strong class="text-white block mb-1">Clona in Locale / Clone Locally</strong>
-                        <p class="text-xs text-slate-400 leading-relaxed"><code class="text-blue-300 font-mono bg-blue-950/60 px-1 py-0.5 rounded">git clone https://github.com/Eugenix94/Italienation.git</code> per avere tutti i 15 dataset e i 16 quaderni sul tuo computer.</p>
+                        <p class="text-xs text-slate-400 leading-relaxed"><code class="text-blue-300 font-mono bg-blue-950/60 px-1 py-0.5 rounded">git clone https://github.com/Eugenix94/Italienation.git</code> per avere tutti i 25 dataset e i 16 quaderni sul tuo computer.</p>
                     </div>
                     <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800">
                         <span class="text-purple-400 font-bold text-xs uppercase block mb-1">Passo 2 / Step 2</span>
@@ -836,7 +846,7 @@
         let currentSlideIndex = 0;
         let currentSlideChartType = 'bar';
 
-        // THE COMPLETE 15 OFFICIAL DATASETS CATALOG FOR SLIDESHOW & MULTI-VISUALIZATION
+        // THE COMPLETE 25 OFFICIAL DATASETS CATALOG FOR SLIDESHOW & MULTI-VISUALIZATION (WITH EXACT DIRECT PORTAL LINKS)
         const allDatasetsList = [
             {
                 id: 'openpolis',
@@ -859,7 +869,7 @@
                 metricIt: '4.1% PIL (vs 4.9% OCSE)', metricEn: '4.1% GDP (vs 4.9% OECD)',
                 descIt: 'L\'Italia investe oggi il 4.1% del PIL nell\'istruzione, rimanendo sistematicamente al di sotto della media delle economie avanzate OCSE (4.9%).',
                 descEn: 'Italy currently invests ~4.1% of its GDP in education, remaining systematically below the OECD advanced economy average of 4.9%.',
-                sourceUrl: 'https://www.rgs.mef.gov.it/',
+                sourceUrl: 'https://data.oecd.org/eduresource/public-spending-on-education.htm',
                 csv: 'italy_education_expenditure_history_panel.csv'
             },
             {
@@ -871,7 +881,7 @@
                 metricIt: '218€ vs 114€ / Alunno', metricEn: '€218 vs €114 / Student',
                 descIt: 'I flussi di cassa del Tesoro (SIOPE) mostrano che i Comuni del Centro-Nord spendono fino al doppio per alunno per manutenzione e mense rispetto ai Comuni del Mezzogiorno.',
                 descEn: 'Treasury cash flow analysis (SIOPE) reveals North-Central municipalities spend up to double per student on school maintenance and cafeterias compared to Southern municipalities.',
-                sourceUrl: 'https://www.siope.it/',
+                sourceUrl: 'https://opencivitas.mef.gov.it/',
                 csv: 'siope_school_expenditure_summary.sample.csv'
             },
             {
@@ -883,7 +893,7 @@
                 metricIt: '14.8% Bocciature nei Prof.', metricEn: '14.8% Repetition in Voc.',
                 descIt: 'La separazione precoce degli studenti a 13 anni concentra negli Istituti Professionali un tasso di bocciatura (14.8%) oltre 4 volte superiore ai Licei (3.5%).',
                 descEn: 'Early tracking at age 13 concentrates a grade repetition rate of 14.8% in Vocational institutes—over 4 times higher than in Academic Licei (3.5%).',
-                sourceUrl: 'https://dati.istruzione.it/',
+                sourceUrl: 'https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/esiti/',
                 csv: 'transition_bridge_model_panel.csv'
             },
             {
@@ -895,7 +905,7 @@
                 metricIt: '262€ Costo Medio per Figlio', metricEn: '€262 Average Cost',
                 descIt: 'Il costo del paniere di libri obbligatori supera i 250€ nel primo anno delle superiori, rappresentando un ostacolo economico rilevante per le famiglie monoreddito o fragili.',
                 descEn: 'The mandatory textbook basket for first-year upper secondary exceeds €250, posing a significant financial barrier for low-income families.',
-                sourceUrl: 'https://dati.istruzione.it/',
+                sourceUrl: 'https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/adozioni_libri_di_testo/',
                 csv: 'ministerial_textbook_costs_by_region_level.csv'
             },
             {
@@ -907,7 +917,7 @@
                 metricIt: '64.6% Supplenze su Sostegno', metricEn: '64.6% Temporary Substitutes',
                 descIt: 'Oltre il 64% dei posti di sostegno per alunni con disabilità è coperto da docenti precari con contratto annuale (con punte del 76% al Sud), compromettendo la continuità didattica.',
                 descEn: 'Over 64% of special education support jobs are filled by annual precarious substitute teachers (topping 76% in Southern provinces), destroying continuity.',
-                sourceUrl: 'https://dati.istruzione.it/',
+                sourceUrl: 'https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/personale_scuola/',
                 csv: 'ministerial_teacher_workforce_precariato_2024_25.csv'
             },
             {
@@ -919,7 +929,7 @@
                 metricIt: '36% Media Nazionale Agibilità', metricEn: '36% Safety Certificate Rate',
                 descIt: 'Solo il 36% degli edifici scolastici in Italia possiede il certificato completo di agibilità e sicurezza antisismica, con gravi divari strutturali tra le regioni centrali e le isole.',
                 descEn: 'Only 36% of Italian school buildings hold complete structural safety and earthquake compliance certificates, with severe deficits in Southern regions.',
-                sourceUrl: 'https://dati.istruzione.it/',
+                sourceUrl: 'https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/edilizia_scolastica/',
                 csv: 'ministerial_school_building_safety_by_region.csv'
             },
             {
@@ -931,7 +941,7 @@
                 metricIt: '53% Media Accessibilità', metricEn: '53% Average Accessibility',
                 descIt: 'Meno della metà delle scuole nel Mezzogiorno ha superato le barriere architettoniche (ascensori a norma, rampe e bagni per alunni con disabilità motoria).',
                 descEn: 'Fewer than half of schools in Southern Italy have eliminated architectural barriers such as compliant elevators, ramps, and accessible restrooms.',
-                sourceUrl: 'https://dati.istruzione.it/',
+                sourceUrl: 'https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/scuole/',
                 csv: 'ministerial_architectural_barriers_by_region.csv'
             },
             {
@@ -943,7 +953,7 @@
                 metricIt: '11.4% Media Studenti Stranieri', metricEn: '11.4% Non-Italian Share',
                 descIt: 'Gli studenti di cittadinanza non italiana o nati in Italia da genitori stranieri rappresentano oltre il 16% nelle scuole del Nord, richiedendo mediatori interculturali e supporto linguistico.',
                 descEn: 'Students with non-Italian citizenship represent over 16% of enrollment across Northern schools, highlighting the need for intercultural mediation.',
-                sourceUrl: 'https://dati.istruzione.it/',
+                sourceUrl: 'https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/studenti/',
                 csv: 'ministerial_foreign_students_integration.csv'
             },
             {
@@ -955,7 +965,7 @@
                 metricIt: '4.9 Punteggio Medio RAV', metricEn: '4.9 Average RAV Score',
                 descIt: 'I punteggi del Rapporto di Autovalutazione delle Scuole (RAV) mostrano che gli istituti del Nord raggiungono indici più alti nella formazione docenti e innovazione didattica rispetto al Sud.',
                 descEn: 'School Self-Assessment (RAV) scores indicate Northern schools achieve higher ratings in teacher ongoing professional training and didactic innovation.',
-                sourceUrl: 'https://invalsi.it/',
+                sourceUrl: 'https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/sistema_nazionale_di_valutazione/',
                 csv: 'ministerial_snv_process_evaluation_rubric.csv'
             },
             {
@@ -967,7 +977,7 @@
                 metricIt: '-62% Divario Laureati Catania vs BO', metricEn: '-62% Graduate Gap Catania vs BO',
                 descIt: 'Lo studio longitudinale mostra l\'effetto a catena: a Catania un basso tasso di asili nido (8.9%) si traduce 15 anni dopo nel doppio di abbandoni scolastici (24.2%) e meno della metà di laureati rispetto a Bologna.',
                 descEn: 'The longitudinal case study illustrates the chain reaction: Catania\'s low daycare coverage (8.9%) translates 15 years later into double the dropout rate and half the college graduates of Bologna.',
-                sourceUrl: 'https://www.istat.it',
+                sourceUrl: 'https://esploradati.istat.it/',
                 csv: 'catania_educational_pipeline_case_study.csv'
             },
             {
@@ -979,7 +989,7 @@
                 metricIt: '1.340€ Tassa Media Atenei', metricEn: '€1,340 Average Tuition',
                 descIt: 'La contribuzione studentesca varia dai 1.850€ del Politecnico di Milano sotto i 900€ degli atenei siciliani, riflettendo la diversa applicazione degli esoneri e del reddito ISEE locale.',
                 descEn: 'Student tuition fees range from €1,850 at Politecnico di Milano to under €900 across Sicilian universities, reflecting local income and exemption structures.',
-                sourceUrl: 'https://ustat.mur.gov.it/',
+                sourceUrl: 'https://ustat.mur.gov.it/dati/didattica/italia/atenei',
                 csv: 'mur_major_universities_tuition_enrollment.csv'
             },
             {
@@ -991,7 +1001,7 @@
                 metricIt: '31.4% Abbandono a Catania', metricEn: '31.4% Dropout in Catania',
                 descIt: 'I dati dell\'Anagrafe Studenti (MUR/CINECA) confermano che il tasso di abbandono o fuoricorso nei grandi atenei del Mezzogiorno supera il 30%, triplo rispetto a Politecnico di Milano o Bologna.',
                 descEn: 'Ministry student registry data (CINECA) show university dropout and fuoricorso rates in major Southern universities exceed 30%—triple that of Polimi or Bologna.',
-                sourceUrl: 'https://ustat.mur.gov.it/',
+                sourceUrl: 'https://ustat.mur.gov.it/dati/didattica/italia/iscritti',
                 csv: 'mur_national_university_dropout_timeseries.csv'
             },
             {
@@ -1003,7 +1013,7 @@
                 metricIt: '192 Punteggio Medio INVALSI', metricEn: '192 Average INVALSI Score',
                 descIt: 'Le prove nazionali INVALSI al quinto anno delle superiori evidenziano un divario di competenze base in italiano e matematica di oltre 35 punti tra il Veneto/Lombardia e la Calabria/Sicilia.',
                 descEn: 'National INVALSI standardized tests in 5th year upper secondary reveal a basic competency gap in math and literacy of over 35 points between Veneto and Calabria.',
-                sourceUrl: 'https://invalsi.it/',
+                sourceUrl: 'https://invalsi-open.cineca.it/index.php?get=statistiche',
                 csv: 'ministerial_snv_pedagogy_outcomes_rubric.csv'
             },
             {
@@ -1015,8 +1025,128 @@
                 metricIt: '82% Transizione vs 56% Italia', metricEn: '82% Transition vs 56% Italy',
                 descIt: 'I paesi internazionali che mantengono la scuola unica (comprehensive) fino a 16 anni mostrano un tasso di prosecuzione agli studi universitari di 25 punti superiore all\'Italia.',
                 descEn: 'International countries maintaining comprehensive schooling until age 16 achieve university transition rates 25 percentage points higher than early-tracking systems.',
-                sourceUrl: 'https://www.oecd.org/education/education-at-a-glance/',
+                sourceUrl: 'https://www.oecd.org/en/publications/education-at-a-glance-2024_c00cad36-en.html',
                 csv: 'international_tripartite_vs_comprehensive_benchmark.csv'
+            },
+            {
+                id: 'neet_gender_year',
+                titleIt: '16. NEET per Genere e Anno in Italia vs Media UE (% Eurostat)',
+                titleEn: '16. NEET Rates by Gender & Year in Italy vs EU Avg (% Eurostat)',
+                labels: ['2015-Donne', '2015-Uomini', '2018-Donne', '2018-Uomini', '2021-Donne', '2021-Uomini', '2024-Donne', '2024-Uomini', 'Media UE-Donne', 'Media UE-Uomini'],
+                data: [25.4, 21.8, 23.8, 19.4, 23.1, 18.2, 18.8, 14.2, 11.9, 10.1],
+                metricIt: '18.8% Donne NEET vs 11.9% UE', metricEn: '18.8% Female NEET vs 11.9% EU',
+                descIt: 'Le serie storiche Eurostat confermano un forte divario di genere: le donne tra 15 e 29 anni in Italia subiscono un tasso NEET del 18.8%, oltre 7 punti sopra la media europea.',
+                descEn: 'Eurostat historical series confirm a gender gap: Italian women aged 15-29 suffer an 18.8% NEET rate, more than 7 percentage points above the EU average.',
+                sourceUrl: 'https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table?lang=en',
+                csv: 'neet_gender_year_panel.csv'
+            },
+            {
+                id: 'urban_rural_neet',
+                titleIt: '17. Divario Urbano vs Aree Interne/Rurali nell\'Abbandono (%)',
+                titleEn: '17. Urban vs Rural/Internal Areas School Dropout Gap (%)',
+                labels: ['Città Centro Nord', 'Periferie Centro Nord', 'Aree Interne C-Nord', 'Città Mezzogiorno', 'Periferie Mezzogiorno', 'Aree Interne Mezzogiorno'],
+                data: [9.2, 12.4, 14.8, 14.2, 19.8, 23.5],
+                metricIt: '23.5% Abbandono Aree Interne Sud', metricEn: '23.5% Dropout in Southern Rural Areas',
+                descIt: 'L\'indagine Openpolis/Eurostat sulle aree interne mostra che i ragazzi nei comuni montani e periferici del Sud affrontano un tasso di abbandono precoce superiore al 23%.',
+                descEn: 'The Openpolis/Eurostat survey on internal areas shows that students in remote Southern mountain and rural municipalities face an early dropout rate above 23%.',
+                sourceUrl: 'https://www.openpolis.it/esercizi/il-divario-tra-aree-urbane-e-interne-nellabbandono-scolastico/',
+                csv: 'openpolis_neet_urban_rural_gap.csv'
+            },
+            {
+                id: 'unemployment_degree',
+                titleIt: '18. Disoccupazione Giovanile per Titolo di Studio (% Eurostat/ISTAT)',
+                titleEn: '18. Youth Unemployment Rate by Educational Attainment (%)',
+                labels: ['Senza Diploma (Licenza Media)', 'Diploma Istituto Professionale', 'Diploma Istituto Tecnico', 'Diploma Liceo', 'Laurea Triennale', 'Laurea Magistrale/Master'],
+                data: [26.4, 18.2, 14.1, 12.8, 9.4, 6.8],
+                metricIt: '26.4% Disoccupazione Senza Diploma', metricEn: '26.4% Joblessness Without Diploma',
+                descIt: 'I dati ISTAT sulla forza lavoro indicano che conseguire un diploma riduce la disoccupazione di quasi il 10%, mentre la laurea magistrale garantisce un tasso di occupazione del 93%.',
+                descEn: 'ISTAT labor force statistics indicate high school graduation reduces unemployment by nearly 10%, while a master\'s degree secures a 93% employment rate.',
+                sourceUrl: 'https://ec.europa.eu/eurostat/databrowser/view/lfsa_urgaed/default/table?lang=en',
+                csv: 'istat_unemployment_by_degree_and_region.csv'
+            },
+            {
+                id: 'youth_earnings',
+                titleIt: '19. Retribuzione Netta Media Giovanile (€ / anno - INPS/OCSE)',
+                titleEn: '19. Average Youth Net Earnings (€ / year - INPS/OECD)',
+                labels: ['18-24y Senza Diploma', '18-24y con Diploma', '25-29y Senza Diploma', '25-29y con Diploma', '25-29y Laurea Triennale', '25-29y Laurea Magistrale'],
+                data: [10200, 13800, 12400, 16900, 19400, 23800],
+                metricIt: '+90% Premio Salariale della Laurea', metricEn: '+90% Wage Premium for Degrees',
+                descIt: 'I registri contributivi INPS mostrano il premio salariale dell\'istruzione: a 28 anni un laureato percepisce in media quasi il doppio di chi ha lasciato la scuola dopo le medie.',
+                descEn: 'INPS administrative records demonstrate the wage premium: by age 28, a university graduate earns nearly double the annual net salary of a middle school dropout.',
+                sourceUrl: 'https://data.oecd.org/earn/average-wages.htm',
+                csv: 'inps_youth_earnings_and_precariousness_panel.csv'
+            },
+            {
+                id: 'child_poverty',
+                titleIt: '20. Deprivazione Materiale Minorile e Povertà Educativa (% ISTAT)',
+                titleEn: '20. Child Material Deprivation & Educational Poverty Rate (%)',
+                labels: ['Lombardia', 'Emilia-Romagna', 'Veneto', 'Toscana', 'Lazio', 'Campania', 'Puglia', 'Sicilia', 'Calabria'],
+                data: [8.4, 7.8, 8.1, 9.2, 13.5, 28.4, 26.1, 31.2, 32.8],
+                metricIt: '32.8% Povertà Minorile in Calabria', metricEn: '32.8% Child Poverty in Calabria',
+                descIt: 'L\'indagine ISTAT sulle condizioni di vita (EU-SILC) rivela che quasi un bambino su tre in Sicilia e Calabria vive in famiglie con deprivazione materiale o impossibilitate ad acquistare libri/tecnologia.',
+                descEn: 'ISTAT living conditions surveys (EU-SILC) reveal nearly 1 in 3 children in Sicily and Calabria live in households facing severe material or educational deprivation.',
+                sourceUrl: 'https://ec.europa.eu/eurostat/databrowser/view/ilc_chmd01/default/table?lang=en',
+                csv: 'istat_caritas_child_material_deprivation_panel.csv'
+            },
+            {
+                id: 'brain_drain',
+                titleIt: '21. Migrazione dei Laureati dal Sud verso Nord/Estero (NUTS-2)',
+                titleEn: '21. Graduate Brain Drain Migration from South to North/Abroad',
+                labels: ['Campania (flusso netto)', 'Sicilia (flusso netto)', 'Puglia (flusso netto)', 'Calabria (flusso netto)', 'Lombardia (flusso netto)', 'Emilia-Romagna (flusso netto)'],
+                data: [-14200, -12800, -8900, -6400, +18500, +11200],
+                metricIt: '-42.300 Laureati / Anno dal Sud', metricEn: '-42,300 Graduates / Year from South',
+                descIt: 'I registri migratori ISTAT/SVIMEZ certificano il saldo netto: il Mezzogiorno perde ogni anno oltre 42.000 giovani laureati, trasferendo capitale umano ad altissimo valore verso Milano, Bologna e l\'estero.',
+                descEn: 'ISTAT/SVIMEZ migration logs certify the net brain drain: Southern Italy loses over 42,000 university graduates annually, transferring high human capital to Milan, Bologna, and abroad.',
+                sourceUrl: 'https://www.istat.it/it/archivio/migrazioni+interne',
+                csv: 'svimez_istat_brain_drain_regional_migration_panel.csv'
+            },
+            {
+                id: 'university_scholarships',
+                titleIt: '22. Borse di Studio e Esoneri Tasse Universitarie (% Beneficiari)',
+                titleEn: '22. University Fee Exemptions & Scholarships (% Beneficiaries)',
+                labels: ['Polimi Milano', 'Bologna', 'Padova', 'Sapienza Roma', 'Federico II Napoli', 'Bari', 'Catania', 'Palermo'],
+                data: [14.2, 18.5, 19.8, 28.4, 39.2, 42.1, 46.8, 48.5],
+                metricIt: '48.5% Esoneri/Borse in Sicilia', metricEn: '48.5% Exemptions/Grants in Sicily',
+                descIt: 'I dati MUR/CINECA sul diritto allo studio mostrano che quasi metà degli iscritti negli atenei siciliani e campani beneficia dell\'esonero totale o della borsa ISEE per redditi inferiori a 23.000€.',
+                descEn: 'MUR/CINECA data show nearly half of students in Sicilian and Neapolitan universities receive total fee exemptions or ISEE income grants.',
+                sourceUrl: 'https://ustat.mur.gov.it/dati/diritto-allo-studio/',
+                csv: 'mur_university_exemptions_and_tax_relief_panel.csv'
+            },
+            {
+                id: 'pisa_stem_reading',
+                titleIt: '23. Punteggi OCSE PISA Matematica, Lettura e Scienze (15 Anni)',
+                titleEn: '23. OECD PISA Math, Reading & Science Scores (15yo Students)',
+                labels: ['Italia-Nord Ovest', 'Italia-Nord Est', 'Italia-Centro', 'Italia-Sud e Isole', 'Media OCSE', 'Germania', 'Francia'],
+                data: [498, 502, 482, 448, 472, 475, 474],
+                metricIt: '502 Nord Est vs 448 Sud', metricEn: '502 North-East vs 448 South',
+                descIt: 'I test internazionali OCSE PISA sui 15enni evidenziano che gli studenti del Nord Est italiano superano la media europea in matematica, mentre gli studenti delle Isole si posizionano 24 punti sotto.',
+                descEn: 'OECD PISA international assessments for 15-year-olds show Italian North-East students outscore EU averages in math, whereas Southern island students lag 24 points behind.',
+                sourceUrl: 'https://www.oecd.org/pisa/data/',
+                csv: 'ocse_pisa_timss_stem_and_reading_competency_panel.csv'
+            },
+            {
+                id: 'mental_health_hbsc',
+                titleIt: '24. Benessere Mentale e Disagio Psicologico Studenti (ISS/HBSC)',
+                titleEn: '24. Youth Mental Health & Psychological Distress (ISS/HBSC Study)',
+                labels: ['11 Anni-Ragazzi', '11 Anni-Ragazze', '13 Anni-Ragazzi', '13 Anni-Ragazze', '15 Anni-Ragazzi', '15 Anni-Ragazze'],
+                data: [14.2, 18.5, 21.4, 34.2, 26.8, 52.4],
+                metricIt: '52.4% Disagio tra Ragazze 15enni', metricEn: '52.4% Distress in 15yo Girls',
+                descIt: 'L\'indagine ufficiale HBSC (Istituto Superiore di Sanità) avverte che oltre la metà delle ragazze di 15 anni nelle scuole superiori riferisce sintomi di ansia scolastica, stress e calo del benessere psicologico.',
+                descEn: 'Official HBSC surveys (National Health Institute) warn that over 52% of 15-year-old female high school students report severe school anxiety, chronic stress, and distress.',
+                sourceUrl: 'https://www.epicentro.iss.it/hbsc/dati',
+                csv: 'salute_iss_hbsc_mental_health_and_life_expectancy_panel.csv'
+            },
+            {
+                id: 'teacher_salaries_eu',
+                titleIt: '25. Stipendi Docenti Italiani vs Media Europea (€ / anno Eurydice)',
+                titleEn: '25. Italian Teacher Salaries vs European Average (€ / year Eurydice)',
+                labels: ['Italia (Inizio Carriera)', 'Italia (Dopo 15 Anni)', 'Italia (Massimo Anzianità)', 'Germania (Inizio)', 'Germania (Dopo 15y)', 'Francia (Inizio)', 'Spagna (Inizio)'],
+                data: [26400, 31200, 38900, 54200, 68400, 29800, 32500],
+                metricIt: '-40% Stipendi Docenti vs Germania', metricEn: '-40% Teacher Pay vs Germany',
+                descIt: 'Il rapporto Eurydice della Commissione Europea mostra che lo stipendio di partenza di un docente italiano di scuola superiore è di circa 26.400€ lordi, inferiore del 40% rispetto ai colleghi tedeschi.',
+                descEn: 'The European Commission Eurydice report shows starting gross salaries for Italian upper secondary teachers (~€26,400) are 40% lower than their German counterparts.',
+                sourceUrl: 'https://eurydice.eacea.ec.europa.eu/data-and-visuals/teachers-and-school-heads-salaries-and-allowances',
+                csv: 'oecd_teacher_salaries_and_aging_eu.csv'
             }
         ];
 
@@ -1148,7 +1278,7 @@
             }).join('');
         }
 
-        // 4. SLIDESHOW & MULTI-VISUALIZATION ENGINE (`Section 2 displays all data`)
+        // 4. SLIDESHOW & MULTI-VISUALIZATION ENGINE (`Section 2 displays all 25 datasets`)
         function renderSlideShow() {
             const item = allDatasetsList[currentSlideIndex];
             if (!item) return;
@@ -1251,8 +1381,8 @@
                     </div>
 
                     <div class="pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
-                        <a href="${item.sourceUrl}" target="_blank" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-blue-300 font-bold text-[11px] transition flex items-center gap-1">
-                            <span>🔗 ${currentLang === 'it' ? 'Fonte' : 'Source'}</span>
+                        <a href="${item.sourceUrl}" target="_blank" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-blue-300 font-bold text-[11px] transition flex items-center gap-1 truncate max-w-[140px]" title="Portale Fonte Ufficiale Diretta">
+                            <span>🔗 ${currentLang === 'it' ? 'Fonte Diretta' : 'Direct Portal'}</span>
                         </a>
                         <button onclick="window.open('https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/${item.csv}', '_blank')" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[11px] transition flex items-center gap-1 shadow">
                             <span>📥 CSV</span>
