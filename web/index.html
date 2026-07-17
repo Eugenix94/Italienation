@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="pageTitle">Italienation — Dati Aperti sull'Istruzione in Italia</title>
-    <meta name="description" content="Osservatorio open-data: 483 dataset grezzi da ISTAT, MIM, MUR, Eurostat, OCSE, INVALSI e UK ONS per esplorare il sistema scolastico italiano e confrontarlo con quello inglese.">
+    <meta name="description" content="Osservatorio open-data: 487 dataset grezzi da ISTAT, MIM, MUR, Eurostat, OCSE, INVALSI e UK ONS per esplorare il sistema scolastico italiano e confrontarlo con quello inglese e internazionale.">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -21,13 +21,15 @@
         .bottom-nav{position:fixed;bottom:0;left:0;right:0;z-index:50;background:rgba(9,9,11,.92);backdrop-filter:blur(12px);border-top:1px solid rgba(63,63,70,.5);padding:6px 0}
         .bottom-nav a{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;font-weight:600;color:#a1a1aa;text-decoration:none;padding:4px 6px;border-radius:8px;transition:all .2s}
         .bottom-nav a.active,.bottom-nav a:hover{color:#818cf8;background:rgba(99,102,241,.1)}
+        .desk-nav a{padding:6px 12px;border-radius:10px;color:#a1a1aa;font-weight:600;transition:all .2s;white-space:nowrap;text-decoration:none}
+        .desk-nav a.active,.desk-nav a:hover{color:#ffffff;background:rgba(99,102,241,.2);border:1px solid rgba(129,140,248,.3)}
         details summary{cursor:pointer;list-style:none}
         details summary::-webkit-details-marker{display:none}
         details[open] .chv{transform:rotate(180deg)}
         .chv{transition:transform .2s}
         .chart-box{position:relative;width:100%;aspect-ratio:16/9;min-height:200px}
         @media(max-width:640px){.chart-box{aspect-ratio:4/3;min-height:160px}.bottom-nav a .bl{display:none}}
-        section[id]{scroll-margin-top:60px}
+        section[id]{scroll-margin-top:110px}
         html{scroll-padding-bottom:72px}
         /* OTED Triangle */
         .oted-svg{max-width:500px;margin:0 auto}
@@ -45,11 +47,28 @@
 
 <!-- HEADER -->
 <header class="sticky top-0 z-50 glass border-b border-zinc-800/80">
-    <div class="max-w-6xl mx-auto px-4 h-12 flex items-center justify-between">
-        <a href="#hero" class="flex items-center gap-2"><span class="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-base shadow-lg shadow-indigo-500/20">🇮🇹</span><span class="text-sm font-extrabold text-white tracking-tight">Italienation</span></a>
-        <div class="flex items-center gap-2">
+    <div class="max-w-6xl mx-auto px-4 py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div class="flex items-center justify-between">
+            <a href="#hero" class="flex items-center gap-2"><span class="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-base shadow-lg shadow-indigo-500/20">🇮🇹</span><span class="text-sm font-extrabold text-white tracking-tight">Italienation</span></a>
+            <div class="flex items-center gap-2 sm:hidden">
+                <button onclick="toggleLang()" class="px-2.5 py-1 rounded-lg bg-zinc-800 text-zinc-300 text-[11px] font-bold border border-zinc-700 transition">🌐 <span id="langLabelMob">EN</span></button>
+            </div>
+        </div>
+        <!-- Desktop Nav Bar -->
+        <nav class="desk-nav hidden sm:flex items-center gap-1 overflow-x-auto text-xs py-1" id="dNav">
+            <a href="#hero" class="active"><span class="i18n" data-it="🏠 Home" data-en="🏠 Home"></span></a>
+            <a href="#story"><span class="i18n" data-it="📖 Sintesi & NEET" data-en="📖 Synthesis & NEET"></span></a>
+            <a href="#comparison"><span class="i18n" data-it="⚖️ Leggi & Confronti" data-en="⚖️ Laws & Compare"></span></a>
+            <a href="#data"><span class="i18n" data-it="📊 Dati" data-en="📊 Data"></span></a>
+            <a href="#simulator"><span class="i18n" data-it="△ OTED" data-en="△ OTED"></span></a>
+            <a href="#rawdata"><span class="i18n" data-it="📂 Grezzi (487)" data-en="📂 Raw (487)"></span></a>
+            <a href="#procdata"><span class="i18n" data-it="⚙️ Elaborati" data-en="⚙️ Processed"></span></a>
+            <a href="#notebooks"><span class="i18n" data-it="🛠️ Metodi" data-en="🛠️ Methods"></span></a>
+            <a href="#collaborate"><span class="i18n" data-it="🤝 Collabora" data-en="🤝 Collaborate"></span></a>
+        </nav>
+        <div class="hidden sm:flex items-center gap-2">
             <button onclick="toggleLang()" id="langBtn" class="px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-[11px] font-bold border border-zinc-700 transition">🌐 <span id="langLabel">EN</span></button>
-            <a href="https://github.com/Eugenix94/Italienation" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-[11px] font-bold transition hidden sm:flex items-center gap-1 shadow">💻 GitHub</a>
+            <a href="https://github.com/Eugenix94/Italienation" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-[11px] font-bold transition flex items-center gap-1 shadow">💻 GitHub</a>
         </div>
     </div>
 </header>
@@ -65,7 +84,7 @@
             <span class="i18n" data-it="I numeri del sistema scolastico italiano" data-en="The numbers behind Italy's education system"></span>
         </h1>
         <p class="text-zinc-400 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
-            <span class="i18n" data-it="483 dataset grezzi da fonti istituzionali (ISTAT, MIM, MUR, Eurostat, OCSE, INVALSI, UK ONS) raccolti in un unico osservatorio aperto. I dati parlano da soli." data-en="483 raw datasets from institutional sources (ISTAT, MIM, MUR, Eurostat, OECD, INVALSI, UK ONS) gathered in one open observatory. The data speaks for itself."></span>
+            <span class="i18n" data-it="487 dataset grezzi da fonti istituzionali (ISTAT, MIM, MUR, Eurostat, OCSE, INVALSI, UK ONS) raccolti in un unico osservatorio aperto. I dati parlano da soli." data-en="487 raw datasets from institutional sources (ISTAT, MIM, MUR, Eurostat, OECD, INVALSI, UK ONS) gathered in one open observatory. The data speaks for itself."></span>
         </p>
     </div>
     <!-- 3 STAT CARDS (corrected labels) -->
@@ -119,26 +138,128 @@
             <h3 class="text-base font-bold text-white"><span class="i18n" data-it="4. Saldo migratorio laureati: negativo al Sud" data-en="4. Graduate migration balance: negative in the South"></span></h3>
             <p class="text-zinc-400 text-sm leading-relaxed"><span class="i18n" data-it="Il saldo migratorio netto dei laureati è negativo nelle regioni del Mezzogiorno (circa -42.000/anno, stima ISTAT/SVIMEZ 2022) e positivo in Lombardia ed Emilia-Romagna." data-en="Net graduate migration is negative in Southern regions (approx. -42,000/year, ISTAT/SVIMEZ estimate 2022) and positive in Lombardy and Emilia-Romagna."></span></p>
         </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="glass rounded-2xl p-5 border-l-4 border-l-indigo-500 space-y-2">
+            <h3 class="text-base font-bold text-white"><span class="i18n" data-it="1. Asili nido e tassi NEET variano insieme" data-en="1. Daycare coverage and NEET rates vary together"></span></h3>
+            <p class="text-zinc-400 text-sm leading-relaxed"><span class="i18n" data-it="Le città con copertura asili nido sotto il 15% (Palermo, Catania) registrano anche tassi NEET sopra il 28%. Le città con copertura sopra il 33% (Bologna, Firenze) registrano tassi sotto il 12%. Correlazione, non causa dimostrata." data-en="Cities with daycare coverage below 15% (Palermo, Catania) also register NEET rates above 28%. Cities above 33% (Bologna, Florence) register rates below 12%. Correlation, not demonstrated causation."></span></p>
+        </div>
+        <div class="glass rounded-2xl p-5 border-l-4 border-l-amber-500 space-y-2">
+            <h3 class="text-base font-bold text-white"><span class="i18n" data-it="2. Tre percorsi a 14 anni, esiti diversi" data-en="2. Three tracks at 14, different outcomes"></span></h3>
+            <p class="text-zinc-400 text-sm leading-relaxed"><span class="i18n" data-it="Il sistema italiano separa gli studenti a 14 anni in Licei, Tecnici e Professionali. I Professionali (18% degli iscritti) registrano bocciature al 14.8%, i Licei al 3.5%. Le popolazioni sono diverse per composizione socio-economica." data-en="Italy's system separates students at 14 into Licei, Technical, and Vocational. Vocational schools (18% of enrollment) register 14.8% repetition, Licei 3.5%. The populations differ in socio-economic composition."></span></p>
+        </div>
+        <div class="glass rounded-2xl p-5 border-l-4 border-l-violet-500 space-y-2">
+            <h3 class="text-base font-bold text-white"><span class="i18n" data-it="3. Sostegno: 64% contratti a tempo determinato" data-en="3. Special education: 64% temporary contracts"></span></h3>
+            <p class="text-zinc-400 text-sm leading-relaxed"><span class="i18n" data-it="Sui posti di sostegno per studenti con disabilità, il 64% è coperto da supplenti annuali (76% in alcune province del Sud). Questo limita la continuità didattica." data-en="Of special education support positions for students with disabilities, 64% are filled by annual substitutes (76% in some Southern provinces). This limits educational continuity."></span></p>
+        </div>
+        <div class="glass rounded-2xl p-5 border-l-4 border-l-emerald-500 space-y-2">
+            <h3 class="text-base font-bold text-white"><span class="i18n" data-it="4. Saldo migratorio laureati: negativo al Sud" data-en="4. Graduate migration balance: negative in the South"></span></h3>
+            <p class="text-zinc-400 text-sm leading-relaxed"><span class="i18n" data-it="Il saldo migratorio netto dei laureati è negativo nelle regioni del Mezzogiorno (circa -42.000/anno, stima ISTAT/SVIMEZ 2022) e positivo in Lombardia ed Emilia-Romagna." data-en="Net graduate migration is negative in Southern regions (approx. -42,000/year, ISTAT/SVIMEZ estimate 2022) and positive in Lombardy and Emilia-Romagna."></span></p>
+        </div>
+        <div class="glass rounded-2xl p-5 border-l-4 border-l-red-500 space-y-2 md:col-span-2 lg:col-span-2">
+            <h3 class="text-base font-bold text-white"><span class="i18n" data-it="5. Il paradosso NEET: tripartizione precoce, bocciature e caro libri come trappola strutturale" data-en="5. The NEET paradox: early tracking, repetitions, and textbook costs as a structural trap"></span></h3>
+            <p class="text-zinc-400 text-sm leading-relaxed">
+                <span class="i18n" data-it="I dati OCSE ed Eurostat mostrano perché l'Italia registra un tasso NEET (23.1%) doppio rispetto a Regno Unito (12.6%) e Germania (8.8%). La combinazione tra selezione tripartita precoce a 14 anni, alti costi di ingresso obbligatori per i libri di testo (€310 al 1° anno) e tassi di bocciatura selettiva (14.8% nei professionali contro <0.5% in UK) crea una barriera all'ingresso ad alto rischio di abbandono per i giovani provenienti da famiglie con basso reddito o in aree con deprivazione materiale (>30% al Sud)." data-en="OECD and Eurostat data explain why Italy registers a NEET rate (23.1%) double that of the UK (12.6%) and Germany (8.8%). The combination of early tripartite tracking at age 14, mandatory upfront textbook barriers (€310 in Year 1), and selective grade repetition (14.8% in vocational schools vs <0.5% in the UK) creates a high-attrition bottleneck for youth from low-income households and material deprivation areas (>30% in the South)."></span>
+            </p>
+        </div>
     </div>
 </section>
 
 <!-- ================================= -->
-<!-- §3 ITALY vs ENGLAND COMPARISON    -->
+<!-- §3 ITALY vs WORLD COMPARISON      -->
 <!-- ================================= -->
-<section id="comparison" class="space-y-6">
-    <h2 class="text-2xl sm:text-3xl font-extrabold text-white"><span class="i18n" data-it="🇮🇹🇬🇧 Sistema Tripartito vs Comprehensive" data-en="🇮🇹🇬🇧 Tripartite vs Comprehensive System"></span></h2>
-    <p class="text-zinc-500 text-sm"><span class="i18n" data-it="Come l'Italia e l'Inghilterra organizzano l'istruzione secondaria e cosa implica per gli studenti." data-en="How Italy and England organize secondary education and what it means for students."></span></p>
+<section id="comparison" class="space-y-8">
+    <div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white"><span class="i18n" data-it="🇮🇹🇬🇧 Il Sistema Tripartito vs Comprehensive & Quadro Globale" data-en="🇮🇹🇬🇧 Tripartite vs Comprehensive & Global Frameworks"></span></h2>
+        <p class="text-zinc-500 text-sm mt-1"><span class="i18n" data-it="Come le leggi e le strutture organizzative (bocciature, costo dei libri, età di scelta) separano l'Italia dai modelli internazionali e generano divari NEET." data-en="How laws and structures (repetitions, textbook costs, tracking age) separate Italy from international models and shape NEET gaps."></span></p>
+    </div>
+
+    <!-- THE ECONOMIC & PEDAGOGICAL SHOCK: CARO LIBRI & BOCCIATURE -->
+    <div class="glass rounded-2xl p-6 border border-indigo-500/30 space-y-4 bg-gradient-to-br from-indigo-950/20 to-zinc-900/60">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span>💶</span> <span class="i18n" data-it="La barriera d'ingresso a 14 anni: Libri di Testo e Bocciature" data-en="The age-14 entry barrier: Textbooks & Grade Repetition"></span>
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-zinc-950/80 p-4 rounded-xl border border-red-500/30 space-y-1">
+                <div class="text-[10px] text-red-400 font-bold uppercase"><span class="i18n" data-it="Costo Libri 1° Anno Superiori" data-en="Year 1 Upper Secondary Textbook Cost"></span></div>
+                <div class="flex items-baseline justify-between pt-1">
+                    <div><span class="text-2xl font-black text-white">€310</span> <span class="text-xs text-zinc-500">🇮🇹 Italia</span></div>
+                    <div><span class="text-2xl font-black text-emerald-400">£0</span> <span class="text-xs text-zinc-500">🇬🇧 UK</span></div>
+                </div>
+                <p class="text-[11px] text-zinc-400 pt-1 leading-snug"><span class="i18n" data-it="In Italia acquisto privato obbligatorio (D.Lgs 297/94). In UK libri forniti in comodato d'uso gratuito dalle scuole (Class Sets)." data-en="In Italy private mandatory purchase (D.Lgs 297/94). In UK free school-loaned class sets."></span></p>
+            </div>
+            <div class="bg-zinc-950/80 p-4 rounded-xl border border-amber-500/30 space-y-1">
+                <div class="text-[10px] text-amber-400 font-bold uppercase"><span class="i18n" data-it="Tasso Bocciature (15 anni)" data-en="Grade Repetition Rate (Age 15)"></span></div>
+                <div class="flex items-baseline justify-between pt-1">
+                    <div><span class="text-2xl font-black text-white">14.8%</span> <span class="text-xs text-zinc-500">🇮🇹 Prof.</span></div>
+                    <div><span class="text-2xl font-black text-emerald-400">&lt;0.5%</span> <span class="text-xs text-zinc-500">🇬🇧 UK</span></div>
+                </div>
+                <p class="text-[11px] text-zinc-400 pt-1 leading-snug"><span class="i18n" data-it="In Italia bocciatura come filtro nei tecnici/professionali. In UK progressione automatica con supporto di recupero mirato." data-en="In Italy repetition acts as a filter in vocational/tech. In UK social promotion with targeted remedial support."></span></p>
+            </div>
+            <div class="bg-zinc-950/80 p-4 rounded-xl border border-indigo-500/30 space-y-1">
+                <div class="text-[10px] text-indigo-400 font-bold uppercase"><span class="i18n" data-it="Valutazione e Capitale Culturale" data-en="Assessment & Cultural Capital"></span></div>
+                <div class="text-xs font-bold text-white pt-1"><span class="i18n" data-it="Interrogazioni orali continue vs Test scritti ciechi" data-en="Continuous oral exams vs Blind standardized written tests"></span></div>
+                <p class="text-[11px] text-zinc-400 pt-1 leading-snug"><span class="i18n" data-it="L'interrogazione orale favorisce l'habitus linguistico borghese; il sistema GCSE/A-Level inglese valuta prove scritte anonime e progetti." data-en="Oral exams favor middle-class linguistic habitus; the British GCSE/A-Level system evaluates anonymous written tests and projects."></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEGISLATIVE MILESTONES SWITCHER -->
+    <div class="glass rounded-2xl p-6 space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-3 border-b border-zinc-800 pb-3">
+            <h3 class="text-base font-bold text-white flex items-center gap-2">
+                <span>📜</span> <span class="i18n" data-it="Origini Legislative: Perché esiste il sistema tripartito?" data-en="Legislative Origins: Why does the tripartite system exist?"></span>
+            </h3>
+            <div class="flex gap-2 bg-zinc-900 p-1 rounded-xl">
+                <button onclick="showLeg('it')" id="legBtn-it" class="ltab px-3 py-1 rounded-lg text-xs font-bold bg-indigo-600 text-white transition">🇮🇹 <span class="i18n" data-it="Italia (1923-2017)" data-en="Italy (1923-2017)"></span></button>
+                <button onclick="showLeg('uk')" id="legBtn-uk" class="ltab px-3 py-1 rounded-lg text-xs font-bold bg-zinc-800 text-zinc-400 transition">🇬🇧 <span class="i18n" data-it="Inghilterra (1944-2008)" data-en="England (1944-2008)"></span></button>
+            </div>
+        </div>
+        <div id="legIT" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-zinc-900/90 p-4 rounded-xl border border-zinc-800 space-y-1">
+                <span class="text-xs font-black text-indigo-400">1923 — Riforma Gentile</span>
+                <h4 class="text-sm font-bold text-white"><span class="i18n" data-it="La gerarchia classica" data-en="The classical hierarchy"></span></h4>
+                <p class="text-xs text-zinc-400 leading-relaxed"><span class="i18n" data-it="R.D. 1054/1923: istituisce il Liceo Classico selettivo come unico accesso all'università, separando rigidamente l'élite dirigente dalle scuole tecniche e di avviamento al lavoro per le classi popolari." data-en="R.D. 1054/1923: created selective Liceo Classico as the only university gateway, strictly separating ruling elites from technical and vocational paths for working classes."></span></p>
+            </div>
+            <div class="bg-zinc-900/90 p-4 rounded-xl border border-zinc-800 space-y-1">
+                <span class="text-xs font-black text-amber-400">1962 & 1994 — Media Unica & Libri</span>
+                <h4 class="text-sm font-bold text-white"><span class="i18n" data-it="Incompiuta democratizzazione" data-en="Unfinished democratization"></span></h4>
+                <p class="text-xs text-zinc-400 leading-relaxed"><span class="i18n" data-it="L. 1859/1962 unifica la scuola media (11-14 anni), ma lascia intatta la tripartizione delle superiori. Il D.Lgs 297/1994 codifica l'adozione annuale obbligatoria dei libri di testo a carico della famiglia." data-en="L. 1859/1962 unified middle school (ages 11-14) but left upper secondary tracking intact. D.Lgs 297/1994 codified mandatory annual family textbook purchases."></span></p>
+            </div>
+            <div class="bg-zinc-900/90 p-4 rounded-xl border border-zinc-800 space-y-1">
+                <span class="text-xs font-black text-violet-400">2003-2017 — Moratti, Gelmini & D.Lgs 61</span>
+                <h4 class="text-sm font-bold text-white"><span class="i18n" data-it="Cristallizzazione dei canali" data-en="Channel crystallization"></span></h4>
+                <p class="text-xs text-zinc-400 leading-relaxed"><span class="i18n" data-it="Le riforme 2003-2010 e i D.Lgs 61/62 del 2017 consolidano il doppio binario Licei vs Istituti Tecnici/Professionali (e LeFP regionali), mantenendo irreversibile la scelta a 14 anni." data-en="Reforms from 2003-2010 and D.Lgs 61/62 (2017) consolidated the dual track of Licei vs Technical/Vocational (and regional LeFP), keeping age-14 tracking irreversible."></span></p>
+            </div>
+        </div>
+        <div id="legUK" class="grid grid-cols-1 sm:grid-cols-3 gap-4 hidden">
+            <div class="bg-zinc-900/90 p-4 rounded-xl border border-zinc-800 space-y-1">
+                <span class="text-xs font-black text-blue-400">1944 — Butler Education Act</span>
+                <h4 class="text-sm font-bold text-white"><span class="i18n" data-it="Il Tripartite System (11+)" data-en="The Tripartite System (11+)"></span></h4>
+                <p class="text-xs text-zinc-400 leading-relaxed"><span class="i18n" data-it="Istituì la scuola secondaria gratuita per tutti ma separò i bambini a 11 anni con il test '11+': il 20% andava alle Grammar Schools e l'80% alle Secondary Modern senza sbocco universitario." data-en="Created free universal secondary school but tracked children at age 11 via the '11+' test: 20% to Grammar Schools and 80% to Secondary Moderns with no university path."></span></p>
+            </div>
+            <div class="bg-zinc-900/90 p-4 rounded-xl border border-zinc-800 space-y-1">
+                <span class="text-xs font-black text-emerald-400">1965 & 1988 — Circular 10/65 & ERA</span>
+                <h4 class="text-sm font-bold text-white"><span class="i18n" data-it="Rivoluzione Comprehensive" data-en="Comprehensive Revolution"></span></h4>
+                <p class="text-xs text-zinc-400 leading-relaxed"><span class="i18n" data-it="La Circolare 10/65 abolì il test 11+ e creò le scuole Comprehensive uniche per tutti (11-16 anni). L'Education Reform Act 1988 introdusse il National Curriculum comune e gli esami GCSE uguali per tutti a 16 anni." data-en="Circular 10/65 abolished the 11+ test and created unified Comprehensive schools (ages 11-16). ERA 1988 introduced the shared National Curriculum and equal GCSE exams at age 16."></span></p>
+            </div>
+            <div class="bg-zinc-900/90 p-4 rounded-xl border border-zinc-800 space-y-1">
+                <span class="text-xs font-black text-violet-400">2008 — Education & Skills Act</span>
+                <h4 class="text-sm font-bold text-white"><span class="i18n" data-it="Obbligo formativo fino a 18 anni" data-en="Participation required to 18"></span></h4>
+                <p class="text-xs text-zinc-400 leading-relaxed"><span class="i18n" data-it="Ha innalzato l'obbligo di permanenza in istruzione, formazione o apprendistato fino ai 18 anni (in vigore dal 2015), riducendo drasticamente l'abbandono precoce e i flussi verso lo status di NEET." data-en="Raised required participation in education, training, or apprenticeships to age 18 (effective 2015), drastically reducing early school leaving and flows into NEET status."></span></p>
+            </div>
+        </div>
+    </div>
 
     <!-- Side-by-side flow diagrams -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <!-- ITALY -->
         <div class="glass rounded-2xl p-5 space-y-4">
-            <div class="flex items-center gap-2 mb-2"><span class="text-xl">🇮🇹</span><h3 class="text-base font-bold text-white"><span class="i18n" data-it="Italia — Sistema Tripartito" data-en="Italy — Tripartite System"></span></h3></div>
+            <div class="flex items-center gap-2 mb-2"><span class="text-xl">🇮🇹</span><h3 class="text-base font-bold text-white"><span class="i18n" data-it="Italia — Sistema Tripartito Precoce (14 anni)" data-en="Italy — Early Tripartite System (Age 14)"></span></h3></div>
             <div class="space-y-3">
                 <div class="flow-box bg-indigo-950/40 border-indigo-500/40"><span class="i18n" data-it="Scuola Primaria (6-11 anni)" data-en="Primary School (ages 6-11)"></span></div>
                 <div class="flow-arrow text-center">↓</div>
                 <div class="flow-box bg-indigo-950/40 border-indigo-500/40"><span class="i18n" data-it="Scuola Media (11-14 anni) — Programma unico" data-en="Middle School (ages 11-14) — Unified program"></span></div>
-                <div class="flow-arrow text-center">↓ <span class="text-xs text-amber-400 font-bold"><span class="i18n" data-it="SCELTA A 14 ANNI" data-en="CHOICE AT AGE 14"></span></span></div>
+                <div class="flow-arrow text-center">↓ <span class="text-xs text-amber-400 font-bold"><span class="i18n" data-it="SCELTA A 14 ANNI (IRREVERSIBILE)" data-en="CHOICE AT AGE 14 (IRREVERSIBLE)"></span></span></div>
                 <div class="grid grid-cols-3 gap-2">
                     <div class="flow-box bg-emerald-950/40 border-emerald-500/40 text-emerald-300">
                         <div class="font-black text-sm">Liceo</div>
@@ -159,7 +280,7 @@
         </div>
         <!-- ENGLAND -->
         <div class="glass rounded-2xl p-5 space-y-4">
-            <div class="flex items-center gap-2 mb-2"><span class="text-xl">🇬🇧</span><h3 class="text-base font-bold text-white"><span class="i18n" data-it="Inghilterra — Sistema Comprehensive" data-en="England — Comprehensive System"></span></h3></div>
+            <div class="flex items-center gap-2 mb-2"><span class="text-xl">🇬🇧</span><h3 class="text-base font-bold text-white"><span class="i18n" data-it="Inghilterra — Comprehensive (fino a 16 anni)" data-en="England — Comprehensive (until age 16)"></span></h3></div>
             <div class="space-y-3">
                 <div class="flow-box bg-indigo-950/40 border-indigo-500/40"><span class="i18n" data-it="Primary School (5-11 anni)" data-en="Primary School (ages 5-11)"></span></div>
                 <div class="flow-arrow text-center">↓</div>
@@ -184,24 +305,23 @@
         </div>
     </div>
 
-    <!-- Comparison table -->
-    <div class="glass rounded-2xl overflow-hidden">
+    <!-- Comparison table (Expanded Global Matrix) -->
+    <div class="glass rounded-2xl overflow-x-auto">
         <table class="w-full text-xs sm:text-sm">
-            <thead><tr class="bg-zinc-900 text-zinc-400">
-                <th class="text-left p-3 font-bold"><span class="i18n" data-it="Dimensione" data-en="Dimension"></span></th>
-                <th class="text-left p-3 font-bold">🇮🇹 Italia</th>
-                <th class="text-left p-3 font-bold">🇬🇧 England</th>
+            <thead><tr class="bg-zinc-900 text-zinc-400 border-b border-zinc-800">
+                <th class="text-left p-3 font-bold"><span class="i18n" data-it="Dimensione / Paese" data-en="Dimension / Country"></span></th>
+                <th class="text-left p-3 font-bold text-white">🇮🇹 Italia</th>
+                <th class="text-left p-3 font-bold text-white">🇬🇧 England (UK)</th>
+                <th class="text-left p-3 font-bold text-zinc-300">🇩🇪 Germania</th>
+                <th class="text-left p-3 font-bold text-zinc-300">🇫🇮 Finlandia</th>
             </tr></thead>
-            <tbody class="text-zinc-300">
-                <tr class="border-t border-zinc-800"><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Momento di scelta" data-en="Selection point"></span></td><td class="p-3"><span class="i18n" data-it="14 anni (fine medie)" data-en="14 years (end of middle school)"></span></td><td class="p-3"><span class="i18n" data-it="16 anni (dopo i GCSEs)" data-en="16 years (after GCSEs)"></span></td></tr>
-                <tr class="border-t border-zinc-800"><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Materie 14-16" data-en="Subjects 14-16"></span></td><td class="p-3"><span class="i18n" data-it="Fisse per percorso (Latino al Classico, Contabilità al Tecnico)" data-en="Fixed by track (Latin in Classico, Accounting in Technical)"></span></td><td class="p-3"><span class="i18n" data-it="National Curriculum comune: English, Maths, Science + scelte" data-en="Shared National Curriculum: English, Maths, Science + choices"></span></td></tr>
-                <tr class="border-t border-zinc-800"><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Esame principale" data-en="Main exam"></span></td><td class="p-3"><span class="i18n" data-it="Esame di Maturità (19 anni)" data-en="Maturità Exam (age 19)"></span></td><td class="p-3"><span class="i18n" data-it="GCSEs (16) + A-Levels (18)" data-en="GCSEs (16) + A-Levels (18)"></span></td></tr>
-                <tr class="border-t border-zinc-800"><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Capitale culturale" data-en="Cultural capital"></span></td><td class="p-3"><span class="i18n" data-it="Specializzazione precoce; umanesimo nel Classico, nessuno nel Professionale" data-en="Early specialization; humanities in Classico, none in Vocational"></span></td><td class="p-3"><span class="i18n" data-it="Base ampia comune; pensiero critico e project-based learning" data-en="Shared broad base; critical thinking and project-based learning"></span></td></tr>
-                <tr class="border-t border-zinc-800"><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Capitale umano" data-en="Human capital"></span></td><td class="p-3"><span class="i18n" data-it="Forte teoria, scarsa pratica (salvo Professionali); niente tirocini strutturali" data-en="Strong theory, limited practice (except Vocational); no structural placements"></span></td><td class="p-3"><span class="i18n" data-it="Equilibrio teoria/pratica; work experience obbligatoria, apprendistati" data-en="Theory/practice balance; mandatory work experience, apprenticeships"></span></td></tr>
-                <tr class="border-t border-zinc-800"><td class="p-3 font-bold text-zinc-400">NEET 15-29</td><td class="p-3 text-red-400 font-bold">23.1% (Eurostat 2023)</td><td class="p-3 text-emerald-400 font-bold">12.6% (ONS 2023)</td></tr>
-                <tr class="border-t border-zinc-800"><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Obbligo scolastico" data-en="Compulsory education"></span></td><td class="p-3"><span class="i18n" data-it="Fino a 16 anni (può uscire senza diploma)" data-en="Until 16 (can leave without diploma)"></span></td><td class="p-3"><span class="i18n" data-it="Fino a 18 anni (education or training)" data-en="Until 18 (education or training)"></span></td></tr>
-            </tbody>
-        </table>
+            <tbody class="text-zinc-300 divide-y divide-zinc-800/80">
+                <tr><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Età selezione percorso" data-en="Selection age"></span></td><td class="p-3 font-bold text-amber-400">14 anni (Fine medie)</td><td class="p-3 font-bold text-emerald-400">16 anni (Dopo GCSEs)</td><td class="p-3">10 anni (Gymnasium/Real.)</td><td class="p-3">16 anni (Peruskoulu)</td></tr>
+                <tr><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Obbligo scolastico/formativo" data-en="Compulsory participation"></span></td><td class="p-3">16 anni (Può uscire senza diploma)</td><td class="p-3 text-emerald-400 font-bold">18 anni (Studio o apprendistato)</td><td class="p-3">18 anni (Duale Ausbildung)</td><td class="p-3">18 anni (Esteso nel 2021)</td></tr>
+                <tr><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Costo medio libri 1° anno" data-en="Year 1 Textbook burden"></span></td><td class="p-3 text-red-400 font-bold">€310 (A carico della famiglia)</td><td class="p-3 text-emerald-400 font-bold">£0 (Comodato gratuito scuola)</td><td class="p-3">€15-30 (Noleggio o gratuità)</td><td class="p-3 text-emerald-400 font-bold">€0 (100% gratuito per legge)</td></tr>
+                <tr><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Tasso bocciature (15 anni)" data-en="Grade repetition (Age 15)"></span></td><td class="p-3 text-red-400 font-bold">14.8% Prof. / 8.5% tot</td><td class="p-3 text-emerald-400 font-bold">&lt;0.5% (Progressione automatica)</td><td class="p-3">3.8% (Mitigato da cambi scuola)</td><td class="p-3 text-emerald-400 font-bold">0.3% (Luokkaton lukio modulare)</td></tr>
+                <tr><td class="p-3 font-bold text-zinc-400"><span class="i18n" data-it="Modalità valutazione" data-en="Assessment bias"></span></td><td class="p-3">Interrogazioni orali continue</td><td class="p-3">Esami scritti ciechi e progetti</td><td class="p-3">Prove scritte e partecipazione</td><td class="p-3">Nessun voto fino a 16 anni</td></tr>
+                <tr><td class="p-3 font-bold text-zinc-400">NEET 15-29 (Eurostat/OECD)</td><td class="p-3 text-red-400 font-black">23.1%</td><td class="p-3 text-emerald-400 font-black">12.6%</td><td class="p-3 text-emerald-400 font-bold">8.8%</td><td class="p-3 text-emerald-400 font-bold">10.2%</td></tr>
     </div>
 </section>
 
@@ -246,6 +366,8 @@
                 <line x1="250" y1="40" x2="80" y2="300" stroke="#3f3f46" stroke-width="2" class="oted-path" id="pathOT"/>
                 <line x1="250" y1="40" x2="420" y2="300" stroke="#3f3f46" stroke-width="2" class="oted-path" id="pathOE"/>
                 <line x1="80" y1="300" x2="420" y2="300" stroke="#3f3f46" stroke-width="2" class="oted-path" id="pathTE"/>
+                <line x1="80" y1="300" x2="250" y2="400" stroke="#3f3f46" stroke-width="2" class="oted-path" id="pathTD"/>
+                <line x1="420" y1="300" x2="250" y2="400" stroke="#3f3f46" stroke-width="2" class="oted-path" id="pathED"/>
                 <line x1="250" y1="300" x2="250" y2="400" stroke="#3f3f46" stroke-width="2" class="oted-path" id="pathD"/>
                 <!-- Node: Origin (top) -->
                 <circle cx="250" cy="40" r="28" fill="#312e81" stroke="#818cf8" stroke-width="2" class="oted-node" onclick="focusNode('O')"/>
@@ -262,6 +384,7 @@
                 <!-- Node: Destination (bottom-center) -->
                 <circle cx="250" cy="400" r="22" fill="#4c1d95" stroke="#a78bfa" stroke-width="2" class="oted-node" onclick="focusNode('D')"/>
                 <text x="250" y="404" text-anchor="middle" fill="#ddd6fe" font-size="11" font-weight="800">D</text>
+                <text x="250" y="418" text-anchor="middle" fill="#a1a1aa" font-size="10" id="labelD">Destinazione</text>
             </svg>
         </div>
 
@@ -337,10 +460,10 @@
 <section id="rawdata" class="space-y-6">
     <div class="flex flex-wrap items-end justify-between gap-3">
         <div>
-            <h2 class="text-2xl sm:text-3xl font-extrabold text-white"><span class="i18n" data-it="📂 Dati grezzi originali (483 file)" data-en="📂 Original raw data (483 files)"></span></h2>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-white"><span class="i18n" data-it="📂 Dati grezzi originali (487 file)" data-en="📂 Original raw data (487 files)"></span></h2>
             <p class="text-zinc-500 text-sm mt-1"><span class="i18n" data-it="Download diretti dalle fonti istituzionali, non elaborati. Dalla cartella local_data/ del repository." data-en="Direct downloads from institutional sources, unprocessed. From the local_data/ folder."></span></p>
         </div>
-        <span id="rawCount" class="px-3 py-1.5 rounded-lg bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 font-black text-xs">483</span>
+        <span id="rawCount" class="px-3 py-1.5 rounded-lg bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 font-black text-xs">487</span>
     </div>
     <div class="relative"><span class="absolute left-3 top-3 text-zinc-500">🔍</span><input type="text" id="rawSearch" oninput="renderRaw()" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-zinc-900 border border-zinc-700 text-white text-sm placeholder-zinc-600 focus:outline-none focus:border-indigo-500 transition" placeholder=""></div>
     <div id="rawBox" class="space-y-2"><div class="text-center py-8 text-zinc-600">⏳</div></div>
@@ -370,12 +493,12 @@
 <section id="notebooks" class="space-y-6">
     <h2 class="text-2xl sm:text-3xl font-extrabold text-white"><span class="i18n" data-it="🛠️ Come abbiamo elaborato i dati" data-en="🛠️ How we processed the data"></span></h2>
     <div class="p-4 rounded-xl bg-violet-950/30 border border-violet-500/20 text-sm text-violet-300/80 leading-relaxed">
-        <span class="i18n" data-it="Questi 16 notebook documentano il nostro metodo di raccolta e analisi. Non sono risultati definitivi: contengono errori, approssimazioni e scelte metodologiche discutibili. Li condividiamo in spirito di trasparenza. Ti invitiamo a creare i tuoi notebook partendo dai dati grezzi." data-en="These 16 notebooks document our collection and analysis method. They are not definitive results: they contain errors, approximations, and questionable methodological choices. We share them for transparency. We invite you to create your own notebooks from the raw data."></span>
+        <span class="i18n" data-it="Questi 17 notebook documentano il nostro metodo di raccolta e analisi. Non sono risultati definitivi: contengono errori, approssimazioni e scelte metodologiche discutibili. Li condividiamo in spirito di trasparenza. Ti invitiamo a creare i tuoi notebook partendo dai dati grezzi." data-en="These 17 notebooks document our collection and analysis method. They are not definitive results: they contain errors, approximations, and questionable methodological choices. We share them for transparency. We invite you to create your own notebooks from the raw data."></span>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="nbGrid"></div>
     <div class="glass rounded-2xl p-6 text-center space-y-3">
         <h3 class="text-base font-bold text-white"><span class="i18n" data-it="🛠️ Crea il tuo notebook" data-en="🛠️ Create your own notebook"></span></h3>
-        <p class="text-zinc-400 text-sm"><span class="i18n" data-it="Parti dai 483 dataset grezzi e costruisci la tua analisi. Il template Colab ha già il codice per caricare i dati." data-en="Start from the 483 raw datasets and build your own analysis. The Colab template already has the data loading code."></span></p>
+        <p class="text-zinc-400 text-sm"><span class="i18n" data-it="Parti dai 487 dataset grezzi e costruisci la tua analisi. Il template Colab ha già il codice per caricare i dati." data-en="Start from the 487 raw datasets and build your own analysis. The Colab template already has the data loading code."></span></p>
         <a href="https://colab.research.google.com/github/Eugenix94/Italienation/blob/main/notebooks/00_master_capstone_oted_66_domains.ipynb" target="_blank" class="inline-block px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm transition shadow">🚀 <span class="i18n" data-it="Apri Template su Colab" data-en="Open Template on Colab"></span></a>
     </div>
 </section>
@@ -476,7 +599,8 @@ const NB=[
 {id:'12',f:'12_geospatial_territorial_maps_nuts2_nuts3',tI:'12. Atlante geografico NUTS-2/3',tE:'12. Geographic atlas NUTS-2/3'},
 {id:'13',f:'13_international_benchmarks_eurydice_oecd_wb',tI:'13. Confronti internazionali',tE:'13. International benchmarks'},
 {id:'14',f:'14_data_inventory_and_schematic_explorer',tI:'14. Inventario e dizionario dati',tE:'14. Data inventory and dictionary'},
-{id:'15',f:'15_deep_cross_domain_econometric_synthesis',tI:'15. Sintesi econometrica finale',tE:'15. Final econometric synthesis'}
+{id:'15',f:'15_deep_cross_domain_econometric_synthesis',tI:'15. Sintesi econometrica finale',tE:'15. Final econometric synthesis'},
+{id:'16',f:'16_institutional_expansion_and_comparative_synthesis',tI:'16. Sintesi dei nuovi dati istituzionali e normativi',tE:'16. Institutional expansion and comparative synthesis'}
 ];
 
 // RENDER
@@ -489,11 +613,11 @@ function renderNBs(){const g=document.getElementById('nbGrid');if(!g)return;g.in
 function initHero(){const el=document.getElementById('heroChart');if(!el)return;new Chart(el.getContext('2d'),{type:'line',data:{labels:['2010','2012','2014','2016','2018','2020','2022','2024'],datasets:[{label:L==='it'?'Italia':'Italy',data:[22.1,23.9,26.2,24.3,23.4,23.3,19.0,16.1],borderColor:'#f87171',backgroundColor:'rgba(248,113,113,.1)',fill:true,tension:.3,pointRadius:4,borderWidth:2},{label:L==='it'?'Media UE':'EU Avg',data:[12.8,13.2,12.4,11.5,10.5,11.1,9.6,8.4],borderColor:'#818cf8',backgroundColor:'rgba(129,140,248,.1)',fill:true,tension:.3,pointRadius:4,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{color:'#a1a1aa',font:{size:11,weight:'bold'},usePointStyle:true}}},scales:{y:{beginAtZero:true,grid:{color:'rgba(161,161,170,.08)'},ticks:{color:'#71717a',callback:v=>v+'%'}},x:{grid:{display:false},ticks:{color:'#a1a1aa'}}}}})}
 
 // OTED TRIANGLE
-function focusNode(n){['O','T','E','D'].forEach(x=>{['pathOT','pathOE','pathTE','pathD'].forEach(p=>{document.getElementById(p)?.classList.remove('oted-active')})});
+function focusNode(n){['pathOT','pathOE','pathTE','pathD','pathTD','pathED'].forEach(p=>{document.getElementById(p)?.classList.remove('oted-active')});
 if(n==='O'){document.getElementById('pathOT')?.classList.add('oted-active');document.getElementById('pathOE')?.classList.add('oted-active')}
-else if(n==='T'){document.getElementById('pathOT')?.classList.add('oted-active');document.getElementById('pathTE')?.classList.add('oted-active')}
-else if(n==='E'){document.getElementById('pathOE')?.classList.add('oted-active');document.getElementById('pathTE')?.classList.add('oted-active')}
-else if(n==='D'){document.getElementById('pathD')?.classList.add('oted-active')}}
+else if(n==='T'){document.getElementById('pathOT')?.classList.add('oted-active');document.getElementById('pathTE')?.classList.add('oted-active');document.getElementById('pathTD')?.classList.add('oted-active')}
+else if(n==='E'){document.getElementById('pathOE')?.classList.add('oted-active');document.getElementById('pathTE')?.classList.add('oted-active');document.getElementById('pathED')?.classList.add('oted-active')}
+else if(n==='D'){document.getElementById('pathD')?.classList.add('oted-active');document.getElementById('pathTD')?.classList.add('oted-active');document.getElementById('pathED')?.classList.add('oted-active')}}
 
 function calcSim(){const o=document.getElementById('sO')?.value||'sud',f=document.getElementById('sF')?.value||'low',t=document.getElementById('sT')?.value||'prof',l=document.getElementById('sL')?.value||'diploma',ep=document.getElementById('sE');
 if(l==='leave16'&&ep){ep.value='workN';ep.disabled=true}else if(ep)ep.disabled=false;
@@ -511,24 +635,29 @@ document.getElementById('oI').textContent='€'+inc.toLocaleString()+'/m';
 document.getElementById('oV').textContent=L==='it'?vI:vE;
 document.getElementById('oR').textContent=L==='it'?(rI||'Seleziona le opzioni nel triangolo OTED per vedere gli esiti stimati.'):(rE||'Select options in the OTED triangle to see estimated outcomes.');
 // Highlight paths
-['pathOT','pathOE','pathTE','pathD'].forEach(p=>document.getElementById(p)?.classList.remove('oted-active'));
+['pathOT','pathOE','pathTE','pathD','pathTD','pathED'].forEach(p=>document.getElementById(p)?.classList.remove('oted-active'));
 document.getElementById('pathOT')?.classList.add('oted-active');
 document.getElementById('pathTE')?.classList.add('oted-active');
-if(l!=='leave16')document.getElementById('pathD')?.classList.add('oted-active')}
+if(l!=='leave16'){
+    document.getElementById('pathD')?.classList.add('oted-active');
+    if(t==='prof'||t==='tecnico')document.getElementById('pathTD')?.classList.add('oted-active');
+    if(e.startsWith('uni')||e==='workD')document.getElementById('pathED')?.classList.add('oted-active');
+}}
 
 function calcPol(){const n=+(document.getElementById('pS1')?.value||0),s=+(document.getElementById('pS2')?.value||0),t=+(document.getElementById('pS3')?.value||0);document.getElementById('pV1').textContent='+'+n+'%';document.getElementById('pV2').textContent='+'+s+'%';document.getElementById('pV3').textContent='+'+t+'%';const dn=(n*.18)+(s*.06)+(t*.04);document.getElementById('pON').textContent=Math.max(7.5,(16.1-dn)).toFixed(1)+'%';const dp=(n*.14)+(s*.08)+(t*.09);document.getElementById('pOP').textContent=Math.max(10,(22.4-dp)).toFixed(1)+'%';document.getElementById('pOD').textContent='+'+Math.round((n*450)+(s*280)+(t*190)).toLocaleString()}
 function showSim(m){document.getElementById('simStudent').classList.toggle('hidden',m!=='student');document.getElementById('simPolicy').classList.toggle('hidden',m!=='policy');document.querySelectorAll('.stab').forEach(b=>{b.classList.remove('bg-indigo-600','text-white');b.classList.add('bg-zinc-800','text-zinc-400')});const ab=document.getElementById('sBtn-'+m);if(ab){ab.classList.remove('bg-zinc-800','text-zinc-400');ab.classList.add('bg-indigo-600','text-white')}}
+function showLeg(m){document.getElementById('legIT')?.classList.toggle('hidden',m!=='it');document.getElementById('legUK')?.classList.toggle('hidden',m!=='uk');document.querySelectorAll('.ltab').forEach(b=>{b.classList.remove('bg-indigo-600','text-white');b.classList.add('bg-zinc-800','text-zinc-400')});const ab=document.getElementById('legBtn-'+m);if(ab){ab.classList.remove('bg-zinc-800','text-zinc-400');ab.classList.add('bg-indigo-600','text-white')}}
 
 // CATALOGS (lazy-loaded)
 let rawData=null,procData=null;
 async function loadCats(){try{const[r,p]=await Promise.all([fetch('catalog_raw.json').then(r=>r.json()),fetch('catalog_processed.json').then(r=>r.json())]);rawData=r;procData=p;renderRaw();renderProc()}catch(e){document.getElementById('rawBox').innerHTML='<p class="text-red-400 text-sm py-4 text-center">Failed to load catalog.</p>'}}
 function renderCat(data,searchId,boxId,countId){if(!data)return;const q=(document.getElementById(searchId)?.value||'').toLowerCase().trim();const filtered=q?data.filter(x=>(x.name+' '+x.path+' '+x.category+' '+x.institution).toLowerCase().includes(q)):data;const groups={};filtered.forEach(x=>{(groups[x.category]=groups[x.category]||[]).push(x)});document.getElementById(countId).textContent=filtered.length;const c=document.getElementById(boxId);if(!filtered.length){c.innerHTML='<p class="text-zinc-600 text-sm py-4 text-center">'+(L==='it'?'Nessun risultato.':'No results.')+'</p>';return}
-c.innerHTML=Object.entries(groups).sort((a,b)=>b[1].length-a[1].length).map(([cat,items])=>{const em=cat.includes('ISTAT')?'🏛️':cat.includes('Eurostat')?'🇪🇺':cat.includes('OECD')?'🌐':cat.includes('MIM')?'🏫':cat.includes('MUR')?'🎓':cat.includes('INVALSI')?'📊':cat.includes('MEF')?'💶':cat.includes('INPS')?'💼':cat.includes('UK')?'🇬🇧':cat==='Processed'?'⚙️':'📁';return`<details class="glass rounded-xl"><summary class="p-3 flex items-center justify-between"><span class="text-sm font-bold text-white flex items-center gap-2">${em} ${cat} <span class="text-xs font-normal text-zinc-500">(${items.length})</span></span><span class="chv text-zinc-500 text-xs">▼</span></summary><div class="px-3 pb-3"><table class="w-full text-xs"><thead><tr class="text-zinc-500 border-b border-zinc-800"><th class="text-left py-1 font-bold">${L==='it'?'Nome':'Name'}</th><th class="text-right py-1 font-bold">${L==='it'?'Azioni':'Actions'}</th></tr></thead><tbody>${items.map(x=>{const raw='https://raw.githubusercontent.com/Eugenix94/Italienation/main/'+x.path;return`<tr class="border-b border-zinc-800/50 hover:bg-zinc-800/30"><td class="py-1.5 text-zinc-300">${x.name}</td><td class="py-1.5 text-right space-x-2"><a href="${raw}" target="_blank" class="text-emerald-400 hover:underline font-bold">CSV</a><a href="${x.source}" target="_blank" class="text-indigo-400 hover:underline font-bold">${L==='it'?'Fonte':'Source'}</a></td></tr>`}).join('')}</tbody></table></div></details>`}).join('')}
+c.innerHTML=Object.entries(groups).sort((a,b)=>b[1].length-a[1].length).map(([cat,items])=>{const em=cat.includes('ISTAT')?'🏛️':cat.includes('Comparative')||cat.includes('Legal')?'📜':cat.includes('Eurostat')?'🇪🇺':cat.includes('OECD')?'🌐':cat.includes('MIM')?'🏫':cat.includes('MUR')?'🎓':cat.includes('INVALSI')?'📊':cat.includes('MEF')?'💶':cat.includes('INPS')?'💼':cat.includes('UK')?'🇬🇧':cat==='Processed'?'⚙️':'📁';return`<details class="glass rounded-xl"><summary class="p-3 flex items-center justify-between"><span class="text-sm font-bold text-white flex items-center gap-2">${em} ${cat} <span class="text-xs font-normal text-zinc-500">(${items.length})</span></span><span class="chv text-zinc-500 text-xs">▼</span></summary><div class="px-3 pb-3"><table class="w-full text-xs"><thead><tr class="text-zinc-500 border-b border-zinc-800"><th class="text-left py-1 font-bold">${L==='it'?'Nome':'Name'}</th><th class="text-right py-1 font-bold">${L==='it'?'Azioni':'Actions'}</th></tr></thead><tbody>${items.map(x=>{const raw='https://raw.githubusercontent.com/Eugenix94/Italienation/main/'+x.path;return`<tr class="border-b border-zinc-800/50 hover:bg-zinc-800/30"><td class="py-1.5 text-zinc-300">${x.name}</td><td class="py-1.5 text-right space-x-2"><a href="${raw}" target="_blank" class="text-emerald-400 hover:underline font-bold">CSV</a><a href="${x.source}" target="_blank" class="text-indigo-400 hover:underline font-bold">${L==='it'?'Fonte':'Source'}</a></td></tr>`}).join('')}</tbody></table></div></details>`}).join('')}
 function renderRaw(){renderCat(rawData,'rawSearch','rawBox','rawCount')}
 function renderProc(){renderCat(procData,'procSearch','procBox','procCount')}
 
-// BOTTOM NAV
-function updNav(){const secs=['hero','comparison','data','simulator','rawdata','notebooks','collaborate'];const nav=document.querySelectorAll('#bNav a');let cur='hero';secs.forEach(id=>{const el=document.getElementById(id);if(el&&el.getBoundingClientRect().top<200)cur=id});nav.forEach(a=>{a.classList.toggle('active',a.getAttribute('href')==='#'+cur)})}
+// BOTTOM & DESKTOP NAV
+function updNav(){const secs=['hero','story','comparison','data','simulator','rawdata','procdata','notebooks','collaborate'];let cur='hero';secs.forEach(id=>{const el=document.getElementById(id);if(el&&el.getBoundingClientRect().top<200)cur=id});document.querySelectorAll('#bNav a, #dNav a').forEach(a=>{a.classList.toggle('active',a.getAttribute('href')==='#'+cur)})}
 
 // INIT
 window.addEventListener('DOMContentLoaded',()=>{setL('it');initHero();loadCats()});
