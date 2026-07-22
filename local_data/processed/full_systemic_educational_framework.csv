@@ -1,0 +1,17 @@
+Macro_Cycle,Age_Range,Systemic_Branch,Specific_Node,Jurisdiction,Inequality_Bifurcation_Effect
+0-6,0-3,Sistema Integrato,Nido d'Infanzia,Municipal / Private,"High Northern coverage, Critical Southern deficit. Forces female labor market exit."
+0-6,2-3,Sistema Integrato,Sezione Primavera,Municipal / State,"Bridge classes, highly localized availability."
+0-6,3-6,Sistema Integrato,Scuola dell'Infanzia,State / Paritaria,"Near universal enrollment, but infrastructure quality varies by region."
+6-11,6-11,Scuola Primaria,Tempo Normale/Modulare (27-30 hrs),State,Default schedule. Requires family to manage afternoons.
+6-11,6-11,Scuola Primaria,Tempo Pieno (40 hrs),State,Requires municipal canteens. Massively concentrated in the North. Southern students lose hundreds of hours of schooling.
+11-14,11-14,Scuola Secondaria di I Grado,Tempo Normale (30 hrs),State,Standard curriculum for all students.
+11-14,11-14,Scuola Secondaria di I Grado,Tempo Prolungato (36 hrs),State,"Extended hours, suffers from same municipal canteen deficits as Primary."
+11-14,11-14,Scuola Secondaria di I Grado,Indirizzo Musicale,State,"Requires admission tests, acts as an implicit social filter attracting high-cultural-capital families."
+14-19,14-19,Scuola Secondaria di II Grado,Licei (5 Years),State,University preparatory. Heavy social segregation. Highest SES students.
+14-19,14-19,Scuola Secondaria di II Grado,Istituti Tecnici (5 Years),State,"Labor market & University prep. Strong STEM focus in North, administrative focus in South."
+14-19,14-19,Scuola Secondaria di II Grado,Istituti Professionali (5 Years),State,Direct labor market entry. High implicit dropout rates (17.3% fail).
+14-19,14-17/18,Formazione Regionale,IeFP (3/4 Years),Regional,Regional vocational diplomas. Highly successful in Lombardy/Veneto; fragile/absent in the South.
+19+,19-22+,Sistema Universitario (MUR),Università (Triennale/Magistrale),State / Private,Standard academic path. Heavy Northbound migration (Fuga di cervelli) from Southern regions.
+19+,19-24+,Sistema Universitario (MUR),Università a Ciclo Unico,State / Private,"5-6 year degrees (Medicine, Law). Highly elite social reproduction."
+19+,19-21,Sistema Terziario (MIM/MUR),ITS Academy (2 Years),Foundation,Highly effective technical degrees (>80% employment). Geographically isolated in the industrial North. Southern students locked out.
+19+,19-24+,Sistema AFAM,Conservatori / Accademie,State,Specialized arts and music tertiary education.

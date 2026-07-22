@@ -1,41 +1,47 @@
 # Italienation: The OED Pipeline Data Observatory (Phase 1 Baseline)
 
 **A systemic, econometric mapping of the Italian Education and Labor Market.**
-*(Baseline Locked: July 2026 | Total Open Datasets: 893)*
+*(Baseline Locked: July 2026 | Total Open Datasets: 896)*
 
 ## 1. The Core Thesis
 The Italian public education system operates as a rigid **Institutional Equilibrium**. Rather than an equalizer, the system structurally amplifies the socioeconomic circumstances of birth. Because the state massively underinvests in education (3.9% GDP vs EU 4.7%), it relies on an "informal familial welfare state." The resulting dropout rates, NEET demographics, and early track stratifications cost the Italian economy an estimated **€48 Billion annually**.
 
-This repository contains the mathematical proof, integrating 893 institutional open datasets into the **Origin $\rightarrow$ Education $\rightarrow$ Destination (OED)** framework.
+This repository contains the mathematical proof, integrating 896 institutional open datasets into the **Origin $\rightarrow$ Education $\rightarrow$ Destination (OED)** framework.
 
 ---
 
 ## 2. Humanizing the Data: The 4 Statistical Archetypes
-To understand exactly what these 893 datasets mean for human beings navigating the system, start by reading the statistical profiles we generated:
+To understand exactly what these 896 datasets mean for human beings navigating the system, start by reading the statistical profiles we generated:
 👉 **[The 4 Statistical Archetypes of the Italian Pipeline](local_data/processed/STATISTICAL_ARCHETYPES_OF_THE_ITALIAN_PIPELINE.md)**
 
 ---
 
-## 3. The Panoramic Data Index (The 20 Core Processed CSVs)
-We have processed the 893 raw files down to 20 highly synthesized, queryable macro-datasets. They are mapped linearly below.
+## 3. The Panoramic Data Index (Synthesized Processed Datasets)
+We have processed the 896 raw files down to queryable macro-datasets mapped linearly below.
 
-### Module 1: Origin (The Socioeconomic Starting Line)
+### Module 1: Origin (The Socioeconomic Starting Line & Gini Inequality)
 The data proving how geography and family wealth predetermine the pipeline.
+- `istat_eurostat_gini_inequality_panel.csv`: National disposable income Gini (0.327), market income Gini (0.512), wealth Gini (0.672), intergenerational elasticity (0.480), and regional Gini gradient (Campania 0.354 vs Trentino 0.258).
 - `macro_household_out_of_pocket_costs.csv`: Proving the €88/mo canteen and €400/yr textbook costs that barrier low-SES families.
+- `subject_textbook_costs_by_track_2026.csv`: Subject-by-subject textbook expenditure, print vs digital pricing, and ministerial ceiling overruns.
 - `istat_household_income_by_region.csv`: Proving the North/South median income divide.
 - `istat_asili_nido_coverage_panel.csv`: Proving the lack of nurseries in the South.
 - `macro_infrastructure_demographics_panel.csv`: Proving the "Denatalità" (demographic collapse) and school consolidation friction.
 
-### Module 2: Education (The Structural Funnel)
+### Module 2: Education (The Structural Funnel & Tripartite Curriculum)
 The data proving the rigid stratification of the 14-year-old track choice.
-- `tripartite_curriculum_hours_panel.csv`: The structural differences between Liceo, Tecnico, and Professionale.
+- `quadro_orario_full_subjects.csv`: The complete, subject-by-subject 5-year hour mapping for Classico, Scientifico, Tecnico, and Professionale.
+- `full_systemic_educational_framework.csv`: The 0-22+ structural hierarchy (0-6 Nidi, Primary Tempo Pieno, Medie, High School, IeFP, ITS, University).
+- `ptof_autonomy_divide_matrix.csv`: How school autonomy (PTOF) and voluntary parental contributions accelerate track inequality.
+- `pof_and_pcto_legal_matrix.csv`: Legal mandates enforcing 2.3x more unpaid manual labor (210h PCTO) for vocational tracks vs Licei (90h).
 - `istat_bocciati_rimandati_rates.csv`: The systemic friction: 17.3% bocciati in Vocational vs 1.2% in Liceo.
 - `shiw_private_tutoring_shadow_economy.csv`: The €1 Billion shadow economy of private tutoring to avoid retention.
 - `invalsi_overall_performance.csv`: The "Implicit Dropout" crisis (19.8% in Campania).
 - `mim_diplomifici_anomaly_proxy.csv`: Tracking the private "diploma mill" anomalies.
 
-### Module 3: Destination (The Labor Market Penalty)
-The data proving that educational tracks directly determine adult labor outcomes.
+### Module 3: Destination & International Comparisons
+The data proving that educational tracks directly determine adult labor outcomes and comparing Italy against global peers.
+- `international_tripartite_vs_comprehensive_matrix.csv`: Comparative benchmark of Italy's early tracking system vs UK Comprehensive, Finland, Germany Dual System, and France Eurydice metrics.
 - `istat_youth_employment_rates.csv`: 5-year employment stability by track.
 - `almadiploma_occupational_outcomes_1_3_5_yr.csv`: The delay in securing stable contracts.
 - `eurostat_adults_living_with_parents.csv`: The 67.4% co-residence rate proving reliance on familial welfare.
@@ -54,13 +60,15 @@ The data proving the €48 Billion systemic deficit and the state's policy respo
 ## 4. Academic Proofs & Methodological Audits
 For researchers, the mathematical and systemic proofs generated by our Python synthesis engine:
 - 📖 **[The Master Capstone Monograph](local_data/processed/LA_SINTESI_SCIENTIFICA_E_CAUSAL_STRUTTURALE_DEFINITIVA.md)**: The definitive causal narrative.
+- 📊 **[Gini Index & Wealth Inequality Monograph](local_data/processed/GINI_INDEX_AND_INCOME_WEALTH_INEQUALITY.md)**: National Gini (0.327), Wealth Gini (0.672), Intergenerational Elasticity (0.480) & Regional Gradient.
+- 🌍 **[Tripartite vs. International Comprehensive Systems Benchmark](local_data/processed/TRIPARTITE_VS_INTERNATIONAL_COMPREHENSIVE_SYSTEMS.md)**: Italy vs UK Comprehensive System, Finnish Comprehensive Model, German Dual System & Eurydice free-textbook mandates.
 - 🧮 **[Econometric Validation](local_data/processed/ECONOMETRIC_VALIDATION.md)**: The hard statistical probabilities proving the Origin $\rightarrow$ Education $\rightarrow$ Destination pathways.
 - 🔍 **[Holistic Data Audit (Discrepancies & Blind Spots)](local_data/processed/DATA_AUDIT_DISCREPANCIES_AND_BLIND_SPOTS.md)**: An honest audit of the state's missing micro-data and policy contradictions.
 
 ---
 
 ## 5. Open Data License Compliance
-To guarantee absolute traceability for our DOI minting, every single one of the 893 datasets has been audited for its explicit institutional license.
+To guarantee absolute traceability for our DOI minting, every single one of the 896 datasets has been audited for its explicit institutional license.
 👉 **[Data Inventory and License Compliance Report](local_data/processed/DATA_INVENTORY_AND_LICENSE_COMPLIANCE_REPORT.md)**
 
 *Repository architected by the Italienation Phase 1 Open Science Team.*

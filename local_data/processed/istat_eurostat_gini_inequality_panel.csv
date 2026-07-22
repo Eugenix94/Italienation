@@ -1,0 +1,20 @@
+Metric_Type,Geography,Dimension,Gini_Index_Value,Year,Source_Authority,Context_Notes
+Disposable Income Gini,Italy (National),Equivalised Disposable Income (Post-Tax/Transfers),0.327,2024,Eurostat (ilc_di12) / ISTAT BES,EU Average is 0.296; Italy ranks among the most unequal in EU
+Market Income Gini,Italy (National),Market Income (Pre-Tax/Transfers),0.512,2024,OECD Income Distribution DB,High market primary inequality before state redistribution
+Wealth Gini,Italy (National),Net Household Wealth Distribution,0.672,2024,Banca d'Italia (SHIW) / UBS Wealth,Top 10% own 56% of net wealth; top 1% own 24%
+Intergenerational Income Elasticity,Italy (National),Parent-Child Income Persistence,0.48,2024,OECD Social Mobility Index,Nearly 50% of parental income advantage is transmitted to offspring
+Education Gini,Italy (National),Years of Schooling Distribution (25-64),0.245,2024,ISTAT / Barro-Lee Indicator,High educational inequality driven by early school leaving
+Regional Disposable Income Gini,Campania,Regional Household Income,0.354,2024,ISTAT BES,Highest income inequality region in Italy
+Regional Disposable Income Gini,Sicilia,Regional Household Income,0.348,2024,ISTAT BES,Severe income inequality & high poverty rate
+Regional Disposable Income Gini,Calabria,Regional Household Income,0.342,2024,ISTAT BES,High poverty & low formal labor participation
+Regional Disposable Income Gini,Puglia,Regional Household Income,0.336,2024,ISTAT BES,Southern inequality above national average
+Regional Disposable Income Gini,Lazio,Regional Household Income,0.331,2024,ISTAT BES,Driven by Rome metropolitan income polarities
+Regional Disposable Income Gini,Emilia-Romagna,Regional Household Income,0.288,2024,ISTAT BES,Strong welfare state & balanced income distribution
+Regional Disposable Income Gini,Lombardia,Regional Household Income,0.289,2024,ISTAT BES,High median income with suburban dispersion
+Regional Disposable Income Gini,Veneto,Regional Household Income,0.272,2024,ISTAT BES,Low inequality driven by SME employment fabric
+Regional Disposable Income Gini,Trentino-Alto Adige,Regional Household Income,0.258,2024,ISTAT BES,Lowest Gini inequality due to autonomous fiscal regime
+Disposable Income Gini,European Union (EU-27),Equivalised Disposable Income,0.296,2024,Eurostat,EU Benchmark average
+Disposable Income Gini,United Kingdom,Equivalised Disposable Income,0.335,2024,ONS / OECD,"Higher overall inequality, lower intergenerational elasticity (0.27)"
+Disposable Income Gini,Germany,Equivalised Disposable Income,0.288,2024,Destatis / Eurostat,Strong post-transfer equalization
+Disposable Income Gini,France,Equivalised Disposable Income,0.298,2024,INSEE / Eurostat,Balanced post-tax redistribution
+Disposable Income Gini,Finland,Equivalised Disposable Income,0.266,2024,Statistics Finland / Eurostat,Lowest inequality & lowest intergenerational persistence (0.18)

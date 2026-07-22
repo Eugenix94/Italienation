@@ -640,3 +640,11 @@ This document maps every single raw and processed data file in the repository to
 | `ISTAT` | `istat_bullying_cyberbullying_prevalence.csv` | 0.0 | CC-BY 3.0 IT | [Direct Link](https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bullying_cyberbullying_prevalence.csv) |
 | `new_frontiers` | `iss_school_mental_health_support.csv` | 0.0 | CC-BY 4.0 | [Direct Link](Curated Data (See specific manifest)) |
 | `Openpolis` | `openpolis_student_transport_friction.csv` | 0.0 | CC-BY-NC-ND | [Direct Link](https://www.openpolis.it/) |
+| `processed` | `istat_bocciati_rimandati_rates.csv` | 0.0 | CC-BY 3.0 IT | [Direct Link](https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bocciati_rimandati_rates.csv) |
+| `processed` | `invalsi_overall_performance.csv` | 0.0 | CC-BY 4.0 | [Direct Link](https://invalsi-serviziostatistico.cineca.it/) |
+| `processed` | `istat_household_income_by_region.csv` | 0.0 | CC-BY 3.0 IT | [Direct Link](https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_income_by_region.csv) |
+| `processed` | `eurostat_adults_living_with_parents.csv` | 0.0 | CC-BY 4.0 | [Direct Link](https://ec.europa.eu/eurostat/databrowser/view/adults_living_with_parents/default/table) |
+| `processed` | `istat_youth_employment_rates.csv` | 0.0 | CC-BY 3.0 IT | [Direct Link](https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_youth_employment_rates.csv) |
+| `processed` | `subject_textbook_costs_by_track_2026.csv` | 0.0 | CC-BY 4.0 (Methodology) | [Direct Link](Generated via Python Pipeline (See scripts/)) |
+| `processed` | `international_tripartite_vs_comprehensive_matrix.csv` | 0.0 | CC-BY 4.0 (Methodology) | [Direct Link](Generated via Python Pipeline (See scripts/)) |
+| `processed` | `istat_eurostat_gini_inequality_panel.csv` | 0.0 | CC-BY 3.0 IT | [Direct Link](https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_eurostat_gini_inequality_panel.csv) |
