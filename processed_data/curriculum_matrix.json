@@ -1,0 +1,808 @@
+{
+  "Liceo": [
+    {
+      "subject": "FILOSOFIA",
+      "schools": 174
+    },
+    {
+      "subject": "FISICA",
+      "schools": 174
+    },
+    {
+      "subject": "LINGUA E LETTERATURA ITALIANA",
+      "schools": 174
+    },
+    {
+      "subject": "LINGUA INGLESE",
+      "schools": 174
+    },
+    {
+      "subject": "MATEMATICA",
+      "schools": 174
+    },
+    {
+      "subject": "STORIA",
+      "schools": 174
+    },
+    {
+      "subject": "SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA)",
+      "schools": 170
+    },
+    {
+      "subject": "STORIA DELL'ARTE",
+      "schools": 170
+    },
+    {
+      "subject": "STORIA E GEOGRAFIA",
+      "schools": 168
+    },
+    {
+      "subject": "CHIMICA",
+      "schools": 167
+    },
+    {
+      "subject": "RELIGIONE CATTOLICA/ATTIVITA' ALTERNATIVA",
+      "schools": 155
+    },
+    {
+      "subject": "SCIENZE MOTORIE E SPORTIVE",
+      "schools": 130
+    },
+    {
+      "subject": "LINGUA LATINA",
+      "schools": 129
+    },
+    {
+      "subject": "DISEGNO",
+      "schools": 93
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (FRANCESE)",
+      "schools": 65
+    },
+    {
+      "subject": "DIRITTO ED ECONOMIA",
+      "schools": 60
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (SPAGNOLO)",
+      "schools": 60
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (TEDESCO)",
+      "schools": 57
+    },
+    {
+      "subject": "SCIENZE UMANE",
+      "schools": 46
+    },
+    {
+      "subject": "TECNOLOGIE INFORMATICHE",
+      "schools": 44
+    },
+    {
+      "subject": "INFORMATICA",
+      "schools": 42
+    },
+    {
+      "subject": "LINGUA E CULTURA GRECA",
+      "schools": 39
+    },
+    {
+      "subject": "SCIENZE UMANE E SOCIALI",
+      "schools": 37
+    },
+    {
+      "subject": "DIRITTO",
+      "schools": 31
+    },
+    {
+      "subject": "PEDAGOGIA",
+      "schools": 29
+    },
+    {
+      "subject": "PSICOLOGIA GENERALE ED APPLICATA",
+      "schools": 26
+    },
+    {
+      "subject": "DISCIPLINE GRAFICHE E PITTORICHE",
+      "schools": 23
+    },
+    {
+      "subject": "DISCIPLINE PROGETTUALI DESIGN",
+      "schools": 21
+    },
+    {
+      "subject": "DISCIPLINE PLASTICHE E SCULTOREE",
+      "schools": 17
+    },
+    {
+      "subject": "DISCIPLINE PROGETTUALI ARCHITETTURA E AMBIENTE",
+      "schools": 16
+    },
+    {
+      "subject": "DISCIPLINE SPORTIVE",
+      "schools": 12
+    },
+    {
+      "subject": "ANTROPOLOGIA SCIENZE UMANE",
+      "schools": 11
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (CINESE)",
+      "schools": 11
+    },
+    {
+      "subject": "LABORATORIO ARTISTICO",
+      "schools": 9
+    },
+    {
+      "subject": "TECNICHE E TECNOLOGIE DELLA COMUNICAZIONE VISIVA",
+      "schools": 9
+    },
+    {
+      "subject": "LINGUAGGI E TECNICHE DELLA PROGETTAZIONE E COMUNICAZIONE AUDIOVISIVA",
+      "schools": 8
+    },
+    {
+      "subject": "GEOGRAFIA",
+      "schools": 7
+    },
+    {
+      "subject": "LINGUAGGI FOTOGRAFICI E DELL?AUDIOVISIVO",
+      "schools": 7
+    },
+    {
+      "subject": "STORIA DELLA MUSICA",
+      "schools": 7
+    },
+    {
+      "subject": "DISCIPLINE GEOMETRICHE E SCENOTECNICHE",
+      "schools": 6
+    },
+    {
+      "subject": "SCIENZE INTEGRATE (SCIENZE DELLA TERRA E BIOLOGIA)",
+      "schools": 6
+    },
+    {
+      "subject": "TECNOLOGIE E TECNICHE DI RAPPRESENTAZIONE GRAFICA",
+      "schools": 6
+    },
+    {
+      "subject": "TEORIA, ANALISI E COMPOSIZIONE",
+      "schools": 6
+    },
+    {
+      "subject": "DISCIPLINE GEOMETRICHE",
+      "schools": 5
+    },
+    {
+      "subject": "DISCIPLINE PROGETTUALI SCENOGRAFICHE",
+      "schools": 5
+    },
+    {
+      "subject": "EDUCAZIONE CIVICA",
+      "schools": 5
+    },
+    {
+      "subject": "TECNOLOGIE MUSICALI",
+      "schools": 5
+    }
+  ],
+  "Tecnico": [
+    {
+      "subject": "LINGUA INGLESE",
+      "schools": 203
+    },
+    {
+      "subject": "STORIA",
+      "schools": 203
+    },
+    {
+      "subject": "LINGUA E LETTERATURA ITALIANA",
+      "schools": 202
+    },
+    {
+      "subject": "MATEMATICA",
+      "schools": 202
+    },
+    {
+      "subject": "DIRITTO ED ECONOMIA",
+      "schools": 190
+    },
+    {
+      "subject": "CHIMICA",
+      "schools": 184
+    },
+    {
+      "subject": "SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA)",
+      "schools": 178
+    },
+    {
+      "subject": "FISICA",
+      "schools": 174
+    },
+    {
+      "subject": "RELIGIONE CATTOLICA/ATTIVITA' ALTERNATIVA",
+      "schools": 166
+    },
+    {
+      "subject": "TECNOLOGIE INFORMATICHE",
+      "schools": 152
+    },
+    {
+      "subject": "GEOGRAFIA",
+      "schools": 139
+    },
+    {
+      "subject": "INFORMATICA",
+      "schools": 129
+    },
+    {
+      "subject": "SCIENZE MOTORIE E SPORTIVE",
+      "schools": 120
+    },
+    {
+      "subject": "TECNOLOGIE E TECNICHE DI RAPPRESENTAZIONE GRAFICA",
+      "schools": 118
+    },
+    {
+      "subject": "SCIENZE E TECNOLOGIE APPLICATE",
+      "schools": 105
+    },
+    {
+      "subject": "DIRITTO",
+      "schools": 91
+    },
+    {
+      "subject": "ECONOMIA AZIENDALE",
+      "schools": 89
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (FRANCESE)",
+      "schools": 83
+    },
+    {
+      "subject": "STORIA DELL'ARTE",
+      "schools": 75
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (SPAGNOLO)",
+      "schools": 68
+    },
+    {
+      "subject": "ECONOMIA POLITICA",
+      "schools": 65
+    },
+    {
+      "subject": "DISEGNO",
+      "schools": 64
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (TEDESCO)",
+      "schools": 64
+    },
+    {
+      "subject": "TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI",
+      "schools": 62
+    },
+    {
+      "subject": "SISTEMI E RETI",
+      "schools": 61
+    },
+    {
+      "subject": "TELECOMUNICAZIONI",
+      "schools": 60
+    },
+    {
+      "subject": "GESTIONE PROGETTO, ORGANIZZAZIONE D'IMPRESA",
+      "schools": 59
+    },
+    {
+      "subject": "ELETTROTECNICA ED ELETTRONICA",
+      "schools": 58
+    },
+    {
+      "subject": "MECCANICA E MACCHINE",
+      "schools": 56
+    },
+    {
+      "subject": "GEOGRAFIA TURISTICA",
+      "schools": 54
+    },
+    {
+      "subject": "SISTEMI AUTOMATICI",
+      "schools": 54
+    },
+    {
+      "subject": "SISTEMI E AUTOMAZIONE",
+      "schools": 54
+    },
+    {
+      "subject": "TECNOLOGIE E PROGETTAZIONE DI SISTEMI ELETTRICI ED ELETTRONICI",
+      "schools": 53
+    },
+    {
+      "subject": "TECNOLOGIA MECCANICA",
+      "schools": 50
+    },
+    {
+      "subject": "DISCIPLINE TURISTICHE E AZIENDALI",
+      "schools": 44
+    },
+    {
+      "subject": "DIRITTO E LEGISLAZIONE TURISTICA",
+      "schools": 43
+    },
+    {
+      "subject": "RELAZIONI INTERNAZIONALI",
+      "schools": 43
+    },
+    {
+      "subject": "SCIENZE INTEGRATE (SCIENZE DELLA TERRA E BIOLOGIA)",
+      "schools": 36
+    },
+    {
+      "subject": "SCIENZE SPERIMENTALI",
+      "schools": 33
+    },
+    {
+      "subject": "FILOSOFIA",
+      "schools": 31
+    },
+    {
+      "subject": "STORIA E GEOGRAFIA",
+      "schools": 31
+    },
+    {
+      "subject": "ESTIMO",
+      "schools": 30
+    },
+    {
+      "subject": "PROGETTAZIONE, COSTRUZIONI E IMPIANTI",
+      "schools": 30
+    },
+    {
+      "subject": "TOPOGRAFIA",
+      "schools": 30
+    },
+    {
+      "subject": "BIOLOGIA, MICROBIOLOGIA E TECNOLOGIE DI CONTROLLO SANITARIO",
+      "schools": 29
+    },
+    {
+      "subject": "GESTIONE DEL CANTIERE E SICUREZZA DELL'AMBIENTE DI LAVORO",
+      "schools": 29
+    },
+    {
+      "subject": "ECOLOGIA E PEDOLOGIA",
+      "schools": 28
+    },
+    {
+      "subject": "INFORMATICA E RETI DI COMUNICAZIONE",
+      "schools": 28
+    },
+    {
+      "subject": "DISEGNO, PROGETTAZIONE E ORGANIZZAZIONE INDUSTRIALE",
+      "schools": 27
+    },
+    {
+      "subject": "FONDAMENTI DI ELETTROTECNICA ED ELETTRONICA",
+      "schools": 27
+    },
+    {
+      "subject": "TEORIA DELLA COMUNICAZIONE",
+      "schools": 22
+    },
+    {
+      "subject": "PROGETTAZIONE MULTIMEDIALE",
+      "schools": 21
+    },
+    {
+      "subject": "CHIMICA APPLICATA",
+      "schools": 20
+    },
+    {
+      "subject": "ORGANIZZAZIONE E GESTIONE DEI PROCESSI PRODUTTIVI",
+      "schools": 18
+    },
+    {
+      "subject": "TECNOLOGIE DEI MATERIALI",
+      "schools": 18
+    },
+    {
+      "subject": "TECNOLOGIE DEI PROCESSI DI PRODUZIONE",
+      "schools": 17
+    },
+    {
+      "subject": "ECONOMIA AGRARIA E DELLO SVILUPPO TERRITORIALE",
+      "schools": 16
+    },
+    {
+      "subject": "GENIO RURALE",
+      "schools": 16
+    },
+    {
+      "subject": "GESTIONE DELL'AMBIENTE E DEL TERRITORIO",
+      "schools": 16
+    },
+    {
+      "subject": "ANATOMIA FISIOLOGIA IGIENE",
+      "schools": 15
+    },
+    {
+      "subject": "BIOTECNOLOGIE AGRARIE",
+      "schools": 15
+    },
+    {
+      "subject": "FONDAMENTI DI PROGETTAZIONE EDILIZIA E AMBIENTE",
+      "schools": 15
+    },
+    {
+      "subject": "PRODUZIONI ANIMALI",
+      "schools": 15
+    },
+    {
+      "subject": "TRASFORMAZIONE DEI PRODOTTI",
+      "schools": 15
+    },
+    {
+      "subject": "FONDAMENTI DI MECCANICA ED ELEMENTI DI DISEGNO",
+      "schools": 13
+    },
+    {
+      "subject": "PRODUZIONI VEGETALI",
+      "schools": 13
+    },
+    {
+      "subject": "DIRITTO E LEGISLAZIONE SOCIO-SANITARIA",
+      "schools": 12
+    },
+    {
+      "subject": "IMPIANTI ENERGETICI, DISEGNO E PROGETTAZIONE",
+      "schools": 10
+    },
+    {
+      "subject": "LABORATORIO TECNICO MULTIMEDIALE",
+      "schools": 10
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (CINESE)",
+      "schools": 9
+    },
+    {
+      "subject": "LOGISTICA",
+      "schools": 9
+    },
+    {
+      "subject": "AGRONOMIA DEL TERRITORIO AGRARIO E FORESTALE",
+      "schools": 8
+    },
+    {
+      "subject": "DISCIPLINE GRAFICHE E PITTORICHE",
+      "schools": 7
+    },
+    {
+      "subject": "EDUCAZIONE CIVICA",
+      "schools": 7
+    },
+    {
+      "subject": "SCIENZE DELLA NAVIGAZIONE, STRUTTURA E COSTRUZIONE DEL MEZZO",
+      "schools": 7
+    },
+    {
+      "subject": "TECNICHE DI DISTRIBUZIONE E MARKETING",
+      "schools": 7
+    },
+    {
+      "subject": "LINGUA LATINA",
+      "schools": 6
+    },
+    {
+      "subject": "BIOLOGIA APPLICATA",
+      "schools": 5
+    },
+    {
+      "subject": "ENOLOGIA",
+      "schools": 5
+    },
+    {
+      "subject": "GEOGRAFIA GENERALE ED ECONOMICA",
+      "schools": 5
+    },
+    {
+      "subject": "LINGUAGGI E TECNICHE DELLA PROGETTAZIONE E COMUNICAZIONE AUDIOVISIVA",
+      "schools": 5
+    }
+  ],
+  "Professionale": [
+    {
+      "subject": "LINGUA INGLESE",
+      "schools": 151
+    },
+    {
+      "subject": "LINGUA E LETTERATURA ITALIANA",
+      "schools": 150
+    },
+    {
+      "subject": "MATEMATICA",
+      "schools": 150
+    },
+    {
+      "subject": "STORIA",
+      "schools": 150
+    },
+    {
+      "subject": "DIRITTO ED ECONOMIA",
+      "schools": 136
+    },
+    {
+      "subject": "RELIGIONE CATTOLICA/ATTIVITA' ALTERNATIVA",
+      "schools": 117
+    },
+    {
+      "subject": "GEOGRAFIA",
+      "schools": 105
+    },
+    {
+      "subject": "TECNOLOGIE INFORMATICHE",
+      "schools": 98
+    },
+    {
+      "subject": "SCIENZE MOTORIE E SPORTIVE",
+      "schools": 97
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (FRANCESE)",
+      "schools": 73
+    },
+    {
+      "subject": "SCIENZE INTEGRATE (SCIENZE DELLA TERRA E BIOLOGIA)",
+      "schools": 71
+    },
+    {
+      "subject": "SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA)",
+      "schools": 67
+    },
+    {
+      "subject": "FISICA",
+      "schools": 61
+    },
+    {
+      "subject": "PSICOLOGIA GENERALE ED APPLICATA",
+      "schools": 59
+    },
+    {
+      "subject": "DIRITTO E LEGISLAZIONE SOCIO-SANITARIA",
+      "schools": 56
+    },
+    {
+      "subject": "LABORATORI TECNOLOGICI ED ESERCITAZIONI",
+      "schools": 52
+    },
+    {
+      "subject": "SCIENZE UMANE",
+      "schools": 49
+    },
+    {
+      "subject": "CHIMICA",
+      "schools": 48
+    },
+    {
+      "subject": "METODOLOGIE OPERATIVE",
+      "schools": 48
+    },
+    {
+      "subject": "IGIENE E CULTURA MEDICO-SANITARIA",
+      "schools": 47
+    },
+    {
+      "subject": "TECNICHE DI COMUNICAZIONE",
+      "schools": 47
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (SPAGNOLO)",
+      "schools": 43
+    },
+    {
+      "subject": "DIRITTO E TECNICHE AMMINISTRATIVE DELLA STRUTTURA RICETTIVA",
+      "schools": 42
+    },
+    {
+      "subject": "TECNOLOGIE MECCANICHE E APPLICAZIONI",
+      "schools": 42
+    },
+    {
+      "subject": "TECNOLOGIE ELETTRICO-ELETTRONICHE E APPLICAZIONI",
+      "schools": 41
+    },
+    {
+      "subject": "TECNOLOGIE E TECNICHE DI RAPPRESENTAZIONE GRAFICA",
+      "schools": 40
+    },
+    {
+      "subject": "DIRITTO",
+      "schools": 39
+    },
+    {
+      "subject": "ECONOMIA AZIENDALE",
+      "schools": 38
+    },
+    {
+      "subject": "SCIENZA E CULTURA DELL'ALIMENTAZIONE",
+      "schools": 35
+    },
+    {
+      "subject": "STORIA DELL'ARTE",
+      "schools": 35
+    },
+    {
+      "subject": "TECNICHE PROFESSIONALI DEI SERVIZI COMMERCIALI",
+      "schools": 35
+    },
+    {
+      "subject": "TECNOLOGIE E TECNICHE DI INSTALLAZIONE E DI MANUTENZIONE",
+      "schools": 35
+    },
+    {
+      "subject": "LABORATORIO DI SERVIZI ENOGASTRONOMICI - SETTORE CUCINA",
+      "schools": 34
+    },
+    {
+      "subject": "LABORATORIO ENOGASTRONOMIA  BAR-SALA E VENDITA",
+      "schools": 34
+    },
+    {
+      "subject": "LABORATORIO DI SERVIZI DI ACCOGLIENZA TURISTICA",
+      "schools": 33
+    },
+    {
+      "subject": "SCIENZA DEGLI ALIMENTI",
+      "schools": 33
+    },
+    {
+      "subject": "INFORMATICA",
+      "schools": 27
+    },
+    {
+      "subject": "LINGUA E CULTURA STRANIERA (TEDESCO)",
+      "schools": 27
+    },
+    {
+      "subject": "DISEGNO",
+      "schools": 26
+    },
+    {
+      "subject": "TECNOLOGIA MECCANICA",
+      "schools": 23
+    },
+    {
+      "subject": "TECNOLOGIE DELL'INFORMAZIONE E DELLA COMUNICAZIONE",
+      "schools": 23
+    },
+    {
+      "subject": "ECONOMIA AGRARIA E DELLO SVILUPPO TERRITORIALE",
+      "schools": 20
+    },
+    {
+      "subject": "AGRONOMIA DEL TERRITORIO AGRARIO E FORESTALE",
+      "schools": 19
+    },
+    {
+      "subject": "ANATOMIA FISIOLOGIA IGIENE",
+      "schools": 19
+    },
+    {
+      "subject": "ECOLOGIA E PEDOLOGIA",
+      "schools": 18
+    },
+    {
+      "subject": "PRODUZIONI VEGETALI",
+      "schools": 15
+    },
+    {
+      "subject": "TECNICHE DI DISTRIBUZIONE E MARKETING",
+      "schools": 15
+    },
+    {
+      "subject": "BIOTECNOLOGIE AGRARIE",
+      "schools": 14
+    },
+    {
+      "subject": "DISEGNO, PROGETTAZIONE E ORGANIZZAZIONE INDUSTRIALE",
+      "schools": 14
+    },
+    {
+      "subject": "ELETTROTECNICA ED ELETTRONICA",
+      "schools": 13
+    },
+    {
+      "subject": "MECCANICA E MACCHINE",
+      "schools": 13
+    },
+    {
+      "subject": "AGRONOMIA TERRITORIALE ED ECOSISTEMI FORESTALI",
+      "schools": 11
+    },
+    {
+      "subject": "PRODUZIONI ANIMALI",
+      "schools": 11
+    },
+    {
+      "subject": "TRASFORMAZIONE DEI PRODOTTI",
+      "schools": 11
+    },
+    {
+      "subject": "TECNOLOGIE APPLICATE AI MATERIALI E AI PROCESSI PRODUTTIVI TESSILI - ABBIGLIAMENTO",
+      "schools": 10
+    },
+    {
+      "subject": "GESTIONE E VALORIZZAZIONE DELLE ATTIVIT\u00c0 PRODUTTIVE E SVILUPPO DEL TERRITORIO E SOCIOLOGIA RURALE",
+      "schools": 9
+    },
+    {
+      "subject": "TECNICA AMMINISTRATIVA ED ECONOMIA SOCIALE",
+      "schools": 9
+    },
+    {
+      "subject": "IDEAZIONE, PROGETTAZIONE E INDUSTRIALIZZAZIONE DEI PRODOTTI MODA",
+      "schools": 8
+    },
+    {
+      "subject": "LABORATORIO TECNICO MULTIMEDIALE",
+      "schools": 8
+    },
+    {
+      "subject": "LINGUAGGI E TECNICHE DELLA PROGETTAZIONE E COMUNICAZIONE AUDIOVISIVA",
+      "schools": 8
+    },
+    {
+      "subject": "CHIMICA APPLICATA",
+      "schools": 7
+    },
+    {
+      "subject": "LINGUAGGI FOTOGRAFICI E DELL?AUDIOVISIVO",
+      "schools": 7
+    },
+    {
+      "subject": "ESERCITAZIONI DI LABORATORIO DI ODONTOTECNICA",
+      "schools": 6
+    },
+    {
+      "subject": "GNATOLOGIA",
+      "schools": 6
+    },
+    {
+      "subject": "PROGETTAZIONE MULTIMEDIALE",
+      "schools": 6
+    },
+    {
+      "subject": "RAPPRESENTAZIONE E MODELLAZIONE ODONTOTECNICA",
+      "schools": 6
+    },
+    {
+      "subject": "SCIENZE DEI MATERIALI DENTALI",
+      "schools": 6
+    },
+    {
+      "subject": "TECNICHE DELLE PRODUZIONI VEGETALI E ZOOTECNICHE",
+      "schools": 6
+    },
+    {
+      "subject": "CHIMICA APPLICATA E PROCESSI DI TRASFORMAZIONE",
+      "schools": 5
+    },
+    {
+      "subject": "DISCIPLINE GRAFICHE",
+      "schools": 5
+    },
+    {
+      "subject": "STORIA DELLA MODA E DEL COSTUME",
+      "schools": 5
+    },
+    {
+      "subject": "TECNOLOGIE DEI PROCESSI DI PRODUZIONE",
+      "schools": 5
+    }
+  ]
+}

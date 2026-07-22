@@ -1,0 +1,14 @@
+{
+  "R_squared": 0.869,
+  "Adj_R_squared": 0.841,
+  "P_values": {
+    "Structural_Decay": 0.0926,
+    "IRPEF_Taxable_Income": 0.0,
+    "Black_Labour_Rate": 0.2295
+  },
+  "Coefficients": {
+    "Structural_Decay": 0.3242,
+    "IRPEF_Taxable_Income": -0.002,
+    "Black_Labour_Rate": -0.1291
+  }
+}

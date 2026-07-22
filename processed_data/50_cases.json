@@ -1,0 +1,533 @@
+[
+  {
+    "id": 1,
+    "pillar": "Geographic & Demographic",
+    "title": "The High School Desert",
+    "metric": "78.5%",
+    "description": "Percentage of Italian municipalities completely devoid of high schools.",
+    "source_name": "HuggingFace School Register",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 2,
+    "pillar": "Geographic & Demographic",
+    "title": "The Vocational Trap",
+    "metric": "5.1%",
+    "description": "Municipalities offering ONLY vocational schools, denying access to Lyceums.",
+    "source_name": "HuggingFace School Register",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 3,
+    "pillar": "Geographic & Demographic",
+    "title": "Population Freefall",
+    "metric": "-19.6%",
+    "description": "Projected drop in the 6-18 student population by 2035.",
+    "source_name": "ISTAT SDMX Projections",
+    "source_url": "https://esploradati.istat.it/"
+  },
+  {
+    "id": 4,
+    "pillar": "Geographic & Demographic",
+    "title": "Missing Students",
+    "metric": "1,209,000",
+    "description": "Absolute number of students projected to disappear from the system by 2035.",
+    "source_name": "ISTAT SDMX Projections",
+    "source_url": "https://esploradati.istat.it/"
+  },
+  {
+    "id": 5,
+    "pillar": "Geographic & Demographic",
+    "title": "School Closures",
+    "metric": "1,605",
+    "description": "Projected number of school closures by 2035 due to demographic winter.",
+    "source_name": "MIM Anagrafe SNAES",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 6,
+    "pillar": "Geographic & Demographic",
+    "title": "Metropolitan Poverty Trap",
+    "metric": "14.2%",
+    "description": "NEET rate in Dense Urban Areas, paradoxically higher than rural zones.",
+    "source_name": "Openpolis",
+    "source_url": "https://www.openpolis.it/"
+  },
+  {
+    "id": 7,
+    "pillar": "Geographic & Demographic",
+    "title": "Rural Resilience",
+    "metric": "11.6%",
+    "description": "NEET rate in Rural Areas, which show stronger community retention.",
+    "source_name": "Openpolis",
+    "source_url": "https://www.openpolis.it/"
+  },
+  {
+    "id": 8,
+    "pillar": "Geographic & Demographic",
+    "title": "Urban Early Leavers",
+    "metric": "11.2%",
+    "description": "School dropout rate (early leavers) in major cities.",
+    "source_name": "Openpolis",
+    "source_url": "https://www.openpolis.it/"
+  },
+  {
+    "id": 9,
+    "pillar": "Geographic & Demographic",
+    "title": "Urban Youth Unemployment",
+    "metric": "23.5%",
+    "description": "Youth unemployment rate in Italian metropolitan hubs.",
+    "source_name": "Openpolis",
+    "source_url": "https://www.openpolis.it/"
+  },
+  {
+    "id": 10,
+    "pillar": "Geographic & Demographic",
+    "title": "The Southern Fracture",
+    "metric": "28.5%",
+    "description": "Peak NEET rate recorded in Sicily, representing the Southern collapse.",
+    "source_name": "Eurostat",
+    "source_url": "https://ec.europa.eu/eurostat"
+  },
+  {
+    "id": 11,
+    "pillar": "Geographic & Demographic",
+    "title": "The Northern Shield",
+    "metric": "8.2%",
+    "description": "Lowest NEET rate in Italy (Trentino), comparable to Germany.",
+    "source_name": "Eurostat",
+    "source_url": "https://ec.europa.eu/eurostat"
+  },
+  {
+    "id": 12,
+    "pillar": "Physical Decay",
+    "title": "Lacking Habitability",
+    "metric": "50.0%",
+    "description": "Percentage of Italian schools operating without basic habitability certificates.",
+    "source_name": "MIM Anagrafe SNAES",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 13,
+    "pillar": "Physical Decay",
+    "title": "Seismic Danger",
+    "metric": "62.5%",
+    "description": "Schools lacking seismic safety verifications in a highly tectonic country.",
+    "source_name": "MIM Anagrafe SNAES",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 14,
+    "pillar": "Physical Decay",
+    "title": "Architectural Barriers",
+    "metric": "54.5%",
+    "description": "Schools that still have architectural barriers, blocking disabled access.",
+    "source_name": "MIM Anagrafe SNAES",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 15,
+    "pillar": "Physical Decay",
+    "title": "The Digital Divide",
+    "metric": "31.8%",
+    "description": "Schools disconnected from High-Speed 1Gbps Broadband.",
+    "source_name": "AGCOM / Infratel",
+    "source_url": "https://www.agcom.it/"
+  },
+  {
+    "id": 16,
+    "pillar": "Physical Decay",
+    "title": "Missing STEM Labs",
+    "metric": "40.6%",
+    "description": "Schools lacking active STEM laboratories, hurting technical skills.",
+    "source_name": "PNRR Open Data",
+    "source_url": "https://www.italiadomani.gov.it/"
+  },
+  {
+    "id": 17,
+    "pillar": "Physical Decay",
+    "title": "Southern Seismic Risk",
+    "metric": "78.8%",
+    "description": "Shocking lack of seismic safety verifications in Sicilian schools.",
+    "source_name": "MIM Anagrafe SNAES",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 18,
+    "pillar": "Physical Decay",
+    "title": "Northern Seismic Risk",
+    "metric": "51.5%",
+    "description": "Even in wealthy Lombardy, seismic safety is widely uncertified.",
+    "source_name": "MIM Anagrafe SNAES",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 19,
+    "pillar": "Physical Decay",
+    "title": "Structural Decay Correlation",
+    "metric": "0.85",
+    "description": "Pearson correlation coefficient between structural decay and NEET rates.",
+    "source_name": "MIM Anagrafe / ISTAT",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 20,
+    "pillar": "Physical Decay",
+    "title": "School Age",
+    "metric": "> 50 Years",
+    "description": "The median age of public school buildings in Italy.",
+    "source_name": "MIM Anagrafe SNAES",
+    "source_url": "https://dati.istruzione.it/"
+  },
+  {
+    "id": 21,
+    "pillar": "The Human Capital Crisis",
+    "title": "The Precarity Crisis",
+    "metric": "75.2%",
+    "description": "Percentage of Italian teachers on temporary, precarious contracts.",
+    "source_name": "HuggingFace Personnel Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 22,
+    "pillar": "The Human Capital Crisis",
+    "title": "Substitute Teachers",
+    "metric": "9,989",
+    "description": "Sample size of substitute teachers vs 3,292 tenured.",
+    "source_name": "HuggingFace Personnel Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 23,
+    "pillar": "The Human Capital Crisis",
+    "title": "Abandonment of Vulnerable",
+    "metric": "74.7%",
+    "description": "Percentage of Special Needs (Sostegno) teachers who are substitutes.",
+    "source_name": "HuggingFace Personnel Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 24,
+    "pillar": "The Human Capital Crisis",
+    "title": "Substitute Sostegno",
+    "metric": "4,819",
+    "description": "Raw number of substitute Sostegno teachers denying continuity to disabled kids.",
+    "source_name": "HuggingFace Personnel Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 25,
+    "pillar": "The Human Capital Crisis",
+    "title": "Aging Workforce",
+    "metric": "59.2%",
+    "description": "Percentage of teachers over the age of 50 in Italy.",
+    "source_name": "OECD Education at a Glance",
+    "source_url": "https://data.oecd.org/education.htm"
+  },
+  {
+    "id": 26,
+    "pillar": "The Human Capital Crisis",
+    "title": "Young Teachers Missing",
+    "metric": "0.5%",
+    "description": "Abysmal percentage of teachers under the age of 30.",
+    "source_name": "OECD Education at a Glance",
+    "source_url": "https://data.oecd.org/education.htm"
+  },
+  {
+    "id": 27,
+    "pillar": "The Human Capital Crisis",
+    "title": "The Psychological Toll",
+    "metric": "6.99",
+    "description": "Youth suicide mortality rate per 100,000.",
+    "source_name": "World Bank Open Data",
+    "source_url": "https://data.worldbank.org/"
+  },
+  {
+    "id": 28,
+    "pillar": "The Human Capital Crisis",
+    "title": "EU Psychological Average",
+    "metric": "12.09",
+    "description": "EU average suicide mortality rate, showing Italy's family protection buffer.",
+    "source_name": "World Bank Open Data",
+    "source_url": "https://data.worldbank.org/"
+  },
+  {
+    "id": 29,
+    "pillar": "The Human Capital Crisis",
+    "title": "Brain Drain",
+    "metric": "10.4%",
+    "description": "Estimated percentage of university graduates emigrating abroad annually.",
+    "source_name": "ISTAT Migration Data",
+    "source_url": "https://www.istat.it/"
+  },
+  {
+    "id": 30,
+    "pillar": "The Human Capital Crisis",
+    "title": "Job Mismatch",
+    "metric": "35.0%",
+    "description": "Graduates working in roles not requiring their degree (Overeducation).",
+    "source_name": "Almalaurea",
+    "source_url": "https://www.almalaurea.it/"
+  },
+  {
+    "id": 31,
+    "pillar": "Cognitive Failure",
+    "title": "Learning Poverty",
+    "metric": "nan%",
+    "description": "Percentage of 10-year-olds who cannot read and understand simple text.",
+    "source_name": "World Bank Open Data",
+    "source_url": "https://data.worldbank.org/"
+  },
+  {
+    "id": 32,
+    "pillar": "Cognitive Failure",
+    "title": "Liceo INVALSI",
+    "metric": "4.58",
+    "description": "Standardized RAV score (out of 7) for Lyceums.",
+    "source_name": "HuggingFace Evaluation Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 33,
+    "pillar": "Cognitive Failure",
+    "title": "Professionale INVALSI",
+    "metric": "3.51",
+    "description": "Standardized RAV score for Vocational schools, showing Cognitive Collapse.",
+    "source_name": "HuggingFace Evaluation Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 34,
+    "pillar": "Cognitive Failure",
+    "title": "PISA Math Score 2022",
+    "metric": "471",
+    "description": "Italy's latest PISA math score, deeply below the OECD average.",
+    "source_name": "OECD PISA",
+    "source_url": "https://www.oecd.org/pisa/"
+  },
+  {
+    "id": 35,
+    "pillar": "Cognitive Failure",
+    "title": "PISA Math Collapse",
+    "metric": "-5 pts",
+    "description": "Points lost in PISA Math proficiency between 2003 and 2022.",
+    "source_name": "OECD PISA",
+    "source_url": "https://www.oecd.org/pisa/"
+  },
+  {
+    "id": 36,
+    "pillar": "Cognitive Failure",
+    "title": "PISA Reading 2022",
+    "metric": "482",
+    "description": "Italy's reading proficiency, heavily correlated with Learning Poverty.",
+    "source_name": "OECD PISA",
+    "source_url": "https://www.oecd.org/pisa/"
+  },
+  {
+    "id": 37,
+    "pillar": "Cognitive Failure",
+    "title": "Implicit Dispersione",
+    "metric": "9.7%",
+    "description": "Students who graduate but lack basic foundational competencies.",
+    "source_name": "INVALSI Open Data",
+    "source_url": "https://serviziostatistico.invalsi.it/"
+  },
+  {
+    "id": 38,
+    "pillar": "Cognitive Failure",
+    "title": "Early School Leavers",
+    "metric": "11.5%",
+    "description": "National average of students dropping out before a diploma.",
+    "source_name": "Eurostat",
+    "source_url": "https://ec.europa.eu/eurostat"
+  },
+  {
+    "id": 39,
+    "pillar": "Cognitive Failure",
+    "title": "Southern Early Leavers",
+    "metric": "16.6%",
+    "description": "Dropout rate specifically in Southern Italy (Mezzogiorno).",
+    "source_name": "Eurostat",
+    "source_url": "https://ec.europa.eu/eurostat"
+  },
+  {
+    "id": 40,
+    "pillar": "Cognitive Failure",
+    "title": "Curriculum Rigidity",
+    "metric": "100%",
+    "description": "Unlike comprehensive systems, Italy locks students into rigid tracks at age 14.",
+    "source_name": "Eurydice",
+    "source_url": "https://eurydice.eacea.ec.europa.eu/"
+  },
+  {
+    "id": 41,
+    "pillar": "The Economic Paradox",
+    "title": "The Hidden Tax Median",
+    "metric": "\u20ac 280.71",
+    "description": "Median textbook cost for the 1st year of High School.",
+    "source_name": "HuggingFace Textbooks Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 42,
+    "pillar": "The Economic Paradox",
+    "title": "The Hidden Tax Average",
+    "metric": "\u20ac 213.83",
+    "description": "Average textbook cost, severely restricting low-income access.",
+    "source_name": "HuggingFace Textbooks Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 43,
+    "pillar": "The Economic Paradox",
+    "title": "Illegal Costs",
+    "metric": "61.4%",
+    "description": "Percentage of classes exceeding the State-mandated maximum cost threshold of \u20ac250.",
+    "source_name": "HuggingFace Textbooks Data",
+    "source_url": "https://huggingface.co/datasets/diatribe00/italian-schools-opendata"
+  },
+  {
+    "id": 44,
+    "pillar": "The Economic Paradox",
+    "title": "Institutional Abandonment",
+    "metric": "nan%",
+    "description": "Italy's total public spending on education as % of GDP.",
+    "source_name": "World Bank Open Data",
+    "source_url": "https://data.worldbank.org/"
+  },
+  {
+    "id": 45,
+    "pillar": "The Economic Paradox",
+    "title": "The German Benchmark",
+    "metric": "nan%",
+    "description": "Germany's spending on education, vastly outpacing Italy.",
+    "source_name": "World Bank Open Data",
+    "source_url": "https://data.worldbank.org/"
+  },
+  {
+    "id": 46,
+    "pillar": "The Economic Paradox",
+    "title": "Tertiary Push",
+    "metric": "nan%",
+    "description": "Gross enrollment ratio in Universities.",
+    "source_name": "World Bank Open Data",
+    "source_url": "https://data.worldbank.org/"
+  },
+  {
+    "id": 47,
+    "pillar": "The Economic Paradox",
+    "title": "Tertiary Starvation",
+    "metric": "nan%",
+    "description": "Tertiary spending per capita vs GDP, lowest among major peers.",
+    "source_name": "World Bank Open Data",
+    "source_url": "https://data.worldbank.org/"
+  },
+  {
+    "id": 48,
+    "pillar": "The Economic Paradox",
+    "title": "ITS Academy Employment",
+    "metric": "87.0%",
+    "description": "Employment rate 1 year after graduation from ITS Academy (Dual System).",
+    "source_name": "INDIRE",
+    "source_url": "https://www.indire.it/"
+  },
+  {
+    "id": 49,
+    "pillar": "The Economic Paradox",
+    "title": "University Employment",
+    "metric": "70.3%",
+    "description": "Employment rate 1 year after graduation from University.",
+    "source_name": "Almalaurea",
+    "source_url": "https://www.almalaurea.it/"
+  },
+  {
+    "id": 50,
+    "pillar": "The Economic Paradox",
+    "title": "The DACH Paradox",
+    "metric": "+16.7%",
+    "description": "Employment premium of ITS Academy over standard University degrees.",
+    "source_name": "INDIRE / Almalaurea",
+    "source_url": "https://www.indire.it/"
+  },
+  {
+    "id": 51,
+    "pillar": "Cognitive Failure",
+    "title": "Science PISA 2022",
+    "metric": "484",
+    "description": "Italy's PISA Science score, showing widespread scientific illiteracy.",
+    "source_name": "OECD PISA",
+    "source_url": "https://www.oecd.org/pisa/"
+  },
+  {
+    "id": 52,
+    "pillar": "Cognitive Failure",
+    "title": "Science PISA Collapse",
+    "metric": "-10 pts",
+    "description": "Drop in PISA science scores between 2012 and 2022.",
+    "source_name": "OECD PISA",
+    "source_url": "https://www.oecd.org/pisa/"
+  },
+  {
+    "id": 53,
+    "pillar": "Physical Decay",
+    "title": "Active STEM Labs",
+    "metric": "59.4%",
+    "description": "Percentage of schools with active STEM labs.",
+    "source_name": "PNRR Open Data",
+    "source_url": "https://www.italiadomani.gov.it/"
+  },
+  {
+    "id": 54,
+    "pillar": "Physical Decay",
+    "title": "Connected to 1Gbps",
+    "metric": "68.2%",
+    "description": "Percentage of schools successfully connected to high speed broadband.",
+    "source_name": "AGCOM / Infratel",
+    "source_url": "https://www.agcom.it/"
+  },
+  {
+    "id": 55,
+    "pillar": "The Economic Paradox",
+    "title": "GDP Per Capita Italy",
+    "metric": "\u20ac 33,300",
+    "description": "Italy's GDP per capita, illustrating the economic stagnation driving the crisis.",
+    "source_name": "Eurostat",
+    "source_url": "https://ec.europa.eu/eurostat"
+  },
+  {
+    "id": 56,
+    "pillar": "The Economic Paradox",
+    "title": "GDP Per Capita EU",
+    "metric": "\u20ac 38,400",
+    "description": "EU average GDP per capita, vastly outpacing Italy over the last two decades.",
+    "source_name": "Eurostat",
+    "source_url": "https://ec.europa.eu/eurostat"
+  },
+  {
+    "id": 57,
+    "pillar": "Geographic & Demographic",
+    "title": "Avg Commute Time",
+    "metric": "32.9 min",
+    "description": "Average commuting time for students due to school distribution.",
+    "source_name": "ISTAT SDMX",
+    "source_url": "https://esploradati.istat.it/"
+  },
+  {
+    "id": 58,
+    "pillar": "The Human Capital Crisis",
+    "title": "Brain Drain Exodus",
+    "metric": "> 100k/yr",
+    "description": "Youths emigrating annually due to the collapsed system.",
+    "source_name": "ISTAT Migration",
+    "source_url": "https://www.istat.it/"
+  },
+  {
+    "id": 59,
+    "pillar": "The Human Capital Crisis",
+    "title": "Youth Inactivity",
+    "metric": "23.5%",
+    "description": "Rate of young adults entirely inactive (neither seeking nor in education).",
+    "source_name": "Eurostat",
+    "source_url": "https://ec.europa.eu/eurostat"
+  }
+]

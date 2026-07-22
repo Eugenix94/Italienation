@@ -1,0 +1,14 @@
+[
+  {
+    "track": "Licei",
+    "avg_invalsi_score": 4.58
+  },
+  {
+    "track": "Istituti Tecnici",
+    "avg_invalsi_score": 4.07
+  },
+  {
+    "track": "Istituti Professionali",
+    "avg_invalsi_score": 3.51
+  }
+]

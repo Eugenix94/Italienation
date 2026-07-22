@@ -1,0 +1,38 @@
+[
+  {
+    "iso3": "GBR",
+    "country_name": "United Kingdom",
+    "year": 2021,
+    "spending_pct_gdp": 5.91
+  },
+  {
+    "iso3": "FRA",
+    "country_name": "France",
+    "year": 2022,
+    "spending_pct_gdp": 5.32
+  },
+  {
+    "iso3": "DEU",
+    "country_name": "Germany",
+    "year": 2022,
+    "spending_pct_gdp": 5.24
+  },
+  {
+    "iso3": "EUU",
+    "country_name": "European Union",
+    "year": 2022,
+    "spending_pct_gdp": 4.66
+  },
+  {
+    "iso3": "ESP",
+    "country_name": "Spain",
+    "year": 2022,
+    "spending_pct_gdp": 4.59
+  },
+  {
+    "iso3": "ITA",
+    "country_name": "Italy",
+    "year": 2022,
+    "spending_pct_gdp": 4.07
+  }
+]

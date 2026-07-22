@@ -1,0 +1,35 @@
+Track,Domain,Subject,Weekly_Hours_Biennio1,Weekly_Hours_Biennio2,Weekly_Hours_Year5,Total_Hours_5_Years
+Liceo Classico,Humanities,Italiano,4,4,4,660
+Liceo Classico,Humanities,Latino,5,4,4,726
+Liceo Classico,Humanities,Greco,4,3,3,561
+Liceo Classico,Humanities,Filosofia,0,3,3,297
+Liceo Classico,Humanities,Storia e Geografia,3,3,3,495
+Liceo Classico,STEM,Matematica,3,2,2,396
+Liceo Classico,STEM,Fisica,0,2,2,198
+Liceo Classico,STEM,Scienze Naturali,2,2,2,330
+Liceo Classico,Applied/Labor,Laboratori Tecnici,0,0,0,0
+Liceo Classico,Applied/Labor,Economia/Diritto,0,0,0,0
+Liceo Scientifico,Humanities,Italiano,4,4,4,660
+Liceo Scientifico,Humanities,Latino,3,3,3,495
+Liceo Scientifico,Humanities,Filosofia,0,3,3,297
+Liceo Scientifico,Humanities,Storia e Geografia,3,2,2,396
+Liceo Scientifico,STEM,Matematica,5,4,4,726
+Liceo Scientifico,STEM,Fisica,2,3,3,429
+Liceo Scientifico,STEM,Scienze Naturali,2,3,3,429
+Liceo Scientifico,Applied/Labor,Laboratori Tecnici,0,0,0,0
+Liceo Scientifico,Applied/Labor,Economia/Diritto,0,0,0,0
+Istituto Tecnico (Econ),Humanities,Italiano,4,4,4,660
+Istituto Tecnico (Econ),Humanities,Storia,2,2,2,330
+Istituto Tecnico (Econ),Humanities,Filosofia / Latino,0,0,0,0
+Istituto Tecnico (Econ),STEM,Matematica,4,3,3,561
+Istituto Tecnico (Econ),Applied/Labor,Economia Aziendale,2,6,7,759
+Istituto Tecnico (Econ),Applied/Labor,Diritto ed Economia Politica,2,5,5,627
+Istituto Tecnico (Econ),Applied/Labor,Informatica,2,2,0,264
+Istituto Tecnico (Econ),Applied/Labor,Laboratori Tecnici,0,0,0,0
+Istituto Professionale,Humanities,Italiano,4,4,4,660
+Istituto Professionale,Humanities,Storia,2,2,2,330
+Istituto Professionale,Humanities,Filosofia / Latino,0,0,0,0
+Istituto Professionale,STEM,Matematica,3,3,3,495
+Istituto Professionale,Applied/Labor,Laboratori Tecnologici ed Esercitazioni,6,8,10,1254
+Istituto Professionale,Applied/Labor,Tecnologie Meccaniche/Elettriche,3,5,5,693
+Istituto Professionale,Applied/Labor,Economia/Diritto,2,0,0,132

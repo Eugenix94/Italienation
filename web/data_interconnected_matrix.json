@@ -1,0 +1,42 @@
+[
+    {
+        "System_Type": "Underfunded Tripartite",
+        "Region": "Italy",
+        "NEET_Rate_Pct": 23.1,
+        "Education_Spend_GDP_Pct": 4.1,
+        "PISA_Math_Score": 471,
+        "Teachers_Over_50_Pct": 59.0,
+        "VET_Dropout_Rate_Pct": 14.8,
+        "Pedagogical_Approach": "Early Tracking (Age 14) + Repetition"
+    },
+    {
+        "System_Type": "Dual System Tripartite",
+        "Region": "DACH (DE/CH/AT)",
+        "NEET_Rate_Pct": 8.5,
+        "Education_Spend_GDP_Pct": 5.2,
+        "PISA_Math_Score": 495,
+        "Teachers_Over_50_Pct": 38.0,
+        "VET_Dropout_Rate_Pct": 3.2,
+        "Pedagogical_Approach": "Early Tracking (Age 10-12) + Apprenticeship"
+    },
+    {
+        "System_Type": "Comprehensive",
+        "Region": "United Kingdom",
+        "NEET_Rate_Pct": 12.6,
+        "Education_Spend_GDP_Pct": 5.4,
+        "PISA_Math_Score": 489,
+        "Teachers_Over_50_Pct": 22.0,
+        "VET_Dropout_Rate_Pct": 0.5,
+        "Pedagogical_Approach": "Unified Curriculum to 16 + Social Promotion"
+    },
+    {
+        "System_Type": "OECD Benchmark",
+        "Region": "OECD Average",
+        "NEET_Rate_Pct": 13.0,
+        "Education_Spend_GDP_Pct": 4.9,
+        "PISA_Math_Score": 472,
+        "Teachers_Over_50_Pct": 36.0,
+        "VET_Dropout_Rate_Pct": 5.0,
+        "Pedagogical_Approach": "Mixed Average"
+    }
+]

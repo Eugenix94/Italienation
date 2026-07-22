@@ -3,7 +3,6 @@ const path = require('path');
 
 console.log("Delegating catalog rebuild to high-precision Python direct links builder...");
 try {
-    // Try finding python executables
     let py = "python";
     try {
         execSync('python --version', { stdio: 'ignore' });
@@ -15,4 +14,8 @@ try {
             py = 'py';
         }
     }
-Object.entries(cats).sort((a,b)=>b[1]-a[1]).forEach(([k,v])=>console.log(`  ${k}: ${v}`));
+    const scriptPath = path.join(__dirname, '..', 'scripts', 'rebuild_catalogs_with_direct_links.py');
+    execSync(`${py} "${scriptPath}"`, { stdio: 'inherit' });
+} catch (err) {
+    console.error("Failed to run python direct links builder:", err);
+}

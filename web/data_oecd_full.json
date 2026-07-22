@@ -1,0 +1,1696 @@
+[
+    {
+        "iso3": "KIR",
+        "country": "Kiribati",
+        "education_spending_pct_gdp": 16.4,
+        "tertiary_enrollment": 5.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "ASM",
+        "country": "American Samoa",
+        "education_spending_pct_gdp": 14.7,
+        "tertiary_enrollment": 19.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "TUV",
+        "country": "Tuvalu",
+        "education_spending_pct_gdp": 12.8,
+        "tertiary_enrollment": 19.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "FSM",
+        "country": "Micronesia, Fed. Sts.",
+        "education_spending_pct_gdp": 11.6,
+        "tertiary_enrollment": 13.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "NAM",
+        "country": "Namibia",
+        "education_spending_pct_gdp": 9.1,
+        "tertiary_enrollment": 26.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "DZA",
+        "country": "Algeria",
+        "education_spending_pct_gdp": 9.0,
+        "tertiary_enrollment": 54.4,
+        "learning_poverty": 67.9
+    },
+    {
+        "iso3": "CUB",
+        "country": "Cuba",
+        "education_spending_pct_gdp": 8.4,
+        "tertiary_enrollment": 43.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SLB",
+        "country": "Solomon Islands",
+        "education_spending_pct_gdp": 8.3,
+        "tertiary_enrollment": null,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BWA",
+        "country": "Botswana",
+        "education_spending_pct_gdp": 8.1,
+        "tertiary_enrollment": 21.4,
+        "learning_poverty": 50.8
+    },
+    {
+        "iso3": "MHL",
+        "country": "Marshall Islands",
+        "education_spending_pct_gdp": 7.7,
+        "tertiary_enrollment": 37.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "VUT",
+        "country": "Vanuatu",
+        "education_spending_pct_gdp": 7.6,
+        "tertiary_enrollment": 4.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "MRT",
+        "country": "Mauritania",
+        "education_spending_pct_gdp": 7.6,
+        "tertiary_enrollment": 6.0,
+        "learning_poverty": 94.8
+    },
+    {
+        "iso3": "BOL",
+        "country": "Bolivia",
+        "education_spending_pct_gdp": 7.5,
+        "tertiary_enrollment": null,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SWE",
+        "country": "Sweden",
+        "education_spending_pct_gdp": 7.3,
+        "tertiary_enrollment": 84.0,
+        "learning_poverty": 5.3
+    },
+    {
+        "iso3": "ISL",
+        "country": "Iceland",
+        "education_spending_pct_gdp": 7.3,
+        "tertiary_enrollment": 76.5,
+        "learning_poverty": 9.3
+    },
+    {
+        "iso3": "VEN",
+        "country": "Venezuela, RB",
+        "education_spending_pct_gdp": 6.9,
+        "tertiary_enrollment": 78.3,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "KGZ",
+        "country": "Kyrgyz Republic",
+        "education_spending_pct_gdp": 6.8,
+        "tertiary_enrollment": 53.9,
+        "learning_poverty": 64.5
+    },
+    {
+        "iso3": "TUN",
+        "country": "Tunisia",
+        "education_spending_pct_gdp": 6.7,
+        "tertiary_enrollment": 38.1,
+        "learning_poverty": 65.5
+    },
+    {
+        "iso3": "LSO",
+        "country": "Lesotho",
+        "education_spending_pct_gdp": 6.6,
+        "tertiary_enrollment": 9.9,
+        "learning_poverty": 96.9
+    },
+    {
+        "iso3": "MDA",
+        "country": "Moldova",
+        "education_spending_pct_gdp": 6.6,
+        "tertiary_enrollment": 74.7,
+        "learning_poverty": 11.0
+    },
+    {
+        "iso3": "VCT",
+        "country": "St. Vincent and the Grenadines",
+        "education_spending_pct_gdp": 6.5,
+        "tertiary_enrollment": 41.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "KWT",
+        "country": "Kuwait",
+        "education_spending_pct_gdp": 6.4,
+        "tertiary_enrollment": 51.9,
+        "learning_poverty": 51.1
+    },
+    {
+        "iso3": "FIN",
+        "country": "Finland",
+        "education_spending_pct_gdp": 6.4,
+        "tertiary_enrollment": 110.3,
+        "learning_poverty": 4.8
+    },
+    {
+        "iso3": "DNK",
+        "country": "Denmark",
+        "education_spending_pct_gdp": 6.4,
+        "tertiary_enrollment": 79.0,
+        "learning_poverty": 5.1
+    },
+    {
+        "iso3": "BEL",
+        "country": "Belgium",
+        "education_spending_pct_gdp": 6.3,
+        "tertiary_enrollment": 82.1,
+        "learning_poverty": 8.5
+    },
+    {
+        "iso3": "SEN",
+        "country": "Senegal",
+        "education_spending_pct_gdp": 6.2,
+        "tertiary_enrollment": 15.3,
+        "learning_poverty": 68.6
+    },
+    {
+        "iso3": "SWZ",
+        "country": "Eswatini",
+        "education_spending_pct_gdp": 6.0,
+        "tertiary_enrollment": 6.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "ZAF",
+        "country": "South Africa",
+        "education_spending_pct_gdp": 6.0,
+        "tertiary_enrollment": 23.5,
+        "learning_poverty": 82.0
+    },
+    {
+        "iso3": "MAR",
+        "country": "Morocco",
+        "education_spending_pct_gdp": 6.0,
+        "tertiary_enrollment": 48.2,
+        "learning_poverty": 59.8
+    },
+    {
+        "iso3": "MOZ",
+        "country": "Mozambique",
+        "education_spending_pct_gdp": 6.0,
+        "tertiary_enrollment": 7.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "ISR",
+        "country": "Israel",
+        "education_spending_pct_gdp": 5.9,
+        "tertiary_enrollment": 56.3,
+        "learning_poverty": 14.4
+    },
+    {
+        "iso3": "GBR",
+        "country": "United Kingdom",
+        "education_spending_pct_gdp": 5.9,
+        "tertiary_enrollment": 80.4,
+        "learning_poverty": 3.4
+    },
+    {
+        "iso3": "BTN",
+        "country": "Bhutan",
+        "education_spending_pct_gdp": 5.8,
+        "tertiary_enrollment": 13.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "NRU",
+        "country": "Nauru",
+        "education_spending_pct_gdp": 5.8,
+        "tertiary_enrollment": null,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BRA",
+        "country": "Brazil",
+        "education_spending_pct_gdp": 5.6,
+        "tertiary_enrollment": 69.7,
+        "learning_poverty": 46.9
+    },
+    {
+        "iso3": "JAM",
+        "country": "Jamaica",
+        "education_spending_pct_gdp": 5.5,
+        "tertiary_enrollment": 26.2,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "UZB",
+        "country": "Uzbekistan",
+        "education_spending_pct_gdp": 5.5,
+        "tertiary_enrollment": 59.8,
+        "learning_poverty": 32.4
+    },
+    {
+        "iso3": "WSM",
+        "country": "Samoa",
+        "education_spending_pct_gdp": 5.5,
+        "tertiary_enrollment": 16.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "CUW",
+        "country": "Curacao",
+        "education_spending_pct_gdp": 5.4,
+        "tertiary_enrollment": 23.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "TJK",
+        "country": "Tajikistan",
+        "education_spending_pct_gdp": 5.4,
+        "tertiary_enrollment": 35.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "PSE",
+        "country": "West Bank and Gaza",
+        "education_spending_pct_gdp": 5.4,
+        "tertiary_enrollment": 44.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "NOR",
+        "country": "Norway",
+        "education_spending_pct_gdp": 5.4,
+        "tertiary_enrollment": 95.5,
+        "learning_poverty": 4.3
+    },
+    {
+        "iso3": "USA",
+        "country": "United States",
+        "education_spending_pct_gdp": 5.4,
+        "tertiary_enrollment": 79.4,
+        "learning_poverty": 9.7
+    },
+    {
+        "iso3": "KOR",
+        "country": "Korea, Rep.",
+        "education_spending_pct_gdp": 5.4,
+        "tertiary_enrollment": 111.9,
+        "learning_poverty": 3.2
+    },
+    {
+        "iso3": "DMA",
+        "country": "Dominica",
+        "education_spending_pct_gdp": 5.4,
+        "tertiary_enrollment": 6.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BFA",
+        "country": "Burkina Faso",
+        "education_spending_pct_gdp": 5.3,
+        "tertiary_enrollment": 10.0,
+        "learning_poverty": 73.9
+    },
+    {
+        "iso3": "FRA",
+        "country": "France",
+        "education_spending_pct_gdp": 5.3,
+        "tertiary_enrollment": 71.5,
+        "learning_poverty": 6.6
+    },
+    {
+        "iso3": "CRI",
+        "country": "Costa Rica",
+        "education_spending_pct_gdp": 5.3,
+        "tertiary_enrollment": 55.0,
+        "learning_poverty": 34.0
+    },
+    {
+        "iso3": "TON",
+        "country": "Tonga",
+        "education_spending_pct_gdp": 5.3,
+        "tertiary_enrollment": 42.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SVN",
+        "country": "Slovenia",
+        "education_spending_pct_gdp": 5.3,
+        "tertiary_enrollment": 80.1,
+        "learning_poverty": 7.2
+    },
+    {
+        "iso3": "AUT",
+        "country": "Austria",
+        "education_spending_pct_gdp": 5.3,
+        "tertiary_enrollment": 92.6,
+        "learning_poverty": 15.0
+    },
+    {
+        "iso3": "COL",
+        "country": "Colombia",
+        "education_spending_pct_gdp": 5.3,
+        "tertiary_enrollment": 59.3,
+        "learning_poverty": 51.4
+    },
+    {
+        "iso3": "TLS",
+        "country": "Timor-Leste",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 31.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "DEU",
+        "country": "Germany",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 76.7,
+        "learning_poverty": 15.4
+    },
+    {
+        "iso3": "NZL",
+        "country": "New Zealand",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 77.2,
+        "learning_poverty": 10.9
+    },
+    {
+        "iso3": "MNG",
+        "country": "Mongolia",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 69.0,
+        "learning_poverty": 39.5
+    },
+    {
+        "iso3": "EST",
+        "country": "Estonia",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 65.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "NLD",
+        "country": "Netherlands",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 86.6,
+        "learning_poverty": 4.5
+    },
+    {
+        "iso3": "MDV",
+        "country": "Maldives",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 48.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "YEM",
+        "country": "Yemen, Rep.",
+        "education_spending_pct_gdp": 5.2,
+        "tertiary_enrollment": 8.8,
+        "learning_poverty": 94.7
+    },
+    {
+        "iso3": "UKR",
+        "country": "Ukraine",
+        "education_spending_pct_gdp": 5.1,
+        "tertiary_enrollment": 87.2,
+        "learning_poverty": 27.9
+    },
+    {
+        "iso3": "SYR",
+        "country": "Syrian Arab Republic",
+        "education_spending_pct_gdp": 5.1,
+        "tertiary_enrollment": 43.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "GRD",
+        "country": "Grenada",
+        "education_spending_pct_gdp": 5.1,
+        "tertiary_enrollment": 100.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "OED",
+        "country": "OECD members",
+        "education_spending_pct_gdp": 5.1,
+        "tertiary_enrollment": 78.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "AUS",
+        "country": "Australia",
+        "education_spending_pct_gdp": 5.1,
+        "tertiary_enrollment": 108.4,
+        "learning_poverty": 9.1
+    },
+    {
+        "iso3": "BLR",
+        "country": "Belarus",
+        "education_spending_pct_gdp": 5.0,
+        "tertiary_enrollment": 70.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "STP",
+        "country": "Sao Tome and Principe",
+        "education_spending_pct_gdp": 5.0,
+        "tertiary_enrollment": 12.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "OSS",
+        "country": "Other small states",
+        "education_spending_pct_gdp": 5.0,
+        "tertiary_enrollment": 22.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "ARG",
+        "country": "Argentina",
+        "education_spending_pct_gdp": 5.0,
+        "tertiary_enrollment": 107.8,
+        "learning_poverty": 59.1
+    },
+    {
+        "iso3": "PST",
+        "country": "Post-demographic dividend",
+        "education_spending_pct_gdp": 5.0,
+        "tertiary_enrollment": 80.2,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "EMU",
+        "country": "Euro area",
+        "education_spending_pct_gdp": 5.0,
+        "tertiary_enrollment": 81.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "CHL",
+        "country": "Chile",
+        "education_spending_pct_gdp": 4.9,
+        "tertiary_enrollment": 110.2,
+        "learning_poverty": 27.2
+    },
+    {
+        "iso3": "KAZ",
+        "country": "Kazakhstan",
+        "education_spending_pct_gdp": 4.9,
+        "tertiary_enrollment": 52.9,
+        "learning_poverty": 10.4
+    },
+    {
+        "iso3": "CHE",
+        "country": "Switzerland",
+        "education_spending_pct_gdp": 4.9,
+        "tertiary_enrollment": 73.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "NAC",
+        "country": "North America",
+        "education_spending_pct_gdp": 4.8,
+        "tertiary_enrollment": 79.0,
+        "learning_poverty": 4.3
+    },
+    {
+        "iso3": "CAN",
+        "country": "Canada",
+        "education_spending_pct_gdp": 4.8,
+        "tertiary_enrollment": 76.3,
+        "learning_poverty": 4.3
+    },
+    {
+        "iso3": "SST",
+        "country": "Small states",
+        "education_spending_pct_gdp": 4.8,
+        "tertiary_enrollment": 22.9,
+        "learning_poverty": 19.3
+    },
+    {
+        "iso3": "URY",
+        "country": "Uruguay",
+        "education_spending_pct_gdp": 4.8,
+        "tertiary_enrollment": 80.0,
+        "learning_poverty": 43.6
+    },
+    {
+        "iso3": "CYP",
+        "country": "Cyprus",
+        "education_spending_pct_gdp": 4.7,
+        "tertiary_enrollment": 120.9,
+        "learning_poverty": 10.2
+    },
+    {
+        "iso3": "MLT",
+        "country": "Malta",
+        "education_spending_pct_gdp": 4.7,
+        "tertiary_enrollment": 80.5,
+        "learning_poverty": 10.2
+    },
+    {
+        "iso3": "SVK",
+        "country": "Slovak Republic",
+        "education_spending_pct_gdp": 4.7,
+        "tertiary_enrollment": 54.5,
+        "learning_poverty": 22.1
+    },
+    {
+        "iso3": "EUU",
+        "country": "European Union",
+        "education_spending_pct_gdp": 4.7,
+        "tertiary_enrollment": 79.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BLZ",
+        "country": "Belize",
+        "education_spending_pct_gdp": 4.6,
+        "tertiary_enrollment": 24.8,
+        "learning_poverty": 76.4
+    },
+    {
+        "iso3": "RWA",
+        "country": "Rwanda",
+        "education_spending_pct_gdp": 4.6,
+        "tertiary_enrollment": 9.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "ESP",
+        "country": "Spain",
+        "education_spending_pct_gdp": 4.6,
+        "tertiary_enrollment": 93.8,
+        "learning_poverty": 7.3
+    },
+    {
+        "iso3": "ECS",
+        "country": "Europe & Central Asia",
+        "education_spending_pct_gdp": 4.6,
+        "tertiary_enrollment": 84.9,
+        "learning_poverty": 8.6
+    },
+    {
+        "iso3": "PRT",
+        "country": "Portugal",
+        "education_spending_pct_gdp": 4.6,
+        "tertiary_enrollment": 77.7,
+        "learning_poverty": 8.0
+    },
+    {
+        "iso3": "HND",
+        "country": "Honduras",
+        "education_spending_pct_gdp": 4.5,
+        "tertiary_enrollment": 23.3,
+        "learning_poverty": 79.3
+    },
+    {
+        "iso3": "BDI",
+        "country": "Burundi",
+        "education_spending_pct_gdp": 4.5,
+        "tertiary_enrollment": 6.4,
+        "learning_poverty": 95.8
+    },
+    {
+        "iso3": "BGR",
+        "country": "Bulgaria",
+        "education_spending_pct_gdp": 4.5,
+        "tertiary_enrollment": 69.5,
+        "learning_poverty": 18.2
+    },
+    {
+        "iso3": "SAU",
+        "country": "Saudi Arabia",
+        "education_spending_pct_gdp": 4.5,
+        "tertiary_enrollment": 83.9,
+        "learning_poverty": 32.4
+    },
+    {
+        "iso3": "SYC",
+        "country": "Seychelles",
+        "education_spending_pct_gdp": 4.5,
+        "tertiary_enrollment": 14.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "GUY",
+        "country": "Guyana",
+        "education_spending_pct_gdp": 4.5,
+        "tertiary_enrollment": 26.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BRN",
+        "country": "Brunei Darussalam",
+        "education_spending_pct_gdp": 4.4,
+        "tertiary_enrollment": 36.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "MEA",
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "education_spending_pct_gdp": 4.4,
+        "tertiary_enrollment": 29.7,
+        "learning_poverty": 69.3
+    },
+    {
+        "iso3": "OMN",
+        "country": "Oman",
+        "education_spending_pct_gdp": 4.4,
+        "tertiary_enrollment": 42.2,
+        "learning_poverty": 40.6
+    },
+    {
+        "iso3": "PER",
+        "country": "Peru",
+        "education_spending_pct_gdp": 4.4,
+        "tertiary_enrollment": 71.2,
+        "learning_poverty": 44.4
+    },
+    {
+        "iso3": "CPV",
+        "country": "Cabo Verde",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 24.3,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "AFG",
+        "country": "Afghanistan",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 10.9,
+        "learning_poverty": 93.3
+    },
+    {
+        "iso3": "LVA",
+        "country": "Latvia",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 82.9,
+        "learning_poverty": 8.4
+    },
+    {
+        "iso3": "CEB",
+        "country": "Central Europe and the Baltics",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 68.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "POL",
+        "country": "Poland",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 80.9,
+        "learning_poverty": 5.6
+    },
+    {
+        "iso3": "CZE",
+        "country": "Czechia",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 66.7,
+        "learning_poverty": 14.2
+    },
+    {
+        "iso3": "TKM",
+        "country": "Turkmenistan",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 20.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "PRI",
+        "country": "Puerto Rico (US)",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 77.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "LTU",
+        "country": "Lithuania",
+        "education_spending_pct_gdp": 4.3,
+        "tertiary_enrollment": 75.6,
+        "learning_poverty": 3.3
+    },
+    {
+        "iso3": "MUS",
+        "country": "Mauritius",
+        "education_spending_pct_gdp": 4.2,
+        "tertiary_enrollment": 45.8,
+        "learning_poverty": 40.5
+    },
+    {
+        "iso3": "FJI",
+        "country": "Fiji",
+        "education_spending_pct_gdp": 4.2,
+        "tertiary_enrollment": 75.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "MLI",
+        "country": "Mali",
+        "education_spending_pct_gdp": 4.2,
+        "tertiary_enrollment": 5.1,
+        "learning_poverty": 90.4
+    },
+    {
+        "iso3": "RUS",
+        "country": "Russian Federation",
+        "education_spending_pct_gdp": 4.2,
+        "tertiary_enrollment": 60.4,
+        "learning_poverty": 3.8
+    },
+    {
+        "iso3": "TGO",
+        "country": "Togo",
+        "education_spending_pct_gdp": 4.1,
+        "tertiary_enrollment": 14.9,
+        "learning_poverty": 81.7
+    },
+    {
+        "iso3": "IND",
+        "country": "India",
+        "education_spending_pct_gdp": 4.1,
+        "tertiary_enrollment": 34.4,
+        "learning_poverty": 56.1
+    },
+    {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "education_spending_pct_gdp": 4.1,
+        "tertiary_enrollment": 81.2,
+        "learning_poverty": 3.9
+    },
+    {
+        "iso3": "NER",
+        "country": "Niger",
+        "education_spending_pct_gdp": 4.1,
+        "tertiary_enrollment": 4.2,
+        "learning_poverty": 90.4
+    },
+    {
+        "iso3": "ZMB",
+        "country": "Zambia",
+        "education_spending_pct_gdp": 4.1,
+        "tertiary_enrollment": 4.0,
+        "learning_poverty": 98.5
+    },
+    {
+        "iso3": "ITA",
+        "country": "Italy",
+        "education_spending_pct_gdp": 4.1,
+        "tertiary_enrollment": 75.9,
+        "learning_poverty": 5.5
+    },
+    {
+        "iso3": "MEX",
+        "country": "Mexico",
+        "education_spending_pct_gdp": 4.1,
+        "tertiary_enrollment": 48.2,
+        "learning_poverty": 47.6
+    },
+    {
+        "iso3": "LTE",
+        "country": "Late-demographic dividend",
+        "education_spending_pct_gdp": 4.0,
+        "tertiary_enrollment": 69.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "KEN",
+        "country": "Kenya",
+        "education_spending_pct_gdp": 4.0,
+        "tertiary_enrollment": 10.4,
+        "learning_poverty": 79.3
+    },
+    {
+        "iso3": "GEO",
+        "country": "Georgia",
+        "education_spending_pct_gdp": 4.0,
+        "tertiary_enrollment": 89.5,
+        "learning_poverty": 13.5
+    },
+    {
+        "iso3": "PHL",
+        "country": "Philippines",
+        "education_spending_pct_gdp": 4.0,
+        "tertiary_enrollment": 47.4,
+        "learning_poverty": 90.9
+    },
+    {
+        "iso3": "AFE",
+        "country": "Africa Eastern and Southern",
+        "education_spending_pct_gdp": 4.0,
+        "tertiary_enrollment": 8.7,
+        "learning_poverty": 90.3
+    },
+    {
+        "iso3": "TEC",
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "education_spending_pct_gdp": 3.9,
+        "tertiary_enrollment": 88.6,
+        "learning_poverty": 10.4
+    },
+    {
+        "iso3": "SXM",
+        "country": "Sint Maarten (Dutch part)",
+        "education_spending_pct_gdp": 3.9,
+        "tertiary_enrollment": 7.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "CHN",
+        "country": "China",
+        "education_spending_pct_gdp": 3.9,
+        "tertiary_enrollment": 76.9,
+        "learning_poverty": 18.2
+    },
+    {
+        "iso3": "ARE",
+        "country": "United Arab Emirates",
+        "education_spending_pct_gdp": 3.9,
+        "tertiary_enrollment": 63.7,
+        "learning_poverty": 25.9
+    },
+    {
+        "iso3": "LCA",
+        "country": "St. Lucia",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 15.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "LCN",
+        "country": "Latin America & Caribbean",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 58.9,
+        "learning_poverty": 52.3
+    },
+    {
+        "iso3": "HKG",
+        "country": "Hong Kong SAR, China",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 120.1,
+        "learning_poverty": 5.4
+    },
+    {
+        "iso3": "HUN",
+        "country": "Hungary",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 60.5,
+        "learning_poverty": 9.2
+    },
+    {
+        "iso3": "LAC",
+        "country": "Latin America & Caribbean (excluding high income)",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 56.7,
+        "learning_poverty": 53.0
+    },
+    {
+        "iso3": "TLA",
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 59.1,
+        "learning_poverty": 52.3
+    },
+    {
+        "iso3": "ARB",
+        "country": "Arab World",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 35.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "EGY",
+        "country": "Egypt, Arab Rep.",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 38.0,
+        "learning_poverty": 56.1
+    },
+    {
+        "iso3": "DOM",
+        "country": "Dominican Republic",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 57.7,
+        "learning_poverty": 77.7
+    },
+    {
+        "iso3": "DJI",
+        "country": "Djibouti",
+        "education_spending_pct_gdp": 3.8,
+        "tertiary_enrollment": 5.2,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "LUX",
+        "country": "Luxembourg",
+        "education_spending_pct_gdp": 3.7,
+        "tertiary_enrollment": 22.4,
+        "learning_poverty": 3.0
+    },
+    {
+        "iso3": "ECA",
+        "country": "Europe & Central Asia (excluding high income)",
+        "education_spending_pct_gdp": 3.7,
+        "tertiary_enrollment": 85.1,
+        "learning_poverty": 16.5
+    },
+    {
+        "iso3": "ECU",
+        "country": "Ecuador",
+        "education_spending_pct_gdp": 3.7,
+        "tertiary_enrollment": 67.9,
+        "learning_poverty": 65.9
+    },
+    {
+        "iso3": "NPL",
+        "country": "Nepal",
+        "education_spending_pct_gdp": 3.7,
+        "tertiary_enrollment": 21.3,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "AZE",
+        "country": "Azerbaijan",
+        "education_spending_pct_gdp": 3.7,
+        "tertiary_enrollment": 41.3,
+        "learning_poverty": 37.5
+    },
+    {
+        "iso3": "IBD",
+        "country": "IBRD only",
+        "education_spending_pct_gdp": 3.7,
+        "tertiary_enrollment": 52.8,
+        "learning_poverty": 44.0
+    },
+    {
+        "iso3": "ABW",
+        "country": "Aruba",
+        "education_spending_pct_gdp": 3.6,
+        "tertiary_enrollment": 14.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "CIV",
+        "country": "Cote d'Ivoire",
+        "education_spending_pct_gdp": 3.6,
+        "tertiary_enrollment": 12.3,
+        "learning_poverty": 79.9
+    },
+    {
+        "iso3": "BRB",
+        "country": "Barbados",
+        "education_spending_pct_gdp": 3.6,
+        "tertiary_enrollment": 50.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "IRQ",
+        "country": "Iraq",
+        "education_spending_pct_gdp": 3.6,
+        "tertiary_enrollment": 15.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "PRY",
+        "country": "Paraguay",
+        "education_spending_pct_gdp": 3.5,
+        "tertiary_enrollment": 37.6,
+        "learning_poverty": 77.7
+    },
+    {
+        "iso3": "IBT",
+        "country": "IDA & IBRD total",
+        "education_spending_pct_gdp": 3.5,
+        "tertiary_enrollment": 39.3,
+        "learning_poverty": 53.6
+    },
+    {
+        "iso3": "LMY",
+        "country": "Low & middle income",
+        "education_spending_pct_gdp": 3.5,
+        "tertiary_enrollment": 38.8,
+        "learning_poverty": 57.2
+    },
+    {
+        "iso3": "EAS",
+        "country": "East Asia & Pacific",
+        "education_spending_pct_gdp": 3.5,
+        "tertiary_enrollment": 63.3,
+        "learning_poverty": 32.4
+    },
+    {
+        "iso3": "MYS",
+        "country": "Malaysia",
+        "education_spending_pct_gdp": 3.5,
+        "tertiary_enrollment": 38.5,
+        "learning_poverty": 42.0
+    },
+    {
+        "iso3": "MAC",
+        "country": "Macao SAR, China",
+        "education_spending_pct_gdp": 3.5,
+        "tertiary_enrollment": 141.9,
+        "learning_poverty": 7.2
+    },
+    {
+        "iso3": "KNA",
+        "country": "St. Kitts and Nevis",
+        "education_spending_pct_gdp": 3.5,
+        "tertiary_enrollment": 93.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "PLW",
+        "country": "Palau",
+        "education_spending_pct_gdp": 3.4,
+        "tertiary_enrollment": 71.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SRB",
+        "country": "Serbia",
+        "education_spending_pct_gdp": 3.4,
+        "tertiary_enrollment": 70.6,
+        "learning_poverty": 8.8
+    },
+    {
+        "iso3": "EAR",
+        "country": "Early-demographic dividend",
+        "education_spending_pct_gdp": 3.4,
+        "tertiary_enrollment": 36.3,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "GRC",
+        "country": "Greece",
+        "education_spending_pct_gdp": 3.4,
+        "tertiary_enrollment": 165.1,
+        "learning_poverty": 7.7
+    },
+    {
+        "iso3": "COG",
+        "country": "Congo, Rep.",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 10.4,
+        "learning_poverty": 70.0
+    },
+    {
+        "iso3": "IDB",
+        "country": "IDA blend",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 12.5,
+        "learning_poverty": 76.9
+    },
+    {
+        "iso3": "JPN",
+        "country": "Japan",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 64.5,
+        "learning_poverty": 3.6
+    },
+    {
+        "iso3": "SLV",
+        "country": "El Salvador",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 32.8,
+        "learning_poverty": 69.1
+    },
+    {
+        "iso3": "MKD",
+        "country": "North Macedonia",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 55.0,
+        "learning_poverty": 33.0
+    },
+    {
+        "iso3": "SSA",
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 9.3,
+        "learning_poverty": 85.5
+    },
+    {
+        "iso3": "ROU",
+        "country": "Romania",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 55.2,
+        "learning_poverty": 17.9
+    },
+    {
+        "iso3": "SSF",
+        "country": "Sub-Saharan Africa",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 9.3,
+        "learning_poverty": 86.5
+    },
+    {
+        "iso3": "TSS",
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "education_spending_pct_gdp": 3.3,
+        "tertiary_enrollment": 9.3,
+        "learning_poverty": 86.5
+    },
+    {
+        "iso3": "BIH",
+        "country": "Bosnia and Herzegovina",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 45.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "HPC",
+        "country": "Heavily indebted poor countries (HIPC)",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 9.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "PRE",
+        "country": "Pre-demographic dividend",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 8.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "QAT",
+        "country": "Qatar",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 43.0,
+        "learning_poverty": 21.1
+    },
+    {
+        "iso3": "TTO",
+        "country": "Trinidad and Tobago",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 23.8,
+        "learning_poverty": 20.6
+    },
+    {
+        "iso3": "CSS",
+        "country": "Caribbean small states",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 22.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "JOR",
+        "country": "Jordan",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 35.9,
+        "learning_poverty": 62.2
+    },
+    {
+        "iso3": "IDA",
+        "country": "IDA total",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 12.7,
+        "learning_poverty": 81.0
+    },
+    {
+        "iso3": "BEN",
+        "country": "Benin",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 10.2,
+        "learning_poverty": 55.8
+    },
+    {
+        "iso3": "AFW",
+        "country": "Africa Western and Central",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 10.2,
+        "learning_poverty": 79.6
+    },
+    {
+        "iso3": "IDX",
+        "country": "IDA only",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 12.8,
+        "learning_poverty": 82.4
+    },
+    {
+        "iso3": "TCD",
+        "country": "Chad",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 4.4,
+        "learning_poverty": 94.4
+    },
+    {
+        "iso3": "LDC",
+        "country": "Least developed countries: UN classification",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 11.0,
+        "learning_poverty": 84.0
+    },
+    {
+        "iso3": "VGB",
+        "country": "British Virgin Islands",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 29.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "TZA",
+        "country": "Tanzania",
+        "education_spending_pct_gdp": 3.2,
+        "tertiary_enrollment": 4.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "FCS",
+        "country": "Fragile and conflict affected situations",
+        "education_spending_pct_gdp": 3.1,
+        "tertiary_enrollment": 14.6,
+        "learning_poverty": 90.3
+    },
+    {
+        "iso3": "ATG",
+        "country": "Antigua and Barbuda",
+        "education_spending_pct_gdp": 3.1,
+        "tertiary_enrollment": 25.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "TUR",
+        "country": "Turkiye",
+        "education_spending_pct_gdp": 3.1,
+        "tertiary_enrollment": 105.9,
+        "learning_poverty": 18.5
+    },
+    {
+        "iso3": "ALB",
+        "country": "Albania",
+        "education_spending_pct_gdp": 3.1,
+        "tertiary_enrollment": 84.1,
+        "learning_poverty": 10.2
+    },
+    {
+        "iso3": "GTM",
+        "country": "Guatemala",
+        "education_spending_pct_gdp": 3.1,
+        "tertiary_enrollment": 27.3,
+        "learning_poverty": 78.5
+    },
+    {
+        "iso3": "MDG",
+        "country": "Madagascar",
+        "education_spending_pct_gdp": 3.0,
+        "tertiary_enrollment": 6.1,
+        "learning_poverty": 95.2
+    },
+    {
+        "iso3": "EAP",
+        "country": "East Asia & Pacific (excluding high income)",
+        "education_spending_pct_gdp": 3.0,
+        "tertiary_enrollment": 61.7,
+        "learning_poverty": 34.5
+    },
+    {
+        "iso3": "TEA",
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "education_spending_pct_gdp": 3.0,
+        "tertiary_enrollment": 62.2,
+        "learning_poverty": 34.5
+    },
+    {
+        "iso3": "TCA",
+        "country": "Turks and Caicos Islands",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 25.3,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "GHA",
+        "country": "Ghana",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 21.3,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "IRL",
+        "country": "Ireland",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 77.6,
+        "learning_poverty": 2.3
+    },
+    {
+        "iso3": "SMR",
+        "country": "San Marino",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 57.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "VNM",
+        "country": "Viet Nam",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 37.6,
+        "learning_poverty": 18.1
+    },
+    {
+        "iso3": "NIC",
+        "country": "Nicaragua",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 30.4,
+        "learning_poverty": 78.9
+    },
+    {
+        "iso3": "SUR",
+        "country": "Suriname",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 2.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SAS",
+        "country": "South Asia",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 32.8,
+        "learning_poverty": 55.8
+    },
+    {
+        "iso3": "TSA",
+        "country": "South Asia (IDA & IBRD)",
+        "education_spending_pct_gdp": 2.9,
+        "tertiary_enrollment": 32.8,
+        "learning_poverty": 55.8
+    },
+    {
+        "iso3": "COD",
+        "country": "Congo, Dem. Rep.",
+        "education_spending_pct_gdp": 2.8,
+        "tertiary_enrollment": 6.4,
+        "learning_poverty": 96.6
+    },
+    {
+        "iso3": "CMR",
+        "country": "Cameroon",
+        "education_spending_pct_gdp": 2.8,
+        "tertiary_enrollment": 16.7,
+        "learning_poverty": 71.9
+    },
+    {
+        "iso3": "IRN",
+        "country": "Iran, Islamic Rep.",
+        "education_spending_pct_gdp": 2.8,
+        "tertiary_enrollment": 58.7,
+        "learning_poverty": 41.5
+    },
+    {
+        "iso3": "GMB",
+        "country": "Gambia, The",
+        "education_spending_pct_gdp": 2.8,
+        "tertiary_enrollment": 13.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "MWI",
+        "country": "Malawi",
+        "education_spending_pct_gdp": 2.7,
+        "tertiary_enrollment": 2.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BHS",
+        "country": "Bahamas, The",
+        "education_spending_pct_gdp": 2.7,
+        "tertiary_enrollment": 14.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SLE",
+        "country": "Sierra Leone",
+        "education_spending_pct_gdp": 2.6,
+        "tertiary_enrollment": 2.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "UGA",
+        "country": "Uganda",
+        "education_spending_pct_gdp": 2.6,
+        "tertiary_enrollment": 4.6,
+        "learning_poverty": 81.9
+    },
+    {
+        "iso3": "LIE",
+        "country": "Liechtenstein",
+        "education_spending_pct_gdp": 2.6,
+        "tertiary_enrollment": 46.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "THA",
+        "country": "Thailand",
+        "education_spending_pct_gdp": 2.5,
+        "tertiary_enrollment": 49.1,
+        "learning_poverty": 23.4
+    },
+    {
+        "iso3": "AGO",
+        "country": "Angola",
+        "education_spending_pct_gdp": 2.5,
+        "tertiary_enrollment": 10.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "PAN",
+        "country": "Panama",
+        "education_spending_pct_gdp": 2.5,
+        "tertiary_enrollment": 53.7,
+        "learning_poverty": 78.5
+    },
+    {
+        "iso3": "ARM",
+        "country": "Armenia",
+        "education_spending_pct_gdp": 2.4,
+        "tertiary_enrollment": 52.8,
+        "learning_poverty": 27.2
+    },
+    {
+        "iso3": "COM",
+        "country": "Comoros",
+        "education_spending_pct_gdp": 2.3,
+        "tertiary_enrollment": 18.8,
+        "learning_poverty": 86.0
+    },
+    {
+        "iso3": "GAB",
+        "country": "Gabon",
+        "education_spending_pct_gdp": 2.3,
+        "tertiary_enrollment": 7.7,
+        "learning_poverty": 30.7
+    },
+    {
+        "iso3": "ETH",
+        "country": "Ethiopia",
+        "education_spending_pct_gdp": 2.3,
+        "tertiary_enrollment": 5.9,
+        "learning_poverty": 90.4
+    },
+    {
+        "iso3": "LBR",
+        "country": "Liberia",
+        "education_spending_pct_gdp": 2.3,
+        "tertiary_enrollment": 10.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "LBY",
+        "country": "Libya",
+        "education_spending_pct_gdp": 2.3,
+        "tertiary_enrollment": 58.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SGP",
+        "country": "Singapore",
+        "education_spending_pct_gdp": 2.2,
+        "tertiary_enrollment": 97.3,
+        "learning_poverty": 3.4
+    },
+    {
+        "iso3": "GNQ",
+        "country": "Equatorial Guinea",
+        "education_spending_pct_gdp": 2.2,
+        "tertiary_enrollment": 1.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "KHM",
+        "country": "Cambodia",
+        "education_spending_pct_gdp": 2.2,
+        "tertiary_enrollment": 21.4,
+        "learning_poverty": 90.0
+    },
+    {
+        "iso3": "ERI",
+        "country": "Eritrea",
+        "education_spending_pct_gdp": 2.1,
+        "tertiary_enrollment": 3.2,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BGD",
+        "country": "Bangladesh",
+        "education_spending_pct_gdp": 2.0,
+        "tertiary_enrollment": 23.7,
+        "learning_poverty": 51.2
+    },
+    {
+        "iso3": "SDN",
+        "country": "Sudan",
+        "education_spending_pct_gdp": 2.0,
+        "tertiary_enrollment": 15.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "GNB",
+        "country": "Guinea-Bissau",
+        "education_spending_pct_gdp": 2.0,
+        "tertiary_enrollment": 2.6,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "MMR",
+        "country": "Myanmar",
+        "education_spending_pct_gdp": 2.0,
+        "tertiary_enrollment": 20.4,
+        "learning_poverty": 89.5
+    },
+    {
+        "iso3": "PAK",
+        "country": "Pakistan",
+        "education_spending_pct_gdp": 1.9,
+        "tertiary_enrollment": 10.9,
+        "learning_poverty": 79.5
+    },
+    {
+        "iso3": "AND",
+        "country": "Andorra",
+        "education_spending_pct_gdp": 1.9,
+        "tertiary_enrollment": 67.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "BHR",
+        "country": "Bahrain",
+        "education_spending_pct_gdp": 1.9,
+        "tertiary_enrollment": 58.4,
+        "learning_poverty": 30.2
+    },
+    {
+        "iso3": "BMU",
+        "country": "Bermuda",
+        "education_spending_pct_gdp": 1.9,
+        "tertiary_enrollment": 17.3,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "CAF",
+        "country": "Central African Republic",
+        "education_spending_pct_gdp": 1.8,
+        "tertiary_enrollment": 2.8,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "LKA",
+        "country": "Sri Lanka",
+        "education_spending_pct_gdp": 1.8,
+        "tertiary_enrollment": 20.7,
+        "learning_poverty": 14.8
+    },
+    {
+        "iso3": "MCO",
+        "country": "Monaco",
+        "education_spending_pct_gdp": 1.7,
+        "tertiary_enrollment": 77.5,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "GIN",
+        "country": "Guinea",
+        "education_spending_pct_gdp": 1.7,
+        "tertiary_enrollment": 10.9,
+        "learning_poverty": 82.7
+    },
+    {
+        "iso3": "CYM",
+        "country": "Cayman Islands",
+        "education_spending_pct_gdp": 1.6,
+        "tertiary_enrollment": 33.0,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SSD",
+        "country": "South Sudan",
+        "education_spending_pct_gdp": 1.6,
+        "tertiary_enrollment": null,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "IDN",
+        "country": "Indonesia",
+        "education_spending_pct_gdp": 1.3,
+        "tertiary_enrollment": 44.9,
+        "learning_poverty": 52.8
+    },
+    {
+        "iso3": "LAO",
+        "country": "Lao PDR",
+        "education_spending_pct_gdp": 1.2,
+        "tertiary_enrollment": 14.9,
+        "learning_poverty": 97.7
+    },
+    {
+        "iso3": "LBN",
+        "country": "Lebanon",
+        "education_spending_pct_gdp": 1.2,
+        "tertiary_enrollment": 54.4,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "HTI",
+        "country": "Haiti",
+        "education_spending_pct_gdp": 1.0,
+        "tertiary_enrollment": 1.1,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "PNG",
+        "country": "Papua New Guinea",
+        "education_spending_pct_gdp": 0.8,
+        "tertiary_enrollment": 1.9,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "ZWE",
+        "country": "Zimbabwe",
+        "education_spending_pct_gdp": 0.4,
+        "tertiary_enrollment": 7.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "NGA",
+        "country": "Nigeria",
+        "education_spending_pct_gdp": 0.3,
+        "tertiary_enrollment": 9.7,
+        "learning_poverty": null
+    },
+    {
+        "iso3": "SOM",
+        "country": "Somalia, Fed. Rep.",
+        "education_spending_pct_gdp": 0.0,
+        "tertiary_enrollment": 2.4,
+        "learning_poverty": null
+    }
+]

@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>00_master_capstone_oted_66_domains</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Notebook</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -8824,6 +8824,88 @@ C:\Users\Dell\AppData\Local\Programs\Python\Python314\Lib\site-packages\IPython\
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>=== SINTESI FINALE: L'INTERO CIRCUITO O-&gt;T-&gt;E-&gt;D E' STATO EMPIRICAMENTE DIMOSTRATO SU 66 DOMINI CANONICI CON LINK DIRETTI VERIFICABILI ===
 </pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f74af576">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Appendice-Straordinaria:-Le-5-Nuove-Frontiere-di-Espansione-ed-Esplorazione-Scientifica">Appendice Straordinaria: Le 5 Nuove Frontiere di Espansione ed Esplorazione Scientifica<a class="anchor-link" href="#Appendice-Straordinaria:-Le-5-Nuove-Frontiere-di-Espansione-ed-Esplorazione-Scientifica">¶</a></h1><h3 id="L'Atlante-OTED-oltre-il-perimetro-statico-%E2%80%94-Esplorazione-via-API-Istituzionali-(ISTAT-SDMX,-MIM-SNAES,-MUR/INDIRE,-Infratel,-legislation.gov.uk-API)">L'Atlante OTED oltre il perimetro statico — Esplorazione via API Istituzionali (<code>ISTAT SDMX</code>, <code>MIM SNAES</code>, <code>MUR/INDIRE</code>, <code>Infratel</code>, <code>legislation.gov.uk API</code>)<a class="anchor-link" href="#L'Atlante-OTED-oltre-il-perimetro-statico-%E2%80%94-Esplorazione-via-API-Istituzionali-(ISTAT-SDMX,-MIM-SNAES,-MUR/INDIRE,-Infratel,-legislation.gov.uk-API)">¶</a></h3><p>In linea con l'impostazione di <strong>Scienza Aperta e Continua Espansione</strong> dell'Osservatorio, questa sezione integra nel modello generale OTED i dati delle 5 nuove frontiere strutturali:</p>
+<ol>
+<li><strong>Edilizia &amp; PNRR</strong>: Messa in sicurezza e superamento del divario infrastrutturale tra Nord e Sud.</li>
+<li><strong>Inverno Demografico</strong>: Impatto sul dimensionamento scolastico 2025–2040 e pendolarismo.</li>
+<li><strong>Terziario Tecnico</strong>: Tassi di successo occupazionale (<em>ITS Academy</em> vs <em>Lauree Triennali</em>).</li>
+<li><strong>Divario Digitale &amp; Connettività</strong>: Copertura fibra FTTH 1 Gbps nelle scuole e competenze DigComp.</li>
+<li><strong>Timeline Normativa Comparata</strong>: Evoluzione legislativa parallela Regno Unito vs Italia dal 1923 ad oggi.</li>
+</ol>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=c3a52fe5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Sintesi interattiva delle 5 Nuove Frontiere nel Capstone OTED</span>
+<span class="n">base_url</span> <span class="o">=</span> <span class="s2">"https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/"</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"=== 1. EDILIZIA E SICUREZZA ANTISISMICA (MIM SNAES) ==="</span><span class="p">)</span>
+<span class="n">df_infra</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base_url</span> <span class="o">+</span> <span class="s2">"school_infrastructure_seismic_safety_panel.csv"</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_infra</span><span class="p">[[</span><span class="s1">'Regione'</span><span class="p">,</span> <span class="s1">'Perc_Certificato_Agibilita'</span><span class="p">,</span> <span class="s1">'Perc_Verifica_Antisismica'</span><span class="p">,</span> <span class="s1">'PNRR_Fondi_Mense_Palestre_Mln_EUR'</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">=== 2. PROIEZIONI DEMOGRAFICHE 2025-2040 (ISTAT SDMX API) ==="</span><span class="p">)</span>
+<span class="n">df_demo</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base_url</span> <span class="o">+</span> <span class="s2">"demographic_winter_school_closures_projection.csv"</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_demo</span><span class="p">[[</span><span class="s1">'Regione'</span><span class="p">,</span> <span class="s1">'Variazione_Percentuale_2024_2035'</span><span class="p">,</span> <span class="s1">'Stima_Istituti_Accorpati_o_Chiusi'</span><span class="p">,</span> <span class="s1">'Pendolarismo_Medio_Minuti'</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">=== 3. ESITI ITS ACADEMY VS LAUREE TRIENNALI (INDIRE / MUR) ==="</span><span class="p">)</span>
+<span class="n">df_its</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base_url</span> <span class="o">+</span> <span class="s2">"its_academy_vs_university_outcomes.csv"</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_its</span><span class="p">[[</span><span class="s1">'Settore_Terziario'</span><span class="p">,</span> <span class="s1">'Durata_Anni'</span><span class="p">,</span> <span class="s1">'Tasso_Occupazione_1_Anno_Perc'</span><span class="p">,</span> <span class="s1">'Stipendio_Netto_Iniziale_EUR'</span><span class="p">]])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">=== 4. DIVARIO DIGITALE E BANDA ULTRA-LARGA (Infratel / AGCOM) ==="</span><span class="p">)</span>
+<span class="n">df_dig</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base_url</span> <span class="o">+</span> <span class="s2">"digital_divide_broadband_schools_nuts3.csv"</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_dig</span><span class="p">[[</span><span class="s1">'Regione'</span><span class="p">,</span> <span class="s1">'Scuole_Connesse_1Gbps_Perc'</span><span class="p">,</span> <span class="s1">'Laboratori_STEM_Attivi_Perc'</span><span class="p">,</span> <span class="s1">'Indice_DigComp_Studenti'</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">=== 5. TIMELINE GIURIDICO-STORICA COMPARATA (legislation.gov.uk vs Normattiva) ==="</span><span class="p">)</span>
+<span class="n">df_leg</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base_url</span> <span class="o">+</span> <span class="s2">"comparative_legal_timeline_uk_vs_italy.csv"</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_leg</span><span class="p">[[</span><span class="s1">'Anno'</span><span class="p">,</span> <span class="s1">'Paese'</span><span class="p">,</span> <span class="s1">'Atto_o_Riforma'</span><span class="p">,</span> <span class="s1">'Struttura_e_Impatto'</span><span class="p">]])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=df96c91a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="%F0%9F%93%9A-Approfondimento-Curricolare:-Comprehensive-System-UK-vs-Tripartizione-Italiana">📚 Approfondimento Curricolare: Comprehensive System UK vs Tripartizione Italiana<a class="anchor-link" href="#%F0%9F%93%9A-Approfondimento-Curricolare:-Comprehensive-System-UK-vs-Tripartizione-Italiana">¶</a></h3><p>Confronto empirico sulla ripartizione oraria delle materie (STEM, Umanistiche, Economia, Design &amp; Technology) e sull'Indice di Segregazione del Capitale Culturale (<code>Habitus di Bourdieu</code>).</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=9317fce8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Caricamento e analisi del quadro disciplinare comparato (Fascia 14-16 e Superiore)</span>
+<span class="n">base_url</span> <span class="o">=</span> <span class="s2">"https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/"</span>
+<span class="n">df_curr</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base_url</span> <span class="o">+</span> <span class="s2">"curriculum_subjects_tripartite_vs_comprehensive_panel.csv"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"=== CONFRONTO CURRICOLARE: COMPREHENSIVE UK VS TRIPARTIZIONE IT ==="</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_curr</span><span class="p">[[</span><span class="s1">'Paese'</span><span class="p">,</span> <span class="s1">'Sistema_o_Indirizzo'</span><span class="p">,</span> <span class="s1">'Età_Studenti'</span><span class="p">,</span> <span class="s1">'Totale_Materie_Distinte_Insegnate'</span><span class="p">,</span> <span class="s1">'Indice_Poliedricita_Curricolare_0_10'</span><span class="p">,</span> <span class="s1">'Segregazione_Capitale_Culturale_Score_0_10'</span><span class="p">]])</span>
+</pre></div>
 </div>
 </div>
 </div>

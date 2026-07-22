@@ -1,0 +1,86 @@
+{
+  "digital_divide": {
+    "no_broadband_pct": 31.8
+  },
+  "learning_poverty": {
+    "ita_pct": 5.5
+  },
+  "pisa_trend": [
+    {
+      "year": 2000,
+      "math": 457,
+      "reading": 487,
+      "science": NaN
+    },
+    {
+      "year": 2003,
+      "math": 466,
+      "reading": 476,
+      "science": NaN
+    },
+    {
+      "year": 2006,
+      "math": 462,
+      "reading": 469,
+      "science": 475.0
+    },
+    {
+      "year": 2009,
+      "math": 483,
+      "reading": 486,
+      "science": 489.0
+    },
+    {
+      "year": 2012,
+      "math": 485,
+      "reading": 490,
+      "science": 494.0
+    },
+    {
+      "year": 2015,
+      "math": 490,
+      "reading": 485,
+      "science": 481.0
+    },
+    {
+      "year": 2018,
+      "math": 487,
+      "reading": 476,
+      "science": 468.0
+    },
+    {
+      "year": 2022,
+      "math": 471,
+      "reading": 482,
+      "science": 484.0
+    }
+  ],
+  "suicide_mortality": {
+    "ita_rate": 6.99,
+    "eu_rate": 12.09
+  },
+  "urban_rural": [
+    {
+      "territory": "Cities / Dense Urban Areas",
+      "neet_pct": 14.2
+    },
+    {
+      "territory": "Towns / Intermediate Density",
+      "neet_pct": 13.8
+    },
+    {
+      "territory": "Rural / Thinly Populated Areas",
+      "neet_pct": 11.6
+    },
+    {
+      "territory": "National Average (Italy)",
+      "neet_pct": 13.3
+    }
+  ],
+  "tertiary": {
+    "ita_enroll": 75.9,
+    "eu_enroll": 79.5,
+    "ita_spend": 24.3,
+    "eu_spend": 26.3
+  }
+}

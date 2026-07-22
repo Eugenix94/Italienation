@@ -1,0 +1,1072 @@
+{
+  "CHIETI": {
+    "regione": "ABRUZZO",
+    "provincia": "CHIETI",
+    "Liceo": 16,
+    "Tecnico": 14,
+    "Professionale": 7,
+    "Total": 37,
+    "lat": 42.26584905551496,
+    "lon": 14.354739807907642
+  },
+  "L'AQUILA": {
+    "regione": "ABRUZZO",
+    "provincia": "L'AQUILA",
+    "Liceo": 11,
+    "Tecnico": 20,
+    "Professionale": 12,
+    "Total": 43,
+    "lat": 42.09264811261007,
+    "lon": 13.654373708452574
+  },
+  "PESCARA": {
+    "regione": "ABRUZZO",
+    "provincia": "PESCARA",
+    "Liceo": 10,
+    "Tecnico": 7,
+    "Professionale": 4,
+    "Total": 21,
+    "lat": 42.419703572965254,
+    "lon": 14.11765112110155
+  },
+  "TERAMO": {
+    "regione": "ABRUZZO",
+    "provincia": "TERAMO",
+    "Liceo": 9,
+    "Tecnico": 10,
+    "Professionale": 10,
+    "Total": 29,
+    "lat": 42.65714939117069,
+    "lon": 13.74374680650141
+  },
+  "MATERA": {
+    "regione": "BASILICATA",
+    "provincia": "MATERA",
+    "Liceo": 12,
+    "Tecnico": 16,
+    "Professionale": 15,
+    "Total": 43,
+    "lat": 40.57400324296891,
+    "lon": 16.561909737251824
+  },
+  "POTENZA": {
+    "regione": "BASILICATA",
+    "provincia": "POTENZA",
+    "Liceo": 23,
+    "Tecnico": 22,
+    "Professionale": 31,
+    "Total": 76,
+    "lat": 40.54332055392815,
+    "lon": 15.817570702087643
+  },
+  "CATANZARO": {
+    "regione": "CALABRIA",
+    "provincia": "CATANZARO",
+    "Liceo": 14,
+    "Tecnico": 28,
+    "Professionale": 20,
+    "Total": 62,
+    "lat": 38.90231251480942,
+    "lon": 16.486839679505366
+  },
+  "COSENZA": {
+    "regione": "CALABRIA",
+    "provincia": "COSENZA",
+    "Liceo": 38,
+    "Tecnico": 50,
+    "Professionale": 56,
+    "Total": 144,
+    "lat": 39.583782094071225,
+    "lon": 16.30528539949384
+  },
+  "CROTONE": {
+    "regione": "CALABRIA",
+    "provincia": "CROTONE",
+    "Liceo": 9,
+    "Tecnico": 16,
+    "Professionale": 11,
+    "Total": 36,
+    "lat": 39.11017572583206,
+    "lon": 17.022711004847785
+  },
+  "REGGIO CALABRIA": {
+    "regione": "CALABRIA",
+    "provincia": "REGGIO CALABRIA",
+    "Liceo": 28,
+    "Tecnico": 29,
+    "Professionale": 29,
+    "Total": 86,
+    "lat": 38.236273285436624,
+    "lon": 15.95402960155623
+  },
+  "VIBO VALENTIA": {
+    "regione": "CALABRIA",
+    "provincia": "VIBO VALENTIA",
+    "Liceo": 7,
+    "Tecnico": 12,
+    "Professionale": 12,
+    "Total": 31,
+    "lat": 38.675838993142335,
+    "lon": 16.08270236493359
+  },
+  "AVELLINO": {
+    "regione": "CAMPANIA",
+    "provincia": "AVELLINO",
+    "Liceo": 21,
+    "Tecnico": 26,
+    "Professionale": 29,
+    "Total": 76,
+    "lat": 40.92295851699314,
+    "lon": 14.886148479706348
+  },
+  "BENEVENTO": {
+    "regione": "CAMPANIA",
+    "provincia": "BENEVENTO",
+    "Liceo": 21,
+    "Tecnico": 19,
+    "Professionale": 23,
+    "Total": 63,
+    "lat": 41.194053497283655,
+    "lon": 14.713710895091992
+  },
+  "CASERTA": {
+    "regione": "CAMPANIA",
+    "provincia": "CASERTA",
+    "Liceo": 41,
+    "Tecnico": 40,
+    "Professionale": 40,
+    "Total": 121,
+    "lat": 41.07810414975264,
+    "lon": 14.223116979679508
+  },
+  "NAPOLI": {
+    "regione": "CAMPANIA",
+    "provincia": "NAPOLI",
+    "Liceo": 116,
+    "Tecnico": 127,
+    "Professionale": 138,
+    "Total": 381,
+    "lat": 40.84667002638586,
+    "lon": 14.305273150470745
+  },
+  "SALERNO": {
+    "regione": "CAMPANIA",
+    "provincia": "SALERNO",
+    "Liceo": 37,
+    "Tecnico": 57,
+    "Professionale": 62,
+    "Total": 156,
+    "lat": 40.649250279213256,
+    "lon": 14.832103855517467
+  },
+  "BOLOGNA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "BOLOGNA",
+    "Liceo": 19,
+    "Tecnico": 30,
+    "Professionale": 39,
+    "Total": 88,
+    "lat": 44.46083126883011,
+    "lon": 11.351216855282805
+  },
+  "FERRARA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "FERRARA",
+    "Liceo": 6,
+    "Tecnico": 14,
+    "Professionale": 14,
+    "Total": 34,
+    "lat": 44.81069183614387,
+    "lon": 11.656107680606107
+  },
+  "FORLI'-CESENA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "FORLI'-CESENA",
+    "Liceo": 7,
+    "Tecnico": 14,
+    "Professionale": 9,
+    "Total": 30,
+    "lat": 44.159875064651686,
+    "lon": 12.121751050777817
+  },
+  "MODENA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "MODENA",
+    "Liceo": 14,
+    "Tecnico": 23,
+    "Professionale": 27,
+    "Total": 64,
+    "lat": 44.613843870169575,
+    "lon": 10.89969702028281
+  },
+  "PARMA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "PARMA",
+    "Liceo": 11,
+    "Tecnico": 17,
+    "Professionale": 13,
+    "Total": 41,
+    "lat": 44.75034587852925,
+    "lon": 10.149041803621596
+  },
+  "PIACENZA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "PIACENZA",
+    "Liceo": 6,
+    "Tecnico": 12,
+    "Professionale": 9,
+    "Total": 27,
+    "lat": 45.03752639958971,
+    "lon": 9.719899009820908
+  },
+  "RAVENNA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "RAVENNA",
+    "Liceo": 6,
+    "Tecnico": 6,
+    "Professionale": 10,
+    "Total": 22,
+    "lat": 44.33071322853112,
+    "lon": 11.93624585627812
+  },
+  "REGGIO EMILIA": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "REGGIO EMILIA",
+    "Liceo": 7,
+    "Tecnico": 13,
+    "Professionale": 21,
+    "Total": 41,
+    "lat": 44.694939111055625,
+    "lon": 10.628431353126196
+  },
+  "RIMINI": {
+    "regione": "EMILIA ROMAGNA",
+    "provincia": "RIMINI",
+    "Liceo": 5,
+    "Tecnico": 9,
+    "Professionale": 12,
+    "Total": 26,
+    "lat": 44.04845481716663,
+    "lon": 12.574440220141444
+  },
+  "GORIZIA": {
+    "regione": "FRIULI-VENEZIA G.",
+    "provincia": "GORIZIA",
+    "Liceo": 5,
+    "Tecnico": 16,
+    "Professionale": 7,
+    "Total": 28,
+    "lat": 45.87320306009233,
+    "lon": 13.573413129326354
+  },
+  "PORDENONE": {
+    "regione": "FRIULI-VENEZIA G.",
+    "provincia": "PORDENONE",
+    "Liceo": 5,
+    "Tecnico": 16,
+    "Professionale": 6,
+    "Total": 27,
+    "lat": 45.95783651340375,
+    "lon": 12.706642232092028
+  },
+  "TRIESTE": {
+    "regione": "FRIULI-VENEZIA G.",
+    "provincia": "TRIESTE",
+    "Liceo": 5,
+    "Tecnico": 9,
+    "Professionale": 4,
+    "Total": 18,
+    "lat": 45.64306270173099,
+    "lon": 13.774301687477282
+  },
+  "UDINE": {
+    "regione": "FRIULI-VENEZIA G.",
+    "provincia": "UDINE",
+    "Liceo": 17,
+    "Tecnico": 23,
+    "Professionale": 19,
+    "Total": 59,
+    "lat": 46.13428355156436,
+    "lon": 13.240953153511963
+  },
+  "FROSINONE": {
+    "regione": "LAZIO",
+    "provincia": "FROSINONE",
+    "Liceo": 16,
+    "Tecnico": 37,
+    "Professionale": 31,
+    "Total": 84,
+    "lat": 41.635649549336065,
+    "lon": 13.524744426546652
+  },
+  "LATINA": {
+    "regione": "LAZIO",
+    "provincia": "LATINA",
+    "Liceo": 14,
+    "Tecnico": 30,
+    "Professionale": 19,
+    "Total": 63,
+    "lat": 41.40166197922072,
+    "lon": 13.108886799998317
+  },
+  "RIETI": {
+    "regione": "LAZIO",
+    "provincia": "RIETI",
+    "Liceo": 7,
+    "Tecnico": 10,
+    "Professionale": 11,
+    "Total": 28,
+    "lat": 42.373633685859375,
+    "lon": 12.868813411340698
+  },
+  "ROMA": {
+    "regione": "LAZIO",
+    "provincia": "ROMA",
+    "Liceo": 118,
+    "Tecnico": 127,
+    "Professionale": 88,
+    "Total": 333,
+    "lat": 41.87262516235795,
+    "lon": 12.501730547142634
+  },
+  "VITERBO": {
+    "regione": "LAZIO",
+    "provincia": "VITERBO",
+    "Liceo": 14,
+    "Tecnico": 12,
+    "Professionale": 8,
+    "Total": 34,
+    "lat": 42.40924468786667,
+    "lon": 12.097425882355639
+  },
+  "GENOVA": {
+    "regione": "LIGURIA",
+    "provincia": "GENOVA",
+    "Liceo": 20,
+    "Tecnico": 23,
+    "Professionale": 31,
+    "Total": 74,
+    "lat": 44.41367506178765,
+    "lon": 9.014085268055586
+  },
+  "IMPERIA": {
+    "regione": "LIGURIA",
+    "provincia": "IMPERIA",
+    "Liceo": 7,
+    "Tecnico": 15,
+    "Professionale": 10,
+    "Total": 32,
+    "lat": 43.863280999837485,
+    "lon": 7.866107915066792
+  },
+  "LA SPEZIA": {
+    "regione": "LIGURIA",
+    "provincia": "LA SPEZIA",
+    "Liceo": 6,
+    "Tecnico": 8,
+    "Professionale": 12,
+    "Total": 26,
+    "lat": 44.14064781490469,
+    "lon": 9.82722362011714
+  },
+  "SAVONA": {
+    "regione": "LIGURIA",
+    "provincia": "SAVONA",
+    "Liceo": 7,
+    "Tecnico": 11,
+    "Professionale": 9,
+    "Total": 27,
+    "lat": 44.32152611749476,
+    "lon": 8.453968717209195
+  },
+  "BERGAMO": {
+    "regione": "LOMBARDIA",
+    "provincia": "BERGAMO",
+    "Liceo": 21,
+    "Tecnico": 32,
+    "Professionale": 33,
+    "Total": 86,
+    "lat": 45.65000244704435,
+    "lon": 9.642050407115219
+  },
+  "BRESCIA": {
+    "regione": "LOMBARDIA",
+    "provincia": "BRESCIA",
+    "Liceo": 24,
+    "Tecnico": 40,
+    "Professionale": 42,
+    "Total": 106,
+    "lat": 45.52482339897372,
+    "lon": 10.229723486789274
+  },
+  "COMO": {
+    "regione": "LOMBARDIA",
+    "provincia": "COMO",
+    "Liceo": 9,
+    "Tecnico": 13,
+    "Professionale": 6,
+    "Total": 28,
+    "lat": 45.795835622050866,
+    "lon": 9.123074358376146
+  },
+  "CREMONA": {
+    "regione": "LOMBARDIA",
+    "provincia": "CREMONA",
+    "Liceo": 11,
+    "Tecnico": 14,
+    "Professionale": 13,
+    "Total": 38,
+    "lat": 45.249664271292104,
+    "lon": 9.851810390260399
+  },
+  "LECCO": {
+    "regione": "LOMBARDIA",
+    "provincia": "LECCO",
+    "Liceo": 8,
+    "Tecnico": 10,
+    "Professionale": 9,
+    "Total": 27,
+    "lat": 45.84481339507952,
+    "lon": 9.403492308480647
+  },
+  "LODI": {
+    "regione": "LOMBARDIA",
+    "provincia": "LODI",
+    "Liceo": 3,
+    "Tecnico": 6,
+    "Professionale": 4,
+    "Total": 13,
+    "lat": 41.87,
+    "lon": 12.56
+  },
+  "MANTOVA": {
+    "regione": "LOMBARDIA",
+    "provincia": "MANTOVA",
+    "Liceo": 12,
+    "Tecnico": 16,
+    "Professionale": 9,
+    "Total": 37,
+    "lat": 45.07524167608808,
+    "lon": 10.741213479029359
+  },
+  "MILANO": {
+    "regione": "LOMBARDIA",
+    "provincia": "MILANO",
+    "Liceo": 69,
+    "Tecnico": 70,
+    "Professionale": 53,
+    "Total": 192,
+    "lat": 45.486797763579325,
+    "lon": 9.175516395293352
+  },
+  "MONZA E DELLA BRIANZA": {
+    "regione": "LOMBARDIA",
+    "provincia": "MONZA E DELLA BRIANZA",
+    "Liceo": 18,
+    "Tecnico": 18,
+    "Professionale": 15,
+    "Total": 51,
+    "lat": 45.613126777950995,
+    "lon": 9.23759473114968
+  },
+  "PAVIA": {
+    "regione": "LOMBARDIA",
+    "provincia": "PAVIA",
+    "Liceo": 8,
+    "Tecnico": 14,
+    "Professionale": 15,
+    "Total": 37,
+    "lat": 45.18227598576746,
+    "lon": 9.010877509145264
+  },
+  "SONDRIO": {
+    "regione": "LOMBARDIA",
+    "provincia": "SONDRIO",
+    "Liceo": 6,
+    "Tecnico": 4,
+    "Professionale": 6,
+    "Total": 16,
+    "lat": 46.25904750017262,
+    "lon": 9.928125232453404
+  },
+  "VARESE": {
+    "regione": "LOMBARDIA",
+    "provincia": "VARESE",
+    "Liceo": 19,
+    "Tecnico": 32,
+    "Professionale": 16,
+    "Total": 67,
+    "lat": 45.678441806988516,
+    "lon": 8.906565386301958
+  },
+  "ANCONA": {
+    "regione": "MARCHE",
+    "provincia": "ANCONA",
+    "Liceo": 15,
+    "Tecnico": 19,
+    "Professionale": 15,
+    "Total": 49,
+    "lat": 43.605037151281344,
+    "lon": 13.363945337751135
+  },
+  "ASCOLI PICENO": {
+    "regione": "MARCHE",
+    "provincia": "ASCOLI PICENO",
+    "Liceo": 6,
+    "Tecnico": 9,
+    "Professionale": 11,
+    "Total": 26,
+    "lat": 42.91212177298525,
+    "lon": 13.772181211207272
+  },
+  "FERMO": {
+    "regione": "MARCHE",
+    "provincia": "FERMO",
+    "Liceo": 5,
+    "Tecnico": 9,
+    "Professionale": 6,
+    "Total": 20,
+    "lat": 43.1475088727419,
+    "lon": 13.676440552992489
+  },
+  "MACERATA": {
+    "regione": "MARCHE",
+    "provincia": "MACERATA",
+    "Liceo": 10,
+    "Tecnico": 13,
+    "Professionale": 20,
+    "Total": 43,
+    "lat": 43.24246481395768,
+    "lon": 13.41083444883255
+  },
+  "PESARO E URBINO": {
+    "regione": "MARCHE",
+    "provincia": "PESARO E URBINO",
+    "Liceo": 8,
+    "Tecnico": 12,
+    "Professionale": 15,
+    "Total": 35,
+    "lat": 43.82204572505101,
+    "lon": 12.832063469208355
+  },
+  "CAMPOBASSO": {
+    "regione": "MOLISE",
+    "provincia": "CAMPOBASSO",
+    "Liceo": 13,
+    "Tecnico": 15,
+    "Professionale": 15,
+    "Total": 43,
+    "lat": 41.80442162154714,
+    "lon": 14.817184655782537
+  },
+  "ISERNIA": {
+    "regione": "MOLISE",
+    "provincia": "ISERNIA",
+    "Liceo": 4,
+    "Tecnico": 3,
+    "Professionale": 3,
+    "Total": 10,
+    "lat": 41.685255513293704,
+    "lon": 14.270657890578265
+  },
+  "ALESSANDRIA": {
+    "regione": "PIEMONTE",
+    "provincia": "ALESSANDRIA",
+    "Liceo": 12,
+    "Tecnico": 22,
+    "Professionale": 8,
+    "Total": 42,
+    "lat": 44.847399430124206,
+    "lon": 8.59173341247699
+  },
+  "ASTI": {
+    "regione": "PIEMONTE",
+    "provincia": "ASTI",
+    "Liceo": 3,
+    "Tecnico": 11,
+    "Professionale": 6,
+    "Total": 20,
+    "lat": 44.872650593926146,
+    "lon": 8.218485165026545
+  },
+  "BIELLA": {
+    "regione": "PIEMONTE",
+    "provincia": "BIELLA",
+    "Liceo": 5,
+    "Tecnico": 7,
+    "Professionale": 7,
+    "Total": 19,
+    "lat": 45.479112527971864,
+    "lon": 8.062530834173735
+  },
+  "CUNEO": {
+    "regione": "PIEMONTE",
+    "provincia": "CUNEO",
+    "Liceo": 13,
+    "Tecnico": 22,
+    "Professionale": 26,
+    "Total": 61,
+    "lat": 44.559993668276135,
+    "lon": 7.773306373011414
+  },
+  "NOVARA": {
+    "regione": "PIEMONTE",
+    "provincia": "NOVARA",
+    "Liceo": 9,
+    "Tecnico": 13,
+    "Professionale": 4,
+    "Total": 26,
+    "lat": 45.58423724764219,
+    "lon": 8.577098992303311
+  },
+  "TORINO": {
+    "regione": "PIEMONTE",
+    "provincia": "TORINO",
+    "Liceo": 56,
+    "Tecnico": 76,
+    "Professionale": 57,
+    "Total": 189,
+    "lat": 45.08462073372326,
+    "lon": 7.65561092073306
+  },
+  "VERBANO-CUSIO-OSSOLA": {
+    "regione": "PIEMONTE",
+    "provincia": "VERBANO-CUSIO-OSSOLA",
+    "Liceo": 8,
+    "Tecnico": 5,
+    "Professionale": 5,
+    "Total": 18,
+    "lat": 45.98012233143046,
+    "lon": 8.425062729642482
+  },
+  "VERCELLI": {
+    "regione": "PIEMONTE",
+    "provincia": "VERCELLI",
+    "Liceo": 7,
+    "Tecnico": 7,
+    "Professionale": 10,
+    "Total": 24,
+    "lat": 45.508692207834855,
+    "lon": 8.261571578714156
+  },
+  "BARI": {
+    "regione": "PUGLIA",
+    "provincia": "BARI",
+    "Liceo": 35,
+    "Tecnico": 59,
+    "Professionale": 54,
+    "Total": 148,
+    "lat": 40.98782984860057,
+    "lon": 16.844464434802973
+  },
+  "BARLETTA-ANDRIA-TRANI": {
+    "regione": "PUGLIA",
+    "provincia": "BARLETTA-ANDRIA-TRANI",
+    "Liceo": 14,
+    "Tecnico": 12,
+    "Professionale": 21,
+    "Total": 47,
+    "lat": 41.2573810102236,
+    "lon": 16.240088354854297
+  },
+  "BRINDISI": {
+    "regione": "PUGLIA",
+    "provincia": "BRINDISI",
+    "Liceo": 12,
+    "Tecnico": 17,
+    "Professionale": 15,
+    "Total": 44,
+    "lat": 40.61440197221714,
+    "lon": 17.74732667702393
+  },
+  "FOGGIA": {
+    "regione": "PUGLIA",
+    "provincia": "FOGGIA",
+    "Liceo": 25,
+    "Tecnico": 37,
+    "Professionale": 36,
+    "Total": 98,
+    "lat": 41.535696472517074,
+    "lon": 15.621089746875333
+  },
+  "LECCE": {
+    "regione": "PUGLIA",
+    "provincia": "LECCE",
+    "Liceo": 24,
+    "Tecnico": 36,
+    "Professionale": 39,
+    "Total": 99,
+    "lat": 40.18901507627678,
+    "lon": 18.162817329552343
+  },
+  "TARANTO": {
+    "regione": "PUGLIA",
+    "provincia": "TARANTO",
+    "Liceo": 18,
+    "Tecnico": 29,
+    "Professionale": 29,
+    "Total": 76,
+    "lat": 40.51294566672646,
+    "lon": 17.224351223108318
+  },
+  "CAGLIARI": {
+    "regione": "SARDEGNA",
+    "provincia": "CAGLIARI",
+    "Liceo": 17,
+    "Tecnico": 28,
+    "Professionale": 20,
+    "Total": 65,
+    "lat": 39.2347945773776,
+    "lon": 9.11131718288693
+  },
+  "GALLURA NORD-EST SARDEGNA": {
+    "regione": "SARDEGNA",
+    "provincia": "GALLURA NORD-EST SARDEGNA",
+    "Liceo": 10,
+    "Tecnico": 11,
+    "Professionale": 14,
+    "Total": 35,
+    "lat": 41.87,
+    "lon": 12.56
+  },
+  "MEDIO CAMPIDANO": {
+    "regione": "SARDEGNA",
+    "provincia": "MEDIO CAMPIDANO",
+    "Liceo": 2,
+    "Tecnico": 2,
+    "Professionale": 8,
+    "Total": 12,
+    "lat": 41.87,
+    "lon": 12.56
+  },
+  "NUORO": {
+    "regione": "SARDEGNA",
+    "provincia": "NUORO",
+    "Liceo": 9,
+    "Tecnico": 17,
+    "Professionale": 11,
+    "Total": 37,
+    "lat": 40.14459601228838,
+    "lon": 9.40600717060489
+  },
+  "OGLIASTRA": {
+    "regione": "SARDEGNA",
+    "provincia": "OGLIASTRA",
+    "Liceo": 7,
+    "Tecnico": 5,
+    "Professionale": 7,
+    "Total": 19,
+    "lat": 41.87,
+    "lon": 12.56
+  },
+  "ORISTANO": {
+    "regione": "SARDEGNA",
+    "provincia": "ORISTANO",
+    "Liceo": 7,
+    "Tecnico": 10,
+    "Professionale": 8,
+    "Total": 25,
+    "lat": 40.11999689612477,
+    "lon": 8.831588888547033
+  },
+  "SASSARI": {
+    "regione": "SARDEGNA",
+    "provincia": "SASSARI",
+    "Liceo": 13,
+    "Tecnico": 20,
+    "Professionale": 17,
+    "Total": 50,
+    "lat": 40.73231308682495,
+    "lon": 8.966021894750833
+  },
+  "SULCIS IGLESIENTE": {
+    "regione": "SARDEGNA",
+    "provincia": "SULCIS IGLESIENTE",
+    "Liceo": 6,
+    "Tecnico": 5,
+    "Professionale": 10,
+    "Total": 21,
+    "lat": 41.87,
+    "lon": 12.56
+  },
+  "AGRIGENTO": {
+    "regione": "SICILIA",
+    "provincia": "AGRIGENTO",
+    "Liceo": 13,
+    "Tecnico": 20,
+    "Professionale": 30,
+    "Total": 63,
+    "lat": 37.35743709623305,
+    "lon": 13.616134146977826
+  },
+  "CALTANISSETTA": {
+    "regione": "SICILIA",
+    "provincia": "CALTANISSETTA",
+    "Liceo": 11,
+    "Tecnico": 17,
+    "Professionale": 19,
+    "Total": 47,
+    "lat": 37.338423560200276,
+    "lon": 14.123750350505134
+  },
+  "CATANIA": {
+    "regione": "SICILIA",
+    "provincia": "CATANIA",
+    "Liceo": 38,
+    "Tecnico": 57,
+    "Professionale": 44,
+    "Total": 139,
+    "lat": 37.54004688822001,
+    "lon": 14.988046875912096
+  },
+  "ENNA": {
+    "regione": "SICILIA",
+    "provincia": "ENNA",
+    "Liceo": 9,
+    "Tecnico": 5,
+    "Professionale": 20,
+    "Total": 34,
+    "lat": 37.58315827237267,
+    "lon": 14.398056003083882
+  },
+  "MESSINA": {
+    "regione": "SICILIA",
+    "provincia": "MESSINA",
+    "Liceo": 21,
+    "Tecnico": 23,
+    "Professionale": 27,
+    "Total": 71,
+    "lat": 38.109344668217915,
+    "lon": 15.117687848499425
+  },
+  "PALERMO": {
+    "regione": "SICILIA",
+    "provincia": "PALERMO",
+    "Liceo": 46,
+    "Tecnico": 42,
+    "Professionale": 60,
+    "Total": 148,
+    "lat": 38.06030274110011,
+    "lon": 13.457280116508919
+  },
+  "RAGUSA": {
+    "regione": "SICILIA",
+    "provincia": "RAGUSA",
+    "Liceo": 11,
+    "Tecnico": 17,
+    "Professionale": 18,
+    "Total": 46,
+    "lat": 36.899304173982934,
+    "lon": 14.68863633392446
+  },
+  "SIRACUSA": {
+    "regione": "SICILIA",
+    "provincia": "SIRACUSA",
+    "Liceo": 17,
+    "Tecnico": 33,
+    "Professionale": 26,
+    "Total": 76,
+    "lat": 37.05658856130493,
+    "lon": 15.082971205859968
+  },
+  "TRAPANI": {
+    "regione": "SICILIA",
+    "provincia": "TRAPANI",
+    "Liceo": 12,
+    "Tecnico": 28,
+    "Professionale": 22,
+    "Total": 62,
+    "lat": 37.83076543749688,
+    "lon": 12.659542388387154
+  },
+  "AREZZO": {
+    "regione": "TOSCANA",
+    "provincia": "AREZZO",
+    "Liceo": 7,
+    "Tecnico": 16,
+    "Professionale": 22,
+    "Total": 45,
+    "lat": 43.55451677852728,
+    "lon": 11.878344480179585
+  },
+  "FIRENZE": {
+    "regione": "TOSCANA",
+    "provincia": "FIRENZE",
+    "Liceo": 24,
+    "Tecnico": 26,
+    "Professionale": 22,
+    "Total": 72,
+    "lat": 43.78312929039417,
+    "lon": 11.211523417126498
+  },
+  "GROSSETO": {
+    "regione": "TOSCANA",
+    "provincia": "GROSSETO",
+    "Liceo": 14,
+    "Tecnico": 18,
+    "Professionale": 12,
+    "Total": 44,
+    "lat": 42.63767227162974,
+    "lon": 11.222725005126234
+  },
+  "LIVORNO": {
+    "regione": "TOSCANA",
+    "provincia": "LIVORNO",
+    "Liceo": 10,
+    "Tecnico": 15,
+    "Professionale": 16,
+    "Total": 41,
+    "lat": 43.29054512773813,
+    "lon": 10.423138140183712
+  },
+  "LUCCA": {
+    "regione": "TOSCANA",
+    "provincia": "LUCCA",
+    "Liceo": 12,
+    "Tecnico": 13,
+    "Professionale": 16,
+    "Total": 41,
+    "lat": 43.875105529696214,
+    "lon": 10.481508486751189
+  },
+  "MASSA-CARRARA": {
+    "regione": "TOSCANA",
+    "provincia": "MASSA-CARRARA",
+    "Liceo": 8,
+    "Tecnico": 5,
+    "Professionale": 19,
+    "Total": 32,
+    "lat": 44.13354650503685,
+    "lon": 10.064443430585856
+  },
+  "PISA": {
+    "regione": "TOSCANA",
+    "provincia": "PISA",
+    "Liceo": 8,
+    "Tecnico": 10,
+    "Professionale": 7,
+    "Total": 25,
+    "lat": 43.61183217170932,
+    "lon": 10.631192650478768
+  },
+  "PISTOIA": {
+    "regione": "TOSCANA",
+    "provincia": "PISTOIA",
+    "Liceo": 4,
+    "Tecnico": 12,
+    "Professionale": 10,
+    "Total": 26,
+    "lat": 43.98531335849559,
+    "lon": 10.800412416068497
+  },
+  "PRATO": {
+    "regione": "TOSCANA",
+    "provincia": "PRATO",
+    "Liceo": 6,
+    "Tecnico": 9,
+    "Professionale": 6,
+    "Total": 21,
+    "lat": 43.875860610725795,
+    "lon": 11.078516705770483
+  },
+  "SIENA": {
+    "regione": "TOSCANA",
+    "provincia": "SIENA",
+    "Liceo": 4,
+    "Tecnico": 9,
+    "Professionale": 15,
+    "Total": 28,
+    "lat": 43.26149995415457,
+    "lon": 11.410573416998782
+  },
+  "PERUGIA": {
+    "regione": "UMBRIA",
+    "provincia": "PERUGIA",
+    "Liceo": 18,
+    "Tecnico": 22,
+    "Professionale": 28,
+    "Total": 68,
+    "lat": 43.04203568224799,
+    "lon": 12.477050138027499
+  },
+  "TERNI": {
+    "regione": "UMBRIA",
+    "provincia": "TERNI",
+    "Liceo": 8,
+    "Tecnico": 9,
+    "Professionale": 11,
+    "Total": 28,
+    "lat": 42.58986767220922,
+    "lon": 12.493317896599878
+  },
+  "BELLUNO": {
+    "regione": "VENETO",
+    "provincia": "BELLUNO",
+    "Liceo": 8,
+    "Tecnico": 12,
+    "Professionale": 11,
+    "Total": 31,
+    "lat": 46.14003964612794,
+    "lon": 12.060709204099226
+  },
+  "PADOVA": {
+    "regione": "VENETO",
+    "provincia": "PADOVA",
+    "Liceo": 20,
+    "Tecnico": 29,
+    "Professionale": 20,
+    "Total": 69,
+    "lat": 45.37807545410566,
+    "lon": 11.868371758093803
+  },
+  "ROVIGO": {
+    "regione": "VENETO",
+    "provincia": "ROVIGO",
+    "Liceo": 4,
+    "Tecnico": 11,
+    "Professionale": 9,
+    "Total": 24,
+    "lat": 45.05956204042833,
+    "lon": 11.780281842295889
+  },
+  "TREVISO": {
+    "regione": "VENETO",
+    "provincia": "TREVISO",
+    "Liceo": 19,
+    "Tecnico": 22,
+    "Professionale": 28,
+    "Total": 69,
+    "lat": 45.725664334445405,
+    "lon": 12.217407126925448
+  },
+  "VENEZIA": {
+    "regione": "VENETO",
+    "provincia": "VENEZIA",
+    "Liceo": 15,
+    "Tecnico": 28,
+    "Professionale": 24,
+    "Total": 67,
+    "lat": 45.52247504432438,
+    "lon": 12.397108501325732
+  },
+  "VERONA": {
+    "regione": "VENETO",
+    "provincia": "VERONA",
+    "Liceo": 17,
+    "Tecnico": 27,
+    "Professionale": 28,
+    "Total": 72,
+    "lat": 45.413346421104364,
+    "lon": 11.027818060150569
+  },
+  "VICENZA": {
+    "regione": "VENETO",
+    "provincia": "VICENZA",
+    "Liceo": 19,
+    "Tecnico": 29,
+    "Professionale": 22,
+    "Total": 70,
+    "lat": 45.61985735553527,
+    "lon": 11.45675822872266
+  }
+}

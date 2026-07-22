@@ -1,0 +1,6 @@
+{
+  "habitability_cert_pct": 50.0,
+  "no_habitability_cert_pct": 50.0,
+  "seismic_safety_cert_pct": 37.5,
+  "no_seismic_safety_cert_pct": 62.5
+}

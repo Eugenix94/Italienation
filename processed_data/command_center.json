@@ -1,0 +1,1086 @@
+{
+  "map_data": [
+    {
+      "region": "Sicilia",
+      "score": 78.4,
+      "nursery": 13.5,
+      "broadband": 68.2,
+      "dropout": 12.8
+    },
+    {
+      "region": "Campania",
+      "score": 76.9,
+      "nursery": 11.8,
+      "broadband": 66.5,
+      "dropout": 13.4
+    },
+    {
+      "region": "Calabria",
+      "score": 75.2,
+      "nursery": 12.4,
+      "broadband": 65.0,
+      "dropout": 11.9
+    },
+    {
+      "region": "Puglia",
+      "score": 68.1,
+      "nursery": 17.9,
+      "broadband": 72.4,
+      "dropout": 9.5
+    },
+    {
+      "region": "Sardegna",
+      "score": 65.4,
+      "nursery": 21.5,
+      "broadband": 74.1,
+      "dropout": 11.2
+    },
+    {
+      "region": "Lazio",
+      "score": 48.6,
+      "nursery": 34.2,
+      "broadband": 82.5,
+      "dropout": 6.8
+    },
+    {
+      "region": "Piemonte",
+      "score": 42.3,
+      "nursery": 33.8,
+      "broadband": 85.0,
+      "dropout": 5.9
+    },
+    {
+      "region": "Lombardia",
+      "score": 38.5,
+      "nursery": 38.6,
+      "broadband": 88.4,
+      "dropout": 5.2
+    },
+    {
+      "region": "Veneto",
+      "score": 36.2,
+      "nursery": 36.4,
+      "broadband": 89.1,
+      "dropout": 4.8
+    },
+    {
+      "region": "Emilia-Romagna",
+      "score": 32.8,
+      "nursery": 44.5,
+      "broadband": 91.2,
+      "dropout": 4.5
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "The High School Desert",
+      "metric": "78.5%",
+      "description": "Percentage of Italian municipalities completely devoid of high schools.",
+      "source_name": "Ministero dell'Istruzione (MIM)",
+      "source_url": "https://dati.istruzione.it/opendata/opendata/catalogo/"
+    },
+    {
+      "id": 2,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "The Vocational Trap",
+      "metric": "5.1%",
+      "description": "Municipalities offering ONLY vocational schools.",
+      "source_name": "Ministero dell'Istruzione (MIM)",
+      "source_url": "https://dati.istruzione.it/opendata/opendata/catalogo/"
+    },
+    {
+      "id": 3,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Population Freefall",
+      "metric": "19.6%",
+      "description": "Projected drop in the student population by 2035.",
+      "source_name": "ISTAT SDMX Projections",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 4,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Missing Students",
+      "metric": "1,209,000",
+      "description": "Absolute number of students projected to disappear.",
+      "source_name": "ISTAT",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 5,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "School Closures",
+      "metric": "1,605",
+      "description": "Projected number of school closures by 2035.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 6,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "NEET: Cities / Dense Urban Areas",
+      "metric": "14.2%",
+      "description": "NEET rate in Cities / Dense Urban Areas.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 7,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Early Leavers: Cities / Dense Urban Areas",
+      "metric": "11.2%",
+      "description": "School dropout rate in Cities / Dense Urban Areas.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 8,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Youth Unemployment: Cities / Dense Urban Areas",
+      "metric": "23.5%",
+      "description": "Youth unemployment in Cities / Dense Urban Areas.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 9,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "NEET: Towns / Intermediate Density",
+      "metric": "13.8%",
+      "description": "NEET rate in Towns / Intermediate Density.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 10,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Early Leavers: Towns / Intermediate Density",
+      "metric": "10.8%",
+      "description": "School dropout rate in Towns / Intermediate Density.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 11,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Youth Unemployment: Towns / Intermediate Density",
+      "metric": "21.8%",
+      "description": "Youth unemployment in Towns / Intermediate Density.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 12,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "NEET: Rural / Thinly Populated Areas",
+      "metric": "11.6%",
+      "description": "NEET rate in Rural / Thinly Populated Areas.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 13,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Early Leavers: Rural / Thinly Populated Areas",
+      "metric": "9.4%",
+      "description": "School dropout rate in Rural / Thinly Populated Areas.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 14,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Youth Unemployment: Rural / Thinly Populated Areas",
+      "metric": "18.9%",
+      "description": "Youth unemployment in Rural / Thinly Populated Areas.",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 15,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "NEET: National Average (Italy)",
+      "metric": "13.3%",
+      "description": "NEET rate in National Average (Italy).",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 16,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Early Leavers: National Average (Italy)",
+      "metric": "10.5%",
+      "description": "School dropout rate in National Average (Italy).",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 17,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Youth Unemployment: National Average (Italy)",
+      "metric": "21.4%",
+      "description": "Youth unemployment in National Average (Italy).",
+      "source_name": "Openpolis",
+      "source_url": "https://www.openpolis.it/"
+    },
+    {
+      "id": 18,
+      "pillar": "Physical Decay",
+      "title": "Lacking Habitability",
+      "metric": "50.0%",
+      "description": "Schools operating without habitability certificates.",
+      "source_name": "MIM Anagrafe SNAES",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 19,
+      "pillar": "Physical Decay",
+      "title": "Seismic Danger",
+      "metric": "62.5%",
+      "description": "Schools lacking seismic safety verifications.",
+      "source_name": "MIM Anagrafe SNAES",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 20,
+      "pillar": "Physical Decay",
+      "title": "Architectural Barriers",
+      "metric": "54.5%",
+      "description": "Schools that still have architectural barriers.",
+      "source_name": "MIM Anagrafe SNAES",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 21,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Lombardia",
+      "metric": "51.5%",
+      "description": "Schools in Lombardia lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 22,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Piemonte",
+      "metric": "53.8%",
+      "description": "Schools in Piemonte lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 23,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Veneto",
+      "metric": "49.0%",
+      "description": "Schools in Veneto lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 24,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Emilia-Romagna",
+      "metric": "44.2%",
+      "description": "Schools in Emilia-Romagna lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 25,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Toscana",
+      "metric": "55.9%",
+      "description": "Schools in Toscana lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 26,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Lazio",
+      "metric": "63.6%",
+      "description": "Schools in Lazio lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 27,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Campania",
+      "metric": "75.2%",
+      "description": "Schools in Campania lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 28,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Puglia",
+      "metric": "72.5%",
+      "description": "Schools in Puglia lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 29,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Sicilia",
+      "metric": "78.8%",
+      "description": "Schools in Sicilia lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 30,
+      "pillar": "Physical Decay",
+      "title": "Seismic Risk: Calabria",
+      "metric": "80.5%",
+      "description": "Schools in Calabria lacking seismic certification.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 31,
+      "pillar": "The Human Capital Crisis",
+      "title": "The Precarity Crisis",
+      "metric": "75.2%",
+      "description": "Percentage of Italian teachers on temporary contracts.",
+      "source_name": "Ministero dell'Istruzione (MIM)",
+      "source_url": "https://dati.istruzione.it/opendata/opendata/catalogo/"
+    },
+    {
+      "id": 32,
+      "pillar": "The Human Capital Crisis",
+      "title": "Abandonment of Vulnerable",
+      "metric": "74.7%",
+      "description": "Percentage of Special Needs (Sostegno) teachers who are substitutes.",
+      "source_name": "Ministero dell'Istruzione (MIM)",
+      "source_url": "https://dati.istruzione.it/opendata/opendata/catalogo/"
+    },
+    {
+      "id": 33,
+      "pillar": "The Human Capital Crisis",
+      "title": "Aging Workforce",
+      "metric": "59.2%",
+      "description": "Percentage of teachers over the age of 50 in Italy.",
+      "source_name": "OECD",
+      "source_url": "https://data.oecd.org/education.htm"
+    },
+    {
+      "id": 34,
+      "pillar": "The Human Capital Crisis",
+      "title": "Young Teachers Missing",
+      "metric": "0.5%",
+      "description": "Abysmal percentage of teachers under the age of 30.",
+      "source_name": "OECD",
+      "source_url": "https://data.oecd.org/education.htm"
+    },
+    {
+      "id": 35,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'ZH', 'value': 'Africa Eastern and Southern'}",
+      "metric": "4.37%",
+      "description": "Education spending as % of GDP in {'id': 'ZH', 'value': 'Africa Eastern and Southern'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 36,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'ZI', 'value': 'Africa Western and Central'}",
+      "metric": "3.1%",
+      "description": "Education spending as % of GDP in {'id': 'ZI', 'value': 'Africa Western and Central'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 37,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'S3', 'value': 'Caribbean small states'}",
+      "metric": "3.04%",
+      "description": "Education spending as % of GDP in {'id': 'S3', 'value': 'Caribbean small states'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 38,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'B8', 'value': 'Central Europe and the Baltics'}",
+      "metric": "4.65%",
+      "description": "Education spending as % of GDP in {'id': 'B8', 'value': 'Central Europe and the Baltics'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 39,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'V2', 'value': 'Early-demographic dividend'}",
+      "metric": "3.86%",
+      "description": "Education spending as % of GDP in {'id': 'V2', 'value': 'Early-demographic dividend'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 40,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'Z4', 'value': 'East Asia & Pacific'}",
+      "metric": "2.98%",
+      "description": "Education spending as % of GDP in {'id': 'Z4', 'value': 'East Asia & Pacific'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 41,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': '4E', 'value': 'East Asia & Pacific (excluding high income)'}",
+      "metric": "2.95%",
+      "description": "Education spending as % of GDP in {'id': '4E', 'value': 'East Asia & Pacific (excluding high income)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 42,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'T4', 'value': 'East Asia & Pacific (IDA & IBRD countries)'}",
+      "metric": "2.95%",
+      "description": "Education spending as % of GDP in {'id': 'T4', 'value': 'East Asia & Pacific (IDA & IBRD countries)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 43,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'XC', 'value': 'Euro area'}",
+      "metric": "5.08%",
+      "description": "Education spending as % of GDP in {'id': 'XC', 'value': 'Euro area'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 44,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'Z7', 'value': 'Europe & Central Asia'}",
+      "metric": "4.71%",
+      "description": "Education spending as % of GDP in {'id': 'Z7', 'value': 'Europe & Central Asia'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 45,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': '7E', 'value': 'Europe & Central Asia (excluding high income)'}",
+      "metric": "4.14%",
+      "description": "Education spending as % of GDP in {'id': '7E', 'value': 'Europe & Central Asia (excluding high income)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 46,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'T7', 'value': 'Europe & Central Asia (IDA & IBRD countries)'}",
+      "metric": "4.11%",
+      "description": "Education spending as % of GDP in {'id': 'T7', 'value': 'Europe & Central Asia (IDA & IBRD countries)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 47,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'EU', 'value': 'European Union'}",
+      "metric": "4.79%",
+      "description": "Education spending as % of GDP in {'id': 'EU', 'value': 'European Union'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 48,
+      "pillar": "The Economic Paradox",
+      "title": "Edu Spending: {'id': 'F1', 'value': 'Fragile and conflict affected situations'}",
+      "metric": "3.14%",
+      "description": "Education spending as % of GDP in {'id': 'F1', 'value': 'Fragile and conflict affected situations'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 49,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'ZH', 'value': 'Africa Eastern and Southern'}",
+      "metric": "8.7%",
+      "description": "Gross tertiary enrollment in {'id': 'ZH', 'value': 'Africa Eastern and Southern'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 50,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'ZI', 'value': 'Africa Western and Central'}",
+      "metric": "10.2%",
+      "description": "Gross tertiary enrollment in {'id': 'ZI', 'value': 'Africa Western and Central'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 51,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': '1A', 'value': 'Arab World'}",
+      "metric": "32.7%",
+      "description": "Gross tertiary enrollment in {'id': '1A', 'value': 'Arab World'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 52,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'B8', 'value': 'Central Europe and the Baltics'}",
+      "metric": "67.2%",
+      "description": "Gross tertiary enrollment in {'id': 'B8', 'value': 'Central Europe and the Baltics'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 53,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'V2', 'value': 'Early-demographic dividend'}",
+      "metric": "33.4%",
+      "description": "Gross tertiary enrollment in {'id': 'V2', 'value': 'Early-demographic dividend'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 54,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'Z4', 'value': 'East Asia & Pacific'}",
+      "metric": "56.1%",
+      "description": "Gross tertiary enrollment in {'id': 'Z4', 'value': 'East Asia & Pacific'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 55,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': '4E', 'value': 'East Asia & Pacific (excluding high income)'}",
+      "metric": "54.0%",
+      "description": "Gross tertiary enrollment in {'id': '4E', 'value': 'East Asia & Pacific (excluding high income)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 56,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'T4', 'value': 'East Asia & Pacific (IDA & IBRD countries)'}",
+      "metric": "54.4%",
+      "description": "Gross tertiary enrollment in {'id': 'T4', 'value': 'East Asia & Pacific (IDA & IBRD countries)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 57,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'XC', 'value': 'Euro area'}",
+      "metric": "80.0%",
+      "description": "Gross tertiary enrollment in {'id': 'XC', 'value': 'Euro area'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 58,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'Z7', 'value': 'Europe & Central Asia'}",
+      "metric": "79.2%",
+      "description": "Gross tertiary enrollment in {'id': 'Z7', 'value': 'Europe & Central Asia'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 59,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': '7E', 'value': 'Europe & Central Asia (excluding high income)'}",
+      "metric": "77.9%",
+      "description": "Gross tertiary enrollment in {'id': '7E', 'value': 'Europe & Central Asia (excluding high income)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 60,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'T7', 'value': 'Europe & Central Asia (IDA & IBRD countries)'}",
+      "metric": "79.3%",
+      "description": "Gross tertiary enrollment in {'id': 'T7', 'value': 'Europe & Central Asia (IDA & IBRD countries)'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 61,
+      "pillar": "The Economic Paradox",
+      "title": "Tertiary Enrollment: {'id': 'EU', 'value': 'European Union'}",
+      "metric": "77.9%",
+      "description": "Gross tertiary enrollment in {'id': 'EU', 'value': 'European Union'}.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 62,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2000",
+      "metric": "457",
+      "description": "Italy's PISA Math score in 2000.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 63,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2000",
+      "metric": "487",
+      "description": "Italy's PISA Reading score in 2000.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 64,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2003",
+      "metric": "466",
+      "description": "Italy's PISA Math score in 2003.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 65,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2003",
+      "metric": "476",
+      "description": "Italy's PISA Reading score in 2003.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 66,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2006",
+      "metric": "462",
+      "description": "Italy's PISA Math score in 2006.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 67,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2006",
+      "metric": "469",
+      "description": "Italy's PISA Reading score in 2006.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 68,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Science 2006",
+      "metric": "475.0",
+      "description": "Italy's PISA Science score in 2006.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 69,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2009",
+      "metric": "483",
+      "description": "Italy's PISA Math score in 2009.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 70,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2009",
+      "metric": "486",
+      "description": "Italy's PISA Reading score in 2009.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 71,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Science 2009",
+      "metric": "489.0",
+      "description": "Italy's PISA Science score in 2009.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 72,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2012",
+      "metric": "485",
+      "description": "Italy's PISA Math score in 2012.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 73,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2012",
+      "metric": "490",
+      "description": "Italy's PISA Reading score in 2012.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 74,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Science 2012",
+      "metric": "494.0",
+      "description": "Italy's PISA Science score in 2012.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 75,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2015",
+      "metric": "490",
+      "description": "Italy's PISA Math score in 2015.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 76,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2015",
+      "metric": "485",
+      "description": "Italy's PISA Reading score in 2015.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 77,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Science 2015",
+      "metric": "481.0",
+      "description": "Italy's PISA Science score in 2015.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 78,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2018",
+      "metric": "487",
+      "description": "Italy's PISA Math score in 2018.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 79,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2018",
+      "metric": "476",
+      "description": "Italy's PISA Reading score in 2018.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 80,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Science 2018",
+      "metric": "468.0",
+      "description": "Italy's PISA Science score in 2018.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 81,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Math 2022",
+      "metric": "471",
+      "description": "Italy's PISA Math score in 2022.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 82,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Reading 2022",
+      "metric": "482",
+      "description": "Italy's PISA Reading score in 2022.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 83,
+      "pillar": "Cognitive Failure",
+      "title": "PISA Science 2022",
+      "metric": "484.0",
+      "description": "Italy's PISA Science score in 2022.",
+      "source_name": "OECD PISA",
+      "source_url": "https://www.oecd.org/pisa/"
+    },
+    {
+      "id": 84,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Lombardia",
+      "metric": "35.8%",
+      "description": "Schools in Lombardia lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 85,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Piemonte",
+      "metric": "38.2%",
+      "description": "Schools in Piemonte lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 86,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Veneto",
+      "metric": "33.5%",
+      "description": "Schools in Veneto lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 87,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Emilia-Romagna",
+      "metric": "28.6%",
+      "description": "Schools in Emilia-Romagna lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 88,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Toscana",
+      "metric": "41.1%",
+      "description": "Schools in Toscana lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 89,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Lazio",
+      "metric": "50.8%",
+      "description": "Schools in Lazio lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 90,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Campania",
+      "metric": "65.5%",
+      "description": "Schools in Campania lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 91,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Puglia",
+      "metric": "61.8%",
+      "description": "Schools in Puglia lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 92,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Sicilia",
+      "metric": "71.6%",
+      "description": "Schools in Sicilia lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 93,
+      "pillar": "Physical Decay",
+      "title": "No Habitability: Calabria",
+      "metric": "73.2%",
+      "description": "Schools in Calabria lacking basic habitability.",
+      "source_name": "MIM Anagrafe",
+      "source_url": "https://dati.istruzione.it/"
+    },
+    {
+      "id": 94,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Lombardia",
+      "metric": "22.4 min",
+      "description": "Average school commute in Lombardia.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 95,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Veneto",
+      "metric": "25.1 min",
+      "description": "Average school commute in Veneto.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 96,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Emilia-Romagna",
+      "metric": "23.8 min",
+      "description": "Average school commute in Emilia-Romagna.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 97,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Toscana",
+      "metric": "27.5 min",
+      "description": "Average school commute in Toscana.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 98,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Lazio",
+      "metric": "31.2 min",
+      "description": "Average school commute in Lazio.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 99,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Campania",
+      "metric": "38.5 min",
+      "description": "Average school commute in Campania.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 100,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Puglia",
+      "metric": "36.2 min",
+      "description": "Average school commute in Puglia.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 101,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Sicilia",
+      "metric": "42.8 min",
+      "description": "Average school commute in Sicilia.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 102,
+      "pillar": "Geographic & Demographic Collapse",
+      "title": "Commute: Calabria",
+      "metric": "48.4 min",
+      "description": "Average school commute in Calabria.",
+      "source_name": "ISTAT SDMX",
+      "source_url": "https://esploradati.istat.it/"
+    },
+    {
+      "id": 103,
+      "pillar": "Cognitive Failure",
+      "title": "Learning Poverty (Italy)",
+      "metric": "5.5%",
+      "description": "10-year-olds who cannot read and understand simple text.",
+      "source_name": "World Bank",
+      "source_url": "https://data.worldbank.org/"
+    },
+    {
+      "id": 104,
+      "pillar": "The Economic Paradox",
+      "title": "The Hidden Tax Median",
+      "metric": "\u20ac 280.71",
+      "description": "Median textbook cost for the 1st year of High School.",
+      "source_name": "Ministero dell'Istruzione (MIM)",
+      "source_url": "https://dati.istruzione.it/opendata/opendata/catalogo/"
+    },
+    {
+      "id": 105,
+      "pillar": "The Economic Paradox",
+      "title": "The Hidden Tax Average",
+      "metric": "\u20ac 213.83",
+      "description": "Average textbook cost, restricting low-income access.",
+      "source_name": "Ministero dell'Istruzione (MIM)",
+      "source_url": "https://dati.istruzione.it/opendata/opendata/catalogo/"
+    },
+    {
+      "id": 106,
+      "pillar": "The Economic Paradox",
+      "title": "Illegal Costs",
+      "metric": "61.4%",
+      "description": "Percentage of classes exceeding the State-mandated maximum cost.",
+      "source_name": "Ministero dell'Istruzione (MIM)",
+      "source_url": "https://dati.istruzione.it/opendata/opendata/catalogo/"
+    },
+    {
+      "id": 107,
+      "pillar": "The Economic Paradox",
+      "title": "ITS Academy Employment",
+      "metric": "87.0%",
+      "description": "Employment rate 1 year after graduation from ITS Academy.",
+      "source_name": "INDIRE",
+      "source_url": "https://www.indire.it/"
+    },
+    {
+      "id": 108,
+      "pillar": "The Economic Paradox",
+      "title": "University Employment",
+      "metric": "70.3%",
+      "description": "Employment rate 1 year after graduation from University.",
+      "source_name": "Almalaurea",
+      "source_url": "https://www.almalaurea.it/"
+    }
+  ],
+  "istat_data": [
+    {
+      "region": "Lombardia",
+      "pop_drop": 11.2
+    },
+    {
+      "region": "Veneto",
+      "pop_drop": 12.6
+    },
+    {
+      "region": "Emilia-Romagna",
+      "pop_drop": 11.9
+    },
+    {
+      "region": "Toscana",
+      "pop_drop": 13.8
+    },
+    {
+      "region": "Lazio",
+      "pop_drop": 15.6
+    },
+    {
+      "region": "Campania",
+      "pop_drop": 19.2
+    },
+    {
+      "region": "Puglia",
+      "pop_drop": 18.1
+    },
+    {
+      "region": "Sicilia",
+      "pop_drop": 21.4
+    },
+    {
+      "region": "Calabria",
+      "pop_drop": 24.2
+    }
+  ]
+}

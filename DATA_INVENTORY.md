@@ -54,7 +54,13 @@ All datasets in `local_data/processed/` are clean, tabular (`.csv` or `.json`), 
 - **`snv_esiti_school_year_proxy.csv`**: Proxy dataset of school outcome and admission rates derived from official national evaluation data.
 - **`anpal_replacement_early_school_leavers.csv` & `neet_by_migration.csv`**: High-granularity youth disengagement and early school leaving indicators categorized by citizenship and demographic background.
 
-### 4. Territorial Finance, Textbooks, and Household Burdens
+### 4. The OSINT Pillars: Shadow Economy & Brain Drain ("Ghost" Demographics)
+This repository goes beyond institutional state data by formalizing systemic blind spots:
+- **`shiw_shadow_tutoring_costs.csv` & `shiw_household_budget_survey_education_module.csv`**: Banca d'Italia microdata mapping the "Shadow Economy" of private tutoring (*Ripetizioni*), proving the structural "pay-to-win" disparity in secondary education.
+- **`svimez_istat_brain_drain_regional_migration_panel.csv`**: AIRE/ISTAT migration data tracking the *Fuga di Cervelli*. Proves that missing NEETs and top-performers are often economic migrants to Northern Europe, a hidden demographic variable in regional statistics.
+
+### 5. Territorial Finance, Textbooks, and Household Burdens
+- **`anac_pnrr_m4c1_school_tenders_and_execution_panel.csv` & `cdp_opencoesione_school_infrastructure_safety_panel.csv`**: Hyper-local PNRR (Recovery Fund) and cohesion tenders cross-referenced to municipal school safety.
 - **`italy_school_household_cost_snapshot.csv` & `italy_household_burden_module.csv`**: Empirical micro-data assessing the direct financial burden of secondary education on Italian households.
 - **`siope_school_expenditure_summary.csv` & `siope_expenditure_by_region_year.csv`**: Public financial flows and municipal/regional spending on school infrastructure and territorial access.
 - **`italy_mur_tuition_benchmark_2024.csv` & `atenei_payment_support_panel_2023_2024.csv`**: Higher education tuition fee distribution and regional financial aid (*DSU/ERSU*) coverage.

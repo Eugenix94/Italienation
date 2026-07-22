@@ -28,13 +28,17 @@ Thumbs.db
 *.DS_Store
 
 # Large raw files and HTML maps over 50MB (GitHub limit)
-local_data/INVALSI/report_generale_agg_2025/Report_generale_agg_2025.csv
+local_data/INVALSI/
+local_data/MinIstruzione/
+local_data/MUR/
+local_data/INPS/
+local_data/SIOPE/
+local_data/eurostat/
+local_data/worldbank/
+local_data/OpenCoesione/
+local_data/ISTAT/
 local_data/processed/italy_all_schools_map.html
-local_data/eurostat/eurostat_it_upper_secondary_graduation_by_programme.csv
-local_data/eurostat/eurostat_self_reported_health.csv
-local_data/MinIstruzione/BilancioeFinanze/BISCONTRATTI202420250921.csv
-local_data/MinIstruzione/LibriDiTesto/ALTCAMPANIA000020250910.csv
-local_data/MinIstruzione/LibriDiTesto/ALTLAZIO000020250910.csv
-local_data/MinIstruzione/LibriDiTesto/ALTLOMBARDIA000020250910.csv
-local_data/OpenCoesione/structural_projects/opencoesione_digital_projects_all_cycles/*.csv
-local_data/OpenCoesione/structural_projects/opencoesione_projects_aggregated/*.csv
+
+# Data Stashes (Block from Git tracking as per review)
+exports_stash/
+temp_*
