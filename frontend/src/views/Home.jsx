@@ -3,6 +3,7 @@ import { T } from '../components/T';
 import { ArrowRight, BookOpen, AlertTriangle, Building2, Database } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import EurydiceComparison from '../components/EurydiceComparison';
 
 export default function Home() {
   return (
@@ -115,6 +116,16 @@ export default function Home() {
             </li>
           </ul>
         </div>
+      </motion.section>
+
+      {/* Eurydice Integration */}
+      <motion.section
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6 }}
+      >
+        <EurydiceComparison />
       </motion.section>
 
       {/* Call to Action */}
