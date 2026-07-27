@@ -1,14 +1,20 @@
 import React from 'react';
 import { T } from '../components/T';
-import { ArrowRight, BookOpen, AlertTriangle, Building2 } from 'lucide-react';
+import { ArrowRight, BookOpen, AlertTriangle, Building2, Database } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 space-y-24">
       
       {/* Hero Section */}
-      <section className="text-center space-y-6">
+      <motion.section 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-center space-y-6"
+      >
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-zinc-400">
           <T 
             it="Il futuro di uno studente in Italia non è casuale. È misurabile." 
@@ -31,11 +37,18 @@ export default function Home() {
             <Database size={18} />
           </Link>
         </div>
-      </section>
+      </motion.section>
 
       {/* The Tripartite Illusion */}
-      <section className="space-y-8 bg-zinc-900/50 p-8 sm:p-12 rounded-3xl border border-zinc-800/80">
-        <div className="flex items-center gap-4 text-indigo-400 mb-6">
+      <motion.section 
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6 }}
+        className="relative space-y-8 bg-white/[0.02] backdrop-blur-xl p-8 sm:p-12 rounded-3xl border border-white/10 shadow-2xl overflow-hidden group hover:border-white/20 transition-all"
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+        <div className="relative z-10 flex items-center gap-4 text-indigo-400 mb-6">
           <BookOpen size={24} />
           <h2 className="text-2xl font-bold text-white">
             <T it="L'Illusione della Scelta Tripartita" en="The Tripartite Illusion" />
@@ -55,11 +68,18 @@ export default function Home() {
             />
           </p>
         </div>
-      </section>
+      </motion.section>
 
       {/* The Double Penalty */}
-      <section className="space-y-8 bg-zinc-900/50 p-8 sm:p-12 rounded-3xl border border-zinc-800/80">
-        <div className="flex items-center gap-4 text-rose-400 mb-6">
+      <motion.section 
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6 }}
+        className="relative space-y-8 bg-white/[0.02] backdrop-blur-xl p-8 sm:p-12 rounded-3xl border border-white/10 shadow-2xl overflow-hidden group hover:border-white/20 transition-all"
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/5 to-orange-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+        <div className="relative z-10 flex items-center gap-4 text-rose-400 mb-6">
           <AlertTriangle size={24} />
           <h2 className="text-2xl font-bold text-white">
             <T it="La Doppia Penalizzazione Strutturale" en="The Structural Double Penalty" />
@@ -95,28 +115,25 @@ export default function Home() {
             </li>
           </ul>
         </div>
-      </section>
+      </motion.section>
 
       {/* Call to Action */}
-      <section className="text-center pb-12">
+      <motion.section 
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="text-center pb-12 relative z-10"
+      >
         <h3 className="text-2xl font-bold mb-6">
           <T it="Vuoi vedere i numeri in azione?" en="Want to see the numbers in action?" />
         </h3>
         <Link to="/simulator" className="inline-flex px-8 py-4 rounded-xl bg-white text-black font-bold hover:bg-zinc-200 transition shadow-xl">
           <T it="Vai al Simulatore Matematico" en="Go to the Mathematical Simulator" />
         </Link>
-      </section>
+      </motion.section>
 
     </div>
   );
 }
 
-function Database(props) {
-  return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-      <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
-      <path d="M3 12A9 3 0 0 0 21 12"></path>
-    </svg>
-  );
-}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { T } from '../components/T';
 import { Search, Database, ExternalLink, Download } from 'lucide-react';
+import { motion } from 'framer-motion';
 import catalogData from '../assets/catalog.json';
 
 export default function DataCatalog() {
@@ -68,9 +69,28 @@ export default function DataCatalog() {
               )}
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <motion.div 
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-50px" }}
+              variants={{
+                hidden: {},
+                visible: {
+                  transition: { staggerChildren: 0.05 }
+                }
+              }}
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+            >
               {category.links.map((link, lidx) => (
-                <div key={lidx} className="bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-5 hover:bg-zinc-800/60 hover:border-indigo-500/30 transition-all flex flex-col justify-between group">
+                <motion.div 
+                  key={lidx} 
+                  variants={{
+                    hidden: { opacity: 0, y: 10 },
+                    visible: { opacity: 1, y: 0 }
+                  }}
+                  transition={{ duration: 0.4 }}
+                  className="bg-white/[0.02] backdrop-blur-md border border-white/5 rounded-xl p-5 hover:bg-white/[0.04] hover:border-indigo-500/30 transition-all flex flex-col justify-between group shadow-lg"
+                >
                   <div className="space-y-3">
                     <div className="flex items-start justify-between gap-4">
                       <h3 className="font-medium text-sm text-zinc-300 group-hover:text-white leading-snug">
@@ -97,9 +117,9 @@ export default function DataCatalog() {
                       </a>
                     )}
                   </div>
-                </div>
+                </motion.div>
               ))}
-            </div>
+            </motion.div>
           </div>
         ))}
         {filteredItems.length === 0 && (
