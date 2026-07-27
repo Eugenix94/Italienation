@@ -1,0 +1,20 @@
+{
+  "demographic_collapse": [
+    { "year": 2010, "births_thousands": 562, "school_closures": 0 },
+    { "year": 2015, "births_thousands": 485, "school_closures": 120 },
+    { "year": 2020, "births_thousands": 404, "school_closures": 350 },
+    { "year": 2024, "births_thousands": 379, "school_closures": 580 },
+    { "year": 2030, "births_thousands": 350, "school_closures": 1100 }
+  ],
+  "pnrr_spending": [
+    { "category": "Structural Infrastructure (New Buildings)", "allocation_pct": 12 },
+    { "category": "Technological Upgrades (Tablets/PCs)", "allocation_pct": 45 },
+    { "category": "Temporary Projects (PON/PCTO)", "allocation_pct": 33 },
+    { "category": "Teacher Training & Hiring", "allocation_pct": 10 }
+  ],
+  "pension_gap": [
+    { "track": "Liceo", "avg_career_entry_age": 26, "expected_pension_eur": 2100 },
+    { "track": "Istituto Tecnico", "avg_career_entry_age": 22, "expected_pension_eur": 1500 },
+    { "track": "Istituto Professionale", "avg_career_entry_age": 24, "expected_pension_eur": 850 }
+  ]
+}
