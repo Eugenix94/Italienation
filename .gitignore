@@ -41,4 +41,6 @@ local_data/processed/italy_all_schools_map.html
 
 # Data Stashes (Block from Git tracking as per review)
 exports_stash/
-temp_*
+
+# Archive folder (too large for GitHub)
+local_data/ARCHIVE/

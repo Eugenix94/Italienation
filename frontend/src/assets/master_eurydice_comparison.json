@@ -1,82 +1,9 @@
 [
-    {
-        "CountryCode": "DE",
-        "TrackingAge": 10,
-        "Country": "Germany",
-        "Repetition_All": 0,
-        "Repetition_Some": 1,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "DE",
-        "TrackingAge": 10,
-        "Country": "Germany",
-        "Repetition_All": "At ISCED 2 and 3, grade repetition is allowed in all grades",
-        "Repetition_Some": 0,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "ES",
-        "TrackingAge": 15,
-        "Country": "Spain",
-        "Repetition_All": 0,
-        "Repetition_Some": 1,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "ES",
-        "TrackingAge": 15,
-        "Country": "Spain",
-        "Repetition_All": "At ISCED 2 and 3, grade repetition is allowed in all grades",
-        "Repetition_Some": 0,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "FI",
-        "TrackingAge": 16,
-        "Country": "Finland",
-        "Repetition_All": 1,
-        "Repetition_Some": 0,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "FI",
-        "TrackingAge": 16,
-        "Country": "Finland",
-        "Repetition_All": "ISCED 3 is based on study units with no grade-specific classes or requirements. Therefore, grade repetition does not exist at this level.",
-        "Repetition_Some": 0,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "FR",
-        "TrackingAge": 15,
-        "Country": "France",
-        "Repetition_All": 1,
-        "Repetition_Some": 0,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "IT",
-        "TrackingAge": 14,
-        "Country": "Italy",
-        "Repetition_All": 1,
-        "Repetition_Some": 0,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "PL",
-        "TrackingAge": 15,
-        "Country": "Poland",
-        "Repetition_All": 0,
-        "Repetition_Some": 1,
-        "Automatic_Progression": 0
-    },
-    {
-        "CountryCode": "SE",
-        "TrackingAge": 16,
-        "Country": "Sweden",
-        "Repetition_All": 0,
-        "Repetition_Some": 0,
-        "Automatic_Progression": 0
-    }
+  { "CountryCode": "DE", "Country": "Germany", "TrackingAge": 10, "SystemType": "Differentiated", "GradeRepetition": "Allowed in all grades", "CompulsoryEducationYears": 12, "NEETRate_15_29": 9.5 },
+  { "CountryCode": "IT", "Country": "Italy", "TrackingAge": 14, "SystemType": "Tripartite Tracked", "GradeRepetition": "Allowed in all grades", "CompulsoryEducationYears": 12, "NEETRate_15_29": 19.0 },
+  { "CountryCode": "FR", "Country": "France", "TrackingAge": 15, "SystemType": "Differentiated", "GradeRepetition": "Allowed in all grades", "CompulsoryEducationYears": 13, "NEETRate_15_29": 12.3 },
+  { "CountryCode": "ES", "Country": "Spain", "TrackingAge": 15, "SystemType": "Differentiated", "GradeRepetition": "Allowed in some grades", "CompulsoryEducationYears": 13, "NEETRate_15_29": 14.1 },
+  { "CountryCode": "PL", "Country": "Poland", "TrackingAge": 15, "SystemType": "Differentiated", "GradeRepetition": "Allowed in some grades", "CompulsoryEducationYears": 12, "NEETRate_15_29": 11.7 },
+  { "CountryCode": "FI", "Country": "Finland", "TrackingAge": 16, "SystemType": "Comprehensive", "GradeRepetition": "No grade repetition at ISCED 3", "CompulsoryEducationYears": 13, "NEETRate_15_29": 8.5 },
+  { "CountryCode": "SE", "Country": "Sweden", "TrackingAge": 16, "SystemType": "Comprehensive", "GradeRepetition": "No grade repetition", "CompulsoryEducationYears": 13, "NEETRate_15_29": 6.2 }
 ]
