@@ -32,8 +32,8 @@ const OEDSimulator = () => {
     <div className="simulator">
       <div className="section-header">
         <span className="section-tag">Interactive Tool</span>
-        <h2>OED International Migration Simulator</h2>
-        <p>Select a student profile and destination country to see how institutional design shapes life outcomes.</p>
+        <h2>OED Simulator</h2>
+        <p>Scegli un profilo studente e guarda come il Paese di destinazione decide il suo futuro.</p>
       </div>
 
       <div className="simulator-controls">
@@ -89,8 +89,11 @@ const OEDSimulator = () => {
             </svg>
             <span className="metric-ring-value">{(outcomes.prob_neet * 100).toFixed(0)}%</span>
           </div>
-          <h4>NEET Risk</h4>
-          <p className="metric-subtitle">Not in Education, Employment, or Training</p>
+          <div className="flex items-center gap-2 mb-1 justify-center">
+            <h4 className="text-xl font-bold m-0 text-white">Rischio NEET</h4>
+            <span title="The percentage of youth who end up unemployed and not in school." className="cursor-help w-5 h-5 rounded-full bg-white/10 text-xs flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/20 transition">?</span>
+          </div>
+          <p className="metric-subtitle text-zinc-400">Not in Education, Employment, or Training</p>
         </div>
 
         <div className="metric-card" style={{ '--accent': tertiaryColor }}>
@@ -105,8 +108,11 @@ const OEDSimulator = () => {
             </svg>
             <span className="metric-ring-value">{(outcomes.prob_tertiary_access * 100).toFixed(0)}%</span>
           </div>
-          <h4>Tertiary Access</h4>
-          <p className="metric-subtitle">Probability of reaching university</p>
+          <div className="flex items-center gap-2 mb-1 justify-center">
+            <h4 className="text-xl font-bold m-0 text-white">Accesso all'Università</h4>
+            <span title="The mathematical probability this student will reach University." className="cursor-help w-5 h-5 rounded-full bg-white/10 text-xs flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/20 transition">?</span>
+          </div>
+          <p className="metric-subtitle text-zinc-400">Tertiary Access Probability</p>
         </div>
 
         <div className="metric-card" style={{ '--accent': mobilityColor }}>
@@ -121,14 +127,20 @@ const OEDSimulator = () => {
             </svg>
             <span className="metric-ring-value">{outcomes.social_mobility_index}</span>
           </div>
-          <h4>Mobility Index</h4>
-          <p className="metric-subtitle">Social mobility score (0-10)</p>
+          <div className="flex items-center gap-2 mb-1 justify-center">
+            <h4 className="text-xl font-bold m-0 text-white">Mobilità Sociale</h4>
+            <span title="A score from 0-10. High score = easy to climb social classes. Low score = you stay in the class you were born in." className="cursor-help w-5 h-5 rounded-full bg-white/10 text-xs flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/20 transition">?</span>
+          </div>
+          <p className="metric-subtitle text-zinc-400">Mobility Index (0-10)</p>
         </div>
 
         <div className="metric-card metric-card-income" style={{ '--accent': 'var(--color-accent)' }}>
           <div className="income-value">€{outcomes.expected_monthly_income_eur?.toLocaleString()}</div>
-          <h4>Expected Monthly Income</h4>
-          <p className="metric-subtitle">Post-education earnings estimate</p>
+          <div className="flex items-center gap-2 mb-1 justify-center">
+            <h4 className="text-xl font-bold m-0 text-white">Stipendio Mensile</h4>
+            <span title="Estimated average monthly income at age 30 based on educational outcome." className="cursor-help w-5 h-5 rounded-full bg-white/10 text-xs flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/20 transition">?</span>
+          </div>
+          <p className="metric-subtitle text-zinc-400">Expected Income</p>
         </div>
       </div>
 

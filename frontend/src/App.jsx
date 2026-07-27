@@ -6,6 +6,7 @@ import Home from './views/Home';
 import SimulatorView from './views/SimulatorView';
 import DataCatalog from './views/DataCatalog';
 import Footer from './components/Footer';
+import GlossaryModal from './components/GlossaryModal';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path="/catalog" element={<DataCatalog />} />
             </Routes>
           </main>
+          <GlossaryModal />
           </div>
         </div>  {/* Footer is rendered inside SimulatorView, but we can put a global one here if needed. We'll leave it in SimulatorView to match previous design, or we can move it here. Let's let SimulatorView handle it for now to avoid double footers on the simulator. */}
       </HashRouter>
