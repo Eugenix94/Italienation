@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
 import Home from './views/Home';
@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename={import.meta.env.DEV ? "/" : "/Italienation/"}>
+      <HashRouter>
         <div className="min-h-screen bg-[#050510] text-white flex flex-col font-sans relative overflow-hidden">
           
           {/* Global Aesthetic Glow Background */}
@@ -28,7 +28,7 @@ function App() {
           </main>
           </div>
         </div>  {/* Footer is rendered inside SimulatorView, but we can put a global one here if needed. We'll leave it in SimulatorView to match previous design, or we can move it here. Let's let SimulatorView handle it for now to avoid double footers on the simulator. */}
-      </BrowserRouter>
+      </HashRouter>
     </LanguageProvider>
   );
 }
