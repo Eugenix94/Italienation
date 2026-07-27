@@ -1,0 +1,22 @@
+{
+  "title": "Italienation: Structural Inequality and the Origin-Education-Destination Framework in Italy",
+  "upload_type": "dataset",
+  "description": "<p><strong>Italienation</strong> is a comprehensive sociological and econometric data fusion project that mathematically proves the existence of a structural 'Tripartite Illusion' in the Italian educational system.</p><p>By joining Ministry of Education (MIM) infrastructure and track data with Ministry of Economy (MEF) wealth indicators and ISTAT output metrics, this project shifts the narrative of educational inequality from correlation (student background) to causal institutional mechanisms (systemic under-resourcing of vocational tracks via precarious teachers and unsafe buildings).</p><p>This archive contains 21 reproducible regional mathematical profiles, the final synthesized datasets, and the Python extraction methodologies.</p>",
+  "creators": [
+    {
+      "name": "Eugenix94"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Sociology of Education",
+    "Origin-Education-Destination Framework",
+    "OED",
+    "NEET",
+    "Italy",
+    "Institutional Design",
+    "Causal Inference"
+  ],
+  "version": "1.0"
+}
