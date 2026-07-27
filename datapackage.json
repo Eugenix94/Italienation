@@ -81,7 +81,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: figure_1__the_percentage_of_young_people_who_are_not_in_education,_employment_or_training_(neet)_increased_over_the_quarter_(january_to_march_2025)_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=Figure_1__The_percentage_of_young_people_who_are_not_in_education%2C_employment_or_training_%28NEET%29_increased_over_the_quarter_%28January_to_March_2025%29",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -90,8 +90,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=Figure_1__The_percentage_of_young_people_who_are_not_in_education%2C_employment_or_training_%28NEET%29_increased_over_the_quarter_%28January_to_March_2025%29",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=Figure_1__The_percentage_of_young_people_who_are_not_in_education%2C_employment_or_training_%28NEET%29_increased_over_the_quarter_%28January_to_March_2025%29",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/Figure_1__The_percentage_of_young_people_who_are_not_in_education,_employment_or_training_(NEET)_increased_over_the_quarter_(January_to_March_2025).csv"
     },
     {
@@ -102,7 +102,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: incidenza dei giovani neet - titolo di studio (_) (it1,172_931_df_dccv_neet1_8,1_0)_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=Incidenza%20dei%20giovani%20Neet%20-%20Titolo%20di%20studio%20%28_%29%20%28IT1%2C172_931_DF_DCCV_NEET1_8%2C1.0%29",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -111,8 +111,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=Incidenza%20dei%20giovani%20Neet%20-%20Titolo%20di%20studio%20%28_%29%20%28IT1%2C172_931_DF_DCCV_NEET1_8%2C1.0%29",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=Incidenza%20dei%20giovani%20Neet%20-%20Titolo%20di%20studio%20%28_%29%20%28IT1%2C172_931_DF_DCCV_NEET1_8%2C1.0%29",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/Incidenza dei giovani Neet - Titolo di studio (_) (IT1,172_931_DF_DCCV_NEET1_8,1.0).csv"
     },
     {
@@ -165,7 +165,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet  (giovani non occupati e non in istruzione e formazione) - dati regionali (it1,172_931_df_dccv_neet1_6,1_0)_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29%20-%20Dati%20regionali%20%28IT1%2C172_931_DF_DCCV_NEET1_6%2C1.0%29",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -174,8 +174,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29%20-%20Dati%20regionali%20%28IT1%2C172_931_DF_DCCV_NEET1_6%2C1.0%29",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29%20-%20Dati%20regionali%20%28IT1%2C172_931_DF_DCCV_NEET1_6%2C1.0%29",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/NEET  (giovani non occupati e non in istruzione e formazione) - Dati regionali (IT1,172_931_DF_DCCV_NEET1_6,1.0).csv"
     },
     {
@@ -186,7 +186,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet  (giovani non occupati e non in istruzione e formazione)- condizione professionele europea, cittadinanza (it1,172_931_df_dccv_neet1_3,1_0)_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29-%20Condizione%20professionele%20europea%2C%20cittadinanza%20%28IT1%2C172_931_DF_DCCV_NEET1_3%2C1.0%29",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -195,8 +195,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29-%20Condizione%20professionele%20europea%2C%20cittadinanza%20%28IT1%2C172_931_DF_DCCV_NEET1_3%2C1.0%29",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29-%20Condizione%20professionele%20europea%2C%20cittadinanza%20%28IT1%2C172_931_DF_DCCV_NEET1_3%2C1.0%29",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/NEET  (giovani non occupati e non in istruzione e formazione)- Condizione professionele europea, cittadinanza (IT1,172_931_DF_DCCV_NEET1_3,1.0).csv"
     },
     {
@@ -207,7 +207,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet (giovani non occupati e non in istruzione e formazione) - condizione professionale europea, titolo di studio (it1,172_931_df_dccv_neet1_2,1_0)_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29%20-%20Condizione%20professionale%20europea%2C%20titolo%20di%20studio%20%28IT1%2C172_931_DF_DCCV_NEET1_2%2C1.0%29",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -216,8 +216,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29%20-%20Condizione%20professionale%20europea%2C%20titolo%20di%20studio%20%28IT1%2C172_931_DF_DCCV_NEET1_2%2C1.0%29",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEET%20%28giovani%20non%20occupati%20e%20non%20in%20istruzione%20e%20formazione%29%20-%20Condizione%20professionale%20europea%2C%20titolo%20di%20studio%20%28IT1%2C172_931_DF_DCCV_NEET1_2%2C1.0%29",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/NEET (giovani non occupati e non in istruzione e formazione) - Condizione professionale europea, titolo di studio (IT1,172_931_DF_DCCV_NEET1_2,1.0).csv"
     },
     {
@@ -228,7 +228,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neets_et2025_xlsx",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEETs_ET2025.xlsx",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -237,8 +237,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEETs_ET2025.xlsx",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=NEETs_ET2025.xlsx",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/NEETs_ET2025.xlsx"
     },
     {
@@ -795,7 +795,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: anpal_replacement_neet_annual_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_annual",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -804,8 +804,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_annual",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_annual",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ANPAL/anpal_replacement_neet_annual.csv"
     },
     {
@@ -816,7 +816,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: anpal_replacement_neet_by_migration_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_by_migration",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -825,8 +825,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_by_migration",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_by_migration",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ANPAL/anpal_replacement_neet_by_migration.csv"
     },
     {
@@ -837,7 +837,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: anpal_replacement_youth_unemployment_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_youth_unemployment",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -846,8 +846,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_youth_unemployment",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_youth_unemployment",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ANPAL/anpal_replacement_youth_unemployment.csv"
     },
     {
@@ -921,7 +921,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_neet_by_nationality_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_by_nationality",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -930,8 +930,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_by_nationality",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_by_nationality",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_neet_by_nationality.csv"
     },
     {
@@ -942,7 +942,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_neet_by_sex_summary_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_by_sex_summary",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -951,8 +951,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_by_sex_summary",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_by_sex_summary",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_neet_by_sex_summary.csv"
     },
     {
@@ -963,7 +963,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_neet_detail_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_detail",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -972,8 +972,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_detail",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_detail",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_neet_detail.csv"
     },
     {
@@ -984,7 +984,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_neet_sdg_all_countries_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_sdg_all_countries",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -993,8 +993,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_sdg_all_countries",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_sdg_all_countries",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_neet_sdg_all_countries.csv"
     },
     {
@@ -1005,7 +1005,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_neet_tips_indicator_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_tips_indicator",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1014,8 +1014,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_tips_indicator",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_neet_tips_indicator",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_neet_tips_indicator.csv"
     },
     {
@@ -1089,7 +1089,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_unemployment_by_education_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_unemployment_by_education",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1098,8 +1098,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_unemployment_by_education",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_unemployment_by_education",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_unemployment_by_education.csv"
     },
     {
@@ -1110,7 +1110,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_unemployment_by_education_age_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_unemployment_by_education_age",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1119,8 +1119,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_unemployment_by_education_age",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_unemployment_by_education_age",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_unemployment_by_education_age.csv"
     },
     {
@@ -1152,7 +1152,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_young_not_in_edu_employment_by_education_years_since_completion_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,EDAT_LFSE_24,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1161,8 +1161,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,EDAT_LFSE_24,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,EDAT_LFSE_24,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_young_not_in_edu_employment_by_education_years_since_completion.csv"
     },
     {
@@ -1173,7 +1173,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estat_youth_unemployment_rate_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_youth_unemployment_rate",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1182,8 +1182,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_youth_unemployment_rate",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estat_youth_unemployment_rate",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/estat_youth_unemployment_rate.csv"
     },
     {
@@ -1530,7 +1530,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_it_long_term_unemployment_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_long_term_unemployment",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1539,8 +1539,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_long_term_unemployment",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_long_term_unemployment",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/eurostat_it_long_term_unemployment.csv"
     },
     {
@@ -1551,7 +1551,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_it_neet_by_citizenship_sex_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_neet_by_citizenship_sex",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1560,8 +1560,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_neet_by_citizenship_sex",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_neet_by_citizenship_sex",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/eurostat_it_neet_by_citizenship_sex.csv"
     },
     {
@@ -1572,7 +1572,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_it_neet_by_education_level_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_neet_by_education_level",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1581,8 +1581,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_neet_by_education_level",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_neet_by_education_level",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/eurostat_it_neet_by_education_level.csv"
     },
     {
@@ -1698,7 +1698,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_it_unemployment_rate_monthly_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_unemployment_rate_monthly",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1707,8 +1707,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_unemployment_rate_monthly",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_unemployment_rate_monthly",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/eurostat_it_unemployment_rate_monthly.csv"
     },
     {
@@ -1719,7 +1719,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_it_unemployment_rate_quarterly_youth_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_unemployment_rate_quarterly_youth",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1728,8 +1728,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_unemployment_rate_quarterly_youth",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_it_unemployment_rate_quarterly_youth",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/eurostat_it_unemployment_rate_quarterly_youth.csv"
     },
     {
@@ -1887,7 +1887,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_neet_by_migration_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_neet_by_migration",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -1896,8 +1896,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_neet_by_migration",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_neet_by_migration",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/eurostat/eurostat_neet_by_migration.csv"
     },
     {
@@ -3609,7 +3609,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_diplomati_caratteristiche_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_diplomati_caratteristiche",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3618,8 +3618,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_diplomati_caratteristiche",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_diplomati_caratteristiche",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_diplomati_caratteristiche.csv"
     },
     {
@@ -3630,7 +3630,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_diplomati_occupazione_retribuzione_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_diplomati_occupazione_retribuzione",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3639,8 +3639,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_diplomati_occupazione_retribuzione",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_diplomati_occupazione_retribuzione",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_diplomati_occupazione_retribuzione.csv"
     },
     {
@@ -3651,7 +3651,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_disability_schools_2022_2023_xlsx",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_disability_schools_2022_2023.xlsx",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3660,8 +3660,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_disability_schools_2022_2023.xlsx",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_disability_schools_2022_2023.xlsx",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_disability_schools_2022_2023.xlsx"
     },
     {
@@ -3672,7 +3672,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_early_school_leavers_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_early_school_leavers",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3681,8 +3681,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_early_school_leavers",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_early_school_leavers",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_early_school_leavers.csv"
     },
     {
@@ -3693,7 +3693,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_graduates_job_search_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_graduates_job_search",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3702,8 +3702,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_graduates_job_search",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_graduates_job_search",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_graduates_job_search.csv"
     },
     {
@@ -3714,7 +3714,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_graduates_occupational_status_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_graduates_occupational_status",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3723,8 +3723,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_graduates_occupational_status",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_graduates_occupational_status",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_graduates_occupational_status.csv"
     },
     {
@@ -3735,7 +3735,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_highschool_graduates_demographics_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_demographics",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3744,8 +3744,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_demographics",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_demographics",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_highschool_graduates_demographics.csv"
     },
     {
@@ -3756,7 +3756,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_highschool_graduates_employment_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_employment",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3765,8 +3765,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_employment",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_employment",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_highschool_graduates_employment.csv"
     },
     {
@@ -3777,7 +3777,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_highschool_graduates_job_search_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_job_search",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3786,8 +3786,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_job_search",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_highschool_graduates_job_search",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_highschool_graduates_job_search.csv"
     },
     {
@@ -3798,7 +3798,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_households_cannot_afford_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_cannot_afford",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3807,8 +3807,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_cannot_afford",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_cannot_afford",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_households_cannot_afford.csv"
     },
     {
@@ -3819,7 +3819,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_households_financial_difficulty_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_financial_difficulty",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3828,8 +3828,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_financial_difficulty",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_financial_difficulty",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_households_financial_difficulty.csv"
     },
     {
@@ -3840,7 +3840,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_households_heavy_burden_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_heavy_burden",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3849,8 +3849,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_heavy_burden",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_heavy_burden",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_households_heavy_burden.csv"
     },
     {
@@ -3861,7 +3861,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_households_no_savings_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_no_savings",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3870,8 +3870,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_no_savings",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_households_no_savings",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_households_no_savings.csv"
     },
     {
@@ -3882,7 +3882,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_household_spending_avg_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_avg",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3891,8 +3891,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_avg",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_avg",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_household_spending_avg.csv"
     },
     {
@@ -3903,7 +3903,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_household_spending_detail_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_detail",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3912,8 +3912,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_detail",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_detail",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_household_spending_detail.csv"
     },
     {
@@ -3924,7 +3924,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_household_spending_new_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_new",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3933,8 +3933,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_new",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_spending_new",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_household_spending_new.csv"
     },
     {
@@ -3945,7 +3945,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_labour_force_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_labour_force",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3954,8 +3954,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_labour_force",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_labour_force",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_labour_force.csv"
     },
     {
@@ -3966,7 +3966,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_laureati_occupazione_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_laureati_occupazione",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3975,8 +3975,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_laureati_occupazione",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_laureati_occupazione",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_laureati_occupazione.csv"
     },
     {
@@ -3987,7 +3987,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_manifest_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_manifest",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -3996,8 +3996,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_manifest",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_manifest",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_manifest.csv"
     },
     {
@@ -4008,7 +4008,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_mental_wellbeing_tavole_xlsx",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_mental_wellbeing_tavole.xlsx",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4017,8 +4017,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_mental_wellbeing_tavole.xlsx",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_mental_wellbeing_tavole.xlsx",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_mental_wellbeing_tavole.xlsx"
     },
     {
@@ -4029,7 +4029,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_neet_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4038,8 +4038,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_neet.csv"
     },
     {
@@ -4050,7 +4050,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_neet_giovani_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_giovani",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4059,8 +4059,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_giovani",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_giovani",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_neet_giovani.csv"
     },
     {
@@ -4071,7 +4071,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_neet_new_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_new",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4080,8 +4080,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_new",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_new",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_neet_new.csv"
     },
     {
@@ -4092,7 +4092,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_phd_occupational_status_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_phd_occupational_status",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4101,8 +4101,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_phd_occupational_status",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_phd_occupational_status",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_phd_occupational_status.csv"
     },
     {
@@ -4113,7 +4113,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_phd_wages_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_phd_wages",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4122,8 +4122,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_phd_wages",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_phd_wages",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_phd_wages.csv"
     },
     {
@@ -4134,7 +4134,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverta_relativa_incidenza_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverta_relativa_incidenza",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4143,8 +4143,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverta_relativa_incidenza",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverta_relativa_incidenza",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverta_relativa_incidenza.csv"
     },
     {
@@ -4155,7 +4155,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_absolute_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4164,8 +4164,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_absolute.csv"
     },
     {
@@ -4176,7 +4176,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_absolute_incidence_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_incidence",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4185,8 +4185,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_incidence",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_incidence",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_absolute_incidence.csv"
     },
     {
@@ -4197,7 +4197,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_absolute_intensity_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_intensity",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4206,8 +4206,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_intensity",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_intensity",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_absolute_intensity.csv"
     },
     {
@@ -4218,7 +4218,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_absolute_threshold_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_threshold",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4227,8 +4227,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_threshold",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_absolute_threshold",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_absolute_threshold.csv"
     },
     {
@@ -4239,7 +4239,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_relative_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4248,8 +4248,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_relative.csv"
     },
     {
@@ -4260,7 +4260,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_relative_incidence_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_incidence",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4269,8 +4269,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_incidence",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_incidence",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_relative_incidence.csv"
     },
     {
@@ -4281,7 +4281,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_relative_intensity_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_intensity",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4290,8 +4290,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_intensity",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_intensity",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_relative_intensity.csv"
     },
     {
@@ -4302,7 +4302,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_relative_threshold_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_threshold",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4311,8 +4311,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_threshold",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_relative_threshold",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_relative_threshold.csv"
     },
     {
@@ -4323,7 +4323,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_poverty_social_exclusion_risk_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_social_exclusion_risk",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4332,8 +4332,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_social_exclusion_risk",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_poverty_social_exclusion_risk",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_poverty_social_exclusion_risk.csv"
     },
     {
@@ -4344,7 +4344,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_schools_infanzia_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_infanzia",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4353,8 +4353,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_infanzia",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_infanzia",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_schools_infanzia.csv"
     },
     {
@@ -4365,7 +4365,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_schools_primaria_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_primaria",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4374,8 +4374,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_primaria",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_primaria",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_schools_primaria.csv"
     },
     {
@@ -4386,7 +4386,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_schools_sec1_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_sec1",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4395,8 +4395,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_sec1",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_sec1",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_schools_sec1.csv"
     },
     {
@@ -4407,7 +4407,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_schools_sec2_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_sec2",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4416,8 +4416,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_sec2",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_schools_sec2",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_schools_sec2.csv"
     },
     {
@@ -4428,7 +4428,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_scuola_infanzia_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_infanzia",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4437,8 +4437,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_infanzia",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_infanzia",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_scuola_infanzia.csv"
     },
     {
@@ -4449,7 +4449,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_scuola_primaria_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_primaria",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4458,8 +4458,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_primaria",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_primaria",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_scuola_primaria.csv"
     },
     {
@@ -4470,7 +4470,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_scuola_secondaria_1grado_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_secondaria_1grado",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4479,8 +4479,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_secondaria_1grado",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_secondaria_1grado",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_scuola_secondaria_1grado.csv"
     },
     {
@@ -4491,7 +4491,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_scuola_secondaria_2grado_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_secondaria_2grado",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4500,8 +4500,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_secondaria_2grado",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_scuola_secondaria_2grado",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_scuola_secondaria_2grado.csv"
     },
     {
@@ -4512,7 +4512,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_tasso_disoccupazione_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tasso_disoccupazione",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4521,8 +4521,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tasso_disoccupazione",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tasso_disoccupazione",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_tasso_disoccupazione.csv"
     },
     {
@@ -4533,7 +4533,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_tasso_occupazione_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tasso_occupazione",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4542,8 +4542,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tasso_occupazione",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tasso_occupazione",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_tasso_occupazione.csv"
     },
     {
@@ -4554,7 +4554,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_unemployment_rate_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_unemployment_rate",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4563,8 +4563,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_unemployment_rate",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_unemployment_rate",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_unemployment_rate.csv"
     },
     {
@@ -4575,7 +4575,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_universita_conto_economico_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_universita_conto_economico",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4584,8 +4584,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_universita_conto_economico",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_universita_conto_economico",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_universita_conto_economico.csv"
     },
     {
@@ -4596,7 +4596,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_universita_stato_patrimoniale_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_universita_stato_patrimoniale",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4605,8 +4605,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_universita_stato_patrimoniale",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_universita_stato_patrimoniale",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_universita_stato_patrimoniale.csv"
     },
     {
@@ -4617,7 +4617,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_balance_sheet_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_balance_sheet",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4626,8 +4626,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_balance_sheet",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_balance_sheet",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_university_balance_sheet.csv"
     },
     {
@@ -4638,7 +4638,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_graduates",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4647,8 +4647,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_graduates",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_graduates",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_university_graduates.csv"
     },
     {
@@ -4659,7 +4659,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_income_statement_csv",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_income_statement",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4668,8 +4668,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_income_statement",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_income_statement",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_university_income_statement.csv"
     },
     {
@@ -4680,7 +4680,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_indicators_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_indicators",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4689,8 +4689,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_indicators",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_university_indicators",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_university_indicators.csv"
     },
     {
@@ -4701,7 +4701,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: manifest_json",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4710,8 +4710,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/early_childhood_services/manifest.json"
     },
     {
@@ -4722,7 +4722,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_tertiary_degree_employees_by_nace2_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,6_471_DF_DCSP_LACIS_13,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4731,8 +4731,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,6_471_DF_DCSP_LACIS_13,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,6_471_DF_DCSP_LACIS_13,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/istat_tertiary_degree_employees_by_nace2.csv"
     },
     {
@@ -4743,7 +4743,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_job_search_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_937_DF_DCCV_LAU_RIC_1,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4752,8 +4752,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_937_DF_DCCV_LAU_RIC_1,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_937_DF_DCCV_LAU_RIC_1,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/istat_university_graduates_job_search.csv"
     },
     {
@@ -4764,7 +4764,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_monthly_income_csv",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_3,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4773,8 +4773,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_3,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_3,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/istat_university_graduates_monthly_income.csv"
     },
     {
@@ -4785,7 +4785,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_occupational_condition_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_1,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4794,8 +4794,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_1,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_1,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/istat_university_graduates_occupational_condition.csv"
     },
     {
@@ -4806,7 +4806,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_profession_group_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_2,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4815,8 +4815,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_2,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_2,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/istat_university_graduates_profession_group.csv"
     },
     {
@@ -4827,7 +4827,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: manifest_json",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4836,8 +4836,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/manifest.json"
     },
     {
@@ -4848,7 +4848,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_tertiary_degree_employees_by_nace2_xml",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,6_471_DF_DCSP_LACIS_13,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4857,8 +4857,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,6_471_DF_DCSP_LACIS_13,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,6_471_DF_DCSP_LACIS_13,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/raw/istat_tertiary_degree_employees_by_nace2.xml"
     },
     {
@@ -4869,7 +4869,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_job_search_xml",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_937_DF_DCCV_LAU_RIC_1,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4878,8 +4878,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_937_DF_DCCV_LAU_RIC_1,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_937_DF_DCCV_LAU_RIC_1,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/raw/istat_university_graduates_job_search.xml"
     },
     {
@@ -4890,7 +4890,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_monthly_income_xml",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_3,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4899,8 +4899,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_3,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_3,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/raw/istat_university_graduates_monthly_income.xml"
     },
     {
@@ -4911,7 +4911,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_occupational_condition_xml",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_1,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4920,8 +4920,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_1,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_1,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/raw/istat_university_graduates_occupational_condition.xml"
     },
     {
@@ -4932,7 +4932,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_university_graduates_profession_group_xml",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_2,1.0",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4941,8 +4941,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_2,1.0",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1,612_939_DF_DCCV_LAU_OCCUP_RED_2,1.0",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/graduate_transitions/raw/istat_university_graduates_profession_group.xml"
     },
     {
@@ -4953,7 +4953,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_non_observed_economy_report_2023_pdf",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://www.istat.it/wp-content/uploads/2025/10/Report-ECONOMIA-NON-OSSERVATA-NEI-CONTI-NAZIONALI_ANNO2023.pdf",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4962,8 +4962,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://www.istat.it/wp-content/uploads/2025/10/Report-ECONOMIA-NON-OSSERVATA-NEI-CONTI-NAZIONALI_ANNO2023.pdf",
+      "homepage": "https://www.istat.it/wp-content/uploads/2025/10/Report-ECONOMIA-NON-OSSERVATA-NEI-CONTI-NAZIONALI_ANNO2023.pdf",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/non_observed_economy/istat_non_observed_economy_report_2023.pdf"
     },
     {
@@ -4974,7 +4974,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_non_observed_economy_tables_2025_xlsx",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://www.istat.it/wp-content/uploads/2025/10/Tavole-Economia-non-osservata_2025.xlsx",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -4983,8 +4983,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://www.istat.it/wp-content/uploads/2025/10/Tavole-Economia-non-osservata_2025.xlsx",
+      "homepage": "https://www.istat.it/wp-content/uploads/2025/10/Tavole-Economia-non-osservata_2025.xlsx",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/non_observed_economy/istat_non_observed_economy_tables_2025.xlsx"
     },
     {
@@ -4995,7 +4995,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: manifest_json",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -5004,8 +5004,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=manifest.json",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/non_observed_economy/manifest.json"
     },
     {
@@ -5016,7 +5016,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_lower_secondary_indicators_long_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_long",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -5025,8 +5025,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_long",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_long",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/school_outcomes/istat_lower_secondary_indicators_long.csv"
     },
     {
@@ -5037,7 +5037,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_lower_secondary_indicators_raw_xml",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_raw.xml",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -5046,8 +5046,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_raw.xml",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_raw.xml",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/school_outcomes/istat_lower_secondary_indicators_raw.xml"
     },
     {
@@ -5058,7 +5058,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_repeaters_upper_secondary_long_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_long",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -5067,8 +5067,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_long",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_long",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/school_outcomes/istat_repeaters_upper_secondary_long.csv"
     },
     {
@@ -5079,7 +5079,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_repeaters_upper_secondary_raw_xml",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_raw.xml",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -5088,8 +5088,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_raw.xml",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_raw.xml",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/school_outcomes/istat_repeaters_upper_secondary_raw.xml"
     },
     {
@@ -5163,7 +5163,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_parental_education_by_region_manual_required_json",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_parental_education_by_region_manual_required.json",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -5172,8 +5172,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_parental_education_by_region_manual_required.json",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_parental_education_by_region_manual_required.json",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/manual_required/istat_parental_education_by_region_manual_required.json"
     },
     {
@@ -9426,7 +9426,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_demographic_projections_school_age_raw_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_projections_school_age_raw",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -9435,8 +9435,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_projections_school_age_raw",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_projections_school_age_raw",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/new_frontiers/istat_demographic_projections_school_age_raw.csv"
     },
     {
@@ -10371,7 +10371,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: openpolis_neet_metropolitan_capitals_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_metropolitan_capitals",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -10380,8 +10380,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_metropolitan_capitals",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_metropolitan_capitals",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/Openpolis/openpolis_neet_metropolitan_capitals.csv"
     },
     {
@@ -10392,7 +10392,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: openpolis_neet_urban_rural_gap_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_urban_rural_gap",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -10401,8 +10401,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_urban_rural_gap",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_urban_rural_gap",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/Openpolis/openpolis_neet_urban_rural_gap.csv"
     },
     {
@@ -10896,7 +10896,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: share-employment-agriculture-industry-services_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=share-employment-agriculture-industry-services",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -10905,8 +10905,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=share-employment-agriculture-industry-services",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=share-employment-agriculture-industry-services",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ourWorldData/share-employment-agriculture-industry-services/share-employment-agriculture-industry-services.csv"
     },
     {
@@ -10917,7 +10917,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: share-employment-agriculture-industry-services_metadata_json",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=share-employment-agriculture-industry-services.metadata.json",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -10926,8 +10926,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=share-employment-agriculture-industry-services.metadata.json",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=share-employment-agriculture-industry-services.metadata.json",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ourWorldData/share-employment-agriculture-industry-services/share-employment-agriculture-industry-services.metadata.json"
     },
     {
@@ -11064,7 +11064,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_asili_nido_coverage_panel_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_asili_nido_coverage_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -11073,8 +11073,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_asili_nido_coverage_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_asili_nido_coverage_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/istat_asili_nido_coverage_panel.csv"
     },
     {
@@ -11085,7 +11085,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_worldbank_international_brain_drain_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_worldbank_international_brain_drain",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -11094,8 +11094,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_worldbank_international_brain_drain",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_worldbank_international_brain_drain",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/istat_worldbank_international_brain_drain.csv"
     },
     {
@@ -12702,7 +12702,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: agcom_istat_digital_divide_and_connectivity_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=agcom_istat_digital_divide_and_connectivity_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -12711,8 +12711,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=agcom_istat_digital_divide_and_connectivity_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=agcom_istat_digital_divide_and_connectivity_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/agcom_istat_digital_divide_and_connectivity_panel.csv"
     },
     {
@@ -12828,7 +12828,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: almalaurea_istat_school_to_work_transition_times_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=almalaurea_istat_school_to_work_transition_times",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -12837,8 +12837,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=almalaurea_istat_school_to_work_transition_times",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=almalaurea_istat_school_to_work_transition_times",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/almalaurea_istat_school_to_work_transition_times.csv"
     },
     {
@@ -12975,7 +12975,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: anpal_replacement_neet_annual_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_annual",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -12984,8 +12984,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_annual",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_annual",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/anpal_replacement_neet_annual.csv"
     },
     {
@@ -12996,7 +12996,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: anpal_replacement_neet_by_migration_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_by_migration",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13005,8 +13005,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_by_migration",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_neet_by_migration",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/anpal_replacement_neet_by_migration.csv"
     },
     {
@@ -13017,7 +13017,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: anpal_replacement_youth_unemployment_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_youth_unemployment",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13026,8 +13026,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_youth_unemployment",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_replacement_youth_unemployment",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/anpal_replacement_youth_unemployment.csv"
     },
     {
@@ -13059,7 +13059,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: anpal_youth_unemployment_processed_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_youth_unemployment_processed",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13068,8 +13068,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_youth_unemployment_processed",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=anpal_youth_unemployment_processed",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/anpal_youth_unemployment_processed.csv"
     },
     {
@@ -13101,7 +13101,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: banca_d_italia_istat_tfp_stagnation_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=banca_d_italia_istat_tfp_stagnation_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13110,8 +13110,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=banca_d_italia_istat_tfp_stagnation_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=banca_d_italia_istat_tfp_stagnation_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/banca_d_italia_istat_tfp_stagnation_panel.csv"
     },
     {
@@ -13752,7 +13752,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: elet_neet_lfs_historical_series_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=elet_neet_lfs_historical_series",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13761,8 +13761,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=elet_neet_lfs_historical_series",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=elet_neet_lfs_historical_series",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/elet_neet_lfs_historical_series.csv"
     },
     {
@@ -13773,7 +13773,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: estimated_bes_students_by_region_order_2024_25_using_istat_rates_csv",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estimated_bes_students_by_region_order_2024_25_using_istat_rates",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13782,8 +13782,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estimated_bes_students_by_region_order_2024_25_using_istat_rates",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=estimated_bes_students_by_region_order_2024_25_using_istat_rates",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/estimated_bes_students_by_region_order_2024_25_using_istat_rates.csv"
     },
     {
@@ -13857,7 +13857,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_istat_desi_digital_skills_attainment_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_istat_desi_digital_skills_attainment_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13866,8 +13866,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_istat_desi_digital_skills_attainment_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_istat_desi_digital_skills_attainment_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/eurostat_istat_desi_digital_skills_attainment_panel.csv"
     },
     {
@@ -13878,7 +13878,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_neet_gender_eu_comparison_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_neet_gender_eu_comparison",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13887,8 +13887,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_neet_gender_eu_comparison",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_neet_gender_eu_comparison",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/eurostat_neet_gender_eu_comparison.csv"
     },
     {
@@ -13962,7 +13962,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: eurostat_sdmx_citizenship_migrant_neet_panel_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_sdmx_citizenship_migrant_neet_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -13971,8 +13971,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_sdmx_citizenship_migrant_neet_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=eurostat_sdmx_citizenship_migrant_neet_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/eurostat_sdmx_citizenship_migrant_neet_panel.csv"
     },
     {
@@ -14886,7 +14886,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: inps_mlps_naspi_cig_youth_unemployment_benefits_panel_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=inps_mlps_naspi_cig_youth_unemployment_benefits_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -14895,8 +14895,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=inps_mlps_naspi_cig_youth_unemployment_benefits_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=inps_mlps_naspi_cig_youth_unemployment_benefits_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/inps_mlps_naspi_cig_youth_unemployment_benefits_panel.csv"
     },
     {
@@ -15201,7 +15201,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_bes_rate_by_region_order_2022_2023_csv",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bes_rate_by_region_order_2022_2023",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15210,8 +15210,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bes_rate_by_region_order_2022_2023",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bes_rate_by_region_order_2022_2023",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_bes_rate_by_region_order_2022_2023.csv"
     },
     {
@@ -15222,7 +15222,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_caritas_child_material_deprivation_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_caritas_child_material_deprivation_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15231,8 +15231,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_caritas_child_material_deprivation_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_caritas_child_material_deprivation_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_caritas_child_material_deprivation_panel.csv"
     },
     {
@@ -15243,7 +15243,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_census_housing_income_micro_aggregates_csv",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_census_housing_income_micro_aggregates",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15252,8 +15252,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_census_housing_income_micro_aggregates",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_census_housing_income_micro_aggregates",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_census_housing_income_micro_aggregates.csv"
     },
     {
@@ -15264,7 +15264,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_census_provincial_population_by_education_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_census_provincial_population_by_education",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15273,8 +15273,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_census_provincial_population_by_education",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_census_provincial_population_by_education",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_census_provincial_population_by_education.csv"
     },
     {
@@ -15285,7 +15285,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_demographic_projections_school_age_population_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_projections_school_age_population",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15294,8 +15294,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_projections_school_age_population",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_projections_school_age_population",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_demographic_projections_school_age_population.csv"
     },
     {
@@ -15306,7 +15306,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_demographic_school_closures_regional_panel_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_school_closures_regional_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15315,8 +15315,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_school_closures_regional_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_demographic_school_closures_regional_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_demographic_school_closures_regional_panel.csv"
     },
     {
@@ -15327,7 +15327,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_disability_rate_timeseries_by_order_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_disability_rate_timeseries_by_order",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15336,8 +15336,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_disability_rate_timeseries_by_order",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_disability_rate_timeseries_by_order",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_disability_rate_timeseries_by_order.csv"
     },
     {
@@ -15348,7 +15348,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_excelsior_motherhood_penalty_gender_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_excelsior_motherhood_penalty_gender_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15357,8 +15357,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_excelsior_motherhood_penalty_gender_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_excelsior_motherhood_penalty_gender_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_excelsior_motherhood_penalty_gender_panel.csv"
     },
     {
@@ -15369,7 +15369,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_inapp_binary_lock_university_exclusion_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_inapp_binary_lock_university_exclusion",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15378,8 +15378,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_inapp_binary_lock_university_exclusion",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_inapp_binary_lock_university_exclusion",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_inapp_binary_lock_university_exclusion.csv"
     },
     {
@@ -15390,7 +15390,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_inapp_informal_childcare_and_family_welfare_dependency_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_inapp_informal_childcare_and_family_welfare_dependency",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15399,8 +15399,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_inapp_informal_childcare_and_family_welfare_dependency",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_inapp_informal_childcare_and_family_welfare_dependency",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_inapp_informal_childcare_and_family_welfare_dependency.csv"
     },
     {
@@ -15411,7 +15411,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_lfs_longitudinal_transitions_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lfs_longitudinal_transitions_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15420,8 +15420,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lfs_longitudinal_transitions_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lfs_longitudinal_transitions_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_lfs_longitudinal_transitions_panel.csv"
     },
     {
@@ -15432,7 +15432,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_lower_secondary_exam_proxy_latest_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_exam_proxy_latest",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15441,8 +15441,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_exam_proxy_latest",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_exam_proxy_latest",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_lower_secondary_exam_proxy_latest.csv"
     },
     {
@@ -15453,7 +15453,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_lower_secondary_indicators_latest_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_latest",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15462,8 +15462,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_latest",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_indicators_latest",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_lower_secondary_indicators_latest.csv"
     },
     {
@@ -15474,7 +15474,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_lower_secondary_sources_manifest_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_sources_manifest",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15483,8 +15483,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_sources_manifest",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_lower_secondary_sources_manifest",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_lower_secondary_sources_manifest.csv"
     },
     {
@@ -15495,7 +15495,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_municipal_social_spending_education_budgets_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_municipal_social_spending_education_budgets",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15504,8 +15504,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_municipal_social_spending_education_budgets",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_municipal_social_spending_education_budgets",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_municipal_social_spending_education_budgets.csv"
     },
     {
@@ -15516,7 +15516,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_national_accounts_black_labor_and_irregularity_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_national_accounts_black_labor_and_irregularity",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15525,8 +15525,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_national_accounts_black_labor_and_irregularity",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_national_accounts_black_labor_and_irregularity",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_national_accounts_black_labor_and_irregularity.csv"
     },
     {
@@ -15537,7 +15537,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_neet_and_dropout_by_attainment_panel_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_and_dropout_by_attainment_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15546,8 +15546,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_and_dropout_by_attainment_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_and_dropout_by_attainment_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_neet_and_dropout_by_attainment_panel.csv"
     },
     {
@@ -15558,7 +15558,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_neet_regional_time_series_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_regional_time_series",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15567,8 +15567,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_regional_time_series",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_neet_regional_time_series",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_neet_regional_time_series.csv"
     },
     {
@@ -15579,7 +15579,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_oecd_cumulative_lifecycle_student_expenditure_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_oecd_cumulative_lifecycle_student_expenditure",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15588,8 +15588,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_oecd_cumulative_lifecycle_student_expenditure",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_oecd_cumulative_lifecycle_student_expenditure",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_oecd_cumulative_lifecycle_student_expenditure.csv"
     },
     {
@@ -15600,7 +15600,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_parental_keyword_flows_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_parental_keyword_flows",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15609,8 +15609,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_parental_keyword_flows",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_parental_keyword_flows",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_parental_keyword_flows.csv"
     },
     {
@@ -15621,7 +15621,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_presociological_origin_regional_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_presociological_origin_regional_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15630,8 +15630,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_presociological_origin_regional_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_presociological_origin_regional_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_presociological_origin_regional_panel.csv"
     },
     {
@@ -15642,7 +15642,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_repeaters_upper_secondary_latest_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_latest",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15651,8 +15651,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_latest",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_latest",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_repeaters_upper_secondary_latest.csv"
     },
     {
@@ -15663,7 +15663,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_repeaters_upper_secondary_ranking_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_ranking",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15672,8 +15672,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_ranking",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_repeaters_upper_secondary_ranking",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_repeaters_upper_secondary_ranking.csv"
     },
     {
@@ -15684,7 +15684,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_school_outcomes_sources_manifest_csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_school_outcomes_sources_manifest",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15693,8 +15693,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_school_outcomes_sources_manifest",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_school_outcomes_sources_manifest",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_school_outcomes_sources_manifest.csv"
     },
     {
@@ -15705,7 +15705,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_sdmx_provincial_elet_and_attainment_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_sdmx_provincial_elet_and_attainment_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15714,8 +15714,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_sdmx_provincial_elet_and_attainment_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_sdmx_provincial_elet_and_attainment_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_sdmx_provincial_elet_and_attainment_panel.csv"
     },
     {
@@ -15726,7 +15726,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_shadow_tutoring_private_expenditure_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_shadow_tutoring_private_expenditure",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15735,8 +15735,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_shadow_tutoring_private_expenditure",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_shadow_tutoring_private_expenditure",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_shadow_tutoring_private_expenditure.csv"
     },
     {
@@ -15747,7 +15747,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_student_commuting_and_transport_infrastructure_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_student_commuting_and_transport_infrastructure_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15756,8 +15756,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_student_commuting_and_transport_infrastructure_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_student_commuting_and_transport_infrastructure_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_student_commuting_and_transport_infrastructure_panel.csv"
     },
     {
@@ -15768,7 +15768,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_tertiary_attainment_30_34_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tertiary_attainment_30_34_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15777,8 +15777,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tertiary_attainment_30_34_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_tertiary_attainment_30_34_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_tertiary_attainment_30_34_panel.csv"
     },
     {
@@ -15789,7 +15789,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_unemployment_by_degree_and_region_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_unemployment_by_degree_and_region",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15798,8 +15798,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_unemployment_by_degree_and_region",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_unemployment_by_degree_and_region",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_unemployment_by_degree_and_region.csv"
     },
     {
@@ -15810,7 +15810,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_youth_poverty_risk_by_household_type_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_youth_poverty_risk_by_household_type",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -15819,8 +15819,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_youth_poverty_risk_by_household_type",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_youth_poverty_risk_by_household_type",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/istat_youth_poverty_risk_by_household_type.csv"
     },
     {
@@ -16650,7 +16650,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_covid_period_summary_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_covid_period_summary",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16659,8 +16659,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_covid_period_summary",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_covid_period_summary",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_covid_period_summary.csv"
     },
     {
@@ -16671,7 +16671,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_expanded_sources_manifest_json",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_expanded_sources_manifest.json",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16680,8 +16680,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_expanded_sources_manifest.json",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_expanded_sources_manifest.json",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_expanded_sources_manifest.json"
     },
     {
@@ -16692,7 +16692,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_gender_gap_by_year_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_gap_by_year",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16701,8 +16701,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_gap_by_year",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_gap_by_year",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_gender_gap_by_year.csv"
     },
     {
@@ -16713,7 +16713,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_gender_total_yearly_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_total_yearly",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16722,8 +16722,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_total_yearly",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_total_yearly",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_gender_total_yearly.csv"
     },
     {
@@ -16734,7 +16734,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_gender_year_panel_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_year_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16743,8 +16743,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_year_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_gender_year_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_gender_year_panel.csv"
     },
     {
@@ -16755,7 +16755,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_regional_model_panel_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_model_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16764,8 +16764,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_model_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_model_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_regional_model_panel.csv"
     },
     {
@@ -16776,7 +16776,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_regional_risk_model_coefficients_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_coefficients",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16785,8 +16785,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_coefficients",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_coefficients",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_regional_risk_model_coefficients.csv"
     },
     {
@@ -16797,7 +16797,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_regional_risk_model_metrics_json",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_metrics.json",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16806,8 +16806,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_metrics.json",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_metrics.json",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_regional_risk_model_metrics.json"
     },
     {
@@ -16818,7 +16818,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_regional_risk_model_predictions_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_predictions",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16827,8 +16827,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_predictions",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_risk_model_predictions",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_regional_risk_model_predictions.csv"
     },
     {
@@ -16839,7 +16839,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: neet_regional_target_panel_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_target_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -16848,8 +16848,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_target_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=neet_regional_target_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/neet_regional_target_panel.csv"
     },
     {
@@ -17112,7 +17112,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: openpolis_neet_metropolitan_capitals_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_metropolitan_capitals",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -17121,8 +17121,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_metropolitan_capitals",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_metropolitan_capitals",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/openpolis_neet_metropolitan_capitals.csv"
     },
     {
@@ -17133,7 +17133,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: openpolis_neet_urban_rural_gap_csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_urban_rural_gap",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -17142,8 +17142,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_urban_rural_gap",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=openpolis_neet_urban_rural_gap",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/openpolis_neet_urban_rural_gap.csv"
     },
     {
@@ -17658,7 +17658,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: svimez_istat_brain_drain_regional_migration_panel_csv",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=svimez_istat_brain_drain_regional_migration_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -17667,8 +17667,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=svimez_istat_brain_drain_regional_migration_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=svimez_istat_brain_drain_regional_migration_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/processed_data/svimez_istat_brain_drain_regional_migration_panel.csv"
     },
     {
@@ -18183,7 +18183,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_bes_education_wellbeing_panel",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bes_education_wellbeing_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18192,8 +18192,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bes_education_wellbeing_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bes_education_wellbeing_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_bes_education_wellbeing_panel.csv"
     },
     {
@@ -18393,7 +18393,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_fss_social_mobility_matrix",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_fss_social_mobility_matrix",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18402,8 +18402,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_fss_social_mobility_matrix",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_fss_social_mobility_matrix",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_fss_social_mobility_matrix.csv"
     },
     {
@@ -18582,7 +18582,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_cultural_capital_poverty",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_cultural_capital_poverty",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18591,8 +18591,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_cultural_capital_poverty",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_cultural_capital_poverty",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_cultural_capital_poverty.csv"
     },
     {
@@ -18603,7 +18603,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_bullying_cyberbullying_prevalence",
-          "path": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bullying_cyberbullying_prevalence",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18612,8 +18612,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
-      "homepage": "https://www.istat.it/it/dati-analisi-e-prodotti/open-data",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bullying_cyberbullying_prevalence",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bullying_cyberbullying_prevalence",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/ISTAT/istat_bullying_cyberbullying_prevalence.csv"
     },
     {
@@ -18665,7 +18665,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_bocciati_rimandati_rates.csv",
-          "path": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bocciati_rimandati_rates",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18674,8 +18674,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/istruzione+e+formazione",
-      "homepage": "https://www.istat.it/it/archivio/istruzione+e+formazione",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bocciati_rimandati_rates",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_bocciati_rimandati_rates",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/istat_bocciati_rimandati_rates.csv"
     },
     {
@@ -18705,7 +18705,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_household_income_by_region.csv",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_income_by_region",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18714,8 +18714,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_income_by_region",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_household_income_by_region",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/istat_household_income_by_region.csv"
     },
     {
@@ -18745,7 +18745,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_youth_employment_rates.csv",
-          "path": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_youth_employment_rates",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18754,8 +18754,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
-      "homepage": "https://www.istat.it/it/archivio/lavoro+e+retribuzioni",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_youth_employment_rates",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_youth_employment_rates",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/istat_youth_employment_rates.csv"
     },
     {
@@ -18814,7 +18814,7 @@
       "sources": [
         {
           "title": "Institutional Source Authority: istat_eurostat_gini_inequality_panel",
-          "path": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+          "path": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_eurostat_gini_inequality_panel",
           "type": "Institutional Portal (May require session cookies)"
         },
         {
@@ -18823,8 +18823,8 @@
           "type": "Direct Raw CSV Download"
         }
       ],
-      "url": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
-      "homepage": "https://www.istat.it/it/benessere-e-sostenibilita/indicatori-bes",
+      "url": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_eurostat_gini_inequality_panel",
+      "homepage": "https://esploradati.istat.it/databrowser/#/it/dw/search?TEXT=istat_eurostat_gini_inequality_panel",
       "direct_download_url": "https://raw.githubusercontent.com/Eugenix94/Italienation/main/local_data/processed/istat_eurostat_gini_inequality_panel.csv"
     }
   ]

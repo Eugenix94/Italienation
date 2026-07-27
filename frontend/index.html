@@ -1,117 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Italienation | The OED Pipeline</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <!-- Dynamic Citation Drawer (Glassmorphism) -->
-    <div id="citation-drawer" class="drawer hidden">
-        <div class="drawer-header">
-            <h3>Data Provenance</h3>
-            <button id="close-drawer">&times;</button>
-        </div>
-        <div class="drawer-content">
-            <p><strong>Dataset:</strong> <span id="cite-title"></span></p>
-            <p><strong>Source:</strong> <span id="cite-source"></span></p>
-            <p><strong>License:</strong> <span id="cite-license"></span></p>
-            <p class="cite-desc" id="cite-desc"></p>
-            <a href="#" id="cite-link" target="_blank" class="btn-primary">Verify Source</a>
-        </div>
-    </div>
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Italienation</h1>
-            <h2>The €48 Billion Deficit</h2>
-            <p>A systemic, econometric mapping of how the Italian education system amplifies the socioeconomic circumstances of birth, driving an institutional equilibrium of failure.</p>
-            <div class="scroll-indicator">Scroll to Explore</div>
-        </div>
-    </header>
-
-    <!-- Scrollytelling Container -->
-    <main id="scrolly">
-        <!-- Sticky Graphic (Changes based on scroll) -->
-        <figure class="sticky-graphic">
-            <div id="graphic-canvas">
-                <div class="graphic-content active" id="viz-0">
-                    <h2>The Institutional Equilibrium</h2>
-                    <p>Italy invests only <span class="cite-token" data-source-id="macro_state_gdp_underinvestment.csv">3.9% of GDP</span> in education.</p>
-                </div>
-                <div class="graphic-content" id="viz-1">
-                    <h2>The Golden Path</h2>
-                    <p>High SES, Northern Liceo.</p>
-                </div>
-                <div class="graphic-content" id="viz-2">
-                    <h2>The Southern Squeeze</h2>
-                    <p>Precarious technical transition.</p>
-                </div>
-                <div class="graphic-content" id="viz-3">
-                    <h2>The Invisible Dropout</h2>
-                    <p>Gender and caregiving traps.</p>
-                </div>
-                <div class="graphic-content" id="viz-4">
-                    <h2>The Migrant Struggle</h2>
-                    <p>Systemic friction and shadow economy.</p>
-                </div>
-            </div>
-        </figure>
-
-        <!-- Scrolling Narrative Steps -->
-        <article class="scroll-text">
-            <section class="step" data-step="0">
-                <h3>The Origin Trap</h3>
-                <p>The Italian state delegates the cost of education to the familial welfare state. Working class families face severe burdens for basic services, while the state fails to execute PNRR funds for <span class="cite-token" data-source-id="macro_pnrr_allocation_vs_spending.csv">Asili Nido (27.1% spent)</span>.</p>
-            </section>
-            
-            <section class="step" data-step="1">
-                <h3>Alessandro: The Golden Path</h3>
-                <p>Tracked into a <strong>Liceo Scientifico</strong>. When he struggles, his family utilizes the shadow economy of <span class="cite-token" data-source-id="shiw_private_tutoring_shadow_economy.csv">Private Tutoring</span> to bypass the <span class="cite-token" data-source-id="istat_bocciati_rimandati_rates.csv">1.2% Bocciati rate</span>.</p>
-            </section>
-
-            <section class="step" data-step="2">
-                <h3>Marco: The Southern Squeeze</h3>
-                <p>Tracked into a Technical Institute in the South. He faces severe transport friction and graduates into a local economy that guarantees a 4.5 year wait for a stable contract, driving <span class="cite-token" data-source-id="istat_youth_employment_rates.csv">High Youth Precariousness</span>.</p>
-            </section>
-
-            <section class="step" data-step="3">
-                <h3>Chiara: The Invisible Dropout</h3>
-                <p>Funneled into a Vocational school. She graduates with a <span class="cite-token" data-source-id="invalsi_overall_performance.csv">19.8% Implicit Dropout</span> deficit. Forced out of the workforce by the lack of childcare, ensuring terminal <span class="cite-token" data-source-id="eurostat_adults_living_with_parents.csv">Family Reliance (67.4%)</span>.</p>
-            </section>
-
-            <section class="step" data-step="4">
-                <h3>Amir: The Migrant Struggle</h3>
-                <p>Faces systemic social hostility and is pushed entirely out of formal education, funneling directly into the irregular labor market where <span class="cite-token" data-source-id="istat_bocciati_rimandati_rates.csv">Vocational Failure (17.3%)</span> traps a generation.</p>
-            </section>
-        </article>
-    </main>
-
-    <!-- Data Terminal -->
-    <section class="data-terminal">
-        <h2>Explore the 893 Datasets</h2>
-        <p>This entire narrative is generated directly from our verified open-science datasets. No numbers are hardcoded.</p>
-        <div class="terminal-table-container">
-            <table id="dataset-table">
-                <thead>
-                    <tr>
-                        <th>File</th>
-                        <th>Source</th>
-                        <th>License</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody id="dataset-tbody">
-                    <!-- Populated by app.js -->
-                </tbody>
-            </table>
-        </div>
-    </section>
-
-    <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Italienation | OED Simulator</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
