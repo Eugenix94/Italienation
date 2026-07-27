@@ -1,178 +1,165 @@
 import React from 'react';
+import { 
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer,
+  ScatterChart, Scatter, ZAxis, Cell, LineChart, Line
+} from 'recharts';
+import metricsData from '../assets/dashboard_metrics.json';
+import { Database } from 'lucide-react';
 import { T } from '../components/T';
-import { ArrowRight, Search, Map, GraduationCap, AlertOctagon } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import EurydiceComparison from '../components/EurydiceComparison';
 
 export default function Home() {
-  return (
-    <div className="max-w-4xl mx-auto px-4 py-16 space-y-32">
-      
-      {/* The Hook (Hero) */}
-      <motion.section 
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="text-center space-y-8"
-      >
-        <div className="inline-block px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-sm font-semibold mb-4">
-          <T it="Un'Indagine Basata sui Dati" en="A Data-Driven Investigation" />
+  const { tracking_outcomes, international_comparison, invalsi_performance } = metricsData;
+
+  const CustomTooltip = ({ active, payload, label }) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className="bg-zinc-900 border border-zinc-700 p-4 rounded-lg shadow-xl">
+          <p className="font-bold text-white mb-2">{label}</p>
+          {payload.map((entry, index) => (
+            <p key={index} style={{ color: entry.color }} className="text-sm">
+              {entry.name}: {entry.value}
+            </p>
+          ))}
         </div>
-        <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-tight text-white">
-          <T 
-            it="Il tuo futuro è già stato deciso." 
-            en="Your future has already been decided." 
-          />
+      );
+    }
+    return null;
+  };
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
+      
+      <div className="text-center space-y-4 mb-16">
+        <div className="inline-flex items-center justify-center p-4 bg-indigo-500/10 rounded-full mb-4">
+          <Database size={32} className="text-indigo-400" />
+        </div>
+        <h1 className="text-4xl md:text-5xl font-black text-white">
+          <T it="Esploratore Dati OED" en="OED Data Explorer" />
         </h1>
-        <p className="text-zinc-300 text-xl sm:text-2xl leading-relaxed max-w-3xl mx-auto font-light">
+        <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
           <T 
-            it="In Italia, a soli 14 anni, i ragazzi fanno una scelta scolastica che determinerà se andranno all'università o se diventeranno disoccupati. Ma è davvero una scelta libera?" 
-            en="In Italy, at just 14 years old, children make a school choice that determines whether they go to university or become unemployed. But is it really a free choice?" 
+            it="Visualizzazione interattiva delle metriche strutturali del sistema educativo italiano, basata su 681 dataset ufficiali." 
+            en="Interactive visualization of structural metrics within the Italian educational system, based on 681 official datasets." 
           />
         </p>
-      </motion.section>
-
-      {/* Act I */}
-      <motion.section 
-        initial={{ opacity: 0, x: -30 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        className="relative flex flex-col md:flex-row gap-12 items-center"
-      >
-        <div className="md:w-1/3">
-          <div className="text-8xl font-black text-white/5 absolute -top-10 -left-6 z-0 pointer-events-none">1</div>
-          <div className="relative z-10 w-24 h-24 rounded-full bg-indigo-600 flex items-center justify-center shadow-[0_0_50px_rgba(79,70,229,0.4)]">
-            <Map size={40} className="text-white" />
-          </div>
-        </div>
-        <div className="md:w-2/3 space-y-6 relative z-10">
-          <h2 className="text-4xl font-bold text-white">
-            <T it="Atto I: L'Illusione della Scelta" en="Act I: The Illusion of Choice" />
-          </h2>
-          <p className="text-xl text-zinc-300 leading-relaxed">
-            <T 
-              it="Ti dicono che scegli il Liceo o l'Istituto Professionale in base al tuo talento. I nostri dati dimostrano il contrario." 
-              en="They tell you that you choose between a Lyceum or a Vocational school based on your talent. Our data proves otherwise." 
-            />
-          </p>
-          <div className="bg-white/5 border border-indigo-500/30 p-6 rounded-2xl">
-            <p className="text-lg text-white font-medium">
-              <T 
-                it="Se nasci in un quartiere ricco, hai l'80% di probabilità di finire al Liceo. Se nasci in un quartiere povero, finirai quasi certamente in un Professionale o Tecnico." 
-                en="If you are born in a wealthy neighborhood, you have an 80% chance of ending up in a Lyceum. If you are born in a poor neighborhood, you will almost certainly end up in a Vocational or Technical school." 
-              />
-            </p>
-          </div>
-        </div>
-      </motion.section>
-
-      {/* Act II */}
-      <motion.section 
-        initial={{ opacity: 0, x: 30 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        className="relative flex flex-col md:flex-row-reverse gap-12 items-center"
-      >
-        <div className="md:w-1/3 flex justify-end">
-          <div className="text-8xl font-black text-white/5 absolute -top-10 -right-6 z-0 pointer-events-none">2</div>
-          <div className="relative z-10 w-24 h-24 rounded-full bg-rose-600 flex items-center justify-center shadow-[0_0_50px_rgba(225,29,72,0.4)]">
-            <AlertOctagon size={40} className="text-white" />
-          </div>
-        </div>
-        <div className="md:w-2/3 space-y-6 relative z-10 text-left md:text-right">
-          <h2 className="text-4xl font-bold text-white">
-            <T it="Atto II: La Doppia Penalizzazione" en="Act II: The Double Penalty" />
-          </h2>
-          <p className="text-xl text-zinc-300 leading-relaxed">
-            <T 
-              it="Una volta smistati i ragazzi più poveri nei Professionali, lo Stato li punisce una seconda volta." 
-              en="Once the poorest children are sorted into Vocational schools, the State punishes them a second time." 
-            />
-          </p>
-          <div className="bg-white/5 border border-rose-500/30 p-6 rounded-2xl text-left inline-block w-full">
-            <p className="text-lg text-white font-medium mb-4">
-              <T 
-                it="I dati del Ministero mostrano che le scuole Professionali ricevono sistematicamente le risorse peggiori:" 
-                en="Ministry data shows that Vocational schools systematically receive the worst resources:" 
-              />
-            </p>
-            <ul className="space-y-2 text-zinc-300 list-disc pl-5">
-              <li><T it="Edifici vecchi, non sicuri e con barriere architettoniche." en="Old, unsafe buildings with architectural barriers." /></li>
-              <li><T it="Insegnanti precari che cambiano ogni anno, impedendo la continuità." en="Precarious teachers who change every year, preventing continuity." /></li>
-            </ul>
-          </div>
-        </div>
-      </motion.section>
-
-      {/* Act III */}
-      <motion.section 
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        className="relative flex flex-col md:flex-row gap-12 items-center"
-      >
-        <div className="md:w-1/3">
-          <div className="text-8xl font-black text-white/5 absolute -top-10 -left-6 z-0 pointer-events-none">3</div>
-          <div className="relative z-10 w-24 h-24 rounded-full bg-amber-500 flex items-center justify-center shadow-[0_0_50px_rgba(245,158,11,0.4)]">
-            <GraduationCap size={40} className="text-white" />
-          </div>
-        </div>
-        <div className="md:w-2/3 space-y-6 relative z-10">
-          <h2 className="text-4xl font-bold text-white">
-            <T it="Atto III: Il Risultato (NEET)" en="Act III: The Destination (NEET)" />
-          </h2>
-          <p className="text-xl text-zinc-300 leading-relaxed">
-            <T 
-              it="Questa divisione a 14 anni non è un incidente. È una catena di montaggio che produce disuguaglianza." 
-              en="This division at age 14 is not an accident. It is an assembly line that manufactures inequality." 
-            />
-          </p>
-          <div className="bg-amber-500/10 border border-amber-500/30 p-6 rounded-2xl">
-            <p className="text-2xl font-bold text-amber-400 mb-2">19%</p>
-            <p className="text-lg text-white">
-              <T 
-                it="Quasi un giovane su cinque in Italia finisce per non studiare e non lavorare (NEET). Non perché sono pigri, ma perché il sistema li ha inseriti in un percorso a ostacoli insuperabile." 
-                en="Almost one in five young people in Italy ends up not studying and not working (NEET). Not because they are lazy, but because the system put them in an unbeatable obstacle course." 
-              />
-            </p>
-          </div>
-        </div>
-      </motion.section>
-
-      {/* Eurydice Integration */}
-      <motion.section
-        initial={{ opacity: 0, scale: 0.95 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.6 }}
-      >
-        <EurydiceComparison />
-      </motion.section>
-
-      {/* Call to Action */}
-      <motion.section 
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="text-center pb-24 relative z-10"
-      >
-        <div className="bg-white/[0.03] border border-white/10 p-12 rounded-3xl backdrop-blur-xl">
-          <h3 className="text-3xl font-bold mb-6 text-white">
-            <T it="Mettiamo alla prova il sistema." en="Let's put the system to the test." />
-          </h3>
-          <p className="text-zinc-400 mb-8 max-w-xl mx-auto text-lg">
-            <T 
-              it="Usa il nostro Simulatore OED interattivo. Scegli un profilo studente e guarda come i numeri del Ministero determinano il suo destino matematicamente." 
-              en="Use our interactive OED Simulator. Choose a student profile and watch how the Ministry's numbers mathematically determine their fate." 
-            />
-          </p>
-          <Link to="/simulator" className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold transition shadow-[0_0_30px_rgba(79,70,229,0.5)] text-lg">
-            <T it="Vai al Simulatore Matematico" en="Launch the Mathematical Simulator" />
-            <ArrowRight size={20} />
+        <div className="pt-4">
+          <Link to="/catalog" className="text-indigo-400 hover:text-indigo-300 underline font-medium">
+            <T it="Sfoglia i 681 dataset grezzi →" en="Browse the 681 raw datasets →" />
           </Link>
         </div>
-      </motion.section>
+      </div>
+
+      {/* Origin & Destination (Income & Outcomes) */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        {/* Chart 1: Income by Track */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <h2 className="text-xl font-bold text-white mb-6">
+            <T it="Reddito Familiare Medio per Indirizzo (Origine)" en="Average Family Income by Track (Origin)" />
+          </h2>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={tracking_outcomes} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
+                <XAxis dataKey="track" stroke="#888" tick={{fill: '#888'}} />
+                <YAxis stroke="#888" tickFormatter={(val) => `€${val/1000}k`} />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Bar dataKey="avg_income_origin" name="Avg Income (€)" fill="#4f46e5" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Chart 2: NEET & Uni by Track */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <h2 className="text-xl font-bold text-white mb-6">
+            <T it="Esiti Occupazionali e Accademici (Destinazione)" en="Occupational and Academic Outcomes (Destination)" />
+          </h2>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={tracking_outcomes} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
+                <XAxis dataKey="track" stroke="#888" />
+                <YAxis stroke="#888" tickFormatter={(val) => `${val}%`} />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Bar dataKey="university_access_pct" name="University Access (%)" fill="#10b981" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="neet_rate_pct" name="NEET Rate (%)" fill="#f43f5e" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+      </div>
+
+      {/* Education Pipeline (Resources) */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+        {/* Chart 3: Resource Allocation */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <h2 className="text-xl font-bold text-white mb-6">
+            <T it="Allocazione Risorse Strutturali (Educazione)" en="Structural Resource Allocation (Education)" />
+          </h2>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={tracking_outcomes} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
+                <XAxis dataKey="track" stroke="#888" />
+                <YAxis stroke="#888" tickFormatter={(val) => `${val}%`} />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Bar dataKey="teacher_precarity_pct" name="Teacher Precarity (%)" fill="#f59e0b" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="building_safety_issues_pct" name="Building Safety Issues (%)" fill="#6366f1" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Chart 4: Territorial Divide INVALSI */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <h2 className="text-xl font-bold text-white mb-6">
+            <T it="Punteggi INVALSI Matematica per Area e Indirizzo" en="INVALSI Math Scores by Macro-Area and Track" />
+          </h2>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={invalsi_performance} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
+                <XAxis dataKey="region_macro" stroke="#888" />
+                <YAxis stroke="#888" domain={[130, 250]} />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Line type="monotone" dataKey="liceo_math_score" name="Liceo" stroke="#4f46e5" strokeWidth={3} dot={{ r: 6 }} />
+                <Line type="monotone" dataKey="tecnico_math_score" name="Tecnico" stroke="#10b981" strokeWidth={3} dot={{ r: 6 }} />
+                <Line type="monotone" dataKey="professionale_math_score" name="Professionale" stroke="#f43f5e" strokeWidth={3} dot={{ r: 6 }} />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+      </div>
+
+      {/* International Comparison Scatter */}
+      <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+        <h2 className="text-xl font-bold text-white mb-6">
+          <T it="Confronto Internazionale: Età di Smistamento vs Segregazione" en="International Comparison: Tracking Age vs Social Segregation" />
+        </h2>
+        <div className="h-[400px]">
+          <ResponsiveContainer width="100%" height="100%">
+            <ScatterChart margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+              <XAxis type="number" dataKey="tracking_age" name="Tracking Age" stroke="#888" domain={[9, 19]} label={{ value: 'Tracking Age (Years)', position: 'insideBottom', offset: -10, fill: '#888' }} />
+              <YAxis type="number" dataKey="social_segregation_index" name="Social Segregation Index" stroke="#888" domain={[0, 10]} label={{ value: 'Segregation Index (0-10)', angle: -90, position: 'insideLeft', fill: '#888' }} />
+              <RechartsTooltip cursor={{strokeDasharray: '3 3'}} content={<CustomTooltip />} />
+              <Scatter name="Countries" data={international_comparison} fill="#8884d8">
+                {international_comparison.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={entry.country === 'Italy' ? '#f43f5e' : '#4f46e5'} />
+                ))}
+              </Scatter>
+            </ScatterChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
 
     </div>
   );

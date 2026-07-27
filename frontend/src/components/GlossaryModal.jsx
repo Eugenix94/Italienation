@@ -11,7 +11,7 @@ export default function GlossaryModal() {
       <button 
         onClick={() => setIsOpen(true)}
         className="fixed bottom-6 right-6 z-50 bg-indigo-600 hover:bg-indigo-500 text-white p-4 rounded-full shadow-2xl shadow-indigo-500/50 flex items-center justify-center transition-all hover:scale-105"
-        title="Concepts Dictionary"
+        title="Glossary of Terms"
       >
         <Book size={24} />
       </button>
@@ -39,46 +39,46 @@ export default function GlossaryModal() {
 
               <div className="p-8 space-y-6">
                 <h2 className="text-3xl font-bold border-b border-zinc-700 pb-4">
-                  <T it="Dizionario dei Concetti" en="Concepts Dictionary" />
+                  <T it="Glossario Metriche" en="Metrics Glossary" />
                 </h2>
                 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="text-xl font-bold text-indigo-400">NEET</h3>
+                    <h3 className="text-xl font-bold text-indigo-400">NEET Rate</h3>
                     <p className="text-zinc-300">
                       <T 
-                        it="Giovani tra i 15 e i 29 anni che non studiano, non lavorano e non sono in formazione (Not in Education, Employment, or Training). In Italia il tasso supera il 19%." 
-                        en="Young people aged 15-29 who are Not in Education, Employment, or Training. In Italy, this rate exceeds 19%." 
+                        it="Percentuale della popolazione giovanile (15-29 anni) non inserita in percorsi di istruzione, formazione o lavoro (Not in Education, Employment, or Training)." 
+                        en="Percentage of the youth population (aged 15-29) who are Not in Education, Employment, or Training." 
                       />
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold text-indigo-400"><T it="Modello O.E.D." en="O.E.D. Framework" /></h3>
+                    <h3 className="text-xl font-bold text-indigo-400">O.E.D. Framework</h3>
                     <p className="text-zinc-300">
                       <T 
-                        it="Origine (la ricchezza della tua famiglia) → Educazione (la scuola in cui vieni messo) → Destinazione (il tuo futuro lavoro)." 
-                        en="Origin (your family's wealth) → Education (the school you are sorted into) → Destination (your future career outcome)." 
+                        it="Paradigma sociologico che quantifica l'effetto dell'Origine (status socio-economico familiare) e dell'Educazione (percorso scolastico) sulla Destinazione (esito occupazionale e reddituale)." 
+                        en="Sociological paradigm quantifying the effect of Origin (family socio-economic status) and Education (schooling track) on Destination (occupational and income outcomes)." 
                       />
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold text-rose-400"><T it="Sistema Tripartito" en="Tripartite System" /></h3>
+                    <h3 className="text-xl font-bold text-indigo-400"><T it="Sistema Tripartito" en="Tripartite System" /></h3>
                     <p className="text-zinc-300">
                       <T 
-                        it="Il sistema italiano che costringe i bambini a scegliere a soli 14 anni tra Liceo (per i ricchi), Tecnico (per la classe media) e Professionale (per i poveri)." 
-                        en="The Italian system that forces 14-year-olds to choose between Lyceum (for the wealthy), Technical (for the middle class), and Vocational (for the working class)." 
+                        it="Modello educativo caratterizzato da uno smistamento precoce (tracking) degli studenti in percorsi accademici, tecnici o professionali." 
+                        en="Educational model characterized by early tracking of students into distinct academic, technical, or vocational pathways." 
                       />
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold text-rose-400"><T it="Doppia Penalizzazione" en="Double Penalty" /></h3>
+                    <h3 className="text-xl font-bold text-indigo-400"><T it="Indice di Segregazione Sociale" en="Social Segregation Index" /></h3>
                     <p className="text-zinc-300">
                       <T 
-                        it="Quando gli studenti più poveri vengono mandati nelle scuole peggiori (Istituti Professionali) che hanno gli edifici più rotti e gli insegnanti più precari. Lo Stato punisce chi ha già meno." 
-                        en="When the poorest students are sent to the worst schools (Vocational) which have the most broken buildings and precarious teachers. The State punishes those who already have less." 
+                        it="Misura statistica della concentrazione di studenti provenienti da contesti socio-economici simili all'interno degli stessi istituti o indirizzi scolastici." 
+                        en="Statistical measure of the concentration of students from similar socio-economic backgrounds within the same schools or educational tracks." 
                       />
                     </p>
                   </div>
