@@ -44,3 +44,16 @@ For researchers, data journalists, and civic hackers, the underlying systemic pr
 - 🔍 **[Holistic Data Audit & License Compliance](local_data/processed/DATA_AUDIT_DISCREPANCIES_AND_BLIND_SPOTS.md)**
 
 *Repository architected by the Italienation Alpha Open Science Team.*
+
+---
+
+## 5. Institutional Data References (Summer 2026 Update)
+
+This diagnostic tool operates on the absolute latest institutional data, tracking the structural developments of the Italian education system up to Summer 2026:
+
+*   **INVALSI 2026 Report (July 2026):** Explicit dropouts fell to 7.3%, and implicit dropouts (graduating without basic skills) to 6.3%. However, almost 1 in 4 primary school students fail to reach basic math levels.
+    *   *Reference:* [Tgcom24 - INVALSI 2026 Report](https://www.tgcom24.mediaset.it/skuola/invalsi-dispersione-scolastica-mai-cosi-bassa-ma-la-meta-dei-diplomati--non-sa-leggere-o-far-di-conto--e-il-sud-arranca-_114470263-202602k.shtml) | [EduNews24](https://edunews24.it/scuola/rapporto-invalsi-2026-dispersione-al-73-matematica-ancora-indietro)
+*   **Eurostat 2026 NEET Data (15-29 Years Old):** Italy remains structurally at the bottom of the EU with NEET rates exceeding 13-15%, heavily concentrated in Southern Italy.
+    *   *Reference:* [Eurostat/EC SWD Demographic Transformation 2026](https://ec.europa.eu/transparency/documents-register/api/files/SWD\(2026\)193?ersIds=de00000001084099) | [Eurostat NEET Hub](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Statistics_on_young_people_neither_in_employment_nor_in_education_or_training)
+*   **"Formazione Scuola-Lavoro" (FSL) Reform:** The Riforma Valditara officially renamed PCTO to "Formazione Scuola-Lavoro" (FSL) for the 2025/2026 academic year, maintaining it as a central pillar of the final state exam.
+    *   *Reference:* [Giustoscuola - Riforma Valditara](https://giustoscuola.it/it/archivio-notizie/4319-al-via-gli-orali-della-maturita-2026-il-nuovo-colloquio-della-riforma-valditara-mette-al-centro-il-percorso-individuale-dello-studente.html) | [BusinessWeekly](https://businessweekly.it/dal-pcto-alla-formazione-scuola-lavoro-che-cosa-cambia/)

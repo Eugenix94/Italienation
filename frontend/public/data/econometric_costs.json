@@ -61,9 +61,9 @@
       "enTitle": "School Dropout",
       "itDesc": "Costi a lungo termine dell'abbandono scolastico precoce.",
       "enDesc": "Long-term costs of early school leaving.",
-      "itCompare": "IT: 11.5% vs Obiettivo EU: <9%",
-      "enCompare": "IT: 11.5% vs EU Target: <9%",
-      "source": "Invalsi"
+      "itCompare": "IT: 7.3% (6.3% impl.) vs Obiettivo EU: <9%",
+      "enCompare": "IT: 7.3% (6.3% impl.) vs EU Target: <9%",
+      "source": "INVALSI 2026"
     },
     {
       "id": "bocciatura",
@@ -104,11 +104,11 @@
     },
     {
       "icon": "Briefcase",
-      "itTitle": "Sfruttamento PCTO",
-      "enTitle": "PCTO (Work Placement)",
+      "itTitle": "Sfruttamento FSL (ex PCTO)",
+      "enTitle": "FSL Work Placement (ex PCTO)",
       "stat": "0€",
-      "itSub": "compenso per 1.5M di studenti (226 infortuni)",
-      "enSub": "compensation for 1.5M students (226 injuries)",
+      "itSub": "compenso per 1.5M di studenti",
+      "enSub": "compensation for 1.5M students",
       "itVs": "vs €600-1200/mese in Germania (Sistema Duale)",
       "enVs": "vs €600-1200/mo in Germany (Dual System)"
     },
