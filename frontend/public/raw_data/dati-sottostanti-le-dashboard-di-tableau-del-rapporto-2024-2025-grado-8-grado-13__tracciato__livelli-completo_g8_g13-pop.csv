@@ -1,0 +1,56 @@
+Informazioni sulla variabile;;;
+Variabile;Posizione;Etichetta;Livello di misurazione
+RIPARTIZIONE_GEOGRAFICA;1;Ripartizione geografica;Nominale
+MATERIA;2;Materia;Nominale
+GRADO;3;Grado scolastico;Nominale
+Anno_scolastico;4;Anno di rilevazione;Nominale
+LIVELLO_1;5;"Percentuale di studenti con ""Livello di competenza 1"" (Italiano, Matematica), ""Livello PRE-A1"" (Inglese in primaria e secondaria di primo grado), ""Non raggiunge il livello B1"" (Inglese in secondaria di secondo grado)";Scala
+LIVELLO_2;6;"Percentuale di studenti con ""Livello di competenza 2"" (Italiano, Matematica), ""Livello A1"" (Inglese in primaria e secondaria di primo grado), ""Livello B1"" (Inglese in secondaria di secondo grado)";Scala
+LIVELLO_3;7;"Percentuale di studenti con ""Livello di competenza 3"" (Italiano, Matematica), ""Livello A2"" (Inglese in primaria e secondaria di primo grado), ""Livello B2"" (Inglese in secondaria di secondo grado)";Scala
+LIVELLO_4;8;"Percentuale di studenti con ""Livello di competenza 4"" (Italiano, Matematica)";Scala
+LIVELLO_5;9;"Percentuale di studenti con ""Livello di competenza 5"" (Italiano, Matematica)";Scala
+;;;
+Valori di variabile;;;
+Valore;;Etichetta;
+RIPARTIZIONE_GEOGRAFICA;1;Valle d'Aosta;
+;2;Piemonte;
+;3;Liguria;
+;4;Lombardia;
+;6;Veneto;
+;7;Friuli-Venezia Giulia;
+;8;Emilia-Romagna;
+;9;Toscana;
+;10;Umbria;
+;11;Marche;
+;12;Lazio;
+;13;Abruzzo;
+;14;Molise;
+;15;Campania;
+;16;Puglia;
+;17;Basilicata;
+;18;Calabria;
+;19;Sicilia;
+;20;Sardegna;
+;51;Prov. Aut. Bolzano (l. it.);
+;52;Prov. Aut. Bolzano (l. lad.);
+;53;Prov. Aut. Bolzano (l. ted.);
+;54;Prov. Aut. Trento;
+;55;Prov. Aut. Bolzano (l. it.) & (l. lad.);
+;56;Prov. Aut. Bolzano ALL;
+;91;Nord Ovest;
+;92;Nord Est;
+;93;Centro;
+;94;Sud;
+;95;Sud e Isole;
+;99;Italia;
+MATERIA;INGLESE Listening;Inglese Listening;
+;INGLESE Reading;Inglese Reading;
+;ITALIANO;Italiano;
+;MATEMATICA;Matematica;
+GRADO;13;Quinta Secondaria di Secondo Grado;
+;13 Altri licei;Quinta Secondaria di Secondo Grado - Altri licei;
+;13 Istituti professionali;Quinta Secondaria di Secondo Grado - Istituti professionali;
+;13 Istituti tecnici;Quinta Secondaria di Secondo Grado - Istituti tecnici;
+;13 Licei scientifici;Quinta Secondaria di Secondo Grado - Licei scientifici;
+;13 Licei scientifici classici e linguistici;Quinta Secondaria di Secondo Grado - Licei scientifici classici e linguistici;
+;8;Terza Secondaria di Primo Grado;

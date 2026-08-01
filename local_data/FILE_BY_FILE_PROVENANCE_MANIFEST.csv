@@ -1,13 +1,10 @@
 Directory,File Name,Size (KB),Direct Source URL
-,API_HD.HCI.OVRL_DS63_en_csv_v2_756596.csv,31.1,https://data.worldbank.org/indicator/
 ,ESTAT_EDAT_LFSE_22$DEFAULTVIEW_1.0.xml,397.4,https://ec.europa.eu/eurostat/databrowser/view/estat_edat_lfse_22/default/table
 ,ESTAT_TPS00203_1.0.xml,84.1,https://ec.europa.eu/eurostat/databrowser/view/tps00203/default/table
 ,"Figure_1__The_percentage_of_young_people_who_are_not_in_education,_employment_or_training_(NEET)_increased_over_the_quarter_(January_to_March_2025).csv",1.3,https://www.ons.gov.uk/
 ,"Incidenza dei giovani Neet - Titolo di studio (_) (IT1,172_931_DF_DCCV_NEET1_8,1.0).csv",340.0,http://dati.istat.it/Index.aspx?DataSetCode=DCCV_NEET1_8
 ,ItalianMeanSecondarySchoolExpenses.csv,0.8,https://www.federconsumatori.it/
 ,ItalyPrimarySchoolBookExpenses.csv,0.7,https://www.federconsumatori.it/
-,Metadata_Country_API_HD.HCI.OVRL_DS63_en_csv_v2_756596.csv,52.0,https://data.worldbank.org/indicator/
-,Metadata_Indicator_API_HD.HCI.OVRL_DS63_en_csv_v2_756596.csv,0.5,https://data.worldbank.org/indicator/
 ,"NEET  (giovani non occupati e non in istruzione e formazione) - Dati regionali (IT1,172_931_DF_DCCV_NEET1_6,1.0).csv",67.8,http://dati.istat.it/Index.aspx?DataSetCode=DCCV_NEET1_6
 ,"NEET  (giovani non occupati e non in istruzione e formazione)- Condizione professionele europea, cittadinanza (IT1,172_931_DF_DCCV_NEET1_3,1.0).csv",686.2,http://dati.istat.it/Index.aspx?DataSetCode=DCCV_NEET1_3
 ,"NEET (giovani non occupati e non in istruzione e formazione) - Condizione professionale europea, titolo di studio (IT1,172_931_DF_DCCV_NEET1_2,1.0).csv",1215.3,http://dati.istat.it/Index.aspx?DataSetCode=DCCV_NEET1_2
@@ -107,12 +104,10 @@ INVALSI,dati-sottostanti-le-dashboard-di-tableau-del-rapporto-2024-2025-grado-8-
 INVALSI,eccellenza-accademica-e-dispersione-scolastica-implicita-valori-percentuali__note_dispersione_e_eccellenti.csv,2.3,https://invalsi-serviziostatistico.cineca.it/
 INVALSI,eccellenza-accademica-e-dispersione-scolastica-implicita-valori-percentuali__report_generale_unito_dispersione_e_eccellenti_agg_2025.csv,6516.0,https://invalsi-serviziostatistico.cineca.it/
 INVALSI,eccellenza-accademica-e-dispersione-scolastica-implicita-valori-percentuali__tracciato_report_generale_unito_dispersione_e_eccellenti_agg_25.csv,3.8,https://invalsi-serviziostatistico.cineca.it/
-INVALSI,hf_evaluation_outcomes_stat.parquet,8911.8,https://invalsi-serviziostatistico.cineca.it/
 INVALSI,invalsi_manifest.json,7.6,https://invalsi-serviziostatistico.cineca.it/
 INVALSI,punteggi-e-percentuale-di-studenti-nei-livelli-di-competenza-per-ripartizioni-territoriali-e-caratteristiche-di-contesto__note.csv,2.8,https://invalsi-serviziostatistico.cineca.it/
 INVALSI,punteggi-e-percentuale-di-studenti-nei-livelli-di-competenza-per-ripartizioni-territoriali-e-caratteristiche-di-contesto__report_generale_agg_2025.zip,38489.9,https://invalsi-serviziostatistico.cineca.it/
 INVALSI,punteggi-e-percentuale-di-studenti-nei-livelli-di-competenza-per-ripartizioni-territoriali-e-caratteristiche-di-contesto__tracciato_report_generale_agg.csv,5.4,https://invalsi-serviziostatistico.cineca.it/
-INVALSI\report_generale_agg_2025,Report_generale_agg_2025.csv,137744.2,https://invalsi-serviziostatistico.cineca.it/
 ISTAT,istat_diplomati_caratteristiche.csv,186.2,http://dati.istat.it/
 ISTAT,istat_diplomati_occupazione_retribuzione.csv,120.9,http://dati.istat.it/
 ISTAT,istat_disability_schools_2022_2023.xlsx,197.2,http://dati.istat.it/
@@ -325,7 +320,6 @@ MUR\serie-storica-sul-personale-universitario,docricxgenereareasd_serie.csv,364.
 MUR\serie-storica-sul-personale-universitario,docricxgenerequalifica_serie.csv,15.8,https://ustat.mur.gov.it/opendata/
 MUR\serie-storica-sul-personale-universitario,personale_collaboratorilinguistici_serie.csv,7.6,https://ustat.mur.gov.it/opendata/
 MUR\serie-storica-sul-personale-universitario,personale_tecniciamministrativi_serie.csv,77.8,https://ustat.mur.gov.it/opendata/
-MinIstruzione,manifest_summary.json,15.3,https://dati.istruzione.it/opendata/opendata/catalogo/
 MinIstruzione\Alunni,ALUCORSOETAPAR20242520250831.csv,1791.3,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Alunni
 MinIstruzione\Alunni,ALUCORSOETASTA20242520250831.csv,15457.1,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Alunni
 MinIstruzione\Alunni,ALUCORSOINDCLAPAR20242520250831.csv,718.9,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Alunni
@@ -368,11 +362,6 @@ MinIstruzione\LibriDiTesto,ALTTOSCANA000020250910.csv,45344.1,https://dati.istru
 MinIstruzione\LibriDiTesto,ALTUMBRIA000020250910.csv,11479.9,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Adozioni%20Libri%20di%20Testo
 MinIstruzione\LibriDiTesto,ALTVALLEDAOSTA000020250910.csv,1430.4,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Adozioni%20Libri%20di%20Testo
 MinIstruzione\LibriDiTesto,ALTVENETO000020250910.csv,57163.3,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Adozioni%20Libri%20di%20Testo
-MinIstruzione\Personale,hf_ata_suppl_2024_25.parquet,10.4,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?datasetId=ATASUP
-MinIstruzione\Personale,hf_teachers_suppl_2024_25.parquet,47.7,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?datasetId=DOCSUPXXV
-MinIstruzione\Personale,hf_teachers_titular.parquet,23.9,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?datasetId=DOCTIT
-MinIstruzione\Personale\personale,DOCSUPXXV.parquet,47.7,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Personale%20Scuola
-MinIstruzione\Personale\personale,DOCTIT.parquet,23.9,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Personale%20Scuola
 MinIstruzione\Scuole,Distribuzione per Area territoriale Scuole.xls,6.0,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Scuole
 MinIstruzione\Scuole,Distribuzione per Area territoriale Studenti - Excel.xls,6.0,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Scuole
 MinIstruzione\Scuole,SCUANAGRAFEPAR20242520250831.csv,2424.3,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Scuole
@@ -392,147 +381,17 @@ Openpolis,manifest.json,1.1,https://www.openpolis.it/temi/poverta-educativa/
 Openpolis,openpolis_educational_poverty_regional.csv,0.4,https://www.openpolis.it/temi/poverta-educativa/
 Openpolis,openpolis_neet_metropolitan_capitals.csv,0.5,https://www.openpolis.it/temi/poverta-educativa/
 Openpolis,openpolis_neet_urban_rural_gap.csv,0.6,https://www.openpolis.it/temi/poverta-educativa/
-SIOPE,siope_anagrafiche_scuole.csv,225.5,https://www.mef.gov.it/
-SIOPE,siope_uscite_2020.csv,386.7,https://www.mef.gov.it/
-SIOPE,siope_uscite_2021.csv,1135.0,https://www.mef.gov.it/
-SIOPE,siope_uscite_2022.csv,1254.2,https://www.mef.gov.it/
-SIOPE,siope_uscite_2023.csv,2555.8,https://www.mef.gov.it/
-SIOPE,siope_uscite_2024.csv,7582.7,https://www.mef.gov.it/
-SIOPE,siope_uscite_2025.csv,14108.3,https://www.mef.gov.it/
-SIOPE,siope_uscite_2026.csv,4131.7,https://www.mef.gov.it/
-Scuola_in_chiaro,hf_schools_registry_stat.parquet,3252.2,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Scuole
-Scuola_in_chiaro\adozioni_libri_di_testo,ALTLOMBARDIA000020260610.parquet,4635.3,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Adozioni%20Libri%20di%20Testo
-Scuola_in_chiaro\edilizia_scolastica,EDIAMBIENTESTA202120242520250806.parquet,1025.7,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Edilizia%20Scolastica
-Scuola_in_chiaro\edilizia_scolastica,EDIANAGRAFESTA202120242520250806.parquet,1792.1,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Edilizia%20Scolastica
-Scuola_in_chiaro\edilizia_scolastica,EDICONSICUREZZASTA202120242520250806.parquet,985.0,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Edilizia%20Scolastica
-Scuola_in_chiaro\scuole,SCUANAGRAFESTAT.parquet,3252.2,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Scuole
-UKSDGstats,1-1-1.csv,2.3,https://sdgdata.gov.uk/
-UKSDGstats,1-2-1.csv,15.9,https://sdgdata.gov.uk/
-UKSDGstats,1-2-2.csv,11.2,https://sdgdata.gov.uk/
-UKSDGstats,1-3-1.csv,5.2,https://sdgdata.gov.uk/
-UKSDGstats,1-4-1.csv,4.3,https://sdgdata.gov.uk/
-UKSDGstats,1-4-2.csv,0.3,https://sdgdata.gov.uk/
-UKSDGstats,1-5-1.csv,267.6,https://sdgdata.gov.uk/
-UKSDGstats,1-a-1.csv,9.7,https://sdgdata.gov.uk/
-UKSDGstats,1-a-2.csv,3.0,https://sdgdata.gov.uk/
-UKSDGstats,1-b-1.csv,0.6,https://sdgdata.gov.uk/
-UKSDGstats,10-1-1.csv,4.8,https://sdgdata.gov.uk/
-UKSDGstats,10-2-1.csv,39.4,https://sdgdata.gov.uk/
-UKSDGstats,10-3-1.csv,9.3,https://sdgdata.gov.uk/
-UKSDGstats,10-4-1.csv,1.1,https://sdgdata.gov.uk/
-UKSDGstats,10-4-2.csv,3.9,https://sdgdata.gov.uk/
-UKSDGstats,10-5-1.csv,11.6,https://sdgdata.gov.uk/
-UKSDGstats,10-6-1.csv,39.3,https://sdgdata.gov.uk/
-UKSDGstats,10-7-3.csv,18.2,https://sdgdata.gov.uk/
-UKSDGstats,10-7-4.csv,2.5,https://sdgdata.gov.uk/
-UKSDGstats,10-a-1.csv,13.9,https://sdgdata.gov.uk/
-UKSDGstats,10-b-1.csv,127.0,https://sdgdata.gov.uk/
-UKSDGstats,10-c-1.csv,4.0,https://sdgdata.gov.uk/
-UKSDGstats,16-1-1.csv,30.6,https://sdgdata.gov.uk/
-UKSDGstats,16-1-2.csv,1.1,https://sdgdata.gov.uk/
-UKSDGstats,16-1-3.csv,156.6,https://sdgdata.gov.uk/
-UKSDGstats,16-1-4.csv,59.1,https://sdgdata.gov.uk/
-UKSDGstats,16-2-2.csv,40.9,https://sdgdata.gov.uk/
-UKSDGstats,16-2-3.csv,1.5,https://sdgdata.gov.uk/
-UKSDGstats,16-3-1.csv,11.0,https://sdgdata.gov.uk/
-UKSDGstats,16-3-2.csv,33.2,https://sdgdata.gov.uk/
-UKSDGstats,16-5-1.csv,3.1,https://sdgdata.gov.uk/
-UKSDGstats,16-5-2.csv,3.1,https://sdgdata.gov.uk/
-UKSDGstats,16-6-2.csv,7.9,https://sdgdata.gov.uk/
-UKSDGstats,16-7-2.csv,62.9,https://sdgdata.gov.uk/
-UKSDGstats,16-8-1.csv,39.3,https://sdgdata.gov.uk/
-UKSDGstats,16-9-1.csv,5.1,https://sdgdata.gov.uk/
-UKSDGstats,16-b-1.csv,9.3,https://sdgdata.gov.uk/
-UKSDGstats,4-1-1.csv,17098.6,https://opencoesione.gov.it/it/dati/progetti/
-UKSDGstats,4-1-2.csv,3.6,https://sdgdata.gov.uk/
-UKSDGstats,4-2-1.csv,1012.0,https://sdgdata.gov.uk/
-UKSDGstats,4-2-2.csv,386.3,https://sdgdata.gov.uk/
-UKSDGstats,4-3-1.csv,13.9,https://sdgdata.gov.uk/
-UKSDGstats,4-4-1.csv,30.1,https://sdgdata.gov.uk/
-UKSDGstats,4-5-1.csv,417.2,https://sdgdata.gov.uk/
-UKSDGstats,4-6-1.csv,7.9,https://sdgdata.gov.uk/
-UKSDGstats,4-7-1.csv,0.5,https://sdgdata.gov.uk/
-UKSDGstats,4-b-1.csv,33.8,https://sdgdata.gov.uk/
-UKSDGstats,4-c-1.csv,276.1,https://sdgdata.gov.uk/
+Openpolis,openpolis_student_transport_friction.csv,0.3,https://www.openpolis.it/temi/poverta-educativa/
 UNICA,hf_students_upper_sec_stat_2024_25.parquet,424.6,https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Alunni
-eurostat,estat_early_school_leavers_detail.csv,12059.8,https://ec.europa.eu/eurostat/databrowser/view/early_school_leavers/default/table
-eurostat,estat_educ_expenditure_by_source.csv,8561.9,https://ec.europa.eu/eurostat/databrowser/view/educ_expenditure_by/default/table
-eurostat,estat_educ_expenditure_pct_gdp.csv,521.4,https://ec.europa.eu/eurostat/databrowser/view/educ_expenditure_pct/default/table
-eurostat,estat_neet_by_nationality.csv,202.7,https://ec.europa.eu/eurostat/databrowser/view/neet_by/default/table
-eurostat,estat_neet_by_sex_summary.csv,386.1,https://ec.europa.eu/eurostat/databrowser/view/neet_by_sex/default/table
-eurostat,estat_neet_detail.csv,10486.7,https://ec.europa.eu/eurostat/databrowser/view/neet/default/table
-eurostat,estat_neet_sdg_all_countries.csv,135.9,https://ec.europa.eu/eurostat/databrowser/view/neet_sdg_all/default/table
-eurostat,estat_neet_tips_indicator.csv,67.6,https://ec.europa.eu/eurostat/databrowser/view/neet_tips/default/table
-eurostat,estat_tertiary_attainment_30_34.csv,181.0,https://ec.europa.eu/eurostat/databrowser/view/tertiary_attainment_30/default/table
-eurostat,estat_training_by_citizenship.csv,947.8,https://ec.europa.eu/eurostat/databrowser/view/training_by/default/table
-eurostat,estat_training_by_labour_status.csv,1224.0,https://ec.europa.eu/eurostat/databrowser/view/training_by_labour/default/table
-eurostat,estat_unemployment_by_education.csv,95.8,https://ec.europa.eu/eurostat/databrowser/view/unemployment_by/default/table
-eurostat,estat_unemployment_by_education_age.csv,3067.0,https://ec.europa.eu/eurostat/databrowser/view/unemployment_by_education/default/table
-eurostat,estat_upper_secondary_attainment.csv,181.0,https://ec.europa.eu/eurostat/databrowser/view/upper_secondary/default/table
-eurostat,estat_young_not_in_edu_employment_by_education_years_since_completion.csv,24048.7,https://ec.europa.eu/eurostat/databrowser/view/young_not_in_edu_employment_by_education_years_since/default/table
-eurostat,estat_youth_unemployment_rate.csv,68.3,https://ec.europa.eu/eurostat/databrowser/view/youth_unemployment/default/table
-eurostat,eurostat_adult_learning_part_rate.csv,162.2,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_bd_size.tsv.gz,13284.1,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_broadband_access_nuts2.csv,527.7,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_esl_by_migration.csv,18092.3,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_fertility_by_age_birth_order.csv,12317.0,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_grade_retention.csv,108.1,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_homeownership_by_age.csv,17024.6,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_institutional_trust.csv,1041.0,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_access_barriers_snapshot.csv,1.0,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_broadband_access_regional.csv,562.8,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_contract_quality_part_time.csv,3388.7,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_crime_by_category.csv,1493.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_home_ownership_housing_cost_proxy.csv,19076.7,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_job_vacancy_rate_quarterly.csv,7.0,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_job_vacancy_rate_quarterly_by_nace.csv,168.4,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_labour_market_current_snapshot.csv,0.2,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_long_term_unemployment.csv,1113.8,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_neet_by_citizenship_sex.csv,2337.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_neet_by_education_level.csv,20768.5,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_new_gaps_snapshot.csv,2.2,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_overqualification_proxy.csv,16405.5,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_regional_gdp_nuts2.csv,14880.7,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_tertiary_enrolment_parental_context.csv,317.4,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_transport_vehicle_stock_regional.csv,5056.5,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_unemployment_rate_monthly.csv,38.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_unemployment_rate_quarterly_youth.csv,5.3,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_upper_secondary_graduation_by_programme.csv,167471.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_vet_enrolment_by_programme.csv,8767.3,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_vet_graduates_by_programme.csv,483.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_vet_participation.csv,3391.7,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_it_youth_mental_health.csv,4779.5,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_job_vacancy_rate.csv,18924.4,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_life_satisfaction.csv,2730.5,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_neet_by_migration.csv,8649.8,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_poverty_single_household.csv,9896.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_self_reported_health.csv,119573.6,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_social_support_gap.csv,810.8,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_tertiary_field_distribution.csv,25662.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_unmet_healthcare_needs.csv,538.3,https://ec.europa.eu/eurostat/databrowser/
-eurostat,eurostat_wellbeing_by_age.csv,7600.4,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset1,ESTAT_AGE.tsv,35.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset1,ESTAT_CONF_STATUS.tsv,0.4,https://ec.europa.eu/eurostat/databrowser/view/conf/default/table
-eurostat\EurostatNeet\dataset1,ESTAT_FREQ.tsv,0.7,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset1,ESTAT_GEO.tsv,370.2,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset1,ESTAT_OBS_FLAG.tsv,8.7,https://ec.europa.eu/eurostat/databrowser/view/obs/default/table
-eurostat\EurostatNeet\dataset1,ESTAT_SEX.tsv,0.5,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset1,ESTAT_TRAINING.tsv,4.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset1,ESTAT_UNIT.tsv,107.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset1,ESTAT_WSTATUS.tsv,14.0,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset2,ESTAT_AGE.tsv,35.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset2,ESTAT_CONF_STATUS.tsv,0.4,https://ec.europa.eu/eurostat/databrowser/view/conf/default/table
-eurostat\EurostatNeet\dataset2,ESTAT_FREQ.tsv,0.7,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset2,ESTAT_GEO.tsv,370.2,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset2,ESTAT_OBS_FLAG.tsv,8.7,https://ec.europa.eu/eurostat/databrowser/view/obs/default/table
-eurostat\EurostatNeet\dataset2,ESTAT_SEX.tsv,0.5,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset2,ESTAT_TRAINING.tsv,4.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset2,ESTAT_UNIT.tsv,107.9,https://ec.europa.eu/eurostat/databrowser/
-eurostat\EurostatNeet\dataset2,ESTAT_WSTATUS.tsv,14.0,https://ec.europa.eu/eurostat/databrowser/
 institutional_frameworks,global_tracking_age_and_structure.csv,2.0,https://eurydice.eacea.ec.europa.eu/
 institutional_frameworks,household_textbook_and_school_cost_burden.csv,3.7,https://eurydice.eacea.ec.europa.eu/
 institutional_frameworks,legislative_milestones_it_uk_comparative.csv,5.0,https://eurydice.eacea.ec.europa.eu/
 institutional_frameworks,pedagogical_and_assessment_regimes.csv,4.8,https://eurydice.eacea.ec.europa.eu/
+international_solutions,ESTAT_edat_lfse_24.csv,0.2,https://ec.europa.eu/eurostat/databrowser/view/edat_lfse/default/table
+international_solutions,ESTAT_edat_lfse_24.tsv,2842.1,https://ec.europa.eu/eurostat/databrowser/view/edat_lfse/default/table
+international_solutions,ESTAT_lmp_expsumm.csv,0.2,https://ec.europa.eu/eurostat/databrowser/view/lmp/default/table
+international_solutions,ESTAT_spr_exp_pens.csv,0.2,https://ec.europa.eu/eurostat/databrowser/view/spr_exp/default/table
+international_solutions,OECD_minimum_wages.csv,0.2,https://data.oecd.org/
 manual_required,anpal_cpi_endpoint_checks_2026-05-20.json,1.2,Manually Extracted - See LOCAL_DATA_BIBLIOGRAPHY.md
 manual_required,inapp_internship_stage_data_manual_required.json,1.1,Manually Extracted - See LOCAL_DATA_BIBLIOGRAPHY.md
 manual_required,inps_apprenticeship_contracts_manual_required.json,1.2,Manually Extracted - See LOCAL_DATA_BIBLIOGRAPHY.md
@@ -541,12 +400,20 @@ manual_required,manual_required_master_manifest.json,5.2,Manually Extracted - Se
 manual_required,oecd_talis_italy_manual_required.json,1.2,https://data.oecd.org/
 manual_required,remaining_fetch_report.csv,1.6,Manually Extracted - See LOCAL_DATA_BIBLIOGRAPHY.md
 manual_required,remaining_fetch_report.json,2.6,Manually Extracted - See LOCAL_DATA_BIBLIOGRAPHY.md
+new_frontiers,censis_university_quality_index.csv,0.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
 new_frontiers,comparative_legal_acts_uk_vs_italy_raw.csv,1.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+new_frontiers,covip_youth_pension_gap_panel.csv,0.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+new_frontiers,excelsior_skill_mismatch_panel.csv,0.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+new_frontiers,inapp_vet_piaac_skills_panel.csv,0.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
 new_frontiers,indire_its_academy_outcomes_raw.csv,0.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
 new_frontiers,infratel_piano_scuola_connessa_raw.csv,0.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+new_frontiers,inl_almalaurea_gender_penalty.csv,0.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+new_frontiers,iss_school_mental_health_support.csv,0.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
 new_frontiers,istat_demographic_projections_school_age_raw.csv,0.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
 new_frontiers,mim_school_infrastructure_seismic_raw.csv,1.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+new_frontiers,savethechildren_educational_deprivation.csv,0.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
 new_frontiers,sic_anagrafe_completa_raw.parquet,7973.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+new_frontiers,svimez_mezzogiorno_gap_panel.csv,0.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
 oecd,"OECD.ELS.JAI,DSD_TAXBEN_HOURSPOV@DF_HOURSPOV,1.0+all.csv",14748.4,https://data.oecd.org/
 oecd,"OECD.ELS.SAE,DSD_EARNINGS@AGE_WAGE_GAP,1.0+all.csv",2085.5,https://data.oecd.org/
 oecd,"OECD.ELS.SAE,DSD_EARNINGS@PAY_INCIDENCE,1.0+all.csv",1196.5,https://data.oecd.org/
@@ -570,6 +437,7 @@ oecd,oecd_education_nature_staff.csv,348.3,https://data.oecd.org/
 oecd,oecd_education_non_fin_pers.csv,61.3,https://data.oecd.org/
 oecd,oecd_it_pisa_trend.csv,1.2,https://data.oecd.org/
 oecd,oecd_it_vet_distribution.csv,78.1,https://data.oecd.org/
+oecd,oecd_pisa_escs_cognitive_gap.csv,0.3,https://data.oecd.org/
 oecd,oecd_teacher_experience.csv,33796.4,https://data.oecd.org/
 openEURYDICE,2024_2025_InstructionTimeQuestionnaires.xlsx,1178.2,https://eurydice.eacea.ec.europa.eu/
 openEURYDICE,2024_2025_SchoolYear_OpenData.xlsx,131.2,https://eurydice.eacea.ec.europa.eu/
@@ -578,39 +446,191 @@ openEURYDICE,ELET_System-level_indicators_2024_2025_open_data.xlsx,124.2,https:/
 openEURYDICE,Equity_system_level_indicators_2023_2025_open_data_2.xlsx,102.8,https://eurydice.eacea.ec.europa.eu/
 openEURYDICE,Eurydice_European_education_system_structures_data_tables_2025_2026_22_Sept_2025_0.xlsx,151.4,https://eurydice.eacea.ec.europa.eu/
 openEURYDICE,Open data_Teachers' and school heads' salaries and allowances_0.xlsx,316.3,https://eurydice.eacea.ec.europa.eu/
-ourWorldData,total-number-of-emigrants.csv,52.4,https://ourworldindata.org/education
-ourWorldData\EdGovSpending,share-of-education-in-government-expenditure.csv,113.6,https://ourworldindata.org/education
-ourWorldData\EdGovSpending,share-of-education-in-government-expenditure.metadata.json,1.9,https://ourworldindata.org/education
-ourWorldData\completion-rate-of-upper-secondary-education-sdg,completion-rate-of-upper-secondary-education-sdg.csv,133.1,https://ourworldindata.org/education
-ourWorldData\completion-rate-of-upper-secondary-education-sdg,completion-rate-of-upper-secondary-education-sdg.metadata.json,2.8,https://ourworldindata.org/education
-ourWorldData\duration-of-compulsory-education,duration-of-compulsory-education.csv,119.5,https://ourworldindata.org/education
-ourWorldData\duration-of-compulsory-education,duration-of-compulsory-education.metadata.json,3.6,https://ourworldindata.org/education
-ourWorldData\gni-per-capita-vs-gdp-per-capita,gni-per-capita-vs-gdp-per-capita.csv,2485.0,https://ourworldindata.org/education
-ourWorldData\gni-per-capita-vs-gdp-per-capita,gni-per-capita-vs-gdp-per-capita.metadata.json,8.4,https://ourworldindata.org/education
-ourWorldData\inequality-adjusted-hdi-vs-human-development-index,inequality-adjusted-hdi-vs-human-development-index.csv,2432.6,https://ourworldindata.org/education
-ourWorldData\inequality-adjusted-hdi-vs-human-development-index,inequality-adjusted-hdi-vs-human-development-index.metadata.json,9.4,https://ourworldindata.org/education
-ourWorldData\literacy-rates-vs-average-years-of-schooling,literacy-rates-vs-average-years-of-schooling.csv,1831.5,https://ourworldindata.org/education
-ourWorldData\literacy-rates-vs-average-years-of-schooling,literacy-rates-vs-average-years-of-schooling.metadata.json,15.1,https://ourworldindata.org/education
-ourWorldData\mean-daily-per-capita-expenditure-vs-gdp-per-capita,mean-daily-per-capita-expenditure-vs-gdp-per-capita.csv,1868.9,https://ourworldindata.org/education
-ourWorldData\mean-daily-per-capita-expenditure-vs-gdp-per-capita,mean-daily-per-capita-expenditure-vs-gdp-per-capita.metadata.json,11.3,https://ourworldindata.org/education
-ourWorldData\poverty-vs-mean-schooling,poverty-vs-mean-schooling.csv,1899.4,https://ourworldindata.org/education
-ourWorldData\poverty-vs-mean-schooling,poverty-vs-mean-schooling.metadata.json,13.1,https://ourworldindata.org/education
-ourWorldData\primary-secondary-enrollment-completion-rates,primary-secondary-enrollment-completion-rates.csv,491.2,https://ourworldindata.org/education
-ourWorldData\primary-secondary-enrollment-completion-rates,primary-secondary-enrollment-completion-rates.metadata.json,10.8,https://ourworldindata.org/education
-ourWorldData\productivity-vs-educational-attainment,productivity-vs-educational-attainment.csv,1838.6,https://ourworldindata.org/education
-ourWorldData\productivity-vs-educational-attainment,productivity-vs-educational-attainment.metadata.json,11.2,https://ourworldindata.org/education
-ourWorldData\quality-vs-quantity-of-schooling,quality-vs-quantity-of-schooling.csv,2455.5,https://ourworldindata.org/education
-ourWorldData\quality-vs-quantity-of-schooling,quality-vs-quantity-of-schooling.metadata.json,8.6,https://ourworldindata.org/education
-ourWorldData\share-employment-agriculture-industry-services,share-employment-agriculture-industry-services.csv,317.6,https://ourworldindata.org/education
-ourWorldData\share-employment-agriculture-industry-services,share-employment-agriculture-industry-services.metadata.json,8.4,https://ourworldindata.org/education
-ourWorldData\tax-revenues-as-a-share-of-gdp-unu-wider,tax-revenues-as-a-share-of-gdp-unu-wider.csv,188.3,https://ourworldindata.org/education
-ourWorldData\tax-revenues-as-a-share-of-gdp-unu-wider,tax-revenues-as-a-share-of-gdp-unu-wider.metadata.json,3.2,https://ourworldindata.org/education
-ourWorldData\total-government-expenditure-on-education-gdp,total-government-expenditure-on-education-gdp.csv,144.1,https://ourworldindata.org/education
-ourWorldData\total-government-expenditure-on-education-gdp,total-government-expenditure-on-education-gdp.metadata.json,4.4,https://ourworldindata.org/education
-worldbank,wb_education_spending_pct_gdp.csv,2697.9,https://data.worldbank.org/indicator/
-worldbank,wb_learning_poverty.csv,3891.4,https://data.worldbank.org/indicator/
-worldbank,wb_suicide_mortality.csv,171.6,https://data.worldbank.org/indicator/
-worldbank,wb_teachers_trained_primary.csv,119.2,https://data.worldbank.org/indicator/
-worldbank,wb_teachers_trained_secondary.csv,89.6,https://data.worldbank.org/indicator/
-worldbank,wb_tertiary_enrollment_gross.csv,2337.5,https://data.worldbank.org/indicator/
-worldbank,wb_tertiary_spending_pct_gdp_percapita.csv,2835.9,https://data.worldbank.org/indicator/
+processed,almadiploma_occupational_outcomes_1_3_5_yr.csv,0.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,archetypes_clustering_pca.png,90.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,bancaditalia_youth_financial_literacy.csv,0.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,blind_spots_ontology.json,20.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,catania_stats.json,0.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,catania_structural_diagnostic.csv,305.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,causal_inference_dag.json,1.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,destination_precarity_pension_gap.png,28.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,destination_zero_contribution_gap.png,34.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eurostat_adults_living_with_parents.csv,0.2,https://ec.europa.eu/eurostat/databrowser/
+processed,eury_2024_2025_Instructio_AL.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_AT_AHSRG.csv,5.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_AT_AHSWK.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_AT_AHS_G.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_AT_MS.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BA.csv,5.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BE_de.csv,7.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BE_fr_GT.csv,6.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BE_fr_TT+AT.csv,5.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BE_nl.csv,6.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BG_1.csv,6.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BG_2.csv,6.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BG_3.csv,5.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_BG_4.csv,6.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_CH.csv,5.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_CY.csv,6.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_CZ.csv,6.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_Control.csv,1.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_DE.csv,8.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_DK.csv,5.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_EE.csv,5.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_EL.csv,7.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_ES.csv,7.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_FI.csv,6.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_FR.csv,5.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_HR.csv,5.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_HU.csv,7.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_Home.csv,0.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IE.csv,6.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IS.csv,6.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_1.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_10.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_11.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_2.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_3.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_4.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_5.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_6.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_7.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_8.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_IT_9.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LI_Gym.csv,7.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LI_OBs.csv,6.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LI_Real.csv,6.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LT.csv,6.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LU_enseig_classic.csv,6.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LU_gen_orientation.csv,6.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LU_gen_preparation.csv,5.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_LV.csv,7.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_ME.csv,5.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_MK.csv,4.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_MT.csv,6.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_NL_HAVO.csv,5.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_NL_VMBO.csv,5.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_NL_VWO.csv,5.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_NO.csv,5.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_PL.csv,6.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_PT.csv,6.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_RO_1.csv,6.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_RO_2.csv,6.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_RS.csv,5.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_SE.csv,5.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_SI.csv,5.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_SK.csv,7.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_TR_AHS.csv,5.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_TR_IPLSS.csv,5.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_Instructio_TR_SHS.csv,5.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_SchoolYear_Flexibility.csv,34.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_SchoolYear_Holidays.csv,6.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_SchoolYear_NationalNotes.csv,26.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_SchoolYear_TimeAllocation.csv,90.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_SchoolYear_YearStart.csv,9.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_2024_2025_SchoolYear_Years_Days_Participa.csv,6.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Academic_Overview_20_DaB.csv,54.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Academic_Overview_20_Data.csv,4.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Academic_Overview_20_Illust.csv,26.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Academic_Overview_20_Test_Month.csv,8.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Academic_Overview_20_Test_WE.csv,9.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Academic_Overview_20_WE.csv,49.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_ELET_System-level_in_ELET_Indicator_1.csv,3.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_ELET_System-level_in_ELET_Indicator_2.csv,4.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_ELET_System-level_in_ELET_Indicator_3.csv,5.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_ELET_System-level_in_ELET_Indicator_4.csv,5.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_ELET_System-level_in_ELET_Indicator_5.csv,4.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_ELET_System-level_in_Policy_description_I.csv,26.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2023_2024_1_School_f.csv,1.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2023_2024_2_Teacher_.csv,1.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2023_2024_3_Working_.csv,1.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2023_2024_4_HEI_targ.csv,0.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2023_2024_5_Student_.csv,1.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2023_2024_6_Diversit.csv,0.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2024_2025_1_Grade_re.csv,1.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2024_2025_2_Segregat.csv,0.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2024_2025_3_Tracking.csv,1.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Equity_system_level_2024_2025_4_Ability_.csv,1.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Eurydice_European_ed_ISCED_0-4_2024-2025.csv,117.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Eurydice_European_ed_ISCED_0-4_2025-2026.csv,118.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Eurydice_European_ed_ISCED_5-8_2024-2025.csv,48.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Eurydice_European_ed_ISCED_5-8_2025-2026.csv,48.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_Cover.csv,1.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_EurostatData.csv,1.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_1.csv,27.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_1a.csv,14.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_2.csv,21.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_3.csv,5.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_3a.csv,6.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_4.csv,199.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_5.csv,18.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_H_6.csv,24.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_1.csv,50.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_1a.csv,7.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_1b.csv,7.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_2.csv,24.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_3.csv,12.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_4.csv,195.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_5.csv,18.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,eury_Open_data_Teachers_T_6.csv,26.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,federconsumatori_textbook_corredo_costs.csv,0.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,full_2026_2027_curriculum_matrix.csv,3.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,full_systemic_educational_framework.csv,2.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,hidden_class_tax_textbooks.png,30.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,international_tripartite_vs_comprehensive_matrix.csv,1.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,invalsi_overall_performance.csv,0.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,istat_asili_nido_coverage_panel.csv,0.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,istat_bocciati_rimandati_rates.csv,0.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,istat_eurostat_gini_inequality_panel.csv,2.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,istat_household_income_by_region.csv,0.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,istat_worldbank_international_brain_drain.csv,0.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,istat_youth_employment_rates.csv,0.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,italy_systemic_ontology.json,36.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,italy_vs_world_scorecard.json,4.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,legal_governance_matrix.json,4.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,macro_cost_of_failure_gdp_loss.csv,0.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,macro_household_out_of_pocket_costs.csv,0.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,macro_infrastructure_demographics_panel.csv,0.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,macro_pnrr_allocation_vs_spending.csv,0.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,macro_state_gdp_underinvestment.csv,0.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,macroeconomic_fiscal_equilibrium.json,3.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,master_eurydice_comparison.json,2.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,master_oed_destination_matrix.json,2997.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,master_realistic_formation_matrix.json,3430.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,master_territorial_curriculum.csv,4282.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,master_territorial_curriculum.json,2832.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,master_territorial_curriculum_v4.csv,3837.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,mim_diplomifici_anomaly_proxy.csv,0.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,mur_internal_fuorisede_migration_panel.csv,0.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_building_safety.png,50.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_curriculum_divide.png,38.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_demographic_collapse.png,37.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_equilibrium_radar.png,208.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_invalsi_by_track_area.png,53.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_origin_divergence.png,78.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_pension_gap.png,57.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_pnrr_spending.png,35.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_teacher_precarity.png,66.8,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_track_geography.png,42.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb48_tripartite_distribution.png,71.6,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb49_gender_segregation_subtracks.png,93.5,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb49_geospatial_opportunity_clusters.png,120.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb49_rf_feature_importance.png,22.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb49_top_20_subtracks.png,96.1,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb50_isolation_forest_anomalies.png,87.7,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,nb50_shap_summary.png,56.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,oecd_teacher_demographics.csv,15.0,https://data.oecd.org/
+processed,oed_international_migration_calculator.json,1.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,pof_and_pcto_legal_matrix.csv,1.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,ptof_autonomy_divide_matrix.csv,1.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,quadro_orario_full_subjects.csv,7.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,shiw_private_tutoring_shadow_economy.csv,0.2,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,subject_textbook_costs_by_track_2026.csv,6.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,subtrack_association_rules.csv,1433.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,synthetic_longitudinal_cohort_bridge.csv,1.3,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,textbook_diversity_by_subject_track.png,58.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,textbook_pricing_differential_by_subject.png,58.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,tripartite_curriculum_hours_panel.csv,1.9,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,tripartite_territorial_deserts.csv,522.0,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+processed,tripartite_territorial_summary.json,1.4,Processed locally via Jupyter Notebooks (Derivative Data) - See Repository Scripts
+scuolaindati,scuolaindati_school_level_micro_panel.csv,3.4,Verify via local_data/LOCAL_DATA_BIBLIOGRAPHY.md

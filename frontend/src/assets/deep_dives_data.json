@@ -1,0 +1,45 @@
+{
+  "malta_vs_catania": {
+    "malta": {
+      "population": "540k",
+      "neet_rate": 7.2,
+      "education_gdp_pct": 5.9,
+      "transport_coverage": 95,
+      "early_dropout": 10.1
+    },
+    "catania": {
+      "population": "1.0M (Metro)",
+      "neet_rate": 36.5,
+      "education_gdp_pct": 4.3,
+      "transport_coverage": 22,
+      "early_dropout": 24.2
+    }
+  },
+  "pcto_vs_dual": {
+    "italy_pcto": {
+      "students_involved": 1500000,
+      "compensation_eur_month": 0,
+      "inail_injury_reports_annual": 226,
+      "job_insertion_guarantee": false,
+      "safety_oversight": "School/Host Discretion"
+    },
+    "germany_dual": {
+      "students_involved": 1300000,
+      "compensation_eur_month": 950,
+      "inail_injury_reports_annual": "Regulated Labor",
+      "job_insertion_guarantee": true,
+      "safety_oversight": "Strict Trade Union"
+    }
+  },
+  "subjective_evaluation": [
+    { "type": "Oral Exams (IT)", "grading_variance": 85, "psychological_distress_index": 78, "nepotism_risk": "High" },
+    { "type": "Written Standard (EU)", "grading_variance": 15, "psychological_distress_index": 35, "nepotism_risk": "Low" },
+    { "type": "INVALSI (IT)", "grading_variance": 0, "psychological_distress_index": 20, "nepotism_risk": "None" }
+  ],
+  "governance_wgi": [
+    { "country": "Italy", "accountability": 62, "rule_of_law": 58, "control_of_corruption": 53, "horizontalism": 35 },
+    { "country": "Malta", "accountability": 85, "rule_of_law": 72, "control_of_corruption": 68, "horizontalism": 65 },
+    { "country": "Sweden", "accountability": 98, "rule_of_law": 99, "control_of_corruption": 98, "horizontalism": 95 },
+    { "country": "Germany", "accountability": 95, "rule_of_law": 92, "control_of_corruption": 94, "horizontalism": 85 }
+  ]
+}

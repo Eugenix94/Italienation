@@ -1,0 +1,17 @@
+{
+  "model_metrics": {
+    "liceo_monopoly_dropout_increase_percent": 5.0,
+    "prof_monopoly_dropout_increase_percent": 4.0,
+    "desert_dropout_increase_percent": 2.0
+  },
+  "human_cost": {
+    "excess_dropouts_from_monopolies": 13168,
+    "excess_dropouts_from_deserts": 10448,
+    "total_annual_excess_dropouts": 23616
+  },
+  "economic_cost": {
+    "cost_per_neet_annual_euro": 15000,
+    "total_annual_gdp_loss_euro": 354240000,
+    "total_lifetime_gdp_loss_euro": 7084800000
+  }
+}

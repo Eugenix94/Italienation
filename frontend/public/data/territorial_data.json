@@ -1,0 +1,24 @@
+{
+  "regionalData": {
+    "Piemonte": { "dropout": 10.5, "neet": 16.2, "color": "#fef0d9" },
+    "Valle d'Aosta": { "dropout": 11.2, "neet": 15.5, "color": "#fdd49e" },
+    "Lombardia": { "dropout": 9.9, "neet": 14.1, "color": "#fee8c8" },
+    "Trentino-Alto Adige": { "dropout": 8.5, "neet": 11.2, "color": "#fff7ec" },
+    "Veneto": { "dropout": 9.3, "neet": 13.5, "color": "#fee8c8" },
+    "Friuli-Venezia Giulia": { "dropout": 9.8, "neet": 14.2, "color": "#fdd49e" },
+    "Liguria": { "dropout": 11.5, "neet": 17.5, "color": "#fdbb84" },
+    "Emilia-Romagna": { "dropout": 9.5, "neet": 13.8, "color": "#fee8c8" },
+    "Toscana": { "dropout": 10.2, "neet": 15.1, "color": "#fdd49e" },
+    "Umbria": { "dropout": 10.5, "neet": 16.0, "color": "#fdd49e" },
+    "Marche": { "dropout": 9.7, "neet": 14.5, "color": "#fee8c8" },
+    "Lazio": { "dropout": 11.8, "neet": 18.2, "color": "#fdbb84" },
+    "Abruzzo": { "dropout": 10.9, "neet": 17.8, "color": "#fdbb84" },
+    "Molise": { "dropout": 11.2, "neet": 18.5, "color": "#fc8d59" },
+    "Campania": { "dropout": 16.4, "neet": 27.5, "color": "#e34a33" },
+    "Puglia": { "dropout": 14.6, "neet": 25.1, "color": "#ef6548" },
+    "Basilicata": { "dropout": 12.5, "neet": 21.0, "color": "#fc8d59" },
+    "Calabria": { "dropout": 15.8, "neet": 28.2, "color": "#b30000" },
+    "Sicilia": { "dropout": 18.8, "neet": 30.2, "color": "#7f0000" },
+    "Sardegna": { "dropout": 16.7, "neet": 26.5, "color": "#e34a33" }
+  }
+}

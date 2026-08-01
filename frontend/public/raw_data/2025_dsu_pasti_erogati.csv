@@ -1,0 +1,289 @@
+ANNO_SOLARE;CODICE_REGIONE;NOME_REGIONE;CODICE_ENTE;NOME_ENTE;CODICE_TIPOLOGIA;DESCRIZIONE_TIPOLOGIA;NUMERO
+2024;01;Piemonte;0101;EDISU del Piemonte;11;Pasti erogati in mense a gestione diretta;0
+2024;01;Piemonte;0101;EDISU del Piemonte;12;Pasti erogati in mense a gestione indiretta;867186
+2024;01;Piemonte;0101;EDISU del Piemonte;13;Pasti erogati in servizi di ristorazione convenzionati;179209
+2024;01;Piemonte;0101;EDISU del Piemonte;14;Studenti che usufruiscono delle mense;23699
+2024;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;11;Pasti erogati in mense a gestione diretta;0
+2024;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;12;Pasti erogati in mense a gestione indiretta;0
+2024;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;13;Pasti erogati in servizi di ristorazione convenzionati;692
+2024;02;Valle d'Aosta;0201;Regione Autonoma Valle d'Aosta - Struttura Politiche Educative;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;12;Pasti erogati in mense a gestione indiretta;51997
+2024;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;13;Pasti erogati in servizi di ristorazione convenzionati;1022542
+2024;03;Lombardia;0302;Politecnico di Milano - Servizio DSU e mobilità internazionale;14;Studenti che usufruiscono delle mense;6427
+2024;03;Lombardia;0303;EDiSU di Pavia;11;Pasti erogati in mense a gestione diretta;76545
+2024;03;Lombardia;0303;EDiSU di Pavia;12;Pasti erogati in mense a gestione indiretta;245524
+2024;03;Lombardia;0303;EDiSU di Pavia;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0303;EDiSU di Pavia;14;Studenti che usufruiscono delle mense;6200
+2024;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;12;Pasti erogati in mense a gestione indiretta;113387
+2024;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0304;ISU Bocconi - Centro per il DSU - Università commerciale L.Bocconi;14;Studenti che usufruiscono delle mense;-2
+2024;03;Lombardia;0305;SIS - Università degli studi di Bergamo;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0305;SIS - Università degli studi di Bergamo;12;Pasti erogati in mense a gestione indiretta;155158
+2024;03;Lombardia;0305;SIS - Università degli studi di Bergamo;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0305;SIS - Università degli studi di Bergamo;14;Studenti che usufruiscono delle mense;-2
+2024;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;12;Pasti erogati in mense a gestione indiretta;54361
+2024;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0306;CEDISU  - Università degli studi di Brescia;14;Studenti che usufruiscono delle mense;2190
+2024;03;Lombardia;0307;Fondazione EDUCatt di Milano;11;Pasti erogati in mense a gestione diretta;350600
+2024;03;Lombardia;0307;Fondazione EDUCatt di Milano;12;Pasti erogati in mense a gestione indiretta;524918
+2024;03;Lombardia;0307;Fondazione EDUCatt di Milano;13;Pasti erogati in servizi di ristorazione convenzionati;125443
+2024;03;Lombardia;0307;Fondazione EDUCatt di Milano;14;Studenti che usufruiscono delle mense;25454
+2024;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;12;Pasti erogati in mense a gestione indiretta;1639
+2024;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0308;Università Carlo Cattaneo, Ufficio diritto allo studio;14;Studenti che usufruiscono delle mense;-2
+2024;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);12;Pasti erogati in mense a gestione indiretta;28882
+2024;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0309;Ufficio per il DSU - Libera Università di Lingue e Comunicazione (IULM);14;Studenti che usufruiscono delle mense;-2
+2024;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0311;"Università ''Vita-Salute"" San Raffaele";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";12;Pasti erogati in mense a gestione indiretta;15278
+2024;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";13;Pasti erogati in servizi di ristorazione convenzionati;208
+2024;03;Lombardia;0320;"Ufficio per il DSU - Accademia di Belle Arti ''BRERA"" di Milano";14;Studenti che usufruiscono delle mense;258
+2024;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0321;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Milano";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0322;"Ufficio per il DSU - Conservatorio ''Giuseppe Verdi"" di Como";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0323;"Ufficio per il DSU - Conservatorio ''Luca Marenzio"" di Brescia";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0324;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Artistica) di Bergamo";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0325;"Ufficio per il DSU - Accademia ''Santagiulia"" di Brescia";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0326;Ufficio per il DSU - Libera Accademia di Belle Arti di Brescia;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0327;"Ufficio per il DSU - Accademia ''Aldo Galli"" di Como";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;12;Pasti erogati in mense a gestione indiretta;186154
+2024;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0328;Ufficio per il DSU - Nuova Accademia di Belle Arti di Milano;14;Studenti che usufruiscono delle mense;4454
+2024;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0329;Ufficio per il DSU - Accademia A.C.M.E di Milano;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0330;"Ufficio per il DSU - ''Scuole Civiche"" di Milano";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0331;"Ufficio per il DSU - Scuola Superiore per Mediatori Linguistici ''P.M.Loria"" di Milano";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0332;Ufficio per il DSU - Istituto Universitario in Scienze della Mediazione linguistica di Varese;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0333;"Ufficio per il DSU - Conservatorio statale ""Franco Vittadini"" di Pavia";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0334;"Ufficio per il DSU - Politecnico delle Arti ""Gaetano Donizetti - Giacomo Carrara"" (Area Musicale) di Bergamo";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0335;Ufficio per il DSU - Istituto Europeo del Design (IED);14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0336;Ufficio per il DSU - Humanitas University di Rozzano (MI);14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;12;Pasti erogati in mense a gestione indiretta;72827
+2024;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;13;Pasti erogati in servizi di ristorazione convenzionati;616904
+2024;03;Lombardia;0337;Ufficio per il DSU -Università degli studi di Milano;14;Studenti che usufruiscono delle mense;7081
+2024;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;11;Pasti erogati in mense a gestione diretta;82897
+2024;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;12;Pasti erogati in mense a gestione indiretta;6379
+2024;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;13;Pasti erogati in servizi di ristorazione convenzionati;137486
+2024;03;Lombardia;0338;Ufficio per il DSU -Università degli studi di Milano-Bicocca;14;Studenti che usufruiscono delle mense;-2
+2024;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;12;Pasti erogati in mense a gestione indiretta;3711
+2024;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;13;Pasti erogati in servizi di ristorazione convenzionati;13249
+2024;03;Lombardia;0339;Ufficio per il DSU -Università degli Studi dell'Insubria;14;Studenti che usufruiscono delle mense;166
+2024;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0340;Ufficio per il DSU - Conservatorio Lucio Campiani di Mantova;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0341;Ufficio per il DSU - SSML Gonzaga di Mantova;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0342;Ufficio per il DSU - SSML Unicollege sede di Mantova;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0343;"Ufficio per il DSU - Conservatorio statale ""C. Monteverdi"" di Cremona";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0344;Ufficio per il DSU - Istituto Mussida di Milano;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0345;Ufficio per il DSU - Istituto Marangoni di Milano;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0347;Ufficio per il DSU - SAE di Milano;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0348;Ufficio per il DSU - Teatro Alla Scala;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0350;Ufficio per il DSU - SSML CIELS di Brescia;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0351;"Ufficio per il DSU - Conservatorio statale ""Giacomo Puccini"" di GALLARATE (VA)";14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0352;Ufficio per il DSU - Istituto Raffles di MILANO;14;Studenti che usufruiscono delle mense;0
+2024;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;11;Pasti erogati in mense a gestione diretta;0
+2024;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;12;Pasti erogati in mense a gestione indiretta;0
+2024;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;03;Lombardia;0353;Ufficio per il DSU - Istituto Secoli di MILANO;14;Studenti che usufruiscono delle mense;0
+2024;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;11;Pasti erogati in mense a gestione diretta;0
+2024;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;12;Pasti erogati in mense a gestione indiretta;134486
+2024;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;04;Trentino-Alto Adige;0421;Prov. aut. Bolzano, Rip. DSU, Uff. per il DSU, l'Università e la Ricerca Scientifica;14;Studenti che usufruiscono delle mense;-2
+2024;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;11;Pasti erogati in mense a gestione diretta;0
+2024;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;12;Pasti erogati in mense a gestione indiretta;256670
+2024;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;13;Pasti erogati in servizi di ristorazione convenzionati;26810
+2024;04;Trentino-Alto Adige;0422;Opera Universitaria di Trento;14;Studenti che usufruiscono delle mense;10426
+2024;05;Veneto;0501;ESU di Venezia;11;Pasti erogati in mense a gestione diretta;0
+2024;05;Veneto;0501;ESU di Venezia;12;Pasti erogati in mense a gestione indiretta;238827
+2024;05;Veneto;0501;ESU di Venezia;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;05;Veneto;0501;ESU di Venezia;14;Studenti che usufruiscono delle mense;7762
+2024;05;Veneto;0503;ESU di Padova;11;Pasti erogati in mense a gestione diretta;643347
+2024;05;Veneto;0503;ESU di Padova;12;Pasti erogati in mense a gestione indiretta;0
+2024;05;Veneto;0503;ESU di Padova;13;Pasti erogati in servizi di ristorazione convenzionati;435125
+2024;05;Veneto;0503;ESU di Padova;14;Studenti che usufruiscono delle mense;35487
+2024;05;Veneto;0505;ESU di Verona;11;Pasti erogati in mense a gestione diretta;0
+2024;05;Veneto;0505;ESU di Verona;12;Pasti erogati in mense a gestione indiretta;200727
+2024;05;Veneto;0505;ESU di Verona;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;05;Veneto;0505;ESU di Verona;14;Studenti che usufruiscono delle mense;5914
+2024;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;11;Pasti erogati in mense a gestione diretta;0
+2024;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;12;Pasti erogati in mense a gestione indiretta;413186
+2024;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;13;Pasti erogati in servizi di ristorazione convenzionati;330516
+2024;06;Friuli-Venezia Giulia;0600;ARDIS Friuli Venezia Giulia;14;Studenti che usufruiscono delle mense;12287
+2024;07;Liguria;0701;ALISEO LIGURIA;11;Pasti erogati in mense a gestione diretta;153249
+2024;07;Liguria;0701;ALISEO LIGURIA;12;Pasti erogati in mense a gestione indiretta;82503
+2024;07;Liguria;0701;ALISEO LIGURIA;13;Pasti erogati in servizi di ristorazione convenzionati;25980
+2024;07;Liguria;0701;ALISEO LIGURIA;14;Studenti che usufruiscono delle mense;5740
+2024;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;11;Pasti erogati in mense a gestione diretta;0
+2024;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;12;Pasti erogati in mense a gestione indiretta;962093
+2024;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;13;Pasti erogati in servizi di ristorazione convenzionati;602952
+2024;08;Emilia-Romagna;0800;ER.GO - Emilia Romagna;14;Studenti che usufruiscono delle mense;-2
+2024;09;Toscana;0900;ARDSU Toscana;11;Pasti erogati in mense a gestione diretta;1725644
+2024;09;Toscana;0900;ARDSU Toscana;12;Pasti erogati in mense a gestione indiretta;1337344
+2024;09;Toscana;0900;ARDSU Toscana;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;09;Toscana;0900;ARDSU Toscana;14;Studenti che usufruiscono delle mense;55024
+2024;10;Umbria;1001;Agenzia per il DSU dell'Umbria;11;Pasti erogati in mense a gestione diretta;0
+2024;10;Umbria;1001;Agenzia per il DSU dell'Umbria;12;Pasti erogati in mense a gestione indiretta;456678
+2024;10;Umbria;1001;Agenzia per il DSU dell'Umbria;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;10;Umbria;1001;Agenzia per il DSU dell'Umbria;14;Studenti che usufruiscono delle mense;10614
+2024;11;Marche;1100;ERDIS Marche;11;Pasti erogati in mense a gestione diretta;386112
+2024;11;Marche;1100;ERDIS Marche;12;Pasti erogati in mense a gestione indiretta;535457
+2024;11;Marche;1100;ERDIS Marche;13;Pasti erogati in servizi di ristorazione convenzionati;68577
+2024;11;Marche;1100;ERDIS Marche;14;Studenti che usufruiscono delle mense;12755
+2024;12;Lazio;1200;LAZIODISCO;11;Pasti erogati in mense a gestione diretta;0
+2024;12;Lazio;1200;LAZIODISCO;12;Pasti erogati in mense a gestione indiretta;983251
+2024;12;Lazio;1200;LAZIODISCO;13;Pasti erogati in servizi di ristorazione convenzionati;89952
+2024;12;Lazio;1200;LAZIODISCO;14;Studenti che usufruiscono delle mense;50816
+2024;13;Abruzzo;1301;ADSU di L'Aquila;11;Pasti erogati in mense a gestione diretta;0
+2024;13;Abruzzo;1301;ADSU di L'Aquila;12;Pasti erogati in mense a gestione indiretta;187575
+2024;13;Abruzzo;1301;ADSU di L'Aquila;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;13;Abruzzo;1301;ADSU di L'Aquila;14;Studenti che usufruiscono delle mense;4865
+2024;13;Abruzzo;1302;ADSU di Teramo;11;Pasti erogati in mense a gestione diretta;0
+2024;13;Abruzzo;1302;ADSU di Teramo;12;Pasti erogati in mense a gestione indiretta;25067
+2024;13;Abruzzo;1302;ADSU di Teramo;13;Pasti erogati in servizi di ristorazione convenzionati;335
+2024;13;Abruzzo;1302;ADSU di Teramo;14;Studenti che usufruiscono delle mense;-2
+2024;13;Abruzzo;1303;ADSU di Chieti;11;Pasti erogati in mense a gestione diretta;0
+2024;13;Abruzzo;1303;ADSU di Chieti;12;Pasti erogati in mense a gestione indiretta;305140
+2024;13;Abruzzo;1303;ADSU di Chieti;13;Pasti erogati in servizi di ristorazione convenzionati;18976
+2024;13;Abruzzo;1303;ADSU di Chieti;14;Studenti che usufruiscono delle mense;6874
+2024;14;Molise;1401;ESU del Molise;11;Pasti erogati in mense a gestione diretta;0
+2024;14;Molise;1401;ESU del Molise;12;Pasti erogati in mense a gestione indiretta;0
+2024;14;Molise;1401;ESU del Molise;13;Pasti erogati in servizi di ristorazione convenzionati;8222
+2024;14;Molise;1401;ESU del Molise;14;Studenti che usufruiscono delle mense;0
+2024;15;Campania;1500;ADISURC Campania;11;Pasti erogati in mense a gestione diretta;0
+2024;15;Campania;1500;ADISURC Campania;12;Pasti erogati in mense a gestione indiretta;389224
+2024;15;Campania;1500;ADISURC Campania;13;Pasti erogati in servizi di ristorazione convenzionati;976758
+2024;15;Campania;1500;ADISURC Campania;14;Studenti che usufruiscono delle mense;15352
+2024;16;Puglia;1600;ADISU Puglia;11;Pasti erogati in mense a gestione diretta;502433
+2024;16;Puglia;1600;ADISU Puglia;12;Pasti erogati in mense a gestione indiretta;330500
+2024;16;Puglia;1600;ADISU Puglia;13;Pasti erogati in servizi di ristorazione convenzionati;25206
+2024;16;Puglia;1600;ADISU Puglia;14;Studenti che usufruiscono delle mense;16031
+2024;17;Basilicata;1701;ARDSU della Basilicata;11;Pasti erogati in mense a gestione diretta;0
+2024;17;Basilicata;1701;ARDSU della Basilicata;12;Pasti erogati in mense a gestione indiretta;85736
+2024;17;Basilicata;1701;ARDSU della Basilicata;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;17;Basilicata;1701;ARDSU della Basilicata;14;Studenti che usufruiscono delle mense;3815
+2024;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;11;Pasti erogati in mense a gestione diretta;0
+2024;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;12;Pasti erogati in mense a gestione indiretta;3920
+2024;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;18;Calabria;1801;Università Mediterranea di Reggio Calabria - Serv. Speciale DSU;14;Studenti che usufruiscono delle mense;146
+2024;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;11;Pasti erogati in mense a gestione diretta;0
+2024;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;12;Pasti erogati in mense a gestione indiretta;797155
+2024;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;18;Calabria;1802;Centro residenziale dell'Università degli studi della Calabria;14;Studenti che usufruiscono delle mense;17222
+2024;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";11;Pasti erogati in mense a gestione diretta;0
+2024;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";12;Pasti erogati in mense a gestione indiretta;0
+2024;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;18;Calabria;1804;"Università per stranieri ""Dante Alighieri"" di Reggio Calabria - DSU";14;Studenti che usufruiscono delle mense;0
+2024;18;Calabria;1805;Fondazione UMG - Catanzaro;11;Pasti erogati in mense a gestione diretta;79976
+2024;18;Calabria;1805;Fondazione UMG - Catanzaro;12;Pasti erogati in mense a gestione indiretta;4219
+2024;18;Calabria;1805;Fondazione UMG - Catanzaro;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;18;Calabria;1805;Fondazione UMG - Catanzaro;14;Studenti che usufruiscono delle mense;5787
+2024;19;Sicilia;1901;ERSU Palermo;11;Pasti erogati in mense a gestione diretta;0
+2024;19;Sicilia;1901;ERSU Palermo;12;Pasti erogati in mense a gestione indiretta;493451
+2024;19;Sicilia;1901;ERSU Palermo;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;19;Sicilia;1901;ERSU Palermo;14;Studenti che usufruiscono delle mense;14615
+2024;19;Sicilia;1902;ERSU Messina;11;Pasti erogati in mense a gestione diretta;0
+2024;19;Sicilia;1902;ERSU Messina;12;Pasti erogati in mense a gestione indiretta;313616
+2024;19;Sicilia;1902;ERSU Messina;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;19;Sicilia;1902;ERSU Messina;14;Studenti che usufruiscono delle mense;5636
+2024;19;Sicilia;1903;ERSU Catania;11;Pasti erogati in mense a gestione diretta;0
+2024;19;Sicilia;1903;ERSU Catania;12;Pasti erogati in mense a gestione indiretta;300917
+2024;19;Sicilia;1903;ERSU Catania;13;Pasti erogati in servizi di ristorazione convenzionati;12240
+2024;19;Sicilia;1903;ERSU Catania;14;Studenti che usufruiscono delle mense;7417
+2024;19;Sicilia;1904;ERSU di Enna;11;Pasti erogati in mense a gestione diretta;0
+2024;19;Sicilia;1904;ERSU di Enna;12;Pasti erogati in mense a gestione indiretta;29655
+2024;19;Sicilia;1904;ERSU di Enna;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;19;Sicilia;1904;ERSU di Enna;14;Studenti che usufruiscono delle mense;1554
+2024;20;Sardegna;2001;ERSU di Cagliari;11;Pasti erogati in mense a gestione diretta;206769
+2024;20;Sardegna;2001;ERSU di Cagliari;12;Pasti erogati in mense a gestione indiretta;351160
+2024;20;Sardegna;2001;ERSU di Cagliari;13;Pasti erogati in servizi di ristorazione convenzionati;4600
+2024;20;Sardegna;2001;ERSU di Cagliari;14;Studenti che usufruiscono delle mense;10650
+2024;20;Sardegna;2002;ERSU di Sassari;11;Pasti erogati in mense a gestione diretta;0
+2024;20;Sardegna;2002;ERSU di Sassari;12;Pasti erogati in mense a gestione indiretta;0
+2024;20;Sardegna;2002;ERSU di Sassari;13;Pasti erogati in servizi di ristorazione convenzionati;0
+2024;20;Sardegna;2002;ERSU di Sassari;14;Studenti che usufruiscono delle mense;0

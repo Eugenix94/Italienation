@@ -1,0 +1,134 @@
+DATA;TIPOLOGIA_COLLEGIO;CODICE_COLLEGIO;NOME_COLLEGIO;CODICE_SERVIZIO;DESCRIZIONE_SERVIZIO;NUMERO
+01/11/2025;0102;CLR;"Collegio universitario di Torino ''Renato Einaudi""";4;Posti alloggio in residenze - anno corrente;872
+01/11/2025;0102;CLR;"Collegio universitario di Torino ''Renato Einaudi""";5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0102;CLR;"Collegio universitario di Torino ''Renato Einaudi""";6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0102;CLR;"Collegio universitario di Torino ''Renato Einaudi""";7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;0102;CLR;"Collegio universitario di Torino ''Renato Einaudi""";8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;0102;CLR;"Collegio universitario di Torino ''Renato Einaudi""";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0102;CLR;"Collegio universitario di Torino ''Renato Einaudi""";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0313;CLR;"Almo Collegio ''Borromeo""";4;Posti alloggio in residenze - anno corrente;208
+01/11/2025;0313;CLR;"Almo Collegio ''Borromeo""";5;Mense attive a gestione diretta - anno corrente;2
+01/11/2025;0313;CLR;"Almo Collegio ''Borromeo""";6;Posti a sedere in mense a gestione diretta - anno corrente;233
+01/11/2025;0313;CLR;"Almo Collegio ''Borromeo""";7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;0313;CLR;"Almo Collegio ''Borromeo""";8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;0313;CLR;"Almo Collegio ''Borromeo""";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0313;CLR;"Almo Collegio ''Borromeo""";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0314;CLR;Collegio Nuovo - Fondazione Sandra e Enea Mattei;4;Posti alloggio in residenze - anno corrente;160
+01/11/2025;0314;CLR;Collegio Nuovo - Fondazione Sandra e Enea Mattei;5;Mense attive a gestione diretta - anno corrente;1
+01/11/2025;0314;CLR;Collegio Nuovo - Fondazione Sandra e Enea Mattei;6;Posti a sedere in mense a gestione diretta - anno corrente;130
+01/11/2025;0314;CLR;Collegio Nuovo - Fondazione Sandra e Enea Mattei;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;0314;CLR;Collegio Nuovo - Fondazione Sandra e Enea Mattei;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;0314;CLR;Collegio Nuovo - Fondazione Sandra e Enea Mattei;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0314;CLR;Collegio Nuovo - Fondazione Sandra e Enea Mattei;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0316;CLR;Collegio universitario Ghislieri;4;Posti alloggio in residenze - anno corrente;245
+01/11/2025;0316;CLR;Collegio universitario Ghislieri;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0316;CLR;Collegio universitario Ghislieri;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0316;CLR;Collegio universitario Ghislieri;7;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;0316;CLR;Collegio universitario Ghislieri;8;Posti a sedere in mense a gestione indiretta - anno corrente;200
+01/11/2025;0316;CLR;Collegio universitario Ghislieri;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0316;CLR;Collegio universitario Ghislieri;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0317;CLR;"Collegio universitario ''S. Caterina da Siena""";4;Posti alloggio in residenze - anno corrente;143
+01/11/2025;0317;CLR;"Collegio universitario ''S. Caterina da Siena""";5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0317;CLR;"Collegio universitario ''S. Caterina da Siena""";6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0317;CLR;"Collegio universitario ''S. Caterina da Siena""";7;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;0317;CLR;"Collegio universitario ''S. Caterina da Siena""";8;Posti a sedere in mense a gestione indiretta - anno corrente;100
+01/11/2025;0317;CLR;"Collegio universitario ''S. Caterina da Siena""";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0317;CLR;"Collegio universitario ''S. Caterina da Siena""";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0318;CLR;Fondazione Collegio delle Università Milanesi;4;Posti alloggio in residenze - anno corrente;228
+01/11/2025;0318;CLR;Fondazione Collegio delle Università Milanesi;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0318;CLR;Fondazione Collegio delle Università Milanesi;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0318;CLR;Fondazione Collegio delle Università Milanesi;7;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;0318;CLR;Fondazione Collegio delle Università Milanesi;8;Posti a sedere in mense a gestione indiretta - anno corrente;150
+01/11/2025;0318;CLR;Fondazione Collegio delle Università Milanesi;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0318;CLR;Fondazione Collegio delle Università Milanesi;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0346;CLR;Collegio Universitario Lucchini di Brescia;4;Posti alloggio in residenze - anno corrente;54
+01/11/2025;0346;CLR;Collegio Universitario Lucchini di Brescia;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0346;CLR;Collegio Universitario Lucchini di Brescia;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0346;CLR;Collegio Universitario Lucchini di Brescia;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;0346;CLR;Collegio Universitario Lucchini di Brescia;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;0346;CLR;Collegio Universitario Lucchini di Brescia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0346;CLR;Collegio Universitario Lucchini di Brescia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0508;CLR;"Collegio universitario ''don Nicola Mazza""";4;Posti alloggio in residenze - anno corrente;477
+01/11/2025;0508;CLR;"Collegio universitario ''don Nicola Mazza""";5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0508;CLR;"Collegio universitario ''don Nicola Mazza""";6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0508;CLR;"Collegio universitario ''don Nicola Mazza""";7;Mense attive a gestione indiretta - anno corrente;6
+01/11/2025;0508;CLR;"Collegio universitario ''don Nicola Mazza""";8;Posti a sedere in mense a gestione indiretta - anno corrente;400
+01/11/2025;0508;CLR;"Collegio universitario ''don Nicola Mazza""";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0508;CLR;"Collegio universitario ''don Nicola Mazza""";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0604;CLR;Collegio Universitario L. Fonda di Trieste;4;Posti alloggio in residenze - anno corrente;55
+01/11/2025;0604;CLR;Collegio Universitario L. Fonda di Trieste;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0604;CLR;Collegio Universitario L. Fonda di Trieste;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0604;CLR;Collegio Universitario L. Fonda di Trieste;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;0604;CLR;Collegio Universitario L. Fonda di Trieste;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;0604;CLR;Collegio Universitario L. Fonda di Trieste;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0604;CLR;Collegio Universitario L. Fonda di Trieste;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0805;CLR;Fondazione Ceur - Centro europeo università e ricerca;4;Posti alloggio in residenze - anno corrente;1350
+01/11/2025;0805;CLR;Fondazione Ceur - Centro europeo università e ricerca;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0805;CLR;Fondazione Ceur - Centro europeo università e ricerca;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0805;CLR;Fondazione Ceur - Centro europeo università e ricerca;7;Mense attive a gestione indiretta - anno corrente;10
+01/11/2025;0805;CLR;Fondazione Ceur - Centro europeo università e ricerca;8;Posti a sedere in mense a gestione indiretta - anno corrente;822
+01/11/2025;0805;CLR;Fondazione Ceur - Centro europeo università e ricerca;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0805;CLR;Fondazione Ceur - Centro europeo università e ricerca;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;0806;CLR;Fondazione Collegio San Carlo di Modena;4;Posti alloggio in residenze - anno corrente;106
+01/11/2025;0806;CLR;Fondazione Collegio San Carlo di Modena;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;0806;CLR;Fondazione Collegio San Carlo di Modena;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;0806;CLR;Fondazione Collegio San Carlo di Modena;7;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;0806;CLR;Fondazione Collegio San Carlo di Modena;8;Posti a sedere in mense a gestione indiretta - anno corrente;110
+01/11/2025;0806;CLR;Fondazione Collegio San Carlo di Modena;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;0806;CLR;Fondazione Collegio San Carlo di Modena;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;1002;CLR;Collegio della Sapienza - Fondazione ONAOSI di Perugia;4;Posti alloggio in residenze - anno corrente;78
+01/11/2025;1002;CLR;Collegio della Sapienza - Fondazione ONAOSI di Perugia;5;Mense attive a gestione diretta - anno corrente;1
+01/11/2025;1002;CLR;Collegio della Sapienza - Fondazione ONAOSI di Perugia;6;Posti a sedere in mense a gestione diretta - anno corrente;70
+01/11/2025;1002;CLR;Collegio della Sapienza - Fondazione ONAOSI di Perugia;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;1002;CLR;Collegio della Sapienza - Fondazione ONAOSI di Perugia;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;1002;CLR;Collegio della Sapienza - Fondazione ONAOSI di Perugia;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;1002;CLR;Collegio della Sapienza - Fondazione ONAOSI di Perugia;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;1210;CLR;"Fondazione  ''Comunità  Domenico Tardini""";4;Posti alloggio in residenze - anno corrente;108
+01/11/2025;1210;CLR;"Fondazione  ''Comunità  Domenico Tardini""";5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;1210;CLR;"Fondazione  ''Comunità  Domenico Tardini""";6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;1210;CLR;"Fondazione  ''Comunità  Domenico Tardini""";7;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;1210;CLR;"Fondazione  ''Comunità  Domenico Tardini""";8;Posti a sedere in mense a gestione indiretta - anno corrente;100
+01/11/2025;1210;CLR;"Fondazione  ''Comunità  Domenico Tardini""";130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;1210;CLR;"Fondazione  ''Comunità  Domenico Tardini""";134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;1211;CLR;Associazione Cuir ;4;Posti alloggio in residenze - anno corrente;99
+01/11/2025;1211;CLR;Associazione Cuir ;5;Mense attive a gestione diretta - anno corrente;1
+01/11/2025;1211;CLR;Associazione Cuir ;6;Posti a sedere in mense a gestione diretta - anno corrente;99
+01/11/2025;1211;CLR;Associazione Cuir ;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;1211;CLR;Associazione Cuir ;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;1211;CLR;Associazione Cuir ;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;1211;CLR;Associazione Cuir ;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;1212;CLR;Fondazione Rui - ROMA;4;Posti alloggio in residenze - anno corrente;541
+01/11/2025;1212;CLR;Fondazione Rui - ROMA;5;Mense attive a gestione diretta - anno corrente;12
+01/11/2025;1212;CLR;Fondazione Rui - ROMA;6;Posti a sedere in mense a gestione diretta - anno corrente;541
+01/11/2025;1212;CLR;Fondazione Rui - ROMA;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;1212;CLR;Fondazione Rui - ROMA;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;1212;CLR;Fondazione Rui - ROMA;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;1212;CLR;Fondazione Rui - ROMA;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;1214;CLR;Collegio Universitario Pozzani di Roma;4;Posti alloggio in residenze - anno corrente;77
+01/11/2025;1214;CLR;Collegio Universitario Pozzani di Roma;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;1214;CLR;Collegio Universitario Pozzani di Roma;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;1214;CLR;Collegio Universitario Pozzani di Roma;7;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;1214;CLR;Collegio Universitario Pozzani di Roma;8;Posti a sedere in mense a gestione indiretta - anno corrente;80
+01/11/2025;1214;CLR;Collegio Universitario Pozzani di Roma;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;1214;CLR;Collegio Universitario Pozzani di Roma;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;1508;CLR;Ipe - Istituto per ricerche ed attività educative;4;Posti alloggio in residenze - anno corrente;140
+01/11/2025;1508;CLR;Ipe - Istituto per ricerche ed attività educative;5;Mense attive a gestione diretta - anno corrente;3
+01/11/2025;1508;CLR;Ipe - Istituto per ricerche ed attività educative;6;Posti a sedere in mense a gestione diretta - anno corrente;140
+01/11/2025;1508;CLR;Ipe - Istituto per ricerche ed attività educative;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;1508;CLR;Ipe - Istituto per ricerche ed attività educative;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;1508;CLR;Ipe - Istituto per ricerche ed attività educative;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;1508;CLR;Ipe - Istituto per ricerche ed attività educative;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;1905;CLR;Associazione ARCES;4;Posti alloggio in residenze - anno corrente;51
+01/11/2025;1905;CLR;Associazione ARCES;5;Mense attive a gestione diretta - anno corrente;2
+01/11/2025;1905;CLR;Associazione ARCES;6;Posti a sedere in mense a gestione diretta - anno corrente;65
+01/11/2025;1905;CLR;Associazione ARCES;7;Mense attive a gestione indiretta - anno corrente;0
+01/11/2025;1905;CLR;Associazione ARCES;8;Posti a sedere in mense a gestione indiretta - anno corrente;0
+01/11/2025;1905;CLR;Associazione ARCES;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;1905;CLR;Associazione ARCES;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0
+01/11/2025;2003;CLR;College Universitario Sant’Efisio di Cagliari;4;Posti alloggio in residenze - anno corrente;120
+01/11/2025;2003;CLR;College Universitario Sant’Efisio di Cagliari;5;Mense attive a gestione diretta - anno corrente;0
+01/11/2025;2003;CLR;College Universitario Sant’Efisio di Cagliari;6;Posti a sedere in mense a gestione diretta - anno corrente;0
+01/11/2025;2003;CLR;College Universitario Sant’Efisio di Cagliari;7;Mense attive a gestione indiretta - anno corrente;1
+01/11/2025;2003;CLR;College Universitario Sant’Efisio di Cagliari;8;Posti a sedere in mense a gestione indiretta - anno corrente;130
+01/11/2025;2003;CLR;College Universitario Sant’Efisio di Cagliari;130;Posti alloggio in residenze - creati con fondi PNRR - gestione diretta;0
+01/11/2025;2003;CLR;College Universitario Sant’Efisio di Cagliari;134;Posti alloggio in residenze - creati con fondi PNRR - convenzione;0

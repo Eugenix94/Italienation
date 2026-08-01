@@ -1,0 +1,65 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22,Unnamed: 23,Unnamed: 24,Unnamed: 25,Unnamed: 26,Unnamed: 28,Unnamed: 29
+Standard intended time,,,,,,,,,,,,,,,,,,,,,,,,,Eurydice-OECD Joint Instruction Time Data Collection 2024,,
+General information on the education system ,,,,,,,,,ES,,,,,,,,,,,,,,,,,,
+,Country:,,,,,,,,Spain,,,,,,,,,,,,,,,,,,
+,Reference year:,,,,,,,,2024/25,,Total years of compulsory primary and secondary education,,,,,,,,,,,,,,,,
+,Number of years compulsory primary education (ISCED 1):,,,,,,,,6,,0,,,,,,,,,,,,,,,,
+,Number of years compulsory lower secondary education (ISCED 24):,,,,,,,,3,,,,10,,,,,,,,,,,,,,
+,Number of years compulsory upper secondary education (ISCED 34):,,,,,,,,1,,,,,,,,,,,,,,,,,,
+,Theoretical age of admission in Compulsory Primary Education:,,,,,,,,6,,,,,,,,,,,,,,,,,,
+,Information given by (Week or Year):,,,,,,,,YEAR,,,,,,,,,,,,,,,,,,
+,Pathway / Track / Branch:,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Information given in (Periods OR hours of 60 min),,,,,,,,Hours (60min),,,,,,,,,,,,,,,,,,
+Distribution of Minimum Instruction Time and Horizontal Flexibility,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Grade,ISCED level,"Number of instruction days 
+per school year","Number of instruction days 
+per school week","Length of a period / 
+lesson in minutes","Reading, writing and literature (L1)",Mathematics,Natural sciences,Social sciences,Language 2 (*),Language 3 (*),Language 4 (*),Language 5 (*),Physical Education and Health,Arts Education,Religion/Ethics/Moral education,ICT,Technology,Practical and vocational skills,Other subjects,,Compulsory options chosen by the students,Compulsory flexible subjects chosen by schools,Total compulsory curriculum,Non-compulsory curriculum,Number of Weeks,Ration period/60 minutes
+,,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,,
+A1,1,ISCED 1,175,5,60,185.0605211406096,149.14250373704823,51.95891960941452,49.728258194508385,84.71046174569885,xc:22,a,a,84.16093662079903,74.61229247304495,44.822111105427396,a,a,a,4.762362098658072,a,xc:22,59.7746630972883,788.7330298224974,a,35,1
+A2,2,ISCED 1,175,5,60,183.8147623769649,150.83395113223784,50.52930570421205,51.34815762135617,84.84611062141914,xc:22,a,a,85.0798406052593,70.75897080736216,44.170677244013525,a,a,a,4.8631280299691495,a,xc:22,62.49931137064786,788.7442155134421,a,35,1
+A3,3,ISCED 1,175,5,60,183.26024581388376,147.71454634897313,52.66107893309351,50.433534733042784,89.5852673085982,xc:22,a,a,82.54110074899336,74.62435859003457,44.374916272185125,a,a,a,4.808532331015308,a,xc:22,58.74814426220148,788.7517253420212,a,35,1
+A4,4,ISCED 1,175,5,60,180.80979737327036,145.32033477320664,53.39462999732488,54.205700182355514,89.77939403822113,xc:22,a,a,83.32886983268267,71.62969943843876,43.67848567107582,a,a,a,4.888164689105669,a,xc:22,61.711458876216724,788.7465348718981,a,35,1
+A5,5,ISCED 1,175,5,60,173.84757494257957,133.96382307141732,50.6601656439551,49.10734666857809,89.29121958744572,xc:22,a,a,81.79063811177005,70.85091472694275,64.12959376171912,a,a,a,4.893039899775305,a,xc:22,70.24437430724146,788.7786907214245,a,35,1
+A6,6,ISCED 1,175,5,60,169.71480012668508,131.74925862648936,49.827738606699754,49.827738606699754,91.04531230635766,xc:22,a,a,82.55208892744521,69.8291617241766,71.27446262100494,a,a,a,4.974774858512,a,xc:22,67.97862360749644,788.7739600115667,a,35,1
+A7,7,ISCED 24,175,5,60,167.0108679884948,133.37418801789332,102.88684247063603,104.26654201998768,123.69499779649264,xc:22,a,a,81.68111207356262,102.99909960129641,44.579776810260746,a,xc:22,a,34.89083745023113,a,xc:22,154.61573577114473,1050.0000000000002,a,35,1
+A8,8,ISCED 24,175,5,60,158.96557728856723,133.0619995929358,102.86252179718849,102.04292000500578,120.25359773941838,xc:22,a,a,73.8100436906422,94.26013844308939,57.80939200971454,a,xc:22,a,34.89144295325088,a,xc:22,172.04236648018727,1050,a,35,1
+A9,9,ISCED 24,175,5,60,158.87186218862877,130.36074553320822,151.8848415430065,103.78323514235329,113.6664975022256,xc:22,a,a,73.76252431148183,87.46397931468555,40.402805105552936,a,xc:22,a,34.89471639912224,a,xc:22,162.53446134828786,1057.6256683885526,a,35,1
+A10,10,ISCED 34,175,5,60,168.0117178670986,137.60725878349533,xc:22,98.72631273700995,120.28048599600693,xc:22,a,a,69.78715013561366,xc:22,50.3824748392727,a,xc:22,a,34.89357506780683,a,xc:22,377.86605483563125,1057.5550302619354,a,35,1
+A11,11,,,,,,,,,,,,,,,,,,,,,,,,,,1
+A12,12,,,,,,,,,,,,,,,,,,,,,,,,,,1
+A13,13,,,,,,,,,,,,,,,,,,,,,,,,,,1
+,(*) as a compulsory subject,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Number of years,Distribution of Minimum Instruction Time and Horizontal Flexibility,,,,,,,,,,,,,,,,,,,,,Minimum Instruction Time: Sub-total Compulsory I,8947.708854933338,,,
+A14,6,Primary (ISCED 1),,,,1076.5077017739934,858.7244176893724,309.0318384946998,304.6507360065407,529.2577656077407,,,,499.4534748469496,432.3053977599998,312.4502466754259,,,,29.1900019070355,,,380.95657552109225,4732.52815628285,,35,1
+A15,3,Compulsory lower secondary (ISCED 24),,,,484.84830746569077,396.7969331440373,357.634205810831,310.0926971673468,357.6150930381366,,,,229.25368007568665,284.7232173590713,142.79197392552823,,,,104.67699680260426,,,489.1925635996199,3157.6256683885526,,35,1
+A16,1,Compulsory upper secondary (ISCED 34),,,,168.0117178670986,137.60725878349533,0,98.72631273700995,120.28048599600693,,,,69.78715013561366,0,50.3824748392727,,,,34.89357506780683,,,377.86605483563125,1057.5550302619354,,35,1
+Distribution of the instruction time in the case of Vertical Flexibility,,,,,,,,,,,,,,,,,,,,,,, ,,,,
+,,,,,,,,,,,,,,,,,,,,,, ,,,,,
+,Group of,,Dura-,from,to,,,,,,,,,,,,,,,,,,,Total,,,
+,grades,,tion,grade,grade,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,False,
+F1,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F2,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F3,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F4,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F5,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F6,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F7,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F8,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F9,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F10,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F11,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F12,0,,,0,0,,,,,,,,,,,,,,,,,,,0,,,
+,Number of years,Distribution of the instruction time in the case of Vertical Flexibility,,,,,,,,,,,,,,,,,,,,,Vertical Flexibility: Sub-total Compulsory II,0,,,
+F13,6,Primary (ISCED 1),,,,,,,,,,,,,,,,,,,,,,0,,,
+F14,3,Compulsory lower secondary (ISCED 24),,,,,,,,,,,,,,,,,,,,,,0,,,
+F15,1,Compulsory upper secondary (ISCED 34),,,,,,,,,,,,,,,,,,,,,,0,,,
+Total Instruction time,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Number of years,Total Instruction time,,,,,,,,,,,,,,,,,,,,,Instruction Time: Total Compulsory,8947.708854933338,,,
+T1,6,Primary (ISCED 1),,,,1076.5077017739934,858.7244176893724,309.0318384946998,304.6507360065407,529.2577656077407,,,,499.4534748469496,432.3053977599998,312.4502466754259,,,,29.1900019070355,,,380.95657552109225,4732.52815628285,,,
+T2,3,Compulsory lower secondary (ISCED 24),,,,484.84830746569077,396.7969331440373,357.634205810831,310.0926971673468,357.6150930381366,,,,229.25368007568665,284.7232173590713,142.79197392552823,,,,104.67699680260426,,,489.1925635996199,3157.6256683885526,,,
+T3,1,Compulsory upper secondary (ISCED 34),,,,168.0117178670986,137.60725878349533,,98.72631273700995,120.28048599600693,,,,69.78715013561366,,50.3824748392727,,,,34.89357506780683,,,377.86605483563125,1057.5550302619354,,,
+Statistics,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Percentage of students following the reported curriculum in primary education (ISCED 1),,,,,,,,,,,1,,,,,,,,,,,,,,,
+,Percentage of students following the reported curriculum in lower secondary education (ISCED 24),,,,,,,,,,,1,,,,,,,,,,,,,,,
+,Percentage of students following the reported curriculum in upper secondary education (ISCED 34),,,,,,,,,,,1,,,,,,,,,,,,,,,

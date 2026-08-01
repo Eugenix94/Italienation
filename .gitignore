@@ -44,3 +44,8 @@ exports_stash/
 
 # Archive folder (too large for GitHub)
 local_data/ARCHIVE/
+
+# Large generated files
+processed_data/italy_all_schools_map.html
+processed_data/italy_tripartite_map.html
+frontend/dist/

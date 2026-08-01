@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "AGRIGENTO",
+    "name": "Agrigento",
+    "lat": 37.3111,
+    "lng": 13.5765,
+    "liceo_count": 19,
+    "tecnico_count": 24,
+    "professionale_count": 31,
+    "total_deserts": 24
+  },
+  {
+    "id": "ALESSANDRIA",
+    "name": "Alessandria",
+    "lat": 44.9123,
+    "lng": 8.6148,
+    "liceo_count": 13,
+    "tecnico_count": 24,
+    "professionale_count": 9,
+    "total_deserts": 98
+  },
+  {
+    "id": "ANCONA",
+    "name": "Ancona",
+    "lat": 43.6158,
+    "lng": 13.5189,
+    "liceo_count": 15,
+    "tecnico_count": 28,
+    "professionale_count": 20,
+    "total_deserts": 35
+  },
+  {
+    "id": "AREZZO",
+    "name": "Arezzo",
+    "lat": 43.4633,
+    "lng": 11.8797,
+    "liceo_count": 9,
+    "tecnico_count": 16,
+    "professionale_count": 26,
+    "total_deserts": 24
+  },
+  {
+    "id": "ASCOLI PICENO",
+    "name": "Ascoli Piceno",
+    "lat": 42.8546,
+    "lng": 13.5755,
+    "liceo_count": 7,
+    "tecnico_count": 10,
+    "professionale_count": 12,
+    "total_deserts": 24
+  },
+  {
+    "id": "ASTI",
+    "name": "Asti",
+    "lat": 44.9004,
+    "lng": 8.2069,
+    "liceo_count": 4,
+    "tecnico_count": 12,
+    "professionale_count": 7,
+    "total_deserts": 54
+  },
+  {
+    "id": "AVELLINO",
+    "name": "Avellino",
+    "lat": 40.9146,
+    "lng": 14.7909,
+    "liceo_count": 26,
+    "tecnico_count": 30,
+    "professionale_count": 35,
+    "total_deserts": 85
+  },
+  {
+    "id": "BARI",
+    "name": "Bari",
+    "lat": 41.1171,
+    "lng": 16.8719,
+    "liceo_count": 40,
+    "tecnico_count": 61,
+    "professionale_count": 57,
+    "total_deserts": 10
+  },
+  {
+    "id": "BARLETTA-ANDRIA-TRANI",
+    "name": "Barletta-Andria-Trani",
+    "lat": 41.2294,
+    "lng": 16.2906,
+    "liceo_count": 16,
+    "tecnico_count": 12,
+    "professionale_count": 21,
+    "total_deserts": 0
+  },
+  {
+    "id": "BELLUNO",
+    "name": "Belluno",
+    "lat": 46.1388,
+    "lng": 12.2166,
+    "liceo_count": 9,
+    "tecnico_count": 12,
+    "professionale_count": 12,
+    "total_deserts": 45
+  },
+  {
+    "id": "BENEVENTO",
+    "name": "Benevento",
+    "lat": 41.1297,
+    "lng": 14.7816,
+    "liceo_count": 23,
+    "tecnico_count": 22,
+    "professionale_count": 23,
+    "total_deserts": 54
+  },
+  {
+    "id": "BERGAMO",
+    "name": "Bergamo",
+    "lat": 45.6983,
+    "lng": 9.6773,
+    "liceo_count": 32,
+    "tecnico_count": 37,
+    "professionale_count": 33,
+    "total_deserts": 193
+  },
+  {
+    "id": "BIELLA",
+    "name": "Biella",
+    "lat": 45.563,
+    "lng": 8.0583,
+    "liceo_count": 5,
+    "tecnico_count": 7,
+    "professionale_count": 7,
+    "total_deserts": 47
+  },
+  {
+    "id": "BOLOGNA",
+    "name": "Bologna",
+    "lat": 44.4949,
+    "lng": 11.3426,
+    "liceo_count": 22,
+    "tecnico_count": 34,
+    "professionale_count": 39,
+    "total_deserts": 37
+  },
+  {
+    "id": "BRESCIA",
+    "name": "Brescia",
+    "lat": 45.5416,
+    "lng": 10.2118,
+    "liceo_count": 28,
+    "tecnico_count": 49,
+    "professionale_count": 42,
+    "total_deserts": 168
+  },
+  {
+    "id": "BRINDISI",
+    "name": "Brindisi",
+    "lat": 40.6322,
+    "lng": 17.9417,
+    "liceo_count": 15,
+    "tecnico_count": 19,
+    "professionale_count": 15,
+    "total_deserts": 7
+  },
+  {
+    "id": "CAGLIARI",
+    "name": "Cagliari",
+    "lat": 39.2238,
+    "lng": 9.1217,
+    "liceo_count": 17,
+    "tecnico_count": 24,
+    "professionale_count": 14,
+    "total_deserts": 6
+  },
+  {
+    "id": "CALTANISSETTA",
+    "name": "Caltanissetta",
+    "lat": 37.4922,
+    "lng": 14.062,
+    "liceo_count": 13,
+    "tecnico_count": 21,
+    "professionale_count": 21,
+    "total_deserts": 13
+  },
+  {
+    "id": "CAMPOBASSO",
+    "name": "Campobasso",
+    "lat": 41.5604,
+    "lng": 14.6598,
+    "liceo_count": 18,
+    "tecnico_count": 15,
+    "professionale_count": 15,
+    "total_deserts": 58
+  },
+  {
+    "id": "CASERTA",
+    "name": "Caserta",
+    "lat": 41.0821,
+    "lng": 14.3333,
+    "liceo_count": 48,
+    "tecnico_count": 46,
+    "professionale_count": 46,
+    "total_deserts": 72
+  },
+  {
+    "id": "CATANIA",
+    "name": "Catania",
+    "lat": 37.5079,
+    "lng": 15.083,
+    "liceo_count": 46,
+    "tecnico_count": 60,
+    "professionale_count": 50,
+    "total_deserts": 27
+  },
+  {
+    "id": "CATANZARO",
+    "name": "Catanzaro",
+    "lat": 38.9098,
+    "lng": 16.5877,
+    "liceo_count": 17,
+    "tecnico_count": 28,
+    "professionale_count": 23,
+    "total_deserts": 65
+  },
+  {
+    "id": "CHIETI",
+    "name": "Chieti",
+    "lat": 42.351,
+    "lng": 14.1675,
+    "liceo_count": 19,
+    "tecnico_count": 17,
+    "professionale_count": 10,
+    "total_deserts": 67
+  },
+  {
+    "id": "COMO",
+    "name": "Como",
+    "lat": 45.8081,
+    "lng": 9.0852,
+    "liceo_count": 11,
+    "tecnico_count": 13,
+    "professionale_count": 8,
+    "total_deserts": 108
+  },
+  {
+    "id": "COSENZA",
+    "name": "Cosenza",
+    "lat": 39.2983,
+    "lng": 16.2537,
+    "liceo_count": 41,
+    "tecnico_count": 61,
+    "professionale_count": 60,
+    "total_deserts": 105
+  },
+  {
+    "id": "CREMONA",
+    "name": "Cremona",
+    "lat": 45.1333,
+    "lng": 10.0333,
+    "liceo_count": 12,
+    "tecnico_count": 15,
+    "professionale_count": 13,
+    "total_deserts": 86
+  },
+  {
+    "id": "CROTONE",
+    "name": "Crotone",
+    "lat": 39.0807,
+    "lng": 17.1272,
+    "liceo_count": 10,
+    "tecnico_count": 17,
+    "professionale_count": 12,
+    "total_deserts": 17
+  },
+  {
+    "id": "CUNEO",
+    "name": "Cuneo",
+    "lat": 44.3844,
+    "lng": 7.5427,
+    "liceo_count": 17,
+    "tecnico_count": 28,
+    "professionale_count": 27,
+    "total_deserts": 152
+  },
+  {
+    "id": "ENNA",
+    "name": "Enna",
+    "lat": 37.567,
+    "lng": 14.2794,
+    "liceo_count": 13,
+    "tecnico_count": 8,
+    "professionale_count": 20,
+    "total_deserts": 8
+  },
+  {
+    "id": "FERMO",
+    "name": "Fermo",
+    "lat": 43.1611,
+    "lng": 13.7183,
+    "liceo_count": 5,
+    "tecnico_count": 9,
+    "professionale_count": 7,
+    "total_deserts": 31
+  },
+  {
+    "id": "FERRARA",
+    "name": "Ferrara",
+    "lat": 44.8381,
+    "lng": 11.6198,
+    "liceo_count": 7,
+    "tecnico_count": 15,
+    "professionale_count": 15,
+    "total_deserts": 13
+  },
+  {
+    "id": "FIRENZE",
+    "name": "Firenze",
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "liceo_count": 34,
+    "tecnico_count": 32,
+    "professionale_count": 24,
+    "total_deserts": 30
+  },
+  {
+    "id": "FOGGIA",
+    "name": "Foggia",
+    "lat": 41.4622,
+    "lng": 15.5447,
+    "liceo_count": 30,
+    "tecnico_count": 41,
+    "professionale_count": 36,
+    "total_deserts": 29
+  },
+  {
+    "id": "FORLI'-CESENA",
+    "name": "Forli'-Cesena",
+    "lat": 44.2227,
+    "lng": 12.0407,
+    "liceo_count": 10,
+    "tecnico_count": 14,
+    "professionale_count": 11,
+    "total_deserts": 22
+  },
+  {
+    "id": "FROSINONE",
+    "name": "Frosinone",
+    "lat": 41.6402,
+    "lng": 13.3514,
+    "liceo_count": 21,
+    "tecnico_count": 40,
+    "professionale_count": 33,
+    "total_deserts": 72
+  },
+  {
+    "id": "GENOVA",
+    "name": "Genova",
+    "lat": 44.4056,
+    "lng": 8.9463,
+    "liceo_count": 24,
+    "tecnico_count": 26,
+    "professionale_count": 32,
+    "total_deserts": 46
+  },
+  {
+    "id": "GORIZIA",
+    "name": "Gorizia",
+    "lat": 45.9402,
+    "lng": 13.6223,
+    "liceo_count": 7,
+    "tecnico_count": 16,
+    "professionale_count": 8,
+    "total_deserts": 19
+  },
+  {
+    "id": "GROSSETO",
+    "name": "Grosseto",
+    "lat": 42.7603,
+    "lng": 11.1135,
+    "liceo_count": 16,
+    "tecnico_count": 19,
+    "professionale_count": 12,
+    "total_deserts": 17
+  },
+  {
+    "id": "IMPERIA",
+    "name": "Imperia",
+    "lat": 43.886,
+    "lng": 8.027,
+    "liceo_count": 9,
+    "tecnico_count": 18,
+    "professionale_count": 11,
+    "total_deserts": 39
+  },
+  {
+    "id": "ISERNIA",
+    "name": "Isernia",
+    "lat": 41.596,
+    "lng": 14.2361,
+    "liceo_count": 5,
+    "tecnico_count": 6,
+    "professionale_count": 4,
+    "total_deserts": 38
+  },
+  {
+    "id": "L'AQUILA",
+    "name": "L'Aquila",
+    "lat": 42.3498,
+    "lng": 13.3995,
+    "liceo_count": 14,
+    "tecnico_count": 21,
+    "professionale_count": 15,
+    "total_deserts": 66
+  },
+  {
+    "id": "LA SPEZIA",
+    "name": "La Spezia",
+    "lat": 44.1025,
+    "lng": 9.8241,
+    "liceo_count": 7,
+    "tecnico_count": 8,
+    "professionale_count": 12,
+    "total_deserts": 25
+  },
+  {
+    "id": "LATINA",
+    "name": "Latina",
+    "lat": 41.4676,
+    "lng": 12.9037,
+    "liceo_count": 16,
+    "tecnico_count": 33,
+    "professionale_count": 20,
+    "total_deserts": 17
+  },
+  {
+    "id": "LECCE",
+    "name": "Lecce",
+    "lat": 40.3515,
+    "lng": 18.175,
+    "liceo_count": 30,
+    "tecnico_count": 37,
+    "professionale_count": 45,
+    "total_deserts": 75
+  },
+  {
+    "id": "LECCO",
+    "name": "Lecco",
+    "lat": 45.8566,
+    "lng": 9.3925,
+    "liceo_count": 9,
+    "tecnico_count": 11,
+    "professionale_count": 9,
+    "total_deserts": 67
+  },
+  {
+    "id": "LIVORNO",
+    "name": "Livorno",
+    "lat": 43.5485,
+    "lng": 10.3106,
+    "liceo_count": 11,
+    "tecnico_count": 17,
+    "professionale_count": 16,
+    "total_deserts": 13
+  },
+  {
+    "id": "LODI",
+    "name": "Lodi",
+    "lat": 45.3139,
+    "lng": 9.5032,
+    "liceo_count": 4,
+    "tecnico_count": 9,
+    "professionale_count": 4,
+    "total_deserts": 50
+  },
+  {
+    "id": "LUCCA",
+    "name": "Lucca",
+    "lat": 43.8429,
+    "lng": 10.5027,
+    "liceo_count": 15,
+    "tecnico_count": 18,
+    "professionale_count": 17,
+    "total_deserts": 21
+  },
+  {
+    "id": "MACERATA",
+    "name": "Macerata",
+    "lat": 43.3003,
+    "lng": 13.4533,
+    "liceo_count": 12,
+    "tecnico_count": 15,
+    "professionale_count": 21,
+    "total_deserts": 39
+  },
+  {
+    "id": "MANTOVA",
+    "name": "Mantova",
+    "lat": 45.1564,
+    "lng": 10.7914,
+    "liceo_count": 14,
+    "tecnico_count": 16,
+    "professionale_count": 9,
+    "total_deserts": 53
+  },
+  {
+    "id": "MASSA-CARRARA",
+    "name": "Massa-Carrara",
+    "lat": 44.0375,
+    "lng": 10.1423,
+    "liceo_count": 11,
+    "tecnico_count": 8,
+    "professionale_count": 20,
+    "total_deserts": 10
+  },
+  {
+    "id": "MATERA",
+    "name": "Matera",
+    "lat": 40.6664,
+    "lng": 16.6044,
+    "liceo_count": 16,
+    "tecnico_count": 19,
+    "professionale_count": 15,
+    "total_deserts": 15
+  },
+  {
+    "id": "MESSINA",
+    "name": "Messina",
+    "lat": 38.1938,
+    "lng": 15.554,
+    "liceo_count": 25,
+    "tecnico_count": 32,
+    "professionale_count": 31,
+    "total_deserts": 84
+  },
+  {
+    "id": "MILANO",
+    "name": "Milano",
+    "lat": 45.4642,
+    "lng": 9.19,
+    "liceo_count": 77,
+    "tecnico_count": 81,
+    "professionale_count": 53,
+    "total_deserts": 98
+  },
+  {
+    "id": "MODENA",
+    "name": "Modena",
+    "lat": 44.6471,
+    "lng": 10.9252,
+    "liceo_count": 16,
+    "tecnico_count": 24,
+    "professionale_count": 28,
+    "total_deserts": 35
+  },
+  {
+    "id": "MONZA E DELLA BRIANZA",
+    "name": "Monza E Della Brianza",
+    "lat": 45.5845,
+    "lng": 9.2744,
+    "liceo_count": 21,
+    "tecnico_count": 24,
+    "professionale_count": 15,
+    "total_deserts": 42
+  },
+  {
+    "id": "NAPOLI",
+    "name": "Napoli",
+    "lat": 40.8518,
+    "lng": 14.2681,
+    "liceo_count": 141,
+    "tecnico_count": 146,
+    "professionale_count": 147,
+    "total_deserts": 24
+  },
+  {
+    "id": "NOVARA",
+    "name": "Novara",
+    "lat": 45.4469,
+    "lng": 8.6213,
+    "liceo_count": 11,
+    "tecnico_count": 13,
+    "professionale_count": 4,
+    "total_deserts": 71
+  },
+  {
+    "id": "NUORO",
+    "name": "Nuoro",
+    "lat": 40.3209,
+    "lng": 9.3285,
+    "liceo_count": 15,
+    "tecnico_count": 27,
+    "professionale_count": 20,
+    "total_deserts": 55
+  },
+  {
+    "id": "ORISTANO",
+    "name": "Oristano",
+    "lat": 39.9059,
+    "lng": 8.5912,
+    "liceo_count": 8,
+    "tecnico_count": 11,
+    "professionale_count": 9,
+    "total_deserts": 54
+  },
+  {
+    "id": "PADOVA",
+    "name": "Padova",
+    "lat": 45.4064,
+    "lng": 11.8768,
+    "liceo_count": 27,
+    "tecnico_count": 35,
+    "professionale_count": 24,
+    "total_deserts": 88
+  },
+  {
+    "id": "PALERMO",
+    "name": "Palermo",
+    "lat": 38.1157,
+    "lng": 13.3615,
+    "liceo_count": 61,
+    "tecnico_count": 51,
+    "professionale_count": 67,
+    "total_deserts": 50
+  },
+  {
+    "id": "PARMA",
+    "name": "Parma",
+    "lat": 44.8015,
+    "lng": 10.3279,
+    "liceo_count": 12,
+    "tecnico_count": 18,
+    "professionale_count": 15,
+    "total_deserts": 36
+  },
+  {
+    "id": "PAVIA",
+    "name": "Pavia",
+    "lat": 45.1847,
+    "lng": 9.1582,
+    "liceo_count": 9,
+    "tecnico_count": 20,
+    "professionale_count": 15,
+    "total_deserts": 120
+  },
+  {
+    "id": "PERUGIA",
+    "name": "Perugia",
+    "lat": 43.1107,
+    "lng": 12.3908,
+    "liceo_count": 20,
+    "tecnico_count": 28,
+    "professionale_count": 35,
+    "total_deserts": 38
+  },
+  {
+    "id": "PESARO E URBINO",
+    "name": "Pesaro E Urbino",
+    "lat": 43.9102,
+    "lng": 12.9133,
+    "liceo_count": 9,
+    "tecnico_count": 14,
+    "professionale_count": 18,
+    "total_deserts": 40
+  },
+  {
+    "id": "PESCARA",
+    "name": "Pescara",
+    "lat": 42.4647,
+    "lng": 14.2142,
+    "liceo_count": 12,
+    "tecnico_count": 11,
+    "professionale_count": 4,
+    "total_deserts": 29
+  },
+  {
+    "id": "PIACENZA",
+    "name": "Piacenza",
+    "lat": 45.0526,
+    "lng": 9.693,
+    "liceo_count": 7,
+    "tecnico_count": 12,
+    "professionale_count": 9,
+    "total_deserts": 37
+  },
+  {
+    "id": "PISA",
+    "name": "Pisa",
+    "lat": 43.7228,
+    "lng": 10.4017,
+    "liceo_count": 10,
+    "tecnico_count": 14,
+    "professionale_count": 12,
+    "total_deserts": 31
+  },
+  {
+    "id": "PISTOIA",
+    "name": "Pistoia",
+    "lat": 43.9333,
+    "lng": 10.9167,
+    "liceo_count": 5,
+    "tecnico_count": 12,
+    "professionale_count": 14,
+    "total_deserts": 13
+  },
+  {
+    "id": "PORDENONE",
+    "name": "Pordenone",
+    "lat": 45.9564,
+    "lng": 12.6605,
+    "liceo_count": 7,
+    "tecnico_count": 16,
+    "professionale_count": 7,
+    "total_deserts": 34
+  },
+  {
+    "id": "POTENZA",
+    "name": "Potenza",
+    "lat": 40.6404,
+    "lng": 15.8056,
+    "liceo_count": 27,
+    "tecnico_count": 31,
+    "professionale_count": 33,
+    "total_deserts": 70
+  },
+  {
+    "id": "PRATO",
+    "name": "Prato",
+    "lat": 43.8777,
+    "lng": 11.1022,
+    "liceo_count": 7,
+    "tecnico_count": 9,
+    "professionale_count": 7,
+    "total_deserts": 5
+  },
+  {
+    "id": "RAGUSA",
+    "name": "Ragusa",
+    "lat": 36.9269,
+    "lng": 14.7255,
+    "liceo_count": 14,
+    "tecnico_count": 18,
+    "professionale_count": 20,
+    "total_deserts": 3
+  },
+  {
+    "id": "RAVENNA",
+    "name": "Ravenna",
+    "lat": 44.4184,
+    "lng": 12.2035,
+    "liceo_count": 6,
+    "tecnico_count": 8,
+    "professionale_count": 10,
+    "total_deserts": 13
+  },
+  {
+    "id": "REGGIO CALABRIA",
+    "name": "Reggio Calabria",
+    "lat": 38.1113,
+    "lng": 15.6473,
+    "liceo_count": 34,
+    "tecnico_count": 35,
+    "professionale_count": 29,
+    "total_deserts": 62
+  },
+  {
+    "id": "REGGIO EMILIA",
+    "name": "Reggio Emilia",
+    "lat": 41.8719,
+    "lng": 12.5674,
+    "liceo_count": 10,
+    "tecnico_count": 16,
+    "professionale_count": 22,
+    "total_deserts": 34
+  },
+  {
+    "id": "RIETI",
+    "name": "Rieti",
+    "lat": 42.4042,
+    "lng": 12.8628,
+    "liceo_count": 8,
+    "tecnico_count": 11,
+    "professionale_count": 12,
+    "total_deserts": 48
+  },
+  {
+    "id": "RIMINI",
+    "name": "Rimini",
+    "lat": 44.0678,
+    "lng": 12.5695,
+    "liceo_count": 7,
+    "tecnico_count": 9,
+    "professionale_count": 12,
+    "total_deserts": 21
+  },
+  {
+    "id": "ROMA",
+    "name": "Roma",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "liceo_count": 135,
+    "tecnico_count": 150,
+    "professionale_count": 102,
+    "total_deserts": 72
+  },
+  {
+    "id": "ROVIGO",
+    "name": "Rovigo",
+    "lat": 45.0711,
+    "lng": 11.7904,
+    "liceo_count": 5,
+    "tecnico_count": 12,
+    "professionale_count": 11,
+    "total_deserts": 39
+  },
+  {
+    "id": "SALERNO",
+    "name": "Salerno",
+    "lat": 40.6824,
+    "lng": 14.7681,
+    "liceo_count": 47,
+    "tecnico_count": 63,
+    "professionale_count": 62,
+    "total_deserts": 105
+  },
+  {
+    "id": "SASSARI",
+    "name": "Sassari",
+    "lat": 40.7259,
+    "lng": 8.5556,
+    "liceo_count": 24,
+    "tecnico_count": 38,
+    "professionale_count": 35,
+    "total_deserts": 60
+  },
+  {
+    "id": "SAVONA",
+    "name": "Savona",
+    "lat": 44.3069,
+    "lng": 8.4808,
+    "liceo_count": 8,
+    "tecnico_count": 12,
+    "professionale_count": 9,
+    "total_deserts": 47
+  },
+  {
+    "id": "SIENA",
+    "name": "Siena",
+    "lat": 43.3188,
+    "lng": 11.3308,
+    "liceo_count": 8,
+    "tecnico_count": 13,
+    "professionale_count": 16,
+    "total_deserts": 26
+  },
+  {
+    "id": "SIRACUSA",
+    "name": "Siracusa",
+    "lat": 37.0755,
+    "lng": 15.2866,
+    "liceo_count": 19,
+    "tecnico_count": 33,
+    "professionale_count": 29,
+    "total_deserts": 7
+  },
+  {
+    "id": "SONDRIO",
+    "name": "Sondrio",
+    "lat": 46.1689,
+    "lng": 9.8716,
+    "liceo_count": 6,
+    "tecnico_count": 7,
+    "professionale_count": 6,
+    "total_deserts": 54
+  },
+  {
+    "id": "SUD SARDEGNA",
+    "name": "Sud Sardegna",
+    "lat": 39.167,
+    "lng": 8.5262,
+    "liceo_count": 16,
+    "tecnico_count": 23,
+    "professionale_count": 24,
+    "total_deserts": 81
+  },
+  {
+    "id": "TARANTO",
+    "name": "Taranto",
+    "lat": 40.476,
+    "lng": 17.2308,
+    "liceo_count": 19,
+    "tecnico_count": 35,
+    "professionale_count": 32,
+    "total_deserts": 11
+  },
+  {
+    "id": "TERAMO",
+    "name": "Teramo",
+    "lat": 42.6589,
+    "lng": 13.704,
+    "liceo_count": 10,
+    "tecnico_count": 11,
+    "professionale_count": 11,
+    "total_deserts": 36
+  },
+  {
+    "id": "TERNI",
+    "name": "Terni",
+    "lat": 42.5641,
+    "lng": 12.6427,
+    "liceo_count": 11,
+    "tecnico_count": 10,
+    "professionale_count": 13,
+    "total_deserts": 27
+  },
+  {
+    "id": "TORINO",
+    "name": "Torino",
+    "lat": 45.0703,
+    "lng": 7.6869,
+    "liceo_count": 66,
+    "tecnico_count": 84,
+    "professionale_count": 60,
+    "total_deserts": 229
+  },
+  {
+    "id": "TRAPANI",
+    "name": "Trapani",
+    "lat": 38.0176,
+    "lng": 12.515,
+    "liceo_count": 19,
+    "tecnico_count": 29,
+    "professionale_count": 22,
+    "total_deserts": 10
+  },
+  {
+    "id": "TREVISO",
+    "name": "Treviso",
+    "lat": 45.6669,
+    "lng": 12.243,
+    "liceo_count": 22,
+    "tecnico_count": 25,
+    "professionale_count": 29,
+    "total_deserts": 81
+  },
+  {
+    "id": "TRIESTE",
+    "name": "Trieste",
+    "lat": 45.6495,
+    "lng": 13.7768,
+    "liceo_count": 7,
+    "tecnico_count": 10,
+    "professionale_count": 5,
+    "total_deserts": 5
+  },
+  {
+    "id": "UDINE",
+    "name": "Udine",
+    "lat": 46.0626,
+    "lng": 13.2372,
+    "liceo_count": 21,
+    "tecnico_count": 25,
+    "professionale_count": 21,
+    "total_deserts": 110
+  },
+  {
+    "id": "VARESE",
+    "name": "Varese",
+    "lat": 45.8206,
+    "lng": 8.8251,
+    "liceo_count": 22,
+    "tecnico_count": 35,
+    "professionale_count": 16,
+    "total_deserts": 107
+  },
+  {
+    "id": "VENEZIA",
+    "name": "Venezia",
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "liceo_count": 19,
+    "tecnico_count": 29,
+    "professionale_count": 25,
+    "total_deserts": 34
+  },
+  {
+    "id": "VERBANO-CUSIO-OSSOLA",
+    "name": "Verbano-Cusio-Ossola",
+    "lat": 45.922,
+    "lng": 8.5516,
+    "liceo_count": 8,
+    "tecnico_count": 7,
+    "professionale_count": 5,
+    "total_deserts": 50
+  },
+  {
+    "id": "VERCELLI",
+    "name": "Vercelli",
+    "lat": 45.3268,
+    "lng": 8.4233,
+    "liceo_count": 7,
+    "tecnico_count": 11,
+    "professionale_count": 10,
+    "total_deserts": 42
+  },
+  {
+    "id": "VERONA",
+    "name": "Verona",
+    "lat": 45.4384,
+    "lng": 10.9916,
+    "liceo_count": 20,
+    "tecnico_count": 30,
+    "professionale_count": 28,
+    "total_deserts": 81
+  },
+  {
+    "id": "VIBO VALENTIA",
+    "name": "Vibo Valentia",
+    "lat": 38.6757,
+    "lng": 16.1018,
+    "liceo_count": 9,
+    "tecnico_count": 14,
+    "professionale_count": 14,
+    "total_deserts": 41
+  },
+  {
+    "id": "VICENZA",
+    "name": "Vicenza",
+    "lat": 45.5455,
+    "lng": 11.5356,
+    "liceo_count": 21,
+    "tecnico_count": 32,
+    "professionale_count": 23,
+    "total_deserts": 97
+  },
+  {
+    "id": "VITERBO",
+    "name": "Viterbo",
+    "lat": 42.4174,
+    "lng": 12.1047,
+    "liceo_count": 15,
+    "tecnico_count": 16,
+    "professionale_count": 10,
+    "total_deserts": 41
+  }
+]

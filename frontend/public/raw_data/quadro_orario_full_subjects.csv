@@ -1,0 +1,96 @@
+Macro_Track,Specific_Branch,Subject,Hours_Year1,Hours_Year2,Hours_Year3,Hours_Year4,Hours_Year5,Total_5_Years
+Liceo,Liceo Classico,Lingua e letteratura italiana,4,4,4,4,4,660
+Liceo,Liceo Classico,Lingua e cultura latina,5,5,4,4,4,726
+Liceo,Liceo Classico,Lingua e cultura greca,4,4,3,3,3,561
+Liceo,Liceo Classico,Lingua e cultura straniera,3,3,3,3,3,495
+Liceo,Liceo Classico,Storia e geografia,3,3,0,0,0,198
+Liceo,Liceo Classico,Storia,0,0,3,3,3,297
+Liceo,Liceo Classico,Filosofia,0,0,3,3,3,297
+Liceo,Liceo Classico,Matematica,3,3,2,2,2,396
+Liceo,Liceo Classico,Fisica,0,0,2,2,2,198
+Liceo,Liceo Classico,Scienze naturali,2,2,2,2,2,330
+Liceo,Liceo Classico,Storia dell'arte,0,0,2,2,2,198
+Liceo,Liceo Classico,Scienze motorie e sportive,2,2,2,2,2,330
+Liceo,Liceo Classico,Religione cattolica o attività alternative,1,1,1,1,1,165
+Liceo,Liceo Scientifico,Lingua e letteratura italiana,4,4,4,4,4,660
+Liceo,Liceo Scientifico,Lingua e cultura latina,3,3,3,3,3,495
+Liceo,Liceo Scientifico,Lingua e cultura straniera,3,3,3,3,3,495
+Liceo,Liceo Scientifico,Storia e geografia,3,3,0,0,0,198
+Liceo,Liceo Scientifico,Storia,0,0,2,2,2,198
+Liceo,Liceo Scientifico,Filosofia,0,0,3,3,3,297
+Liceo,Liceo Scientifico,Matematica,5,5,4,4,4,726
+Liceo,Liceo Scientifico,Fisica,2,2,3,3,3,429
+Liceo,Liceo Scientifico,Scienze naturali,2,2,3,3,3,429
+Liceo,Liceo Scientifico,Disegno e storia dell'arte,2,2,2,2,2,330
+Liceo,Liceo Scientifico,Scienze motorie e sportive,2,2,2,2,2,330
+Liceo,Liceo Scientifico,Religione cattolica o attività alternative,1,1,1,1,1,165
+Liceo,Liceo Scientifico (Scienze Applicate),Lingua e letteratura italiana,4,4,4,4,4,660
+Liceo,Liceo Scientifico (Scienze Applicate),Lingua e cultura straniera,3,3,3,3,3,495
+Liceo,Liceo Scientifico (Scienze Applicate),Storia e geografia,3,3,0,0,0,198
+Liceo,Liceo Scientifico (Scienze Applicate),Storia,0,0,2,2,2,198
+Liceo,Liceo Scientifico (Scienze Applicate),Filosofia,0,0,2,2,2,198
+Liceo,Liceo Scientifico (Scienze Applicate),Matematica,5,5,4,4,4,726
+Liceo,Liceo Scientifico (Scienze Applicate),Informatica,2,2,2,2,2,330
+Liceo,Liceo Scientifico (Scienze Applicate),Fisica,2,2,3,3,3,429
+Liceo,Liceo Scientifico (Scienze Applicate),Scienze naturali,3,3,5,5,5,693
+Liceo,Liceo Scientifico (Scienze Applicate),Disegno e storia dell'arte,2,2,2,2,2,330
+Liceo,Liceo Scientifico (Scienze Applicate),Scienze motorie e sportive,2,2,2,2,2,330
+Liceo,Liceo Scientifico (Scienze Applicate),Religione cattolica o attività alternative,1,1,1,1,1,165
+Liceo,Liceo del Made in Italy,Lingua e letteratura italiana,4,4,4,4,4,660
+Liceo,Liceo del Made in Italy,Storia e geografia,3,3,0,0,0,198
+Liceo,Liceo del Made in Italy,Storia,0,0,2,2,2,198
+Liceo,Liceo del Made in Italy,Diritto ed economia / Diritto,3,3,2,2,2,396
+Liceo,Liceo del Made in Italy,Economia aziendale / Economia e finanza,0,0,3,3,3,297
+Liceo,Liceo del Made in Italy,Lingua e cultura straniera 1 (Inglese),3,3,3,3,3,495
+Liceo,Liceo del Made in Italy,Lingua e cultura straniera 2,2,2,3,3,3,429
+Liceo,Liceo del Made in Italy,Matematica (con informatica al biennio),3,3,3,3,3,495
+Liceo,Liceo del Made in Italy,Scienze naturali / Fisica,2,2,2,2,2,330
+Liceo,Liceo del Made in Italy,Storia dell'arte / Made in Italy,2,2,3,3,3,429
+Liceo,Liceo del Made in Italy,Scienze motorie e sportive,2,2,2,2,2,330
+Liceo,Liceo del Made in Italy,Religione cattolica o attività alternative,1,1,1,1,1,165
+Tecnico,Tecnico Economico (AFM),Lingua e letteratura italiana,4,4,4,4,4,660
+Tecnico,Tecnico Economico (AFM),Lingua inglese,3,3,3,3,3,495
+Tecnico,Tecnico Economico (AFM),Seconda lingua comunitaria,3,3,3,3,3,495
+Tecnico,Tecnico Economico (AFM),Storia,2,2,2,2,2,330
+Tecnico,Tecnico Economico (AFM),Matematica,4,4,3,3,3,561
+Tecnico,Tecnico Economico (AFM),Diritto ed economia,2,2,0,0,0,132
+Tecnico,Tecnico Economico (AFM),Diritto,0,0,3,3,3,297
+Tecnico,Tecnico Economico (AFM),Economia politica,0,0,2,2,2,198
+Tecnico,Tecnico Economico (AFM),Scienze integrate (Scienze della Terra e Biologia),2,2,0,0,0,132
+Tecnico,Tecnico Economico (AFM),Scienze integrate (Fisica),2,0,0,0,0,66
+Tecnico,Tecnico Economico (AFM),Scienze integrate (Chimica),0,2,0,0,0,66
+Tecnico,Tecnico Economico (AFM),Geografia,3,3,0,0,0,198
+Tecnico,Tecnico Economico (AFM),Informatica,2,2,2,2,0,264
+Tecnico,Tecnico Economico (AFM),Economia aziendale,2,2,6,7,8,825
+Tecnico,Tecnico Economico (AFM),Scienze motorie e sportive,2,2,2,2,2,330
+Tecnico,Tecnico Economico (AFM),Religione cattolica o attività alternative,1,1,1,1,1,165
+Tecnico,Tecnico Tecnologico (Informatica),Lingua e letteratura italiana,4,4,4,4,4,660
+Tecnico,Tecnico Tecnologico (Informatica),Lingua inglese,3,3,3,3,3,495
+Tecnico,Tecnico Tecnologico (Informatica),Storia,2,2,2,2,2,330
+Tecnico,Tecnico Tecnologico (Informatica),Matematica,4,4,3,3,3,561
+Tecnico,Tecnico Tecnologico (Informatica),Diritto ed economia,2,2,0,0,0,132
+Tecnico,Tecnico Tecnologico (Informatica),Scienze integrate (Scienze della Terra e Biologia),2,2,0,0,0,132
+Tecnico,Tecnico Tecnologico (Informatica),Scienze integrate (Fisica),3,3,0,0,0,198
+Tecnico,Tecnico Tecnologico (Informatica),Scienze integrate (Chimica),3,3,0,0,0,198
+Tecnico,Tecnico Tecnologico (Informatica),Tecnologie e tecniche di rappresentazione grafica,3,3,0,0,0,198
+Tecnico,Tecnico Tecnologico (Informatica),Tecnologie informatiche,3,0,0,0,0,99
+Tecnico,Tecnico Tecnologico (Informatica),Scienze e tecnologie applicate,0,3,0,0,0,99
+Tecnico,Tecnico Tecnologico (Informatica),Informatica,0,0,6,6,6,594
+Tecnico,Tecnico Tecnologico (Informatica),Sistemi e reti,0,0,4,4,4,396
+Tecnico,Tecnico Tecnologico (Informatica),Tecnologie e progettazione di sistemi informatici,0,0,3,3,4,330
+Tecnico,Tecnico Tecnologico (Informatica),Telecomunicazioni,0,0,3,3,0,198
+Tecnico,Tecnico Tecnologico (Informatica),Gestione progetto e organizzazione d'impresa,0,0,0,0,3,99
+Tecnico,Tecnico Tecnologico (Informatica),Scienze motorie e sportive,2,2,2,2,2,330
+Tecnico,Tecnico Tecnologico (Informatica),Religione cattolica o attività alternative,1,1,1,1,1,165
+Professionale,Professionale (Enogastronomia),Lingua e letteratura italiana,4,4,4,4,4,660
+Professionale,Professionale (Enogastronomia),Lingua inglese,3,3,3,3,3,495
+Professionale,Professionale (Enogastronomia),Storia,2,2,2,2,2,330
+Professionale,Professionale (Enogastronomia),Matematica,4,4,3,3,3,561
+Professionale,Professionale (Enogastronomia),Diritto ed economia,2,2,2,2,2,330
+Professionale,Professionale (Enogastronomia),Scienze integrate (Fisica/Chimica/Biologia),4,4,0,0,0,264
+Professionale,Professionale (Enogastronomia),Scienza e cultura dell'alimentazione,2,2,4,4,4,528
+Professionale,Professionale (Enogastronomia),Laboratorio di servizi enogastronomici / settore cucina,4,4,7,7,7,957
+Professionale,Professionale (Enogastronomia),Diritto e tecniche amministrative della struttura ricettiva,0,0,4,4,4,396
+Professionale,Professionale (Enogastronomia),Seconda lingua straniera,2,2,3,3,3,429
+Professionale,Professionale (Enogastronomia),Scienze motorie e sportive,2,2,2,2,2,330
+Professionale,Professionale (Enogastronomia),Religione cattolica o attività alternative,1,1,1,1,1,165

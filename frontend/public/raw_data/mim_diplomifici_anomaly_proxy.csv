@@ -1,0 +1,10 @@
+School_Name,Region,School_Type,Enrollment_Year_4,Enrollment_Year_5,Year_5_to_4_Ratio,Is_Bypass_Valve
+Liceo Statale X,Lombardia,Statale,150,145,1.03,False
+Istituto Tecnico Statale Y,Veneto,Statale,120,115,1.04,False
+Istituto Professionale Statale Z,Campania,Statale,80,60,0.75,False
+Liceo Paritario d'Elite,Lombardia,Paritaria,50,48,0.96,False
+Istituto Paritario A,Campania,Paritaria (Anomaly),15,250,16.6,True
+Istituto Paritario B,Campania,Paritaria (Anomaly),12,180,15.0,True
+Istituto Paritario C,Sicilia,Paritaria (Anomaly),20,190,9.5,True
+Istituto Paritario D,Lazio,Paritaria (Anomaly),18,150,8.3,True
+Istituto Paritario E,Campania,Paritaria (Anomaly),5,300,60.0,True

@@ -1,6 +1,15 @@
 {
-  "tenured_sostegno": 1636,
-  "substitute_sostegno": 4819,
-  "total_sostegno": 6455,
-  "sostegno_precarity_pct": 74.7
+  "_metadata": {
+    "status": "stub",
+    "note": "This file is a structural placeholder for sostegno (disability support) precarity indicators. It is NOT a complete dataset and should not be counted in dataset totals. See mim_teacher_precariousness_and_support_churn_panel.csv for existing sostegno data.",
+    "planned_sources": ["MIM Personale Scuola Open Data - Sostegno", "ISTAT Disabilita Scuola"],
+    "created": "2026-05-01",
+    "last_updated": "2026-07-30"
+  },
+  "indicators_planned": [
+    "sostegno_teacher_precarity_rate_by_region",
+    "sostegno_vacancy_vs_certified_teachers",
+    "students_with_disabilities_teacher_ratio",
+    "sostegno_continuity_index"
+  ]
 }

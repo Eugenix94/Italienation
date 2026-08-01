@@ -1,12 +1,21 @@
-sheet_name,rows_count,columns_count
-IT_1,71,30
-IT_2,71,30
-IT_3,71,30
-IT_4,71,30
-IT_5,71,30
-IT_6,71,30
-IT_7,71,30
-IT_8,71,30
-IT_9,71,30
-IT_10,71,30
-IT_11,71,30
+track,grade_year,total_instruction_hours_per_year,compulsory_flexible_hours,source
+Liceo Classico,1,1056,0,Eurydice 2023/2024
+Liceo Classico,2,1056,0,Eurydice 2023/2024
+Liceo Classico,3,1056,0,Eurydice 2023/2024
+Liceo Classico,4,1056,0,Eurydice 2023/2024
+Liceo Classico,5,1056,0,Eurydice 2023/2024
+Liceo Scientifico,1,891,0,Eurydice 2023/2024
+Liceo Scientifico,2,891,0,Eurydice 2023/2024
+Liceo Scientifico,3,990,0,Eurydice 2023/2024
+Liceo Scientifico,4,990,0,Eurydice 2023/2024
+Liceo Scientifico,5,990,0,Eurydice 2023/2024
+Istituto Tecnico,1,1056,0,Eurydice 2023/2024
+Istituto Tecnico,2,1056,0,Eurydice 2023/2024
+Istituto Tecnico,3,1056,0,Eurydice 2023/2024
+Istituto Tecnico,4,1056,0,Eurydice 2023/2024
+Istituto Tecnico,5,1056,0,Eurydice 2023/2024
+Istituto Professionale,1,1056,264,Eurydice 2023/2024
+Istituto Professionale,2,1056,264,Eurydice 2023/2024
+Istituto Professionale,3,1056,264,Eurydice 2023/2024
+Istituto Professionale,4,1056,264,Eurydice 2023/2024
+Istituto Professionale,5,1056,264,Eurydice 2023/2024

@@ -74,5 +74,99 @@
       "tecnico_math_score": 175,
       "professionale_math_score": 145
     }
+  ],
+  "bocciature_by_escs": [
+    {
+      "track": "Liceo",
+      "high_escs_share_pct": 65,
+      "low_escs_share_pct": 12,
+      "retention_low_escs_pct": 8.2,
+      "retention_high_escs_pct": 1.5
+    },
+    {
+      "track": "Istituto Tecnico",
+      "high_escs_share_pct": 32,
+      "low_escs_share_pct": 30,
+      "retention_low_escs_pct": 15.6,
+      "retention_high_escs_pct": 4.1
+    },
+    {
+      "track": "Istituto Professionale",
+      "high_escs_share_pct": 18,
+      "low_escs_share_pct": 58,
+      "retention_low_escs_pct": 24.7,
+      "retention_high_escs_pct": 6.8
+    }
+  ],
+  "university_dropouts_by_macroarea": [
+    {
+      "macroarea": "Nord",
+      "dropout_pct": 11.2,
+      "inactive_0cfu_pct": 14.8
+    },
+    {
+      "macroarea": "Centro",
+      "dropout_pct": 14.5,
+      "inactive_0cfu_pct": 18.2
+    },
+    {
+      "macroarea": "Sud e Isole",
+      "dropout_pct": 21.8,
+      "inactive_0cfu_pct": 28.4
+    }
+  ],
+  "job_market_mismatch": [
+    {
+      "macroarea": "Nord",
+      "difficulty_finding_candidates_pct": 49.2,
+      "skills_mismatch_pct": 30.5
+    },
+    {
+      "macroarea": "Centro",
+      "difficulty_finding_candidates_pct": 45.4,
+      "skills_mismatch_pct": 28.1
+    },
+    {
+      "macroarea": "Sud e Isole",
+      "difficulty_finding_candidates_pct": 40.8,
+      "skills_mismatch_pct": 25.3
+    }
+  ],
+  "neet_demographics": [
+    {
+      "year": 2018,
+      "male_pct": 21.2,
+      "female_pct": 25.4
+    },
+    {
+      "year": 2019,
+      "male_pct": 20.2,
+      "female_pct": 24.3
+    },
+    {
+      "year": 2020,
+      "male_pct": 21.8,
+      "female_pct": 25.0
+    },
+    {
+      "year": 2021,
+      "male_pct": 21.2,
+      "female_pct": 24.9
+    },
+    {
+      "year": 2022,
+      "male_pct": 17.5,
+      "female_pct": 20.5
+    },
+    {
+      "year": 2023,
+      "male_pct": 16.1,
+      "female_pct": 18.1
+    },
+    {
+      "year": 2024,
+      "male_pct": 14.2,
+      "female_pct": 16.5
+    }
   ]
 }

@@ -1,0 +1,48 @@
+Informazioni sulla variabile;;;
+Variabile;Posizione;Etichetta;Livello di misurazione
+Ripartizione_geografica;1;Denominazione della regione, Area geografica e della nazione;Nominale
+WLE_200_mean;2;Punteggio WLE medio (stima delle abilità secondo il modello di Rasch) su scala nazionale (corretto per il cheating per il grado 8 per gli anni precedenti al 2017-18, anno di introduzione delle prove computerizzate);Scala
+ES;3;Errore standard del punteggio WLE_200_mean;Scala
+WLE_200_sd;4;Deviazione standard del punteggio WLE_200_mean;Scala
+ES_SD;5;Errore standard della deviazione standard del punteggio WLE_200_mean;Scala
+Percentile5;6;Punteggio soglia al 5^ percentile;Scala
+Percentile25;7;Punteggio soglia al 25^ percentile;Scala
+Percentile75;8;Punteggio soglia al 75^ percentile;Scala
+Percentile95;9;Punteggio soglia al 95^ percentile;Scala
+GRADO;10;Grado scolastico;Nominale
+MATERIA;11;Materia;Nominale
+Ordinatore;12;Numero progressivo che permette di ordinare aree groagrafiche e regioni all'interno del grado scolasstico, della materia e dell'anno scolastico;Scala
+FASCIA_1;13;Per Italiano e Matematica grado 2 e 5 equivale alla percentuale di studenti con punteggio inferiore al 5^ percentile;Scala
+FASCIA_2;14;Per Italiano e Matematica grado 2 e 5 equivale alla percentuale di studenti con punteggio compreso tra il 5^ e il 25^ percentile;Scala
+FASCIA_3;15;Per Italiano e Matematica grado 2 e 5 equivale alla percentuale di studenti con punteggio compreso tra il 25^ e il 50^ percentile;Scala
+FASCIA_4;16;Per Italiano e Matematica grado 2 e 5 equivale alla percentuale di studenti con punteggio compreso tra il 50^ e il 75^ percentile;Scala
+FASCIA_5;17;Per Italiano e Matematica grado 2 e 5 equivale alla percentuale di studenti con punteggio compreso tra il 75^ e il 95^ percentile;Scala
+FASCIA_6;18;Per Italiano e Matematica grado 2 e 5 equivale alla percentuale di studenti con punteggio superiore al 95^ percentile;Scala
+LIVELLO_1;19;"Percentuale di studenti con ""Livello di competenza 1"" (Italiano, Matematica), ""Livello PRE-A1"" (Inglese in primaria e secondaria di primo grado), ""Non raggiunge il livello B1"" (Inglese in secondaria di secondo grado)";Scala
+LIVELLO_2;20;"Percentuale di studenti con ""Livello di competenza 2"" (Italiano, Matematica), ""Livello A1"" (Inglese in primaria e secondaria di primo grado), ""Livello B1"" (Inglese in secondaria di secondo grado)";Scala
+LIVELLO_3;21;"Percentuale di studenti con ""Livello di competenza 3"" (Italiano, Matematica), ""Livello A2"" (Inglese in secondaria di primo grado), ""Livello B2"" (Inglese in secondaria di secondo grado)";Scala
+LIVELLO_4;22;"Percentuale di studenti con ""Livello di competenza 4"" (Italiano, Matematica)";Scala
+LIVELLO_5;23;"Percentuale di studenti con ""Livello di competenza 5"" (Italiano, Matematica)";Scala
+Significatività;24;Significatività del punteggio WLE_200_mean rispetto al valore dell'Italia;Nominale
+Perc._Devianza_tra_scuole_su_Devianza_Totale;25;Variabilità tra le scuole;Scala
+Perc._Devianza_tra_classi_su_Devianza_Totale;26;Variabilità tra le classi entro le scuole;Scala
+Perc._Devianza_dentro_le_classi_su_Devianza_Totale;27;Variabilità tra gli alunni entro le classi;Scala
+Anno_new;28;Anno di rilevazione;Nominale
+;;;
+Valori di variabile;;;
+Valore;;Etichetta;
+GRADO;10;Seconda Secondaria di Secondo Grado;
+;10 - Altri licei;Seconda Secondaria di Secondo Grado - Altri licei;
+;10 - Istituti professionali;Seconda Secondaria di Secondo Grado - Istituti professionali;
+;10 - Istituti tecnici;Seconda Secondaria di Secondo Grado - Istituti tecnici;
+;10 - Licei scientifici;Seconda Secondaria di Secondo Grado - Licei scientifici;
+;10 - Licei scientifici classici e linguistici;Seconda Secondaria di Secondo Grado - Licei scientifici classici e linguistici;
+;2;Seconda Primaria;
+;5;Quinta Primaria;
+MATERIA;Inglese L;Inglese Listening;
+;Inglese R;Inglese Reading;
+;Italiano;Italiano;
+;Matematica;Matematica;
+Significatività;NS;Punteggio in linea con la media dell'Italia;
+;S-;Punteggio significativamente inferiore alla media dell'Italia;
+;S+;Punteggio significativamente superiore alla media dell'Italia;

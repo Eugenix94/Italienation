@@ -1,0 +1,65 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22,Unnamed: 23,Unnamed: 24,Unnamed: 25,Unnamed: 26,Unnamed: 28,Unnamed: 29
+Standard intended time,,,,,,,,,,,,,,,,,,,,,,,,,Eurydice-OECD Joint Instruction Time Data Collection 2024,,
+General information on the education system ,,,,,,,,,CZ,,,,,,,,,,,,,,,,,,
+,Country:,,,,,,,,Czechia,,,,,,,,,,,,,,,,,,
+,Reference year:,,,,,,,,2024/25,,Total years of compulsory primary and secondary education,,,,,,,,,,,,,,,,
+,Number of years compulsory primary education (ISCED 1):,,,,,,,,5,,0,,,,,,,,,,,,,,,,
+,Number of years compulsory lower secondary education (ISCED 24):,,,,,,,,4,,,,9,,,,,,,,,,,,,,
+,Number of years compulsory upper secondary education (ISCED 34):,,,,,,,,0,,,,,,,,,,,,,,,,,,
+,Theoretical age of admission in Compulsory Primary Education:,,,,,,,,6,,,,,,,,,,,,,,,,,,
+,Information given by (Week or Year):,,,,,,,,WEEK,,,,,,,,,,,,,,,,,,
+,Pathway / Track / Branch:,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Information given in (Periods OR hours of 60 min),,,,,,,,Periods,,,,,,,,,,,,,,,,,,
+Distribution of Minimum Instruction Time and Horizontal Flexibility,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Grade,ISCED level,"Number of instruction days 
+per school year","Number of instruction days 
+per school week","Length of a period / 
+lesson in minutes","Reading, writing and literature (L1)",Mathematics,Natural sciences,Social sciences,Language 2 (*),Language 3 (*),Language 4 (*),Language 5 (*),Physical Education and Health,Arts Education,Religion/Ethics/Moral education,ICT,Technology,Practical and vocational skills,Other subjects,Compulsory subjects with flexible timetable,Compulsory options chosen by the students,Compulsory flexible subjects chosen by schools,Total compulsory curriculum,Non-compulsory curriculum,Number of Weeks,Ration period/60 minutes
+,,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,,
+A1,1,ISCED 1,189,5,45,xr:F1,xr:F1,xr:F1,xr:F1,xc:22,a,a,a,56.699999999999996,xr:F1,xr:F1,xc:22,xr:F1,xc:17,a,a,xr:F1,xr:F1,56.699999999999996,a,37.8,0.75
+A2,2,ISCED 1,189,5,45,xr:F1,xr:F1,xr:F1,xr:F1,xc:22,a,a,a,56.699999999999996,xr:F1,xr:F1,xc:22,xr:F1,xc:17,a,a,xr:F1,xr:F1,56.699999999999996,a,37.8,0.75
+A3,3,ISCED 1,189,5,45,xr:F1,xr:F1,xr:F1,xr:F1,85.05,a,a,a,56.699999999999996,xr:F1,xr:F1,xc:22,xr:F1,xc:17,a,a,xr:F1,xr:F1,141.75,a,37.8,0.75
+A4,4,ISCED 1,189,5,45,xr:F1,xr:F1,xr:F1,xr:F1,85.05,a,a,a,56.699999999999996,xr:F1,xr:F1,28.349999999999998,xr:F1,xc:17,a,a,xr:F1,xr:F1,170.1,a,37.8,0.75
+A5,5,ISCED 1,189,5,45,xr:F1,xr:F1,xr:F1,xr:F1,85.05,a,a,a,56.699999999999996,xr:F1,xr:F1,28.349999999999998,xr:F1,xc:17,a,a,xr:F1,xr:F1,170.1,a,37.8,0.75
+A6,6,ISCED 24,189,5,45,xr:F2,xr:F2,xr:F2,xr:F2,85.05,xr:F2,a,a,56.699999999999996,xr:F2,xr:F2,28.349999999999998,xr:F2,xc:17,a,a,xr:F2,xr:F2,170.1,a,37.8,0.75
+A7,7,ISCED 24,189,5,45,xr:F2,xr:F2,xr:F2,xr:F2,85.05,xr:F2,a,a,56.699999999999996,xr:F2,xr:F2,28.349999999999998,xr:F2,xc:17,a,a,xr:F2,xr:F2,170.1,a,37.8,0.75
+A8,8,ISCED 24,189,5,45,xr:F2,xr:F2,xr:F2,xr:F2,85.05,xr:F2,a,a,56.699999999999996,xr:F2,xr:F2,28.349999999999998,xr:F2,xc:17,a,a,xr:F2,xr:F2,170.1,a,37.8,0.75
+A9,9,ISCED 24,189,5,45,xr:F2,xr:F2,xr:F2,xr:F2,85.05,xr:F2,a,a,56.699999999999996,xr:F2,xr:F2,28.349999999999998,xr:F2,xc:17,a,a,xr:F2,xr:F2,170.1,a,37.8,0.75
+A10,10,,,,,,,,,,,,,,,,,,,,,,,,,,
+A11,11,,,,,,,,,,,,,,,,,,,,,,,,,,
+A12,12,,,,,,,,,,,,,,,,,,,,,,,,,,
+A13,13,,,,,,,,,,,,,,,,,,,,,,,,,,
+,(*) as a compulsory subject,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Number of years,Distribution of Minimum Instruction Time and Horizontal Flexibility,,,,,,,,,,,,,,,,,,,,,Minimum Instruction Time: Sub-total Compulsory I,1275.75,,,
+A14,5,Primary (ISCED 1),,,,,,,,255.14999999999998,,,,283.5,,,56.699999999999996,,,,,,,595.35,,37.8,0.75
+A15,4,Compulsory lower secondary (ISCED 24),,,,,,,,340.2,,,,226.79999999999998,,,113.39999999999999,,,,,,,680.4,,37.8,0.75
+A16,0,Compulsory upper secondary (ISCED 34),,,,,,,,,,,,,,,,,,,,,,,,37.8,0.75
+Distribution of the instruction time in the case of Vertical Flexibility,,,,,,,,,,,,,,,,,,,,,,, ,,,,
+,,,,,,,,,,,,,,,,,,,,,, ,,,,,
+,Group of,,Dura-,from,to,,,,,,,,,,,,,,,,,,,Total,,,
+,grades,,tion,grade,grade,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,0,
+F1,1-5 - ISCED 1,,5,1,5,935.55,567,311.84999999999997,xc:7,a,a,a,a,a,340.2,xc:22,a,141.75,xc:17,a,a,xc:22,453.59999999999997,2749.95,m,37.8,0.75
+F2,6-9 - ISCED 24,,4,6,9,425.25,425.25,567,283.5,a,170.1,a,a,56.699999999999996,255.14999999999998,xc:22,a,85.05,xc:17,a,a,xc:22,510.29999999999995,2778.3,m,37.8,0.75
+F3,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F4,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F5,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F6,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F7,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F8,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F9,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F10,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F11,0,,1,0,0,,,,,,,,,,,,,,,,,,,0,,,
+F12,0,,,0,0,,,,,,,,,,,,,,,,,,,0,,,
+,Number of years,Distribution of the instruction time in the case of Vertical Flexibility,,,,,,,,,,,,,,,,,,,,,Vertical Flexibility: Sub-total Compulsory II,5528.25,,,
+F13,5,Primary (ISCED 1),,,,935.55,567,311.84999999999997,0,0,0,0,0,0,340.2,0,0,141.75,0,0,0,0,453.59999999999997,2749.95,0,37.8,0.75
+F14,4,Compulsory lower secondary (ISCED 24),,,,425.25,425.25,567,283.5,0,170.1,0,0,56.699999999999996,255.14999999999998,0,0,85.05,0,0,0,0,510.29999999999995,2778.3,0,37.8,0.75
+F15,0,Compulsory upper secondary (ISCED 34),,,,,,,,,,,,,,,,,,,,,,0,,37.8,0.75
+Total Instruction time,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Number of years,Total Instruction time,,,,,,,,,,,,,,,,,,,,,Instruction Time: Total Compulsory,6804,,,
+T1,5,Primary (ISCED 1),,,,935.55,567,311.84999999999997,,255.14999999999998,,,,283.5,340.2,,56.699999999999996,141.75,,,,,453.59999999999997,3345.2999999999997,,75.6,1.5
+T2,4,Compulsory lower secondary (ISCED 24),,,,425.25,425.25,567,283.5,340.2,170.1,,,283.5,255.14999999999998,,113.39999999999999,85.05,,,,,510.29999999999995,3458.7000000000003,,75.6,1.5
+T3,0,Compulsory upper secondary (ISCED 34),,,,,,,,,,,,,,,,,,,,,,,,75.6,1.5
+Statistics,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Percentage of students following the reported curriculum in primary education (ISCED 1),,,,,,,,,,,0.992,,,,,,,,,,,,,,,
+,Percentage of students following the reported curriculum in lower secondary education (ISCED 24),,,,,,,,,,,0.989,,,,,,,,,,,,,,,
+,Percentage of students following the reported curriculum in upper secondary education (ISCED 34),,,,,,,,,,,,,,,,,,,,,,,,,,

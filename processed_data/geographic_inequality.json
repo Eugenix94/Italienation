@@ -1,6 +1,15 @@
 {
-  "total_municipalities": 6654,
-  "no_high_school_pct": 78.5,
-  "only_vocational_pct": 5.1,
-  "full_access_pct": 16.5
+  "_metadata": {
+    "status": "stub",
+    "note": "This file is a structural placeholder for geographic inequality indicators. It is NOT a complete dataset and should not be counted in dataset totals.",
+    "planned_sources": ["ISTAT BES Indicators", "SVIMEZ Rapporto Mezzogiorno", "OpenCoesione territorial data"],
+    "created": "2026-05-01",
+    "last_updated": "2026-07-30"
+  },
+  "indicators_planned": [
+    "north_south_gdp_gap_by_province",
+    "educational_poverty_index_by_municipality",
+    "service_access_inequality_by_region",
+    "digital_divide_by_province"
+  ]
 }

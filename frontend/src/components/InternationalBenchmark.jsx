@@ -1,0 +1,54 @@
+import React from 'react';
+import { ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer } from 'recharts';
+import { T } from './T';
+import eurydiceData from '../assets/master_eurydice_comparison.json';
+
+const CustomTooltip = ({ active, payload, label }) => {
+  if (active && payload && payload.length) {
+    return (
+      <div className="bg-zinc-900 border border-zinc-700 p-4 rounded-lg shadow-xl">
+        <p className="font-bold text-white mb-2">{label}</p>
+        {payload.map((entry, index) => (
+          <p key={index} style={{ color: entry.color || entry.fill }} className="text-sm font-medium">
+            {entry.name}: {entry.value}
+          </p>
+        ))}
+      </div>
+    );
+  }
+  return null;
+};
+
+export default function InternationalBenchmark() {
+  return (
+    <div className="space-y-8">
+      <div className="text-center max-w-3xl mx-auto mb-8">
+        <h2 className="text-3xl font-bold text-white mb-4">
+          <T it="Benchmark Internazionale (Eurydice)" en="International Benchmark (Eurydice)" />
+        </h2>
+        <p className="text-zinc-400 text-lg">
+          <T 
+            it="Comparazione europea sull'età di tracking (smistamento) e il relativo impatto sui tassi di dispersione (NEET)." 
+            en="European comparison of tracking age and its associated impact on dropout rates (NEET)." 
+          />
+        </p>
+      </div>
+      <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl w-full">
+        <div className="h-[500px]">
+          <ResponsiveContainer width="100%" height="100%">
+            <ComposedChart data={eurydiceData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
+              <XAxis dataKey="Country" stroke="#888" />
+              <YAxis yAxisId="left" stroke="#888" label={{ value: 'Tracking Age', angle: -90, position: 'insideLeft', fill: '#888' }} />
+              <YAxis yAxisId="right" orientation="right" stroke="#f43f5e" label={{ value: 'NEET Rate (%)', angle: 90, position: 'insideRight', fill: '#f43f5e' }} />
+              <RechartsTooltip content={<CustomTooltip />} />
+              <Legend wrapperStyle={{ paddingTop: '20px' }} />
+              <Bar yAxisId="left" dataKey="TrackingAge" name="Tracking Age (Years)" fill="#4f46e5" radius={[4, 4, 0, 0]} />
+              <Line yAxisId="right" type="monotone" dataKey="NEETRate_15_29" name="NEET Rate (%)" stroke="#f43f5e" strokeWidth={4} dot={{ r: 6 }} />
+            </ComposedChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+    </div>
+  );
+}

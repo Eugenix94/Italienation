@@ -1,0 +1,32 @@
+Informazioni sulla variabile;;;
+Variabile;Posizione;Etichetta;Livello di misurazione
+GRADO;1;Grado scolastico;Nominale
+MATERIA;2;Materia;Nominale
+WLE_MASCHI;3;Rendimento medio dei maschi;Scala
+WLE_FEMMINE;4;Rendimento medio delle femmine;Scala
+SIG_DIFF_GENERE;5;Significatività della differenza di rendimento medio tra maschi e femmine;Nominale
+WLE_NATIVO;6;Rendimento medio degli studenti nativi;Scala
+WLE_ST_PRIMA_GEN;7;Rendimento medio degli studenti stranieri di prima generazione;Scala
+WLE_ST_SECONDA_GEN;8;Rendimento medio degli studenti stranieri di seconda generazione;Scala
+WLE_ESCS_Q01;9;Rendimento medio degli studenti con ESCS nel primo quartile;Scala
+WLE_ESCS_Q02;10;Rendimento medio degli studenti con ESCS nel secondo quartile;Scala
+WLE_ESCS_Q03;11;Rendimento medio degli studenti con ESCS nel terzo quartile;Scala
+WLE_ESCS_Q04;12;Rendimento medio degli studenti con ESCS nel quarto quartile;Scala
+Anno_new;13;Anno scolastico;Nominale
+;;;
+Valori di variabile;;;
+Valore;;Etichetta;
+GRADO;G02;Seconda Primaria;
+;G05;Quinta Primaria;
+;G10;Seconda Secondaria di Secondo Grado;
+;G10 - Altri licei;Seconda Secondaria di Secondo Grado - Altri licei;
+;G10 - Istituti professionali;Seconda Secondaria di Secondo Grado - Istituti professionali;
+;G10 - Istituti tecnici;Seconda Secondaria di Secondo Grado - Istituti tecnici;
+;G10 - Licei scientifici;Seconda Secondaria di Secondo Grado - Licei scientifici;
+;G10 - Licei scientifici classici e linguistici;Seconda Secondaria di Secondo Grado - Licei scientifici classici e linguistici;
+MATERIA;INGLESE Listening;Inglese - Ascolto;
+;INGLESE Reading;Inglese - Lettura;
+;ITALIANO;Italiano;
+;MATEMATICA;Matematica;
+SIG_DIFF_GENERE;NS;Differenza NON significativa;
+;S;Differenza significativa;

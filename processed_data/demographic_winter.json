@@ -1,6 +1,15 @@
 {
-  "pop_6_18_2024": 6165000,
-  "pop_6_18_2035": 4956000,
-  "pop_drop_pct": 19.6,
-  "projected_school_closures": 1605
+  "_metadata": {
+    "status": "stub",
+    "note": "This file is a structural placeholder for planned demographic projection data. It is NOT a complete dataset and should not be counted in dataset totals.",
+    "planned_sources": ["ISTAT Previsioni Demografiche", "Eurostat Population Projections"],
+    "created": "2026-05-01",
+    "last_updated": "2026-07-30"
+  },
+  "indicators_planned": [
+    "school_age_population_projection_2025_2040",
+    "birth_rate_trend_by_region",
+    "school_closure_projections",
+    "teacher_surplus_by_region"
+  ]
 }

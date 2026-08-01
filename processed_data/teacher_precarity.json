@@ -1,6 +1,15 @@
 {
-  "tenured_count": 3292,
-  "substitute_count": 9989,
-  "total_count": 13281,
-  "precarity_pct": 75.2
+  "_metadata": {
+    "status": "stub",
+    "note": "This file is a structural placeholder for teacher precarity indicators. It is NOT a complete dataset and should not be counted in dataset totals. See mim_teacher_precariousness_and_support_churn_panel.csv and ministerial_teacher_workforce_precariato_2024_25.csv for existing teacher precarity data.",
+    "planned_sources": ["MIM Personale Scuola Open Data", "INPS Osservatorio Precariato"],
+    "created": "2026-05-01",
+    "last_updated": "2026-07-30"
+  },
+  "indicators_planned": [
+    "supply_teacher_churn_rate_by_region",
+    "sostegno_vacancy_fill_rate",
+    "teacher_age_distribution",
+    "contract_type_distribution"
+  ]
 }

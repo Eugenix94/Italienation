@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
-import Home from './views/Home';
-import SimulatorView from './views/SimulatorView';
-import DataCatalog from './views/DataCatalog';
 import Footer from './components/Footer';
-import GlossaryModal from './components/GlossaryModal';
+import ErrorBoundary from './components/ErrorBoundary';
+import FloatingActionBar from './components/FloatingActionBar';
+import { Loader2 } from 'lucide-react';
+
+const UnifiedHome = lazy(() => import('./views/UnifiedHome'));
+
+const PageLoader = () => (
+  <div className="flex flex-col items-center justify-center min-h-[60vh] text-zinc-400 gap-4">
+    <Loader2 className="animate-spin text-indigo-500" size={40} />
+    <span className="text-xs font-semibold tracking-wider uppercase">Caricamento piattaforma...</span>
+  </div>
+);
 
 function App() {
   return (
@@ -21,18 +29,24 @@ function App() {
           <div className="relative z-10 flex flex-col flex-1">
             <Navbar />
             <main className="flex-1 w-full">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/simulator" element={<SimulatorView />} />
-              <Route path="/catalog" element={<DataCatalog />} />
-            </Routes>
-          </main>
-          <GlossaryModal />
+              <ErrorBoundary>
+                <Suspense fallback={<PageLoader />}>
+                  <Routes>
+                    <Route path="/" element={<UnifiedHome />} />
+                    <Route path="*" element={<UnifiedHome />} />
+                  </Routes>
+                </Suspense>
+              </ErrorBoundary>
+            </main>
+            <Footer />
+            <FloatingActionBar />
           </div>
-        </div>  {/* Footer is rendered inside SimulatorView, but we can put a global one here if needed. We'll leave it in SimulatorView to match previous design, or we can move it here. Let's let SimulatorView handle it for now to avoid double footers on the simulator. */}
+        </div>
       </HashRouter>
     </LanguageProvider>
   );
 }
 
 export default App;
+
+

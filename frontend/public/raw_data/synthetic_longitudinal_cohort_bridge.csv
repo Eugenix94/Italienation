@@ -1,0 +1,12 @@
+Cohort_Stage,Low_SES_Outcome,High_SES_Outcome,Data_Source,File
+Age 3 (Asili Nido),No nursery (81% excluded South),Public/private nursery (39% North),ISTAT,istat_asili_nido_coverage_panel.csv
+Age 8 (Grade 3 INVALSI),Below baseline 42-48% (Sud),Below baseline 15-18% (Nord),INVALSI,invalsi_regional_scores_panel.csv
+Age 13 (Grade 8 INVALSI),Math mean 172-178 (Sud),Math mean 215-220 (Nord),INVALSI,invalsi_regional_scores_panel.csv
+Age 14 (Track Selection),Professionale 46.3% (Q1),Liceo 82.5% (Q5),INVALSI,invalsi_escs_track_sorting_panel.csv
+Age 15 (Year 1 Bocciatura),Retention 18.4% (Q1),Retention 1.5% (Q5),INVALSI,invalsi_escs_track_sorting_panel.csv
+Age 16-17 (Debito Formativo),"8% tutoring, 42% pass","62% tutoring, 94% pass",SHIW,shiw_private_tutoring_shadow_economy.csv
+Age 17-18 (Diplomifici),No capital for bypass,Year-5 anomalous spike,MIM,mim_diplomifici_anomaly_proxy.csv
+Age 19 (+1yr),"Prof: 55% precarious, 25% NEET",Liceo: 85% university,AlmaDiploma,almadiploma_occupational_outcomes_1_3_5_yr.csv
+Age 24 (+5yr),Structural NEET (65.8% >12mo),Degree or migration,AlmaDiploma,almadiploma_occupational_outcomes_1_3_5_yr.csv
+Age 25-30 (Labor),38mo to stable contract,Fuorisede or brain drain,ANPAL/MUR,mur_internal_fuorisede_migration_panel.csv
+Age 65+ (Pension),Pension poverty (no INPS),Full contributory pension,Eurostat,ESTAT_spr_exp_pens.csv

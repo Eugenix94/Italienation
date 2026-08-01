@@ -1,0 +1,12 @@
+Unnamed: 1,Unnamed: 2
+Codes used in the open data file,
+:,not available
+a,not applicable
+Index,url link
+Harmonised Index of Consumer Prices (HICP) - annual data (average index and rate of change),https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table?lang=en&category=prc.prc_hicp
+"Purchasing power parities (PPPs), price level indices and real expenditures for ESA 2010 aggregates","Purchasing power parities (PPPs), price level indices and real expenditures for ESA 2010 aggregates [prc_ppp_ind] (NA_ITEM: Purchasing power parities (EU27_2020=1); PPP_CAT: Actual individual consumption).
+[prc_ppp_ind] Purchasing power parities (PPPs), price level indices and real expenditures for ESA 2010 aggregates
+https://ec.europa.eu/eurostat/databrowser/view/prc_ppp_ind/default/table?lang=en"
+EUR exchange rate,"Euro/ECU exchange rates - annual data [ert_bil_eur_a]
+[tec00033] ECU/EUR exchange rates versus national currencies
+https://ec.europa.eu/eurostat/databrowser/view/tec00033/default/table?lang=en&category=t_ert"

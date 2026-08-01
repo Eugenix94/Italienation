@@ -1,0 +1,22 @@
+{
+  "title": "Openpolis & Con i Bambini (Osservatorio Povertà Educativa) Curated Datasets",
+  "generated_at_utc": "2026-07-09T15:25:07Z",
+  "source_organization": "Fondazione Openpolis & Con i Bambini Impresa Sociale",
+  "primary_web_source": "https://www.openpolis.it/quanti-sono-i-giovani-che-non-studiano-e-non-lavorano-in-italia/",
+  "observatory_portal": "https://conibambini.openpolis.it/",
+  "license": "CC-BY-4.0",
+  "datasets": [
+    {
+      "file": "openpolis_neet_urban_rural_gap.csv",
+      "description": "NEET incidence and early school leavers by degree of urbanization (Cities vs. Towns vs. Rural areas)."
+    },
+    {
+      "file": "openpolis_neet_metropolitan_capitals.csv",
+      "description": "Municipal-level NEET incidence, early leaving, nursery coverage, and ESCS context scores across 10 major Italian capitals."
+    },
+    {
+      "file": "openpolis_educational_poverty_regional.csv",
+      "description": "Multi-dimensional regional educational poverty index incorporating early childhood care, broadband infrastructure, and INVALSI implicit dropouts."
+    }
+  ]
+}

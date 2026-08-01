@@ -1,0 +1,50 @@
+Indicator 1b,Number of years to reach the top of the career by ISCED level and salary range (qualification),Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22,Unnamed: 23,Unnamed: 24,Unnamed: 25,Unnamed: 26,Unnamed: 27,Unnamed: 28,Unnamed: 29,Unnamed: 30,Unnamed: 31,Unnamed: 32,Unnamed: 33,Unnamed: 34,Unnamed: 35,Unnamed: 36,Unnamed: 37,Unnamed: 38,Unnamed: 39,Unnamed: 40,Unnamed: 41,Unnamed: 42
+Category,Year,Range (qualification),ISCED,BE-FR,BE-DE,BE-NL,BG,CZ,DK,DE,EE,IE,EL,ES,FR,HR,IT,CY,LV,LT,LU,HU,MT,NL,AT,PL,PT,RO,SI,SK,FI,SE,AL,BA,CH,IS,LI,ME,MK,NO,RS,TR
+Teachers,2020/2021,Minimum,ISCED 02,27,24,36,:,32,10,:,a,a,36,39,35,:,35,24,a,25,30,42,14,:,a,20,34,40,25,40,10,a,20,:,26,20,a,40,40,16,40,25
+Teachers,2020/2021,Minimum,ISCED 1,27,24,36,:,32,12,:,a,:,36,39,35,40,35,24,a,25,30,42,19,:,34,20,34,40,25,40,20,a,20,:,25,20,a,40,40,16,40,25
+Teachers,2020/2021,Minimum,ISCED 24,27,24,36,:,32,12,:,a,:,36,39,35,40,35,24,a,25,30,42,19,:,34,20,34,40,25,40,20,a,20,:,25,20,a,40,40,16,40,25
+Teachers,2020/2021,Minimum,ISCED 34,27,24,36,:,32,7,:,a,:,36,39,35,40,35,24,a,25,30,42,19,:,34,20,34,40,25,40,20,a,20,:,25,:,a,40,40,16,40,25
+Teachers,2020/2021,Higher (if most common),ISCED 02,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,9,a,a,20,a,40,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+Teachers,2020/2021,Higher (if most common),ISCED 1,a,a,a,a,a,a,a,a,a,a,a,a,40,a,a,a,a,a,a,a,a,a,20,a,40,a,a,a,a,a,a,a,a,a,a,a,16,a,a
+Teachers,2020/2021,Higher (if most common),ISCED 24,a,a,a,a,a,a,a,a,a,a,a,a,40,a,a,a,a,a,a,a,a,a,20,a,a,a,a,a,a,a,a,a,a,a,a,a,16,a,a
+Teachers,2020/2021,Higher (if most common),ISCED 34,25,a,36,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,16,a,a
+Teachers,2020/2021,Other (if different from minimum and most common),ISCED 02,25,a,36,a,32,10,a,a,a,36,39,35,0,35,0,a,25,30,42,0,a,:,20,34,a,25,40,10,a,a,a,26,20,a,20 years ,a,16,a,25
+Teachers,2020/2021,Other (if different from minimum and most common),ISCED 1,25,a,36,a,32,12,a,a,:,36,39,35,0,35,0,a,25,30,42,0,a,34,20,34,a,25,40,20,a,a,a,25,20,a,20 years ,a,16,a,25
+Teachers,2020/2021,Other (if different from minimum and most common),ISCED 24,25,a,36,a,32,12,a,a,:,36,39,:,0,35,0,a,25,30,42,0,a,34,20,34,a,25,40,20,a,a,a,25,20,a,20 years ,a,16,a,25
+Teachers,2020/2021,Other (if different from minimum and most common),ISCED 34,25,a,36,a,32,7,a,a,:,36,39,:,0,35,0,a,25,30,42,0,a,34,20,34,a,25,40,20,a,a,a,25,:,a,20 years ,a,16,a,25
+Teachers,2021/2022,Minimum,ISCED 02,27,26,36,:,32,10,:,a,a,36,39,35,:,35,24,a,25,30,42,14,12,a,20,34,40,25,40,10,a,20,:,26,20,a,40,40,16,40,25
+Teachers,2021/2022,Minimum,ISCED 1,27,26,36,:,32,12,:,a,:,36,39,35,40,35,24,a,25,30,42,19,12,32,20,34,40,25,40,20,a,20,:,25,20,a,40,40,16,40,25
+Teachers,2021/2022,Minimum,ISCED 24,27,26,36,:,32,12,:,a,:,36,39,35,40,35,24,a,25,30,42,19,12,32,20,34,40,25,40,20,a,20,:,25,20,a,40,40,16,40,25
+Teachers,2021/2022,Minimum,ISCED 34,27,24,36,:,32,7,:,a,:,36,39,35,40,35,24,a,25,30,42,19,12,32,20,34,40,25,40,20,a,20,:,25,:,a,40,40,16,40,25
+Teachers,2021/2022,Higher (if most common),ISCED 02,a,,a,:,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,9,a,a,20,a,40,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+Teachers,2021/2022,Higher (if most common),ISCED 1,a,,a,:,a,a,a,a,a,a,a,a,40,a,a,a,a,a,a,a,a,a,20,a,40,a,a,a,a,a,a,a,a,a,a,a,16,a,a
+Teachers,2021/2022,Higher (if most common),ISCED 24,a,,a,:,a,a,a,a,a,a,a,a,40,a,a,a,a,a,a,a,a,a,20,a,a,a,a,a,a,a,a,a,a,a,a,a,16,a,a
+Teachers,2021/2022,Higher (if most common),ISCED 34,25,,36,:,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,16,a,a
+Teachers,2021/2022,Other (if different from minimum and most common),ISCED 02,25,:,36,:,32,10,a,a,a,36,39,35,:,35,24,a,25,30,42,5,a,:,20,34,:,25,40,10,a,:,:,26,20,:,20,40,16,:,25
+Teachers,2021/2022,Other (if different from minimum and most common),ISCED 1,25,:,36,:,32,12,a,a,:,36,39,35,40,35,24,a,25,30,42,:,a,32,20,34,:,25,40,20,a,:,:,25,20,:,20,40,16,:,25
+Teachers,2021/2022,Other (if different from minimum and most common),ISCED 24,25,:,36,:,32,12,a,a,:,36,39,:,40,35,24,a,25,30,42,:,a,32,20,34,:,25,40,20,a,:,:,25,20,:,20,40,16,:,25
+Teachers,2021/2022,Other (if different from minimum and most common),ISCED 34,25,:,36,:,32,7,a,a,:,36,39,:,40,35,24,a,25,30,42,:,a,32,20,34,:,25,40,20,a,:,:,25,:,:,20,40,16,:,25
+Teachers,2022/2023,Minimum,ISCED 02,27,26,36,:,32,10,:,a,a,36,39,35,:,35,24,a,25,30,42,14,12,a,20,34,40,25,40,10,a,20,:,26,20,a,40,40,16,40,25
+Teachers,2022/2023,Minimum,ISCED 1,27,26,36,:,32,12,:,a,35,36,39,35,40,35,24,a,25,30,42,19,12,32,20,34,40,25,40,20,a,20,:,25,20,a,40,40,16,40,25
+Teachers,2022/2023,Minimum,ISCED 24,27,26,36,:,32,12,:,a,35,36,39,35,40,35,24,a,25,30,42,19,12,32,20,34,40,25,40,20,a,20,:,25,20,a,40,40,16,40,25
+Teachers,2022/2023,Minimum,ISCED 34,27,24,36,:,32,7,:,a,35,36,39,35,40,35,24,a,25,30,42,19,12,32,20,34,40,25,40,20,a,20,:,25,:,a,40,40,16,40,25
+Teachers,2022/2023,Higher (if most common),ISCED 02,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,9,a,a,20,a,40,a,a,a,a,a,:,a,a,a,a,a,a,a,a
+Teachers,2022/2023,Higher (if most common),ISCED 1,a,a,a,a,a,a,a,a,a,a,a,a,40,a,a,a,a,a,a,a,a,a,20,a,40,a,a,a,a,a,:,a,a,a,a,a,16,a,a
+Teachers,2022/2023,Higher (if most common),ISCED 24,a,a,a,a,a,a,a,a,a,a,a,a,40,a,a,a,a,a,42,a,a,a,20,a,a,a,a,a,a,a,:,a,a,a,a,a,16,a,a
+Teachers,2022/2023,Higher (if most common),ISCED 34,25,a,36,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,:,a,a,a,a,a,16,a,a
+Teachers,2022/2023,Other (if different from minimum and most common),ISCED 02,25,a,36,:,32,10,:,a,a,36,39,35,:,35,a,a,25,30,42,10,12,:,20,34,40,25,40,10,a,a,:,26,20,a,20,40,16,a,25
+Teachers,2022/2023,Other (if different from minimum and most common),ISCED 1,25,a,36,:,32,12,:,a,35,36,39,35,40,35,a,a,25,30,42,a,12,32,20,34,40,25,40,20,a,a,:,25,20,a,20,40,16,a,25
+Teachers,2022/2023,Other (if different from minimum and most common),ISCED 24,25,a,36,:,32,12,:,a,35,36,39,31,40,35,a,a,25,30,42,a,12,32,20,34,40,25,40,20,a,a,:,25,20,a,20,40,16,a,25
+Teachers,2022/2023,Other (if different from minimum and most common),ISCED 34,25,a,36,:,32,7,:,a,35,36,39,31,40,35,a,a,25,30,42,a,12,32,20,34,40,25,40,20,a,a,:,25,:,a,20,40,16,a,25
+Teachers,2023/2024,Minimum,ISCED 02,27,26,36,:,32,10,:,a,a,36,39,34,:,35,24,a,25,30,16,14,12,a,20,34,25,25,40,10,a,20,:,26,20,:,40,,16,40,25
+Teachers,2023/2024,Minimum,ISCED 1,27,26,36,:,32,12,:,a,35,36,39,34,40,35,24,a,25,30,16,19,12,32,20,34,25,25,40,20,a,20,:,25,20,:,40,,16,40,25
+Teachers,2023/2024,Minimum,ISCED 24,27,26,36,:,32,12,:,a,35,36,39,34,40,35,24,a,25,30,16,19,12,32,20,34,25,25,40,20,a,20,:,25,20,:,40,,16,40,25
+Teachers,2023/2024,Minimum,ISCED 34,27,24,36,:,32,7,:,a,35,36,39,34,40,35,24,a,25,30,15,19,12,32,20,34,25,25,40,20,a,20,:,25,12,:,40,,16,40,25
+Teachers,2023/2024,Higher (if most common),ISCED 02,a,a,a,:,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,9,a,a,20,a,25,a,a,a,a,a,a,a,a,a,a,,a,a,a
+Teachers,2023/2024,Higher (if most common),ISCED 1,a,a,a,:,a,a,a,a,a,a,a,a,40,a,a,a,a,a,a,a,a,a,20,a,25,a,a,a,a,a,a,a,a,a,a,,a,a,a
+Teachers,2023/2024,Higher (if most common),ISCED 24,a,a,a,:,a,a,a,a,a,a,a,a,40,a,a,a,a,a,15,a,a,a,20,a,a,a,a,a,a,a,a,a,a,a,a,,a,a,a
+Teachers,2023/2024,Higher (if most common),ISCED 34,25,a,36,:,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,,16,a,a
+Teachers,2023/2024,Other (if different from minimum and most common),ISCED 02,25,a,a,:,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,10,a,:,a,a,a,a,40,a,a,a,:,a,a,a,:,,a,a,25
+Teachers,2023/2024,Other (if different from minimum and most common),ISCED 1,25,a,a,:,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,:,a,a,a,a,a,a,a,a,:,a,a,a,:,,16,a,25
+Teachers,2023/2024,Other (if different from minimum and most common),ISCED 24,25,a,36,:,a,a,a,a,a,a,a,30,a,a,a,a,a,a,a,a,a,:,a,a,a,a,a,a,a,a,:,a,a,a,:,,16,a,25
+Teachers,2023/2024,Other (if different from minimum and most common),ISCED 34,a,a,a,:,a,a,a,a,a,a,a,30,a,a,a,a,a,a,a,a,a,:,a,a,a,a,a,a,a,a,:,a,a,a,:,,a,a,25

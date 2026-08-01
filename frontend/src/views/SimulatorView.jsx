@@ -3,7 +3,6 @@ import OEDSimulator from '../components/OEDSimulator';
 import EurydiceChart from '../components/EurydiceChart';
 import KeyMetrics from '../components/KeyMetrics';
 import MigrationComparison from '../components/MigrationComparison';
-import Footer from '../components/Footer';
 import { T } from '../components/T';
 
 export default function SimulatorView() {
@@ -106,7 +105,6 @@ export default function SimulatorView() {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 }

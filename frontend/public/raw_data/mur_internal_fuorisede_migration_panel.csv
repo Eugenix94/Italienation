@@ -1,0 +1,15 @@
+Region_of_Origin,Region_of_University,Target_Academic_Hub,Academic_Year,Outflow_Volume,Dominant_Field,Is_Southern_Drain
+Campania,Lombardia,Milano/Pavia,2023,4500,STEM/Economics,True
+Campania,Emilia-Romagna,Bologna/Parma,2023,3800,STEM/Medicine,True
+Campania,Lazio,Roma,2023,5200,Humanities/Social Sciences,True
+Puglia,Lombardia,Milano/Pavia,2023,3900,STEM/Economics,True
+Puglia,Emilia-Romagna,Bologna,2023,3100,STEM/Medicine,True
+Sicilia,Lombardia,Milano/Pavia,2023,4100,STEM/Economics,True
+Sicilia,Piemonte,Torino,2023,2900,Engineering,True
+Sicilia,Emilia-Romagna,Bologna,2023,3400,Medicine/STEM,True
+Calabria,Emilia-Romagna,Bologna/Rende,2023,2200,STEM/Medicine,True
+Calabria,Lazio,Roma,2023,2800,Humanities,True
+Lombardia,Lombardia,Milano/Pavia,2023,45000,All,False
+Lombardia,Emilia-Romagna,Bologna,2023,1200,Specific Programs,False
+Veneto,Veneto,Padova/Venezia,2023,38000,All,False
+Veneto,Lombardia,Milano,2023,2100,Economics/Design,False

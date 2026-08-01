@@ -1,0 +1,10 @@
+dimension,Italy,Finland,Netherlands,Sweden,Germany,UK,France,source
+school_autonomy_index_1_10,2.1,8.5,7.8,7.2,5.4,6.9,3.8,OECD TALIS 2023
+principal_can_hire_teachers,No - Centralized concorsi,Yes - Full hiring authority,Yes - School board hires,Yes - Municipal level,Partial - Land-level with school input,Yes - Academy trust hires,No - National concours,Eurydice Governance 2024
+curriculum_flexibility_pct,10,70,60,50,35,65,15,Eurydice Structural Indicators 2024
+teacher_evaluation_by_school,No - No structured evaluation system,Yes - Peer review + self-assessment,Yes - School inspection framework,Yes - Municipal assessment,Partial - Varies by Land,Yes - Ofsted framework,Partial - Inspection académique,OECD Education at a Glance 2024
+governance_model,Vertical Hierarchy: Ministero → USR → Scuola,Horizontal: Municipality + School Board + Teachers,Horizontal: School Board with Parental Council,Horizontal: Municipality + Rektor + Teachers,Mixed: Land Ministry + School Conference,Vertical-Autonomous: DfE → Academy Trust → School,Vertical: Ministère → Académie → Établissement,Eurydice 2024
+accountability_mechanism,Top-down compliance (adempimenti),Professional trust + peer review,Inspectorate + self-evaluation,Trust-based + national evaluation,Land inspectorate + internal,External inspection (Ofsted) + data publication,Inspection + national evaluation (HCE),OECD Education Policy Outlook 2024
+parent_participation_in_governance_score_1_10,3.0,7.5,8.5,6.5,5.0,4.5,4.0,Eurydice Governance Structures 2024
+teacher_professional_development_hours_per_year,25,120,80,100,60,50,40,OECD TALIS 2023
+decision_making_level_for_budget,Central (MIM/MEF),Municipal,School Board,Municipal,Land + Municipal,Academy Trust,Académie + Établissement,Eurydice 2024

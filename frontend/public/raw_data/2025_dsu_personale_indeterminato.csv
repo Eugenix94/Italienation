@@ -1,0 +1,337 @@
+DATA;CODICE_REGIONE;NOME_REGIONE;CODICE_TIPOLOGIA_PERSONALE;DESCRIZIONE_TIPOLOGIA_PERSONALE;NUMERO
+31/12/2024;01;Piemonte;95;Dipendente dall'Ente full time a tempo indeterminato maschio;23
+31/12/2024;01;Piemonte;96;Dipendente dall'Ente full time a tempo indeterminato femmina;32
+31/12/2024;01;Piemonte;97;Dipendente dall'Ente part time a tempo indeterminato maschio;1
+31/12/2024;01;Piemonte;98;Dipendente dall'Ente part time a tempo indeterminato femmina;2
+31/12/2024;01;Piemonte;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;01;Piemonte;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;01;Piemonte;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;01;Piemonte;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;01;Piemonte;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;01;Piemonte;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;01;Piemonte;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;01;Piemonte;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;01;Piemonte;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;01;Piemonte;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;01;Piemonte;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;01;Piemonte;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;02;Valle d'Aosta;95;Dipendente dall'Ente full time a tempo indeterminato maschio;0
+31/12/2024;02;Valle d'Aosta;96;Dipendente dall'Ente full time a tempo indeterminato femmina;0
+31/12/2024;02;Valle d'Aosta;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;02;Valle d'Aosta;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;02;Valle d'Aosta;99;Dipendente dalla Regione full time a tempo indeterminato maschio;2
+31/12/2024;02;Valle d'Aosta;100;Dipendente dalla Regione full time a tempo indeterminato femmina;2
+31/12/2024;02;Valle d'Aosta;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;02;Valle d'Aosta;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;02;Valle d'Aosta;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;02;Valle d'Aosta;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;02;Valle d'Aosta;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;02;Valle d'Aosta;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;02;Valle d'Aosta;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;02;Valle d'Aosta;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;02;Valle d'Aosta;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;02;Valle d'Aosta;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;03;Lombardia;95;Dipendente dall'Ente full time a tempo indeterminato maschio;51
+31/12/2024;03;Lombardia;96;Dipendente dall'Ente full time a tempo indeterminato femmina;61
+31/12/2024;03;Lombardia;97;Dipendente dall'Ente part time a tempo indeterminato maschio;2
+31/12/2024;03;Lombardia;98;Dipendente dall'Ente part time a tempo indeterminato femmina;15
+31/12/2024;03;Lombardia;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;03;Lombardia;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;03;Lombardia;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;03;Lombardia;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;03;Lombardia;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;22
+31/12/2024;03;Lombardia;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;71
+31/12/2024;03;Lombardia;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;1
+31/12/2024;03;Lombardia;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;28
+31/12/2024;03;Lombardia;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;03;Lombardia;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;03;Lombardia;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;03;Lombardia;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;95;Dipendente dall'Ente full time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;96;Dipendente dall'Ente full time a tempo indeterminato femmina;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;100;Dipendente dalla Regione full time a tempo indeterminato femmina;1
+31/12/2024;0421;Trentino Alto Adige - Bolzano;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;102;Dipendente dalla Regione part time a tempo indeterminato femmina;11
+31/12/2024;0421;Trentino Alto Adige - Bolzano;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;0421;Trentino Alto Adige - Bolzano;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;0422;Trentino Alto Adige - Trento;95;Dipendente dall'Ente full time a tempo indeterminato maschio;8
+31/12/2024;0422;Trentino Alto Adige - Trento;96;Dipendente dall'Ente full time a tempo indeterminato femmina;24
+31/12/2024;0422;Trentino Alto Adige - Trento;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;0422;Trentino Alto Adige - Trento;98;Dipendente dall'Ente part time a tempo indeterminato femmina;2
+31/12/2024;0422;Trentino Alto Adige - Trento;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;0422;Trentino Alto Adige - Trento;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;0422;Trentino Alto Adige - Trento;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;0422;Trentino Alto Adige - Trento;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;0422;Trentino Alto Adige - Trento;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;1
+31/12/2024;0422;Trentino Alto Adige - Trento;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;0422;Trentino Alto Adige - Trento;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;0422;Trentino Alto Adige - Trento;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;0422;Trentino Alto Adige - Trento;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;0422;Trentino Alto Adige - Trento;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;0422;Trentino Alto Adige - Trento;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;0422;Trentino Alto Adige - Trento;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;05;Veneto;95;Dipendente dall'Ente full time a tempo indeterminato maschio;79
+31/12/2024;05;Veneto;96;Dipendente dall'Ente full time a tempo indeterminato femmina;88
+31/12/2024;05;Veneto;97;Dipendente dall'Ente part time a tempo indeterminato maschio;10
+31/12/2024;05;Veneto;98;Dipendente dall'Ente part time a tempo indeterminato femmina;25
+31/12/2024;05;Veneto;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;05;Veneto;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;05;Veneto;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;05;Veneto;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;05;Veneto;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;05;Veneto;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;05;Veneto;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;05;Veneto;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;05;Veneto;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;05;Veneto;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;05;Veneto;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;05;Veneto;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;06;Friuli-Venezia Giulia;95;Dipendente dall'Ente full time a tempo indeterminato maschio;0
+31/12/2024;06;Friuli-Venezia Giulia;96;Dipendente dall'Ente full time a tempo indeterminato femmina;0
+31/12/2024;06;Friuli-Venezia Giulia;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;06;Friuli-Venezia Giulia;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;06;Friuli-Venezia Giulia;99;Dipendente dalla Regione full time a tempo indeterminato maschio;22
+31/12/2024;06;Friuli-Venezia Giulia;100;Dipendente dalla Regione full time a tempo indeterminato femmina;35
+31/12/2024;06;Friuli-Venezia Giulia;101;Dipendente dalla Regione part time a tempo indeterminato maschio;2
+31/12/2024;06;Friuli-Venezia Giulia;102;Dipendente dalla Regione part time a tempo indeterminato femmina;4
+31/12/2024;06;Friuli-Venezia Giulia;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;06;Friuli-Venezia Giulia;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;06;Friuli-Venezia Giulia;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;06;Friuli-Venezia Giulia;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;06;Friuli-Venezia Giulia;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;06;Friuli-Venezia Giulia;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;06;Friuli-Venezia Giulia;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;06;Friuli-Venezia Giulia;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;07;Liguria;95;Dipendente dall'Ente full time a tempo indeterminato maschio;22
+31/12/2024;07;Liguria;96;Dipendente dall'Ente full time a tempo indeterminato femmina;25
+31/12/2024;07;Liguria;97;Dipendente dall'Ente part time a tempo indeterminato maschio;4
+31/12/2024;07;Liguria;98;Dipendente dall'Ente part time a tempo indeterminato femmina;5
+31/12/2024;07;Liguria;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;07;Liguria;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;07;Liguria;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;07;Liguria;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;07;Liguria;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;07;Liguria;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;07;Liguria;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;07;Liguria;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;07;Liguria;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;07;Liguria;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;07;Liguria;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;07;Liguria;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;08;Emilia-Romagna;95;Dipendente dall'Ente full time a tempo indeterminato maschio;46
+31/12/2024;08;Emilia-Romagna;96;Dipendente dall'Ente full time a tempo indeterminato femmina;121
+31/12/2024;08;Emilia-Romagna;97;Dipendente dall'Ente part time a tempo indeterminato maschio;2
+31/12/2024;08;Emilia-Romagna;98;Dipendente dall'Ente part time a tempo indeterminato femmina;6
+31/12/2024;08;Emilia-Romagna;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;08;Emilia-Romagna;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;08;Emilia-Romagna;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;08;Emilia-Romagna;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;08;Emilia-Romagna;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;08;Emilia-Romagna;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;08;Emilia-Romagna;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;08;Emilia-Romagna;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;08;Emilia-Romagna;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;08;Emilia-Romagna;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;08;Emilia-Romagna;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;08;Emilia-Romagna;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;09;Toscana;95;Dipendente dall'Ente full time a tempo indeterminato maschio;105
+31/12/2024;09;Toscana;96;Dipendente dall'Ente full time a tempo indeterminato femmina;169
+31/12/2024;09;Toscana;97;Dipendente dall'Ente part time a tempo indeterminato maschio;10
+31/12/2024;09;Toscana;98;Dipendente dall'Ente part time a tempo indeterminato femmina;31
+31/12/2024;09;Toscana;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;09;Toscana;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;09;Toscana;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;09;Toscana;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;09;Toscana;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;09;Toscana;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;09;Toscana;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;09;Toscana;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;09;Toscana;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;09;Toscana;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;09;Toscana;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;09;Toscana;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;10;Umbria;95;Dipendente dall'Ente full time a tempo indeterminato maschio;25
+31/12/2024;10;Umbria;96;Dipendente dall'Ente full time a tempo indeterminato femmina;25
+31/12/2024;10;Umbria;97;Dipendente dall'Ente part time a tempo indeterminato maschio;1
+31/12/2024;10;Umbria;98;Dipendente dall'Ente part time a tempo indeterminato femmina;1
+31/12/2024;10;Umbria;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;10;Umbria;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;10;Umbria;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;10;Umbria;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;10;Umbria;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;10;Umbria;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;10;Umbria;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;10;Umbria;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;10;Umbria;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;10;Umbria;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;10;Umbria;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;10;Umbria;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;11;Marche;95;Dipendente dall'Ente full time a tempo indeterminato maschio;72
+31/12/2024;11;Marche;96;Dipendente dall'Ente full time a tempo indeterminato femmina;128
+31/12/2024;11;Marche;97;Dipendente dall'Ente part time a tempo indeterminato maschio;9
+31/12/2024;11;Marche;98;Dipendente dall'Ente part time a tempo indeterminato femmina;9
+31/12/2024;11;Marche;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;11;Marche;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;11;Marche;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;11;Marche;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;11;Marche;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;11;Marche;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;11;Marche;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;11;Marche;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;11;Marche;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;11;Marche;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;11;Marche;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;11;Marche;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;12;Lazio;95;Dipendente dall'Ente full time a tempo indeterminato maschio;80
+31/12/2024;12;Lazio;96;Dipendente dall'Ente full time a tempo indeterminato femmina;97
+31/12/2024;12;Lazio;97;Dipendente dall'Ente part time a tempo indeterminato maschio;6
+31/12/2024;12;Lazio;98;Dipendente dall'Ente part time a tempo indeterminato femmina;18
+31/12/2024;12;Lazio;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;12;Lazio;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;12;Lazio;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;12;Lazio;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;12;Lazio;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;12;Lazio;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;12;Lazio;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;12;Lazio;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;12;Lazio;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;12;Lazio;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;12;Lazio;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;12;Lazio;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;13;Abruzzo;95;Dipendente dall'Ente full time a tempo indeterminato maschio;12
+31/12/2024;13;Abruzzo;96;Dipendente dall'Ente full time a tempo indeterminato femmina;14
+31/12/2024;13;Abruzzo;97;Dipendente dall'Ente part time a tempo indeterminato maschio;1
+31/12/2024;13;Abruzzo;98;Dipendente dall'Ente part time a tempo indeterminato femmina;2
+31/12/2024;13;Abruzzo;99;Dipendente dalla Regione full time a tempo indeterminato maschio;1
+31/12/2024;13;Abruzzo;100;Dipendente dalla Regione full time a tempo indeterminato femmina;2
+31/12/2024;13;Abruzzo;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;13;Abruzzo;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;13;Abruzzo;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;13;Abruzzo;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;13;Abruzzo;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;13;Abruzzo;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;13;Abruzzo;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;13;Abruzzo;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;13;Abruzzo;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;13;Abruzzo;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;14;Molise;95;Dipendente dall'Ente full time a tempo indeterminato maschio;0
+31/12/2024;14;Molise;96;Dipendente dall'Ente full time a tempo indeterminato femmina;0
+31/12/2024;14;Molise;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;14;Molise;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;14;Molise;99;Dipendente dalla Regione full time a tempo indeterminato maschio;2
+31/12/2024;14;Molise;100;Dipendente dalla Regione full time a tempo indeterminato femmina;1
+31/12/2024;14;Molise;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;14;Molise;102;Dipendente dalla Regione part time a tempo indeterminato femmina;1
+31/12/2024;14;Molise;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;14;Molise;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;14;Molise;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;14;Molise;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;14;Molise;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;14;Molise;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;14;Molise;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;14;Molise;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;15;Campania;95;Dipendente dall'Ente full time a tempo indeterminato maschio;49
+31/12/2024;15;Campania;96;Dipendente dall'Ente full time a tempo indeterminato femmina;25
+31/12/2024;15;Campania;97;Dipendente dall'Ente part time a tempo indeterminato maschio;2
+31/12/2024;15;Campania;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;15;Campania;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;15;Campania;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;15;Campania;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;15;Campania;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;15;Campania;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;15;Campania;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;15;Campania;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;15;Campania;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;15;Campania;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;1
+31/12/2024;15;Campania;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;2
+31/12/2024;15;Campania;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;15;Campania;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;16;Puglia;95;Dipendente dall'Ente full time a tempo indeterminato maschio;36
+31/12/2024;16;Puglia;96;Dipendente dall'Ente full time a tempo indeterminato femmina;43
+31/12/2024;16;Puglia;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;16;Puglia;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;16;Puglia;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;16;Puglia;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;16;Puglia;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;16;Puglia;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;16;Puglia;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;16;Puglia;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;16;Puglia;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;16;Puglia;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;16;Puglia;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;16;Puglia;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;16;Puglia;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;16;Puglia;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;17;Basilicata;95;Dipendente dall'Ente full time a tempo indeterminato maschio;1
+31/12/2024;17;Basilicata;96;Dipendente dall'Ente full time a tempo indeterminato femmina;1
+31/12/2024;17;Basilicata;97;Dipendente dall'Ente part time a tempo indeterminato maschio;2
+31/12/2024;17;Basilicata;98;Dipendente dall'Ente part time a tempo indeterminato femmina;1
+31/12/2024;17;Basilicata;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;17;Basilicata;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;17;Basilicata;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;17;Basilicata;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;17;Basilicata;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;17;Basilicata;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;17;Basilicata;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;17;Basilicata;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;17;Basilicata;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;17;Basilicata;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;17;Basilicata;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;17;Basilicata;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;18;Calabria;95;Dipendente dall'Ente full time a tempo indeterminato maschio;4
+31/12/2024;18;Calabria;96;Dipendente dall'Ente full time a tempo indeterminato femmina;4
+31/12/2024;18;Calabria;97;Dipendente dall'Ente part time a tempo indeterminato maschio;3
+31/12/2024;18;Calabria;98;Dipendente dall'Ente part time a tempo indeterminato femmina;1
+31/12/2024;18;Calabria;99;Dipendente dalla Regione full time a tempo indeterminato maschio;0
+31/12/2024;18;Calabria;100;Dipendente dalla Regione full time a tempo indeterminato femmina;0
+31/12/2024;18;Calabria;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;18;Calabria;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;18;Calabria;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;19
+31/12/2024;18;Calabria;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;13
+31/12/2024;18;Calabria;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;2
+31/12/2024;18;Calabria;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;1
+31/12/2024;18;Calabria;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;0
+31/12/2024;18;Calabria;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;0
+31/12/2024;18;Calabria;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;18;Calabria;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;19;Sicilia;95;Dipendente dall'Ente full time a tempo indeterminato maschio;11
+31/12/2024;19;Sicilia;96;Dipendente dall'Ente full time a tempo indeterminato femmina;4
+31/12/2024;19;Sicilia;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;19;Sicilia;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;19;Sicilia;99;Dipendente dalla Regione full time a tempo indeterminato maschio;41
+31/12/2024;19;Sicilia;100;Dipendente dalla Regione full time a tempo indeterminato femmina;59
+31/12/2024;19;Sicilia;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;19;Sicilia;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;19;Sicilia;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;19;Sicilia;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;19;Sicilia;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;19;Sicilia;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;19;Sicilia;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;1
+31/12/2024;19;Sicilia;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;2
+31/12/2024;19;Sicilia;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;19;Sicilia;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
+31/12/2024;20;Sardegna;95;Dipendente dall'Ente full time a tempo indeterminato maschio;55
+31/12/2024;20;Sardegna;96;Dipendente dall'Ente full time a tempo indeterminato femmina;52
+31/12/2024;20;Sardegna;97;Dipendente dall'Ente part time a tempo indeterminato maschio;0
+31/12/2024;20;Sardegna;98;Dipendente dall'Ente part time a tempo indeterminato femmina;0
+31/12/2024;20;Sardegna;99;Dipendente dalla Regione full time a tempo indeterminato maschio;1
+31/12/2024;20;Sardegna;100;Dipendente dalla Regione full time a tempo indeterminato femmina;5
+31/12/2024;20;Sardegna;101;Dipendente dalla Regione part time a tempo indeterminato maschio;0
+31/12/2024;20;Sardegna;102;Dipendente dalla Regione part time a tempo indeterminato femmina;0
+31/12/2024;20;Sardegna;103;Dipendente dall'ateneo full time a tempo indeterminato maschio;0
+31/12/2024;20;Sardegna;104;Dipendente dall'ateneo full time a tempo indeterminato femmina;0
+31/12/2024;20;Sardegna;105;Dipendente dall'ateneo part time a tempo indeterminato maschio;0
+31/12/2024;20;Sardegna;106;Dipendente dall'ateneo part time a tempo indeterminato femmina;0
+31/12/2024;20;Sardegna;107;Dipendente da altro Ente Pubblico full time a tempo indeterminato maschio;3
+31/12/2024;20;Sardegna;108;Dipendente da altro Ente Pubblico full time a tempo indeterminato femmina;3
+31/12/2024;20;Sardegna;109;Dipendente da altro Ente Pubblico part time a tempo indeterminato maschio;0
+31/12/2024;20;Sardegna;110;Dipendente da altro Ente Pubblico parz time a tempo indeterminato femmina;0
