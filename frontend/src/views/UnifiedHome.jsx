@@ -11,6 +11,7 @@ import EU27PESComparison from '../components/EU27PESComparison';
 import EconometricCosts from '../components/EconometricCosts';
 import MacroEconomics from '../components/MacroEconomics';
 import LaborMarketAndCorrelations from '../components/LaborMarketAndCorrelations';
+import MigrationAndRemittances from '../components/MigrationAndRemittances';
 import ScrollyDataHub from '../components/ScrollyDataHub';
 import DeveloperAPI from '../components/DeveloperAPI';
 import DataCatalogCTA from '../components/DataCatalogCTA';
@@ -124,6 +125,7 @@ export default function UnifiedHome() {
                   <div className="space-y-24">
                     <FlowDynamics />
                     <LaborMarketAndCorrelations />
+                    <MigrationAndRemittances />
                     <SystemicDeepDives />
                     <EU27PESComparison />
                   </div>

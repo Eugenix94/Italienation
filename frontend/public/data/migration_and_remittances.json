@@ -1,0 +1,24 @@
+{
+  "istat_non_observed_economy": {
+    "year_2022": {
+      "underground_economy_billions": 182,
+      "irregular_workers_millions": 2.986
+    },
+    "year_2023": {
+      "underground_economy_billions": 198,
+      "irregular_workers_millions": 3.132,
+      "gdp_share_pct": 8.5
+    }
+  },
+  "inapp_migrant_exploitation": [
+    { "category": "Lavoro Nero (Senza Contratto)", "value": 51 },
+    { "category": "Sottopagati (Dati EU)", "value": 55 },
+    { "category": "Status Amministrativo Irregolare", "value": 29.1 },
+    { "category": "Agricoltura non qualificata", "value": 22.1 },
+    { "category": "Servizi di pulizia non qualificati", "value": 19.3 }
+  ],
+  "remittances": {
+    "description_it": "Le rimesse dei migranti, monitorate da Banca d'Italia e ISMU, rappresentano flussi di capitale vitali estratti da un mercato del lavoro sommerso e irregolare. Questi flussi sono storicamente paragonabili alle rimesse degli emigrati italiani del primo Novecento.",
+    "description_en": "Migrant remittances, monitored by the Bank of Italy and ISMU, represent vital capital flows extracted from an underground and irregular labor market. These flows are historically comparable to the remittances of Italian emigrants in the early 20th century."
+  }
+}
