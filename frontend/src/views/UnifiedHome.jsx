@@ -143,6 +143,7 @@ export default function UnifiedHome() {
                   <div className="space-y-24">
                     <ScrollyDataHub />
                     <DeveloperAPI />
+                    <MediaKitExport />
                   </div>
                 )}
                 
@@ -163,7 +164,6 @@ export default function UnifiedHome() {
           </div>
 
           {/* BOTTOM SECTIONS */}
-          <MediaKitExport />
           <div>
             <DataCatalogCTA />
           </div>
