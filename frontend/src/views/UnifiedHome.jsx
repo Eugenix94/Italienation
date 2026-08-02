@@ -16,7 +16,9 @@ import DataCatalogCTA from '../components/DataCatalogCTA';
 import AngloAmericanComparison from '../components/AngloAmericanComparison';
 import ReligiousOptOut from '../components/ReligiousOptOut';
 import MethodologyNotebooks from '../components/MethodologyNotebooks';
-import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book } from 'lucide-react';
+import StructuralDeepDives from '../components/StructuralDeepDives';
+import MediaKitExport from '../components/MediaKitExport';
+import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search } from 'lucide-react';
 import { T } from '../components/T';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -30,6 +32,7 @@ export default function UnifiedHome() {
     { id: 'analysis', icon: Layers, it: 'Mercato & Lavoro', en: 'Labor Market' },
     { id: 'macro', icon: BarChart2, it: 'Costi Macro', en: 'Macro Costs' },
     { id: 'data', icon: Database, it: 'Dati & API', en: 'Data Hub & API' },
+    { id: 'deepdives', icon: Search, it: 'Approfondimenti', en: 'Deep Dives' },
     { id: 'methodology', icon: Book, it: 'Metodologia', en: 'Methodology' }
   ];
 
@@ -129,6 +132,12 @@ export default function UnifiedHome() {
               </div>
             )}
             
+            {activeTab === 'deepdives' && (
+              <div className="space-y-24 animate-in fade-in slide-in-from-bottom-8 duration-700">
+                <StructuralDeepDives />
+              </div>
+            )}
+            
             {activeTab === 'methodology' && (
               <div className="animate-in fade-in slide-in-from-bottom-8 duration-700">
                 <MethodologyNotebooks />
@@ -138,8 +147,11 @@ export default function UnifiedHome() {
         </AnimatePresence>
       </div>
 
+      {/* MEDIA KIT EXPORT */}
+      <MediaKitExport />
+
       {/* FOOTER CTA */}
-      <div className="mt-24">
+      <div>
         <DataCatalogCTA />
       </div>
 

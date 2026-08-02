@@ -114,8 +114,8 @@ export default function SystemicDeepDives() {
         <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <SectionHeader 
             icon={HardHat} 
-            titleIt="Alternanza Scuola-Lavoro (PCTO)" 
-            titleEn="School-Work Alternance (PCTO)"
+            titleIt="Formazione Scuola-Lavoro / FSL (ex PCTO)" 
+            titleEn="School-Work Formation / FSL (ex PCTO)"
             descIt="Il lavoro gratuito sotto copertura formativa produce infortuni senza inserimento lavorativo."
             descEn="Unpaid labor under educational coverage produces injuries without job insertion."
             agency="INAIL"
@@ -126,7 +126,7 @@ export default function SystemicDeepDives() {
             <div className="flex-1 p-8 border-b md:border-b-0 md:border-r border-zinc-800 relative bg-gradient-to-br from-rose-950/20 to-transparent">
               <div className="flex items-center gap-3 mb-6">
                 <AlertTriangle className="text-rose-500" />
-                <h3 className="text-2xl font-black text-white">PCTO (Italy)</h3>
+                <h3 className="text-2xl font-black text-white">FSL / ex PCTO (Italy)</h3>
               </div>
               <ul className="space-y-4">
                 <li className="flex justify-between items-center border-b border-zinc-800/50 pb-2">
