@@ -10,6 +10,7 @@ import SystemicDeepDives from '../components/SystemicDeepDives';
 import EU27PESComparison from '../components/EU27PESComparison';
 import EconometricCosts from '../components/EconometricCosts';
 import MacroEconomics from '../components/MacroEconomics';
+import LaborMarketAndCorrelations from '../components/LaborMarketAndCorrelations';
 import ScrollyDataHub from '../components/ScrollyDataHub';
 import DeveloperAPI from '../components/DeveloperAPI';
 import DataCatalogCTA from '../components/DataCatalogCTA';
@@ -122,6 +123,7 @@ export default function UnifiedHome() {
                 {activeTab === 'analysis' && (
                   <div className="space-y-24">
                     <FlowDynamics />
+                    <LaborMarketAndCorrelations />
                     <SystemicDeepDives />
                     <EU27PESComparison />
                   </div>
