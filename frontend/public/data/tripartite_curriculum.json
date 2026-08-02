@@ -1,0 +1,91 @@
+{
+  "tracks": [
+    {
+      "id": "liceo",
+      "name": {
+        "it": "Liceo (Classico / Scientifico)",
+        "en": "Lyceum (Classical / Scientific)"
+      },
+      "description": {
+        "it": "L'indirizzo accademico elitario, focalizzato su discipline teoriche, storiche e filosofiche. Prepara quasi esclusivamente all'università.",
+        "en": "The elite academic track, focused on theoretical, historical, and philosophical disciplines. Prepares almost exclusively for university."
+      },
+      "weeklyHours": 27,
+      "textbookCost": 350,
+      "fslHours": 90,
+      "implicitDropout": "2%",
+      "universityEnrollment": "85%",
+      "curriculum": [
+        { "subject": { "it": "Italiano & Letteratura", "en": "Italian & Literature" }, "hours": 4 },
+        { "subject": { "it": "Latino / Greco Antico", "en": "Latin / Ancient Greek" }, "hours": 5 },
+        { "subject": { "it": "Storia & Filosofia", "en": "History & Philosophy" }, "hours": 5 },
+        { "subject": { "it": "Matematica & Fisica", "en": "Math & Physics" }, "hours": 5 },
+        { "subject": { "it": "Scienze Naturali", "en": "Natural Sciences" }, "hours": 2 },
+        { "subject": { "it": "Storia dell'Arte", "en": "Art History" }, "hours": 2 },
+        { "subject": { "it": "Inglese", "en": "English" }, "hours": 3 }
+      ],
+      "demographics": {
+        "it": "Prevalentemente studenti con alto indice ESCS (Estrazione Sociale Culturale ed Economica). Tasso altissimo di laureati in famiglia.",
+        "en": "Predominantly students with high ESCS (Economic, Social, Cultural Status). Very high rate of parents with university degrees."
+      }
+    },
+    {
+      "id": "tecnico",
+      "name": {
+        "it": "Istituto Tecnico",
+        "en": "Technical Institute"
+      },
+      "description": {
+        "it": "Indirizzo intermedio che bilancia materie teoriche con specializzazioni tecniche (es. informatica, economia).",
+        "en": "Intermediate track balancing theoretical subjects with technical specializations (e.g., IT, economics)."
+      },
+      "weeklyHours": 32,
+      "textbookCost": 300,
+      "fslHours": 150,
+      "implicitDropout": "7%",
+      "universityEnrollment": "35%",
+      "curriculum": [
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Matematica", "en": "Math" }, "hours": 4 },
+        { "subject": { "it": "Informatica / Sistemi", "en": "Computer Science / Systems" }, "hours": 6 },
+        { "subject": { "it": "Economia / Diritto", "en": "Economics / Law" }, "hours": 4 },
+        { "subject": { "it": "Laboratori Tecnici", "en": "Technical Labs" }, "hours": 6 },
+        { "subject": { "it": "Inglese Tecnico", "en": "Technical English" }, "hours": 3 },
+        { "subject": { "it": "Scienze Motorie", "en": "Physical Education" }, "hours": 2 }
+      ],
+      "demographics": {
+        "it": "Estrazione sociale media e classe lavoratrice. Fortemente focalizzato sull'inserimento nel mercato del lavoro tecnico.",
+        "en": "Middle class and working-class background. Strongly focused on entry into the technical labor market."
+      }
+    },
+    {
+      "id": "professionale",
+      "name": {
+        "it": "Istituto Professionale",
+        "en": "Vocational Institute"
+      },
+      "description": {
+        "it": "Indirizzo formativo pratico mirato all'inserimento lavorativo immediato (es. alberghiero, meccanica, moda).",
+        "en": "Practical training track aimed at immediate labor market entry (e.g., hospitality, mechanics, fashion)."
+      },
+      "weeklyHours": 32,
+      "textbookCost": 250,
+      "fslHours": 210,
+      "implicitDropout": "12%",
+      "universityEnrollment": "10%",
+      "curriculum": [
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Matematica Applicata", "en": "Applied Math" }, "hours": 3 },
+        { "subject": { "it": "Laboratori Pratici", "en": "Practical Workshops" }, "hours": 12 },
+        { "subject": { "it": "Tecnologie Professionali", "en": "Professional Technologies" }, "hours": 6 },
+        { "subject": { "it": "Scienze Integrate", "en": "Integrated Sciences" }, "hours": 2 },
+        { "subject": { "it": "Diritto del Lavoro", "en": "Labor Law" }, "hours": 2 },
+        { "subject": { "it": "Inglese", "en": "English" }, "hours": 3 }
+      ],
+      "demographics": {
+        "it": "Alta concentrazione di studenti con background migratorio e basso indice ESCS. Il tasso più alto di dispersione scolastica.",
+        "en": "High concentration of students with immigrant backgrounds and low ESCS. The highest rate of early school leaving."
+      }
+    }
+  ]
+}

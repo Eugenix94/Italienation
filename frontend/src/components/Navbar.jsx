@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { T } from './T';
+import { BookOpen } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -7,17 +10,25 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
           
           {/* Logo */}
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <Link to="/" className="flex items-center space-x-3 cursor-pointer">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
               <span className="text-white font-bold text-sm">IT</span>
             </div>
             <div className="flex flex-col">
               <span className="text-base font-bold text-white tracking-tight leading-none">Italienation</span>
             </div>
-          </div>
+          </Link>
 
           {/* Right Actions */}
           <div className="flex items-center space-x-3">
+            <Link 
+              to="/guide"
+              className="flex items-center gap-2 px-4 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white text-xs font-bold transition shadow-lg"
+            >
+              <BookOpen size={14} />
+              <T it="Guida ai Dati" en="Data Guide" />
+            </Link>
+            
             <a 
               href="https://github.com/Eugenix94/Italienation" 
               target="_blank" 

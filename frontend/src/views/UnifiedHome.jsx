@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Hero from '../components/Hero';
 import StructuralOutcomes from '../components/StructuralOutcomes';
 import InternationalBenchmark from '../components/InternationalBenchmark';
-import OEDSimulator from '../components/OEDSimulator';
+import TripartiteSimulator from '../components/TripartiteSimulator';
 import GISMap from '../components/GISMap';
 import TerritorialMap from '../components/TerritorialMap';
 import FlowDynamics from '../components/FlowDynamics';
@@ -18,8 +18,7 @@ import ReligiousOptOut from '../components/ReligiousOptOut';
 import MethodologyNotebooks from '../components/MethodologyNotebooks';
 import StructuralDeepDives from '../components/StructuralDeepDives';
 import MediaKitExport from '../components/MediaKitExport';
-import DataLexicon from '../components/DataLexicon';
-import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search, Library } from 'lucide-react';
+import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search } from 'lucide-react';
 import { T } from '../components/T';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -28,14 +27,13 @@ export default function UnifiedHome() {
 
   const tabs = [
     { id: 'struttura', icon: BookOpen, it: 'Struttura & Tracking', en: 'Structure & Tracking' },
-    { id: 'simulator', icon: LineChart, it: 'Simulatore OED', en: 'OED Simulator' },
+    { id: 'simulator', icon: LineChart, it: 'Esperienza Tripartita', en: 'Tripartite Experience' },
     { id: 'map', icon: Map, it: 'Mappa GIS', en: 'GIS Map' },
     { id: 'analysis', icon: Layers, it: 'Mercato & Lavoro', en: 'Labor Market' },
     { id: 'macro', icon: BarChart2, it: 'Costi Macro', en: 'Macro Costs' },
     { id: 'data', icon: Database, it: 'Dati & API', en: 'Data Hub & API' },
     { id: 'deepdives', icon: Search, it: 'Approfondimenti', en: 'Deep Dives' },
-    { id: 'methodology', icon: Book, it: 'Metodologia', en: 'Methodology' },
-    { id: 'lexicon', icon: Library, it: 'Glossario', en: 'Glossary' }
+    { id: 'methodology', icon: Book, it: 'Metodologia', en: 'Methodology' }
   ];
 
   return (
@@ -101,7 +99,7 @@ export default function UnifiedHome() {
             
             {activeTab === 'simulator' && (
               <div className="animate-in fade-in slide-in-from-bottom-8 duration-700">
-                <OEDSimulator />
+                <TripartiteSimulator />
               </div>
             )}
             
@@ -143,12 +141,6 @@ export default function UnifiedHome() {
             {activeTab === 'methodology' && (
               <div className="animate-in fade-in slide-in-from-bottom-8 duration-700">
                 <MethodologyNotebooks />
-              </div>
-            )}
-            
-            {activeTab === 'lexicon' && (
-              <div className="animate-in fade-in slide-in-from-bottom-8 duration-700">
-                <DataLexicon />
               </div>
             )}
           </motion.div>
