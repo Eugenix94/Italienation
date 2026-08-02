@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { T } from './T';
 import * as LucideIcons from 'lucide-react';
-import { Loader2 } from 'lucide-react';
+import { Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
 
 export default function AngloAmericanComparison() {
   const [comparisonData, setComparisonData] = useState([]);
