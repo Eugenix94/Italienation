@@ -69,6 +69,14 @@ a:hover { text-decoration: underline; }
   background: rgba(255, 255, 255, 0.2);
 }
 
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* =========================================
    SECTION HEADERS
    ========================================= */

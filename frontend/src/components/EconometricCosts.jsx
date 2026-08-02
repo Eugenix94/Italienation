@@ -82,7 +82,7 @@ const EconometricCosts = () => {
             </div>
           </div>
           
-          <p className="text-base sm:text-lg text-zinc-500 max-w-2xl mx-auto mt-6">
+          <p className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto mt-6">
             <T 
               it="Stima conservativa inferiore dei costi annuali derivanti dai fallimenti strutturali del sistema educativo italiano, basata su fonti istituzionali verificate." 
               en="Conservative lower-bound estimate of annual costs from Italy's education system structural failures, based on verified institutional sources." 
@@ -105,7 +105,13 @@ const EconometricCosts = () => {
           </h2>
           
           {/* Horizontal Bar Chart */}
-          <div className="h-24 w-full bg-white/[0.02] border border-white/5 rounded-2xl p-4 mb-10">
+          <div className="h-24 w-full bg-white/[0.02] border border-white/5 rounded-2xl p-4 mb-10" aria-hidden="false">
+            <span className="sr-only">
+              <T 
+                it="Grafico a barre orizzontali in pila che illustra la ripartizione dei €259 miliardi di costi annuali." 
+                en="Stacked horizontal bar chart illustrating the breakdown of the €259 billion annual costs." 
+              />
+            </span>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 layout="vertical"
@@ -153,7 +159,7 @@ const EconometricCosts = () => {
                 
                 <div className="mb-4">
                   <span className="text-4xl font-bold" style={{ color: item.color }}>€{item.value}</span>
-                  <span className="text-zinc-500 font-medium ml-1">Billion</span>
+                  <span className="text-zinc-400 font-medium ml-1">Billion</span>
                 </div>
                 
                 <p className="text-zinc-400 text-sm mb-6">

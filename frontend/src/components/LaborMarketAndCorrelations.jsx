@@ -23,7 +23,7 @@ export default function LaborMarketAndCorrelations() {
 
   if (loading || !data) {
     return (
-      <div className="flex items-center justify-center min-h-screen text-zinc-500 bg-zinc-950">
+      <div className="flex items-center justify-center min-h-screen text-zinc-400 bg-zinc-950">
         <T it="Caricamento metriche del lavoro..." en="Loading labor market metrics..." />
       </div>
     );

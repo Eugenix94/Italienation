@@ -54,9 +54,9 @@ export default function UnifiedHome() {
       <div className="flex flex-col lg:flex-row flex-1 relative z-10">
         
         {/* NAVIGATION SIDEBAR */}
-        <div className="lg:w-72 lg:shrink-0 lg:border-r border-white/[0.05] bg-white/[0.01] backdrop-blur-3xl lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)] z-40 border-b lg:border-b-0 sticky top-16 shadow-[20px_0_40px_rgba(0,0,0,0.5)] lg:shadow-none">
-          <div className="flex lg:flex-col overflow-x-auto custom-scrollbar p-4 lg:p-6 gap-2 lg:gap-3">
-            <h3 className="hidden lg:block text-xs font-black tracking-widest text-zinc-500 uppercase mb-4 px-4">
+        <nav aria-label="Main dashboard navigation" className="lg:w-72 lg:shrink-0 lg:border-r border-white/[0.05] bg-white/[0.01] backdrop-blur-3xl lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)] z-40 border-b lg:border-b-0 sticky top-16 shadow-[20px_0_40px_rgba(0,0,0,0.5)] lg:shadow-none">
+          <div className="flex lg:flex-col overflow-x-auto hide-scrollbar p-4 lg:p-6 gap-2 lg:gap-3 snap-x snap-mandatory">
+            <h3 className="hidden lg:block text-xs font-black tracking-widest text-zinc-500 uppercase mb-4 px-4" id="sidebar-heading">
               <T it="Osservatorio Dati" en="Data Observatory" />
             </h3>
             {tabs.map((tab) => {
@@ -66,26 +66,27 @@ export default function UnifiedHome() {
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`group flex items-center gap-3 px-4 lg:px-5 py-3 lg:py-4 text-sm font-bold transition-all duration-300 relative whitespace-nowrap rounded-2xl lg:w-full lg:text-left
+                  aria-current={isActive ? 'page' : undefined}
+                  className={`group flex items-center gap-3 px-4 lg:px-5 py-3 lg:py-4 text-sm font-bold transition-all duration-300 relative whitespace-nowrap rounded-2xl lg:w-full lg:text-left snap-start focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]
                     ${isActive 
                       ? 'text-white bg-gradient-to-r from-indigo-500/20 to-purple-500/10 border border-indigo-500/30 shadow-[0_0_20px_rgba(99,102,241,0.15)]' 
-                      : 'text-zinc-500 hover:text-zinc-200 hover:bg-white/[0.03] border border-transparent hover:border-white/[0.05]'
+                      : 'text-zinc-400 hover:text-zinc-200 hover:bg-white/[0.03] border border-transparent hover:border-white/[0.05]'
                     }`}
                 >
                   <div className={`p-1.5 rounded-lg transition-colors ${isActive ? 'bg-indigo-500/20 text-indigo-400' : 'bg-transparent text-zinc-500 group-hover:text-zinc-300'}`}>
-                    <Icon size={18} />
+                    <Icon size={18} aria-hidden="true" />
                   </div>
                   <span className="flex-1"><T it={tab.it} en={tab.en} /></span>
                   {isActive && (
                     <motion.div layoutId="sidebar-active" className="hidden lg:block">
-                      <ChevronRight size={16} className="text-indigo-400" />
+                      <ChevronRight size={16} className="text-indigo-400" aria-hidden="true" />
                     </motion.div>
                   )}
                 </button>
               );
             })}
           </div>
-        </div>
+        </nav>
 
         {/* DASHBOARD CONTENT */}
         <div className="flex-1 w-full lg:max-w-[calc(100vw-18rem)] overflow-hidden relative">

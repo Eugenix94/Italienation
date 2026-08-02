@@ -24,7 +24,7 @@ export default function MigrationAndRemittances() {
 
   if (loading || !data) {
     return (
-      <div className="flex items-center justify-center min-h-[400px] text-zinc-500 bg-zinc-950">
+      <div className="flex items-center justify-center min-h-[400px] text-zinc-400 bg-zinc-950">
         <T it="Caricamento dati migratori..." en="Loading migration data..." />
       </div>
     );
@@ -87,7 +87,7 @@ export default function MigrationAndRemittances() {
                 <p className="text-5xl font-black text-indigo-400">
                   €{istat_non_observed_economy.year_2023.underground_economy_billions}B
                 </p>
-                <p className="text-sm text-zinc-500 mt-2">
+                <p className="text-sm text-zinc-400 mt-2">
                   ~{istat_non_observed_economy.year_2023.gdp_share_pct}% <T it="del PIL Nazionale" en="of National GDP" />
                 </p>
               </div>
@@ -129,7 +129,13 @@ export default function MigrationAndRemittances() {
               </div>
             </div>
             
-            <div className="h-64">
+            <div className="h-64" aria-hidden="false">
+              <span className="sr-only">
+                <T 
+                  it="Grafico a barre orizzontali che mostra che il 51% dei migranti intervistati lavora senza contratto e il 55% è sottopagato." 
+                  en="Horizontal bar chart showing that 51% of surveyed migrants work without a contract and 55% are underpaid." 
+                />
+              </span>
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={inapp_migrant_exploitation} layout="vertical" margin={{ top: 0, right: 30, left: 140, bottom: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" horizontal={false} />

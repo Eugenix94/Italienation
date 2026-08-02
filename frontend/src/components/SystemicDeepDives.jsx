@@ -60,22 +60,22 @@ export default function SystemicDeepDives() {
               <h3 className="text-xl font-bold text-white mb-6 border-b border-zinc-800 pb-2">Catania (IT)</h3>
               <div className="space-y-6">
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Popolazione" en="Population" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Popolazione" en="Population" /></p>
                   <p className="text-2xl font-black text-zinc-200">{data.malta_vs_catania.catania.population}</p>
                 </div>
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Tasso NEET" en="NEET Rate" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Tasso NEET" en="NEET Rate" /></p>
                   <div className="flex items-end gap-2">
                     <p className="text-4xl font-black text-rose-400">{data.malta_vs_catania.catania.neet_rate}%</p>
                     <TrendingDown className="text-rose-400 mb-2" />
                   </div>
                 </div>
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Spesa Educazione (% PIL)" en="Education Spend (% GDP)" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Spesa Educazione (% PIL)" en="Education Spend (% GDP)" /></p>
                   <p className="text-2xl font-black text-rose-400">{data.malta_vs_catania.catania.education_gdp_pct}%</p>
                 </div>
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Copertura TPL (Mobilità)" en="TPL Coverage (Mobility)" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Copertura TPL (Mobilità)" en="TPL Coverage (Mobility)" /></p>
                   <p className="text-2xl font-black text-rose-400">{data.malta_vs_catania.catania.transport_coverage}%</p>
                   <p className="text-xs text-rose-400/70 mt-1"><T it="Barriera geografica altissima per la scelta scolastica." en="Massive geographic barrier for school choice." /></p>
                 </div>
@@ -87,21 +87,21 @@ export default function SystemicDeepDives() {
               <h3 className="text-xl font-bold text-white mb-6 border-b border-zinc-800 pb-2">Malta (EU)</h3>
               <div className="space-y-6">
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Popolazione" en="Population" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Popolazione" en="Population" /></p>
                   <p className="text-2xl font-black text-zinc-200">{data.malta_vs_catania.malta.population}</p>
                 </div>
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Tasso NEET" en="NEET Rate" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Tasso NEET" en="NEET Rate" /></p>
                   <div className="flex items-end gap-2">
                     <p className="text-4xl font-black text-emerald-400">{data.malta_vs_catania.malta.neet_rate}%</p>
                   </div>
                 </div>
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Spesa Educazione (% PIL)" en="Education Spend (% GDP)" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Spesa Educazione (% PIL)" en="Education Spend (% GDP)" /></p>
                   <p className="text-2xl font-black text-emerald-400">{data.malta_vs_catania.malta.education_gdp_pct}%</p>
                 </div>
                 <div>
-                  <p className="text-xs text-zinc-500 font-bold uppercase tracking-wider mb-1"><T it="Copertura TPL (Mobilità)" en="TPL Coverage (Mobility)" /></p>
+                  <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider mb-1"><T it="Copertura TPL (Mobilità)" en="TPL Coverage (Mobility)" /></p>
                   <p className="text-2xl font-black text-emerald-400">{data.malta_vs_catania.malta.transport_coverage}%</p>
                   <p className="text-xs text-emerald-400/70 mt-1"><T it="Mobilità garantita annulla l'attrito territoriale." en="Guaranteed mobility nullifies territorial friction." /></p>
                 </div>

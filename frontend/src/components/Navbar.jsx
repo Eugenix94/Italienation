@@ -23,9 +23,9 @@ export default function Navbar() {
           <div className="flex items-center space-x-3">
             <Link 
               to="/guide"
-              className="flex items-center gap-2 px-4 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white text-xs font-bold transition shadow-lg"
+              className="flex items-center gap-2 px-4 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white text-xs font-bold transition shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#09090b]"
             >
-              <BookOpen size={14} />
+              <BookOpen size={14} aria-hidden="true" />
               <T it="Guida ai Dati" en="Data Guide" />
             </Link>
             
@@ -33,7 +33,7 @@ export default function Navbar() {
               href="https://github.com/Eugenix94/Italienation" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hidden sm:flex px-4 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition shadow-lg shadow-indigo-500/20"
+              className="hidden sm:flex px-4 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition shadow-lg shadow-indigo-500/20 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#09090b]"
             >
               GitHub
             </a>
