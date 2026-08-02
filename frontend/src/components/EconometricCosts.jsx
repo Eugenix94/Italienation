@@ -10,7 +10,8 @@ import {
   Tooltip,
   ResponsiveContainer
 } from 'recharts';
-import { T } from './T';
+import { T } from "./T";
+import SectionContext from "./SectionContext";
 import SourceBadge from './SourceBadge';
 import DataTooltip from './DataTooltip';
 import MethodologyAlert from './MethodologyAlert';

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { T } from './T';
+import { T } from "./T";
+import SectionContext from "./SectionContext";
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, Briefcase, GraduationCap, Clock, Euro, Users, AlertTriangle, ChevronRight } from 'lucide-react';
 import { Loader2 } from 'lucide-react';

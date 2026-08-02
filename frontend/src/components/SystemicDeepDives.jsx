@@ -1,5 +1,6 @@
 import React from 'react';
 import { T } from "./T";
+import SectionContext from "./SectionContext";
 import DataTooltip from "./DataTooltip";
 import SourceBadge from './SourceBadge';
 import { motion } from 'framer-motion';
@@ -34,14 +35,19 @@ export default function SystemicDeepDives() {
       <div className="max-w-6xl mx-auto space-y-24">
         
         {/* Header */}
-        <div className="text-center space-y-4">
-          <h1 className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-rose-400 drop-shadow-lg">
-            <T it="Deep Dive Sistemici" en="Systemic Deep Dives" />
-          </h1>
-          <p className="text-zinc-400 max-w-xl mx-auto">
-            <T it="Analisi ravvicinata dei meccanismi critici che definiscono il fallimento del sistema educativo italiano, con modelli di comparazione internazionale." en="Close-up analysis of the critical mechanisms defining the failure of the Italian education system, with international comparison models." />
-          </p>
-        </div>
+        <SectionContext 
+          domainIt="Meccaniche Strutturali" 
+          domainEn="Structural Mechanics"
+          titleIt="Deep Dive Sistemici" 
+          titleEn="Systemic Deep Dives"
+          thesisIt="Le inefficienze del sistema scolastico italiano non sono casuali, ma derivano da precise scelte di governance, meccanismi di valutazione soggettiva e distorsioni di mercato che penalizzano sistematicamente gli studenti."
+          thesisEn="The inefficiencies of the Italian school system are not random, but stem from specific governance choices, subjective evaluation mechanisms, and market distortions that systematically penalize students."
+          takeaways={[
+            {it: "Il verticalismo burocratico blocca l'innovazione", en: "Bureaucratic verticalism blocks innovation"},
+            {it: "Il mercato dei libri di testo è un oligopolio inelastico", en: "The textbook market is an inelastic oligopoly"},
+            {it: "Le valutazioni soggettive generano dispersione", en: "Subjective evaluations drive dropout rates"}
+          ]}
+        />
 
         {/* Section 1: Malta vs Catania */}
         <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
