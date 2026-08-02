@@ -2,8 +2,8 @@ import React from 'react';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
 import { motion } from 'framer-motion';
-import { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
-import { Globe, HardHat, Brain, Scale, TrendingDown, ShieldCheck, AlertTriangle } from 'lucide-react';
+import { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, PieChart, Pie, Cell } from 'recharts';
+import { Globe, HardHat, Brain, Scale, TrendingDown, ShieldCheck, AlertTriangle, BookOpen, BookMarked, Euro } from 'lucide-react';
 import data from '../assets/deep_dives_data.json';
 
 const SectionHeader = ({ icon: Icon, titleIt, titleEn, descIt, descEn, agency = "ISTAT", topicKey, year = "2026", url }) => (
@@ -219,6 +219,85 @@ export default function SystemicDeepDives() {
                 <Legend wrapperStyle={{paddingTop: '20px'}} />
               </RadarChart>
             </ResponsiveContainer>
+          </div>
+        </motion.section>
+        {/* Section 5: Textbook Economics */}
+        <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+          <SectionHeader 
+            icon={BookOpen} 
+            titleIt="Economia dei Libri di Testo (Caro Scuola)" 
+            titleEn="Textbook Economics (Expensive Schooling)"
+            descIt="Un mercato di €800M l'anno dominato da un oligopolio. L'asimmetria di scelta (i docenti scelgono, le famiglie pagano) e il meccanismo delle 'nuove edizioni' bloccano la concorrenza e uccidono il mercato dell'usato."
+            descEn="An €800M/year market dominated by an oligopoly. The asymmetry of choice (teachers choose, families pay) and the 'new editions' loop block competition and kill the used books market."
+            agency="AGCM & AIE"
+            topicKey="textbooks"
+            year="2026"
+          />
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Pie Chart of Oligopoly */}
+            <div className="bg-zinc-900/50 p-6 rounded-3xl border border-zinc-800 flex flex-col h-[400px]">
+              <h3 className="text-xl font-bold text-white mb-2"><T it="Oligopolio Editoriale" en="Publisher Oligopoly" /></h3>
+              <p className="text-sm text-zinc-400 mb-4"><T it="Quote di mercato (Il top 4 controlla ~80%)" en="Market shares (Top 4 control ~80%)" /></p>
+              <div className="flex-1 w-full h-full min-h-0">
+                <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                    <Pie
+                      data={data.textbook_oligopoly}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={60}
+                      outerRadius={100}
+                      paddingAngle={5}
+                      dataKey="share"
+                    >
+                      {data.textbook_oligopoly && data.textbook_oligopoly.map((entry, index) => {
+                        const colors = ['#f43f5e', '#8b5cf6', '#10b981', '#f59e0b', '#52525b'];
+                        return <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />;
+                      })}
+                    </Pie>
+                    <Tooltip 
+                      contentStyle={{backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '12px'}}
+                      formatter={(value) => `${value}%`}
+                    />
+                    <Legend />
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+
+            {/* Asymmetry of choice and New Editions Loop */}
+            <div className="flex flex-col gap-6">
+              <div className="bg-gradient-to-br from-rose-900/30 to-zinc-900/50 p-6 rounded-3xl border border-rose-500/20 flex-1 flex items-start gap-4">
+                <div className="p-3 bg-rose-500/20 rounded-xl shrink-0"><BookMarked className="text-rose-400" /></div>
+                <div>
+                  <h4 className="text-lg font-bold text-white mb-2"><T it="Asimmetria di Scelta" en="Asymmetry of Choice" /></h4>
+                  <p className="text-sm text-zinc-300 leading-relaxed">
+                    <T 
+                      it="I docenti adottano i testi, ma le famiglie li pagano. Questa anomalia (rilevata dall'Antitrust AGCM) impedisce la competizione sui prezzi, permettendo rincari costanti (+13% in un decennio)." 
+                      en="Teachers adopt textbooks, but families pay for them. This anomaly (noted by Antitrust AGCM) prevents price competition, allowing constant markups (+13% in a decade)." 
+                    />
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-indigo-900/30 to-zinc-900/50 p-6 rounded-3xl border border-indigo-500/20 flex-1 flex items-start gap-4">
+                <div className="p-3 bg-indigo-500/20 rounded-xl shrink-0"><Euro className="text-indigo-400" /></div>
+                <div>
+                  <h4 className="text-lg font-bold text-white mb-2"><T it="Il Trucco delle 'Nuove Edizioni'" en="The 'New Editions' Loophole" /></h4>
+                  <p className="text-sm text-zinc-300 leading-relaxed mb-3">
+                    <T 
+                      it="Il 35-40% dei testi per il 1° anno subisce minime 'nuove edizioni' superficiali (impaginazione, capitoli spostati)." 
+                      en="35-40% of first-year textbooks get minor superficial 'new editions' (layout, reshuffled chapters)." 
+                    />
+                  </p>
+                  <div className="inline-block bg-indigo-500/20 px-3 py-1 rounded-full border border-indigo-500/30">
+                    <span className="text-indigo-300 text-xs font-semibold">
+                      <T it="Uccide il mercato dell'usato (danno da €150M)" en="Kills the used book market (€150M damage)" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </motion.section>
 

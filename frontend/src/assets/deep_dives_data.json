@@ -32,14 +32,75 @@
     }
   },
   "subjective_evaluation": [
-    { "type": "Oral Exams (IT)", "grading_variance": 85, "psychological_distress_index": 78, "nepotism_risk": "High" },
-    { "type": "Written Standard (EU)", "grading_variance": 15, "psychological_distress_index": 35, "nepotism_risk": "Low" },
-    { "type": "INVALSI (IT)", "grading_variance": 0, "psychological_distress_index": 20, "nepotism_risk": "None" }
+    {
+      "type": "Oral Exams (IT)",
+      "grading_variance": 85,
+      "psychological_distress_index": 78,
+      "nepotism_risk": "High"
+    },
+    {
+      "type": "Written Standard (EU)",
+      "grading_variance": 15,
+      "psychological_distress_index": 35,
+      "nepotism_risk": "Low"
+    },
+    {
+      "type": "INVALSI (IT)",
+      "grading_variance": 0,
+      "psychological_distress_index": 20,
+      "nepotism_risk": "None"
+    }
   ],
   "governance_wgi": [
-    { "country": "Italy", "accountability": 62, "rule_of_law": 58, "control_of_corruption": 53, "horizontalism": 35 },
-    { "country": "Malta", "accountability": 85, "rule_of_law": 72, "control_of_corruption": 68, "horizontalism": 65 },
-    { "country": "Sweden", "accountability": 98, "rule_of_law": 99, "control_of_corruption": 98, "horizontalism": 95 },
-    { "country": "Germany", "accountability": 95, "rule_of_law": 92, "control_of_corruption": 94, "horizontalism": 85 }
+    {
+      "country": "Italy",
+      "accountability": 62,
+      "rule_of_law": 58,
+      "control_of_corruption": 53,
+      "horizontalism": 35
+    },
+    {
+      "country": "Malta",
+      "accountability": 85,
+      "rule_of_law": 72,
+      "control_of_corruption": 68,
+      "horizontalism": 65
+    },
+    {
+      "country": "Sweden",
+      "accountability": 98,
+      "rule_of_law": 99,
+      "control_of_corruption": 98,
+      "horizontalism": 95
+    },
+    {
+      "country": "Germany",
+      "accountability": 95,
+      "rule_of_law": 92,
+      "control_of_corruption": 94,
+      "horizontalism": 85
+    }
+  ],
+  "textbook_oligopoly": [
+    {
+      "name": "Mondadori",
+      "share": 32
+    },
+    {
+      "name": "Zanichelli",
+      "share": 25
+    },
+    {
+      "name": "Sanoma",
+      "share": 13.5
+    },
+    {
+      "name": "La Scuola",
+      "share": 8
+    },
+    {
+      "name": "Altri Editori",
+      "share": 21.5
+    }
   ]
 }
