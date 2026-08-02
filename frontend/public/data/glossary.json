@@ -1,0 +1,160 @@
+{
+  "glossary": [
+    {
+      "id": "escs",
+      "acronym": "ESCS",
+      "term": {
+        "it": "Status Economico, Sociale e Culturale",
+        "en": "Economic, Social and Cultural Status"
+      },
+      "definition": {
+        "it": "L'indice ESCS è una misura sintetica calcolata da INVALSI e OCSE PISA che riassume il background familiare di uno studente. Combina il livello di istruzione dei genitori, la loro occupazione lavorativa e le risorse materiali/culturali presenti in casa (es. numero di libri, connessione internet). È il predittore statistico più forte del successo o del fallimento scolastico in Italia.",
+        "en": "The ESCS index is a synthetic measure calculated by INVALSI and OECD PISA that summarizes a student's family background. It combines parental education, occupational status, and material/cultural home possessions (e.g., number of books, internet access). It is the strongest statistical predictor of educational success or failure in Italy."
+      },
+      "category": "Socioeconomics"
+    },
+    {
+      "id": "invalsi",
+      "acronym": "INVALSI",
+      "term": {
+        "it": "Istituto Nazionale per la Valutazione del Sistema Educativo",
+        "en": "National Institute for the Evaluation of the Education System"
+      },
+      "definition": {
+        "it": "L'ente di ricerca italiano che effettua test standardizzati periodici (Prove INVALSI) per valutare i livelli di apprendimento degli studenti in Italiano, Matematica e Inglese. I suoi dati rivelano profonde disuguaglianze territoriali (divario Nord-Sud) e differenze drammatiche di apprendimento tra diversi tipi di scuola superiore.",
+        "en": "The Italian research institute that conducts periodic standardized tests to evaluate student learning levels in Italian, Math, and English. Its data reveals profound territorial inequalities (North-South divide) and dramatic learning differences between different types of high schools."
+      },
+      "category": "Institutions"
+    },
+    {
+      "id": "dispersione_implicita",
+      "acronym": null,
+      "term": {
+        "it": "Dispersione Scolastica Implicita",
+        "en": "Implicit School Dropout"
+      },
+      "definition": {
+        "it": "Studenti che completano formalmente il ciclo di studi superiore ottenendo un diploma, ma che secondo i test INVALSI possiedono competenze fondamentali (in matematica e italiano) equivalenti a quelle della terza media. Essenzialmente, un 'diploma di carta' senza le competenze corrispondenti.",
+        "en": "Students who formally complete high school and obtain a diploma, but who, according to INVALSI tests, possess foundational skills (in math and reading) equivalent to those of an 8th grader. Essentially, a 'paper diploma' lacking the corresponding skills."
+      },
+      "category": "Outcomes"
+    },
+    {
+      "id": "dispersione_esplicita",
+      "acronym": null,
+      "term": {
+        "it": "Dispersione Scolastica Esplicita",
+        "en": "Explicit School Dropout"
+      },
+      "definition": {
+        "it": "Studenti che abbandonano fisicamente il sistema scolastico prima di aver completato il ciclo di istruzione secondaria superiore o aver ottenuto una qualifica professionale (Early School Leavers).",
+        "en": "Students who physically abandon the school system before completing upper secondary education or obtaining a vocational qualification (Early School Leavers)."
+      },
+      "category": "Outcomes"
+    },
+    {
+      "id": "neet",
+      "acronym": "NEET",
+      "term": {
+        "it": "Not in Education, Employment, or Training",
+        "en": "Not in Education, Employment, or Training"
+      },
+      "definition": {
+        "it": "Giovani (solitamente tra i 15 e i 29 anni) che non studiano, non lavorano e non sono inseriti in percorsi di formazione. L'Italia detiene uno dei tassi NEET più alti d'Europa, un fenomeno strettamente correlato all'abbandono scolastico e al disallineamento delle competenze (skills mismatch).",
+        "en": "Young people (usually aged 15-29) who are neither studying, working, nor enrolled in training programs. Italy has one of the highest NEET rates in Europe, a phenomenon strictly correlated with school dropout and skills mismatch."
+      },
+      "category": "Macroeconomics"
+    },
+    {
+      "id": "fsl_pcto",
+      "acronym": "FSL / PCTO",
+      "term": {
+        "it": "Formazione Scuola-Lavoro",
+        "en": "School-Work Formation"
+      },
+      "definition": {
+        "it": "Percorsi obbligatori introdotti per avvicinare gli studenti al mondo del lavoro. Storicamente noti come 'Alternanza Scuola-Lavoro' (poi PCTO, ora FSL). L'osservatorio evidenzia come in Italia queste ore siano spesso non retribuite e scollegate dal curriculum accademico, a differenza del modello duale tedesco.",
+        "en": "Mandatory pathways introduced to bring students closer to the working world. Historically known as 'Alternanza Scuola-Lavoro' (then PCTO, now FSL). The observatory highlights how in Italy these hours are often unpaid and disconnected from the academic curriculum, unlike the German dual model."
+      },
+      "category": "Curriculum"
+    },
+    {
+      "id": "tripartizione",
+      "acronym": null,
+      "term": {
+        "it": "Sistema Tripartito (Tracking)",
+        "en": "Tripartite System (Tracking)"
+      },
+      "definition": {
+        "it": "La divisione del sistema di istruzione superiore italiano in tre binari gerarchici: Licei (preparazione accademica), Istituti Tecnici (competenze tecnico-pratiche) e Istituti Professionali (inserimento lavorativo). Gli studenti devono scegliere il binario a 14 anni. L'analisi mostra che questa scelta è pesantemente determinata dall'ESCS, rendendo il sistema un meccanismo di riproduzione sociale.",
+        "en": "The division of the Italian high school system into three hierarchical tracks: Lyceums (academic preparation), Technical Institutes (technical-practical skills), and Vocational Institutes (work insertion). Students must choose their track at age 14. Analysis shows this choice is heavily determined by ESCS, making the system a mechanism of social reproduction."
+      },
+      "category": "Structure"
+    },
+    {
+      "id": "bocciatura",
+      "acronym": null,
+      "term": {
+        "it": "Bocciatura / Ripetenza",
+        "en": "Grade Retention (Holding back)"
+      },
+      "definition": {
+        "it": "La pratica di far ripetere l'anno scolastico a uno studente che non raggiunge la sufficienza. I dati mostrano che colpisce in modo sproporzionato gli studenti degli Istituti Professionali e quelli con ESCS basso. Molti sistemi educativi europei moderni (come i paesi nordici) hanno quasi abolito questa pratica per i suoi effetti psicologici e i costi economici.",
+        "en": "The practice of making a student repeat the school year if they do not achieve a passing grade. Data shows it disproportionately affects Vocational Institute students and those with low ESCS. Many modern European educational systems (like Nordic countries) have nearly abolished this practice due to its psychological effects and economic costs."
+      },
+      "category": "Outcomes"
+    },
+    {
+      "id": "siope",
+      "acronym": "SIOPE",
+      "term": {
+        "it": "Sistema Informativo sulle Operazioni degli Enti Pubblici",
+        "en": "Information System on Public Entity Operations"
+      },
+      "definition": {
+        "it": "Database del Ministero dell'Economia che traccia i pagamenti degli enti pubblici, incluse le scuole. Nell'osservatorio viene utilizzato per mappare i ritardi nei pagamenti e lo stato della spesa per l'infrastruttura scolastica sul territorio.",
+        "en": "Database of the Ministry of Economy tracking payments by public entities, including schools. In the observatory, it is used to map payment delays and the state of spending on school infrastructure across the territory."
+      },
+      "category": "Data Source"
+    },
+    {
+      "id": "nuts3",
+      "acronym": "NUTS-3",
+      "term": {
+        "it": "Nomenclatura delle Unità Territoriali Statistiche",
+        "en": "Nomenclature of Territorial Units for Statistics"
+      },
+      "definition": {
+        "it": "Sistema di classificazione europeo per dividere il territorio. NUTS-2 in Italia corrisponde alle Regioni (es. Lombardia, Sicilia), mentre NUTS-3 corrisponde alle Province (es. Milano, Catania). L'osservatorio utilizza questi livelli per l'analisi geospaziale delle disuguaglianze.",
+        "en": "European classification system for dividing territory. In Italy, NUTS-2 corresponds to Regions (e.g., Lombardy, Sicily), while NUTS-3 corresponds to Provinces (e.g., Milan, Catania). The observatory uses these levels for geospatial analysis of inequalities."
+      },
+      "category": "Geospatial"
+    },
+    {
+      "id": "caro_libri",
+      "acronym": null,
+      "term": {
+        "it": "Caro Libri (Tassa Occulta)",
+        "en": "Hidden Textbook Tax"
+      },
+      "definition": {
+        "it": "Il costo elevato che le famiglie italiane devono sostenere annualmente per l'acquisto di libri di testo e materiale scolastico, stimato a oltre 1.200€ ad alunno. Questo rappresenta una barriera all'accesso all'istruzione per le famiglie a basso reddito, a differenza di modelli come quello finlandese o tedesco dove il materiale è gratuito.",
+        "en": "The high cost Italian families must bear annually to purchase textbooks and school supplies, estimated at over €1,200 per student. This represents a barrier to education access for low-income families, unlike models in Finland or Germany where materials are free."
+      },
+      "category": "Socioeconomics"
+    },
+    {
+      "id": "interrogazioni",
+      "acronym": null,
+      "term": {
+        "it": "Interrogazioni Orali",
+        "en": "Oral Examinations"
+      },
+      "definition": {
+        "it": "Forma di valutazione basata su un colloquio orale pubblico davanti alla classe. Peculiarità del sistema italiano (condivisa in Europa quasi solo da Francia e Romania). La letteratura pedagogica internazionale evidenzia come siano soggette a forti bias cognitivi del docente e generino elevato stress psicologico, riducendo l'oggettività della valutazione.",
+        "en": "A form of assessment based on a public oral interview in front of the class. A peculiarity of the Italian system (shared in Europe almost exclusively by France and Romania). International pedagogical literature highlights how they are subject to strong teacher cognitive bias and generate high psychological stress, reducing evaluation objectivity."
+      },
+      "category": "Curriculum"
+    }
+  ]
+}

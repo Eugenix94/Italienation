@@ -18,7 +18,8 @@ import ReligiousOptOut from '../components/ReligiousOptOut';
 import MethodologyNotebooks from '../components/MethodologyNotebooks';
 import StructuralDeepDives from '../components/StructuralDeepDives';
 import MediaKitExport from '../components/MediaKitExport';
-import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search } from 'lucide-react';
+import DataLexicon from '../components/DataLexicon';
+import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search, Library } from 'lucide-react';
 import { T } from '../components/T';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -33,7 +34,8 @@ export default function UnifiedHome() {
     { id: 'macro', icon: BarChart2, it: 'Costi Macro', en: 'Macro Costs' },
     { id: 'data', icon: Database, it: 'Dati & API', en: 'Data Hub & API' },
     { id: 'deepdives', icon: Search, it: 'Approfondimenti', en: 'Deep Dives' },
-    { id: 'methodology', icon: Book, it: 'Metodologia', en: 'Methodology' }
+    { id: 'methodology', icon: Book, it: 'Metodologia', en: 'Methodology' },
+    { id: 'lexicon', icon: Library, it: 'Glossario', en: 'Glossary' }
   ];
 
   return (
@@ -141,6 +143,12 @@ export default function UnifiedHome() {
             {activeTab === 'methodology' && (
               <div className="animate-in fade-in slide-in-from-bottom-8 duration-700">
                 <MethodologyNotebooks />
+              </div>
+            )}
+            
+            {activeTab === 'lexicon' && (
+              <div className="animate-in fade-in slide-in-from-bottom-8 duration-700">
+                <DataLexicon />
               </div>
             )}
           </motion.div>
