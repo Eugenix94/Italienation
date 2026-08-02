@@ -105,7 +105,7 @@ export default function MigrationAndRemittances() {
               </div>
             </div>
             <div className="mt-8">
-              <SourceBadge text="ISTAT 2024" url="https://www.istat.it/en/press-release/non-observed-economy-in-national-accounts-years-2020-2023/" />
+              <SourceBadge label="ISTAT 2024" url="https://www.istat.it/en/press-release/non-observed-economy-in-national-accounts-years-2020-2023/" />
             </div>
           </motion.div>
 
@@ -155,8 +155,8 @@ export default function MigrationAndRemittances() {
               </ResponsiveContainer>
             </div>
             <div className="mt-6 flex flex-wrap gap-4">
-              <SourceBadge text="INAPP 2024" url="https://www.inapp.gov.it/en/press-and-media/press-releases/26-11-2024-indagine-sullesposizione-al-lavoro-sommerso" />
-              <SourceBadge text="EU Labour Authority" url="https://www.ela.europa.eu/sites/default/files/2024-02/IT_UDW_Factsheet_2017-Italy.pdf" />
+              <SourceBadge label="INAPP 2024" url="https://www.inapp.gov.it/en/press-and-media/press-releases/26-11-2024-indagine-sullesposizione-al-lavoro-sommerso" />
+              <SourceBadge label="EU Labour Authority" url="https://www.ela.europa.eu/sites/default/files/2024-02/IT_UDW_Factsheet_2017-Italy.pdf" />
             </div>
           </motion.div>
 
@@ -182,9 +182,9 @@ export default function MigrationAndRemittances() {
                 <T it={remittances.description_it} en={remittances.description_en} />
               </p>
               <div className="flex flex-wrap gap-4">
-                <SourceBadge text="Banca d'Italia Open Data" url="https://www.bancaditalia.it/statistiche/tematiche/rapporti-estero/rimesse-immigrati/index.html" />
-                <SourceBadge text="Fondazione ISMU" url="https://www.ismu.org/rimesse-dei-migranti-banca-dati-sulle-migrazioni/" />
-                <SourceBadge text="World Bank" url="#" />
+                <SourceBadge label="Banca d'Italia Open Data" url="https://www.bancaditalia.it/statistiche/tematiche/rapporti-estero/rimesse-immigrati/index.html" />
+                <SourceBadge label="Fondazione ISMU" url="https://www.ismu.org/rimesse-dei-migranti-banca-dati-sulle-migrazioni/" />
+                <SourceBadge label="World Bank" url="https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data" />
               </div>
             </div>
           </div>

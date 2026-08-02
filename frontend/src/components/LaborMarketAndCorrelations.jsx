@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Briefcase, EyeOff, Link, Percent } from 'lucide-react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 
 export default function LaborMarketAndCorrelations() {
   const [data, setData] = useState(null);
@@ -106,6 +107,9 @@ export default function LaborMarketAndCorrelations() {
                 </BarChart>
               </ResponsiveContainer>
             </div>
+            <div className="mt-6 flex justify-end">
+              <SourceBadge agency="OECD" year="2023" />
+            </div>
           </motion.div>
 
           {/* Lavoro Nero Card */}
@@ -148,6 +152,9 @@ export default function LaborMarketAndCorrelations() {
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
+            </div>
+            <div className="mt-6 flex justify-end">
+              <SourceBadge agency="ISTAT" topicKey="shadow" year="2023" />
             </div>
           </motion.div>
 
@@ -193,12 +200,15 @@ export default function LaborMarketAndCorrelations() {
               </BarChart>
             </ResponsiveContainer>
           </div>
-          <div className="flex justify-center gap-6 mt-4 text-xs">
-            <span className="flex items-center gap-2"><div className="w-3 h-3 bg-red-500 rounded-full"/>Precariato (Contratti a termine)</span>
-            <span className="flex items-center gap-2"><div className="w-3 h-3 bg-amber-500 rounded-full"/>Ricaduta Inattività</span>
-            <span className="flex items-center gap-2"><div className="w-3 h-3 bg-indigo-500 rounded-full"/>Rischio NEET</span>
-          </div>
-        </motion.div>
+            <div className="flex justify-center gap-6 mt-4 text-xs">
+              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-red-500 rounded-full"/>Precariato (Contratti a termine)</span>
+              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-amber-500 rounded-full"/>Ricaduta Inattività</span>
+              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-indigo-500 rounded-full"/>Rischio NEET</span>
+            </div>
+            <div className="mt-6 flex justify-end">
+              <SourceBadge agency="ISTAT" topicKey="mismatch" year="2023" />
+            </div>
+          </motion.div>
       </div>
     </div>
   );
