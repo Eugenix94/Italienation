@@ -30,11 +30,34 @@ export default function MethodologyNotebooks() {
   const [activeNotebook, setActiveNotebook] = useState(notebooks[0].id);
 
   return (
-    <div className="flex flex-col lg:flex-row h-full w-full min-h-[800px] border border-white/10 rounded-2xl overflow-hidden bg-zinc-950">
-      {/* Sidebar List */}
-      <div className="w-full lg:w-1/4 xl:w-1/5 bg-zinc-900 border-r border-white/5 overflow-y-auto max-h-[800px]">
-        <div className="p-4 border-b border-white/5 sticky top-0 bg-zinc-900 z-10">
-          <h2 className="text-xl font-bold text-white mb-1"><T it="Quaderni di Ricerca" en="Research Notebooks" /></h2>
+    <div className="flex flex-col gap-6">
+      <div className="bg-zinc-900/50 border border-indigo-500/30 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start">
+        <div className="p-4 bg-indigo-500/10 rounded-xl shrink-0">
+          <Activity className="text-indigo-400" size={32} />
+        </div>
+        <div>
+          <h3 className="text-xl font-bold text-white mb-2">
+            <T it="Trasparenza Metodologica & AI" en="Methodological Transparency & AI" />
+          </h3>
+          <p className="text-zinc-300 text-sm md:text-base leading-relaxed mb-4">
+            <T 
+              it="Questa piattaforma è il risultato di una collaborazione intensiva tra ricercatori umani e Agenti AI Autonomi (Antigravity). L'AI ha scansionato, pulito, incrociato e sintetizzato centinaia di dataset aperti frammentati (MIUR, ISTAT, INVALSI) per rivelare modelli sistemici che sarebbero altrimenti rimasti invisibili a causa della loro scala. Tutti i risultati e le conclusioni derivano strettamente da elaborazioni matematiche documentate nei seguenti notebook."
+              en="This platform is the result of an intensive collaboration between human researchers and Autonomous AI Agents (Antigravity). The AI scanned, cleaned, cross-referenced, and synthesized hundreds of fragmented open datasets (MIUR, ISTAT, INVALSI) to reveal systemic patterns that would otherwise remain invisible due to their scale. All findings and conclusions are strictly derived from mathematical processing documented in the following notebooks."
+            />
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-medium text-zinc-400">100% Open Data</span>
+            <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-medium text-zinc-400">AI-Powered Synthesis</span>
+            <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-medium text-zinc-400">Verifiable Code</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row h-full w-full min-h-[800px] border border-white/10 rounded-2xl overflow-hidden bg-zinc-950">
+        {/* Sidebar List */}
+        <div className="w-full lg:w-1/4 xl:w-1/5 bg-zinc-900 border-r border-white/5 overflow-y-auto max-h-[800px]">
+          <div className="p-4 border-b border-white/5 sticky top-0 bg-zinc-900 z-10">
+            <h2 className="text-xl font-bold text-white mb-1"><T it="Quaderni di Ricerca" en="Research Notebooks" /></h2>
           <p className="text-xs text-zinc-400"><T it="I notebook Jupyter interattivi" en="The interactive Jupyter notebooks" /></p>
         </div>
         <div className="p-2 space-y-1">
@@ -74,6 +97,7 @@ export default function MethodologyNotebooks() {
           title="Jupyter Notebook"
           sandbox="allow-scripts allow-same-origin"
         />
+      </div>
       </div>
     </div>
   );
