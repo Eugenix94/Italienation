@@ -1,90 +1,288 @@
 {
-  "tracks": [
+  "macroTracks": [
     {
       "id": "liceo",
-      "name": {
-        "it": "Liceo (Classico / Scientifico)",
-        "en": "Lyceum (Classical / Scientific)"
-      },
+      "name": { "it": "Licei", "en": "Lyceums" },
+      "description": { "it": "Formazione accademica teorica", "en": "Theoretical academic education" }
+    },
+    {
+      "id": "tecnico",
+      "name": { "it": "Istituti Tecnici", "en": "Technical Institutes" },
+      "description": { "it": "Integrazione teoria e pratica", "en": "Integration of theory and practice" }
+    },
+    {
+      "id": "professionale",
+      "name": { "it": "Istituti Professionali", "en": "Vocational Institutes" },
+      "description": { "it": "Addestramento al lavoro pratico", "en": "Practical job training" }
+    }
+  ],
+  "specificTracks": [
+    {
+      "id": "liceo_classico",
+      "macroTrackId": "liceo",
+      "name": { "it": "Liceo Classico", "en": "Classical Lyceum" },
       "description": {
-        "it": "L'indirizzo accademico elitario, focalizzato su discipline teoriche, storiche e filosofiche. Prepara quasi esclusivamente all'università.",
-        "en": "The elite academic track, focused on theoretical, historical, and philosophical disciplines. Prepares almost exclusively for university."
+        "it": "Il percorso tradizionale dell'élite italiana, fondato su Latino, Greco e materie umanistiche.",
+        "en": "The traditional path of the Italian elite, founded on Latin, Greek, and humanities."
       },
-      "weeklyHours": 27,
-      "textbookCost": 350,
+      "weeklyHours": 31,
+      "textbookCost": 380,
+      "fslHours": 90,
+      "implicitDropout": "1%",
+      "universityEnrollment": "93%",
+      "curriculum": [
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Latino", "en": "Latin" }, "hours": 4 },
+        { "subject": { "it": "Greco Antico", "en": "Ancient Greek" }, "hours": 3 },
+        { "subject": { "it": "Storia e Filosofia", "en": "History & Philosophy" }, "hours": 6 },
+        { "subject": { "it": "Matematica", "en": "Mathematics" }, "hours": 2 },
+        { "subject": { "it": "Fisica e Scienze", "en": "Physics & Science" }, "hours": 4 },
+        { "subject": { "it": "Storia dell'Arte", "en": "Art History" }, "hours": 2 },
+        { "subject": { "it": "Inglese", "en": "English" }, "hours": 3 }
+      ],
+      "demographics": {
+        "it": "Massima concentrazione di studenti con indice ESCS molto alto. Percentuale altissima di laureati in famiglia.",
+        "en": "Highest concentration of students with very high ESCS. Extremely high rate of parents with university degrees."
+      }
+    },
+    {
+      "id": "liceo_scientifico",
+      "macroTrackId": "liceo",
+      "name": { "it": "Liceo Scientifico", "en": "Scientific Lyceum" },
+      "description": {
+        "it": "L'indirizzo accademico più popolare, bilancia materie umanistiche (incluso Latino) e discipline STEM.",
+        "en": "The most popular academic track, balancing humanities (including Latin) and STEM disciplines."
+      },
+      "weeklyHours": 30,
+      "textbookCost": 360,
       "fslHours": 90,
       "implicitDropout": "2%",
-      "universityEnrollment": "85%",
+      "universityEnrollment": "90%",
       "curriculum": [
-        { "subject": { "it": "Italiano & Letteratura", "en": "Italian & Literature" }, "hours": 4 },
-        { "subject": { "it": "Latino / Greco Antico", "en": "Latin / Ancient Greek" }, "hours": 5 },
-        { "subject": { "it": "Storia & Filosofia", "en": "History & Philosophy" }, "hours": 5 },
-        { "subject": { "it": "Matematica & Fisica", "en": "Math & Physics" }, "hours": 5 },
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Matematica", "en": "Mathematics" }, "hours": 4 },
+        { "subject": { "it": "Fisica", "en": "Physics" }, "hours": 3 },
+        { "subject": { "it": "Scienze Naturali", "en": "Natural Sciences" }, "hours": 3 },
+        { "subject": { "it": "Latino", "en": "Latin" }, "hours": 3 },
+        { "subject": { "it": "Storia e Filosofia", "en": "History & Philosophy" }, "hours": 5 },
+        { "subject": { "it": "Disegno e Storia dell'Arte", "en": "Art History & Drawing" }, "hours": 2 },
+        { "subject": { "it": "Inglese", "en": "English" }, "hours": 3 }
+      ],
+      "demographics": {
+        "it": "Indice ESCS alto. Rappresenta la classe media e medio-alta, principale serbatoio per le facoltà STEM.",
+        "en": "High ESCS. Represents the middle and upper-middle class, main feeder for STEM university faculties."
+      }
+    },
+    {
+      "id": "liceo_linguistico",
+      "macroTrackId": "liceo",
+      "name": { "it": "Liceo Linguistico", "en": "Linguistic Lyceum" },
+      "description": {
+        "it": "Focalizzato sullo studio di tre lingue straniere moderne e culture internazionali.",
+        "en": "Focused on the study of three modern foreign languages and international cultures."
+      },
+      "weeklyHours": 30,
+      "textbookCost": 370,
+      "fslHours": 90,
+      "implicitDropout": "3%",
+      "universityEnrollment": "82%",
+      "curriculum": [
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Lingua Straniera 1 (Inglese)", "en": "Foreign Language 1 (English)" }, "hours": 4 },
+        { "subject": { "it": "Lingua Straniera 2", "en": "Foreign Language 2" }, "hours": 4 },
+        { "subject": { "it": "Lingua Straniera 3", "en": "Foreign Language 3" }, "hours": 4 },
+        { "subject": { "it": "Storia e Filosofia", "en": "History & Philosophy" }, "hours": 4 },
+        { "subject": { "it": "Matematica e Fisica", "en": "Math & Physics" }, "hours": 4 },
+        { "subject": { "it": "Scienze Naturali", "en": "Natural Sciences" }, "hours": 2 },
+        { "subject": { "it": "Storia dell'Arte", "en": "Art History" }, "hours": 2 }
+      ],
+      "demographics": {
+        "it": "Estrazione medio-alta, netta prevalenza femminile.",
+        "en": "Upper-middle class background, strong female majority."
+      }
+    },
+    {
+      "id": "liceo_scienze_umane",
+      "macroTrackId": "liceo",
+      "name": { "it": "Liceo Scienze Umane", "en": "Human Sciences Lyceum" },
+      "description": {
+        "it": "Incentrato su psicologia, sociologia e pedagogia (erede dell'Istituto Magistrale).",
+        "en": "Focused on psychology, sociology, and pedagogy (heir to the Magistral Institute)."
+      },
+      "weeklyHours": 30,
+      "textbookCost": 320,
+      "fslHours": 90,
+      "implicitDropout": "5%",
+      "universityEnrollment": "75%",
+      "curriculum": [
+        { "subject": { "it": "Scienze Umane (Psicologia/Sociologia)", "en": "Human Sciences" }, "hours": 5 },
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Latino", "en": "Latin" }, "hours": 2 },
+        { "subject": { "it": "Storia e Filosofia", "en": "History & Philosophy" }, "hours": 5 },
+        { "subject": { "it": "Matematica e Fisica", "en": "Math & Physics" }, "hours": 4 },
         { "subject": { "it": "Scienze Naturali", "en": "Natural Sciences" }, "hours": 2 },
         { "subject": { "it": "Storia dell'Arte", "en": "Art History" }, "hours": 2 },
         { "subject": { "it": "Inglese", "en": "English" }, "hours": 3 }
       ],
       "demographics": {
-        "it": "Prevalentemente studenti con alto indice ESCS (Estrazione Sociale Culturale ed Economica). Tasso altissimo di laureati in famiglia.",
-        "en": "Predominantly students with high ESCS (Economic, Social, Cultural Status). Very high rate of parents with university degrees."
+        "it": "Estrazione media, altissima prevalenza femminile. Spesso scelto come alternativa meno rigorosa allo Scientifico.",
+        "en": "Middle-class, very high female majority. Often chosen as a less rigorous alternative to Scientific Lyceum."
       }
     },
     {
-      "id": "tecnico",
-      "name": {
-        "it": "Istituto Tecnico",
-        "en": "Technical Institute"
-      },
+      "id": "liceo_artistico",
+      "macroTrackId": "liceo",
+      "name": { "it": "Liceo Artistico", "en": "Artistic Lyceum" },
       "description": {
-        "it": "Indirizzo intermedio che bilancia materie teoriche con specializzazioni tecniche (es. informatica, economia).",
-        "en": "Intermediate track balancing theoretical subjects with technical specializations (e.g., IT, economics)."
+        "it": "Combina materie di base con intensi laboratori artistici, design e architettura.",
+        "en": "Combines basic subjects with intense artistic, design, and architecture workshops."
       },
-      "weeklyHours": 32,
+      "weeklyHours": 35,
       "textbookCost": 300,
-      "fslHours": 150,
-      "implicitDropout": "7%",
-      "universityEnrollment": "35%",
+      "fslHours": 90,
+      "implicitDropout": "8%",
+      "universityEnrollment": "65%",
       "curriculum": [
+        { "subject": { "it": "Discipline Progettuali/Laboratorio", "en": "Design & Lab Disciplines" }, "hours": 12 },
         { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
-        { "subject": { "it": "Matematica", "en": "Math" }, "hours": 4 },
-        { "subject": { "it": "Informatica / Sistemi", "en": "Computer Science / Systems" }, "hours": 6 },
-        { "subject": { "it": "Economia / Diritto", "en": "Economics / Law" }, "hours": 4 },
-        { "subject": { "it": "Laboratori Tecnici", "en": "Technical Labs" }, "hours": 6 },
-        { "subject": { "it": "Inglese Tecnico", "en": "Technical English" }, "hours": 3 },
-        { "subject": { "it": "Scienze Motorie", "en": "Physical Education" }, "hours": 2 }
-      ],
-      "demographics": {
-        "it": "Estrazione sociale media e classe lavoratrice. Fortemente focalizzato sull'inserimento nel mercato del lavoro tecnico.",
-        "en": "Middle class and working-class background. Strongly focused on entry into the technical labor market."
-      }
-    },
-    {
-      "id": "professionale",
-      "name": {
-        "it": "Istituto Professionale",
-        "en": "Vocational Institute"
-      },
-      "description": {
-        "it": "Indirizzo formativo pratico mirato all'inserimento lavorativo immediato (es. alberghiero, meccanica, moda).",
-        "en": "Practical training track aimed at immediate labor market entry (e.g., hospitality, mechanics, fashion)."
-      },
-      "weeklyHours": 32,
-      "textbookCost": 250,
-      "fslHours": 210,
-      "implicitDropout": "12%",
-      "universityEnrollment": "10%",
-      "curriculum": [
-        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
-        { "subject": { "it": "Matematica Applicata", "en": "Applied Math" }, "hours": 3 },
-        { "subject": { "it": "Laboratori Pratici", "en": "Practical Workshops" }, "hours": 12 },
-        { "subject": { "it": "Tecnologie Professionali", "en": "Professional Technologies" }, "hours": 6 },
-        { "subject": { "it": "Scienze Integrate", "en": "Integrated Sciences" }, "hours": 2 },
-        { "subject": { "it": "Diritto del Lavoro", "en": "Labor Law" }, "hours": 2 },
+        { "subject": { "it": "Storia dell'Arte", "en": "Art History" }, "hours": 3 },
+        { "subject": { "it": "Matematica e Fisica", "en": "Math & Physics" }, "hours": 4 },
+        { "subject": { "it": "Storia e Filosofia", "en": "History & Philosophy" }, "hours": 4 },
+        { "subject": { "it": "Chimica/Scienze", "en": "Chemistry/Science" }, "hours": 2 },
         { "subject": { "it": "Inglese", "en": "English" }, "hours": 3 }
       ],
       "demographics": {
-        "it": "Alta concentrazione di studenti con background migratorio e basso indice ESCS. Il tasso più alto di dispersione scolastica.",
-        "en": "High concentration of students with immigrant backgrounds and low ESCS. The highest rate of early school leaving."
+        "it": "Background socio-economico variegato. Notevole spesa accessoria per materiali artistici.",
+        "en": "Varied socio-economic background. Significant additional out-of-pocket expenses for art supplies."
+      }
+    },
+    {
+      "id": "tecnico_economico",
+      "macroTrackId": "tecnico",
+      "name": { "it": "Tecnico Economico (AFM/Turismo)", "en": "Economic Technical Inst." },
+      "description": {
+        "it": "Ex ragioneria. Prepara in economia aziendale, diritto e lingue per impieghi amministrativi o universitari.",
+        "en": "Former accounting school. Prepares in business administration, law, and languages for admin jobs or university."
+      },
+      "weeklyHours": 32,
+      "textbookCost": 310,
+      "fslHours": 150,
+      "implicitDropout": "8%",
+      "universityEnrollment": "45%",
+      "curriculum": [
+        { "subject": { "it": "Economia Aziendale", "en": "Business Administration" }, "hours": 7 },
+        { "subject": { "it": "Diritto ed Economia Politica", "en": "Law & Political Economy" }, "hours": 6 },
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Inglese", "en": "English" }, "hours": 3 },
+        { "subject": { "it": "Seconda Lingua Straniera", "en": "Second Foreign Language" }, "hours": 3 },
+        { "subject": { "it": "Matematica", "en": "Mathematics" }, "hours": 3 },
+        { "subject": { "it": "Informatica", "en": "Computer Science" }, "hours": 2 }
+      ],
+      "demographics": {
+        "it": "Classe media e lavoratrice. Fornisce competenze direttamente spendibili nel mercato del lavoro terziario.",
+        "en": "Middle and working class. Provides skills directly applicable in the tertiary labor market."
+      }
+    },
+    {
+      "id": "tecnico_tecnologico",
+      "macroTrackId": "tecnico",
+      "name": { "it": "Tecnico Tecnologico (ITI)", "en": "Technological Technical Inst." },
+      "description": {
+        "it": "Forte specializzazione STEM applicata (informatica, meccanica, elettronica, chimica).",
+        "en": "Strong applied STEM specialization (IT, mechanics, electronics, chemistry)."
+      },
+      "weeklyHours": 32,
+      "textbookCost": 320,
+      "fslHours": 150,
+      "implicitDropout": "9%",
+      "universityEnrollment": "40%",
+      "curriculum": [
+        { "subject": { "it": "Materie di Specializzazione (Lab)", "en": "Specialization Subjects (Labs)" }, "hours": 13 },
+        { "subject": { "it": "Matematica", "en": "Mathematics" }, "hours": 4 },
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Inglese Tecnico", "en": "Technical English" }, "hours": 3 },
+        { "subject": { "it": "Storia", "en": "History" }, "hours": 2 },
+        { "subject": { "it": "Scienze Motorie", "en": "Physical Education" }, "hours": 2 }
+      ],
+      "demographics": {
+        "it": "Classe media e lavoratrice, fortissima prevalenza maschile. Tassi di occupazione post-diploma eccellenti.",
+        "en": "Middle and working class, very strong male majority. Excellent post-diploma employment rates."
+      }
+    },
+    {
+      "id": "prof_alberghiero",
+      "macroTrackId": "professionale",
+      "name": { "it": "Prof. Enogastronomia (Alberghiero)", "en": "Vocational: Culinary/Hospitality" },
+      "description": {
+        "it": "Addestramento per la ristorazione e l'accoglienza turistica. Molto pratico e orientato al lavoro manuale.",
+        "en": "Training for catering and hospitality. Very practical and oriented towards manual labor."
+      },
+      "weeklyHours": 32,
+      "textbookCost": 230,
+      "fslHours": 210,
+      "implicitDropout": "15%",
+      "universityEnrollment": "6%",
+      "curriculum": [
+        { "subject": { "it": "Laboratorio Enogastronomia / Sala", "en": "Culinary / Dining Labs" }, "hours": 10 },
+        { "subject": { "it": "Scienza dell'Alimentazione", "en": "Food Science" }, "hours": 4 },
+        { "subject": { "it": "Diritto e Tecniche Amministrative", "en": "Law & Admin Techniques" }, "hours": 4 },
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Matematica", "en": "Mathematics" }, "hours": 3 },
+        { "subject": { "it": "Due Lingue Straniere", "en": "Two Foreign Languages" }, "hours": 5 }
+      ],
+      "demographics": {
+        "it": "Estrazione sociale medio-bassa. Frequente sfruttamento attraverso stage non retribuiti (PCTO).",
+        "en": "Lower-middle social class. Frequent exploitation through unpaid internships (PCTO)."
+      }
+    },
+    {
+      "id": "prof_commerciale",
+      "macroTrackId": "professionale",
+      "name": { "it": "Prof. Servizi Commerciali/Sanità", "en": "Vocational: Commercial/Social" },
+      "description": {
+        "it": "Preparazione per lavori d'ufficio di base o assistenza socio-sanitaria.",
+        "en": "Preparation for basic office jobs or socio-healthcare assistance."
+      },
+      "weeklyHours": 32,
+      "textbookCost": 220,
+      "fslHours": 210,
+      "implicitDropout": "14%",
+      "universityEnrollment": "10%",
+      "curriculum": [
+        { "subject": { "it": "Tecniche Professionali / Laboratorio", "en": "Professional Techniques / Labs" }, "hours": 8 },
+        { "subject": { "it": "Psicologia / Diritto ed Economia", "en": "Psychology / Law & Economics" }, "hours": 7 },
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Matematica", "en": "Mathematics" }, "hours": 3 },
+        { "subject": { "it": "Lingue Straniere", "en": "Foreign Languages" }, "hours": 5 }
+      ],
+      "demographics": {
+        "it": "Basso indice ESCS. Prevalenza femminile, spesso raccoglie studenti respinti da altri indirizzi.",
+        "en": "Low ESCS index. Female majority, often collects students rejected from other tracks."
+      }
+    },
+    {
+      "id": "prof_industria",
+      "macroTrackId": "professionale",
+      "name": { "it": "Prof. Industria e Artigianato", "en": "Vocational: Industry & Crafts" },
+      "description": {
+        "it": "Addestramento per manutenzione tecnica, meccanica, elettronica o sartoria/moda.",
+        "en": "Training for technical maintenance, mechanics, electronics, or tailoring/fashion."
+      },
+      "weeklyHours": 32,
+      "textbookCost": 200,
+      "fslHours": 210,
+      "implicitDropout": "18%",
+      "universityEnrollment": "4%",
+      "curriculum": [
+        { "subject": { "it": "Laboratori Tecnologici ed Esercitazioni", "en": "Technological Labs & Practice" }, "hours": 12 },
+        { "subject": { "it": "Tecnologie Meccaniche/Elettriche", "en": "Mechanical/Electrical Tech" }, "hours": 6 },
+        { "subject": { "it": "Italiano", "en": "Italian" }, "hours": 4 },
+        { "subject": { "it": "Matematica", "en": "Mathematics" }, "hours": 3 },
+        { "subject": { "it": "Scienze Integrate / Diritto", "en": "Integrated Sciences / Law" }, "hours": 4 }
+      ],
+      "demographics": {
+        "it": "Il tasso più alto di background migratorio e dispersione scolastica. Forte orientamento operaio.",
+        "en": "Highest rate of immigrant background and early school leaving. Strong blue-collar orientation."
       }
     }
   ]
