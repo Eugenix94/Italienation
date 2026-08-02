@@ -5,19 +5,19 @@ import { ExternalLink, ShieldCheck } from 'lucide-react';
 // All URLs verified August 2026 against live institutional portals
 const DEEP_LINK_MAP = {
   // Topic-specific deep links
-  "shadow": "https://www.istat.it/it/archivio/290400",
+  "shadow": "https://www.istat.it/statistiche/economia-non-osservata/",
   "neet": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table",
-  "mismatch": "https://excelsior.unioncamere.net/pubblicazioni",
-  "brain_drain": "https://www.istat.it/it/archivio/293237",
-  "dispersione": "https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/?area=Studenti",
-  "bocciatura": "https://dati.istruzione.it/opendata/opendata/catalogo/elementi1/?area=Esiti+Scrutini",
-  "pcto": "https://dati.inail.it/opendata/",
-  "textbooks": "https://www.federconsumatori.it/scuola-2023-2024-stangata-sui-libri-e-sul-corredo-scolastico/",
+  "mismatch": "https://excelsior.unioncamere.net/",
+  "brain_drain": "https://www.istat.it/argomento/popolazione-e-famiglie/",
+  "dispersione": "https://dati.istruzione.it/opendata/",
+  "bocciatura": "https://dati.istruzione.it/opendata/",
+  "pcto": "https://dati.inail.it/portale/it.html",
+  "textbooks": "https://federconsumatori.it/",
   "orals": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/assessment-general-lower-secondary-education",
-  "governance": "https://info.worldbank.org/governance/wgi/",
-  "malta": "https://jobsplus.gov.mt/publication-statistics/statistics-data",
+  "governance": "https://databank.worldbank.org/source/worldwide-governance-indicators",
+  "malta": "https://jobsplus.gov.mt/",
   "pes": "https://employment-social-affairs.ec.europa.eu/node/25_en",
-  "escs": "https://invalsi-serviziostatistico.cineca.it/",
+  "escs": "https://serviziostatistico.invalsi.it/",
   
   // Agency portal fallbacks
   "ISTAT": "https://esploradati.istat.it/databrowser/",
@@ -25,17 +25,17 @@ const DEEP_LINK_MAP = {
   "MIUR": "https://dati.istruzione.it/opendata/",
   "Eurostat": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table",
   "OECD": "https://data-explorer.oecd.org/",
-  "World Bank": "https://info.worldbank.org/governance/wgi/",
-  "INAIL": "https://dati.inail.it/opendata/",
+  "World Bank": "https://databank.worldbank.org/source/worldwide-governance-indicators",
+  "INAIL": "https://dati.inail.it/portale/it.html",
   "INPS": "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html",
-  "Federconsumatori": "https://www.federconsumatori.it/",
+  "Federconsumatori": "https://federconsumatori.it/",
   "Eurydice": "https://eurydice.eacea.ec.europa.eu/",
   "Corte dei Conti": "https://www.corteconti.it/Home/Documenti/Relazioni",
   "Save the Children": "https://www.savethechildren.it/cosa-facciamo/pubblicazioni/alla-ricerca-del-tempo-perduto",
-  "Unioncamere": "https://excelsior.unioncamere.net/pubblicazioni",
-  "INVALSI": "https://invalsi-serviziostatistico.cineca.it/",
+  "Unioncamere": "https://excelsior.unioncamere.net/",
+  "INVALSI": "https://serviziostatistico.invalsi.it/",
   "EU PES Network": "https://employment-social-affairs.ec.europa.eu/node/25_en",
-  "Jobsplus": "https://jobsplus.gov.mt/publication-statistics"
+  "Jobsplus": "https://jobsplus.gov.mt/"
 };
 
 export default function SourceBadge({ agency = "ISTAT", topicKey, year = "2026", url, label }) {
