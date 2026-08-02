@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, EyeOff, Link, Percent } from 'lucide-react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
-import { T } from './T';
+import { T } from "./T";
+import DataTooltip from "./DataTooltip";
+import MethodologyAlert from "./MethodologyAlert";
 import SourceBadge from './SourceBadge';
 
 export default function LaborMarketAndCorrelations() {

@@ -12,6 +12,8 @@ import {
 } from 'recharts';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
+import DataTooltip from './DataTooltip';
+import MethodologyAlert from './MethodologyAlert';
 
 const CustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
@@ -176,6 +178,11 @@ const EconometricCosts = () => {
               );
             })}
           </div>
+
+          <MethodologyAlert 
+            itText="Tutti i costi macroeconomici presentati in questa sezione sono stime per difetto derivate esclusivamente da fonti ufficiali o report accademici consolidati (2023-2026). La visualizzazione non include i costi intangibili a lungo termine legati alla disuguaglianza sociale."
+            enText="All macroeconomic costs presented in this section are conservative estimates derived exclusively from official sources or consolidated academic reports (2023-2026). The visualization does not include long-term intangible costs related to social inequality."
+          />
         </motion.div>
       </section>
 
@@ -194,7 +201,7 @@ const EconometricCosts = () => {
             </h2>
             <p className="text-zinc-400 max-w-3xl">
               <T 
-                it="Le inefficienze non sono casuali, ma derivano da precise scelte sistemiche che penalizzano gli studenti e l'economia." 
+                it="Inefficiencies are not random; they stem from specific systemic choices that penalize students and the economy." 
                 en="Inefficiencies are not random; they stem from specific systemic choices that penalize students and the economy." 
               />
             </p>

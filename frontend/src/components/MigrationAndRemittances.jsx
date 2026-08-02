@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Globe, Users, TrendingUp, Briefcase } from 'lucide-react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer } from 'recharts';
-import { T } from './T';
+import { T } from "./T";
+import MethodologyAlert from "./MethodologyAlert";
 import SourceBadge from './SourceBadge';
 
 export default function MigrationAndRemittances() {

@@ -1,5 +1,6 @@
 import React from 'react';
-import { T } from './T';
+import { T } from "./T";
+import DataTooltip from "./DataTooltip";
 import SourceBadge from './SourceBadge';
 import { motion } from 'framer-motion';
 import { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, PieChart, Pie, Cell } from 'recharts';
@@ -270,7 +271,17 @@ export default function SystemicDeepDives() {
               <div className="bg-gradient-to-br from-rose-900/30 to-zinc-900/50 p-6 rounded-3xl border border-rose-500/20 flex-1 flex items-start gap-4">
                 <div className="p-3 bg-rose-500/20 rounded-xl shrink-0"><BookMarked className="text-rose-400" /></div>
                 <div>
-                  <h4 className="text-lg font-bold text-white mb-2"><T it="Asimmetria di Scelta" en="Asymmetry of Choice" /></h4>
+                  <h4 className="text-lg font-bold text-white mb-2">
+                    <DataTooltip 
+                      titleIt="Asimmetria Informativa e di Scelta" 
+                      titleEn="Asymmetry of Choice and Information" 
+                      descIt="In economia, è un fallimento del mercato. Chi sceglie il prodotto (il docente) non ne sopporta il costo, mentre chi paga (la famiglia) non ha potere decisionale. Questo annulla l'elasticità della domanda al prezzo." 
+                      descEn="In economics, this is a market failure. The decision maker (teacher) bears no cost, while the payer (family) has no decision power. This nullifies price elasticity of demand." 
+                      source="AGCM (Autorità Garante della Concorrenza)"
+                    >
+                      <T it="Asimmetria di Scelta" en="Asymmetry of Choice" />
+                    </DataTooltip>
+                  </h4>
                   <p className="text-sm text-zinc-300 leading-relaxed">
                     <T 
                       it="I docenti adottano i testi, ma le famiglie li pagano. Questa anomalia (rilevata dall'Antitrust AGCM) impedisce la competizione sui prezzi, permettendo rincari costanti (+13% in un decennio)." 
