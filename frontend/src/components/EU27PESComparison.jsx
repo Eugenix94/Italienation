@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Building2, Search, ArrowRight, ShieldCheck, Database, Building, UserCheck } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Building2, Search, ShieldCheck, Database, Building, UserCheck } from 'lucide-react';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
 import pesData from '../assets/eu27_pes_comparison.json';
@@ -29,12 +29,132 @@ const ValueBadge = ({ value, type }) => (
   </span>
 );
 
+const getGovernanceDetails = (gov) => {
+  if (gov === 'Centralized') return {
+    titleIt: "Modello Centralizzato", titleEn: "Centralized Model",
+    descIt: "Gestione unificata delle politiche attive a livello nazionale", descEn: "Unified management of active policies at national level"
+  };
+  if (gov === 'Mixed/Federal') return {
+    titleIt: "Modello Misto/Federale", titleEn: "Mixed/Federal Model",
+    descIt: "Coordinamento centrale con forte autonomia regionale", descEn: "Central coordination with strong regional autonomy"
+  };
+  return {
+    titleIt: "Modello Frammentato", titleEn: "Fragmented Model",
+    descIt: "Gestione divisa con forte autonomia regionale e disparità territoriali", descEn: "Split management with strong regional autonomy and territorial disparities"
+  };
+};
+
+const getDigitalDetails = (level) => {
+  if (level === 'High') return {
+    titleIt: "Digital-First", titleEn: "Digital-First",
+    descIt: "Piattaforma unica per matching, formazione e sussidi", descEn: "Single platform for matching, training, and benefits"
+  };
+  if (level === 'Medium') return {
+    titleIt: "Sistemi Multipli", titleEn: "Multiple Systems",
+    descIt: "Sistemi informativi parzialmente digitalizzati ma limitati", descEn: "Partially digitized but limited IT systems"
+  };
+  return {
+    titleIt: "Bassa Digitalizzazione", titleEn: "Low Digitalization",
+    descIt: "Forte dipendenza da processi cartacei e fisici", descEn: "Strong reliance on paper and physical processes"
+  };
+};
+
+const getActivationDetails = (level) => {
+  if (level === 'High') return {
+    titleIt: "Attivazione Forte", titleEn: "Strong Activation",
+    descIt: "Stretto legame tra sussidi e condizionalità", descEn: "Tight link between benefits and conditionality"
+  };
+  if (level === 'Medium') return {
+    titleIt: "Bassa Attivazione", titleEn: "Low Activation",
+    descIt: "Scarsa capacità di matching e condizionalità debole", descEn: "Poor matching capacity and weak conditionality"
+  };
+  return {
+    titleIt: "Senza Attivazione", titleEn: "No Activation",
+    descIt: "Sussidi erogati senza reale presa in carico lavorativa", descEn: "Benefits distributed without real job-seeking assistance"
+  };
+};
+
+const getIntegrationDetails = (level) => {
+  if (level === 'Integrated') return {
+    titleIt: "One-Stop-Shop", titleEn: "One-Stop-Shop",
+    descIt: "Sportello unico per disoccupazione, welfare e orientamento", descEn: "Single front-office for unemployment, welfare, and guidance"
+  };
+  if (level === 'Coordinated') return {
+    titleIt: "Coordinato", titleEn: "Coordinated",
+    descIt: "Scambio dati tra enti di welfare e servizi per l'impiego", descEn: "Data exchange between welfare agencies and employment services"
+  };
+  return {
+    titleIt: "Responsabilità Divise", titleEn: "Split Responsibilities",
+    descIt: "Gestione divisa tra enti previdenziali (sussidi) e CPI (attivazione)", descEn: "Management split between social security (benefits) and PES (activation)"
+  };
+};
+
+const DynamicCompareCard = ({ countryData, isItaly }) => {
+  const gov = getGovernanceDetails(countryData.governance);
+  const digi = getDigitalDetails(countryData.digitalMaturity);
+  const act = getActivationDetails(countryData.activationIntensity);
+  const int = getIntegrationDetails(countryData.benefitsIntegration);
+
+  const baseColor = isItaly ? 'rose' : 'emerald';
+
+  return (
+    <motion.div 
+      initial={{ opacity: 0, x: isItaly ? 20 : -20 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.4 }}
+      className={`bg-zinc-900/40 border border-${baseColor}-500/20 rounded-xl p-6 relative overflow-hidden group`}
+    >
+      <div className="absolute top-0 right-0 p-4 opacity-10 transform translate-x-4 -translate-y-4 group-hover:scale-110 transition-transform">
+        {isItaly ? <Building2 className="w-32 h-32 text-rose-500" /> : <ShieldCheck className="w-32 h-32 text-emerald-500" />}
+      </div>
+      
+      <div className="flex items-center gap-3 mb-6 relative z-10">
+        <span className="text-3xl">{countryData.flag}</span>
+        <div>
+          <h4 className="text-xl font-bold text-white">{countryData.country} {countryData.pesName}</h4>
+          <p className={`text-${baseColor}-400 text-sm`}><T it={gov.titleIt} en={gov.titleEn} /></p>
+        </div>
+      </div>
+
+      <ul className="space-y-4 relative z-10">
+        <li className="flex gap-3">
+          <Database className={`w-5 h-5 text-${baseColor}-400 shrink-0 mt-0.5`} />
+          <div>
+            <p className="font-semibold text-zinc-200"><T it={digi.titleIt} en={digi.titleEn} /></p>
+            <p className="text-sm text-zinc-400"><T it={digi.descIt} en={digi.descEn} /></p>
+          </div>
+        </li>
+        <li className="flex gap-3">
+          <Building className={`w-5 h-5 text-${baseColor}-400 shrink-0 mt-0.5`} />
+          <div>
+            <p className="font-semibold text-zinc-200"><T it={int.titleIt} en={int.titleEn} /></p>
+            <p className="text-sm text-zinc-400"><T it={int.descIt} en={int.descEn} /></p>
+          </div>
+        </li>
+        <li className="flex gap-3">
+          <UserCheck className={`w-5 h-5 text-${baseColor}-400 shrink-0 mt-0.5`} />
+          <div>
+            <p className="font-semibold text-zinc-200"><T it={act.titleIt} en={act.titleEn} /></p>
+            <p className="text-sm text-zinc-400"><T it={act.descIt} en={act.descEn} /></p>
+          </div>
+        </li>
+      </ul>
+    </motion.div>
+  );
+};
+
 export default function EU27PESComparison() {
   const [filterGov, setFilterGov] = useState('All');
+  const [compareCountry, setCompareCountry] = useState('Malta');
 
   const filteredData = filterGov === 'All' 
     ? pesData 
     : pesData.filter(d => d.governance === filterGov);
+
+  const italyData = pesData.find(d => d.country === 'Italy');
+  const compareData = pesData.find(d => d.country === compareCountry);
+
+  const euCountries = pesData.filter(d => d.country !== 'Italy');
 
   return (
     <section className="w-full py-16 bg-zinc-950 text-white border-t border-zinc-800 relative overflow-hidden">
@@ -48,8 +168,8 @@ export default function EU27PESComparison() {
           </h2>
           <p className="text-zinc-400 max-w-3xl text-lg">
             <T 
-              it="Un'analisi comparativa dei 27 servizi pubblici per l'impiego europei. Malta (Jobsplus) opera con un modello centralizzato di stile britannico, offrendo alta integrazione digitale, in netto contrasto con il sistema italiano dei CPI, frammentato su base regionale e con bassa intensità di attivazione." 
-              en="A comparative analysis of the 27 European public employment services. Malta (Jobsplus) operates a British-style centralized model, offering high digital integration, in stark contrast to Italy's CPI system, which is regionally fragmented with low activation intensity." 
+              it="Un'analisi comparativa dei 27 servizi pubblici per l'impiego europei. Seleziona un paese per confrontarne il modello di governance e le performance digitali con il frammentato sistema italiano." 
+              en="A comparative analysis of the 27 European public employment services. Select a country to compare its governance model and digital performance against the fragmented Italian system." 
             />
           </p>
         </div>
@@ -90,11 +210,11 @@ export default function EU27PESComparison() {
               <tbody className="divide-y divide-zinc-800/50">
                 {filteredData.map((row, idx) => {
                   const isItaly = row.country === 'Italy';
-                  const isMalta = row.country === 'Malta';
+                  const isSelected = row.country === compareCountry;
                   
                   let rowClasses = "hover:bg-zinc-800/30 transition-colors";
                   if (isItaly) rowClasses = "bg-rose-500/5 hover:bg-rose-500/10 relative";
-                  if (isMalta) rowClasses = "bg-emerald-500/5 hover:bg-emerald-500/10 relative";
+                  if (isSelected) rowClasses = "bg-emerald-500/5 hover:bg-emerald-500/10 relative";
 
                   return (
                     <motion.tr 
@@ -107,7 +227,7 @@ export default function EU27PESComparison() {
                     >
                       <td className="px-6 py-4 font-medium flex items-center gap-2">
                         {isItaly && <div className="absolute left-0 top-0 bottom-0 w-1 bg-rose-500" />}
-                        {isMalta && <div className="absolute left-0 top-0 bottom-0 w-1 bg-emerald-500" />}
+                        {isSelected && <div className="absolute left-0 top-0 bottom-0 w-1 bg-emerald-500" />}
                         <span className="text-xl">{row.flag}</span>
                         <T it={row.country === 'Italy' ? 'Italia' : row.country === 'Spain' ? 'Spagna' : row.country === 'France' ? 'Francia' : row.country === 'Germany' ? 'Germania' : row.country} en={row.country} />
                       </td>
@@ -125,99 +245,34 @@ export default function EU27PESComparison() {
           </div>
         </div>
 
-        {/* Deep Dive Malta vs Italy */}
-        <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
-          <T it="Confronto Diretto: Jobsplus vs CPI" en="Direct Comparison: Jobsplus vs CPI" />
-        </h3>
+        {/* Deep Dive Dynamic vs Italy */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
+          <h3 className="text-2xl font-bold flex items-center gap-3">
+            <T it="Confronto Diretto" en="Direct Comparison" />
+          </h3>
+          <div className="flex items-center gap-3 bg-zinc-900/80 backdrop-blur border border-emerald-500/20 p-2 px-4 rounded-xl shadow-lg">
+            <span className="text-sm text-zinc-400 font-semibold uppercase tracking-wider"><T it="Confronta con:" en="Compare with:" /></span>
+            <select 
+              className="bg-transparent border-none text-emerald-400 font-bold focus:ring-0 outline-none cursor-pointer"
+              value={compareCountry}
+              onChange={(e) => setCompareCountry(e.target.value)}
+            >
+              {euCountries.map(c => (
+                <option key={c.country} value={c.country} className="bg-zinc-900 text-white">
+                  {c.flag} {c.country}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
         
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Malta Card */}
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="bg-zinc-900/40 border border-emerald-500/20 rounded-xl p-6 relative overflow-hidden group"
-          >
-            <div className="absolute top-0 right-0 p-4 opacity-10 transform translate-x-4 -translate-y-4 group-hover:scale-110 transition-transform">
-              <ShieldCheck className="w-32 h-32 text-emerald-500" />
-            </div>
-            
-            <div className="flex items-center gap-3 mb-6 relative z-10">
-              <span className="text-3xl">🇲🇹</span>
-              <div>
-                <h4 className="text-xl font-bold text-white">Malta Jobsplus</h4>
-                <p className="text-emerald-400 text-sm"><T it="Modello Centralizzato" en="Centralized Model" /></p>
-              </div>
-            </div>
-
-            <ul className="space-y-4 relative z-10">
-              <li className="flex gap-3">
-                <Database className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-semibold text-zinc-200"><T it="Digital-First" en="Digital-First" /></p>
-                  <p className="text-sm text-zinc-400"><T it="Piattaforma unica per matching, formazione e sussidi" en="Single platform for matching, training, and benefits" /></p>
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <Building className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-semibold text-zinc-200"><T it="One-Stop-Shop" en="One-Stop-Shop" /></p>
-                  <p className="text-sm text-zinc-400"><T it="Sportello unico ispirato al modello britannico (Jobcentre Plus)" en="Single front-office inspired by the UK model (Jobcentre Plus)" /></p>
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <UserCheck className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-semibold text-zinc-200"><T it="Attivazione Integrata" en="Integrated Activation" /></p>
-                  <p className="text-sm text-zinc-400"><T it="Stretto legame tra erogazione dei sussidi e ricerca attiva di lavoro" en="Tight link between benefit distribution and active job search" /></p>
-                </div>
-              </li>
-            </ul>
-          </motion.div>
-
-          {/* Italy Card */}
-          <motion.div 
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="bg-zinc-900/40 border border-rose-500/20 rounded-xl p-6 relative overflow-hidden group"
-          >
-            <div className="absolute top-0 right-0 p-4 opacity-10 transform translate-x-4 -translate-y-4 group-hover:scale-110 transition-transform">
-              <Building2 className="w-32 h-32 text-rose-500" />
-            </div>
-            
-            <div className="flex items-center gap-3 mb-6 relative z-10">
-              <span className="text-3xl">🇮🇹</span>
-              <div>
-                <h4 className="text-xl font-bold text-white">Italia CPI</h4>
-                <p className="text-rose-400 text-sm"><T it="Modello Frammentato" en="Fragmented Model" /></p>
-              </div>
-            </div>
-
-            <ul className="space-y-4 relative z-10">
-              <li className="flex gap-3">
-                <Database className="w-5 h-5 text-rose-400 shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-semibold text-zinc-200"><T it="Sistemi Multipli" en="Multiple Systems" /></p>
-                  <p className="text-sm text-zinc-400"><T it="20 sistemi informativi regionali con interoperabilità limitata" en="20 regional IT systems with limited interoperability" /></p>
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <Building className="w-5 h-5 text-rose-400 shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-semibold text-zinc-200"><T it="Responsabilità Divise" en="Split Responsibilities" /></p>
-                  <p className="text-sm text-zinc-400"><T it="Gestione divisa tra INPS (sussidi) e CPI regionali (attivazione)" en="Management split between INPS (benefits) and regional CPIs (activation)" /></p>
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <UserCheck className="w-5 h-5 text-rose-400 shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-semibold text-zinc-200"><T it="Bassa Attivazione" en="Low Activation" /></p>
-                  <p className="text-sm text-zinc-400"><T it="Scarsa capacità di matching e condizionalità debole" en="Poor matching capacity and weak conditionality" /></p>
-                </div>
-              </li>
-            </ul>
-          </motion.div>
+          <AnimatePresence mode="wait">
+            {compareData && (
+              <DynamicCompareCard key={compareData.country} countryData={compareData} isItaly={false} />
+            )}
+          </AnimatePresence>
+          <DynamicCompareCard countryData={italyData} isItaly={true} />
         </div>
 
       </div>
