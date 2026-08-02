@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaf
 import 'leaflet/dist/leaflet.css';
 import { Map as MapIcon, Layers } from 'lucide-react';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 import provinceData from '../assets/province_school_counts.json';
 import dashboardMetrics from '../assets/dashboard_metrics.json';
 
@@ -102,10 +103,13 @@ export default function GISMap() {
           
           {viewMode === 'provincial' && (
             <div className="flex flex-col flex-1 overflow-hidden">
-              <div className="mb-4 p-3 bg-indigo-500/10 border border-indigo-500/20 rounded-xl">
+              <div className="mb-4 p-3 bg-indigo-500/10 border border-indigo-500/20 rounded-xl space-y-3">
                 <p className="text-xs text-indigo-200">
-                  <T it="Il monopolio liceale urbano (pallini rossi) spinge gli studenti periferici verso istituti tecnici, creando una segregazione formativa basata sul CAP. I centri città attraggono risorse, le periferie assorbono la dispersione." en="The urban Liceo monopoly (red dots) pushes peripheral students toward technical institutes, creating zip-code based educational segregation. City centers attract resources, suburbs absorb dropout rates." />
+                  <T it="Il monopolio liceale urbano (evidenziato dai pallini rossi) costringe gli studenti periferici a ripiegare su istituti tecnici e professionali. Questa non è una libera scelta, ma una segregazione formativa basata sul CAP di residenza, dove i centri città attraggono risorse pubbliche mentre le periferie assorbono la totalità della dispersione scolastica locale." en="The urban Liceo monopoly (highlighted by red dots) forces peripheral students to fall back on technical and vocational institutes. This is not a free choice, but a zip-code based educational segregation, where city centers attract public resources while suburbs absorb the entirety of local school dropout rates." />
                 </p>
+                <div className="flex justify-end">
+                  <SourceBadge agency="ISTAT" topicKey="tracking" year="2023" />
+                </div>
               </div>
               <input 
                 type="text"
@@ -137,10 +141,14 @@ export default function GISMap() {
 
           {viewMode === 'macro' && (
             <div className="flex flex-col flex-1 overflow-y-auto custom-scrollbar space-y-4 pr-2">
-              <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl">
+              <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl space-y-3">
                 <p className="text-xs text-emerald-200">
-                  <T it="Il divario Nord-Sud non è solo geografico, ma strutturale. Il Mezzogiorno sconta carenze infrastrutturali gravissime (palestre, mense, tempo pieno), traducendosi in punteggi INVALSI drammaticamente inferiori e tassi di rinuncia universitaria che superano il 20% nei Professionali." en="The North-South divide is structural, not just geographic. The South suffers from severe infrastructure deficits (gyms, cafeterias, full-time school), translating to drastically lower INVALSI scores and university dropout rates exceeding 20% in Vocational tracks." />
+                  <T it="L'analisi macro-regionale rivela che il divario Nord-Sud non è semplicemente geografico, ma è il risultato di un deficit infrastrutturale cronico. Il Mezzogiorno sconta la mancanza di palestre, mense e tempo pieno, il che si traduce in punteggi INVALSI drammaticamente inferiori. Questa mancanza di supporto si ripercuote direttamente sui tassi di rinuncia universitaria (Dropout), che superano il 20% nei percorsi Professionali del Sud." en="Macro-regional analysis reveals that the North-South divide is not simply geographic, but the result of a chronic infrastructural deficit. The South suffers from a lack of gyms, cafeterias, and full-time schooling, which translates to drastically lower INVALSI scores. This lack of support directly impacts university dropout rates, which exceed 20% in Southern Vocational tracks." />
                 </p>
+                <div className="flex justify-end gap-2">
+                  <SourceBadge agency="INVALSI" topicKey="scores" year="2023" />
+                  <SourceBadge agency="MUR" topicKey="dropouts" year="2022" />
+                </div>
               </div>
               <h3 className="text-white font-bold mb-2 flex items-center gap-2">
                 <Layers size={18} className="text-indigo-400"/>
@@ -178,10 +186,14 @@ export default function GISMap() {
 
           {viewMode === 'europe' && (
             <div className="flex flex-col flex-1 overflow-y-auto custom-scrollbar space-y-4 pr-2">
-               <div className="p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl mb-2">
+               <div className="p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl mb-2 space-y-3">
                 <p className="text-xs text-rose-200">
-                  <T it="L'Italia traccia i destini a soli 14 anni. Sistemi comprensivi (Svezia, Finlandia) ritardano la scelta a 16 anni, azzerando i bias socio-economici. I sistemi duali (Germania) offrono salari formativi (900€), mentre l'Italia impone PCTO gratuiti e pericolosi. Risultato? Record EU di NEET." en="Italy tracks destinies at just 14. Comprehensive systems (Sweden, Finland) delay the choice to 16, nullifying socio-economic bias. Dual systems (Germany) offer training wages (€900), while Italy imposes free, dangerous PCTO labor. Result? EU record for NEETs." />
+                  <T it="I dati Eurostat confermano l'eccezione italiana: l'Italia traccia i destini scolastici a soli 14 anni, un unicum in Europa. I sistemi comprensivi nordici (come Svezia e Finlandia) ritardano la scelta a 16 anni, riducendo drasticamente i bias socio-economici e abbattendo la dispersione. Parallelamente, i sistemi duali centro-europei (Germania) offrono salari formativi (circa 900€), mentre l'Italia impone percorsi di PCTO gratuiti e spesso non tutelati. Il risultato matematico di queste anomalie è il triste record europeo italiano di giovani NEET (Not in Education, Employment, or Training)." en="Eurostat data confirms the Italian anomaly: Italy tracks educational destinies at just 14 years old, unique in Europe. Nordic comprehensive systems (like Sweden and Finland) delay the choice to 16, drastically reducing socio-economic bias and cutting dropout rates. Meanwhile, Central European dual systems (Germany) offer training wages (around €900), whereas Italy imposes free, often unprotected PCTO programs. The mathematical result of these structural anomalies is Italy's sad European record for NEETs (Not in Education, Employment, or Training)." />
                 </p>
+                <div className="flex justify-end gap-2">
+                  <SourceBadge agency="Eurostat" topicKey="neet" year="2023" />
+                  <SourceBadge agency="Eurydice" topicKey="tracking" year="2022" />
+                </div>
               </div>
               {europeData.map(country => (
                 <div key={country.id} className="bg-zinc-900 border border-zinc-800 p-4 rounded-xl">
