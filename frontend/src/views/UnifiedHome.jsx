@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Hero from '../components/Hero';
 import StructuralOutcomes from '../components/StructuralOutcomes';
 import InternationalBenchmark from '../components/InternationalBenchmark';
@@ -27,6 +27,43 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 export default function UnifiedHome() {
   const [activeTab, setActiveTab] = useState('struttura');
+
+  
+  const sectionRefs = useRef({});
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // When a section comes into view (at least 30% visible), set it as active
+            setActiveTab(entry.target.id);
+          }
+        });
+      },
+      {
+        rootMargin: '-20% 0px -60% 0px', // Trigger when section is in the upper part of the viewport
+        threshold: 0.1
+      }
+    );
+
+    Object.values(sectionRefs.current).forEach((section) => {
+      if (section) observer.observe(section);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
+  const scrollToSection = (id) => {
+    setActiveTab(id);
+    const element = document.getElementById(id);
+    if (element) {
+      // Get the height of the sticky navbar if any (approx 64px) + some padding
+      const yOffset = -80; 
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
 
   const tabs = [
     { id: 'struttura', icon: BookOpen, it: 'Struttura & Tracking', en: 'Structure & Tracking' },
@@ -65,7 +102,7 @@ export default function UnifiedHome() {
               return (
                 <button
                   key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
+                  onClick={() => scrollToSection(tab.id)}
                   aria-current={isActive ? 'page' : undefined}
                   className={`group flex items-center gap-3 px-4 lg:px-5 py-3 lg:py-4 text-sm font-bold transition-all duration-300 relative whitespace-nowrap rounded-2xl lg:w-full lg:text-left snap-start focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]
                     ${isActive 
@@ -91,76 +128,53 @@ export default function UnifiedHome() {
         {/* DASHBOARD CONTENT */}
         <div className="flex-1 w-full lg:max-w-[calc(100vw-18rem)] overflow-hidden relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 lg:pt-16 pb-24">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={activeTab}
-                initial={{ opacity: 0, scale: 0.98, filter: 'blur(4px)' }}
-                animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
-                exit={{ opacity: 0, scale: 1.02, filter: 'blur(4px)' }}
-                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                className="w-full"
-              >
-                {activeTab === 'struttura' && (
-                  <div className="space-y-32">
-                    <StructuralOutcomes />
-                    <AngloAmericanComparison />
-                    <ReligiousOptOut />
-                    <InternationalBenchmark />
-                  </div>
-                )}
+            
+            <div className="w-full space-y-32">
+                <section id="struttura" ref={el => sectionRefs.current['struttura'] = el} className="scroll-mt-24 space-y-32">
+                  <StructuralOutcomes />
+                  <AngloAmericanComparison />
+                  <ReligiousOptOut />
+                  <InternationalBenchmark />
+                </section>
                 
-                {activeTab === 'simulator' && (
-                  <div>
-                    <TripartiteSimulator />
-                  </div>
-                )}
+                <section id="simulator" ref={el => sectionRefs.current['simulator'] = el} className="scroll-mt-24">
+                  <TripartiteSimulator />
+                </section>
                 
-                {activeTab === 'map' && (
-                  <div className="space-y-24">
-                    <TerritorialMap />
-                    <GISMap />
-                  </div>
-                )}
+                <section id="map" ref={el => sectionRefs.current['map'] = el} className="scroll-mt-24 space-y-24">
+                  <TerritorialMap />
+                  <GISMap />
+                </section>
                 
-                {activeTab === 'analysis' && (
-                  <div className="space-y-24">
-                    <FlowDynamics />
-                    <LaborMarketAndCorrelations />
-                    <MigrationAndRemittances />
-                    <SystemicDeepDives />
-                    <EU27PESComparison />
-                  </div>
-                )}
+                <section id="analysis" ref={el => sectionRefs.current['analysis'] = el} className="scroll-mt-24 space-y-24">
+                  <FlowDynamics />
+                  <LaborMarketAndCorrelations />
+                  <MigrationAndRemittances />
+                  <SystemicDeepDives />
+                  <EU27PESComparison />
+                </section>
                 
-                {activeTab === 'macro' && (
-                  <div className="space-y-24">
-                    <EconometricCosts />
-                    <MacroEconomics />
-                  </div>
-                )}
+                <section id="macro" ref={el => sectionRefs.current['macro'] = el} className="scroll-mt-24 space-y-24">
+                  <EconometricCosts />
+                  <MacroEconomics />
+                </section>
                 
-                {activeTab === 'data' && (
-                  <div className="space-y-24">
-                    <ScrollyDataHub />
-                    <DeveloperAPI />
-                    <MediaKitExport />
-                  </div>
-                )}
+                <section id="data" ref={el => sectionRefs.current['data'] = el} className="scroll-mt-24 space-y-24">
+                  <ScrollyDataHub />
+                  <DeveloperAPI />
+                  <MediaKitExport />
+                </section>
                 
-                {activeTab === 'deepdives' && (
-                  <div className="space-y-24">
-                    <StructuralDeepDives />
-                    <CulturalPhenomenology />
-                  </div>
-                )}
+                <section id="deepdives" ref={el => sectionRefs.current['deepdives'] = el} className="scroll-mt-24 space-y-24">
+                  <StructuralDeepDives />
+                  <CulturalPhenomenology />
+                </section>
                 
-                {activeTab === 'methodology' && (
-                  <div>
-                    <MethodologyNotebooks />
-                  </div>
-                )}
-              </motion.div>
-            </AnimatePresence>
+                <section id="methodology" ref={el => sectionRefs.current['methodology'] = el} className="scroll-mt-24">
+                  <MethodologyNotebooks />
+                </section>
+            </div>
+
           </div>
 
           {/* BOTTOM SECTIONS */}
