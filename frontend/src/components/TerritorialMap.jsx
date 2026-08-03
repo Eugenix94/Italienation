@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import { motion } from 'framer-motion';
 import { MapPin, Info, AlertTriangle } from 'lucide-react';
 import { T } from './T';
+import ediliziaData from '../../public/data/edilizia_scolastica.json';
 
 export default function TerritorialMap() {
   const [geoData, setGeoData] = useState(null);

@@ -1,0 +1,15 @@
+{
+  "totalMarketValue": 800000000,
+  "blackMarketPercentage": 90,
+  "averageHourlyRate": 27,
+  "studentsTakingTutoring": 1200000,
+  "reasonsForTutoring": [
+    { "reason": { "it": "Recupero Debiti Formativi", "en": "Summer Debt Recovery" }, "percentage": 45 },
+    { "reason": { "it": "Preparazione Interrogazioni", "en": "Oral Exam Prep" }, "percentage": 30 },
+    { "reason": { "it": "Aiuto Compiti Generale", "en": "General Homework Help" }, "percentage": 25 }
+  ],
+  "structuralIssue": {
+    "it": "L'alto tasso di bocciature e debiti estivi alimenta un mercato parallelo da €800 milioni, evasore al 90%. L'istruzione 'pubblica' scarica i costi di recupero sulle famiglie: chi può pagare le ripetizioni private si salva, chi non può viene bocciato e disperso.",
+    "en": "The high rate of grade retention and summer debts fuels an €800 million parallel market, 90% of which is tax-evaded. 'Public' education shifts recovery costs onto families: those who can afford private tutoring are saved; those who cannot are failed and drop out."
+  }
+}
