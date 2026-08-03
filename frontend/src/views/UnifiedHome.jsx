@@ -33,17 +33,19 @@ export default function UnifiedHome() {
   const sectionRefs = useRef({});
 
   useEffect(() => {
+    const handleToggle = () => setIsSidebarOpen(prev => !prev);
+    window.addEventListener('toggle-sidebar', handleToggle);
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // When a section comes into view (at least 30% visible), set it as active
             setActiveTab(entry.target.id);
           }
         });
       },
       {
-        rootMargin: '-20% 0px -60% 0px', // Trigger when section is in the upper part of the viewport
+        rootMargin: '-20% 0px -60% 0px',
         threshold: 0.1
       }
     );
@@ -52,7 +54,10 @@ export default function UnifiedHome() {
       if (section) observer.observe(section);
     });
 
-    return () => observer.disconnect();
+    return () => {
+      window.removeEventListener('toggle-sidebar', handleToggle);
+      observer.disconnect();
+    };
   }, []);
 
   const scrollToSection = (id) => {
@@ -87,15 +92,6 @@ export default function UnifiedHome() {
       <section id="manifesto" className="relative z-10">
         <Hero />
       </section>
-
-      {/* FLOATING ACTION BUTTON */}
-      <button 
-        onClick={() => setIsSidebarOpen(true)}
-        className="fixed top-24 left-6 z-[60] p-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-xl shadow-indigo-500/30 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]"
-        aria-label="Open navigation sidebar"
-      >
-        <Menu size={24} />
-      </button>
 
       {/* SIDEBAR + CONTENT LAYOUT */}
       <div className="flex flex-col flex-1 relative z-10 w-full">
