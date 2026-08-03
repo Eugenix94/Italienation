@@ -17,17 +17,19 @@ The Italian public education system operates as a rigid **Institutional Equilibr
 - **School Dropout (Dispersione Scolastica):** €5.4 Billion
 - **Brain Drain:** €8.2 Billion
 - **Grade Retention (Bocciatura):** €1.8 Billion
+- **Ripetizioni Black Market:** €800 Million (90% tax evasion rate)
 
 ## 3. Structural Failures (Summer 2026 Data)
 - **Implicit Dropouts:** 6.3% (Students graduating without basic skills)
 - **Explicit Dropouts:** 7.3% (INVALSI 2026 Report)
 - **Textbook Costs:** ~€1,238 per student (vs FREE in Finland & Germany)
+- **Market Fragmentation:** >42,000 active textbook editions (killing the second-hand market)
 - **FSL (Formazione Scuola-Lavoro, ex PCTO):** 1.5M students laboring with €0 compensation.
+- **Teacher Precarity:** 250,000 precarious teachers (29.4%) destroying pedagogical continuity.
 
 ## 4. Deep Dives
 - **STEM Gender Gap:** Only 38.8% of Liceo Scientifico students are female, whereas 87.5% of Liceo Scienze Umane students are female.
-- **Infrastructure Safety:** In Southern Italy, 71.8% of school buildings lack a safety certificate, and 58.4% are at severe seismic risk.
-- **Tertiary Dropouts:** University students originating from Vocational Institutes drop out at a rate of 38.7% after the first year, compared to 9.5% for Lyceum graduates.
+- **Infrastructure Divide:** In Southern Italy, 85% of schools lack a cafeteria (Mensa), physically preventing Full-Time schooling.
 
 ---
 *Synthesized by AI (Antigravity) for the Italienation Project.*
