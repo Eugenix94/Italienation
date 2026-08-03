@@ -69,7 +69,9 @@ const EconometricCosts = () => {
       desc_en: costData.annual_costs_eur_billions.neet_phenomenon.description_en,
       desc_it: costData.annual_costs_eur_billions.neet_phenomenon.description_it,
       eu: costData.annual_costs_eur_billions.neet_phenomenon.eu_comparison,
-      color: 'border-rose-500/20 bg-rose-500/5'
+      color: 'border-rose-500/20 bg-rose-500/5',
+      source: "Eurofound / ISTAT",
+      url: "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table"
     },
     {
       id: 'dropout',
@@ -80,7 +82,9 @@ const EconometricCosts = () => {
       desc_en: costData.annual_costs_eur_billions.dispersione_scolastica.description_en,
       desc_it: costData.annual_costs_eur_billions.dispersione_scolastica.description_it,
       eu: costData.annual_costs_eur_billions.dispersione_scolastica.eu_comparison,
-      color: 'border-rose-500/20 bg-rose-500/5'
+      color: 'border-rose-500/20 bg-rose-500/5',
+      source: "Save the Children",
+      url: "https://www.savethechildren.it/cosa-facciamo/pubblicazioni/alla-ricerca-del-tempo-perduto"
     },
     {
       id: 'shadow',
@@ -91,7 +95,9 @@ const EconometricCosts = () => {
       desc_en: costData.annual_costs_eur_billions.shadow_economy.description_en,
       desc_it: costData.annual_costs_eur_billions.shadow_economy.description_it,
       eu: costData.annual_costs_eur_billions.shadow_economy.eu_comparison,
-      color: 'border-rose-500/20 bg-rose-500/5'
+      color: 'border-rose-500/20 bg-rose-500/5',
+      source: "ISTAT",
+      url: "https://www.istat.it/statistiche/economia-non-osservata/"
     },
     {
       id: 'drain',
@@ -102,7 +108,9 @@ const EconometricCosts = () => {
       desc_en: costData.annual_costs_eur_billions.brain_drain.description_en,
       desc_it: costData.annual_costs_eur_billions.brain_drain.description_it,
       eu: costData.annual_costs_eur_billions.brain_drain.eu_comparison,
-      color: 'border-rose-500/20 bg-rose-500/5'
+      color: 'border-rose-500/20 bg-rose-500/5',
+      source: "SVIMEZ",
+      url: "https://www.svimez.info/"
     },
     {
       id: 'mismatch',
@@ -113,7 +121,9 @@ const EconometricCosts = () => {
       desc_en: costData.annual_costs_eur_billions.skills_mismatch.description_en,
       desc_it: costData.annual_costs_eur_billions.skills_mismatch.description_it,
       eu: costData.annual_costs_eur_billions.skills_mismatch.eu_comparison,
-      color: 'border-rose-500/20 bg-rose-500/5'
+      color: 'border-rose-500/20 bg-rose-500/5',
+      source: "Unioncamere",
+      url: "https://excelsior.unioncamere.net/"
     },
     {
       id: 'bocciatura',
@@ -124,7 +134,9 @@ const EconometricCosts = () => {
       desc_en: costData.annual_costs_eur_billions.grade_retention_bocciatura.description_en,
       desc_it: costData.annual_costs_eur_billions.grade_retention_bocciatura.description_it,
       eu: costData.annual_costs_eur_billions.grade_retention_bocciatura.eu_comparison,
-      color: 'border-rose-500/20 bg-rose-500/5'
+      color: 'border-rose-500/20 bg-rose-500/5',
+      source: "MIM / ISTAT",
+      url: "https://dati.istruzione.it/opendata/"
     }
   ];
 
@@ -137,7 +149,9 @@ const EconometricCosts = () => {
       itSub: '/ studente / anno',
       enSub: '/ student / year',
       itVs: 'vs Gratis in Finlandia e Germania',
-      enVs: 'vs Free in Finland and Germany'
+      enVs: 'vs Free in Finland and Germany',
+      source: "Federconsumatori",
+      url: "https://federconsumatori.it/"
     },
     {
       icon: 'HardHat',
@@ -147,7 +161,9 @@ const EconometricCosts = () => {
       itSub: 'studenti coinvolti',
       enSub: 'students involved',
       itVs: 'vs €600-1200/mese in Germania',
-      enVs: 'vs €600-1200/mo in Germany'
+      enVs: 'vs €600-1200/mo in Germany',
+      source: "INAIL",
+      url: "https://dati.inail.it/portale/it.html"
     },
     {
       icon: 'MessageCircle',
@@ -157,7 +173,9 @@ const EconometricCosts = () => {
       itSub: 'maggiore varianza di voto',
       enSub: 'higher grading variance',
       itVs: 'Abolite in Finlandia e UK',
-      enVs: 'Abolished in Finland and UK'
+      enVs: 'Abolished in Finland and UK',
+      source: "INVALSI",
+      url: "https://serviziostatistico.invalsi.it/"
     },
     {
       icon: 'Lock',
@@ -167,7 +185,9 @@ const EconometricCosts = () => {
       itSub: 'percorsi di seconda chance',
       enSub: 'second-chance pathways',
       itVs: 'L\'Italia è l\'unica in Europa',
-      enVs: 'Italy is the only one in Europe'
+      enVs: 'Italy is the only one in Europe',
+      source: "Eurydice",
+      url: "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/assessment-general-lower-secondary-education"
     },
     {
       icon: 'Briefcase',
@@ -177,7 +197,9 @@ const EconometricCosts = () => {
       itSub: 'dei giovani occupati',
       enSub: 'of employed youth',
       itVs: '-45% divario salariale',
-      enVs: '-45% wage gap'
+      enVs: '-45% wage gap',
+      source: "ISTAT / INPS",
+      url: "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html"
     },
     {
       icon: 'Scale',
@@ -187,7 +209,9 @@ const EconometricCosts = () => {
       itSub: 'nel mondo (Indice Corruzione)',
       enSub: 'in the world (Corruption Index)',
       itVs: 'Il background familiare predice il successo',
-      enVs: 'Family background predicts success'
+      enVs: 'Family background predicts success',
+      source: "Transparency Intl",
+      url: "https://www.transparency.org/en/cpi/2023"
     }
   ];
 
@@ -320,7 +344,7 @@ const EconometricCosts = () => {
                   <p className="text-xs font-medium text-zinc-300">
                     <T it={item.itCompare} en={item.enCompare} />
                   </p>
-                  <SourceBadge agency={item.source} topicKey={item.id} year="2026" />
+                  <SourceBadge agency={item.source} url={item.url} year="2024" />
                 </div>
               </motion.div>
               );
@@ -384,6 +408,7 @@ const EconometricCosts = () => {
                     <div className="inline-flex items-center px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 text-xs font-medium mt-2">
                       <T it={mech.itVs} en={mech.enVs} />
                     </div>
+                    <div className="mt-3"><SourceBadge agency={mech.source} url={mech.url} year="2024" /></div>
                   </div>
                 </div>
               </motion.div>

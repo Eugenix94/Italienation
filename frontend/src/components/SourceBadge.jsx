@@ -18,11 +18,16 @@ const DEEP_LINK_MAP = {
   "malta": "https://jobsplus.gov.mt/",
   "pes": "https://employment-social-affairs.ec.europa.eu/node/25_en",
   "escs": "https://serviziostatistico.invalsi.it/",
+  "tracking": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/organisation-general-lower-secondary-education",
+  "scores": "https://serviziostatistico.invalsi.it/risultati/",
+  "dropouts": "https://www.miur.gov.it/dispersione-scolastica",
+  "religione": "https://www.uaar.it/laicita/insegnamento-religione-cattolica/",
   
   // Agency portal fallbacks
   "ISTAT": "https://esploradati.istat.it/databrowser/",
   "MIM": "https://dati.istruzione.it/opendata/",
   "MIUR": "https://dati.istruzione.it/opendata/",
+  "MUR": "https://www.mur.gov.it/it/dati-e-statistiche",
   "Eurostat": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table",
   "OECD": "https://data-explorer.oecd.org/",
   "World Bank": "https://databank.worldbank.org/source/worldwide-governance-indicators",
@@ -35,7 +40,8 @@ const DEEP_LINK_MAP = {
   "Unioncamere": "https://excelsior.unioncamere.net/",
   "INVALSI": "https://serviziostatistico.invalsi.it/",
   "EU PES Network": "https://employment-social-affairs.ec.europa.eu/node/25_en",
-  "Jobsplus": "https://jobsplus.gov.mt/"
+  "Jobsplus": "https://jobsplus.gov.mt/",
+  "UAAR / FOIA": "https://www.uaar.it/laicita/insegnamento-religione-cattolica/"
 };
 
 export default function SourceBadge({ agency = "ISTAT", topicKey, year = "2026", url, label }) {
