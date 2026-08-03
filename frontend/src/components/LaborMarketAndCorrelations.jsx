@@ -7,6 +7,7 @@ import SectionContext from "./SectionContext";
 import DataTooltip from "./DataTooltip";
 import MethodologyAlert from "./MethodologyAlert";
 import SourceBadge from './SourceBadge';
+import precariatoData from '../../public/data/precariato_docenti.json';
 
 export default function LaborMarketAndCorrelations() {
   const [data, setData] = useState(null);
