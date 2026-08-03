@@ -110,7 +110,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.brain_drain.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "SVIMEZ",
-      url: "https://www.svimez.info/"
+      url: "https://www.svimez.info/rapporto/"
     },
     {
       id: 'mismatch',
@@ -123,7 +123,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.skills_mismatch.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "Unioncamere",
-      url: "https://excelsior.unioncamere.net/"
+      url: "https://excelsior.unioncamere.net/indagine-excelsior"
     },
     {
       id: 'bocciatura',
@@ -175,7 +175,7 @@ const EconometricCosts = () => {
       itVs: 'Abolite in Finlandia e UK',
       enVs: 'Abolished in Finland and UK',
       source: "INVALSI",
-      url: "https://serviziostatistico.invalsi.it/"
+      url: "https://www.invalsi.it/valutazione/"
     },
     {
       icon: 'Lock',
@@ -187,7 +187,7 @@ const EconometricCosts = () => {
       itVs: 'L\'Italia è l\'unica in Europa',
       enVs: 'Italy is the only one in Europe',
       source: "Eurydice",
-      url: "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/assessment-general-lower-secondary-education"
+      url: "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/assessment"
     },
     {
       icon: 'Briefcase',
@@ -199,7 +199,7 @@ const EconometricCosts = () => {
       itVs: '-45% divario salariale',
       enVs: '-45% wage gap',
       source: "ISTAT / INPS",
-      url: "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html"
+      url: "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici/osservatorio-sul-precariato.html"
     },
     {
       icon: 'Scale',

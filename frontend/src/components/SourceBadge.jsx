@@ -7,45 +7,45 @@ const DEEP_LINK_MAP = {
   // Topic-specific deep links
   "shadow": "https://www.istat.it/statistiche/economia-non-osservata/",
   "neet": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table",
-  "mismatch": "https://excelsior.unioncamere.net/",
+  "mismatch": "https://excelsior.unioncamere.net/indagine-excelsior",
   "brain_drain": "https://www.istat.it/argomento/popolazione-e-famiglie/",
   "dispersione": "https://dati.istruzione.it/opendata/",
   "bocciatura": "https://dati.istruzione.it/opendata/",
   "pcto": "https://dati.inail.it/portale/it.html",
   "textbooks": "https://federconsumatori.it/",
-  "orals": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/assessment-general-lower-secondary-education",
+  "orals": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/assessment",
   "governance": "https://databank.worldbank.org/source/worldwide-governance-indicators",
   "malta": "https://jobsplus.gov.mt/",
   "pes": "https://employment-social-affairs.ec.europa.eu/node/25_en",
-  "escs": "https://serviziostatistico.invalsi.it/",
-  "tracking": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/organisation-general-lower-secondary-education",
-  "scores": "https://serviziostatistico.invalsi.it/risultati/",
-  "dropouts": "https://dati.istruzione.it/opendata/",
+  "escs": "https://www.invalsi.it/valutazione/",
+  "tracking": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/overview",
+  "scores": "https://www.invalsi.it/invalsi/doc_evidenza/2024/Rapporto_Prove_INVALSI_2024.pdf",
+  "dropouts": "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Studenti&datasetId=DS0280AGESREG17",
   "religione": "https://www.uaar.it/",
   
   // Agency portal fallbacks
-  "ISTAT": "https://esploradati.istat.it/databrowser/",
+  "ISTAT": "https://www.istat.it/argomento/istruzione-e-formazione/",
   "MIM": "https://dati.istruzione.it/opendata/",
   "MIUR": "https://dati.istruzione.it/opendata/",
   "MUR": "https://www.mur.gov.it/",
   "Eurostat": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table",
-  "OECD": "https://data-explorer.oecd.org/",
+  "OECD": "https://www.oecd.org/en/topics/sub-issues/pisa-results.html",
   "World Bank": "https://databank.worldbank.org/source/worldwide-governance-indicators",
-  "INAIL": "https://dati.inail.it/portale/it.html",
-  "INPS": "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html",
+  "INAIL": "https://www.inail.it/cs/internet/attivita/dati-e-statistiche/infortuni.html",
+  "INPS": "https://www.inps.it/it/it/dati-e-bilanci/le-nostre-statistiche.html",
   "Federconsumatori": "https://federconsumatori.it/",
-  "Eurydice": "https://eurydice.eacea.ec.europa.eu/",
+  "Eurydice": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/overview",
   "Corte dei Conti": "https://www.corteconti.it/Home/Documenti/Relazioni",
-  "Save the Children": "https://www.savethechildren.it/cosa-facciamo/pubblicazioni/alla-ricerca-del-tempo-perduto",
+  "Save the Children": "https://www.savethechildren.it/cosa-facciamo/pubblicazioni",
   "Unioncamere": "https://excelsior.unioncamere.net/",
-  "INVALSI": "https://serviziostatistico.invalsi.it/",
+  "INVALSI": "https://www.invalsi.it/valutazione/",
   "EU PES Network": "https://employment-social-affairs.ec.europa.eu/node/25_en",
   "Jobsplus": "https://jobsplus.gov.mt/",
-  "UAAR / FOIA": "https://www.uaar.it/laicita/insegnamento-religione-cattolica/"
+  "UAAR / FOIA": "https://www.uaar.it/"
 };
 
 export default function SourceBadge({ agency = "ISTAT", topicKey, year = "2026", url, label }) {
-  const targetUrl = url || (topicKey && DEEP_LINK_MAP[topicKey]) || DEEP_LINK_MAP[agency] || "https://esploradati.istat.it/databrowser/";
+  const targetUrl = url || (topicKey && DEEP_LINK_MAP[topicKey]) || DEEP_LINK_MAP[agency] || "https://www.istat.it/argomento/istruzione-e-formazione/";
 
   return (
     <a
