@@ -21,12 +21,13 @@ import MethodologyNotebooks from '../components/MethodologyNotebooks';
 import StructuralDeepDives from '../components/StructuralDeepDives';
 import CulturalPhenomenology from '../components/CulturalPhenomenology';
 import MediaKitExport from '../components/MediaKitExport';
-import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search, ChevronRight } from 'lucide-react';
+import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search, ChevronRight, Menu, X } from 'lucide-react';
 import { T } from '../components/T';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function UnifiedHome() {
   const [activeTab, setActiveTab] = useState('struttura');
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   
   const sectionRefs = useRef({});
@@ -87,46 +88,91 @@ export default function UnifiedHome() {
         <Hero />
       </section>
 
+      {/* FLOATING ACTION BUTTON */}
+      <button 
+        onClick={() => setIsSidebarOpen(true)}
+        className="fixed bottom-6 right-6 z-[60] p-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-xl shadow-indigo-500/30 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]"
+        aria-label="Open navigation sidebar"
+      >
+        <Menu size={24} />
+      </button>
+
       {/* SIDEBAR + CONTENT LAYOUT */}
-      <div className="flex flex-col lg:flex-row flex-1 relative z-10">
+      <div className="flex flex-col flex-1 relative z-10 w-full">
         
-        {/* NAVIGATION SIDEBAR */}
-        <nav aria-label="Main dashboard navigation" className="lg:w-72 lg:shrink-0 lg:border-r border-white/[0.05] bg-white/[0.01] backdrop-blur-3xl lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)] z-40 border-b lg:border-b-0 sticky top-16 shadow-[20px_0_40px_rgba(0,0,0,0.5)] lg:shadow-none">
-          <div className="flex lg:flex-col overflow-x-auto hide-scrollbar p-4 lg:p-6 gap-2 lg:gap-3 snap-x snap-mandatory">
-            <h3 className="hidden lg:block text-xs font-black tracking-widest text-zinc-500 uppercase mb-4 px-4" id="sidebar-heading">
-              <T it="Osservatorio Dati" en="Data Observatory" />
-            </h3>
-            {tabs.map((tab) => {
-              const Icon = tab.icon;
-              const isActive = activeTab === tab.id;
-              return (
-                <button
-                  key={tab.id}
-                  onClick={() => scrollToSection(tab.id)}
-                  aria-current={isActive ? 'page' : undefined}
-                  className={`group flex items-center gap-3 px-4 lg:px-5 py-3 lg:py-4 text-sm font-bold transition-all duration-300 relative whitespace-nowrap rounded-2xl lg:w-full lg:text-left snap-start focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]
-                    ${isActive 
-                      ? 'text-white bg-gradient-to-r from-indigo-500/20 to-purple-500/10 border border-indigo-500/30 shadow-[0_0_20px_rgba(99,102,241,0.15)]' 
-                      : 'text-zinc-400 hover:text-zinc-200 hover:bg-white/[0.03] border border-transparent hover:border-white/[0.05]'
-                    }`}
-                >
-                  <div className={`p-1.5 rounded-lg transition-colors ${isActive ? 'bg-indigo-500/20 text-indigo-400' : 'bg-transparent text-zinc-500 group-hover:text-zinc-300'}`}>
-                    <Icon size={18} aria-hidden="true" />
-                  </div>
-                  <span className="flex-1"><T it={tab.it} en={tab.en} /></span>
-                  {isActive && (
-                    <motion.div layoutId="sidebar-active" className="hidden lg:block">
-                      <ChevronRight size={16} className="text-indigo-400" aria-hidden="true" />
-                    </motion.div>
-                  )}
-                </button>
-              );
-            })}
-          </div>
-        </nav>
+        {/* NAVIGATION SIDEBAR DRAWER */}
+        <AnimatePresence>
+          {isSidebarOpen && (
+            <>
+              {/* BACKDROP */}
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                onClick={() => setIsSidebarOpen(false)}
+                className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[70]"
+                aria-hidden="true"
+              />
+              
+              {/* SIDEBAR */}
+              <motion.nav 
+                initial={{ x: '-100%' }}
+                animate={{ x: 0 }}
+                exit={{ x: '-100%' }}
+                transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+                aria-label="Main dashboard navigation" 
+                className="fixed top-0 left-0 h-screen w-72 md:w-80 border-r border-white/10 bg-[#09090b]/95 backdrop-blur-3xl z-[80] shadow-[20px_0_40px_rgba(0,0,0,0.5)] flex flex-col"
+              >
+                <div className="flex items-center justify-between p-6 border-b border-white/10 mt-16 lg:mt-0">
+                  <h3 className="text-xs font-black tracking-widest text-zinc-500 uppercase" id="sidebar-heading">
+                    <T it="Osservatorio Dati" en="Data Observatory" />
+                  </h3>
+                  <button 
+                    onClick={() => setIsSidebarOpen(false)}
+                    className="p-2 text-zinc-400 hover:text-white rounded-lg hover:bg-white/5 transition-colors"
+                  >
+                    <X size={20} />
+                  </button>
+                </div>
+                
+                <div className="flex-1 overflow-y-auto p-4 gap-2 flex flex-col hide-scrollbar">
+                  {tabs.map((tab) => {
+                    const Icon = tab.icon;
+                    const isActive = activeTab === tab.id;
+                    return (
+                      <button
+                        key={tab.id}
+                        onClick={() => {
+                          scrollToSection(tab.id);
+                          setIsSidebarOpen(false);
+                        }}
+                        aria-current={isActive ? 'page' : undefined}
+                        className={`group flex items-center gap-3 px-5 py-4 text-sm font-bold transition-all duration-300 relative whitespace-nowrap rounded-2xl w-full text-left focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]
+                          ${isActive 
+                            ? 'text-white bg-gradient-to-r from-indigo-500/20 to-purple-500/10 border border-indigo-500/30 shadow-[0_0_20px_rgba(99,102,241,0.15)]' 
+                            : 'text-zinc-400 hover:text-zinc-200 hover:bg-white/[0.03] border border-transparent hover:border-white/[0.05]'
+                          }`}
+                      >
+                        <div className={`p-1.5 rounded-lg transition-colors ${isActive ? 'bg-indigo-500/20 text-indigo-400' : 'bg-transparent text-zinc-500 group-hover:text-zinc-300'}`}>
+                          <Icon size={18} aria-hidden="true" />
+                        </div>
+                        <span className="flex-1"><T it={tab.it} en={tab.en} /></span>
+                        {isActive && (
+                          <motion.div layoutId="sidebar-active">
+                            <ChevronRight size={16} className="text-indigo-400" aria-hidden="true" />
+                          </motion.div>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              </motion.nav>
+            </>
+          )}
+        </AnimatePresence>
 
         {/* DASHBOARD CONTENT */}
-        <div className="flex-1 w-full lg:max-w-[calc(100vw-18rem)] overflow-hidden relative">
+        <div className="flex-1 w-full overflow-hidden relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 lg:pt-16 pb-24">
             
             <div className="w-full space-y-32">
