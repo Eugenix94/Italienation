@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import * as LucideIcons from 'lucide-react';
-import { Loader2 } from 'lucide-react';
+import { Loader2, TrendingDown } from 'lucide-react';
 import {
   BarChart,
   Bar,
@@ -15,6 +15,7 @@ import SectionContext from "./SectionContext";
 import SourceBadge from './SourceBadge';
 import DataTooltip from './DataTooltip';
 import MethodologyAlert from './MethodologyAlert';
+import costData from '../assets/econometric_costs.json';
 
 const CustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
@@ -45,7 +46,153 @@ const EconometricCosts = () => {
     return () => clearInterval(timer);
   }, []);
 
+  const chartData = [
+    {
+      name: 'Total Costs',
+      shadow: 83,
+      neet: 36,
+      mismatch: 13.5,
+      brain_drain: 8.2,
+      dispersione: 5.4,
+      bocciatura: 1.8,
+      systemic_other: 111.1
+    }
+  ];
+
+  const costItems = [
+    {
+      id: 'neet',
+      icon: 'UserX',
+      title_en: costData.annual_costs_eur_billions.neet_phenomenon.label,
+      title_it: "Costo NEET",
+      value: costData.annual_costs_eur_billions.neet_phenomenon.value,
+      desc_en: costData.annual_costs_eur_billions.neet_phenomenon.description_en,
+      desc_it: costData.annual_costs_eur_billions.neet_phenomenon.description_it,
+      eu: costData.annual_costs_eur_billions.neet_phenomenon.eu_comparison,
+      color: 'border-rose-500/20 bg-rose-500/5'
+    },
+    {
+      id: 'dropout',
+      icon: 'TrendingDown',
+      title_en: costData.annual_costs_eur_billions.dispersione_scolastica.label,
+      title_it: "Dispersione Scolastica",
+      value: costData.annual_costs_eur_billions.dispersione_scolastica.value,
+      desc_en: costData.annual_costs_eur_billions.dispersione_scolastica.description_en,
+      desc_it: costData.annual_costs_eur_billions.dispersione_scolastica.description_it,
+      eu: costData.annual_costs_eur_billions.dispersione_scolastica.eu_comparison,
+      color: 'border-rose-500/20 bg-rose-500/5'
+    },
+    {
+      id: 'shadow',
+      icon: 'EyeOff',
+      title_en: costData.annual_costs_eur_billions.shadow_economy.label,
+      title_it: "Economia Sommersa",
+      value: costData.annual_costs_eur_billions.shadow_economy.lost_tax_revenue_eur_billions,
+      desc_en: costData.annual_costs_eur_billions.shadow_economy.description_en,
+      desc_it: costData.annual_costs_eur_billions.shadow_economy.description_it,
+      eu: costData.annual_costs_eur_billions.shadow_economy.eu_comparison,
+      color: 'border-rose-500/20 bg-rose-500/5'
+    },
+    {
+      id: 'drain',
+      icon: 'Plane',
+      title_en: costData.annual_costs_eur_billions.brain_drain.label,
+      title_it: "Fuga dei Cervelli",
+      value: costData.annual_costs_eur_billions.brain_drain.value,
+      desc_en: costData.annual_costs_eur_billions.brain_drain.description_en,
+      desc_it: costData.annual_costs_eur_billions.brain_drain.description_it,
+      eu: costData.annual_costs_eur_billions.brain_drain.eu_comparison,
+      color: 'border-rose-500/20 bg-rose-500/5'
+    },
+    {
+      id: 'mismatch',
+      icon: 'Puzzle',
+      title_en: costData.annual_costs_eur_billions.skills_mismatch.label,
+      title_it: "Mismatch Competenze",
+      value: costData.annual_costs_eur_billions.skills_mismatch.value,
+      desc_en: costData.annual_costs_eur_billions.skills_mismatch.description_en,
+      desc_it: costData.annual_costs_eur_billions.skills_mismatch.description_it,
+      eu: costData.annual_costs_eur_billions.skills_mismatch.eu_comparison,
+      color: 'border-rose-500/20 bg-rose-500/5'
+    },
+    {
+      id: 'bocciatura',
+      icon: 'RotateCcw',
+      title_en: costData.annual_costs_eur_billions.grade_retention_bocciatura.label,
+      title_it: "Bocciatura",
+      value: costData.annual_costs_eur_billions.grade_retention_bocciatura.value,
+      desc_en: costData.annual_costs_eur_billions.grade_retention_bocciatura.description_en,
+      desc_it: costData.annual_costs_eur_billions.grade_retention_bocciatura.description_it,
+      eu: costData.annual_costs_eur_billions.grade_retention_bocciatura.eu_comparison,
+      color: 'border-rose-500/20 bg-rose-500/5'
+    }
+  ];
+
+  const structuralMechanisms = [
+    {
+      icon: 'BookOpen',
+      itTitle: 'Costi dei Libri di Testo',
+      enTitle: 'Textbook Costs',
+      stat: '€' + costData.structural_mechanisms.textbook_costs.total_per_student_eur,
+      itSub: '/ studente / anno',
+      enSub: '/ student / year',
+      itVs: 'vs Gratis in Finlandia e Germania',
+      enVs: 'vs Free in Finland and Germany'
+    },
+    {
+      icon: 'HardHat',
+      itTitle: 'Lavoro Non Retribuito (PCTO)',
+      enTitle: 'Unpaid Labor (PCTO)',
+      stat: costData.structural_mechanisms.pcto_alternanza.total_students_involved.toLocaleString(),
+      itSub: 'studenti coinvolti',
+      enSub: 'students involved',
+      itVs: 'vs €600-1200/mese in Germania',
+      enVs: 'vs €600-1200/mo in Germany'
+    },
+    {
+      icon: 'MessageCircle',
+      itTitle: 'Interrogazioni Orali',
+      enTitle: 'Oral Examinations',
+      stat: '2-3x',
+      itSub: 'maggiore varianza di voto',
+      enSub: 'higher grading variance',
+      itVs: 'Abolite in Finlandia e UK',
+      enVs: 'Abolished in Finland and UK'
+    },
+    {
+      icon: 'Lock',
+      itTitle: 'Barriera del Diploma',
+      enTitle: 'Diploma Barrier',
+      stat: '0',
+      itSub: 'percorsi di seconda chance',
+      enSub: 'second-chance pathways',
+      itVs: 'L\'Italia è l\'unica in Europa',
+      enVs: 'Italy is the only one in Europe'
+    },
+    {
+      icon: 'Briefcase',
+      itTitle: 'Lavoro Nero Giovanile',
+      enTitle: 'Youth Black Labor',
+      stat: costData.structural_mechanisms.black_labor_youth.youth_irregular_employment_pct + '%',
+      itSub: 'dei giovani occupati',
+      enSub: 'of employed youth',
+      itVs: '-45% divario salariale',
+      enVs: '-45% wage gap'
+    },
+    {
+      icon: 'Scale',
+      itTitle: 'Deficit di Meritocrazia',
+      enTitle: 'Meritocracy Deficit',
+      stat: '42°',
+      itSub: 'nel mondo (Indice Corruzione)',
+      enSub: 'in the world (Corruption Index)',
+      itVs: 'Il background familiare predice il successo',
+      enVs: 'Family background predicts success'
+    }
+  ];
+
   return (
+
     <div className="min-h-screen bg-zinc-950 text-white font-sans overflow-hidden">
       
       {/* Hero Section */}
