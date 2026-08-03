@@ -3,7 +3,16 @@
 **A systemic, econometric mapping of the Italian Education and Labor Market.**
 *(Alpha Release: July 2026 | 286 Processed Panels · 543 Raw Source Files · 66 Research Domains)*
 
-🚀 **[ENTER THE INTERACTIVE OED SIMULATOR & ACADEMIC DASHBOARD HERE](https://github.com/Eugenix94/Italienation)**
+## Release Notes
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Eugenix94/Italienation?color=brightgreen)](https://github.com/Eugenix94/Italienation/releases/latest)
+[![GitHub Pages](https://img.shields.io/github/deployments/Eugenix94/Italienation/github-pages?label=GitHub%20Pages&logo=github)](https://eugenix94.github.io/Italienation/)
+
+**v1.0.0‑rc1** – Full React scrollytelling, econometrics, deep‑links, and provenance validation.
+**v0.5.0‑beta** – Initial dashboard scaffold & OED simulator.
+**v0.1.0‑alpha** – Data pipeline & raw dataset ingestion.
+
+🚀 **[ENTER THE INTERACTIVE OED SIMULATOR & ACADEMIC DASHBOARD HERE](https://eugenix94.github.io/Italienation/)**
 
 ## 1. The Core Thesis: Software as an Academic Paper
 The Italian public education system operates as a rigid **Institutional Equilibrium**. Rather than an equalizer, the system structurally amplifies the socioeconomic circumstances of birth. Because the state massively underinvests in education (3.9% GDP vs EU 4.7%), it relies on an "informal familial welfare state." The resulting dropout rates, NEET demographics, and early track stratifications cost the Italian economy an estimated **€48 Billion annually**.
@@ -42,6 +51,7 @@ For researchers, data journalists, and civic hackers, the underlying systemic pr
 - 📖 **[The OSF / Zenodo Archiving Prospectus](local_data/processed/OSF_ZENODO_RESEARCH_PROSPECTUS.md)**
 - 📊 **[Press Release & Policy Brief](local_data/processed/PRESS_RELEASE_POLICY_BRIEF.md)**
 - 🔍 **[Holistic Data Audit & License Compliance](local_data/processed/DATA_AUDIT_DISCREPANCIES_AND_BLIND_SPOTS.md)**
+- 🔗 **[Data Provenance Audit & Source Verification](docs/data_provenance_audit.md)**
 
 *Repository architected by the Italienation Alpha Open Science Team.*
 
