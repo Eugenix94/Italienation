@@ -20,14 +20,14 @@ const DEEP_LINK_MAP = {
   "escs": "https://serviziostatistico.invalsi.it/",
   "tracking": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/organisation-general-lower-secondary-education",
   "scores": "https://serviziostatistico.invalsi.it/risultati/",
-  "dropouts": "https://www.miur.gov.it/dispersione-scolastica",
-  "religione": "https://www.uaar.it/laicita/insegnamento-religione-cattolica/",
+  "dropouts": "https://dati.istruzione.it/opendata/",
+  "religione": "https://www.uaar.it/",
   
   // Agency portal fallbacks
   "ISTAT": "https://esploradati.istat.it/databrowser/",
   "MIM": "https://dati.istruzione.it/opendata/",
   "MIUR": "https://dati.istruzione.it/opendata/",
-  "MUR": "https://www.mur.gov.it/it/dati-e-statistiche",
+  "MUR": "https://www.mur.gov.it/",
   "Eurostat": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table",
   "OECD": "https://data-explorer.oecd.org/",
   "World Bank": "https://databank.worldbank.org/source/worldwide-governance-indicators",
