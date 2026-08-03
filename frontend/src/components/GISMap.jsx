@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import { Map as MapIcon, Layers } from 'lucide-react';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
+import DataTooltip from './DataTooltip';
 import provinceData from '../assets/province_school_counts.json';
 import dashboardMetrics from '../assets/dashboard_metrics.json';
 
@@ -26,11 +27,16 @@ const macroAreas = [
 ];
 
 const europeData = [
-  { id: 'IT', name: 'Italia', lat: 41.8719, lng: 12.5674, color: '#f43f5e', trackAge: 14, neet: '19.0%', pcto: '0€ (Unpaid)' },
-  { id: 'DE', name: 'Germania', lat: 51.1657, lng: 10.4515, color: '#10b981', trackAge: 10, neet: '8.6%', pcto: '€900/mo (Dual)' },
-  { id: 'FI', name: 'Finlandia', lat: 61.9241, lng: 25.7482, color: '#4f46e5', trackAge: 16, neet: '9.3%', pcto: 'Free Books & Meals' },
-  { id: 'FR', name: 'Francia', lat: 46.2276, lng: 2.2137, color: '#f59e0b', trackAge: 15, neet: '11.2%', pcto: 'Alternance' },
-  { id: 'SE', name: 'Svezia', lat: 60.1282, lng: 18.6435, color: '#3b82f6', trackAge: 16, neet: '6.1%', pcto: 'Comprehensive' }
+  { id: 'IT', name: 'Italia', lat: 41.8719, lng: 12.5674, color: '#f43f5e', trackAge: 14, neet: '19.0%', pcto: '0€ (Unpaid)', dropout: '11.5%', type: 'Early Tracking' },
+  { id: 'DE', name: 'Germania', lat: 51.1657, lng: 10.4515, color: '#10b981', trackAge: 10, neet: '8.6%', pcto: '€900/mo (Dual)', dropout: '12.2%', type: 'Dual VET' },
+  { id: 'FI', name: 'Finlandia', lat: 61.9241, lng: 25.7482, color: '#4f46e5', trackAge: 16, neet: '9.3%', pcto: 'Free Books & Meals', dropout: '7.3%', type: 'Comprehensive' },
+  { id: 'FR', name: 'Francia', lat: 46.2276, lng: 2.2137, color: '#f59e0b', trackAge: 15, neet: '11.2%', pcto: 'Alternance', dropout: '7.6%', type: 'Comprehensive' },
+  { id: 'SE', name: 'Svezia', lat: 60.1282, lng: 18.6435, color: '#3b82f6', trackAge: 16, neet: '6.1%', pcto: 'Comprehensive', dropout: '8.4%', type: 'Comprehensive' },
+  { id: 'ES', name: 'Spagna', lat: 40.4637, lng: -3.7492, color: '#f43f5e', trackAge: 16, neet: '12.7%', pcto: 'Unpaid/Low', dropout: '13.9%', type: 'Comprehensive (Late)' },
+  { id: 'PL', name: 'Polonia', lat: 51.9194, lng: 19.1451, color: '#10b981', trackAge: 15, neet: '10.9%', pcto: 'VET Supported', dropout: '4.8%', type: 'Comprehensive' },
+  { id: 'NL', name: 'Paesi Bassi', lat: 52.1326, lng: 5.2913, color: '#8b5cf6', trackAge: 12, neet: '4.2%', pcto: 'Paid VET', dropout: '5.3%', type: 'Early Tracking (Fluid)' },
+  { id: 'AT', name: 'Austria', lat: 47.5162, lng: 14.5501, color: '#10b981', trackAge: 10, neet: '9.1%', pcto: '€800/mo (Dual)', dropout: '8.1%', type: 'Dual VET' },
+  { id: 'GR', name: 'Grecia', lat: 39.0742, lng: 21.8243, color: '#f43f5e', trackAge: 15, neet: '15.4%', pcto: 'Unpaid', dropout: '4.1%', type: 'Comprehensive' }
 ];
 
 function MapUpdater({ center, zoom }) {
