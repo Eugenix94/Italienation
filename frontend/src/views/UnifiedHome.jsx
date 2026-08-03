@@ -91,7 +91,7 @@ export default function UnifiedHome() {
       {/* FLOATING ACTION BUTTON */}
       <button 
         onClick={() => setIsSidebarOpen(true)}
-        className="fixed bottom-6 right-6 z-[60] p-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-xl shadow-indigo-500/30 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]"
+        className="fixed top-24 left-6 z-[60] p-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-xl shadow-indigo-500/30 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#050510]"
         aria-label="Open navigation sidebar"
       >
         <Menu size={24} />
