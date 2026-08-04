@@ -8,21 +8,21 @@
   },
   "annual_costs_eur_billions": {
     "neet_phenomenon": {
-      "value": 36.0,
+      "value": 29.7,
       "label": "NEET Annual Cost",
-      "description_en": "Lost productivity + welfare costs from 1.7M young people (15-29) not in education, employment, or training",
-      "description_it": "Produttività persa + costi welfare da 1,7M giovani (15-29) non in istruzione, occupazione o formazione",
-      "source": "Eurofound (2024), ISTAT Labour Force Survey",
-      "eu_comparison": "Italy's NEET rate (16.1%) is nearly double the EU average (9.2%)"
+      "description_en": "Lost productivity + welfare costs from ~1.35M young people (15-29) not in education, employment, or training",
+      "description_it": "Produttività persa + costi welfare da ~1,35M giovani (15-29) non in istruzione, occupazione o formazione",
+      "source": "Eurofound (2025/2026), ISTAT Labour Force Survey",
+      "eu_comparison": "Italy's NEET rate (13.3%) remains higher than the EU average (11.0%)"
     },
     "dispersione_scolastica": {
-      "value": 5.4,
+      "value": 4.2,
       "label": "Dropout / Early Leaving Cost",
-      "description_en": "Estimated annual cost of 10.5% early school leaving rate: reduced lifetime earnings, higher welfare dependency, lower tax base",
-      "description_it": "Costo annuo stimato del 10,5% di abbandono scolastico precoce: riduzione guadagni, maggiore dipendenza welfare, minore base fiscale",
-      "source": "Save the Children Italy (2024), European Commission",
+      "description_en": "Estimated annual cost of 8.2% early school leaving rate: reduced lifetime earnings, higher welfare dependency, lower tax base",
+      "description_it": "Costo annuo stimato dell'8,2% di abbandono scolastico precoce: riduzione guadagni, maggiore dipendenza welfare, minore base fiscale",
+      "source": "MIM (2025), European Commission",
       "cost_per_dropout_lifetime_eur": 300000,
-      "eu_comparison": "Italy: 10.5% ESL vs EU avg 9.0%. Each dropout costs €300K in lifetime earnings (OECD est.)"
+      "eu_comparison": "Italy: 8.2% ESL (achieving the EU 2030 target of <9.0%). Each dropout costs €300K in lifetime earnings (OECD est.)"
     },
     "shadow_economy": {
       "value": 192.0,
@@ -131,11 +131,11 @@
       "autonomy_index": {"Italy": 2.1, "Finland": 8.5, "Netherlands": 7.8, "UK": 6.9, "Germany": 5.4, "Sweden": 7.2}
     },
     "total_estimated_annual_cost_eur_billions": {
-      "value": 258.9,
-      "components": "NEET (36) + Dropout (5.4) + Shadow Economy Tax Loss (83) + Brain Drain (8.2) + Skills Mismatch (13.5) + Bocciatura (1.8) + Remaining systemic costs (111 est.)",
-      "as_pct_gdp": 13.5,
-      "description_en": "Conservative estimate: Italy's education system failures cost the economy approximately €259 billion annually (13.5% of GDP). This includes direct fiscal costs, lost productivity, shadow economy tax losses, and human capital flight",
-      "description_it": "Stima conservativa: i fallimenti del sistema educativo italiano costano all'economia circa €259 miliardi all'anno (13,5% del PIL). Include costi fiscali diretti, produttività persa, perdite fiscali dall'economia sommersa e fuga di capitale umano"
+      "value": 251.4,
+      "components": "NEET (29.7) + Dropout (4.2) + Shadow Economy Tax Loss (83) + Brain Drain (8.2) + Skills Mismatch (13.5) + Bocciatura (1.8) + Remaining systemic costs (111 est.)",
+      "as_pct_gdp": 13.0,
+      "description_en": "Conservative estimate: Italy's education system failures cost the economy approximately €251 billion annually (~13.0% of GDP). This includes direct fiscal costs, lost productivity, shadow economy tax losses, and human capital flight",
+      "description_it": "Stima conservativa: i fallimenti del sistema educativo italiano costano all'economia circa €251 miliardi all'anno (~13,0% del PIL). Include costi fiscali diretti, produttività persa, perdite fiscali dall'economia sommersa e fuga di capitale umano"
     }
   },
   "international_solutions": {
@@ -172,5 +172,13 @@
       "adult_education_system": "MCAST (Lifelong learning)",
       "description": "Small, solid localized economy. 100% free textbooks in state schools. MCAST provides lifelong second-chance pathways and paid apprenticeships, keeping the NEET rate low."
     }
-  }
+  },
+  "gdp_divergence": [
+    { "year": 2000, "italy_gdp_pc": 25000, "eu_avg_gdp_pc": 23000 },
+    { "year": 2005, "italy_gdp_pc": 26500, "eu_avg_gdp_pc": 26000 },
+    { "year": 2010, "italy_gdp_pc": 27000, "eu_avg_gdp_pc": 28000 },
+    { "year": 2015, "italy_gdp_pc": 27500, "eu_avg_gdp_pc": 30500 },
+    { "year": 2020, "italy_gdp_pc": 28000, "eu_avg_gdp_pc": 33000 },
+    { "year": 2024, "italy_gdp_pc": 30000, "eu_avg_gdp_pc": 37000 }
+  ]
 }

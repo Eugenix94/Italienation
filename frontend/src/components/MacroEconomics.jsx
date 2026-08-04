@@ -1,7 +1,7 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar } from 'recharts';
 import { T } from './T';
-import { demographic_collapse, pnrr_spending, pension_gap } from '../assets/macro_metrics.json';
+import { demographic_collapse, pnrr_spending, pension_gap, tfp_stagnation, dependency_ratio } from '../assets/macro_metrics.json';
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
@@ -89,6 +89,55 @@ export default function MacroEconomics() {
                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
                 <Bar dataKey="expected_pension_eur" name="Expected Monthly Pension (€)" fill="#4f46e5" radius={[0, 4, 4, 0]} />
               </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 mt-8">
+        {/* TFP Stagnation */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <h3 className="text-xl font-bold text-white mb-2">
+            <T it="Stagnazione Produttività (TFP)" en="Total Factor Productivity (TFP) Stagnation" />
+          </h3>
+          <p className="text-sm text-zinc-400 mb-6">
+            <T it="Indice base 100 nel 2000. Il capitale umano non valorizzato frena la crescita." en="Index base 100 in 2000. Unutilized human capital stifles growth." />
+          </p>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <AreaChart data={tfp_stagnation} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                <XAxis dataKey="year" stroke="#888" />
+                <YAxis domain={[95, 125]} stroke="#888" />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Area type="monotone" dataKey="germany" name="Germany" stroke="#10b981" fill="none" strokeWidth={3} />
+                <Area type="monotone" dataKey="france" name="France" stroke="#3b82f6" fill="none" strokeWidth={3} />
+                <Area type="monotone" dataKey="italy" name="Italy" stroke="#f43f5e" fill="#f43f5e" fillOpacity={0.2} strokeWidth={4} />
+              </AreaChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Dependency Ratio */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <h3 className="text-xl font-bold text-white mb-2">
+            <T it="Rapporto di Dipendenza Pensionistica" en="Pension Dependency Ratio" />
+          </h3>
+          <p className="text-sm text-zinc-400 mb-6">
+            <T it="Lavoratori attivi per pensionato. Soglia critica di sostenibilità a 1.5" en="Active workers per retiree. Critical sustainability threshold at 1.5" />
+          </p>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <AreaChart data={dependency_ratio} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                <XAxis dataKey="year" stroke="#888" />
+                <YAxis domain={[0.5, 2.5]} stroke="#888" />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Area type="monotone" dataKey="sustainability_threshold" name="Sustainability Threshold" stroke="#f59e0b" strokeDasharray="5 5" fill="none" strokeWidth={2} />
+                <Area type="monotone" dataKey="workers_per_retiree" name="Workers per Retiree" stroke="#4f46e5" fill="#4f46e5" fillOpacity={0.3} strokeWidth={3} />
+              </AreaChart>
             </ResponsiveContainer>
           </div>
         </div>

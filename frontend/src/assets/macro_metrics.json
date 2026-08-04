@@ -16,5 +16,22 @@
     { "track": "Liceo", "avg_career_entry_age": 26, "expected_pension_eur": 2100 },
     { "track": "Istituto Tecnico", "avg_career_entry_age": 22, "expected_pension_eur": 1500 },
     { "track": "Istituto Professionale", "avg_career_entry_age": 24, "expected_pension_eur": 850 }
+  ],
+  "tfp_stagnation": [
+    { "year": 2000, "italy": 100, "germany": 100, "france": 100 },
+    { "year": 2005, "italy": 100.5, "germany": 105.2, "france": 104.8 },
+    { "year": 2010, "italy": 99.1, "germany": 108.7, "france": 107.5 },
+    { "year": 2015, "italy": 99.8, "germany": 113.4, "france": 110.2 },
+    { "year": 2020, "italy": 98.5, "germany": 116.1, "france": 113.5 },
+    { "year": 2024, "italy": 101.2, "germany": 119.8, "france": 116.7 }
+  ],
+  "dependency_ratio": [
+    { "year": 1990, "workers_per_retiree": 2.10, "sustainability_threshold": 1.5 },
+    { "year": 2000, "workers_per_retiree": 1.85, "sustainability_threshold": 1.5 },
+    { "year": 2010, "workers_per_retiree": 1.62, "sustainability_threshold": 1.5 },
+    { "year": 2020, "workers_per_retiree": 1.41, "sustainability_threshold": 1.5 },
+    { "year": 2030, "workers_per_retiree": 1.15, "sustainability_threshold": 1.5 },
+    { "year": 2040, "workers_per_retiree": 0.95, "sustainability_threshold": 1.5 },
+    { "year": 2050, "workers_per_retiree": 0.85, "sustainability_threshold": 1.5 }
   ]
 }

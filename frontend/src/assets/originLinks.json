@@ -1,5 +1,5 @@
 {
-  "federconsumatori_textbook_corredo_costs": "https://www.federconsumatori.it/caro-scuola-2024-2025-aumenti-a-dismisura-su-libri-e-materiale-scolastico/",
+  "federconsumatori_textbook_corredo_costs": "https://www.federconsumatori.it/",
   "istat_asili_nido_coverage_panel": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1",
   "istat_eurostat_gini_inequality_panel": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1",
   "istat_household_income_by_region": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1",
@@ -7,7 +7,7 @@
   "macro_household_out_of_pocket_costs": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1",
   "macro_infrastructure_demographics_panel": "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/",
   "oecd_teacher_demographics": "https://data-explorer.oecd.org/",
-  "subject_textbook_costs_by_track_2026": "https://www.federconsumatori.it/caro-scuola-2024-2025-aumenti-a-dismisura-su-libri-e-materiale-scolastico/",
+  "subject_textbook_costs_by_track_2026": "https://www.federconsumatori.it/",
   "full_2026_2027_curriculum_matrix": "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/",
   "invalsi_overall_performance": "https://invalsi-serviziostatistico.cineca.it/",
   "istat_bocciati_rimandati_rates": "https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/ALL_THEMES/IT1",

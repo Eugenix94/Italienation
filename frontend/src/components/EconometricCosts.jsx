@@ -8,7 +8,11 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  ResponsiveContainer
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  CartesianGrid,
+  Legend
 } from 'recharts';
 import { T } from "./T";
 import SectionContext from "./SectionContext";
@@ -38,10 +42,10 @@ const CustomTooltip = ({ active, payload }) => {
 const EconometricCosts = () => {
   const [lostGdpSeconds, setLostGdpSeconds] = React.useState(0);
 
-  // Real-time ticker for lost GDP (€259B/yr ÷ 31.5M seconds = ~€8,213/sec)
+  // Real-time ticker for lost GDP (€251.4B/yr ÷ 31.5M seconds = ~€7,980/sec)
   React.useEffect(() => {
     const timer = setInterval(() => {
-      setLostGdpSeconds(prev => prev + 8213);
+      setLostGdpSeconds(prev => prev + 7980);
     }, 1000);
     return () => clearInterval(timer);
   }, []);
@@ -110,7 +114,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.brain_drain.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "SVIMEZ",
-      url: "https://www.svimez.info/rapporto/"
+      url: "https://www.svimez.info/rapporti/"
     },
     {
       id: 'mismatch',
@@ -123,7 +127,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.skills_mismatch.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "Unioncamere",
-      url: "https://excelsior.unioncamere.net/indagine-excelsior"
+      url: "https://excelsior.unioncamere.net/"
     },
     {
       id: 'bocciatura',
@@ -187,7 +191,7 @@ const EconometricCosts = () => {
       itVs: 'L\'Italia è l\'unica in Europa',
       enVs: 'Italy is the only one in Europe',
       source: "Eurydice",
-      url: "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/assessment"
+      url: "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/overview"
     },
     {
       icon: 'Briefcase',
@@ -199,7 +203,7 @@ const EconometricCosts = () => {
       itVs: '-45% divario salariale',
       enVs: '-45% wage gap',
       source: "ISTAT / INPS",
-      url: "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici/osservatorio-sul-precariato.html"
+      url: "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html"
     },
     {
       icon: 'Scale',
@@ -211,7 +215,7 @@ const EconometricCosts = () => {
       itVs: 'Il background familiare predice il successo',
       enVs: 'Family background predicts success',
       source: "Transparency Intl",
-      url: "https://www.transparency.org/en/cpi/2023"
+      url: "https://www.transparency.org/en/cpi"
     }
   ];
 
@@ -241,17 +245,17 @@ const EconometricCosts = () => {
           
           <div className="mt-8 mb-6">
             <p className="text-4xl sm:text-6xl md:text-8xl font-black bg-gradient-to-r from-rose-500 via-rose-400 to-orange-400 bg-clip-text text-transparent drop-shadow-sm">
-              €259 <span className="text-3xl sm:text-4xl md:text-6xl text-zinc-400 font-bold">Billion</span>
+              €251.4 <span className="text-3xl sm:text-4xl md:text-6xl text-zinc-400 font-bold">Billion</span>
             </p>
             <p className="text-lg sm:text-xl md:text-2xl text-zinc-400 font-medium mt-2 mb-4">
-              <T it="~13.5% del PIL Italiano ogni anno" en="~13.5% of Italian GDP annually" />
+              <T it="~13.0% del PIL Italiano ogni anno" en="~13.0% of Italian GDP annually" />
             </p>
             <div className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-zinc-900 border border-rose-500/30 rounded-xl text-rose-400 font-mono text-sm sm:text-base shadow-[0_0_20px_rgba(244,63,94,0.15)] relative group cursor-help">
                <TrendingDown size={18} className="animate-pulse" /> 
                <span>Costo PIL: <span className="font-bold">+€{lostGdpSeconds.toLocaleString()}</span>/session</span>
                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-zinc-900 border border-zinc-700 text-zinc-300 text-xs p-3 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
                   <p className="font-bold text-rose-400 mb-1"><T it="Il Costo del Fallimento" en="The Cost of Failure" /></p>
-                  <p><T it="Calcolo in tempo reale: €259 Miliardi / anno = ~8.213 € persi ogni secondo." en="Real-time calculation: €259 Billion / year = ~€8,213 lost every second." /></p>
+                  <p><T it="Calcolo in tempo reale: €251.4 Miliardi / anno = ~7.980 € persi ogni secondo." en="Real-time calculation: €251.4 Billion / year = ~€7,980 lost every second." /></p>
                 </div>
             </div>
           </div>
@@ -282,8 +286,8 @@ const EconometricCosts = () => {
           <div className="h-24 w-full bg-white/[0.02] border border-white/5 rounded-2xl p-4 mb-10" aria-hidden="false">
             <span className="sr-only">
               <T 
-                it="Grafico a barre orizzontali in pila che illustra la ripartizione dei €259 miliardi di costi annuali." 
-                en="Stacked horizontal bar chart illustrating the breakdown of the €259 billion annual costs." 
+                it="Grafico a barre orizzontali in pila che illustra la ripartizione dei €251.4 miliardi di costi annuali." 
+                en="Stacked horizontal bar chart illustrating the breakdown of the €251.4 billion annual costs." 
               />
             </span>
             <ResponsiveContainer width="100%" height="100%">
@@ -355,6 +359,42 @@ const EconometricCosts = () => {
             itText="Tutti i costi macroeconomici presentati in questa sezione sono stime per difetto derivate esclusivamente da fonti ufficiali o report accademici consolidati (2023-2026). La visualizzazione non include i costi intangibili a lungo termine legati alla disuguaglianza sociale."
             enText="All macroeconomic costs presented in this section are conservative estimates derived exclusively from official sources or consolidated academic reports (2023-2026). The visualization does not include long-term intangible costs related to social inequality."
           />
+        </motion.div>
+      </section>
+
+      {/* GDP Divergence Section */}
+      <section className="py-16 px-6 lg:px-8 max-w-7xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="mb-8">
+            <h2 className="text-3xl font-bold mb-4 text-zinc-100">
+              <T it="Divergenza del PIL (Italia vs EU)" en="GDP Divergence (Italy vs EU)" />
+            </h2>
+            <p className="text-zinc-400 max-w-3xl">
+              <T 
+                it="L'effetto cumulato della perdita di capitale umano si manifesta in una progressiva divergenza del PIL pro capite italiano rispetto alla media europea dal 2000 in poi." 
+                en="The cumulative effect of human capital loss manifests in a progressive divergence of Italian GDP per capita compared to the European average since 2000." 
+              />
+            </p>
+          </div>
+
+          <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl h-96">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={costData.gdp_divergence} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                <XAxis dataKey="year" stroke="#888" />
+                <YAxis stroke="#888" domain={['auto', 'auto']} tickFormatter={(val) => `€${val/1000}k`} />
+                <Tooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Line type="monotone" dataKey="eu_avg_gdp_pc" name="EU Average GDP per capita" stroke="#10b981" strokeWidth={3} dot={{ r: 4, fill: '#10b981' }} />
+                <Line type="monotone" dataKey="italy_gdp_pc" name="Italy GDP per capita" stroke="#f43f5e" strokeWidth={4} dot={{ r: 5, fill: '#f43f5e' }} />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
         </motion.div>
       </section>
 
