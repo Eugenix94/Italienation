@@ -40,14 +40,15 @@ body {
   font-family: var(--font);
   background: var(--color-bg);
   color: var(--color-text);
-  line-height: 1.6;
+  line-height: 1.8;
+  font-size: 1.1rem;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
 .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
 
-.section { padding: 6rem 0; }
+.section { padding: 8rem 0; }
 
 a { color: var(--color-accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
