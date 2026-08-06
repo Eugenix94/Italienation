@@ -47,7 +47,7 @@ export default function DemographicFallout() {
           <BrainCircuit className="w-10 h-10 text-rose-500" />
           <T it="Ricadute Sociali e Demografiche" en="Social & Demographic Fallout" />
         </h2>
-        <p className="text-zinc-400 max-w-3xl text-lg">
+        <p className="text-zinc-300 max-w-3xl text-lg">
           <T 
             it="Un sistema educativo e lavorativo disfunzionale non produce solo danni economici, ma genera profonde fratture sociali. Dall'ansia scolastica, all'impossibilità di emancipazione abitativa, fino alla penalizzazione strutturale della maternità." 
             en="A dysfunctional educational and labor system doesn't just produce economic damage; it generates deep social fractures. From school anxiety, to the impossibility of housing emancipation, to the structural penalty of motherhood." 
@@ -55,7 +55,7 @@ export default function DemographicFallout() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         
         {/* 1. Mental Health (OECD PISA) */}
         <motion.div 
@@ -68,12 +68,12 @@ export default function DemographicFallout() {
             <BrainCircuit className="w-32 h-32 text-rose-500" />
           </div>
           
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4 relative z-10">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4 relative z-10">
             <div>
               <h3 className="text-2xl font-bold text-white flex items-center gap-2">
                 <T it="L'Ansia da Prestazione (PISA)" en="Performance Anxiety (PISA)" />
               </h3>
-              <p className="text-zinc-400 text-sm mt-1 max-w-2xl">
+              <p className="text-zinc-300 text-sm mt-1 max-w-2xl">
                 {anxiety_pisa.description}
               </p>
             </div>
@@ -81,14 +81,14 @@ export default function DemographicFallout() {
               href={anxiety_pisa.source_url} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-xs font-semibold bg-rose-500/10 text-rose-400 px-3 py-1.5 rounded-lg hover:bg-rose-500/20 transition-colors border border-rose-500/20"
+              className="flex items-center gap-2 text-sm font-semibold bg-rose-500/10 text-rose-400 px-3 py-1.5 rounded-lg hover:bg-rose-500/20 transition-colors border border-rose-500/20"
             >
               <ExternalLink size={14} />
               OECD PISA Well-being
             </a>
           </div>
 
-          <div className="h-[300px] w-full">
+          <div className="h-[380px] w-full">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={anxiety_pisa.data} layout="vertical" margin={{ top: 20, right: 30, left: 40, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#3f3f46" horizontal={false} />
@@ -117,27 +117,27 @@ export default function DemographicFallout() {
             <Home className="w-24 h-24 text-amber-500" />
           </div>
 
-          <div className="flex flex-col justify-between mb-6 gap-2 relative z-10">
+          <div className="flex flex-col justify-between mb-8 gap-2 relative z-10">
             <h3 className="text-xl font-bold text-white flex items-center gap-2">
               <T it="Crisi Abitativa Giovanile" en="Youth Housing Crisis" />
             </h3>
-            <p className="text-zinc-400 text-xs">
+            <p className="text-zinc-300 text-sm">
               {housing_overburden.description}
             </p>
             <a 
               href={housing_overburden.source_url} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex w-max items-center gap-2 text-xs font-semibold bg-amber-500/10 text-amber-400 px-2 py-1 rounded hover:bg-amber-500/20 transition-colors mt-2"
+              className="inline-flex w-max items-center gap-2 text-sm font-semibold bg-amber-500/10 text-amber-400 px-2 py-1 rounded hover:bg-amber-500/20 transition-colors mt-2"
             >
               <ExternalLink size={12} />
               Eurostat ilc_lvho07a
             </a>
           </div>
 
-          <div className="h-[250px] w-full mt-4">
+          <div className="h-[350px] w-full mt-4">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={housing_overburden.data} margin={{ top: 10, right: 10, left: -20, bottom: 25 }}>
+              <BarChart data={housing_overburden.data} margin={{ top: 10, right: 10, left: -20, bottom: 60 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#3f3f46" vertical={false} />
                 <XAxis dataKey="country" tick={{ fill: '#a1a1aa', fontSize: 12 }} angle={-45} textAnchor="end" />
                 <YAxis tick={{ fill: '#a1a1aa', fontSize: 12 }} unit="%" />
@@ -163,27 +163,27 @@ export default function DemographicFallout() {
             <Baby className="w-24 h-24 text-emerald-500" />
           </div>
 
-          <div className="flex flex-col justify-between mb-6 gap-2 relative z-10">
+          <div className="flex flex-col justify-between mb-8 gap-2 relative z-10">
             <h3 className="text-xl font-bold text-white flex items-center gap-2">
               <T it="Penalizzazione della Maternità" en="The Motherhood Penalty" />
             </h3>
-            <p className="text-zinc-400 text-xs">
+            <p className="text-zinc-300 text-sm">
               {motherhood_penalty.description}
             </p>
             <a 
               href={motherhood_penalty.source_url} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex w-max items-center gap-2 text-xs font-semibold bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded hover:bg-emerald-500/20 transition-colors mt-2"
+              className="inline-flex w-max items-center gap-2 text-sm font-semibold bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded hover:bg-emerald-500/20 transition-colors mt-2"
             >
               <ExternalLink size={12} />
               ISTAT Rapporto Annuale
             </a>
           </div>
 
-          <div className="h-[250px] w-full mt-4">
+          <div className="h-[350px] w-full mt-4">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={motherhood_penalty.data} margin={{ top: 10, right: 10, left: -20, bottom: 25 }}>
+              <BarChart data={motherhood_penalty.data} margin={{ top: 10, right: 10, left: -20, bottom: 60 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#3f3f46" vertical={false} />
                 <XAxis dataKey="region" tick={{ fill: '#a1a1aa', fontSize: 12 }} angle={-45} textAnchor="end" />
                 <YAxis tick={{ fill: '#a1a1aa', fontSize: 12 }} unit="%" domain={[0, 80]} />
@@ -192,6 +192,18 @@ export default function DemographicFallout() {
                 <Bar dataKey="tempo_pieno_coverage" name="Copertura Tempo Pieno" fill="#3f3f46" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
+          </div>
+          
+          <div className="mt-8 bg-zinc-800/50 border border-emerald-500/30 p-4 rounded-xl">
+            <p className="text-emerald-400 font-semibold text-sm mb-1">
+              <T it="💡 Punto Chiave" en="💡 Key Insight" />
+            </p>
+            <p className="text-zinc-300 text-sm">
+              <T 
+                it="Nel Sud Italia, solo il 35% delle madri ha un'occupazione contro il 65% del Nord. La mancanza di infrastrutture per il tempo pieno a scuola costringe le donne a scegliere tra carriera e famiglia — un problema strutturale, non culturale." 
+                en="In Southern Italy, only 35% of mothers are employed vs 65% in the North. The lack of full-time school (tempo pieno) infrastructure forces women to choose between career and family — a structural, not cultural, problem." 
+              />
+            </p>
           </div>
         </motion.div>
 

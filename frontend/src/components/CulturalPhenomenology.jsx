@@ -79,7 +79,7 @@ export default function CulturalPhenomenology() {
             />
           </p>
 
-          <div className="h-72 bg-black/20 rounded-2xl border border-white/5 p-4 relative">
+          <div className="h-80 bg-black/20 rounded-2xl border border-white/5 p-4 relative">
             <ResponsiveContainer width="100%" height="100%">
               <RadarChart cx="50%" cy="50%" outerRadius="75%" data={oral_exams_variance}>
                 <PolarGrid stroke="#3f3f46" strokeDasharray="3 3" />
@@ -126,7 +126,7 @@ export default function CulturalPhenomenology() {
             />
           </p>
 
-          <div className="h-72 bg-black/20 rounded-2xl border border-white/5 p-4 relative">
+          <div className="h-80 bg-black/20 rounded-2xl border border-white/5 p-4 relative">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={nepotism_perception} layout="vertical" margin={{ top: 10, right: 30, left: 10, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" horizontal={false} />
@@ -175,7 +175,7 @@ export default function CulturalPhenomenology() {
             />
           </p>
 
-          <div className="h-72 bg-black/20 rounded-2xl border border-white/5 p-4 relative pt-8">
+          <div className="h-80 bg-black/20 rounded-2xl border border-white/5 p-4 relative pt-8">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={first_job_connections} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
@@ -224,7 +224,7 @@ export default function CulturalPhenomenology() {
             />
           </p>
 
-          <div className="h-72 bg-black/20 rounded-2xl border border-white/5 p-4 relative pt-8">
+          <div className="h-80 bg-black/20 rounded-2xl border border-white/5 p-4 relative pt-8">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={social_mobility_index} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />

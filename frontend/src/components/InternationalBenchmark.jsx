@@ -33,6 +33,12 @@ export default function InternationalBenchmark() {
             en="European comparison of tracking age and its associated impact on dropout rates (NEET)." 
           />
         </p>
+        <p className="text-zinc-300 mt-4 leading-relaxed text-left">
+          <T
+            it="Il 'tracking age' è l'età in cui un sistema scolastico smista per la prima volta gli studenti in percorsi diversi (es. liceo, tecnico, professionale). La ricerca mostra che un tracking precoce è fortemente correlato a maggiore disuguaglianza e dispersione."
+            en="'Tracking age' is the age at which a school system first sorts students into different paths (e.g., academic, technical, vocational). Research shows that early tracking strongly correlates with higher inequality and dropout rates."
+          />
+        </p>
       </div>
       <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl w-full">
         <div className="flex justify-end mb-4">
@@ -52,6 +58,16 @@ export default function InternationalBenchmark() {
             </ComposedChart>
           </ResponsiveContainer>
         </div>
+      </div>
+      
+      <div className="bg-indigo-500/10 border border-indigo-500/20 p-6 rounded-2xl mt-8">
+        <h4 className="text-indigo-400 font-bold mb-2">Key Insight</h4>
+        <p className="text-zinc-300">
+          <T
+            it="L'Italia smista gli studenti a 14 anni — tra i primissimi in Europa. I paesi che posticipano il tracking a 16+ anni (Finlandia, Svezia) hanno costantemente tassi di NEET inferiori e una maggiore mobilità sociale."
+            en="Italy tracks students at age 14 — among the earliest in Europe. Countries that delay tracking until 16+ (Finland, Sweden) consistently have lower NEET rates and higher social mobility."
+          />
+        </p>
       </div>
     </div>
   );

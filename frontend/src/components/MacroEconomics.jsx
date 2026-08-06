@@ -24,20 +24,26 @@ const COLORS = ['#4f46e5', '#10b981', '#f59e0b', '#f43f5e'];
 
 export default function MacroEconomics() {
   return (
-    <div className="space-y-12 pb-24 border-b border-zinc-800">
+    <div className="space-y-16 pb-24 border-b border-zinc-800">
       <div className="text-center max-w-3xl mx-auto mb-12">
         <h2 className="text-3xl font-bold text-white mb-4">
           <T it="Macro-Economia e Demografia" en="Macro-Economics and Demographics" />
         </h2>
-        <p className="text-zinc-400 text-lg">
+        <p className="text-zinc-400 text-lg mb-6">
           <T 
             it="Contesto macro-strutturale: crollo demografico, distribuzione dei fondi PNRR e divari pensionistici." 
             en="Macro-structural context: demographic collapse, PNRR fund distribution, and pension gaps." 
           />
         </p>
+        <p className="text-zinc-300 text-base leading-relaxed">
+          <T 
+            it="Questi indicatori macroeconomici non sono entità astratte: sono le conseguenze dirette e le cause scatenanti del fallimento del sistema educativo. Il mancato investimento nel capitale umano si traduce in stagnazione della produttività, crisi fiscale, e impossibilità di sostenere il patto intergenerazionale." 
+            en="These macroeconomic indicators are not abstract entities: they are the direct consequences and root causes of the educational system's failure. The lack of investment in human capital translates into productivity stagnation, fiscal crises, and the impossibility of sustaining the intergenerational pact." 
+          />
+        </p>
       </div>
       
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl lg:col-span-2">
           <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
             <h3 className="text-xl font-bold text-white">
@@ -45,7 +51,7 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="ISTAT / MUR" year="2023" />
           </div>
-          <div className="h-[400px]">
+          <div className="h-[450px]">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={demographic_collapse} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" />
@@ -68,7 +74,7 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="OpenPNRR" year="2024" />
           </div>
-          <div className="h-80">
+          <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie data={pnrr_spending} dataKey="allocation_pct" nameKey="category" cx="50%" cy="50%" outerRadius={100} label={(entry) => `${entry.allocation_pct}%`}>
@@ -89,7 +95,7 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="INPS / Cnel" year="2023" />
           </div>
-          <div className="h-80">
+          <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={pension_gap} margin={{ top: 20, right: 30, left: 20, bottom: 5 }} layout="vertical">
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" horizontal={false} />
@@ -104,7 +110,7 @@ export default function MacroEconomics() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 mt-8">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-12 mt-8">
         {/* TFP Stagnation */}
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
           <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-2">
@@ -113,10 +119,10 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="Bank of Italy / OECD" year="2024" />
           </div>
-          <p className="text-sm text-zinc-400 mb-6">
+          <p className="text-sm text-zinc-300 mb-8">
             <T it="Indice base 100 nel 2000. Il capitale umano non valorizzato frena la crescita." en="Index base 100 in 2000. Unutilized human capital stifles growth." />
           </p>
-          <div className="h-80">
+          <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={tfp_stagnation} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" />
@@ -140,10 +146,10 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="ISTAT" year="2024" />
           </div>
-          <p className="text-sm text-zinc-400 mb-6">
+          <p className="text-sm text-zinc-300 mb-8">
             <T it="Lavoratori attivi per pensionato. Soglia critica di sostenibilità a 1.5" en="Active workers per retiree. Critical sustainability threshold at 1.5" />
           </p>
-          <div className="h-80">
+          <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={dependency_ratio} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" />
@@ -159,7 +165,7 @@ export default function MacroEconomics() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-8">
         {/* Cuneo Fiscale */}
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
           <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-2">
@@ -168,14 +174,14 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="OECD" year="2023" />
           </div>
-          <p className="text-sm text-zinc-400 mb-6">
+          <p className="text-sm text-zinc-300 mb-8">
             <T it="Percentuale di prelievo fiscale sul lavoro. Uno dei più alti in area OCSE." en="Percentage of tax burden on labor. One of the highest in the OECD area." />
           </p>
-          <div className="h-80">
+          <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={tax_wedge_comparison} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+              <BarChart data={tax_wedge_comparison} margin={{ top: 20, right: 30, left: 0, bottom: 40 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
-                <XAxis dataKey="country" stroke="#888" tick={{ fontSize: 12 }} interval={0} />
+                <XAxis dataKey="country" stroke="#888" tick={{ fontSize: 12 }} interval={0} angle={-45} textAnchor="end" />
                 <YAxis stroke="#888" domain={[0, 50]} tickFormatter={(val) => `${val}%`} />
                 <RechartsTooltip content={<CustomTooltip />} />
                 <Bar dataKey="tax_wedge_pct" name="Tax Wedge (%)" radius={[4, 4, 0, 0]}>
@@ -196,10 +202,10 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="World Bank" year="2024" />
           </div>
-          <p className="text-sm text-zinc-400 mb-6">
+          <p className="text-sm text-zinc-300 mb-8">
             <T it="PIL reale pro capite (Indice 100 = 2000). 25 anni di mancata crescita." en="Real GDP per capita (Index 100 = 2000). 25 years of lost growth." />
           </p>
-          <div className="h-80">
+          <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={real_gdp_growth} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" />
@@ -222,10 +228,10 @@ export default function MacroEconomics() {
             </h3>
             <SourceBadge agency="SVIMEZ / ISTAT" year="2023" />
           </div>
-          <p className="text-sm text-zinc-400 mb-6">
+          <p className="text-sm text-zinc-300 mb-8">
             <T it="Laureati italiani emigrati (in migliaia). L'istruzione come export a perdere." en="Emigrated Italian graduates (in thousands). Education as a loss-making export." />
           </p>
-          <div className="h-80">
+          <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={brain_drain_migration} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" />

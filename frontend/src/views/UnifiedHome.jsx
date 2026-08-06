@@ -175,22 +175,25 @@ export default function UnifiedHome() {
         <div className="flex-1 w-full overflow-hidden relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 lg:pt-16 pb-24">
             
-            <div className="w-full space-y-32">
+            <div className="w-full space-y-40">
                 <section id="struttura" ref={el => sectionRefs.current['struttura'] = el} className="scroll-mt-24 space-y-32">
                   <StructuralOutcomes />
                   <AngloAmericanComparison />
                   <ReligiousOptOut />
                   <InternationalBenchmark />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="simulator" ref={el => sectionRefs.current['simulator'] = el} className="scroll-mt-24">
                   <TripartiteSimulator />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="map" ref={el => sectionRefs.current['map'] = el} className="scroll-mt-24 space-y-24">
                   <TerritorialMap />
                   <GISMap />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="analysis" ref={el => sectionRefs.current['analysis'] = el} className="scroll-mt-24 space-y-24">
                   <FlowDynamics />
@@ -199,28 +202,34 @@ export default function UnifiedHome() {
                   <SystemicDeepDives />
                   <EU27PESComparison />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="macro" ref={el => sectionRefs.current['macro'] = el} className="scroll-mt-24 space-y-24">
                   <EconometricCosts />
                   <MacroEconomics />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="fallout" ref={el => sectionRefs.current['fallout'] = el} className="scroll-mt-24 space-y-24">
                   <DemographicFallout />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="collapse" ref={el => sectionRefs.current['collapse'] = el} className="scroll-mt-24 space-y-24">
                   <SystemicCollapse />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="deepdives" ref={el => sectionRefs.current['deepdives'] = el} className="scroll-mt-24 space-y-24">
                   <StructuralDeepDives />
                   <CulturalPhenomenology />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
                 
                 <section id="methodology" ref={el => sectionRefs.current['methodology'] = el} className="scroll-mt-24">
                   <MethodologyNotebooks />
                 </section>
+                <div className="border-t border-zinc-800/50 my-8" />
 
                 <section id="data" ref={el => sectionRefs.current['data'] = el} className="scroll-mt-24 space-y-24">
                   <ScrollyDataHub />
