@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 import * as LucideIcons from 'lucide-react';
 import { Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
 
@@ -34,12 +35,15 @@ export default function AngloAmericanComparison() {
         <h2 className="text-3xl font-bold text-white mb-4">
           <T it="Complessità dell'Orientamento: Italia vs Modello Anglosassone" en="Orientation Complexity: Italy vs Anglo-American Model" />
         </h2>
-        <p className="text-zinc-400 text-lg">
+        <p className="text-zinc-400 text-lg mb-6">
           <T 
             it="Un confronto tra la rigidità del modello a binari paralleli italiano e la flessibilità del modello comprensivo anglosassone." 
             en="A comparison between the rigidity of the Italian parallel-track model and the flexibility of the Anglo-American comprehensive model." 
           />
         </p>
+        <div className="flex justify-center">
+          <SourceBadge agency="Eurydice / OECD" year="2023" />
+        </div>
       </div>
 
       <div className="bg-white/[0.02] border border-white/5 rounded-3xl p-1 overflow-hidden shadow-2xl">

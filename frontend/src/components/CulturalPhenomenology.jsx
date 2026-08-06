@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 import { motion } from 'framer-motion';
 import { MessageCircle, Users, Scale, Briefcase, GraduationCap } from 'lucide-react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, LineChart, Line } from 'recharts';
@@ -95,6 +96,9 @@ export default function CulturalPhenomenology() {
             <span className="flex items-center gap-2 text-indigo-300"><div className="w-3 h-3 bg-indigo-500 rounded-full shadow-[0_0_10px_rgba(99,102,241,0.5)]" /><T it="Varianza Orale" en="Oral Variance" /></span>
             <span className="flex items-center gap-2 text-emerald-400"><div className="w-3 h-3 bg-emerald-500 rounded-full shadow-[0_0_10px_rgba(16,185,129,0.5)]" /><T it="Varianza Scritta" en="Written Variance" /></span>
           </div>
+          <div className="flex justify-center mt-8">
+            <SourceBadge agency="OECD / INVALSI" year="2023" />
+          </div>
         </motion.div>
 
         {/* 2. Nepotism Card */}
@@ -141,9 +145,9 @@ export default function CulturalPhenomenology() {
               </BarChart>
             </ResponsiveContainer>
           </div>
-          <p className="text-center text-xs text-zinc-400 mt-6 uppercase tracking-wider font-semibold">
-            <T it="% che ritiene essenziale avere 'raccomandazioni'" en="% believing 'knowing the right people' is essential" />
-          </p>
+          <div className="flex justify-center mt-6">
+            <SourceBadge agency="Eurobarometro" year="2023" />
+          </div>
         </motion.div>
 
         {/* 3. Job Connections Card */}
@@ -190,9 +194,9 @@ export default function CulturalPhenomenology() {
               </BarChart>
             </ResponsiveContainer>
           </div>
-          <p className="text-center text-xs text-zinc-400 mt-6 uppercase tracking-wider font-semibold">
-            <T it="Fonte: Eurobarometro" en="Source: Eurobarometer" />
-          </p>
+          <div className="flex justify-center mt-6">
+            <SourceBadge agency="Eurobarometro" year="2024" />
+          </div>
         </motion.div>
 
         {/* 4. Social Mobility Card */}
@@ -234,9 +238,9 @@ export default function CulturalPhenomenology() {
               </LineChart>
             </ResponsiveContainer>
           </div>
-          <p className="text-center text-xs text-zinc-400 mt-6 uppercase tracking-wider font-semibold">
-            <T it="Fonte: World Bank Global Database" en="Source: World Bank Global Database" />
-          </p>
+          <div className="flex justify-center mt-6">
+            <SourceBadge agency="World Bank Global Database" year="2023" />
+          </div>
         </motion.div>
 
       </div>

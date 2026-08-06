@@ -1,6 +1,7 @@
 import React from 'react';
 import { ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer } from 'recharts';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 import eurydiceData from '../assets/master_eurydice_comparison.json';
 
 const CustomTooltip = ({ active, payload, label }) => {
@@ -34,6 +35,9 @@ export default function InternationalBenchmark() {
         </p>
       </div>
       <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl w-full">
+        <div className="flex justify-end mb-4">
+           <SourceBadge agency="Eurydice / Eurostat" year="2022" />
+        </div>
         <div className="h-[500px]">
           <ResponsiveContainer width="100%" height="100%">
             <ComposedChart data={eurydiceData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>

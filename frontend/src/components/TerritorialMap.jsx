@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import { motion } from 'framer-motion';
 import { MapPin, Info, AlertTriangle } from 'lucide-react';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 import ediliziaData from '../../public/data/edilizia_scolastica.json';
 
 export default function TerritorialMap() {
@@ -153,8 +154,9 @@ export default function TerritorialMap() {
           >
             {activeRegion ? (
               <div className="space-y-6">
-                <h3 className="text-3xl font-bold text-white border-b border-zinc-800 pb-4">
-                  {activeRegion.name}
+                <h3 className="text-3xl font-bold text-white border-b border-zinc-800 pb-4 flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4">
+                  <span>{activeRegion.name}</span>
+                  <SourceBadge agency="ISTAT / MUR" year="2023" />
                 </h3>
                 
                 <div className="space-y-4">

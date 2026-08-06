@@ -1,9 +1,31 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Building2, Search, ShieldCheck, Database, Building, UserCheck } from 'lucide-react';
+import { Building2, Search, ShieldCheck, Database, Building, UserCheck, ExternalLink } from 'lucide-react';
+import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
 import pesData from '../assets/eu27_pes_comparison.json';
+
+import L from 'leaflet';
+import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
+import markerIcon from 'leaflet/dist/images/marker-icon.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconUrl: markerIcon,
+  iconRetinaUrl: markerIcon2x,
+  shadowUrl: markerShadow,
+});
+
+function MapUpdater({ center, zoom }) {
+  const map = useMap();
+  React.useEffect(() => {
+    map.setView(center, zoom);
+  }, [center, zoom, map]);
+  return null;
+}
 
 const getBadgeColor = (value, type) => {
   if (type === 'governance') {
@@ -139,6 +161,18 @@ const DynamicCompareCard = ({ countryData, isItaly }) => {
           </div>
         </li>
       </ul>
+
+      {countryData.url && (
+        <a 
+          href={countryData.url} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className={`mt-6 flex items-center justify-center gap-2 w-full py-2.5 rounded-lg border border-${baseColor}-500/30 text-${baseColor}-400 hover:bg-${baseColor}-500/10 transition-colors text-sm font-bold`}
+        >
+          <ExternalLink className="w-4 h-4" />
+          <T it="Visita il Sito Ufficiale" en="Visit Official Site" />
+        </a>
+      )}
     </motion.div>
   );
 };
@@ -166,12 +200,21 @@ export default function EU27PESComparison() {
             <Building2 className="w-8 h-8 text-indigo-400" />
             <T it="Servizi Pubblici per l'Impiego EU27" en="EU27 Public Employment Services" />
           </h2>
-          <p className="text-zinc-400 max-w-3xl text-lg">
+          <p className="text-zinc-400 max-w-3xl text-lg mb-4">
             <T 
               it="Un'analisi comparativa dei 27 servizi pubblici per l'impiego europei. Seleziona un paese per confrontarne il modello di governance e le performance digitali con il frammentato sistema italiano." 
               en="A comparative analysis of the 27 European public employment services. Select a country to compare its governance model and digital performance against the fragmented Italian system." 
             />
           </p>
+          <a 
+            href="https://employment-social-affairs.ec.europa.eu/policies-and-activities/coordination-employment-and-social-policies/european-network-public-employment-services-pes-network_en" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 font-semibold"
+          >
+            <ExternalLink className="w-4 h-4" />
+            <T it="Rete Europea dei PES (Fonte Ufficiale EC)" en="European PES Network (Official EC Source)" />
+          </a>
         </div>
 
         {/* Controls */}
@@ -192,6 +235,57 @@ export default function EU27PESComparison() {
           <SourceBadge agency="EU PES Network" topicKey="pes" />
         </div>
 
+        {/* Map Visualization */}
+        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl h-[400px] mb-8 relative z-0">
+          <MapContainer center={[50.0, 15.0]} zoom={4} scrollWheelZoom={false} className="w-full h-full bg-zinc-900 z-0">
+            <TileLayer
+              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+              attribution='&copy; OpenStreetMap contributors &copy; CARTO'
+            />
+            {filteredData.map(country => {
+              // Determine color based on Digital Maturity for visual distinction
+              let color = '#3b82f6'; // default blue
+              if (country.digitalMaturity === 'High') color = '#10b981'; // emerald
+              if (country.digitalMaturity === 'Medium') color = '#f59e0b'; // amber
+              if (country.digitalMaturity === 'Low') color = '#f43f5e'; // rose
+              if (country.country === 'Italy') color = '#f43f5e';
+
+              return (
+                <CircleMarker
+                  key={country.country}
+                  center={[country.lat, country.lng]}
+                  radius={country.country === compareCountry ? 12 : 8}
+                  pathOptions={{
+                    color: country.country === compareCountry ? '#fff' : color,
+                    fillColor: color,
+                    fillOpacity: country.country === compareCountry ? 0.9 : 0.6,
+                    weight: country.country === compareCountry ? 3 : 1
+                  }}
+                  eventHandlers={{
+                    click: () => {
+                      if(country.country !== 'Italy') setCompareCountry(country.country);
+                    },
+                  }}
+                >
+                  <Popup className="custom-popup">
+                    <div className="p-2 min-w-[200px]">
+                      <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm flex justify-between">
+                        <span>{country.flag} {country.country}</span>
+                        <span className="text-xs font-normal text-gray-500">{country.pesName}</span>
+                      </h3>
+                      <div className="text-xs space-y-1 mt-2 text-gray-800">
+                        <p><strong>Gov:</strong> {country.governance}</p>
+                        <p><strong>Digital:</strong> {country.digitalMaturity}</p>
+                        <p><strong>Integration:</strong> {country.benefitsIntegration}</p>
+                      </div>
+                    </div>
+                  </Popup>
+                </CircleMarker>
+              );
+            })}
+          </MapContainer>
+        </div>
+
         {/* Table */}
         <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl overflow-hidden mb-16 backdrop-blur-sm">
           <div className="overflow-x-auto overflow-y-auto max-h-[500px] custom-scrollbar">
@@ -200,6 +294,7 @@ export default function EU27PESComparison() {
                 <tr>
                   <th className="px-6 py-4"><T it="Paese" en="Country" /></th>
                   <th className="px-6 py-4"><T it="Nome PES" en="PES Name" /></th>
+                  <th className="px-6 py-4"><T it="Link" en="Link" /></th>
                   <th className="px-6 py-4"><T it="Governance" en="Governance" /></th>
                   <th className="px-6 py-4"><T it="Maturità Digitale" en="Digital Maturity" /></th>
                   <th className="px-6 py-4"><T it="Attivazione" en="Activation Intensity" /></th>
@@ -232,6 +327,13 @@ export default function EU27PESComparison() {
                         <T it={row.country === 'Italy' ? 'Italia' : row.country === 'Spain' ? 'Spagna' : row.country === 'France' ? 'Francia' : row.country === 'Germany' ? 'Germania' : row.country} en={row.country} />
                       </td>
                       <td className="px-6 py-4 text-zinc-300">{row.pesName}</td>
+                      <td className="px-6 py-4">
+                        {row.url && (
+                          <a href={row.url} target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300" title={`Visita ${row.pesName}`}>
+                             <ExternalLink className="w-4 h-4" />
+                          </a>
+                        )}
+                      </td>
                       <td className="px-6 py-4"><ValueBadge value={row.governance} type="governance" /></td>
                       <td className="px-6 py-4"><ValueBadge value={row.digitalMaturity} type="level" /></td>
                       <td className="px-6 py-4"><ValueBadge value={row.activationIntensity} type="level" /></td>

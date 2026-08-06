@@ -1,0 +1,65 @@
+{
+  "anxiety_pisa": {
+    "source_url": "https://gpseducation.oecd.org/IndicatorExplorer?query=3&language=en",
+    "description": "Percentage of 15-year-old students reporting feeling very anxious for a test even if they are well prepared (OECD PISA 2015/2018/2022 well-being volumes).",
+    "data": [
+      { "country": "Italy", "anxiety_pct": 56 },
+      { "country": "Spain", "anxiety_pct": 49 },
+      { "country": "OECD Avg", "anxiety_pct": 37 },
+      { "country": "Germany", "anxiety_pct": 28 },
+      { "country": "Finland", "anxiety_pct": 22 }
+    ]
+  },
+  "housing_overburden": {
+    "source_url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho07a/default/table",
+    "description": "Housing cost overburden rate by age (18-29 years). Percentage of population spending >40% of disposable income on housing.",
+    "data": [
+      { "country": "Greece", "overburden_pct": 28.5 },
+      { "country": "Denmark", "overburden_pct": 20.1 },
+      { "country": "Italy", "overburden_pct": 14.8 },
+      { "country": "Spain", "overburden_pct": 14.3 },
+      { "country": "Germany", "overburden_pct": 13.9 },
+      { "country": "EU Avg", "overburden_pct": 8.7 },
+      { "country": "France", "overburden_pct": 8.0 }
+    ],
+    "context": {
+      "italy_avg_entry_wage": 1200,
+      "milan_avg_room_rent": 650,
+      "wage_to_rent_ratio_pct": 54
+    }
+  },
+  "motherhood_penalty": {
+    "source_url": "https://www.istat.it/it/archivio/rapporto-annuale",
+    "description": "Female employment rate gap (mothers vs women without children) cross-referenced with public nursery (asili nido) and full-time school (tempo pieno) coverage.",
+    "data": [
+      { 
+        "region": "Nord Italia", 
+        "female_emp_pct": 62.5, 
+        "mothers_emp_pct": 59.0, 
+        "asili_nido_coverage": 30.2, 
+        "tempo_pieno_coverage": 52.0 
+      },
+      { 
+        "region": "Centro Italia", 
+        "female_emp_pct": 58.7, 
+        "mothers_emp_pct": 55.1, 
+        "asili_nido_coverage": 27.5, 
+        "tempo_pieno_coverage": 48.0 
+      },
+      { 
+        "region": "Sud e Isole", 
+        "female_emp_pct": 33.2, 
+        "mothers_emp_pct": 28.4, 
+        "asili_nido_coverage": 14.1, 
+        "tempo_pieno_coverage": 18.0 
+      },
+      { 
+        "region": "EU Avg", 
+        "female_emp_pct": 69.3, 
+        "mothers_emp_pct": 71.0, 
+        "asili_nido_coverage": 35.0, 
+        "tempo_pieno_coverage": 70.0 
+      }
+    ]
+  }
+}

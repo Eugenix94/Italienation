@@ -33,5 +33,29 @@
     { "year": 2030, "workers_per_retiree": 1.15, "sustainability_threshold": 1.5 },
     { "year": 2040, "workers_per_retiree": 0.95, "sustainability_threshold": 1.5 },
     { "year": 2050, "workers_per_retiree": 0.85, "sustainability_threshold": 1.5 }
+  ],
+  "tax_wedge_comparison": [
+    { "country": "Italy", "tax_wedge_pct": 45.1 },
+    { "country": "Germany", "tax_wedge_pct": 47.9 },
+    { "country": "France", "tax_wedge_pct": 47.0 },
+    { "country": "EU Avg", "tax_wedge_pct": 39.0 },
+    { "country": "UK", "tax_wedge_pct": 31.5 },
+    { "country": "Switzerland", "tax_wedge_pct": 23.4 }
+  ],
+  "real_gdp_growth": [
+    { "year": 2000, "italy": 100, "eu_avg": 100 },
+    { "year": 2005, "italy": 103.2, "eu_avg": 109.5 },
+    { "year": 2010, "italy": 98.4, "eu_avg": 113.1 },
+    { "year": 2015, "italy": 95.7, "eu_avg": 118.8 },
+    { "year": 2020, "italy": 89.2, "eu_avg": 119.5 },
+    { "year": 2024, "italy": 96.8, "eu_avg": 128.4 }
+  ],
+  "brain_drain_migration": [
+    { "year": 2010, "graduates_emigrated_thousands": 15 },
+    { "year": 2012, "graduates_emigrated_thousands": 22 },
+    { "year": 2015, "graduates_emigrated_thousands": 31 },
+    { "year": 2018, "graduates_emigrated_thousands": 39 },
+    { "year": 2021, "graduates_emigrated_thousands": 44 },
+    { "year": 2024, "graduates_emigrated_thousands": 51 }
   ]
 }

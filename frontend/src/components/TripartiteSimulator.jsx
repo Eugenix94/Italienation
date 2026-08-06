@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { T } from "./T";
+import SourceBadge from "./SourceBadge";
 import SectionContext from "./SectionContext";
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, Briefcase, GraduationCap, Clock, Euro, Users, AlertTriangle, ChevronRight } from 'lucide-react';
@@ -119,9 +120,12 @@ export default function TripartiteSimulator() {
               
               <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 sm:p-8">
                 <div className="mb-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">
-                    <T it={track.name.it} en={track.name.en} />
-                  </h3>
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 mb-2">
+                    <h3 className="text-2xl font-bold text-white">
+                      <T it={track.name.it} en={track.name.en} />
+                    </h3>
+                    <SourceBadge agency="MUR / INVALSI / Federconsumatori" year="2024" />
+                  </div>
                   <p className="text-zinc-400 text-sm leading-relaxed">
                     <T it={track.description.it} en={track.description.en} />
                   </p>

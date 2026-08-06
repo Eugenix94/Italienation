@@ -1,0 +1,54 @@
+{
+  "pnrr_education": {
+    "source_url": "https://openpnrr.it/",
+    "description": "PNRR Allocation vs Actual Spending in Structural Education Reform (Billions €)",
+    "data": [
+      { "category": "Scuole Nuove", "allocated": 1.19, "spent": 0.15 },
+      { "category": "Asili Nido", "allocated": 4.60, "spent": 0.85 },
+      { "category": "Digitalizzazione", "allocated": 2.10, "spent": 1.95 },
+      { "category": "Mense / Palestre", "allocated": 0.70, "spent": 0.12 }
+    ]
+  },
+  "youth_abstention": {
+    "source_url": "https://elezioni.interno.gov.it/",
+    "description": "Decline in youth voter turnout (18-24 years old) and the percentage of 'fuorisede' students (living away from home) who face structural barriers to voting.",
+    "data": [
+      { "year": 2006, "turnout_pct": 78, "fuorisede_pct": 6 },
+      { "year": 2013, "turnout_pct": 65, "fuorisede_pct": 9 },
+      { "year": 2018, "turnout_pct": 54, "fuorisede_pct": 11 },
+      { "year": 2022, "turnout_pct": 48, "fuorisede_pct": 14 }
+    ]
+  },
+  "overeducation": {
+    "source_url": "https://ec.europa.eu/eurostat/databrowser/view/lfsa_eoed/default/table",
+    "description": "Overeducation rate (graduates in jobs not requiring a degree) and the associated monthly wage penalty compared to peers in the EU.",
+    "data": [
+      { "country": "Spain", "overeducation_pct": 36, "wage_penalty_eur": -350 },
+      { "country": "Italy", "overeducation_pct": 31, "wage_penalty_eur": -400 },
+      { "country": "EU Avg", "overeducation_pct": 21, "wage_penalty_eur": -150 },
+      { "country": "France", "overeducation_pct": 18, "wage_penalty_eur": -100 },
+      { "country": "Germany", "overeducation_pct": 14, "wage_penalty_eur": -50 }
+    ]
+  },
+  "school_infrastructure": {
+    "source_url": "https://www.legambiente.it/rapporti-e-osservatori/ecosistema-scuola/",
+    "description": "Physical state of Italian public school buildings based on the Legambiente 'Ecosistema Scuola' report.",
+    "data": [
+      { "metric": "Costruite prima del 1976 (Senza norme antisismiche)", "value": 58, "color": "#f43f5e" },
+      { "metric": "Prive di certificato agibilità", "value": 42, "color": "#f97316" },
+      { "metric": "Prive di palestra", "value": 44, "color": "#eab308" },
+      { "metric": "Necessitano interventi urgenti", "value": 31, "color": "#ef4444" }
+    ]
+  },
+  "demographic_winter": {
+    "source_url": "https://dati.istat.it/Index.aspx?DataSetCode=DCIS_PREVDEM1",
+    "description": "Projected ratio of Working Age Population (15-64) vs Retirees (65+) in Italy up to 2050.",
+    "data": [
+      { "year": 2020, "workers_mln": 38.5, "retirees_mln": 13.9 },
+      { "year": 2025, "workers_mln": 37.1, "retirees_mln": 14.5 },
+      { "year": 2030, "workers_mln": 35.8, "retirees_mln": 15.6 },
+      { "year": 2040, "workers_mln": 32.4, "retirees_mln": 18.2 },
+      { "year": 2050, "workers_mln": 29.5, "retirees_mln": 20.1 }
+    ]
+  }
+}

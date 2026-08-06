@@ -1,6 +1,7 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer, ComposedChart, Line, AreaChart, Area } from 'recharts';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 import { bocciature_by_escs, university_dropouts_by_macroarea, job_market_mismatch, neet_demographics } from '../assets/dashboard_metrics.json';
 
 const CustomTooltip = ({ active, payload, label }) => {
@@ -41,6 +42,7 @@ export default function FlowDynamics() {
             <h3 className="text-lg sm:text-xl font-bold text-white">
               <T it="Composizione Socioeconomica e Bocciature per Indirizzo" en="Socioeconomic Composition & Retention by Track" />
             </h3>
+            <SourceBadge agency="MUR / ISTAT" year="2023" />
           </div>
           <p className="text-xs text-zinc-500 mb-4">
             <T 
@@ -66,9 +68,12 @@ export default function FlowDynamics() {
 
         {/* University Dropouts */}
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Fallimento della Transizione Terziaria (1° Anno)" en="Tertiary Transition Failure (1st Year)" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Fallimento della Transizione Terziaria (1° Anno)" en="Tertiary Transition Failure (1st Year)" />
+            </h3>
+            <SourceBadge agency="MUR / AlmaLaurea" year="2023" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <ComposedChart data={university_dropouts_by_macroarea} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -86,9 +91,12 @@ export default function FlowDynamics() {
 
         {/* Labor Market Mismatch */}
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Paradosso Excelsior: Mismatch tra Domanda e Offerta" en="Excelsior Paradox: Labor Supply-Demand Mismatch" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Paradosso Excelsior: Mismatch tra Domanda e Offerta" en="Excelsior Paradox: Labor Supply-Demand Mismatch" />
+            </h3>
+            <SourceBadge agency="Unioncamere" year="2023" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={job_market_mismatch} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -106,9 +114,12 @@ export default function FlowDynamics() {
         
         {/* NEET Time Trend */}
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl lg:col-span-2">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Andamento NEET per Genere (2018-2024)" en="NEET Trends by Gender (2018-2024)" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Andamento NEET per Genere (2018-2024)" en="NEET Trends by Gender (2018-2024)" />
+            </h3>
+            <SourceBadge agency="Eurostat / ISTAT" year="2024" />
+          </div>
           <div className="h-[400px]">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={neet_demographics} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>

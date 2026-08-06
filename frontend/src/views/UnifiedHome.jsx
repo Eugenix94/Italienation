@@ -10,6 +10,8 @@ import SystemicDeepDives from '../components/SystemicDeepDives';
 import EU27PESComparison from '../components/EU27PESComparison';
 import EconometricCosts from '../components/EconometricCosts';
 import MacroEconomics from '../components/MacroEconomics';
+import DemographicFallout from '../components/DemographicFallout';
+import SystemicCollapse from '../components/SystemicCollapse';
 import LaborMarketAndCorrelations from '../components/LaborMarketAndCorrelations';
 import MigrationAndRemittances from '../components/MigrationAndRemittances';
 import ScrollyDataHub from '../components/ScrollyDataHub';
@@ -21,7 +23,7 @@ import MethodologyNotebooks from '../components/MethodologyNotebooks';
 import StructuralDeepDives from '../components/StructuralDeepDives';
 import CulturalPhenomenology from '../components/CulturalPhenomenology';
 import MediaKitExport from '../components/MediaKitExport';
-import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search, ChevronRight, Menu, X } from 'lucide-react';
+import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search, ChevronRight, Menu, X, BrainCircuit, AlertTriangle } from 'lucide-react';
 import { T } from '../components/T';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -77,9 +79,11 @@ export default function UnifiedHome() {
     { id: 'map', icon: Map, it: 'Mappa GIS', en: 'GIS Map' },
     { id: 'analysis', icon: Layers, it: 'Mercato & Lavoro', en: 'Labor Market' },
     { id: 'macro', icon: BarChart2, it: 'Costi Macro', en: 'Macro Costs' },
-    { id: 'data', icon: Database, it: 'Dati & API', en: 'Data Hub & API' },
+    { id: 'fallout', icon: BrainCircuit, it: 'Impatto Sociale', en: 'Social Impact' },
+    { id: 'collapse', icon: AlertTriangle, it: 'Collasso di Sistema', en: 'Systemic Collapse' },
     { id: 'deepdives', icon: Search, it: 'Approfondimenti', en: 'Deep Dives' },
-    { id: 'methodology', icon: Book, it: 'Metodologia', en: 'Methodology' }
+    { id: 'methodology', icon: Book, it: 'Metodologia', en: 'Methodology' },
+    { id: 'data', icon: Database, it: 'Dati & API', en: 'Data Hub & API' }
   ];
 
   return (
@@ -201,10 +205,12 @@ export default function UnifiedHome() {
                   <MacroEconomics />
                 </section>
                 
-                <section id="data" ref={el => sectionRefs.current['data'] = el} className="scroll-mt-24 space-y-24">
-                  <ScrollyDataHub />
-                  <DeveloperAPI />
-                  <MediaKitExport />
+                <section id="fallout" ref={el => sectionRefs.current['fallout'] = el} className="scroll-mt-24 space-y-24">
+                  <DemographicFallout />
+                </section>
+                
+                <section id="collapse" ref={el => sectionRefs.current['collapse'] = el} className="scroll-mt-24 space-y-24">
+                  <SystemicCollapse />
                 </section>
                 
                 <section id="deepdives" ref={el => sectionRefs.current['deepdives'] = el} className="scroll-mt-24 space-y-24">
@@ -214,6 +220,12 @@ export default function UnifiedHome() {
                 
                 <section id="methodology" ref={el => sectionRefs.current['methodology'] = el} className="scroll-mt-24">
                   <MethodologyNotebooks />
+                </section>
+
+                <section id="data" ref={el => sectionRefs.current['data'] = el} className="scroll-mt-24 space-y-24">
+                  <ScrollyDataHub />
+                  <DeveloperAPI />
+                  <MediaKitExport />
                 </section>
             </div>
 

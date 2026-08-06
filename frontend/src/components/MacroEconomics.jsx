@@ -1,7 +1,8 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar } from 'recharts';
 import { T } from './T';
-import { demographic_collapse, pnrr_spending, pension_gap, tfp_stagnation, dependency_ratio } from '../assets/macro_metrics.json';
+import SourceBadge from './SourceBadge';
+import { demographic_collapse, pnrr_spending, pension_gap, tfp_stagnation, dependency_ratio, tax_wedge_comparison, real_gdp_growth, brain_drain_migration } from '../assets/macro_metrics.json';
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
@@ -38,9 +39,12 @@ export default function MacroEconomics() {
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl lg:col-span-2">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Collasso Demografico e Chiusura Scuole" en="Demographic Collapse and School Closures" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Collasso Demografico e Chiusura Scuole" en="Demographic Collapse and School Closures" />
+            </h3>
+            <SourceBadge agency="ISTAT / MUR" year="2023" />
+          </div>
           <div className="h-[400px]">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={demographic_collapse} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -58,9 +62,12 @@ export default function MacroEconomics() {
         </div>
 
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Distribuzione Spesa PNRR Istruzione" en="PNRR Education Spending Distribution" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Distribuzione Spesa PNRR Istruzione" en="PNRR Education Spending Distribution" />
+            </h3>
+            <SourceBadge agency="OpenPNRR" year="2024" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
@@ -76,9 +83,12 @@ export default function MacroEconomics() {
         </div>
 
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Divario Pensionistico Proiettato" en="Projected Pension Gap" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Divario Pensionistico Proiettato" en="Projected Pension Gap" />
+            </h3>
+            <SourceBadge agency="INPS / Cnel" year="2023" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={pension_gap} margin={{ top: 20, right: 30, left: 20, bottom: 5 }} layout="vertical">
@@ -97,9 +107,12 @@ export default function MacroEconomics() {
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 mt-8">
         {/* TFP Stagnation */}
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-2">
-            <T it="Stagnazione Produttività (TFP)" en="Total Factor Productivity (TFP) Stagnation" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-2">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Stagnazione Produttività (TFP)" en="Total Factor Productivity (TFP) Stagnation" />
+            </h3>
+            <SourceBadge agency="Bank of Italy / OECD" year="2024" />
+          </div>
           <p className="text-sm text-zinc-400 mb-6">
             <T it="Indice base 100 nel 2000. Il capitale umano non valorizzato frena la crescita." en="Index base 100 in 2000. Unutilized human capital stifles growth." />
           </p>
@@ -121,9 +134,12 @@ export default function MacroEconomics() {
 
         {/* Dependency Ratio */}
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-2">
-            <T it="Rapporto di Dipendenza Pensionistica" en="Pension Dependency Ratio" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-2">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Rapporto di Dipendenza Pensionistica" en="Pension Dependency Ratio" />
+            </h3>
+            <SourceBadge agency="ISTAT" year="2024" />
+          </div>
           <p className="text-sm text-zinc-400 mb-6">
             <T it="Lavoratori attivi per pensionato. Soglia critica di sostenibilità a 1.5" en="Active workers per retiree. Critical sustainability threshold at 1.5" />
           </p>
@@ -137,6 +153,87 @@ export default function MacroEconomics() {
                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
                 <Area type="monotone" dataKey="sustainability_threshold" name="Sustainability Threshold" stroke="#f59e0b" strokeDasharray="5 5" fill="none" strokeWidth={2} />
                 <Area type="monotone" dataKey="workers_per_retiree" name="Workers per Retiree" stroke="#4f46e5" fill="#4f46e5" fillOpacity={0.3} strokeWidth={3} />
+              </AreaChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
+        {/* Cuneo Fiscale */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-2">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Cuneo Fiscale (Tax Wedge)" en="Tax Wedge (Cuneo Fiscale)" />
+            </h3>
+            <SourceBadge agency="OECD" year="2023" />
+          </div>
+          <p className="text-sm text-zinc-400 mb-6">
+            <T it="Percentuale di prelievo fiscale sul lavoro. Uno dei più alti in area OCSE." en="Percentage of tax burden on labor. One of the highest in the OECD area." />
+          </p>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={tax_wedge_comparison} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
+                <XAxis dataKey="country" stroke="#888" tick={{ fontSize: 12 }} interval={0} />
+                <YAxis stroke="#888" domain={[0, 50]} tickFormatter={(val) => `${val}%`} />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Bar dataKey="tax_wedge_pct" name="Tax Wedge (%)" radius={[4, 4, 0, 0]}>
+                  {tax_wedge_comparison.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={entry.country === 'Italy' ? '#f43f5e' : entry.country === 'EU Avg' ? '#3b82f6' : '#4f46e5'} />
+                  ))}
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Real GDP Growth */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-2">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Stagnazione PIL Reale" en="Real GDP Stagnation" />
+            </h3>
+            <SourceBadge agency="World Bank" year="2024" />
+          </div>
+          <p className="text-sm text-zinc-400 mb-6">
+            <T it="PIL reale pro capite (Indice 100 = 2000). 25 anni di mancata crescita." en="Real GDP per capita (Index 100 = 2000). 25 years of lost growth." />
+          </p>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <AreaChart data={real_gdp_growth} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                <XAxis dataKey="year" stroke="#888" />
+                <YAxis domain={[85, 135]} stroke="#888" />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Area type="monotone" dataKey="eu_avg" name="EU Average" stroke="#3b82f6" fill="none" strokeWidth={3} />
+                <Area type="monotone" dataKey="italy" name="Italy" stroke="#f43f5e" fill="#f43f5e" fillOpacity={0.2} strokeWidth={4} />
+              </AreaChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Brain Drain */}
+        <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-2">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Fuga dei Cervelli" en="Brain Drain (Net Migration)" />
+            </h3>
+            <SourceBadge agency="SVIMEZ / ISTAT" year="2023" />
+          </div>
+          <p className="text-sm text-zinc-400 mb-6">
+            <T it="Laureati italiani emigrati (in migliaia). L'istruzione come export a perdere." en="Emigrated Italian graduates (in thousands). Education as a loss-making export." />
+          </p>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <AreaChart data={brain_drain_migration} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                <XAxis dataKey="year" stroke="#888" />
+                <YAxis stroke="#888" />
+                <RechartsTooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
+                <Area type="monotone" dataKey="graduates_emigrated_thousands" name="Emigrated Graduates (k)" stroke="#f59e0b" fill="#f59e0b" fillOpacity={0.3} strokeWidth={3} />
               </AreaChart>
             </ResponsiveContainer>
           </div>

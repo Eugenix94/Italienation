@@ -1,6 +1,7 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { T } from './T';
+import SourceBadge from './SourceBadge';
 import { tracking_outcomes, invalsi_performance } from '../assets/dashboard_metrics.json';
 
 const CustomTooltip = ({ active, payload, label }) => {
@@ -36,9 +37,12 @@ export default function StructuralOutcomes() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Reddito Familiare Medio per Indirizzo (Origine)" en="Average Family Income by Track (Origin)" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Reddito Familiare Medio per Indirizzo (Origine)" en="Average Family Income by Track (Origin)" />
+            </h3>
+            <SourceBadge agency="MUR / ISTAT" year="2023" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={tracking_outcomes} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -53,9 +57,12 @@ export default function StructuralOutcomes() {
         </div>
 
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Esiti Occupazionali e Accademici (Destinazione)" en="Occupational and Academic Outcomes (Destination)" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Esiti Occupazionali e Accademici (Destinazione)" en="Occupational and Academic Outcomes (Destination)" />
+            </h3>
+            <SourceBadge agency="AlmaDiploma / MUR" year="2023" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={tracking_outcomes} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -72,9 +79,12 @@ export default function StructuralOutcomes() {
         </div>
 
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Allocazione Risorse Strutturali (Educazione)" en="Structural Resource Allocation (Education)" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Allocazione Risorse Strutturali (Educazione)" en="Structural Resource Allocation (Education)" />
+            </h3>
+            <SourceBadge agency="MIUR" year="2023" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={tracking_outcomes} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -91,9 +101,12 @@ export default function StructuralOutcomes() {
         </div>
 
         <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl">
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Punteggi INVALSI Matematica per Area e Indirizzo" en="INVALSI Math Scores by Macro-Area and Track" />
-          </h3>
+          <div className="flex flex-col xl:flex-row xl:justify-between xl:items-start gap-2 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Punteggi INVALSI Matematica per Area e Indirizzo" en="INVALSI Math Scores by Macro-Area and Track" />
+            </h3>
+            <SourceBadge agency="INVALSI" year="2023" />
+          </div>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={invalsi_performance} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
