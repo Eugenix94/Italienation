@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Map as MapIcon, Layers } from 'lucide-react';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
-import DataTooltip from './DataTooltip';
 import provinceData from '../assets/province_school_counts.json';
 import dashboardMetrics from '../assets/dashboard_metrics.json';
 
@@ -39,25 +38,22 @@ const europeData = [
   { id: 'GR', name: 'Grecia', lat: 39.0742, lng: 21.8243, color: '#f43f5e', trackAge: 15, neet: '15.4%', pcto: 'Unpaid', dropout: '4.1%', type: 'Comprehensive' }
 ];
 
-function MapUpdater({ center, zoom }) {
-  const map = useMap();
-  React.useEffect(() => {
-    map.setView(center, zoom);
-  }, [center, zoom, map]);
-  return null;
-}
-
 export default function GISMap() {
-  const [viewMode, setViewMode] = useState('provincial'); // 'provincial' | 'macro' | 'europe'
   const [searchTerm, setSearchTerm] = useState('');
   
   const filteredProvinces = (provinceData || [])
     .filter(p => p && p.name && p.name.toLowerCase().includes(searchTerm.toLowerCase()))
     .sort((a, b) => (a.name || '').localeCompare(b.name || ''));
 
+  const views = [
+    { mode: 'provincial', titleIt: 'Vista Provinciale', titleEn: 'Provincial View' },
+    { mode: 'macro', titleIt: 'Macro-Aree', titleEn: 'Macro-Areas' },
+    { mode: 'europe', titleIt: 'Europa', titleEn: 'Europe' }
+  ];
+
   return (
-    <div className="w-full h-full flex flex-col pt-4">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+    <div className="w-full flex flex-col pt-4 space-y-16">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-2">
         <div className="flex items-center gap-3 text-indigo-400">
           <MapIcon size={32} />
           <div>
@@ -66,270 +62,250 @@ export default function GISMap() {
             </h1>
             <p className="text-zinc-400 text-sm mt-1">
               <T 
-                it="Diseguaglianze territoriali ed esiti formativi." 
-                en="Territorial inequalities and educational outcomes." 
+                it="Diseguaglianze territoriali ed esiti formativi. Tutti i dati provengono da ISTAT, INVALSI, MUR ed Eurostat." 
+                en="Territorial inequalities and educational outcomes. All data is sourced from ISTAT, INVALSI, MUR and Eurostat." 
               />
             </p>
           </div>
         </div>
-        
-        {/* View Mode Toggle */}
-        <div className="flex bg-zinc-900 border border-zinc-800 rounded-lg p-1">
-          <button 
-            onClick={() => setViewMode('provincial')}
-            className={`px-4 py-2 text-sm font-bold rounded-md transition-all ${
-              viewMode === 'provincial' ? 'bg-indigo-600 text-white shadow-lg' : 'text-zinc-400 hover:text-white'
-            }`}
-          >
-            <T it="Vista Provinciale" en="Provincial View" />
-          </button>
-          <button 
-            onClick={() => setViewMode('macro')}
-            className={`px-4 py-2 text-sm font-bold rounded-md transition-all ${
-              viewMode === 'macro' ? 'bg-indigo-600 text-white shadow-lg' : 'text-zinc-400 hover:text-white'
-            }`}
-          >
-            <T it="Macro-Aree" en="Macro-Areas" />
-          </button>
-          <button 
-            onClick={() => setViewMode('europe')}
-            className={`px-4 py-2 text-sm font-bold rounded-md transition-all ${
-              viewMode === 'europe' ? 'bg-indigo-600 text-white shadow-lg' : 'text-zinc-400 hover:text-white'
-            }`}
-          >
-            <T it="Europa" en="Europe" />
-          </button>
-        </div>
       </div>
 
-      <div className="flex-1 grid lg:grid-cols-4 gap-6">
+      {views.map(view => {
+        const center = view.mode === 'europe' ? [51.0, 15.0] : [41.8719, 12.5674];
+        const zoom = view.mode === 'europe' ? 4 : 6;
         
-        {/* Sidebar */}
-        <div className="lg:col-span-1 bg-zinc-950/90 backdrop-blur-xl border border-zinc-800 rounded-2xl p-4 shadow-2xl flex flex-col overflow-hidden h-[500px] lg:h-[600px]">
-          
-          {viewMode === 'provincial' && (
-            <div className="flex flex-col flex-1 overflow-hidden">
-              <div className="mb-4 p-3 bg-indigo-500/10 border border-indigo-500/20 rounded-xl space-y-3">
-                <p className="text-xs text-indigo-200">
-                  <T it="Il monopolio liceale urbano (evidenziato dai pallini rossi) costringe gli studenti periferici a ripiegare su istituti tecnici e professionali. Questa non è una libera scelta, ma una segregazione formativa basata sul CAP di residenza, dove i centri città attraggono risorse pubbliche mentre le periferie assorbono la totalità della dispersione scolastica locale." en="The urban Liceo monopoly (highlighted by red dots) forces peripheral students to fall back on technical and vocational institutes. This is not a free choice, but a zip-code based educational segregation, where city centers attract public resources while suburbs absorb the entirety of local school dropout rates." />
-                </p>
-                <div className="flex justify-end">
-                  <SourceBadge agency="ISTAT" topicKey="tracking" year="2023" />
-                </div>
-              </div>
-              <input 
-                type="text"
-                placeholder="Cerca provincia..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-2 text-white mb-4 text-sm focus:outline-none focus:border-indigo-500"
-              />
-              <div className="flex-1 overflow-y-auto custom-scrollbar space-y-2 pr-2">
-                {filteredProvinces.map(p => {
-                  const hasMonopoly = p.liceo_count > (p.tecnico_count + p.professionale_count) * 2;
-                  return (
-                    <div key={p.id} className="w-full text-left p-3 rounded-xl border bg-zinc-900/50 border-zinc-800">
-                      <div className="font-bold text-white mb-1 flex justify-between items-center">
-                        {p.name}
-                        {hasMonopoly && <span className="w-2 h-2 rounded-full bg-rose-500" title="High Liceo Skew"></span>}
-                      </div>
-                      <div className="text-xs text-zinc-500 flex justify-between mt-2">
-                        <span className="text-indigo-400">L: {p.liceo_count}</span>
-                        <span className="text-emerald-400">T: {p.tecnico_count}</span>
-                        <span className="text-amber-400">P: {p.professionale_count}</span>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {viewMode === 'macro' && (
-            <div className="flex flex-col flex-1 overflow-y-auto custom-scrollbar space-y-4 pr-2">
-              <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl space-y-3">
-                <p className="text-xs text-emerald-200">
-                  <T it="L'analisi macro-regionale rivela che il divario Nord-Sud non è semplicemente geografico, ma è il risultato di un deficit infrastrutturale cronico. Il Mezzogiorno sconta la mancanza di palestre, mense e tempo pieno, il che si traduce in punteggi INVALSI drammaticamente inferiori. Questa mancanza di supporto si ripercuote direttamente sui tassi di rinuncia universitaria (Dropout), che superano il 20% nei percorsi Professionali del Sud." en="Macro-regional analysis reveals that the North-South divide is not simply geographic, but the result of a chronic infrastructural deficit. The South suffers from a lack of gyms, cafeterias, and full-time schooling, which translates to drastically lower INVALSI scores. This lack of support directly impacts university dropout rates, which exceed 20% in Southern Vocational tracks." />
-                </p>
-                <div className="flex justify-end gap-2">
-                  <SourceBadge agency="INVALSI" topicKey="scores" year="2023" />
-                  <SourceBadge agency="MUR" topicKey="dropouts" year="2022" />
-                </div>
-              </div>
-              <h3 className="text-white font-bold mb-2 flex items-center gap-2">
-                <Layers size={18} className="text-indigo-400"/>
-                <T it="Dati Macro-Area" en="Macro-Area Data" />
-              </h3>
-              {dashboardMetrics.invalsi_performance.map(perf => (
-                <div key={perf.region_macro} className="bg-zinc-900 border border-zinc-800 p-4 rounded-xl">
-                  <h4 className="font-bold text-white mb-3 text-lg">{perf.region_macro}</h4>
-                  
-                  <div className="space-y-3">
-                    <div>
-                      <div className="flex justify-between text-xs mb-1">
-                        <span className="text-zinc-400"><T it="Punteggio INVALSI (Matematica Licei)" en="INVALSI Score (Liceo Math)" /></span>
-                        <span className="font-bold text-indigo-400">{perf.liceo_math_score}</span>
-                      </div>
-                      <div className="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden">
-                        <div className="bg-indigo-500 h-full" style={{ width: `${(perf.liceo_math_score/250)*100}%` }}></div>
-                      </div>
-                    </div>
-                    
-                    <div>
-                      <div className="flex justify-between text-xs mb-1">
-                        <span className="text-zinc-400"><T it="Punteggio INVALSI (Matematica Professionali)" en="INVALSI Score (Prof. Math)" /></span>
-                        <span className="font-bold text-rose-400">{perf.professionale_math_score}</span>
-                      </div>
-                      <div className="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden">
-                        <div className="bg-rose-500 h-full" style={{ width: `${(perf.professionale_math_score/250)*100}%` }}></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
-
-          {viewMode === 'europe' && (
-            <div className="flex flex-col flex-1 overflow-y-auto custom-scrollbar space-y-4 pr-2">
-               <div className="p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl mb-2 space-y-3">
-                <p className="text-xs text-rose-200">
-                  <T it="I dati Eurostat confermano l'eccezione italiana: l'Italia traccia i destini scolastici a soli 14 anni, un unicum in Europa. I sistemi comprensivi nordici (come Svezia e Finlandia) ritardano la scelta a 16 anni, riducendo drasticamente i bias socio-economici e abbattendo la dispersione. Parallelamente, i sistemi duali centro-europei (Germania) offrono salari formativi (circa 900€), mentre l'Italia impone percorsi di PCTO gratuiti e spesso non tutelati. Il risultato matematico di queste anomalie è il triste record europeo italiano di giovani NEET (Not in Education, Employment, or Training)." en="Eurostat data confirms the Italian anomaly: Italy tracks educational destinies at just 14 years old, unique in Europe. Nordic comprehensive systems (like Sweden and Finland) delay the choice to 16, drastically reducing socio-economic bias and cutting dropout rates. Meanwhile, Central European dual systems (Germany) offer training wages (around €900), whereas Italy imposes free, often unprotected PCTO programs. The mathematical result of these structural anomalies is Italy's sad European record for NEETs (Not in Education, Employment, or Training)." />
-                </p>
-                <div className="flex justify-end gap-2">
-                  <SourceBadge agency="Eurostat" topicKey="neet" year="2023" />
-                  <SourceBadge agency="Eurydice" topicKey="tracking" year="2022" />
-                </div>
-              </div>
-              {europeData.map(country => (
-                <div key={country.id} className="bg-zinc-900 border border-zinc-800 p-4 rounded-xl">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-3 h-3 rounded-full" style={{ backgroundColor: country.color }}></div>
-                    <h4 className="font-bold text-white text-lg">{country.name}</h4>
-                  </div>
-                  
-                  <div className="space-y-2 text-xs">
-                    <div className="flex justify-between border-b border-zinc-800 pb-1">
-                      <span className="text-zinc-500"><T it="Età di Tracking" en="Tracking Age" /></span>
-                      <span className="font-bold text-zinc-300">{country.trackAge}</span>
-                    </div>
-                    <div className="flex justify-between border-b border-zinc-800 pb-1">
-                      <span className="text-zinc-500"><T it="Tasso NEET" en="NEET Rate" /></span>
-                      <span className="font-bold text-rose-400">{country.neet}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-zinc-500"><T it="Modello Lavoro-Studio" en="Work-Study Model" /></span>
-                      <span className="font-bold text-emerald-400">{country.pcto}</span>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-
-        {/* Map Container */}
-        <div className="lg:col-span-3 bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden relative shadow-2xl h-[500px] lg:h-[600px]">
-          <MapContainer center={[41.8719, 12.5674]} zoom={6} scrollWheelZoom={false} className="w-full h-full bg-zinc-900">
-            <TileLayer
-              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-              attribution='&copy; OpenStreetMap contributors &copy; CARTO'
-            />
-            <MapUpdater 
-              center={viewMode === 'europe' ? [51.0, 15.0] : [41.8719, 12.5674]} 
-              zoom={viewMode === 'europe' ? 4 : 6} 
-            />
+        return (
+          <div key={view.mode} className="flex flex-col space-y-4">
+            <h2 className="text-2xl font-bold text-white border-b border-zinc-800 pb-2">
+              <T it={view.titleIt} en={view.titleEn} />
+            </h2>
             
-            {viewMode === 'provincial' && provinceData.map(p => {
-              const totalSchools = p.liceo_count + p.tecnico_count + p.professionale_count;
-              const liceoRatio = totalSchools > 0 ? p.liceo_count / totalSchools : 0;
-              const isLiceoDominant = liceoRatio > 0.55;
-              const radius = Math.max(5, Math.min(20, totalSchools / 6));
-
-              return (
-                <CircleMarker
-                  key={p.id}
-                  center={[p.lat, p.lng]}
-                  radius={radius}
-                  pathOptions={{
-                    color: isLiceoDominant ? '#f43f5e' : '#6366f1',
-                    fillColor: isLiceoDominant ? '#f43f5e' : '#6366f1',
-                    fillOpacity: 0.5,
-                    weight: 1
-                  }}
-                >
-                  <Popup className="custom-popup">
-                    <div className="p-1 min-w-[200px]">
-                      <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{p.name}</h3>
-                      <div className="text-xs space-y-1">
-                        <p><strong>Licei:</strong> {p.liceo_count}</p>
-                        <p><strong>Tecnici:</strong> {p.tecnico_count}</p>
-                        <p><strong>Professionali:</strong> {p.professionale_count}</p>
+            <div className="grid lg:grid-cols-4 gap-6">
+              {/* Sidebar */}
+              <div className="lg:col-span-1 bg-zinc-950/90 backdrop-blur-xl border border-zinc-800 rounded-2xl p-4 shadow-2xl flex flex-col overflow-hidden h-[500px] lg:h-[600px]">
+                
+                {view.mode === 'provincial' && (
+                  <div className="flex flex-col flex-1 overflow-hidden">
+                    <div className="mb-4 p-3 bg-indigo-500/10 border border-indigo-500/20 rounded-xl space-y-3">
+                      <p className="text-xs text-indigo-200">
+                        <T it="Il monopolio liceale urbano (evidenziato dai pallini rossi) costringe gli studenti periferici a ripiegare su istituti tecnici e professionali. Questa non è una libera scelta, ma una segregazione formativa basata sul CAP di residenza, dove i centri città attraggono risorse pubbliche mentre le periferie assorbono la totalità della dispersione scolastica locale." en="The urban Liceo monopoly (highlighted by red dots) forces peripheral students to fall back on technical and vocational institutes. This is not a free choice, but a zip-code based educational segregation, where city centers attract public resources while suburbs absorb the entirety of local school dropout rates." />
+                      </p>
+                      <div className="flex justify-end">
+                        <SourceBadge agency="ISTAT" topicKey="tracking" year="2023" />
                       </div>
                     </div>
-                  </Popup>
-                </CircleMarker>
-              );
-            })}
+                    <input 
+                      type="text"
+                      placeholder="Cerca provincia..."
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      className="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-2 text-white mb-4 text-sm focus:outline-none focus:border-indigo-500"
+                    />
+                    <div className="flex-1 overflow-y-auto custom-scrollbar space-y-2 pr-2">
+                      {filteredProvinces.map(p => {
+                        const hasMonopoly = p.liceo_count > (p.tecnico_count + p.professionale_count) * 2;
+                        return (
+                          <div key={p.id} className="w-full text-left p-3 rounded-xl border bg-zinc-900/50 border-zinc-800">
+                            <div className="font-bold text-white mb-1 flex justify-between items-center">
+                              {p.name}
+                              {hasMonopoly && <span className="w-2 h-2 rounded-full bg-rose-500" title="High Liceo Skew"></span>}
+                            </div>
+                            <div className="text-xs text-zinc-500 flex justify-between mt-2">
+                              <span className="text-indigo-400">L: {p.liceo_count}</span>
+                              <span className="text-emerald-400">T: {p.tecnico_count}</span>
+                              <span className="text-amber-400">P: {p.professionale_count}</span>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
 
-            {viewMode === 'macro' && macroAreas.map(area => {
-              const dropoutData = dashboardMetrics.university_dropouts_by_macroarea.find(d => d.macroarea === area.id);
-              return (
-                <CircleMarker
-                  key={area.id}
-                  center={[area.lat, area.lng]}
-                  radius={40}
-                  pathOptions={{
-                    color: area.color,
-                    fillColor: area.color,
-                    fillOpacity: 0.3,
-                    weight: 2
-                  }}
-                >
-                  <Popup className="custom-popup">
-                    <div className="p-2 min-w-[200px]">
-                      <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{area.name}</h3>
-                      {dropoutData && (
-                        <div className="text-xs space-y-2 mt-2">
-                          <p className="text-rose-600 font-bold"><T it="Rinuncia Università:" en="University Dropout:" /> {dropoutData.dropout_pct}%</p>
-                          <p className="text-indigo-600 font-bold"><T it="Studenti Fantasma (0 CFU):" en="Ghost Students (0 CFU):" /> {dropoutData.inactive_0cfu_pct}%</p>
+                {view.mode === 'macro' && (
+                  <div className="flex flex-col flex-1 overflow-y-auto custom-scrollbar space-y-4 pr-2">
+                    <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl space-y-3">
+                      <p className="text-xs text-emerald-200">
+                        <T it="L'analisi macro-regionale rivela che il divario Nord-Sud non è semplicemente geografico, ma è il risultato di un deficit infrastrutturale cronico. Il Mezzogiorno sconta la mancanza di palestre, mense e tempo pieno, il che si traduce in punteggi INVALSI drammaticamente inferiori. Questa mancanza di supporto si ripercuote direttamente sui tassi di rinuncia universitaria (Dropout), che superano il 20% nei percorsi Professionali del Sud." en="Macro-regional analysis reveals that the North-South divide is not simply geographic, but the result of a chronic infrastructural deficit. The South suffers from a lack of gyms, cafeterias, and full-time schooling, which translates to drastically lower INVALSI scores. This lack of support directly impacts university dropout rates, which exceed 20% in Southern Vocational tracks." />
+                      </p>
+                      <div className="flex justify-end gap-2 flex-wrap">
+                        <SourceBadge agency="INVALSI" topicKey="scores" year="2023" />
+                        <SourceBadge agency="MUR" topicKey="dropouts" year="2022" />
+                      </div>
+                    </div>
+                    <h3 className="text-white font-bold mb-2 flex items-center gap-2">
+                      <Layers size={18} className="text-indigo-400"/>
+                      <T it="Dati Macro-Area" en="Macro-Area Data" />
+                    </h3>
+                    {dashboardMetrics.invalsi_performance.map(perf => (
+                      <div key={perf.region_macro} className="bg-zinc-900 border border-zinc-800 p-4 rounded-xl">
+                        <h4 className="font-bold text-white mb-3 text-lg">{perf.region_macro}</h4>
+                        
+                        <div className="space-y-3">
+                          <div>
+                            <div className="flex justify-between text-xs mb-1">
+                              <span className="text-zinc-400"><T it="Punteggio INVALSI (Matematica Licei)" en="INVALSI Score (Liceo Math)" /></span>
+                              <span className="font-bold text-indigo-400">{perf.liceo_math_score}</span>
+                            </div>
+                            <div className="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden">
+                              <div className="bg-indigo-500 h-full" style={{ width: `${(perf.liceo_math_score/250)*100}%` }}></div>
+                            </div>
+                          </div>
+                          
+                          <div>
+                            <div className="flex justify-between text-xs mb-1">
+                              <span className="text-zinc-400"><T it="Punteggio INVALSI (Matematica Professionali)" en="INVALSI Score (Prof. Math)" /></span>
+                              <span className="font-bold text-rose-400">{perf.professionale_math_score}</span>
+                            </div>
+                            <div className="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden">
+                              <div className="bg-rose-500 h-full" style={{ width: `${(perf.professionale_math_score/250)*100}%` }}></div>
+                            </div>
+                          </div>
                         </div>
-                      )}
-                    </div>
-                  </Popup>
-                </CircleMarker>
-              );
-            })}
+                      </div>
+                    ))}
+                  </div>
+                )}
 
-            {viewMode === 'europe' && europeData.map(country => {
-              return (
-                <CircleMarker
-                  key={country.id}
-                  center={[country.lat, country.lng]}
-                  radius={25}
-                  pathOptions={{
-                    color: country.color,
-                    fillColor: country.color,
-                    fillOpacity: 0.6,
-                    weight: 2
-                  }}
-                >
-                  <Popup className="custom-popup">
-                    <div className="p-2 min-w-[200px]">
-                      <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{country.name}</h3>
-                      <div className="text-xs space-y-2 mt-2 text-gray-800">
-                        <p><strong>Tracking Age:</strong> {country.trackAge}</p>
-                        <p><strong>NEET:</strong> {country.neet}</p>
-                        <p><strong>Work-Study:</strong> {country.pcto}</p>
+                {view.mode === 'europe' && (
+                  <div className="flex flex-col flex-1 overflow-y-auto custom-scrollbar space-y-4 pr-2">
+                    <div className="p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl mb-2 space-y-3">
+                      <p className="text-xs text-rose-200">
+                        <T it="I dati Eurostat confermano l'eccezione italiana: l'Italia traccia i destini scolastici a soli 14 anni, un unicum in Europa. I sistemi comprensivi nordici (come Svezia e Finlandia) ritardano la scelta a 16 anni, riducendo drasticamente i bias socio-economici e abbattendo la dispersione. Parallelamente, i sistemi duali centro-europei (Germania) offrono salari formativi (circa 900€), mentre l'Italia impone percorsi di PCTO gratuiti e spesso non tutelati. Il risultato matematico di queste anomalie è il triste record europeo italiano di giovani NEET (Not in Education, Employment, or Training)." en="Eurostat data confirms the Italian anomaly: Italy tracks educational destinies at just 14 years old, unique in Europe. Nordic comprehensive systems (like Sweden and Finland) delay the choice to 16, drastically reducing socio-economic bias and cutting dropout rates. Meanwhile, Central European dual systems (Germany) offer training wages (around €900), whereas Italy imposes free, often unprotected PCTO programs. The mathematical result of these structural anomalies is Italy's sad European record for NEETs (Not in Education, Employment, or Training)." />
+                      </p>
+                      <div className="flex justify-end gap-2 flex-wrap">
+                        <SourceBadge agency="Eurostat" topicKey="neet" year="2023" />
+                        <SourceBadge agency="Eurydice" topicKey="tracking" year="2022" />
                       </div>
                     </div>
-                  </Popup>
-                </CircleMarker>
-              );
-            })}
-          </MapContainer>
-        </div>
-      </div>
+                    {europeData.map(country => (
+                      <div key={country.id} className="bg-zinc-900 border border-zinc-800 p-4 rounded-xl">
+                        <div className="flex items-center gap-2 mb-3">
+                          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: country.color }}></div>
+                          <h4 className="font-bold text-white text-lg">{country.name}</h4>
+                        </div>
+                        
+                        <div className="space-y-2 text-xs">
+                          <div className="flex justify-between border-b border-zinc-800 pb-1">
+                            <span className="text-zinc-500"><T it="Età di Tracking" en="Tracking Age" /></span>
+                            <span className="font-bold text-zinc-300">{country.trackAge}</span>
+                          </div>
+                          <div className="flex justify-between border-b border-zinc-800 pb-1">
+                            <span className="text-zinc-500"><T it="Tasso NEET" en="NEET Rate" /></span>
+                            <span className="font-bold text-rose-400">{country.neet}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-zinc-500"><T it="Modello Lavoro-Studio" en="Work-Study Model" /></span>
+                            <span className="font-bold text-emerald-400">{country.pcto}</span>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Map Container */}
+              <div className="lg:col-span-3 bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden relative shadow-2xl h-[500px] lg:h-[600px]">
+                <MapContainer center={center} zoom={zoom} scrollWheelZoom={false} className="w-full h-full bg-zinc-900">
+                  <TileLayer
+                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+                    attribution='&copy; OpenStreetMap contributors &copy; CARTO'
+                  />
+                  
+                  {view.mode === 'provincial' && provinceData.map(p => {
+                    const totalSchools = p.liceo_count + p.tecnico_count + p.professionale_count;
+                    const liceoRatio = totalSchools > 0 ? p.liceo_count / totalSchools : 0;
+                    const isLiceoDominant = liceoRatio > 0.55;
+                    const radius = Math.max(5, Math.min(20, totalSchools / 6));
+
+                    return (
+                      <CircleMarker
+                        key={p.id}
+                        center={[p.lat, p.lng]}
+                        radius={radius}
+                        pathOptions={{
+                          color: isLiceoDominant ? '#f43f5e' : '#6366f1',
+                          fillColor: isLiceoDominant ? '#f43f5e' : '#6366f1',
+                          fillOpacity: 0.5,
+                          weight: 1
+                        }}
+                      >
+                        <Popup className="custom-popup">
+                          <div className="p-1 min-w-[200px]">
+                            <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{p.name}</h3>
+                            <div className="text-xs space-y-1">
+                              <p><strong>Licei:</strong> {p.liceo_count}</p>
+                              <p><strong>Tecnici:</strong> {p.tecnico_count}</p>
+                              <p><strong>Professionali:</strong> {p.professionale_count}</p>
+                            </div>
+                          </div>
+                        </Popup>
+                      </CircleMarker>
+                    );
+                  })}
+
+                  {view.mode === 'macro' && macroAreas.map(area => {
+                    const dropoutData = dashboardMetrics.university_dropouts_by_macroarea.find(d => d.macroarea === area.id);
+                    return (
+                      <CircleMarker
+                        key={area.id}
+                        center={[area.lat, area.lng]}
+                        radius={40}
+                        pathOptions={{
+                          color: area.color,
+                          fillColor: area.color,
+                          fillOpacity: 0.3,
+                          weight: 2
+                        }}
+                      >
+                        <Popup className="custom-popup">
+                          <div className="p-2 min-w-[200px]">
+                            <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{area.name}</h3>
+                            {dropoutData && (
+                              <div className="text-xs space-y-2 mt-2">
+                                <p className="text-rose-600 font-bold"><T it="Rinuncia Università:" en="University Dropout:" /> {dropoutData.dropout_pct}%</p>
+                                <p className="text-indigo-600 font-bold"><T it="Studenti Fantasma (0 CFU):" en="Ghost Students (0 CFU):" /> {dropoutData.inactive_0cfu_pct}%</p>
+                              </div>
+                            )}
+                          </div>
+                        </Popup>
+                      </CircleMarker>
+                    );
+                  })}
+
+                  {view.mode === 'europe' && europeData.map(country => {
+                    return (
+                      <CircleMarker
+                        key={country.id}
+                        center={[country.lat, country.lng]}
+                        radius={25}
+                        pathOptions={{
+                          color: country.color,
+                          fillColor: country.color,
+                          fillOpacity: 0.6,
+                          weight: 2
+                        }}
+                      >
+                        <Popup className="custom-popup">
+                          <div className="p-2 min-w-[200px]">
+                            <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{country.name}</h3>
+                            <div className="text-xs space-y-2 mt-2 text-gray-800">
+                              <p><strong>Tracking Age:</strong> {country.trackAge}</p>
+                              <p><strong>NEET:</strong> {country.neet}</p>
+                              <p><strong>Work-Study:</strong> {country.pcto}</p>
+                            </div>
+                          </div>
+                        </Popup>
+                      </CircleMarker>
+                    );
+                  })}
+                </MapContainer>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
