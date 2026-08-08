@@ -278,9 +278,15 @@ const EconometricCosts = () => {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          <h2 className="text-3xl font-bold mb-8 text-zinc-100">
+          <h2 className="text-3xl font-bold mb-4 text-zinc-100">
             <T it="Ripartizione del Deficit" en="Deficit Breakdown" />
           </h2>
+          <p className="text-zinc-400 text-lg mb-8 max-w-4xl">
+            <T 
+              it="Questa sezione analizza le componenti che contribuiscono alla perdita economica totale. Il grafico illustra la distribuzione dei costi tra vari fattori sistemici (come lavoro nero, NEET, fuga di cervelli), mentre i riquadri sottostanti approfondiscono ogni singola voce con dati specifici, dimostrando come il fallimento educativo si traduca in un deficit economico cronico per l'Italia." 
+              en="This section analyzes the components contributing to the total economic loss. The chart illustrates the distribution of costs across systemic factors (such as the shadow economy, NEETs, brain drain), while the cards below detail each specific item with targeted data, showing how educational failure translates into a chronic economic deficit for Italy." 
+            />
+          </p>
           
           {/* Horizontal Bar Chart */}
           <div className="h-24 w-full bg-white/[0.02] border border-white/5 rounded-2xl p-4 mb-10" aria-hidden="false">
