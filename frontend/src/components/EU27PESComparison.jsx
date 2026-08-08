@@ -179,7 +179,7 @@ const DynamicCompareCard = ({ countryData, isItaly }) => {
 
 export default function EU27PESComparison() {
   const [filterGov, setFilterGov] = useState('All');
-  const [compareCountry, setCompareCountry] = useState('Malta');
+  const [compareCountry, setCompareCountry] = useState('Germany');
 
   const filteredData = filterGov === 'All' 
     ? pesData 
@@ -307,9 +307,9 @@ export default function EU27PESComparison() {
                   const isItaly = row.country === 'Italy';
                   const isSelected = row.country === compareCountry;
                   
-                  let rowClasses = "hover:bg-zinc-800/30 transition-colors cursor-pointer";
-                  if (isItaly) rowClasses = "bg-rose-500/5 hover:bg-rose-500/10 relative";
-                  if (isSelected) rowClasses = "bg-emerald-500/5 hover:bg-emerald-500/10 relative cursor-pointer";
+                  let rowClasses = "hover:bg-zinc-800/30 transition-colors cursor-pointer relative";
+                  if (isItaly) rowClasses = "bg-rose-500/5 hover:bg-rose-500/10 cursor-pointer relative";
+                  if (isSelected) rowClasses = "bg-emerald-500/5 hover:bg-emerald-500/10 cursor-pointer relative";
 
                   return (
                     <motion.tr 
@@ -355,19 +355,8 @@ export default function EU27PESComparison() {
           <h3 className="text-2xl font-bold flex items-center gap-3">
             <T it="Confronto Diretto" en="Direct Comparison" />
           </h3>
-          <div className="flex items-center gap-3 bg-zinc-900/80 backdrop-blur border border-emerald-500/20 p-2 px-4 rounded-xl shadow-lg">
-            <span className="text-sm text-zinc-400 font-semibold uppercase tracking-wider"><T it="Confronta con:" en="Compare with:" /></span>
-            <select 
-              className="bg-transparent border-none text-emerald-400 font-bold focus:ring-0 outline-none cursor-pointer"
-              value={compareCountry}
-              onChange={(e) => setCompareCountry(e.target.value)}
-            >
-              {euCountries.map(c => (
-                <option key={c.country} value={c.country} className="bg-zinc-900 text-white">
-                  {c.flag} {c.country}
-                </option>
-              ))}
-            </select>
+          <div className="flex items-center gap-3 bg-zinc-900/80 backdrop-blur border border-emerald-500/20 p-2 px-4 rounded-xl shadow-lg text-emerald-400 font-bold">
+            <T it="👆 Clicca su un paese nella tabella per confrontarlo" en="👆 Click on a country in the table to compare" />
           </div>
         </div>
         
