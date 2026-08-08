@@ -307,9 +307,9 @@ export default function EU27PESComparison() {
                   const isItaly = row.country === 'Italy';
                   const isSelected = row.country === compareCountry;
                   
-                  let rowClasses = "hover:bg-zinc-800/30 transition-colors";
+                  let rowClasses = "hover:bg-zinc-800/30 transition-colors cursor-pointer";
                   if (isItaly) rowClasses = "bg-rose-500/5 hover:bg-rose-500/10 relative";
-                  if (isSelected) rowClasses = "bg-emerald-500/5 hover:bg-emerald-500/10 relative";
+                  if (isSelected) rowClasses = "bg-emerald-500/5 hover:bg-emerald-500/10 relative cursor-pointer";
 
                   return (
                     <motion.tr 
@@ -319,6 +319,9 @@ export default function EU27PESComparison() {
                       viewport={{ once: true }}
                       transition={{ delay: Math.min(idx * 0.02, 0.5) }}
                       className={rowClasses}
+                      onClick={() => {
+                        if (!isItaly) setCompareCountry(row.country);
+                      }}
                     >
                       <td className="px-6 py-4 font-medium flex items-center gap-2">
                         {isItaly && <div className="absolute left-0 top-0 bottom-0 w-1 bg-rose-500" />}
