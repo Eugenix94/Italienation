@@ -1,9 +1,0 @@
-year,italy_math,italy_reading,italy_science,oecd_avg_math,oecd_avg_reading,oecd_avg_science,data_source,data_type,citation
-2000,457,487,,,,,OECD PISA 2000 — science not in main domain,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
-2003,466,476,,,,,OECD PISA 2003 — science not in main domain,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
-2006,462,469,475.0,498.0,492.0,500.0,OECD PISA 2006,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
-2009,483,486,489.0,496.0,493.0,501.0,OECD PISA 2009,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
-2012,485,490,494.0,494.0,496.0,501.0,OECD PISA 2012,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
-2015,490,485,481.0,490.0,493.0,493.0,OECD PISA 2015,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
-2018,487,476,468.0,489.0,487.0,489.0,OECD PISA 2018,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
-2022,471,482,484.0,472.0,476.0,485.0,OECD PISA 2022,static_curated,OECD PISA Results Volumes — https://www.oecd.org/pisa/data/
