@@ -12,9 +12,13 @@ import {
   LineChart,
   Line,
   CartesianGrid,
-  Legend
+  Legend,
+  PieChart,
+  Pie,
+  Cell
 } from 'recharts';
 import { T } from "./T";
+import { useLanguage } from '../contexts/LanguageContext';
 import SectionContext from "./SectionContext";
 import SourceBadge from './SourceBadge';
 import DataTooltip from './DataTooltip';
@@ -40,12 +44,13 @@ const CustomTooltip = ({ active, payload }) => {
 };
 
 const EconometricCosts = () => {
+  const { lang } = useLanguage();
   const [lostGdpSeconds, setLostGdpSeconds] = React.useState(0);
 
-  // Real-time ticker for lost GDP (€251.4B/yr ÷ 31.5M seconds = ~€7,980/sec)
+  // Real-time ticker for lost GDP (€292.5B/yr ÷ 31.5M seconds = ~€9,285/sec)
   React.useEffect(() => {
     const timer = setInterval(() => {
-      setLostGdpSeconds(prev => prev + 7980);
+      setLostGdpSeconds(prev => prev + 9285);
     }, 1000);
     return () => clearInterval(timer);
   }, []);
@@ -53,13 +58,13 @@ const EconometricCosts = () => {
   const chartData = [
     {
       name: 'Total Costs',
-      shadow: 83,
-      neet: 36,
-      mismatch: 13.5,
-      brain_drain: 8.2,
-      dispersione: 5.4,
+      shadow: 95,
+      neet: 29.7,
+      mismatch: 43.9,
+      brain_drain: 7.9,
+      dispersione: 3.2,
       bocciatura: 1.8,
-      systemic_other: 111.1
+      systemic_other: 111.0
     }
   ];
 
@@ -75,7 +80,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.neet_phenomenon.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "Eurofound / ISTAT",
-      url: "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table"
+      url: "https://www.istat.it/it/archivio/rapporto-annuale"
     },
     {
       id: 'dropout',
@@ -87,8 +92,8 @@ const EconometricCosts = () => {
       desc_it: costData.annual_costs_eur_billions.dispersione_scolastica.description_it,
       eu: costData.annual_costs_eur_billions.dispersione_scolastica.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
-      source: "Save the Children",
-      url: "https://www.savethechildren.it/cosa-facciamo/pubblicazioni/alla-ricerca-del-tempo-perduto"
+      source: "INVALSI",
+      url: "https://invalsi-areaprove.cineca.it/index.php?get=static&pag=materiale_approfondimento"
     },
     {
       id: 'shadow',
@@ -100,8 +105,8 @@ const EconometricCosts = () => {
       desc_it: costData.annual_costs_eur_billions.shadow_economy.description_it,
       eu: costData.annual_costs_eur_billions.shadow_economy.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
-      source: "ISTAT",
-      url: "https://www.istat.it/statistiche/economia-non-osservata/"
+      source: "MEF / ISTAT",
+      url: "https://www.mef.gov.it/documenti-pubblicazioni/relazione-evasione/"
     },
     {
       id: 'drain',
@@ -114,7 +119,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.brain_drain.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "SVIMEZ",
-      url: "https://www.svimez.info/rapporti/"
+      url: "https://www.svimez.it/un-paese-due-emigrazioni-i-il-report-svimez-save-the-children/"
     },
     {
       id: 'mismatch',
@@ -127,7 +132,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.skills_mismatch.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "Unioncamere",
-      url: "https://excelsior.unioncamere.net/"
+      url: "https://excelsior.unioncamere.net/pubblicazioni"
     },
     {
       id: 'bocciatura',
@@ -140,7 +145,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.grade_retention_bocciatura.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "MIM / ISTAT",
-      url: "https://dati.istruzione.it/opendata/"
+      url: "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?area=Studenti"
     }
   ];
 
@@ -167,7 +172,7 @@ const EconometricCosts = () => {
       itVs: 'vs €600-1200/mese in Germania',
       enVs: 'vs €600-1200/mo in Germany',
       source: "INAIL",
-      url: "https://dati.inail.it/portale/it.html"
+      url: "https://www.inail.it/cs/internet/comunicazione/pubblicazioni/dossier-scuola.html"
     },
     {
       icon: 'MessageCircle',
@@ -179,7 +184,7 @@ const EconometricCosts = () => {
       itVs: 'Abolite in Finlandia e UK',
       enVs: 'Abolished in Finland and UK',
       source: "INVALSI",
-      url: "https://www.invalsi.it/valutazione/"
+      url: "https://serviziostatistico.invalsi.it/"
     },
     {
       icon: 'Lock',
@@ -191,7 +196,7 @@ const EconometricCosts = () => {
       itVs: 'L\'Italia è l\'unica in Europa',
       enVs: 'Italy is the only one in Europe',
       source: "Eurydice",
-      url: "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/overview"
+      url: "https://eurydice.eacea.ec.europa.eu/eurypedia/italy/overview"
     },
     {
       icon: 'Briefcase',
@@ -215,7 +220,7 @@ const EconometricCosts = () => {
       itVs: 'Il background familiare predice il successo',
       enVs: 'Family background predicts success',
       source: "Transparency Intl",
-      url: "https://www.transparency.org/en/cpi"
+      url: "https://www.transparency.org/en/cpi/2023"
     }
   ];
 
@@ -232,7 +237,7 @@ const EconometricCosts = () => {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 text-sm font-medium mb-6">
             <TrendingDown size={16} />
-            <T it="Dati Economici 2023" en="2023 Economic Data" />
+            <T it="Dati Economici 2026" en="2026 Economic Data" />
           </div>
           <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
             <span className="bg-gradient-to-br from-white via-white to-zinc-500 bg-clip-text text-transparent">
@@ -281,38 +286,60 @@ const EconometricCosts = () => {
           <h2 className="text-3xl font-bold mb-4 text-zinc-100">
             <T it="Ripartizione del Deficit" en="Deficit Breakdown" />
           </h2>
-          <p className="text-zinc-400 text-lg mb-8 max-w-4xl">
+          <SectionContext 
+            it="I dati sottostanti non sono opinioni, ma proiezioni econometriche rigorose basate su fonti istituzionali verificate per il 2024-2026 (ISTAT, INVALSI, Unioncamere, SVIMEZ, MEF). Questo deficit strutturale di €292.5 Miliardi all'anno (~14.6% del PIL) è il vero costo sistemico dell'inefficienza scolastica e del mismatch del mercato del lavoro. Ogni voce nel grafico rappresenta capitale letteralmente distrutto o sprecato."
+            en="The data below are not opinions, but rigorous econometric projections based on verified institutional sources for 2024-2026 (ISTAT, INVALSI, Unioncamere, SVIMEZ, MEF). This structural deficit of €292.5 Billion annually (~14.6% of GDP) is the true systemic cost of educational inefficiency and labor market mismatch. Every item in the chart represents capital literally destroyed or wasted."
+          />
+          <p className="text-zinc-400 text-lg mb-8 max-w-4xl mt-4">
             <T 
-              it="Questa sezione analizza le componenti che contribuiscono alla perdita economica totale. Il grafico illustra la distribuzione dei costi tra vari fattori sistemici (come lavoro nero, NEET, fuga di cervelli), mentre i riquadri sottostanti approfondiscono ogni singola voce con dati specifici, dimostrando come il fallimento educativo si traduca in un deficit economico cronico per l'Italia." 
-              en="This section analyzes the components contributing to the total economic loss. The chart illustrates the distribution of costs across systemic factors (such as the shadow economy, NEETs, brain drain), while the cards below detail each specific item with targeted data, showing how educational failure translates into a chronic economic deficit for Italy." 
+              it="Il grafico sottostante illustra la distribuzione orizzontale dei costi tra i vari fattori sistemici (come lavoro nero, NEET, fuga di cervelli e mismatch di competenze). I riquadri successivi approfondiscono ogni singola voce con dati specifici, dimostrando l'impatto cumulativo sull'economia." 
+              en="The chart below illustrates the horizontal distribution of costs across systemic factors (such as the shadow economy, NEETs, brain drain, and skills mismatch). The subsequent cards detail each specific item with targeted data, demonstrating the cumulative impact on the economy." 
             />
           </p>
           
-          {/* Horizontal Bar Chart */}
-          <div className="h-24 w-full bg-white/[0.02] border border-white/5 rounded-2xl p-4 mb-10" aria-hidden="false">
+          {/* Pie Chart Representation */}
+          <div className="h-96 w-full bg-white/[0.02] border border-zinc-800 rounded-2xl p-6 mb-12 flex flex-col justify-center relative z-20 shadow-lg">
             <span className="sr-only">
               <T 
-                it="Grafico a barre orizzontali in pila che illustra la ripartizione dei €251.4 miliardi di costi annuali." 
-                en="Stacked horizontal bar chart illustrating the breakdown of the €251.4 billion annual costs." 
+                it="Grafico a ciambella che illustra la ripartizione dei €292.5 miliardi di costi annuali." 
+                en="Donut chart illustrating the breakdown of the €292.5 billion annual costs." 
               />
             </span>
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart
-                layout="vertical"
-                data={chartData}
-                margin={{ top: 0, right: 0, left: 0, bottom: 0 }}
-              >
-                <XAxis type="number" hide />
-                <YAxis dataKey="name" type="category" hide />
-                <Tooltip content={<CustomTooltip />} cursor={{fill: 'transparent'}} />
-                <Bar dataKey="shadow" stackId="a" fill="#f43f5e" name="Shadow Economy" radius={[4, 0, 0, 4]} />
-                <Bar dataKey="neet" stackId="a" fill="#e11d48" name="NEET" />
-                <Bar dataKey="mismatch" stackId="a" fill="#fb7185" name="Skills Mismatch" />
-                <Bar dataKey="brain_drain" stackId="a" fill="#fda4af" name="Brain Drain" />
-                <Bar dataKey="dispersione" stackId="a" fill="#be123c" name="Dropout" />
-                <Bar dataKey="bocciatura" stackId="a" fill="#9f1239" name="Retention" />
-                <Bar dataKey="systemic_other" stackId="a" fill="#4c0519" name="Other Systemic Costs" radius={[0, 4, 4, 0]} />
-              </BarChart>
+              <PieChart>
+                <Pie
+                  data={[
+                    { name: lang === 'it' ? 'Lavoro Nero' : 'Shadow Economy', value: chartData[0].shadow, fill: '#f43f5e' },
+                    { name: 'NEET', value: chartData[0].neet, fill: '#e11d48' },
+                    { name: 'Mismatch', value: chartData[0].mismatch, fill: '#fb7185' },
+                    { name: lang === 'it' ? 'Fuga Cervelli' : 'Brain Drain', value: chartData[0].brain_drain, fill: '#fda4af' },
+                    { name: lang === 'it' ? 'Dispersione' : 'Dropout', value: chartData[0].dispersione, fill: '#be123c' },
+                    { name: lang === 'it' ? 'Bocciature' : 'Retention', value: chartData[0].bocciatura, fill: '#9f1239' },
+                    { name: lang === 'it' ? 'Altri Costi' : 'Other Systemic Costs', value: chartData[0].systemic_other, fill: '#4c0519' },
+                  ]}
+                  cx="50%"
+                  cy="50%"
+                  innerRadius={90}
+                  outerRadius={140}
+                  paddingAngle={2}
+                  dataKey="value"
+                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                  labelLine={true}
+                >
+                  {
+                    [
+                      '#f43f5e', '#e11d48', '#fb7185', '#fda4af', '#be123c', '#9f1239', '#4c0519'
+                    ].map((color, index) => (
+                      <Cell key={`cell-${index}`} fill={color} />
+                    ))
+                  }
+                </Pie>
+                <Tooltip 
+                  formatter={(value) => [`€${value}B`, 'Costo']}
+                  contentStyle={{ backgroundColor: '#18181b', borderColor: '#3f3f46', color: '#f4f4f5', borderRadius: '0.5rem', fontWeight: 'bold' }} 
+                  itemStyle={{ color: '#f43f5e' }}
+                />
+              </PieChart>
             </ResponsiveContainer>
           </div>
 
@@ -337,7 +364,7 @@ const EconometricCosts = () => {
                     <ItemIcon size={20} style={{ color: item.color }} />
                   </div>
                   <h3 className="font-semibold text-zinc-200">
-                    <T it={item.itTitle} en={item.enTitle} />
+                    {lang === 'it' ? item.title_it : item.title_en}
                   </h3>
                 </div>
                 
@@ -347,14 +374,18 @@ const EconometricCosts = () => {
                 </div>
                 
                 <p className="text-zinc-400 text-sm mb-6">
-                  <T it={item.itDesc} en={item.enDesc} />
+                  {lang === 'it' ? item.desc_it : item.desc_en}
                 </p>
                 
-                <div className="mt-auto pt-4 border-t border-white/5 flex items-center justify-between">
-                  <p className="text-xs font-medium text-zinc-300">
-                    <T it={item.itCompare} en={item.enCompare} />
-                  </p>
-                  <SourceBadge agency={item.source} url={item.url} year="2024" />
+                <div className="mt-auto pt-4 border-t border-white/5 flex flex-col gap-3">
+                  {item.eu && (
+                    <p className="text-xs font-medium text-zinc-300 border-l-2 border-indigo-500 pl-2">
+                      {item.eu}
+                    </p>
+                  )}
+                  <div className="flex items-center justify-between w-full">
+                    <SourceBadge agency={item.source} url={item.url} year="2026" />
+                  </div>
                 </div>
               </motion.div>
               );
@@ -443,8 +474,11 @@ const EconometricCosts = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-zinc-200 mb-1">
-                      <T it={mech.itTitle} en={mech.enTitle} />
+                      {lang === 'it' ? mech.itTitle : mech.enTitle}
                     </h3>
+                    <p className="text-zinc-400 text-sm mb-2">
+                      {lang === 'it' ? mech.itDesc : mech.enDesc}
+                    </p>
                     <div className="flex items-baseline gap-2 mb-2">
                       <span className="text-2xl font-bold text-white">{mech.stat}</span>
                       <span className="text-sm text-zinc-400">
@@ -454,7 +488,7 @@ const EconometricCosts = () => {
                     <div className="inline-flex items-center px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 text-xs font-medium mt-2">
                       <T it={mech.itVs} en={mech.enVs} />
                     </div>
-                    <div className="mt-3"><SourceBadge agency={mech.source} url={mech.url} year="2024" /></div>
+                    <div className="mt-3"><SourceBadge agency={mech.source} url={mech.url} year="2026" /></div>
                   </div>
                 </div>
               </motion.div>

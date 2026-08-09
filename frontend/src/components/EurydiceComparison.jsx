@@ -2,6 +2,7 @@ import React from 'react';
 import { Globe, AlertTriangle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { T } from './T';
+import EuropeanMap from './EuropeanMap';
 
 export default function EurydiceComparison() {
   return (
@@ -19,6 +20,8 @@ export default function EurydiceComparison() {
           />
         </p>
       </div>
+
+      <EuropeanMap />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 relative z-10">
         {/* Tripartite Model */}

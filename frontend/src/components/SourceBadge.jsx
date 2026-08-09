@@ -19,7 +19,7 @@ const DEEP_LINK_MAP = {
   "pes": "https://employment-social-affairs.ec.europa.eu/node/25_en",
   "escs": "https://www.invalsi.it/valutazione/",
   "tracking": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/overview",
-  "scores": "https://www.invalsi.it/invalsi/ri/snv2025/",
+  "scores": "https://serviziostatistico.invalsi.it/",
   "dropouts": "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Studenti&datasetId=DS0280AGESREG17",
   "religione": "https://www.uaar.it/",
   

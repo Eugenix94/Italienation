@@ -6,7 +6,8 @@
       { "category": "Scuole Nuove", "allocated": 1.19, "spent": 0.15 },
       { "category": "Asili Nido", "allocated": 4.60, "spent": 0.85 },
       { "category": "Digitalizzazione", "allocated": 2.10, "spent": 1.95 },
-      { "category": "Mense / Palestre", "allocated": 0.70, "spent": 0.12 }
+      { "category": "Mense / Palestre", "allocated": 0.70, "spent": 0.12 },
+      { "category": "Dispersione Scolastica", "allocated": 1.50, "spent": 0.14 }
     ]
   },
   "youth_abstention": {

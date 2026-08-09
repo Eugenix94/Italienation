@@ -12,17 +12,17 @@
       "label": "NEET Annual Cost",
       "description_en": "Lost productivity + welfare costs from ~1.35M young people (15-29) not in education, employment, or training",
       "description_it": "Produttività persa + costi welfare da ~1,35M giovani (15-29) non in istruzione, occupazione o formazione",
-      "source": "Eurofound (2025/2026), ISTAT Labour Force Survey",
-      "eu_comparison": "Italy's NEET rate (13.3%) remains higher than the EU average (11.0%)"
+      "source": "ISTAT 2026",
+      "eu_comparison": "Italy's NEET rate improved to 13.3% but remains significantly higher than the EU average (~11.0%)"
     },
     "dispersione_scolastica": {
-      "value": 4.2,
+      "value": 3.2,
       "label": "Dropout / Early Leaving Cost",
-      "description_en": "Estimated annual cost of 8.2% early school leaving rate: reduced lifetime earnings, higher welfare dependency, lower tax base",
-      "description_it": "Costo annuo stimato dell'8,2% di abbandono scolastico precoce: riduzione guadagni, maggiore dipendenza welfare, minore base fiscale",
-      "source": "MIM (2025), European Commission",
+      "description_en": "Estimated annual cost of 7.3% early school leaving rate + 6.3% implicit dropout (INVALSI 2026): reduced lifetime earnings, higher welfare dependency, lower tax base",
+      "description_it": "Costo annuo stimato del 7,3% di abbandono scolastico precoce + 6,3% di dispersione implicita (INVALSI 2026): riduzione guadagni, maggiore dipendenza welfare, minore base fiscale",
+      "source": "INVALSI (2026), European Commission",
       "cost_per_dropout_lifetime_eur": 300000,
-      "eu_comparison": "Italy: 8.2% ESL (achieving the EU 2030 target of <9.0%). Each dropout costs €300K in lifetime earnings (OECD est.)"
+      "eu_comparison": "Historic: Italy (7.3%) surpassed the EU 2030 target (<9.0%) four years early. Each dropout costs €300K in lifetime earnings (OECD est.)"
     },
     "shadow_economy": {
       "value": 192.0,
@@ -30,22 +30,22 @@
       "description_en": "Italy's shadow economy estimated at 11.3% of GDP (€192B). Young workers disproportionately affected — 15.6% of employed youth in irregular positions",
       "description_it": "Economia sommersa italiana stimata all'11,3% del PIL (€192 mld). Giovani lavoratori colpiti in modo sproporzionato — 15,6% dei giovani occupati in posizioni irregolari",
       "source": "ISTAT National Accounts (2024), Schneider Shadow Economy Index",
-      "lost_tax_revenue_eur_billions": 83.0,
+      "lost_tax_revenue_eur_billions": 95.0,
       "eu_comparison": "Italy 11.3% vs EU avg 7.5% shadow economy as % GDP"
     },
     "brain_drain": {
-      "value": 8.2,
+      "value": 7.9,
       "label": "Brain Drain (Fuga dei Cervelli)",
-      "description_en": "Annual cost of ~130,000 Italian emigrés (2023), of whom 30% hold degrees. Each graduate represents €150K-€300K in public education investment lost",
-      "description_it": "Costo annuo di ~130.000 emigrati italiani (2023), di cui il 30% laureati. Ogni laureato rappresenta €150K-€300K di investimento pubblico in istruzione perso",
-      "source": "SVIMEZ (2024), ISTAT AIRE Registry, Confindustria",
+      "description_en": "Annual cost of ~130,000 Italian emigrés (2023), of whom 30% hold degrees. SVIMEZ 2026 highlights the new 'doppia emigrazione': 184,000 over-75 'nonni con la valigia' migrating North to follow their children",
+      "description_it": "Costo annuo di ~130.000 emigrati. SVIMEZ 2026 evidenzia la 'doppia emigrazione': 184.000 over 75 'nonni con la valigia' emigrano al Nord per seguire figli e nipoti",
+      "source": "SVIMEZ (2026), ISTAT AIRE Registry",
       "eu_comparison": "Italy is the only G7 country with net negative skilled migration"
     },
     "skills_mismatch": {
-      "value": 13.5,
+      "value": 43.9,
       "label": "Skills Mismatch Cost",
-      "description_en": "Paradox: 49% of Northern companies report difficulty finding candidates while Southern NEET rates exceed 25%. Estimated GDP loss from misallocation",
-      "description_it": "Paradosso: il 49% delle aziende del Nord segnala difficoltà nel trovare candidati mentre i tassi NEET al Sud superano il 25%. Perdita di PIL stimata da misallocazione",
+      "description_en": "Paradox: 44.8% of companies (50.6% in ICT) report difficulty finding candidates while Southern NEET rates remain high. Estimated 2.5% GDP loss",
+      "description_it": "Paradosso: il 44,8% delle aziende (50,6% ICT) segnala difficoltà nel trovare candidati. Perdita stimata al 2,5% del PIL",
       "source": "Excelsior-Unioncamere (2024), OECD Skills Outlook",
       "eu_comparison": "Italy overqualification rate: 25% vs EU avg 17%"
     },
@@ -131,11 +131,11 @@
       "autonomy_index": {"Italy": 2.1, "Finland": 8.5, "Netherlands": 7.8, "UK": 6.9, "Germany": 5.4, "Sweden": 7.2}
     },
     "total_estimated_annual_cost_eur_billions": {
-      "value": 251.4,
-      "components": "NEET (29.7) + Dropout (4.2) + Shadow Economy Tax Loss (83) + Brain Drain (8.2) + Skills Mismatch (13.5) + Bocciatura (1.8) + Remaining systemic costs (111 est.)",
-      "as_pct_gdp": 13.0,
-      "description_en": "Conservative estimate: Italy's education system failures cost the economy approximately €251 billion annually (~13.0% of GDP). This includes direct fiscal costs, lost productivity, shadow economy tax losses, and human capital flight",
-      "description_it": "Stima conservativa: i fallimenti del sistema educativo italiano costano all'economia circa €251 miliardi all'anno (~13,0% del PIL). Include costi fiscali diretti, produttività persa, perdite fiscali dall'economia sommersa e fuga di capitale umano"
+      "value": 292.5,
+      "components": "NEET (29.7) + Dropout (3.2) + Shadow Economy Tax Loss (95) + Brain Drain (7.9) + Skills Mismatch (43.9) + Bocciatura (1.8) + Remaining systemic costs (111 est.)",
+      "as_pct_gdp": 14.6,
+      "description_en": "Conservative estimate: Italy's education system failures cost the economy approximately €292.5 billion annually (~14.6% of GDP). This includes direct fiscal costs, lost productivity, shadow economy tax losses, and human capital flight",
+      "description_it": "Stima conservativa: i fallimenti del sistema educativo italiano costano all'economia circa €292,5 miliardi all'anno (~14,6% del PIL). Include costi fiscali diretti, produttività persa, perdite fiscali dall'economia sommersa e fuga di capitale umano"
     }
   },
   "international_solutions": {
