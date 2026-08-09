@@ -4,7 +4,7 @@ import ssl
 from urllib.error import URLError, HTTPError
 import time
 
-CATALOG_PATH = 'web/catalog_raw.json'
+CATALOG_PATH = 'rendered_outputs/catalog_raw.json'
 HF_REPO_BASE = 'https://huggingface.co/datasets/diatribe00/italian-schools-opendata/tree/main/data'
 
 def check_url(url):

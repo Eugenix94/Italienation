@@ -136,7 +136,7 @@ def build_dashboard():
 </html>
 '''
 
-    out_path = Path('web/index.html')
+    out_path = Path('rendered_outputs/index.html')
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(html)
     print("Successfully built the 50-Evidence Interactive Dashboard at web/index.html")

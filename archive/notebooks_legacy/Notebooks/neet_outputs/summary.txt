@@ -1,2 +1,0 @@
-Generated NEET & MUR analysis outputs.
-See CSVs and PNGs in this folder for details.

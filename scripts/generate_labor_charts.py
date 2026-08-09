@@ -45,7 +45,7 @@ def generate_black_labor():
 
     add_provenance(ax, "INPS (Istituto Nazionale della Previdenza Sociale)")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/labor_black_market_by_region.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/labor_black_market_by_region.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_youth_unemployment():
@@ -67,7 +67,7 @@ def generate_youth_unemployment():
     
     add_provenance(ax, "Eurostat / ISTAT Labour Force Survey")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/labor_youth_unemployment_trend.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/labor_youth_unemployment_trend.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_wage_stagnation():
@@ -91,11 +91,11 @@ def generate_wage_stagnation():
 
     add_provenance(ax, "OECD (Organisation for Economic Co-operation and Development)")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/labor_wage_stagnation_oecd.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/labor_wage_stagnation_oecd.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 if __name__ == '__main__':
-    Path('web/assets/charts').mkdir(parents=True, exist_ok=True)
+    Path('rendered_outputs/assets/charts').mkdir(parents=True, exist_ok=True)
     try:
         generate_black_labor()
     except Exception as e:

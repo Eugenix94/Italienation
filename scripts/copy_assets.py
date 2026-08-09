@@ -4,7 +4,7 @@ import shutil
 from pathlib import Path
 
 def copy_assets():
-    dest_dir = Path('web/assets/charts')
+    dest_dir = Path('rendered_outputs/assets/charts')
     dest_dir.mkdir(parents=True, exist_ok=True)
     
     # Collect all charts

@@ -55,7 +55,7 @@ def fetch_and_merge():
 def generate_cultural_capital_charts(df):
     if df is None or df.empty: return
     
-    Path('web/assets/charts').mkdir(parents=True, exist_ok=True)
+    Path('rendered_outputs/assets/charts').mkdir(parents=True, exist_ok=True)
     
     # Aggregate top subjects per track
     # Exclude generic subjects like 'RELIGIONE', 'INGLESE', 'MATEMATICA', 'ITALIANO' to see the *distinct* cultural capital
@@ -83,7 +83,7 @@ def generate_cultural_capital_charts(df):
             
         add_provenance(ax, "HuggingFace (diatribe00/italian-schools) | MIM Textbooks")
         plt.tight_layout()
-        plt.savefig(f'web/assets/charts/{filename}', dpi=300, bbox_inches='tight')
+        plt.savefig(f'rendered_outputs/assets/charts/{filename}', dpi=300, bbox_inches='tight')
         plt.close()
 
 def generate_jupyter_notebook():

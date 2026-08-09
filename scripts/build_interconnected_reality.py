@@ -53,7 +53,7 @@ def build_matrix():
     print(f"Interconnected matrix saved to {out_path}")
     
     # Also save as JSON for easy web integration
-    json_path = 'web/data_interconnected_matrix.json'
+    json_path = 'rendered_outputs/data_interconnected_matrix.json'
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4)
     print(f"JSON matrix saved to {json_path}")

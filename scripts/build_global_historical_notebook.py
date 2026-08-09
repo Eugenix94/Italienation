@@ -77,8 +77,8 @@ def generate_gdp_chart(df):
     
     add_provenance(ax, "WorldBank API (NY.GDP.PCAP.CD)")
     plt.tight_layout()
-    Path('web/assets/charts').mkdir(parents=True, exist_ok=True)
-    plt.savefig('web/assets/charts/macro_gdp_comparative_worldbank.png', dpi=300, bbox_inches='tight')
+    Path('rendered_outputs/assets/charts').mkdir(parents=True, exist_ok=True)
+    plt.savefig('rendered_outputs/assets/charts/macro_gdp_comparative_worldbank.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_migration_chart(df):
@@ -95,7 +95,7 @@ def generate_migration_chart(df):
     
     add_provenance(ax, "WorldBank API (SM.POP.NETM)")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/macro_migration_brain_drain_worldbank.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/macro_migration_brain_drain_worldbank.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_jupyter_notebook():

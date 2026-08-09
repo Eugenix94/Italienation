@@ -70,8 +70,8 @@ def generate_distribution_chart(df):
     
     add_provenance(ax, "HuggingFace (diatribe00/italian-schools-opendata) | MIM")
     plt.tight_layout()
-    Path('web/assets/charts').mkdir(parents=True, exist_ok=True)
-    plt.savefig('web/assets/charts/tripartite_school_distribution_hf.png', dpi=300, bbox_inches='tight')
+    Path('rendered_outputs/assets/charts').mkdir(parents=True, exist_ok=True)
+    plt.savefig('rendered_outputs/assets/charts/tripartite_school_distribution_hf.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_curriculum_hours_chart():
@@ -97,7 +97,7 @@ def generate_curriculum_hours_chart():
             
     add_provenance(ax, "Ministero dell'Istruzione e del Merito (MIM)")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/tripartite_curriculum_hours_load.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/tripartite_curriculum_hours_load.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_jupyter_notebook():

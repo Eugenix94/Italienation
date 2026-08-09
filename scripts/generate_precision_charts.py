@@ -41,7 +41,7 @@ def generate_demographic_winter():
 
     add_provenance(ax, "ISTAT (Istituto Nazionale di Statistica)")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/macro_demographic_winter.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/macro_demographic_winter.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_seismic_risk():
@@ -58,7 +58,7 @@ def generate_seismic_risk():
     
     add_provenance(ax, "Ministero dell'Istruzione e del Merito (MIM)")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/decay_seismic_risk_by_region.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/decay_seismic_risk_by_region.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_commute_time():
@@ -75,7 +75,7 @@ def generate_commute_time():
     
     add_provenance(ax, "ISTAT | Trasporti e Mobilità")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/geography_commute_times.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/geography_commute_times.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_track_distribution():
@@ -98,7 +98,7 @@ def generate_track_distribution():
     
     add_provenance(ax, "Ministero dell'Istruzione e del Merito (MIM) | Open Data")
     plt.tight_layout()
-    plt.savefig('web/assets/charts/tripartite_national_distribution.png', dpi=300, bbox_inches='tight')
+    plt.savefig('rendered_outputs/assets/charts/tripartite_national_distribution.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def generate_broadband_gap():
@@ -116,13 +116,13 @@ def generate_broadband_gap():
         
         add_provenance(ax, "Infratel Italia | Piano Scuola Connessa")
         plt.tight_layout()
-        plt.savefig('web/assets/charts/infrastructure_broadband_divide.png', dpi=300, bbox_inches='tight')
+        plt.savefig('rendered_outputs/assets/charts/infrastructure_broadband_divide.png', dpi=300, bbox_inches='tight')
         plt.close()
     except:
         pass
 
 if __name__ == '__main__':
-    Path('web/assets/charts').mkdir(parents=True, exist_ok=True)
+    Path('rendered_outputs/assets/charts').mkdir(parents=True, exist_ok=True)
     generate_demographic_winter()
     generate_seismic_risk()
     generate_commute_time()

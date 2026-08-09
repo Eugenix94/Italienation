@@ -573,7 +573,7 @@ def build_pure_html():
     its_json = its_df.to_json(orient='records')
     html_content = html_content.replace("{its_json}", its_json)
 
-    with open('web/index.html', 'w', encoding='utf-8') as f:
+    with open('rendered_outputs/index.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
         
     print("Completely wiped and rebuilt index.html to be pure academic layout.")

@@ -29,7 +29,7 @@ def build_full_benchmark():
             "learning_poverty": round(row['learning_poverty_pct'], 1) if pd.notnull(row.get('learning_poverty_pct')) else None
         })
         
-    out_path = 'web/data_oecd_full.json'
+    out_path = 'rendered_outputs/data_oecd_full.json'
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(records, f, indent=4)
         

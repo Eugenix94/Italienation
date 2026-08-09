@@ -10,7 +10,7 @@ def build_command_center():
         geo_data = json.load(f)
 
     # Get list of charts for the gallery
-    charts_dir = Path('web/assets/charts')
+    charts_dir = Path('rendered_outputs/assets/charts')
     charts = [f.name for f in charts_dir.glob('*.png')] if charts_dir.exists() else []
 
     istat_data = data['istat_data']
@@ -273,7 +273,7 @@ def build_command_center():
         
         html += f'''                <div class="gallery-item flex flex-col glass-panel rounded-2xl border border-slate-800 hover:border-rose-500/50 transition-colors group bg-slate-900 shadow-xl overflow-hidden" data-cat="{cat}">
                     <div class="bg-black relative w-full h-64 overflow-hidden border-b border-slate-800">
-                        <img src="web/assets/charts/{c}" alt="{title}" class="w-full h-full object-contain p-2 opacity-90 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-500 cursor-pointer" onclick="window.open('web/assets/charts/{c}', '_blank')">
+                        <img src="rendered_outputs/assets/charts/{c}" alt="{title}" class="w-full h-full object-contain p-2 opacity-90 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-500 cursor-pointer" onclick="window.open('rendered_outputs/assets/charts/{c}', '_blank')">
                     </div>
                     <div class="p-6">
                         <div class="text-[9px] text-rose-400 font-bold uppercase tracking-widest mb-2 border border-rose-400/20 bg-rose-400/10 inline-block px-2 py-1 rounded">MIM/ISTAT Provenance Verified</div>
