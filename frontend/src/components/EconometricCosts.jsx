@@ -229,7 +229,7 @@ const EconometricCosts = () => {
     <div className="min-h-screen bg-zinc-950 text-white font-sans overflow-hidden">
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-16 px-6 lg:px-8 max-w-7xl mx-auto flex flex-col items-center text-center">
+        <section className="relative pt-32 pb-24 px-4 w-full flex flex-col items-center text-center my-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -275,13 +275,13 @@ const EconometricCosts = () => {
       </section>
 
       {/* Cost Breakdown Cards */}
-      <section className="py-16 px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-16 px-4 w-full my-12">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-12"
+          className="mb-20"
         >
           <h2 className="text-3xl font-bold mb-4 text-zinc-100">
             <T it="Ripartizione del Deficit" en="Deficit Breakdown" />
@@ -343,7 +343,7 @@ const EconometricCosts = () => {
             </ResponsiveContainer>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {costItems.map((item, idx) => {
               const ItemIcon = LucideIcons[item.icon] || LucideIcons.EyeOff;
               return (
@@ -400,14 +400,14 @@ const EconometricCosts = () => {
       </section>
 
       {/* GDP Divergence Section */}
-      <section className="py-16 px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-16 px-4 w-full my-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="mb-8">
+          <div className="mb-20">
             <h2 className="text-3xl font-bold mb-4 text-zinc-100">
               <T it="Divergenza del PIL (Italia vs EU)" en="GDP Divergence (Italy vs EU)" />
             </h2>
@@ -436,14 +436,14 @@ const EconometricCosts = () => {
       </section>
 
       {/* Structural Mechanisms */}
-      <section className="py-16 px-6 lg:px-8 bg-zinc-900/50 border-t border-b border-zinc-800/50">
+      <section className="py-16 px-4 w-full bg-zinc-900/50 border-t border-b border-zinc-800/50 my-12">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="mb-12"
+            className="mb-20"
           >
             <h2 className="text-3xl font-bold mb-4 text-zinc-100">
               <T it="Meccanismi Strutturali" en="Structural Mechanisms" />
@@ -456,7 +456,7 @@ const EconometricCosts = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {structuralMechanisms.map((mech, idx) => {
               const MechIcon = LucideIcons[mech.icon] || LucideIcons.BookOpen;
               return (
