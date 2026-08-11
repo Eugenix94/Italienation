@@ -42,12 +42,12 @@ export default function DemographicFallout() {
   return (
     <div className="w-full text-white">
       {/* Header */}
-      <div className="mb-12">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4 flex items-center gap-3">
+      <div className="mb-12 text-center max-w-3xl mx-auto flex flex-col items-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-3 text-center">
           <BrainCircuit className="w-10 h-10 text-rose-500" />
           <T it="Ricadute Sociali e Demografiche" en="Social & Demographic Fallout" />
         </h2>
-        <p className="text-zinc-300 max-w-3xl text-lg">
+        <p className="text-zinc-300 max-w-3xl text-lg text-center">
           <T 
             it="Un sistema educativo e lavorativo disfunzionale non produce solo danni economici, ma genera profonde fratture sociali. Dall'ansia scolastica, all'impossibilità di emancipazione abitativa, fino alla penalizzazione strutturale della maternità." 
             en="A dysfunctional educational and labor system doesn't just produce economic damage; it generates deep social fractures. From school anxiety, to the impossibility of housing emancipation, to the structural penalty of motherhood." 

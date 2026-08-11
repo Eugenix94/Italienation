@@ -33,7 +33,7 @@ export default function InternationalBenchmark() {
             en="European comparison of tracking age and its associated impact on dropout rates (NEET)." 
           />
         </p>
-        <p className="text-zinc-300 mt-4 leading-relaxed text-left">
+        <p className="text-zinc-300 mt-4 leading-relaxed text-center">
           <T
             it="Il 'tracking age' è l'età in cui un sistema scolastico smista per la prima volta gli studenti in percorsi diversi (es. liceo, tecnico, professionale). La ricerca mostra che un tracking precoce è fortemente correlato a maggiore disuguaglianza e dispersione."
             en="'Tracking age' is the age at which a school system first sorts students into different paths (e.g., academic, technical, vocational). Research shows that early tracking strongly correlates with higher inequality and dropout rates."

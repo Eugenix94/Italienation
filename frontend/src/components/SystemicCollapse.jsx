@@ -45,12 +45,12 @@ export default function SystemicCollapse() {
   return (
     <div className="w-full text-white">
       {/* Header */}
-      <div className="mb-12">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4 flex items-center gap-3">
+      <div className="mb-12 text-center max-w-3xl mx-auto flex flex-col items-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-3 text-center">
           <AlertTriangle className="w-10 h-10 text-rose-500" />
           <T it="Il Collasso di Sistema" en="The Systemic Collapse" />
         </h2>
-        <p className="text-zinc-400 max-w-3xl text-lg mb-6">
+        <p className="text-zinc-400 max-w-3xl text-lg mb-6 text-center">
           <T 
             it="Un'analisi delle traiettorie terminali del sistema Italia: dai fondi PNRR sprecati, al disimpegno politico giovanile, fino alla bomba a orologeria demografica che minaccia la tenuta stessa dello Stato sociale." 
             en="An analysis of the terminal trajectories of the Italian system: from wasted PNRR funds, to youth political disengagement, to the demographic time bomb threatening the very survival of the welfare state." 

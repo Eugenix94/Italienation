@@ -506,7 +506,7 @@ const EconometricCosts = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl font-bold mb-8 text-zinc-100">
+          <h2 className="text-3xl font-bold mb-8 text-zinc-100 text-center">
             <T it="Confronto Internazionale" en="International Comparison" />
           </h2>
           

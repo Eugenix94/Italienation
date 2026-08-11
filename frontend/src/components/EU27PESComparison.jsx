@@ -195,12 +195,12 @@ export default function EU27PESComparison() {
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/10 via-zinc-950 to-zinc-950 pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-4 relative z-10">
-        <div className="mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center gap-3">
+        <div className="mb-12 text-center max-w-3xl mx-auto flex flex-col items-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center justify-center gap-3 text-center">
             <Building2 className="w-8 h-8 text-indigo-400" />
             <T it="Servizi Pubblici per l'Impiego EU27" en="EU27 Public Employment Services" />
           </h2>
-          <p className="text-zinc-400 max-w-3xl text-lg mb-4">
+          <p className="text-zinc-400 max-w-3xl text-lg mb-4 text-center">
             <T 
               it="Un'analisi comparativa dei 27 servizi pubblici per l'impiego europei. Seleziona un paese per confrontarne il modello di governance e le performance digitali con il frammentato sistema italiano." 
               en="A comparative analysis of the 27 European public employment services. Select a country to compare its governance model and digital performance against the fragmented Italian system." 

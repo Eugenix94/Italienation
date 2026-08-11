@@ -33,7 +33,7 @@ export default function StructuralOutcomes() {
             en="Aggregated data on resources, socio-economic background, and outcomes across the three main Italian school tracks." 
           />
         </p>
-        <p className="text-zinc-400 text-lg mt-4 text-left">
+        <p className="text-zinc-400 text-lg mt-4 text-center">
           <T 
             it="Il sistema di istruzione secondaria italiano prevede una divisione precoce a 14 anni in tre percorsi principali: Licei (accademico), Istituti Tecnici e Istituti Professionali. Più che basarsi sull'attitudine dello studente, questa scelta correla fortemente con lo status socio-economico (ESCS) della famiglia di origine, determinando profonde disuguaglianze in termini di risorse scolastiche ed esiti accademici e lavorativi futuri." 
             en="The Italian secondary education system features an early tracking mechanism at age 14 into three main pathways: Licei (academic), Technical Institutes, and Professional Institutes. Rather than being based on student aptitude, this choice correlates strongly with the family's socio-economic status (ESCS), driving profound inequalities in school resources and future academic and labor market outcomes." 

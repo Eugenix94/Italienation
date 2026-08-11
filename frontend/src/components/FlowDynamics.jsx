@@ -33,7 +33,7 @@ export default function FlowDynamics() {
             en="The impact of family background on grade retention, university dropout rates, and the paradox of labor market skills mismatch." 
           />
         </p>
-        <p className="text-zinc-400 text-lg mt-4 text-left">
+        <p className="text-zinc-400 text-lg mt-4 text-center">
           <T 
             it="Il percorso dalla dispersione scolastica al mercato del lavoro non è lineare. Questo flusso evidenzia come le disuguaglianze iniziali si accumulino: bocciature legate allo status sociale, abbandoni al primo anno di università e un 'paradosso' lavorativo dove le aziende non trovano candidati mentre i tassi di inattività giovanile (NEET) restano altissimi." 
             en="The journey from school dropout to the labor market is not linear. This flow highlights how initial inequalities compound: social status-linked grade retentions, first-year university dropouts, and a labor 'paradox' where companies can't find candidates while youth inactivity (NEET) rates remain sky-high." 
