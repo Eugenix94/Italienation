@@ -275,7 +275,7 @@ const EconometricCosts = () => {
       </section>
 
       {/* Cost Breakdown Cards */}
-      <section className="py-16 px-4 w-full my-12">
+      <section className="py-16 px-4 max-w-7xl mx-auto w-full my-12">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -283,14 +283,14 @@ const EconometricCosts = () => {
           transition={{ duration: 0.6 }}
           className="mb-20"
         >
-          <h2 className="text-3xl font-bold mb-4 text-zinc-100">
+          <h2 className="text-3xl font-bold mb-4 text-zinc-100 text-center">
             <T it="Ripartizione del Deficit" en="Deficit Breakdown" />
           </h2>
           <SectionContext 
             it="I dati sottostanti non sono opinioni, ma proiezioni econometriche rigorose basate su fonti istituzionali verificate per il 2024-2026 (ISTAT, INVALSI, Unioncamere, SVIMEZ, MEF). Questo deficit strutturale di €292.5 Miliardi all'anno (~14.6% del PIL) è il vero costo sistemico dell'inefficienza scolastica e del mismatch del mercato del lavoro. Ogni voce nel grafico rappresenta capitale letteralmente distrutto o sprecato."
             en="The data below are not opinions, but rigorous econometric projections based on verified institutional sources for 2024-2026 (ISTAT, INVALSI, Unioncamere, SVIMEZ, MEF). This structural deficit of €292.5 Billion annually (~14.6% of GDP) is the true systemic cost of educational inefficiency and labor market mismatch. Every item in the chart represents capital literally destroyed or wasted."
           />
-          <p className="text-zinc-400 text-lg mb-8 max-w-4xl mt-4">
+          <p className="text-zinc-400 text-lg mb-8 max-w-4xl mx-auto mt-4 text-center">
             <T 
               it="Il grafico sottostante illustra la distribuzione orizzontale dei costi tra i vari fattori sistemici (come lavoro nero, NEET, fuga di cervelli e mismatch di competenze). I riquadri successivi approfondiscono ogni singola voce con dati specifici, dimostrando l'impatto cumulativo sull'economia." 
               en="The chart below illustrates the horizontal distribution of costs across systemic factors (such as the shadow economy, NEETs, brain drain, and skills mismatch). The subsequent cards detail each specific item with targeted data, demonstrating the cumulative impact on the economy." 
@@ -400,7 +400,7 @@ const EconometricCosts = () => {
       </section>
 
       {/* GDP Divergence Section */}
-      <section className="py-16 px-4 w-full my-12">
+      <section className="py-16 px-4 max-w-7xl mx-auto w-full my-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -408,10 +408,10 @@ const EconometricCosts = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="mb-20">
-            <h2 className="text-3xl font-bold mb-4 text-zinc-100">
+            <h2 className="text-3xl font-bold mb-4 text-zinc-100 text-center">
               <T it="Divergenza del PIL (Italia vs EU)" en="GDP Divergence (Italy vs EU)" />
             </h2>
-            <p className="text-zinc-400 max-w-3xl">
+            <p className="text-zinc-400 max-w-3xl mx-auto text-center">
               <T 
                 it="L'effetto cumulato della perdita di capitale umano si manifesta in una progressiva divergenza del PIL pro capite italiano rispetto alla media europea dal 2000 in poi." 
                 en="The cumulative effect of human capital loss manifests in a progressive divergence of Italian GDP per capita compared to the European average since 2000." 
@@ -445,10 +445,10 @@ const EconometricCosts = () => {
             transition={{ duration: 0.6 }}
             className="mb-20"
           >
-            <h2 className="text-3xl font-bold mb-4 text-zinc-100">
+            <h2 className="text-3xl font-bold mb-4 text-zinc-100 text-center">
               <T it="Meccanismi Strutturali" en="Structural Mechanisms" />
             </h2>
-            <p className="text-zinc-400 max-w-3xl">
+            <p className="text-zinc-400 max-w-3xl mx-auto text-center">
               <T 
                 it="Inefficiencies are not random; they stem from specific systemic choices that penalize students and the economy." 
                 en="Inefficiencies are not random; they stem from specific systemic choices that penalize students and the economy." 
