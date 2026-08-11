@@ -146,6 +146,19 @@ const EconometricCosts = () => {
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "MIM / ISTAT",
       url: "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?area=Studenti"
+    },
+    {
+      id: 'systemic_other',
+      icon: 'PieChart',
+      title_en: "Other Systemic Costs",
+      title_it: "Altri Costi Sistemici",
+      value: 111.0,
+      desc_en: "Cumulative macroeconomic burden from underemployment, inefficient bureaucracy, lack of R&D investment, and systemic skill stagnation across the adult population.",
+      desc_it: "Oneri macroeconomici cumulativi derivanti da sottoccupazione, burocrazia inefficiente, mancanza di investimenti in R&S e stagnazione sistemica delle competenze.",
+      eu: "Estimated structurally from the remaining GDP divergence relative to top EU performers.",
+      color: 'border-rose-500/20 bg-rose-500/5',
+      source: "Various (Bank of Italy, ISTAT)",
+      url: "https://www.bancaditalia.it/pubblicazioni/relazione-annuale/2023/index.html"
     }
   ];
 
@@ -226,10 +239,10 @@ const EconometricCosts = () => {
 
   return (
 
-    <div className="min-h-screen bg-zinc-950 text-white font-sans overflow-hidden">
+    <div className="w-full text-white font-sans">
       
       {/* Hero Section */}
-        <section className="relative pt-32 pb-24 px-4 w-full flex flex-col items-center text-center my-12">
+      <section className="relative py-12 px-4 max-w-7xl my-0 mx-auto w-full flex flex-col items-center text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -275,7 +288,7 @@ const EconometricCosts = () => {
       </section>
 
       {/* Cost Breakdown Cards */}
-      <section className="py-16 px-4 max-w-7xl mx-auto w-full my-12">
+      <section className="py-12 px-4 max-w-7xl my-0 mx-auto w-full text-center flex flex-col items-center">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -298,7 +311,7 @@ const EconometricCosts = () => {
           </p>
           
           {/* Pie Chart Representation */}
-          <div className="h-96 w-full bg-white/[0.02] border border-zinc-800 rounded-2xl p-6 mb-12 flex flex-col justify-center relative z-20 shadow-lg">
+          <div className="h-[28rem] md:h-[32rem] w-full bg-white/[0.02] border border-zinc-800 rounded-2xl p-6 mb-12 flex flex-col justify-center relative z-20 shadow-lg">
             <span className="sr-only">
               <T 
                 it="Grafico a ciambella che illustra la ripartizione dei €292.5 miliardi di costi annuali." 
@@ -318,13 +331,13 @@ const EconometricCosts = () => {
                     { name: lang === 'it' ? 'Altri Costi' : 'Other Systemic Costs', value: chartData[0].systemic_other, fill: '#4c0519' },
                   ]}
                   cx="50%"
-                  cy="50%"
-                  innerRadius={90}
-                  outerRadius={140}
+                  cy="45%"
+                  innerRadius={110}
+                  outerRadius={170}
                   paddingAngle={2}
                   dataKey="value"
-                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
-                  labelLine={true}
+                  labelLine={false}
+                  label={false}
                 >
                   {
                     [
@@ -338,6 +351,12 @@ const EconometricCosts = () => {
                   formatter={(value) => [`€${value}B`, 'Costo']}
                   contentStyle={{ backgroundColor: '#18181b', borderColor: '#3f3f46', color: '#f4f4f5', borderRadius: '0.5rem', fontWeight: 'bold' }} 
                   itemStyle={{ color: '#f43f5e' }}
+                />
+                <Legend 
+                  layout="horizontal" 
+                  verticalAlign="bottom" 
+                  align="center" 
+                  wrapperStyle={{ paddingTop: '20px', color: '#a1a1aa', fontSize: '0.9rem' }} 
                 />
               </PieChart>
             </ResponsiveContainer>
@@ -400,7 +419,7 @@ const EconometricCosts = () => {
       </section>
 
       {/* GDP Divergence Section */}
-      <section className="py-16 px-4 max-w-7xl mx-auto w-full my-12">
+      <section className="py-12 px-4 max-w-7xl my-0 mx-auto w-full text-center flex flex-col items-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -436,7 +455,7 @@ const EconometricCosts = () => {
       </section>
 
       {/* Structural Mechanisms */}
-      <section className="py-16 px-4 w-full bg-zinc-900/50 border-t border-b border-zinc-800/50 my-12">
+      <section className="py-12 px-4 max-w-7xl my-0 mx-auto w-full text-center flex flex-col items-center">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -499,7 +518,7 @@ const EconometricCosts = () => {
       </section>
 
       {/* International Comparison Table */}
-      <section className="py-16 px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 max-w-7xl my-0 mx-auto w-full text-center flex flex-col items-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

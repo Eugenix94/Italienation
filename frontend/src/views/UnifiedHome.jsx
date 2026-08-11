@@ -173,7 +173,7 @@ export default function UnifiedHome() {
 
         {/* DASHBOARD CONTENT */}
         <div className="flex-1 w-full overflow-hidden relative">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 lg:pt-16 pb-24">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 lg:pt-16 pb-24 my-0 flex flex-col items-center">
             
             <div className="w-full space-y-40">
                 <section id="struttura" ref={el => sectionRefs.current['struttura'] = el} className="scroll-mt-24 space-y-32">
