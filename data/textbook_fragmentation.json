@@ -1,0 +1,30 @@
+{
+  "totalActiveTextbooks": 42560,
+  "marketValueEuros": 850000000,
+  "subjectFragmentation": [
+    {
+      "subject": { "it": "Matematica (1° Anno Liceo)", "en": "Math (1st Year Lyceum)" },
+      "differentEditionsActive": 142,
+      "averageCost": 35.50
+    },
+    {
+      "subject": { "it": "Storia (Triennio)", "en": "History (Triennum)" },
+      "differentEditionsActive": 86,
+      "averageCost": 42.00
+    },
+    {
+      "subject": { "it": "Grammatica Italiana", "en": "Italian Grammar" },
+      "differentEditionsActive": 115,
+      "averageCost": 28.90
+    },
+    {
+      "subject": { "it": "Inglese (B1/B2)", "en": "English (B1/B2)" },
+      "differentEditionsActive": 178,
+      "averageCost": 39.90
+    }
+  ],
+  "structuralIssue": {
+    "it": "L'oligopolio editoriale (Mondadori, Zanichelli, Pearson) produce decine di edizioni fotocopia dello stesso argomento, cambiando minimamente l'ordine dei capitoli. Poiché ogni istituto adotta un libro diverso (o un'edizione aggiornata dello stesso autore), il mercato dell'usato viene bloccato artificialmente, costringendo le famiglie a comprare il nuovo. Se due studenti frequentano scuole diverse, non possono scambiarsi i libri.",
+    "en": "The editorial oligopoly (Mondadori, Zanichelli, Pearson) produces dozens of identical editions on the same subject, making minimal changes to chapter orders. Since each school adopts a different book (or an 'updated' edition by the same author), the second-hand market is artificially killed, forcing families to buy new. If two students attend different schools, they cannot swap books."
+  }
+}

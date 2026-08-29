@@ -1,0 +1,18 @@
+{
+  "source_urls": {
+    "istruzione_opendata": "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?area=Personale%20Scuola",
+    "eurydice": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/teachers-and-education-staff"
+  },
+  "totalTeachers": 850000,
+  "precariousTeachers": 250000,
+  "precariousPercentage": 29.4,
+  "averageAge": 51,
+  "teachersOver50Percentage": 59,
+  "euAverageAge": 44,
+  "euPrecariousPercentage": 11,
+  "averageContinuityYears": 1.2,
+  "structuralIssue": {
+    "it": "L'abuso strutturale dei contratti a termine (supplenze annuali) distrugge la continuità didattica. Con 250.000 docenti precari, gli studenti cambiano professore ogni anno. L'età media (51 anni) e la mancanza di valutazione sulle performance creano un sistema focalizzato sull'anzianità sindacale piuttosto che sulla qualità pedagogica.",
+    "en": "The structural abuse of fixed-term contracts (annual substitutes) destroys pedagogical continuity. With 250,000 precarious teachers, students change professors every year. The high average age (51) and lack of performance evaluation create a system focused on union seniority rather than pedagogical quality."
+  }
+}

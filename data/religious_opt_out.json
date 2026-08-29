@@ -1,0 +1,49 @@
+{
+  "national_trend": [
+    { "year": "2018", "optOutPercentage": 12.9, "optOutCount": 978000 },
+    { "year": "2019", "optOutPercentage": 13.5, "optOutCount": 1023000 },
+    { "year": "2020", "optOutPercentage": 14.1, "optOutCount": 1065000 },
+    { "year": "2021", "optOutPercentage": 14.8, "optOutCount": 1110000 },
+    { "year": "2022", "optOutPercentage": 15.5, "optOutCount": 1155000 },
+    { "year": "2023", "optOutPercentage": 16.4, "optOutCount": 1220000 }
+  ],
+  "macro_regions": [
+    { "region": "Nord-Ovest", "optOutPercentage": 24.5 },
+    { "region": "Nord-Est", "optOutPercentage": 26.2 },
+    { "region": "Centro", "optOutPercentage": 18.1 },
+    { "region": "Sud", "optOutPercentage": 4.8 },
+    { "region": "Isole", "optOutPercentage": 3.9 }
+  ],
+  "school_types": [
+    { "type": "Scuola dell'Infanzia", "itName": "Infanzia", "enName": "Preschool", "optOutPercentage": 9.5 },
+    { "type": "Scuola Primaria", "itName": "Primaria", "enName": "Primary", "optOutPercentage": 10.2 },
+    { "type": "Scuola Secondaria di I grado", "itName": "Medie", "enName": "Middle School", "optOutPercentage": 14.3 },
+    { "type": "Scuola Secondaria di II grado", "itName": "Superiori", "enName": "High School", "optOutPercentage": 27.8 }
+  ],
+  "key_insights": [
+    {
+      "id": "territorial_divide",
+      "icon": "MapPin",
+      "itTitle": "Divario Territoriale Estremo",
+      "enTitle": "Extreme Territorial Divide",
+      "itDesc": "Mentre in Campania e Calabria chi non si avvale dell'IRC è sotto il 3%, in regioni come la Valle d'Aosta, l'Emilia-Romagna e la Toscana si superano punte del 30-40%.",
+      "enDesc": "While in Campania and Calabria opt-outs are below 3%, regions like Valle d'Aosta, Emilia-Romagna, and Tuscany see peaks exceeding 30-40%."
+    },
+    {
+      "id": "alternative_hour",
+      "icon": "Clock",
+      "itTitle": "L'Ora Alternativa Fantasma",
+      "enTitle": "The Ghost Alternative Hour",
+      "itDesc": "Spesso le scuole non riescono a garantire l'ora alternativa per carenza di fondi, spingendo gli studenti a entrare un'ora dopo o uscire un'ora prima, alterando il tempo scuola.",
+      "enDesc": "Schools often fail to provide the legally required alternative hour due to lack of funds, pushing students to arrive late or leave early, altering learning time."
+    },
+    {
+      "id": "growth_trend",
+      "icon": "TrendingUp",
+      "itTitle": "Un Trend Costante",
+      "enTitle": "A Constant Trend",
+      "itDesc": "In soli 5 anni c'è stato un aumento del 27% nel numero assoluto di studenti che scelgono di non frequentare, nonostante il calo demografico complessivo.",
+      "enDesc": "In just 5 years, there has been a 27% increase in the absolute number of students opting out, despite the overall demographic decline."
+    }
+  ]
+}

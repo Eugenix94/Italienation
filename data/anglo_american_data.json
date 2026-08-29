@@ -1,0 +1,28 @@
+{
+  "comparisonData": [
+    {
+      "metric": { "it": "Modello", "en": "Model" },
+      "italy": { "it": "Tripartito (Licei, Tecnici, Professionali)", "en": "Tripartite (Liceo, Tech, Vocational)" },
+      "anglo": { "it": "Comprehensive High School", "en": "Comprehensive High School" },
+      "iconName": "Layers"
+    },
+    {
+      "metric": { "it": "Età di Smistamento (Tracking)", "en": "Tracking Age" },
+      "italy": { "it": "14 anni (Rigido)", "en": "14 years (Rigid)" },
+      "anglo": { "it": "Nessuno / 16 anni (Flessibile)", "en": "None / 16 years (Flexible)" },
+      "iconName": "GitMerge"
+    },
+    {
+      "metric": { "it": "Personalizzazione", "en": "Customization" },
+      "italy": { "it": "Indirizzo chiuso. Cambiare richiede esami integrativi.", "en": "Closed track. Changing requires extra exams." },
+      "anglo": { "it": "Modulare (Electives). Lo studente costruisce il curriculum.", "en": "Modular (Electives). Student builds curriculum." },
+      "iconName": "BookOpen"
+    },
+    {
+      "metric": { "it": "Mobilità Sociale", "en": "Social Mobility" },
+      "italy": { "it": "Alta segregazione socio-economica per indirizzo.", "en": "High socio-economic segregation by track." },
+      "anglo": { "it": "Campus unificato. Maggiore mescolanza sociale.", "en": "Unified campus. Higher social mixing." },
+      "iconName": "GraduationCap"
+    }
+  ]
+}
