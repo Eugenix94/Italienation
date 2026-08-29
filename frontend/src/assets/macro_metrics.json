@@ -3,7 +3,7 @@
     { "year": 2010, "births_thousands": 562, "school_closures": 0 },
     { "year": 2015, "births_thousands": 485, "school_closures": 120 },
     { "year": 2020, "births_thousands": 404, "school_closures": 350 },
-    { "year": 2024, "births_thousands": 379, "school_closures": 580 },
+    { "year": 2024, "births_thousands": 370, "school_closures": 580 },
     { "year": 2030, "births_thousands": 350, "school_closures": 1100 }
   ],
   "pnrr_spending": [

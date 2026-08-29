@@ -10,12 +10,10 @@ import {
   Tooltip,
   ResponsiveContainer,
   Cell,
-  ReferenceLine,
-  ScatterChart,
-  Scatter,
-  ZAxis
+  ReferenceLine
 } from 'recharts';
 import { T } from './T';
+import { useLanguage } from '../contexts/LanguageContext';
 import SourceBadge from './SourceBadge';
 import falloutData from '../assets/demographic_fallout.json';
 
@@ -37,6 +35,8 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function DemographicFallout() {
+  const { lang } = useLanguage();
+  const isIt = lang === 'it';
   const { anxiety_pisa, housing_overburden, motherhood_penalty } = falloutData;
 
   return (
@@ -95,9 +95,9 @@ export default function DemographicFallout() {
                 <XAxis type="number" domain={[0, 70]} tick={{ fill: '#a1a1aa' }} unit="%" />
                 <YAxis dataKey="country" type="category" tick={{ fill: '#e4e4e7', fontWeight: 600 }} width={80} />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="anxiety_pct" name="Students Reporting High Anxiety" radius={[0, 4, 4, 0]} barSize={32}>
+                <Bar dataKey="anxiety_pct" name={isIt ? "Studenti con alta ansia" : "Students Reporting High Anxiety"} radius={[0, 4, 4, 0]} barSize={32}>
                   {anxiety_pisa.data.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.country === 'Italy' ? '#f43f5e' : entry.country === 'OECD Avg' ? '#6366f1' : '#3f3f46'} />
+                    <Cell key={`cell-${index}`} fill={entry.country === 'Italy' ? '#f43f5e' : entry.country === 'OECD Avg' ? '#6366f1' : '#64748b'} />
                   ))}
                 </Bar>
                 <ReferenceLine x={37} stroke="#6366f1" strokeDasharray="3 3" />
@@ -142,9 +142,9 @@ export default function DemographicFallout() {
                 <XAxis dataKey="country" tick={{ fill: '#a1a1aa', fontSize: 12 }} angle={-45} textAnchor="end" />
                 <YAxis tick={{ fill: '#a1a1aa', fontSize: 12 }} unit="%" />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="overburden_pct" name="Housing Overburden Rate" radius={[4, 4, 0, 0]}>
+                <Bar dataKey="overburden_pct" name={isIt ? "Sovraccarico Costi Abitativi" : "Housing Overburden Rate"} radius={[4, 4, 0, 0]}>
                   {housing_overburden.data.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.country === 'Italy' ? '#f59e0b' : entry.country === 'EU Avg' ? '#6366f1' : '#3f3f46'} />
+                    <Cell key={`cell-${index}`} fill={entry.country === 'Italy' ? '#f59e0b' : entry.country === 'EU Avg' ? '#6366f1' : '#64748b'} />
                   ))}
                 </Bar>
               </BarChart>
@@ -188,8 +188,8 @@ export default function DemographicFallout() {
                 <XAxis dataKey="region" tick={{ fill: '#a1a1aa', fontSize: 12 }} angle={-45} textAnchor="end" />
                 <YAxis tick={{ fill: '#a1a1aa', fontSize: 12 }} unit="%" domain={[0, 80]} />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="female_emp_pct" name="Tasso Occupazione Femminile" fill="#10b981" radius={[4, 4, 0, 0]} />
-                <Bar dataKey="tempo_pieno_coverage" name="Copertura Tempo Pieno" fill="#3f3f46" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="female_emp_pct" name={isIt ? "Tasso Occupazione Femminile" : "Female Employment Rate"} fill="#10b981" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="tempo_pieno_coverage" name={isIt ? "Copertura Tempo Pieno" : "Full-time School Coverage"} fill="#6366f1" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>

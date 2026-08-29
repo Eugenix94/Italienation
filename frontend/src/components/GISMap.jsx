@@ -110,7 +110,7 @@ export default function GISMap() {
                               {p.name}
                               {hasMonopoly && <span className="w-2 h-2 rounded-full bg-rose-500" title="High Liceo Skew"></span>}
                             </div>
-                            <div className="text-xs text-zinc-500 flex justify-between mt-2">
+                            <div className="text-xs text-zinc-400 flex justify-between mt-2">
                               <span className="text-indigo-400">L: {p.liceo_count}</span>
                               <span className="text-emerald-400">T: {p.tecnico_count}</span>
                               <span className="text-amber-400">P: {p.professionale_count}</span>
@@ -187,15 +187,15 @@ export default function GISMap() {
                         
                         <div className="space-y-2 text-xs">
                           <div className="flex justify-between border-b border-zinc-800 pb-1">
-                            <span className="text-zinc-500"><T it="Età di Tracking" en="Tracking Age" /></span>
+                            <span className="text-zinc-400"><T it="Età di Tracking" en="Tracking Age" /></span>
                             <span className="font-bold text-zinc-300">{country.trackAge}</span>
                           </div>
                           <div className="flex justify-between border-b border-zinc-800 pb-1">
-                            <span className="text-zinc-500"><T it="Tasso NEET" en="NEET Rate" /></span>
+                            <span className="text-zinc-400"><T it="Tasso NEET" en="NEET Rate" /></span>
                             <span className="font-bold text-rose-400">{country.neet}</span>
                           </div>
                           <div className="flex justify-between">
-                            <span className="text-zinc-500"><T it="Modello Lavoro-Studio" en="Work-Study Model" /></span>
+                            <span className="text-zinc-400"><T it="Modello Lavoro-Studio" en="Work-Study Model" /></span>
                             <span className="font-bold text-emerald-400">{country.pcto}</span>
                           </div>
                         </div>
@@ -209,8 +209,9 @@ export default function GISMap() {
               <div className="lg:col-span-3 bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden relative shadow-2xl h-[500px] lg:h-[600px]">
                 <MapContainer center={center} zoom={zoom} scrollWheelZoom={false} className="w-full h-full bg-zinc-900">
                   <TileLayer
-                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-                    attribution='&copy; OpenStreetMap contributors &copy; CARTO'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    attribution='&copy; OpenStreetMap contributors'
+                    className="map-tiles"
                   />
                   
                   {view.mode === 'provincial' && provinceData.map(p => {
@@ -232,9 +233,9 @@ export default function GISMap() {
                         }}
                       >
                         <Popup className="custom-popup">
-                          <div className="p-1 min-w-[200px]">
-                            <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{p.name}</h3>
-                            <div className="text-xs space-y-1">
+                          <div className="bg-white text-gray-900 rounded-lg p-2 min-w-[200px]" style={{ color: '#1a1a2e' }}>
+                            <h3 className="font-bold text-gray-900 mb-2 border-b border-gray-200 pb-1 text-sm uppercase">{p.name}</h3>
+                            <div className="text-xs space-y-1 text-gray-800">
                               <p><strong>Licei:</strong> {p.liceo_count}</p>
                               <p><strong>Tecnici:</strong> {p.tecnico_count}</p>
                               <p><strong>Professionali:</strong> {p.professionale_count}</p>
@@ -260,8 +261,8 @@ export default function GISMap() {
                         }}
                       >
                         <Popup className="custom-popup">
-                          <div className="p-2 min-w-[200px]">
-                            <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{area.name}</h3>
+                          <div className="bg-white text-gray-900 rounded-lg p-2 min-w-[200px]" style={{ color: '#1a1a2e' }}>
+                            <h3 className="font-bold text-gray-900 mb-2 border-b border-gray-200 pb-1 text-sm uppercase">{area.name}</h3>
                             {dropoutData && (
                               <div className="text-xs space-y-2 mt-2">
                                 <p className="text-rose-600 font-bold"><T it="Rinuncia Università:" en="University Dropout:" /> {dropoutData.dropout_pct}%</p>
@@ -288,8 +289,8 @@ export default function GISMap() {
                         }}
                       >
                         <Popup className="custom-popup">
-                          <div className="p-2 min-w-[200px]">
-                            <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm uppercase">{country.name}</h3>
+                          <div className="bg-white text-gray-900 rounded-lg p-2 min-w-[200px]" style={{ color: '#1a1a2e' }}>
+                            <h3 className="font-bold text-gray-900 mb-2 border-b border-gray-200 pb-1 text-sm uppercase">{country.name}</h3>
                             <div className="text-xs space-y-2 mt-2 text-gray-800">
                               <p><strong>Tracking Age:</strong> {country.trackAge}</p>
                               <p><strong>NEET:</strong> {country.neet}</p>

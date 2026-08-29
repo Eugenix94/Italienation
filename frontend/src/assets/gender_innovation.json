@@ -1,0 +1,20 @@
+{
+  "source_urls": {
+    "gender_gap": "https://ec.europa.eu/eurostat/databrowser/view/earn_gr_gpgr2/default/table",
+    "innovation_rd": "https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table",
+    "startups": "https://startup.registroimprese.it/"
+  },
+  "gender_gap": [
+    { "sector": "STEM", "pay_gap_pct": 18.5, "female_participation_pct": 24 },
+    { "sector": "Sanità", "pay_gap_pct": 15.2, "female_participation_pct": 68 },
+    { "sector": "Educazione", "pay_gap_pct": 8.4, "female_participation_pct": 82 },
+    { "sector": "Finanza", "pay_gap_pct": 22.1, "female_participation_pct": 41 },
+    { "sector": "Manifattura", "pay_gap_pct": 19.8, "female_participation_pct": 29 }
+  ],
+  "innovation_rd": [
+    { "year": "2015", "rd_gdp_pct": 1.34, "startups_count": 5100 },
+    { "year": "2018", "rd_gdp_pct": 1.42, "startups_count": 9600 },
+    { "year": "2021", "rd_gdp_pct": 1.51, "startups_count": 14000 },
+    { "year": "2024", "rd_gdp_pct": 1.48, "startups_count": 12800 }
+  ]
+}

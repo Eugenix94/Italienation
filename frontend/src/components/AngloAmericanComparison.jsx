@@ -50,7 +50,7 @@ export default function AngloAmericanComparison() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-1 bg-zinc-900 rounded-2xl overflow-hidden text-sm sm:text-base">
           
           {/* Header */}
-          <div className="hidden md:flex p-6 items-center font-bold text-zinc-500 uppercase tracking-widest text-xs">
+          <div className="hidden md:flex p-6 items-center font-bold text-zinc-400 uppercase tracking-widest text-xs">
             <T it="Metrica di Confronto" en="Comparison Metric" />
           </div>
           <div className="p-6 flex items-center justify-center gap-3 bg-zinc-800/30 font-bold text-white text-lg sm:text-xl border-b border-rose-500/20">

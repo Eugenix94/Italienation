@@ -8,10 +8,14 @@ import DataTooltip from "./DataTooltip";
 import MethodologyAlert from "./MethodologyAlert";
 import SourceBadge from './SourceBadge';
 import precariatoData from '../../public/data/precariato_docenti.json';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function LaborMarketAndCorrelations() {
+  const { lang } = useLanguage();
+  const isIt = lang === 'it';
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/labor_market_econometrics.json`)
@@ -22,17 +26,25 @@ export default function LaborMarketAndCorrelations() {
       })
       .catch(err => {
         console.error("Error loading labor market metrics:", err);
+        setError(err.message || 'Failed to load data');
         setLoading(false);
       });
   }, []);
 
-  if (loading || !data) {
+  if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen text-zinc-400 bg-zinc-950">
         <T it="Caricamento metriche del lavoro..." en="Loading labor market metrics..." />
       </div>
     );
   }
+
+  if (error || !data) return (
+    <div className="w-full py-16 flex flex-col items-center justify-center text-zinc-400">
+      <p className="text-lg font-medium">Failed to load data</p>
+      <p className="text-sm mt-2">{error}</p>
+    </div>
+  );
 
   const { tax_wedge, undeclared_work, correlations } = data;
 
@@ -100,12 +112,13 @@ export default function LaborMarketAndCorrelations() {
                   <YAxis dataKey="country" type="category" stroke="#d4d4d8" width={80} tick={{ fontSize: 13 }} />
                   <RechartsTooltip 
                     contentStyle={{ backgroundColor: '#18181b', borderColor: '#3f3f46', borderRadius: '8px' }}
-                    itemStyle={{ color: '#fff' }}
+                    itemStyle={{ color: '#ffffff' }}
+                    labelStyle={{ color: '#ffffff' }}
                     cursor={{ fill: 'rgba(255,255,255,0.05)' }}
                   />
                   <Bar dataKey="wedge_pct" radius={[0, 4, 4, 0]} barSize={20}>
                     {tax_wedge.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.country === 'Italia' ? '#f43f5e' : entry.isAverage ? '#6366f1' : '#52525b'} />
+                      <Cell key={`cell-${index}`} fill={entry.country === 'Italia' ? '#f43f5e' : entry.isAverage ? '#6366f1' : '#64748b'} />
                     ))}
                   </Bar>
                 </BarChart>
@@ -146,12 +159,13 @@ export default function LaborMarketAndCorrelations() {
                   <YAxis tickFormatter={(val) => `${val}%`} stroke="#71717a" />
                   <RechartsTooltip 
                     contentStyle={{ backgroundColor: '#18181b', borderColor: '#3f3f46', borderRadius: '8px' }}
-                    itemStyle={{ color: '#fff' }}
+                    itemStyle={{ color: '#ffffff' }}
+                    labelStyle={{ color: '#ffffff' }}
                     cursor={{ fill: 'rgba(255,255,255,0.05)' }}
                   />
                   <Bar dataKey="irregularity_pct" radius={[4, 4, 0, 0]} barSize={40}>
                     {undeclared_work.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.irregularity_pct > 20 ? '#fbbf24' : '#52525b'} />
+                      <Cell key={`cell-${index}`} fill={entry.irregularity_pct > 20 ? '#fbbf24' : '#64748b'} />
                     ))}
                   </Bar>
                 </BarChart>
@@ -204,7 +218,7 @@ export default function LaborMarketAndCorrelations() {
               <p className="text-xs text-zinc-500 uppercase font-bold mb-2"><T it="Età Media" en="Average Age" /></p>
               <div className="flex items-end gap-2">
                 <p className="text-3xl font-black text-rose-400">{precariatoData.averageAge}</p>
-                <p className="text-sm font-bold text-rose-400/50 mb-1">anni</p>
+                <p className="text-sm font-bold text-rose-400/50 mb-1">{isIt ? "anni" : "years"}</p>
               </div>
             </div>
             <div className="bg-zinc-950 p-5 rounded-2xl border border-zinc-800 relative overflow-hidden">
@@ -212,7 +226,7 @@ export default function LaborMarketAndCorrelations() {
               <p className="text-xs text-zinc-500 uppercase font-bold mb-2"><T it="Età Media EU" en="EU Average Age" /></p>
               <div className="flex items-end gap-2">
                 <p className="text-3xl font-black text-emerald-400">{precariatoData.euAverageAge}</p>
-                <p className="text-sm font-bold text-emerald-400/50 mb-1">anni</p>
+                <p className="text-sm font-bold text-emerald-400/50 mb-1">{isIt ? "anni" : "years"}</p>
               </div>
             </div>
           </div>
@@ -254,20 +268,21 @@ export default function LaborMarketAndCorrelations() {
                 <YAxis dataKey="factor" type="category" stroke="#d4d4d8" width={180} tick={{ fontSize: 13 }} />
                 <RechartsTooltip 
                   contentStyle={{ backgroundColor: '#18181b', borderColor: '#3f3f46', borderRadius: '8px' }}
-                  itemStyle={{ color: '#fff' }}
+                  itemStyle={{ color: '#ffffff' }}
+                  labelStyle={{ color: '#ffffff' }}
                   cursor={{ fill: 'rgba(255,255,255,0.05)' }}
                 />
                 <ReferenceLine x={0} stroke="#71717a" />
-                <Bar name="Correlazione Precariato" dataKey="correlation_precarious" fill="#ef4444" radius={[0, 4, 4, 0]} barSize={12} />
-                <Bar name="Correlazione Inattività" dataKey="correlation_inactivity" fill="#f59e0b" radius={[0, 4, 4, 0]} barSize={12} />
-                <Bar name="Correlazione Rischio NEET" dataKey="correlation_neet" fill="#6366f1" radius={[0, 4, 4, 0]} barSize={12} />
+                <Bar name={isIt ? "Correlazione Precariato" : "Precarity Correlation"} dataKey="correlation_precarious" fill="#ef4444" radius={[0, 4, 4, 0]} barSize={12} />
+                <Bar name={isIt ? "Correlazione Inattività" : "Inactivity Correlation"} dataKey="correlation_inactivity" fill="#f59e0b" radius={[0, 4, 4, 0]} barSize={12} />
+                <Bar name={isIt ? "Correlazione Rischio NEET" : "NEET Risk Correlation"} dataKey="correlation_neet" fill="#6366f1" radius={[0, 4, 4, 0]} barSize={12} />
               </BarChart>
             </ResponsiveContainer>
           </div>
             <div className="flex justify-center gap-6 mt-4 text-xs">
-              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-red-500 rounded-full"/>Precariato (Contratti a termine)</span>
-              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-amber-500 rounded-full"/>Ricaduta Inattività</span>
-              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-indigo-500 rounded-full"/>Rischio NEET</span>
+              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-red-500 rounded-full"/>{isIt ? "Precariato (Contratti a termine)" : "Precarity (Fixed-term)"}</span>
+              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-amber-500 rounded-full"/>{isIt ? "Ricaduta Inattività" : "Inactivity Relapse"}</span>
+              <span className="flex items-center gap-2"><div className="w-3 h-3 bg-indigo-500 rounded-full"/>{isIt ? "Rischio NEET" : "NEET Risk"}</span>
             </div>
             <div className="mt-6 flex justify-end">
               <SourceBadge agency="ISTAT" topicKey="mismatch" year="2023" />

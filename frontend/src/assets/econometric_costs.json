@@ -180,5 +180,60 @@
     { "year": 2015, "italy_gdp_pc": 27500, "eu_avg_gdp_pc": 30500 },
     { "year": 2020, "italy_gdp_pc": 28000, "eu_avg_gdp_pc": 33000 },
     { "year": 2024, "italy_gdp_pc": 30000, "eu_avg_gdp_pc": 37000 }
-  ]
+  ],
+  "tax_burden": {
+    "year": "2023-2024",
+    "countries": [
+      {
+        "name": "Italy",
+        "tax_wedge_percent": 47.1,
+        "standard_vat_percent": 22.0,
+        "social_security": {
+          "employer_percent": "27-32%",
+          "employee_percent": "9.19%",
+          "notes": "Employer rate varies by sector and CCNL."
+        }
+      },
+      {
+        "name": "Germany",
+        "tax_wedge_percent": 47.9,
+        "standard_vat_percent": 19.0,
+        "social_security": {
+          "employer_percent": "20.35%",
+          "employee_percent": "20.35%",
+          "notes": "Contributions generally split 50/50."
+        }
+      },
+      {
+        "name": "France",
+        "tax_wedge_percent": 47.2,
+        "standard_vat_percent": 20.0,
+        "social_security": {
+          "employer_percent": "40-45%",
+          "employee_percent": "22-23%",
+          "notes": "Employer rate reduced for wages near minimum wage."
+        }
+      },
+      {
+        "name": "Spain",
+        "tax_wedge_percent": 41.4,
+        "standard_vat_percent": 21.0,
+        "social_security": {
+          "employer_percent": "30-33%",
+          "employee_percent": "6.47%",
+          "notes": "Includes Intergenerational Equity Mechanism."
+        }
+      },
+      {
+        "name": "Finland",
+        "tax_wedge_percent": 41.9,
+        "standard_vat_percent": 24.0,
+        "social_security": {
+          "employer_percent": "18.8%",
+          "employee_percent": "8-9.5%",
+          "notes": "VAT increased to 25.5% in Sept 2024."
+        }
+      }
+    ]
+  }
 }

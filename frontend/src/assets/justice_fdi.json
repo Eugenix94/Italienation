@@ -1,0 +1,21 @@
+{
+  "civil_trial_length_days": {
+    "Italy": 540,
+    "France": 333,
+    "Germany": 238,
+    "EU_Average": 280
+  },
+  "fdi_deterrence_factor": {
+    "description_it": "La complessa burocrazia italiana e la lentezza del sistema giudiziario, con procedimenti civili che richiedono oltre 500 giorni in primo grado, creano una notevole incertezza giuridica per gli investitori stranieri. I frequenti cambiamenti normativi, le procedure amministrative stratificate e le lungaggini nella risoluzione delle controversie commerciali aumentano significativamente i costi e disincentivano i flussi di investimenti diretti esteri (IDE).",
+    "description_en": "Italy's complex bureaucracy and slow judicial system, with civil proceedings taking over 500 days at first instance, create significant legal uncertainty for foreign investors. Frequent regulatory changes, layered administrative procedures, and lengthy commercial dispute resolutions significantly increase costs and deter Foreign Direct Investment (FDI) inflows."
+  },
+  "contract_enforcement_cost_pct_claim": {
+    "Italy": 27.6,
+    "Germany": 14.4
+  },
+  "sources": [
+    "https://commission.europa.eu/law/law-making-process/applying-eu-law/eu-justice-scoreboard_en",
+    "https://archive.doingbusiness.org/en/doingbusiness",
+    "https://www.state.gov/reports/2023-investment-climate-statements/italy/"
+  ]
+}

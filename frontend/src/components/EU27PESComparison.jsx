@@ -239,8 +239,9 @@ export default function EU27PESComparison() {
         <div className="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl h-[400px] mb-8 relative z-0">
           <MapContainer center={[50.0, 15.0]} zoom={4} scrollWheelZoom={false} className="w-full h-full bg-zinc-900 z-0">
             <TileLayer
-              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-              attribution='&copy; OpenStreetMap contributors &copy; CARTO'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution='&copy; OpenStreetMap contributors'
+              className="map-tiles"
             />
             {filteredData.map(country => {
               // Determine color based on Digital Maturity for visual distinction
@@ -268,8 +269,8 @@ export default function EU27PESComparison() {
                   }}
                 >
                   <Popup className="custom-popup">
-                    <div className="p-2 min-w-[200px]">
-                      <h3 className="font-bold text-gray-900 mb-2 border-b pb-1 text-sm flex justify-between">
+                    <div className="bg-white text-gray-900 rounded-lg p-2 min-w-[200px]" style={{ color: '#1a1a2e' }}>
+                      <h3 className="font-bold text-gray-900 mb-2 border-b border-gray-200 pb-1 text-sm flex justify-between">
                         <span>{country.flag} {country.country}</span>
                         <span className="text-xs font-normal text-gray-500">{country.pesName}</span>
                       </h3>

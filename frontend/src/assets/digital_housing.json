@@ -1,0 +1,19 @@
+{
+  "source_urls": {
+    "digital_divide": "https://ec.europa.eu/eurostat/web/digital-economy-and-society",
+    "housing_affordability": "https://ec.europa.eu/eurostat/databrowser/view/ilc_lvps08/default/table"
+  },
+  "digital_divide": [
+    { "region": "Nord Ovest", "broadband_access_pct": 82, "digital_skills_pct": 51 },
+    { "region": "Nord Est", "broadband_access_pct": 84, "digital_skills_pct": 53 },
+    { "region": "Centro", "broadband_access_pct": 80, "digital_skills_pct": 49 },
+    { "region": "Sud", "broadband_access_pct": 68, "digital_skills_pct": 34 },
+    { "region": "Isole", "broadband_access_pct": 65, "digital_skills_pct": 32 }
+  ],
+  "housing_affordability": [
+    { "year": "2015", "rent_overburden_pct": 25.1, "youth_with_parents_pct": 66.4 },
+    { "year": "2018", "rent_overburden_pct": 27.5, "youth_with_parents_pct": 68.2 },
+    { "year": "2021", "rent_overburden_pct": 29.8, "youth_with_parents_pct": 70.5 },
+    { "year": "2024", "rent_overburden_pct": 33.2, "youth_with_parents_pct": 72.8 }
+  ]
+}

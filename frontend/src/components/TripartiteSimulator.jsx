@@ -12,6 +12,7 @@ export default function TripartiteSimulator() {
   
   const [activeMacro, setActiveMacro] = useState('liceo');
   const [activeSpecific, setActiveSpecific] = useState('liceo_classico');
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/tripartite_curriculum.json`)
@@ -22,17 +23,25 @@ export default function TripartiteSimulator() {
       })
       .catch(err => {
         console.error("Failed to load curriculum data:", err);
+        setError(err.message || 'Failed to load data');
         setLoading(false);
       });
   }, []);
 
-  if (loading || !data) {
+  if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
         <Loader2 className="animate-spin text-indigo-500" size={32} />
       </div>
     );
   }
+
+  if (error || !data) return (
+    <div className="w-full py-16 flex flex-col items-center justify-center text-zinc-400">
+      <p className="text-lg font-medium">Failed to load data</p>
+      <p className="text-sm mt-2">{error}</p>
+    </div>
+  );
 
   // Handle Macro Track Selection
   const handleMacroSelect = (macroId) => {
@@ -78,7 +87,7 @@ export default function TripartiteSimulator() {
             <h3 className={`text-lg font-bold ${activeMacro === m.id ? 'text-white' : 'text-zinc-400'}`}>
               <T it={m.name.it} en={m.name.en} />
             </h3>
-            <p className={`text-xs ${activeMacro === m.id ? 'text-indigo-300' : 'text-zinc-600'}`}>
+            <p className={`text-xs ${activeMacro === m.id ? 'text-indigo-300' : 'text-zinc-400'}`}>
               <T it={m.description.it} en={m.description.en} />
             </p>
           </button>
@@ -124,7 +133,7 @@ export default function TripartiteSimulator() {
                     <h3 className="text-2xl font-bold text-white">
                       <T it={track.name.it} en={track.name.en} />
                     </h3>
-                    <SourceBadge agency="MUR / INVALSI / Federconsumatori" year="2024" />
+                    <SourceBadge agency="MUR / INVALSI / Federconsumatori" year="2024" url="https://dati.istruzione.it/opendata/" />
                   </div>
                   <p className="text-zinc-400 text-sm leading-relaxed">
                     <T it={track.description.it} en={track.description.en} />
@@ -169,7 +178,7 @@ export default function TripartiteSimulator() {
                   <Euro className="text-rose-400" size={24} />
                 </div>
                 <div>
-                  <p className="text-[10px] text-zinc-500 uppercase tracking-wider font-bold mb-1"><T it="Costo Libri (Annuo)" en="Textbook Cost (Yearly)" /></p>
+                  <p className="text-[10px] text-zinc-400 uppercase tracking-wider font-bold mb-1"><T it="Costo Libri (Annuo)" en="Textbook Cost (Yearly)" /></p>
                   <p className="text-2xl font-black text-white">€{track.textbookCost}</p>
                 </div>
               </div>
@@ -179,7 +188,7 @@ export default function TripartiteSimulator() {
                   <Briefcase className="text-amber-400" size={24} />
                 </div>
                 <div>
-                  <p className="text-[10px] text-zinc-500 uppercase tracking-wider font-bold mb-1"><T it="Ore Lavoro FSL/PCTO" en="FSL/PCTO Labor Hours" /></p>
+                  <p className="text-[10px] text-zinc-400 uppercase tracking-wider font-bold mb-1"><T it="Ore Lavoro FSL/PCTO" en="FSL/PCTO Labor Hours" /></p>
                   <p className="text-2xl font-black text-white">{track.fslHours}</p>
                 </div>
               </div>
@@ -189,7 +198,7 @@ export default function TripartiteSimulator() {
                   <AlertTriangle className="text-red-400" size={24} />
                 </div>
                 <div>
-                  <p className="text-[10px] text-zinc-500 uppercase tracking-wider font-bold mb-1"><T it="Dispersione Implicita" en="Implicit Dropout" /></p>
+                  <p className="text-[10px] text-zinc-400 uppercase tracking-wider font-bold mb-1"><T it="Dispersione Implicita" en="Implicit Dropout" /></p>
                   <p className="text-2xl font-black text-white">{track.implicitDropout}</p>
                 </div>
               </div>
@@ -199,7 +208,7 @@ export default function TripartiteSimulator() {
                   <GraduationCap className="text-emerald-400" size={24} />
                 </div>
                 <div>
-                  <p className="text-[10px] text-emerald-500/70 uppercase tracking-wider font-bold mb-1"><T it="Iscrizione Università" en="Uni Enrollment" /></p>
+                  <p className="text-[10px] text-emerald-400 uppercase tracking-wider font-bold mb-1"><T it="Iscrizione Università" en="Uni Enrollment" /></p>
                   <p className="text-2xl font-black text-emerald-400">{track.universityEnrollment}</p>
                 </div>
               </div>

@@ -4,6 +4,8 @@ import { T } from './T';
 import SourceBadge from './SourceBadge';
 import eurydiceData from '../assets/master_eurydice_comparison.json';
 
+import { useLanguage } from '../contexts/LanguageContext';
+
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     return (
@@ -21,6 +23,9 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function InternationalBenchmark() {
+  const { lang } = useLanguage();
+  const isIt = lang === 'it';
+
   return (
     <div className="space-y-8">
       <div className="text-center max-w-3xl mx-auto mb-8">
@@ -49,19 +54,21 @@ export default function InternationalBenchmark() {
             <ComposedChart data={eurydiceData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
               <XAxis dataKey="Country" stroke="#888" />
-              <YAxis yAxisId="left" stroke="#888" label={{ value: 'Tracking Age', angle: -90, position: 'insideLeft', fill: '#888' }} />
-              <YAxis yAxisId="right" orientation="right" stroke="#f43f5e" label={{ value: 'NEET Rate (%)', angle: 90, position: 'insideRight', fill: '#f43f5e' }} />
+              <YAxis yAxisId="left" stroke="#888" label={{ value: isIt ? 'Età di Tracking' : 'Tracking Age', angle: -90, position: 'insideLeft', fill: '#888' }} />
+              <YAxis yAxisId="right" orientation="right" stroke="#f43f5e" label={{ value: isIt ? 'Tasso NEET (%)' : 'NEET Rate (%)', angle: 90, position: 'insideRight', fill: '#f43f5e' }} />
               <RechartsTooltip content={<CustomTooltip />} />
               <Legend wrapperStyle={{ paddingTop: '20px' }} />
-              <Bar yAxisId="left" dataKey="TrackingAge" name="Tracking Age (Years)" fill="#4f46e5" radius={[4, 4, 0, 0]} />
-              <Line yAxisId="right" type="monotone" dataKey="NEETRate_15_29" name="NEET Rate (%)" stroke="#f43f5e" strokeWidth={4} dot={{ r: 6 }} />
+              <Bar yAxisId="left" dataKey="TrackingAge" name={isIt ? "Età di Tracking (Anni)" : "Tracking Age (Years)"} fill="#4f46e5" radius={[4, 4, 0, 0]} />
+              <Line yAxisId="right" type="monotone" dataKey="NEETRate_15_29" name={isIt ? "Tasso NEET (%)" : "NEET Rate (%)"} stroke="#f43f5e" strokeWidth={4} dot={{ r: 6 }} />
             </ComposedChart>
           </ResponsiveContainer>
         </div>
       </div>
       
       <div className="bg-indigo-500/10 border border-indigo-500/20 p-6 rounded-2xl mt-8">
-        <h4 className="text-indigo-400 font-bold mb-2">Key Insight</h4>
+        <h4 className="text-indigo-400 font-bold mb-2">
+          <T it="Dato Chiave" en="Key Insight" />
+        </h4>
         <p className="text-zinc-300">
           <T
             it="L'Italia smista gli studenti a 14 anni — tra i primissimi in Europa. I paesi che posticipano il tracking a 16+ anni (Finlandia, Svezia) hanno costantemente tassi di NEET inferiori e una maggiore mobilità sociale."

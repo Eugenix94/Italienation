@@ -104,7 +104,7 @@ export default function TerritorialMap() {
           transition={{ delay: 0.2 }}
         >
           {loading ? (
-            <div className="flex h-full items-center justify-center text-zinc-500">
+            <div className="flex h-full items-center justify-center text-zinc-400">
               <T it="Caricamento Mappa..." en="Loading Map..." />
             </div>
           ) : (
@@ -137,7 +137,7 @@ export default function TerritorialMap() {
               <div className="w-4 h-4 rounded-sm" style={{ backgroundColor: '#e34a33' }}></div>
               <div className="w-4 h-4 rounded-sm" style={{ backgroundColor: '#7f0000' }}></div>
             </div>
-            <div className="flex justify-between text-xs text-zinc-500 mt-1">
+            <div className="flex justify-between text-xs text-zinc-400 mt-1">
               <span>8%</span>
               <span>18%+</span>
             </div>
@@ -156,7 +156,7 @@ export default function TerritorialMap() {
               <div className="space-y-6">
                 <h3 className="text-3xl font-bold text-white border-b border-zinc-800 pb-4 flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4">
                   <span>{activeRegion.name}</span>
-                  <SourceBadge agency="ISTAT / MUR" year="2023" />
+                  <SourceBadge agency="ISTAT / MUR" year="2023" url="https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?area=Studenti" />
                 </h3>
                 
                 <div className="space-y-4">
@@ -185,7 +185,7 @@ export default function TerritorialMap() {
                   </div>
                 </div>
 
-                <div className="pt-4 flex items-start gap-3 text-sm text-zinc-500">
+                <div className="pt-4 flex items-start gap-3 text-sm text-zinc-400">
                   <Info size={16} className="mt-0.5 shrink-0" />
                   <p>
                     <T 
@@ -196,7 +196,7 @@ export default function TerritorialMap() {
                 </div>
               </div>
             ) : (
-              <div className="flex-1 flex flex-col items-center justify-center text-zinc-500 space-y-4 text-center">
+              <div className="flex-1 flex flex-col items-center justify-center text-zinc-400 space-y-4 text-center">
                 <MapPin size={48} className="opacity-20" />
                 <p className="text-lg">
                   <T it="Passa il mouse su una regione per visualizzare i dati." en="Hover over a region to view the data." />

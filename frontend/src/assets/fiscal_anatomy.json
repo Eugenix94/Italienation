@@ -1,0 +1,250 @@
+{
+  "fiscal_research": {
+    "year": "2024-2025",
+    "countries": {
+      "Austria": {
+        "corporate_tax": { "headline_rate": 23.0, "complexity": "Moderate due to local variances and robust deduction rules" },
+        "personal_income_tax": { "top_marginal_rate": 55.0, "surcharges": "None on the top bracket, but progressive steps are complex" },
+        "capital_gains_dividend_tax": { "rate": "27.5%", "notes": "Flat rate on most capital income and dividends" },
+        "wealth_property_tax": { "presence": false, "details": "No general wealth tax, but specific real estate transfer and property taxes exist." },
+        "tax_complexity": { "time_to_comply_hours": 131, "burden_level": "Medium" },
+        "phenomenon_it": "L'Austria segue un modello di economia sociale di mercato (Soziale Marktwirtschaft) con una forte enfasi sulla ridistribuzione e sulla fornitura di servizi pubblici di alta qualità. Il sistema fiscale mira a bilanciare la competitività delle imprese attraverso una recente riduzione dell'imposta sulle società con una tassazione progressiva elevata sui redditi personali per finanziare un solido stato sociale.",
+        "phenomenon_en": "Austria follows a social market economy model (Soziale Marktwirtschaft) with a strong emphasis on redistribution and high-quality public service provision. The tax system aims to balance corporate competitiveness—evidenced by a recent reduction in the corporate tax rate—with high progressive personal income taxation to fund a robust welfare state."
+      },
+      "Belgium": {
+        "corporate_tax": { "headline_rate": 25.0, "complexity": "High, with numerous deductions like the innovation income deduction" },
+        "personal_income_tax": { "top_marginal_rate": 50.0, "surcharges": "Municipal surcharges ranging from 0% to 9%" },
+        "capital_gains_dividend_tax": { "rate": "30%", "notes": "Generally 30% withholding tax on dividends; capital gains on shares often exempt for companies." },
+        "wealth_property_tax": { "presence": true, "details": "Annual tax on securities accounts above 1 million EUR." },
+        "tax_complexity": { "time_to_comply_hours": 204, "burden_level": "High" },
+        "phenomenon_it": "Il Belgio presenta una delle pressioni fiscali sul lavoro più alte dell'OCSE. Il sistema è caratterizzato da aliquote nominali elevate compensate da un'ampia gamma di deduzioni ed esenzioni, il che crea un ambiente fiscale molto complesso. L'obiettivo macroeconomico è mantenere un sistema di sicurezza sociale molto protettivo, sebbene ciò generi un notevole 'cuneo fiscale' sul lavoro.",
+        "phenomenon_en": "Belgium has one of the highest tax burdens on labor in the OECD. The system features high nominal rates offset by a wide array of deductions and exemptions, creating a highly complex fiscal environment. The macroeconomic goal is to maintain a highly protective social security system, although this creates a significant 'tax wedge' on employment."
+      },
+      "Bulgaria": {
+        "corporate_tax": { "headline_rate": 10.0, "complexity": "Low, flat tax system" },
+        "personal_income_tax": { "top_marginal_rate": 10.0, "surcharges": "None" },
+        "capital_gains_dividend_tax": { "rate": "5%", "notes": "Dividends taxed at 5%; capital gains on regulated EU markets often exempt." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax; very low property taxes." },
+        "tax_complexity": { "time_to_comply_hours": 441, "burden_level": "Low" },
+        "phenomenon_it": "La Bulgaria adotta un modello a 'flat tax' per attrarre investimenti esteri diretti e stimolare la crescita economica, emergendo come una delle giurisdizioni fiscalmente più competitive dell'UE. La filosofia alla base è quella di ridurre l'evasione fiscale attraverso la semplicità e aliquote molto basse, sebbene ciò limiti la capacità redistributiva dello Stato.",
+        "phenomenon_en": "Bulgaria adopts a 'flat tax' model to attract foreign direct investment and stimulate economic growth, emerging as one of the most tax-competitive jurisdictions in the EU. The underlying philosophy is to reduce tax evasion through simplicity and very low rates, though this fundamentally limits the state's redistributive capacity."
+      },
+      "Croatia": {
+        "corporate_tax": { "headline_rate": 18.0, "complexity": "Moderate" },
+        "personal_income_tax": { "top_marginal_rate": 35.4, "surcharges": "Varies by municipality after recent abolishment of standard surtax" },
+        "capital_gains_dividend_tax": { "rate": "12%", "notes": "Plus applicable local surcharges on capital income." },
+        "wealth_property_tax": { "presence": false, "details": "Holiday home taxes exist, but no comprehensive real estate/wealth tax." },
+        "tax_complexity": { "time_to_comply_hours": 206, "burden_level": "Medium" },
+        "phenomenon_it": "Il modello croato cerca di bilanciare la necessità di attrarre capitali turistici e stranieri con il mantenimento delle infrastrutture pubbliche. Negli ultimi anni c'è stata una spinta verso il decentramento fiscale, permettendo ai comuni di determinare le proprie aliquote sul reddito per favorire la concorrenza fiscale interna.",
+        "phenomenon_en": "The Croatian model seeks to balance the need to attract tourism and foreign capital with the maintenance of public infrastructure. Recent years have seen a push toward fiscal decentralization, allowing municipalities to set their own income tax rates to foster internal tax competition."
+      },
+      "Cyprus": {
+        "corporate_tax": { "headline_rate": 12.5, "complexity": "Low, extremely favorable to holding companies" },
+        "personal_income_tax": { "top_marginal_rate": 35.0, "surcharges": "GESY (National Health System) contributions apply" },
+        "capital_gains_dividend_tax": { "rate": "20%", "notes": "CGT applies only to real estate situated in Cyprus; dividends generally exempt for non-doms." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax." },
+        "tax_complexity": { "time_to_comply_hours": 120, "burden_level": "Low" },
+        "phenomenon_it": "Cipro agisce come un hub finanziario e marittimo strategico all'interno dell'UE. Il suo modello fiscale si basa sull'attrazione di holding internazionali e di individui con un patrimonio netto elevato (High Net Worth Individuals) tramite un'aliquota societaria molto bassa e il regime 'non-dom' che esenta i redditi da dividendi e interessi.",
+        "phenomenon_en": "Cyprus operates as a strategic financial and maritime hub within the EU. Its tax model is predicated on attracting international holding companies and High Net Worth Individuals via a very low corporate rate and a 'non-dom' regime that exempts dividend and interest income from taxation."
+      },
+      "Czechia": {
+        "corporate_tax": { "headline_rate": 21.0, "complexity": "Moderate" },
+        "personal_income_tax": { "top_marginal_rate": 23.0, "surcharges": "Progressive jump from 15% to 23% for high earners" },
+        "capital_gains_dividend_tax": { "rate": "15-23%", "notes": "Depending on total income level." },
+        "wealth_property_tax": { "presence": false, "details": "Property taxes exist but are very low compared to EU average." },
+        "tax_complexity": { "time_to_comply_hours": 230, "burden_level": "Medium" },
+        "phenomenon_it": "La Repubblica Ceca punta su un sistema fiscale relativamente snello e orientato alla produzione industriale. Il recente aumento dell'imposta sulle società (dal 19% al 21%) riflette la necessità di consolidamento fiscale post-pandemia, mantenendo comunque un carico fiscale sul reddito delle persone fisiche competitivo per la regione.",
+        "phenomenon_en": "Czechia relies on a relatively lean tax system oriented towards supporting industrial manufacturing. The recent increase in corporate tax (from 19% to 21%) reflects the need for post-pandemic fiscal consolidation, while still maintaining a highly competitive personal income tax burden for the region."
+      },
+      "Denmark": {
+        "corporate_tax": { "headline_rate": 22.0, "complexity": "Moderate" },
+        "personal_income_tax": { "top_marginal_rate": 52.07, "surcharges": "Labor market contributions (8%) apply before standard income taxes" },
+        "capital_gains_dividend_tax": { "rate": "27% or 42%", "notes": "27% up to a threshold, 42% above." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax, but high property value taxes exist." },
+        "tax_complexity": { "time_to_comply_hours": 132, "burden_level": "Medium" },
+        "phenomenon_it": "La Danimarca è l'emblema del modello di flexicurity scandinavo. Nonostante un'altissima pressione fiscale sui redditi personali (e sulle automobili/beni di consumo tramite IVA e accise), l'imposta sulle società è in linea con la media europea per mantenere la competitività. I servizi sociali sono universali e finanziati quasi interamente dalla tassazione generale anziché dai contributi sociali.",
+        "phenomenon_en": "Denmark is the poster child for the Scandinavian flexicurity model. Despite an extremely high tax burden on personal income (and on consumption via VAT/excises), the corporate tax rate is aligned with the European average to maintain competitiveness. Social services are universal and funded almost entirely through general taxation rather than social security contributions."
+      },
+      "Estonia": {
+        "corporate_tax": { "headline_rate": 20.0, "complexity": "Low, unique distribution-based system" },
+        "personal_income_tax": { "top_marginal_rate": 20.0, "surcharges": "Will rise to 22% in 2025" },
+        "capital_gains_dividend_tax": { "rate": "20%", "notes": "No separate CGT; taxed as ordinary income." },
+        "wealth_property_tax": { "presence": false, "details": "Only land value tax exists, no tax on buildings or wealth." },
+        "tax_complexity": { "time_to_comply_hours": 50, "burden_level": "Low" },
+        "phenomenon_it": "L'Estonia è celebre per il suo sistema fiscale digitale e per l'imposta sulle società applicata solo sugli utili distribuiti (non su quelli reinvestiti). Questo favorisce la patrimonializzazione delle imprese e l'innovazione. È un sistema ideato per massimizzare l'efficienza, l'imprenditorialità e la trasparenza, supportato da un'amministrazione fiscale completamente digitalizzata.",
+        "phenomenon_en": "Estonia is famous for its digital tax system and its corporate tax applied only to distributed profits (reinvested profits are tax-free). This strongly encourages corporate capitalization and innovation. It is a system designed to maximize efficiency, entrepreneurship, and transparency, supported by a fully digitized tax administration."
+      },
+      "Finland": {
+        "corporate_tax": { "headline_rate": 20.0, "complexity": "Moderate" },
+        "personal_income_tax": { "top_marginal_rate": 56.95, "surcharges": "Church tax and broadcast tax may apply" },
+        "capital_gains_dividend_tax": { "rate": "30% or 34%", "notes": "34% applies to capital income exceeding EUR 30,000." },
+        "wealth_property_tax": { "presence": false, "details": "Abolished in 2006, real estate tax applies." },
+        "tax_complexity": { "time_to_comply_hours": 90, "burden_level": "Medium" },
+        "phenomenon_it": "La Finlandia combina un solido stato sociale nordico con una forte spinta verso la tecnologia e l'istruzione. Mentre la tassazione sul lavoro e sui consumi è elevata, il carico fiscale sulle imprese è tenuto a un livello moderato (20%) per preservare il dinamismo del settore privato e l'attrattiva per le start-up e le industrie ad alta tecnologia.",
+        "phenomenon_en": "Finland combines a robust Nordic welfare state with a strong drive toward technology and education. While taxation on labor and consumption is high, the corporate tax burden is kept at a moderate level (20%) to preserve private sector dynamism and attractiveness for start-ups and high-tech industries."
+      },
+      "France": {
+        "corporate_tax": { "headline_rate": 25.0, "complexity": "High, complex interactions of local taxes and surcharges" },
+        "personal_income_tax": { "top_marginal_rate": 55.4, "surcharges": "CSG and CRDS are significant social surcharges on all income" },
+        "capital_gains_dividend_tax": { "rate": "30%", "notes": "Flat tax (PFU) of 30% encompassing income tax and social surcharges." },
+        "wealth_property_tax": { "presence": true, "details": "IFI (Impôt sur la fortune immobilière) applies to real estate assets > EUR 1.3M." },
+        "tax_complexity": { "time_to_comply_hours": 139, "burden_level": "High" },
+        "phenomenon_it": "Il modello francese è caratterizzato da uno stato fortemente centralizzato con un'elevata spesa pubblica, in particolare per la protezione sociale e la difesa. Storicamente orientata alla redistribuzione, la Francia ha recentemente operato riforme dal lato dell'offerta (come la 'flat tax' al 30% e la riduzione della corporate tax al 25%) per invertire la fuga di capitali e migliorare l'attrattività.",
+        "phenomenon_en": "The French model features a highly centralized state with massive public spending, particularly on social protection. Historically geared toward heavy redistribution, France has recently implemented supply-side reforms (such as the 30% flat tax and lowering the CIT to 25%) to reverse capital flight and improve global attractiveness."
+      },
+      "Germany": {
+        "corporate_tax": { "headline_rate": 29.9, "complexity": "High, includes base CIT, solidarity surcharge, and local trade tax (Gewerbesteuer)" },
+        "personal_income_tax": { "top_marginal_rate": 47.5, "surcharges": "Solidarity surcharge (5.5% of tax) for high earners and church tax (8-9%)" },
+        "capital_gains_dividend_tax": { "rate": "26.375%", "notes": "Includes solidarity surcharge. Church tax may add to this." },
+        "wealth_property_tax": { "presence": false, "details": "Suspended since 1997, though property tax (Grundsteuer) exists." },
+        "tax_complexity": { "time_to_comply_hours": 218, "burden_level": "High" },
+        "phenomenon_it": "La Germania si basa su un federalismo fiscale cooperativo. L'elevata imposta sulle società è in gran parte dovuta alla 'Gewerbesteuer' (imposta sulle attività produttive), che è la principale fonte di reddito per i comuni. Questo modello lega strettamente il successo dell'industria locale, in particolare il Mittelstand (PMI), alle finanze dei governi locali.",
+        "phenomenon_en": "Germany relies on cooperative fiscal federalism. The high corporate tax burden is largely driven by the 'Gewerbesteuer' (trade tax), which is the primary revenue source for municipalities. This model strictly links the success of local industry—particularly the Mittelstand (SMEs)—to local government finances."
+      },
+      "Greece": {
+        "corporate_tax": { "headline_rate": 22.0, "complexity": "High, frequent regulatory changes" },
+        "personal_income_tax": { "top_marginal_rate": 44.0, "surcharges": "Solidarity contribution was suspended/abolished recently for private sector" },
+        "capital_gains_dividend_tax": { "rate": "5% (dividends) / 15% (capital gains)", "notes": "Highly favorable to corporate distributions to spur investment." },
+        "wealth_property_tax": { "presence": true, "details": "ENFIA (Unified Property Tax) functions as an aggressive wealth tax on real estate." },
+        "tax_complexity": { "time_to_comply_hours": 193, "burden_level": "High" },
+        "phenomenon_it": "Dopo la crisi del debito sovrano, la Grecia ha implementato enormi riforme fiscali. Il sistema attuale è fortemente orientato al consolidamento del bilancio primario e alla lotta contro l'evasione (attraverso massiccia digitalizzazione). Le recenti riduzioni delle tasse sulle società (al 22%) e sui dividendi mirano a stimolare la ripresa degli investimenti stranieri.",
+        "phenomenon_en": "Following its sovereign debt crisis, Greece implemented massive tax reforms. The current system is heavily oriented toward primary budget consolidation and combating tax evasion (via massive digitization). Recent reductions in corporate (to 22%) and dividend taxes aim to stimulate the recovery of foreign direct investments."
+      },
+      "Hungary": {
+        "corporate_tax": { "headline_rate": 9.0, "complexity": "Moderate, but features sector-specific windfall taxes" },
+        "personal_income_tax": { "top_marginal_rate": 15.0, "surcharges": "None on base PIT, flat rate" },
+        "capital_gains_dividend_tax": { "rate": "15%", "notes": "Flat 15% tax on capital gains and dividends." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax; building taxes are set locally." },
+        "tax_complexity": { "time_to_comply_hours": 277, "burden_level": "Medium" },
+        "phenomenon_it": "L'Ungheria utilizza il suo regime fiscale in modo molto aggressivo come strumento di politica economica nazionale. Offre l'aliquota dell'imposta sulle società più bassa dell'UE (9%) per attrarre colossi manifatturieri esteri (es. settore automobilistico e batterie). Compensa queste basse aliquote dirette con l'IVA più alta del mondo (27%) e tasse 'straordinarie' specifiche per settore.",
+        "phenomenon_en": "Hungary uses its tax regime aggressively as a tool of national economic policy. It offers the lowest corporate tax rate in the EU (9%) to attract foreign manufacturing giants (e.g., automotive and battery sectors). It compensates for these low direct taxes with the highest VAT in the world (27%) and sector-specific 'windfall' taxes."
+      },
+      "Ireland": {
+        "corporate_tax": { "headline_rate": 12.5, "complexity": "Moderate, moving higher (15%) for multinationals under Pillar Two" },
+        "personal_income_tax": { "top_marginal_rate": 52.0, "surcharges": "Includes USC (Universal Social Charge) and PRSI" },
+        "capital_gains_dividend_tax": { "rate": "33%", "notes": "Standard rate for CGT and DIRT." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax; local property tax based on market value." },
+        "tax_complexity": { "time_to_comply_hours": 82, "burden_level": "Low" },
+        "phenomenon_it": "Il modello fiscale irlandese è incentrato sull'essere il principale punto di ingresso europeo per le multinazionali, in particolare nei settori tech e pharma. Questo è guidato dalla storica aliquota del 12,5% (ora 15% per le grandissime imprese). Mentre le aziende godono di imposte basse, gli individui affrontano una tassazione sui redditi alta e altamente progressiva.",
+        "phenomenon_en": "The Irish tax model is centered on being the primary European entry point for multinational corporations, particularly in the tech and pharma sectors. This is driven by its historic 12.5% rate (now 15% for the largest firms). While corporations enjoy low taxes, individuals face high and highly progressive personal income taxation."
+      },
+      "Italy": {
+        "corporate_tax": { "headline_rate": 27.9, "complexity": "High, composed of IRES (24%) and regional IRAP (approx. 3.9%)" },
+        "personal_income_tax": { "top_marginal_rate": 43.0, "surcharges": "Regional and municipal surcharges add 1-3%" },
+        "capital_gains_dividend_tax": { "rate": "26%", "notes": "Except for government bonds which are taxed at 12.5%." },
+        "wealth_property_tax": { "presence": true, "details": "Stamp duties on financial assets, IMU on real estate (except main home), IVIE/IVAFE on foreign assets." },
+        "tax_complexity": { "time_to_comply_hours": 238, "burden_level": "High" },
+        "phenomenon_it": "L'Italia presenta un sistema fiscale frammentato e complesso, gravato da un debito pubblico strutturalmente elevato. L'architettura fiscale fa affidamento su imposte pesanti sul lavoro dipendente (Irpef e contributi) e sulle attività finanziarie, mentre cerca ciclicamente di offrire sgravi alle imprese e regimi forfettari (flat tax al 15% per le partite IVA) per stimolare un'economia afflitta da bassa produttività.",
+        "phenomenon_en": "Italy has a fragmented and complex tax system, burdened by structurally high public debt. The fiscal architecture relies heavily on taxing employed labor (Irpef and social contributions) and financial assets, while cyclically attempting to offer corporate tax breaks and flat-rate regimes (15% flat tax for freelancers) to stimulate an economy plagued by low productivity."
+      },
+      "Latvia": {
+        "corporate_tax": { "headline_rate": 20.0, "complexity": "Low, similar to Estonia (tax only on distributions)" },
+        "personal_income_tax": { "top_marginal_rate": 31.0, "surcharges": "Progressive rates: 20%, 23%, and 31%" },
+        "capital_gains_dividend_tax": { "rate": "20%", "notes": "Capital gains taxed at 20%." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax; real estate tax on cadastral value." },
+        "tax_complexity": { "time_to_comply_hours": 169, "burden_level": "Low" },
+        "phenomenon_it": "Seguendo il successo dell'Estonia, la Lettonia ha adottato il modello di tassazione degli utili distribuiti (corporate tax al 20% applicata solo sui dividendi). L'obiettivo macroeconomico è la ricapitalizzazione delle imprese e lo sviluppo industriale baltico, allontanandosi dai vecchi schemi burocratici per attrarre investimenti nordici ed europei.",
+        "phenomenon_en": "Following Estonia's success, Latvia adopted the distributed-profit tax model (20% corporate tax applied only upon distribution). The macroeconomic goal is rapid corporate recapitalization and Baltic industrial development, breaking away from old bureaucratic frameworks to attract Nordic and European investments."
+      },
+      "Lithuania": {
+        "corporate_tax": { "headline_rate": 15.0, "complexity": "Low, extremely competitive standard rate" },
+        "personal_income_tax": { "top_marginal_rate": 32.0, "surcharges": "Standard rate 20%, rising to 32% above 60 average wages" },
+        "capital_gains_dividend_tax": { "rate": "15%", "notes": "Dividends generally 15%." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax; specific real estate taxes apply based on value." },
+        "tax_complexity": { "time_to_comply_hours": 95, "burden_level": "Low" },
+        "phenomenon_it": "La Lituania si posiziona come un centro per le startup, specialmente nel settore fintech, grazie alla sua imposta sulle società al 15% (tra le più basse dell'UE). Mantiene un sistema fiscale semplice con forti incentivi per gli investimenti in R&S, accettando una minore spesa pubblica in cambio di una rapida convergenza economica con i livelli dell'Europa occidentale.",
+        "phenomenon_en": "Lithuania positions itself as a startup hub, particularly in fintech, driven by its 15% corporate tax rate (among the lowest in the EU). It maintains a straightforward tax system with strong R&D incentives, trading off lower public spending for rapid economic convergence with Western European income levels."
+      },
+      "Luxembourg": {
+        "corporate_tax": { "headline_rate": 24.94, "complexity": "Moderate, features extensive double tax treaties" },
+        "personal_income_tax": { "top_marginal_rate": 45.78, "surcharges": "Employment fund surcharge applied to max rate of 42%" },
+        "capital_gains_dividend_tax": { "rate": "0% or half-rate", "notes": "Long-term capital gains on significant shareholdings often exempt." },
+        "wealth_property_tax": { "presence": true, "details": "Corporate Net Wealth Tax (NWT) of 0.5% applies to companies. No individual wealth tax." },
+        "tax_complexity": { "time_to_comply_hours": 55, "burden_level": "Low" },
+        "phenomenon_it": "Il Lussemburgo è il principale centro di fondi di investimento in Europa. Il suo modello economico si basa su un'industria dei servizi finanziari altamente sviluppata, sostenuta da un'ampia rete di trattati contro le doppie imposizioni e regimi di esenzione per le plusvalenze e i dividendi, pur mantenendo un'elevata aliquota marginale sulle persone fisiche per i residenti locali.",
+        "phenomenon_en": "Luxembourg is the premier investment fund center in Europe. Its economic model relies on a highly developed financial services industry, bolstered by an extensive network of double taxation treaties and participation exemption regimes for capital gains and dividends, while maintaining a high marginal PIT for local residents."
+      },
+      "Malta": {
+        "corporate_tax": { "headline_rate": 35.0, "complexity": "High, due to the imputation/refund system" },
+        "personal_income_tax": { "top_marginal_rate": 35.0, "surcharges": "None" },
+        "capital_gains_dividend_tax": { "rate": "0-35%", "notes": "Dividends effectively non-taxed or highly refunded for non-residents." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth or municipal property taxes." },
+        "tax_complexity": { "time_to_comply_hours": 139, "burden_level": "Medium" },
+        "phenomenon_it": "Il sistema di Malta è unico grazie al suo sistema di imputazione completa: un'imposta societaria nominale del 35% che spesso scende a un'aliquota effettiva del 5% per gli azionisti non residenti attraverso i rimborsi. Questo fa di Malta un magnete per il capitale straniero, il gioco d'azzardo online e i settori marittimi, sollevando talvolta dibattiti europei sull'equità fiscale.",
+        "phenomenon_en": "Malta's system is unique due to its full imputation tax system: a nominal 35% corporate rate that often drops to an effective 5% rate for non-resident shareholders through refunds. This makes Malta a magnet for foreign capital, online gaming, and maritime sectors, frequently sparking European debates on tax fairness."
+      },
+      "Netherlands": {
+        "corporate_tax": { "headline_rate": 25.8, "complexity": "Moderate, features extensive holding company privileges" },
+        "personal_income_tax": { "top_marginal_rate": 49.5, "surcharges": "None" },
+        "capital_gains_dividend_tax": { "rate": "33%", "notes": "Box 2 applies to substantial interests at varying rates up to 33%." },
+        "wealth_property_tax": { "presence": true, "details": "Box 3 taxes a presumed, virtual return on net savings and investments, acting as a de facto wealth tax." },
+        "tax_complexity": { "time_to_comply_hours": 119, "burden_level": "Medium" },
+        "phenomenon_it": "I Paesi Bassi sono storicamente una nazione mercantile; il loro codice fiscale riflette questo attraverso il regime di 'participation exemption' e un'ampia rete di trattati per favorire le sedi centrali globali. Tuttavia, sul fronte interno, il peculiare sistema del 'Box 3' tassa un rendimento figurativo sul patrimonio, garantendo allo Stato entrate costanti dal risparmio privato accumulato.",
+        "phenomenon_en": "The Netherlands is historically a merchant nation; its tax code reflects this through a robust 'participation exemption' regime and extensive treaty networks to favor global headquarters. Domestically, however, its peculiar 'Box 3' system taxes a presumed, fictitious return on wealth, guaranteeing the state steady revenue from accumulated private savings."
+      },
+      "Poland": {
+        "corporate_tax": { "headline_rate": 19.0, "complexity": "High, complex 'Polish Deal' reforms" },
+        "personal_income_tax": { "top_marginal_rate": 32.0, "surcharges": "4% solidarity surcharge on income over PLN 1M" },
+        "capital_gains_dividend_tax": { "rate": "19%", "notes": "Flat 'Belka tax' applies." },
+        "wealth_property_tax": { "presence": false, "details": "No wealth tax; real estate tax determined locally based on area." },
+        "tax_complexity": { "time_to_comply_hours": 334, "burden_level": "High" },
+        "phenomenon_it": "La Polonia sta vivendo una formidabile crescita economica, sostenuta da un'imposta sulle società al 19% (e solo al 9% per i piccoli contribuenti). Recenti e turbolente riforme (il 'Nuovo Ordine Polacco') hanno tentato di aumentare la progressività e il finanziamento dell'assistenza sanitaria gravando sulle classi medie e sui liberi professionisti, portando a una grande complessità burocratica.",
+        "phenomenon_en": "Poland is experiencing formidable economic growth, supported by a 19% corporate tax (and only 9% for small taxpayers). Recent, turbulent reforms (the 'Polish Deal') attempted to increase progressivity and healthcare funding by placing heavier burdens on the middle class and freelancers, resulting in severe bureaucratic complexity."
+      },
+      "Portugal": {
+        "corporate_tax": { "headline_rate": 21.0, "complexity": "High, state and municipal surcharges add up to 31.5% effectively" },
+        "personal_income_tax": { "top_marginal_rate": 48.0, "surcharges": "Solidarity surtax up to 5% on highest bracket" },
+        "capital_gains_dividend_tax": { "rate": "28%", "notes": "Flat rate on capital income for individuals." },
+        "wealth_property_tax": { "presence": true, "details": "AIMI acts as a wealth tax on high-value real estate portfolios." },
+        "tax_complexity": { "time_to_comply_hours": 243, "burden_level": "High" },
+        "phenomenon_it": "Il Portogallo fatica a bilanciare l'alta fiscalità locale, necessaria per arginare l'indebitamento statale, con la necessità di attrarre capitali stranieri. Ha storicamente sfruttato il regime dei 'Residenti Non Abituali' (NHR) per attrarre pensionati e nomadi digitali con enormi sconti fiscali (ora in fase di restrizione o modifica per motivi politici e di crisi abitativa).",
+        "phenomenon_en": "Portugal struggles to balance high domestic taxation—necessary to curb state debt—with the need to attract foreign capital. It historically leveraged the 'Non-Habitual Resident' (NHR) regime to draw pensioners and digital nomads with huge tax discounts (now being restricted or overhauled due to domestic political backlash and housing crises)."
+      },
+      "Romania": {
+        "corporate_tax": { "headline_rate": 16.0, "complexity": "Moderate, micro-enterprise regime is highly debated" },
+        "personal_income_tax": { "top_marginal_rate": 10.0, "surcharges": "None, but standard social contributions are very high and shifted to the employee" },
+        "capital_gains_dividend_tax": { "rate": "8%", "notes": "Dividend tax recently increased from 5% to 8%." },
+        "wealth_property_tax": { "presence": false, "details": "Local property taxes apply based on building value/type." },
+        "tax_complexity": { "time_to_comply_hours": 163, "burden_level": "Medium" },
+        "phenomenon_it": "La Romania attira fortemente i settori IT e dei servizi attraverso una 'flat tax' al 10% sui redditi e ampie esenzioni (fino a poco tempo fa) per gli sviluppatori software. Una peculiarità del sistema rumeno è che la quasi totalità dei contributi sociali grava sul dipendente, riducendo le tasse sul lavoro per i datori di lavoro per attrarre le multinazionali dell'outsourcing.",
+        "phenomenon_en": "Romania strongly attracts the IT and services sectors through a 10% flat tax on income and broad exemptions (until recently) for software developers. A peculiarity of the Romanian system is that almost the entirety of social security contributions falls on the employee, slashing employer labor taxes to attract outsourcing multinationals."
+      },
+      "Slovakia": {
+        "corporate_tax": { "headline_rate": 21.0, "complexity": "Moderate" },
+        "personal_income_tax": { "top_marginal_rate": 25.0, "surcharges": "None" },
+        "capital_gains_dividend_tax": { "rate": "19% or 25%", "notes": "Dividends generally taxed at 10% (formerly 7%)." },
+        "wealth_property_tax": { "presence": false, "details": "Real estate taxes vary locally; no wealth tax." },
+        "tax_complexity": { "time_to_comply_hours": 192, "burden_level": "Medium" },
+        "phenomenon_it": "La Slovacchia era precedentemente famosa per la sua flat tax universale al 19%, che le è valsa il titolo di 'Tigre dei Tatra' negli anni 2000. Negli anni più recenti, sotto governi più orientati a sinistra, ha reintrodotto aliquote progressive ed elevato le tasse sulle aziende, nel tentativo di finanziare maggiori programmi sociali senza alienare l'industria automobilistica vitale per il Paese.",
+        "phenomenon_en": "Slovakia was previously famous for its universal 19% flat tax, which earned it the title 'Tatra Tiger' in the 2000s. In more recent years, under more left-leaning governments, it has reintroduced progressive rates and elevated corporate taxes, attempting to fund larger social programs without alienating the heavily vital automotive industry."
+      },
+      "Slovenia": {
+        "corporate_tax": { "headline_rate": 22.0, "complexity": "Moderate" },
+        "personal_income_tax": { "top_marginal_rate": 50.0, "surcharges": "None" },
+        "capital_gains_dividend_tax": { "rate": "25%", "notes": "Capital gains rate decreases the longer the asset is held." },
+        "wealth_property_tax": { "presence": false, "details": "Charge on use of building ground; property tax overhaul remains debated." },
+        "tax_complexity": { "time_to_comply_hours": 233, "burden_level": "Medium" },
+        "phenomenon_it": "La Slovenia mantiene un modello economico molto simile a quello dell'Europa occidentale (es. Austria), con un forte cuneo fiscale e spesa sociale elevata rispetto ai suoi vicini dell'Est. Le imposte sulle società, recentemente aumentate dal 19% al 22%, mirano a ricostruire le finanze pubbliche dopo i recenti disastri naturali e l'inflazione.",
+        "phenomenon_en": "Slovenia maintains an economic model very akin to Western Europe (e.g., Austria), with a high tax wedge and elevated social spending compared to its Eastern neighbors. Corporate taxes, recently hiked from 19% to 22%, aim to rebuild public finances following recent natural disasters and inflation shocks."
+      },
+      "Spain": {
+        "corporate_tax": { "headline_rate": 25.0, "complexity": "High, largely due to regional decentralization" },
+        "personal_income_tax": { "top_marginal_rate": 47.0, "surcharges": "Can exceed 50% depending on the autonomous community" },
+        "capital_gains_dividend_tax": { "rate": "19-28%", "notes": "Progressive tax rates on savings income." },
+        "wealth_property_tax": { "presence": true, "details": "Impuesto sobre el Patrimonio applies globally; Solidarity Tax on Large Fortunes introduced recently." },
+        "tax_complexity": { "time_to_comply_hours": 143, "burden_level": "High" },
+        "phenomenon_it": "La Spagna è caratterizzata da una forte asimmetria e concorrenza fiscale tra le sue comunità autonome (es. Madrid a bassa tassazione contro la Catalogna ad alta tassazione). Per contrastare questa 'corsa al ribasso' interna, il governo centrale ha recentemente imposto una 'Tassa di solidarietà sulle grandi fortune', riaffermando una filosofia redistributiva forte in un contesto di tensioni politiche decentralizzate.",
+        "phenomenon_en": "Spain is characterized by stark asymmetry and tax competition among its Autonomous Communities (e.g., low-tax Madrid vs. high-tax Catalonia). To counteract this internal 'race to the bottom', the central government recently imposed a 'Solidarity Tax on Large Fortunes', reasserting a strong redistributive philosophy amidst decentralized political tensions."
+      },
+      "Sweden": {
+        "corporate_tax": { "headline_rate": 20.6, "complexity": "Moderate, strong system of tax allocation reserves" },
+        "personal_income_tax": { "top_marginal_rate": 52.3, "surcharges": "Local taxes make up the bulk (~32%), with a ~20% state tax for high earners" },
+        "capital_gains_dividend_tax": { "rate": "30%", "notes": "Capital income is separated from labor income." },
+        "wealth_property_tax": { "presence": false, "details": "Wealth tax abolished in 2007. Real estate fee applies but is capped." },
+        "tax_complexity": { "time_to_comply_hours": 122, "burden_level": "Medium" },
+        "phenomenon_it": "Il modello svedese è il classico stato sociale nordico. Finanziato in gran parte da tasse locali molto elevate sui redditi e sull'IVA al 25%, è in grado di fornire un welfare 'dalla culla alla tomba'. Contrariamente alla credenza popolare, le aliquote sui profitti aziendali (20,6%) e la tassazione sui redditi da capitale mantengono un approccio molto favorevole al mercato per salvaguardare giganti dell'esportazione.",
+        "phenomenon_en": "The Swedish model is the classic Nordic welfare state. Financed largely by very high local income taxes and a 25% VAT, it delivers 'cradle-to-grave' welfare. Contrary to popular belief, corporate profit rates (20.6%) and capital income taxation maintain a highly pro-market approach to safeguard export-oriented multinational giants."
+      }
+    }
+  }
+}

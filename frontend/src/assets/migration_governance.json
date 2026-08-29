@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Migration & Governance Analysis",
+    "description": "Italy's migration patterns analyzed through the lens of governance quality (World Bank WGI)",
+    "timeframe": "2023-2025",
+    "sources": [
+      "ISTAT Resident Foreign Population",
+      "AIRE / Fondazione Migrantes",
+      "World Bank Worldwide Governance Indicators",
+      "Eurostat Asylum Decisions",
+      "MIPEX Integration Policy Index"
+    ],
+    "source_urls": {
+      "istat_demo": "https://demo.istat.it/",
+      "aire_esteri": "https://www.esteri.it/en/servizi-consolari-e-visti/italiani-all-estero/aire_0/",
+      "worldbank_wgi": "https://datacatalog.worldbank.org/dataset/worldwide-governance-indicators",
+      "eurostat_asylum": "https://ec.europa.eu/eurostat/web/migration-asylum/asylum/database",
+      "mipex": "https://www.mipex.eu/italy",
+      "worldbank_remittances": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+      "banca_italia_remittances": "https://www.bancaditalia.it/statistiche/tematiche/rapporti-estero/rimesse-immigrati/index.html"
+    }
+  },
+  "immigration_into_italy": {
+    "total_foreign_residents": 5308000,
+    "year": 2024,
+    "top_nationalities": [
+      { "rank": 1, "country": "Romania", "country_it": "Romania", "population": 1080000, "wgi_governance_pctl": 55, "gdp_per_capita_usd": 18400, "migration_type": "economic", "flag": "🇷🇴" },
+      { "rank": 2, "country": "Albania", "country_it": "Albania", "population": 420000, "wgi_governance_pctl": 48, "gdp_per_capita_usd": 7500, "migration_type": "economic", "flag": "🇦🇱" },
+      { "rank": 3, "country": "Morocco", "country_it": "Marocco", "population": 410000, "wgi_governance_pctl": 40, "gdp_per_capita_usd": 3700, "migration_type": "economic", "flag": "🇲🇦" },
+      { "rank": 4, "country": "China", "country_it": "Cina", "population": 290000, "wgi_governance_pctl": 35, "gdp_per_capita_usd": 12600, "migration_type": "economic", "flag": "🇨🇳" },
+      { "rank": 5, "country": "Ukraine", "country_it": "Ucraina", "population": 240000, "wgi_governance_pctl": 25, "gdp_per_capita_usd": 4800, "migration_type": "humanitarian", "flag": "🇺🇦" },
+      { "rank": 6, "country": "India", "country_it": "India", "population": 160000, "wgi_governance_pctl": 45, "gdp_per_capita_usd": 2500, "migration_type": "economic", "flag": "🇮🇳" },
+      { "rank": 7, "country": "Philippines", "country_it": "Filippine", "population": 155000, "wgi_governance_pctl": 38, "gdp_per_capita_usd": 3700, "migration_type": "economic", "flag": "🇵🇭" },
+      { "rank": 8, "country": "Bangladesh", "country_it": "Bangladesh", "population": 150000, "wgi_governance_pctl": 22, "gdp_per_capita_usd": 2600, "migration_type": "economic", "flag": "🇧🇩" },
+      { "rank": 9, "country": "Egypt", "country_it": "Egitto", "population": 140000, "wgi_governance_pctl": 20, "gdp_per_capita_usd": 3800, "migration_type": "economic", "flag": "🇪🇬" },
+      { "rank": 10, "country": "Germany", "country_it": "Germania", "population": 130000, "wgi_governance_pctl": 90, "gdp_per_capita_usd": 52800, "migration_type": "lifestyle", "flag": "🇩🇪" },
+      { "rank": 11, "country": "France", "country_it": "Francia", "population": 125000, "wgi_governance_pctl": 85, "gdp_per_capita_usd": 44000, "migration_type": "lifestyle", "flag": "🇫🇷" },
+      { "rank": 12, "country": "Brazil", "country_it": "Brasile", "population": 110000, "wgi_governance_pctl": 45, "gdp_per_capita_usd": 10400, "migration_type": "ancestry", "flag": "🇧🇷" },
+      { "rank": 13, "country": "Tunisia", "country_it": "Tunisia", "population": 105000, "wgi_governance_pctl": 40, "gdp_per_capita_usd": 3800, "migration_type": "economic", "flag": "🇹🇳" },
+      { "rank": 14, "country": "Poland", "country_it": "Polonia", "population": 95000, "wgi_governance_pctl": 65, "gdp_per_capita_usd": 20000, "migration_type": "economic", "flag": "🇵🇱" },
+      { "rank": 15, "country": "Peru", "country_it": "Perù", "population": 90000, "wgi_governance_pctl": 38, "gdp_per_capita_usd": 7300, "migration_type": "economic", "flag": "🇵🇪" }
+    ]
+  },
+  "emigration_from_italy": {
+    "total_italians_abroad_aire": 6380000,
+    "year": 2024,
+    "top_destinations": [
+      { "rank": 1, "country": "Argentina", "country_it": "Argentina", "aire_registered": 987000, "wgi_governance_pctl": 42, "flag": "🇦🇷" },
+      { "rank": 2, "country": "Germany", "country_it": "Germania", "aire_registered": 847000, "wgi_governance_pctl": 90, "flag": "🇩🇪" },
+      { "rank": 3, "country": "Brazil", "country_it": "Brasile", "aire_registered": 671000, "wgi_governance_pctl": 45, "flag": "🇧🇷" },
+      { "rank": 4, "country": "Switzerland", "country_it": "Svizzera", "aire_registered": 654000, "wgi_governance_pctl": 95, "flag": "🇨🇭" },
+      { "rank": 5, "country": "France", "country_it": "Francia", "aire_registered": 483000, "wgi_governance_pctl": 85, "flag": "🇫🇷" },
+      { "rank": 6, "country": "United Kingdom", "country_it": "Regno Unito", "aire_registered": 450000, "wgi_governance_pctl": 82, "flag": "🇬🇧" },
+      { "rank": 7, "country": "United States", "country_it": "Stati Uniti", "aire_registered": 300000, "wgi_governance_pctl": 83, "flag": "🇺🇸" },
+      { "rank": 8, "country": "Spain", "country_it": "Spagna", "aire_registered": 250000, "wgi_governance_pctl": 75, "flag": "🇪🇸" },
+      { "rank": 9, "country": "Australia", "country_it": "Australia", "aire_registered": 160000, "wgi_governance_pctl": 88, "flag": "🇦🇺" },
+      { "rank": 10, "country": "Canada", "country_it": "Canada", "aire_registered": 145000, "wgi_governance_pctl": 89, "flag": "🇨🇦" }
+    ],
+    "brain_drain": {
+      "recent_emigrants_2024": 156000,
+      "pct_with_degree": 50,
+      "net_graduate_loss_2024": 21000,
+      "graduate_departures_2024": 25000,
+      "graduate_returns_2024": 4000,
+      "key_drivers_it": ["Salari più bassi della media UE", "Alta disoccupazione giovanile", "Contratti precari"],
+      "key_drivers_en": ["Lower salaries vs EU average", "High youth unemployment", "Precarious contracts"]
+    }
+  },
+  "remittances": {
+    "status": "net_sender",
+    "outflows_usd_2024": 12360000000,
+    "inflows_usd_2023": 401000000,
+    "top_outflow_corridors": [
+      { "country": "Bangladesh", "flag": "🇧🇩" },
+      { "country": "Romania", "flag": "🇷🇴" },
+      { "country": "Philippines", "flag": "🇵🇭" },
+      { "country": "Morocco", "flag": "🇲🇦" },
+      { "country": "Pakistan", "flag": "🇵🇰" }
+    ]
+  },
+  "italy_global_position": {
+    "italy_wgi_governance_pctl": 65,
+    "net_migration_2023": 274000,
+    "net_migration_2024_est": 100000,
+    "mipex_score": 58,
+    "mipex_max": 100,
+    "mipex_status_it": "Parzialmente favorevole",
+    "mipex_status_en": "Halfway favorable",
+    "asylum_acceptance_rate_first_instance": 7.6,
+    "eu_avg_asylum_acceptance": 23.0,
+    "first_residence_permits_eu_share_pct": 10
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "EU27 Comparative Metrics",
+    "description": "Cross-cutting EU27 data for healthcare, pension, energy, and justice benchmarking",
+    "year": "2022-2024 (most recent available)",
+    "sources": {
+      "healthcare_oop": "https://ec.europa.eu/eurostat/databrowser/view/hlth_sha11_hf/",
+      "pension_spending": "https://ec.europa.eu/eurostat/databrowser/view/spr_exp_pens/",
+      "electricity_prices": "https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/",
+      "civil_trial": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/upholding-rule-law/eu-justice-scoreboard_en"
+    }
+  },
+  "healthcare_oop_pct": {
+    "Austria": 17.5, "Belgium": 18.2, "Bulgaria": 35.5, "Croatia": 9.4, "Cyprus": 13.7,
+    "Czechia": 14.0, "Denmark": 12.5, "Estonia": 21.5, "Finland": 16.5, "France": 8.9,
+    "Germany": 12.5, "Greece": 34.3, "Hungary": 27.0, "Ireland": 11.5, "Italy": 22.5,
+    "Latvia": 35.1, "Lithuania": 32.0, "Luxembourg": 8.8, "Malta": 26.0, "Netherlands": 10.5,
+    "Poland": 20.5, "Portugal": 29.5, "Romania": 22.0, "Slovakia": 19.0, "Slovenia": 11.0,
+    "Spain": 20.5, "Sweden": 13.5
+  },
+  "pension_spending_gdp_pct": {
+    "Austria": 14.4, "Belgium": 12.2, "Bulgaria": 8.5, "Croatia": 10.0, "Cyprus": 9.5,
+    "Czechia": 8.5, "Denmark": 8.0, "Estonia": 7.5, "Finland": 13.7, "France": 14.6,
+    "Germany": 10.5, "Greece": 14.0, "Hungary": 8.0, "Ireland": 4.2, "Italy": 15.5,
+    "Latvia": 7.0, "Lithuania": 7.0, "Luxembourg": 9.0, "Malta": 5.2, "Netherlands": 5.5,
+    "Poland": 11.1, "Portugal": 12.5, "Romania": 8.0, "Slovakia": 8.5, "Slovenia": 10.0,
+    "Spain": 13.7, "Sweden": 7.9
+  },
+  "electricity_eur_mwh": {
+    "Austria": 185.0, "Belgium": 165.0, "Bulgaria": 130.0, "Croatia": 145.0, "Cyprus": 260.0,
+    "Czechia": 170.0, "Denmark": 135.0, "Estonia": 145.0, "Finland": 95.0, "France": 160.0,
+    "Germany": 185.0, "Greece": 180.0, "Hungary": 195.0, "Ireland": 225.0, "Italy": 215.0,
+    "Latvia": 160.0, "Lithuania": 160.0, "Luxembourg": 150.0, "Malta": 135.0, "Netherlands": 170.0,
+    "Poland": 165.0, "Portugal": 115.0, "Romania": 180.0, "Slovakia": 185.0, "Slovenia": 160.0,
+    "Spain": 120.0, "Sweden": 90.0
+  },
+  "civil_trial_days": {
+    "Austria": 130, "Belgium": 210, "Bulgaria": 120, "Croatia": 370, "Cyprus": 800,
+    "Czechia": 145, "Denmark": 175, "Estonia": 125, "Finland": 240, "France": 420,
+    "Germany": 215, "Greece": 600, "Hungary": 125, "Ireland": 300, "Italy": 400,
+    "Latvia": 170, "Lithuania": 115, "Luxembourg": 190, "Malta": 550, "Netherlands": 135,
+    "Poland": 300, "Portugal": 230, "Romania": 150, "Slovakia": 180, "Slovenia": 145,
+    "Spain": 320, "Sweden": 150
+  }
+}

@@ -23,8 +23,7 @@ const Footer = () => (
           <h4>Open Science</h4>
           <ul>
             <li><a href="https://github.com/Eugenix94/Italienation" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
-            <li>OSF Preregistration (Coming Soon)</li>
-            <li>Zenodo Data Archive (Coming Soon)</li>
+            <li><a href="https://osf.io/fh7qr/overview" target="_blank" rel="noopener noreferrer">OSF Public Project</a></li>
           </ul>
         </div>
       </div>

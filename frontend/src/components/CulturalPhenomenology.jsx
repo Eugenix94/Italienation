@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from "../contexts/LanguageContext";
 import { T } from './T';
 import SourceBadge from './SourceBadge';
 import { motion } from 'framer-motion';
@@ -6,8 +7,11 @@ import { MessageCircle, Users, Scale, Briefcase, GraduationCap } from 'lucide-re
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, LineChart, Line } from 'recharts';
 
 export default function CulturalPhenomenology() {
+  const { lang } = useLanguage();
+  const isIt = lang === "it";
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/cultural_metrics.json`)
@@ -18,17 +22,25 @@ export default function CulturalPhenomenology() {
       })
       .catch(err => {
         console.error("Error loading cultural metrics:", err);
+        setError(err.message || 'Failed to load data');
         setLoading(false);
       });
   }, []);
 
-  if (loading || !data) {
+  if (loading) {
     return (
       <div className="flex items-center justify-center h-64 text-zinc-500">
         <T it="Caricamento metriche culturali..." en="Loading cultural metrics..." />
       </div>
     );
   }
+
+  if (error || !data) return (
+    <div className="w-full py-16 flex flex-col items-center justify-center text-zinc-400">
+      <p className="text-lg font-medium">Failed to load data</p>
+      <p className="text-sm mt-2">{error}</p>
+    </div>
+  );
 
   const { nepotism_perception, oral_exams_variance, social_mobility_index, first_job_connections } = data;
 
@@ -84,10 +96,12 @@ export default function CulturalPhenomenology() {
               <RadarChart cx="50%" cy="50%" outerRadius="75%" data={oral_exams_variance}>
                 <PolarGrid stroke="#3f3f46" strokeDasharray="3 3" />
                 <PolarAngleAxis dataKey="subject" tick={{ fill: '#d4d4d8', fontSize: 13, fontWeight: 500 }} />
-                <Radar name="Varianza Orale" dataKey="oralVar" stroke="#818cf8" strokeWidth={2} fill="#818cf8" fillOpacity={0.4} />
-                <Radar name="Varianza Scritta" dataKey="writtenVar" stroke="#34d399" strokeWidth={2} fill="#34d399" fillOpacity={0.4} />
+                <Radar name={isIt ? "Varianza Orale" : "Oral Variance"} dataKey="oralVar" stroke="#818cf8" strokeWidth={2} fill="#818cf8" fillOpacity={0.4} />
+                <Radar name={isIt ? "Varianza Scritta" : "Written Variance"} dataKey="writtenVar" stroke="#34d399" strokeWidth={2} fill="#34d399" fillOpacity={0.4} />
                 <RechartsTooltip 
                   contentStyle={{ backgroundColor: 'rgba(24, 24, 27, 0.9)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '16px', color: '#fff', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}
+                  itemStyle={{ color: '#ffffff' }}
+                  labelStyle={{ color: '#ffffff' }}
                 />
               </RadarChart>
             </ResponsiveContainer>
@@ -134,19 +148,20 @@ export default function CulturalPhenomenology() {
                 <YAxis dataKey="country" type="category" stroke="#d4d4d8" width={80} tick={{ fill: '#e4e4e7', fontWeight: 500 }} />
                 <RechartsTooltip 
                   contentStyle={{ backgroundColor: 'rgba(24, 24, 27, 0.9)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '16px', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}
-                  itemStyle={{ color: '#fff', fontWeight: 'bold' }}
+                  itemStyle={{ color: '#ffffff', fontWeight: 'bold' }}
+                  labelStyle={{ color: '#ffffff' }}
                   cursor={{ fill: 'rgba(255,255,255,0.05)' }}
                 />
                 <Bar dataKey="value" radius={[0, 6, 6, 0]} barSize={24}>
                   {nepotism_perception.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.country === 'Italia' ? '#fb7185' : entry.euAvg ? '#818cf8' : '#52525b'} />
+                    <Cell key={`cell-${index}`} fill={entry.country === 'Italia' ? '#fb7185' : entry.euAvg ? '#818cf8' : '#64748b'} />
                   ))}
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
           </div>
           <div className="flex justify-center mt-6">
-            <SourceBadge agency="Eurobarometro" year="2023" />
+            <SourceBadge agency="Eurobarometro" year="2023" url="https://europa.eu/eurobarometer/surveys/detail/2972" />
           </div>
         </motion.div>
 
@@ -183,19 +198,20 @@ export default function CulturalPhenomenology() {
                 <YAxis stroke="#a1a1aa" tickFormatter={(val) => `${val}%`} tick={{ fill: '#71717a' }} axisLine={false} tickLine={false} />
                 <RechartsTooltip 
                   contentStyle={{ backgroundColor: 'rgba(24, 24, 27, 0.9)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '16px', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}
-                  itemStyle={{ color: '#fff', fontWeight: 'bold' }}
+                  itemStyle={{ color: '#ffffff', fontWeight: 'bold' }}
+                  labelStyle={{ color: '#ffffff' }}
                   cursor={{ fill: 'rgba(255,255,255,0.05)' }}
                 />
                 <Bar dataKey="value" radius={[6, 6, 0, 0]} barSize={40}>
                   {first_job_connections.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.country === 'Italia' ? '#fbbf24' : '#52525b'} />
+                    <Cell key={`cell-${index}`} fill={entry.country === 'Italia' ? '#fbbf24' : '#64748b'} />
                   ))}
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
           </div>
           <div className="flex justify-center mt-6">
-            <SourceBadge agency="Eurobarometro" year="2024" />
+            <SourceBadge agency="Eurobarometro" year="2024" url="https://europa.eu/eurobarometer/surveys/detail/3213" />
           </div>
         </motion.div>
 
@@ -232,14 +248,15 @@ export default function CulturalPhenomenology() {
                 <YAxis domain={[0, 10]} stroke="#a1a1aa" tick={{ fill: '#71717a' }} axisLine={false} tickLine={false} />
                 <RechartsTooltip 
                   contentStyle={{ backgroundColor: 'rgba(24, 24, 27, 0.9)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '16px', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}
-                  itemStyle={{ color: '#fff', fontWeight: 'bold' }}
+                  itemStyle={{ color: '#ffffff', fontWeight: 'bold' }}
+                  labelStyle={{ color: '#ffffff' }}
                 />
                 <Line type="monotone" dataKey="value" stroke="#10b981" strokeWidth={4} dot={{ fill: '#064e3b', stroke: '#34d399', strokeWidth: 2, r: 6 }} activeDot={{ r: 8, stroke: '#6ee7b7' }} />
               </LineChart>
             </ResponsiveContainer>
           </div>
           <div className="flex justify-center mt-6">
-            <SourceBadge agency="World Bank Global Database" year="2023" />
+            <SourceBadge agency="World Bank Global Database" year="2023" url="https://datacatalog.worldbank.org/dataset/worldwide-governance-indicators" />
           </div>
         </motion.div>
 

@@ -19,14 +19,20 @@ import {
   Pie
 } from 'recharts';
 import { T } from './T';
+import { useLanguage } from '../contexts/LanguageContext';
 import SourceBadge from './SourceBadge';
 import collapseData from '../assets/systemic_collapse.json';
 
 const CustomTooltip = ({ active, payload, label }) => {
+  const { lang } = useLanguage();
+  const isIt = lang === 'it';
+  
   if (active && payload && payload.length) {
+    const p0 = payload[0].payload;
+    const title = label || p0.country || p0.year || (isIt ? p0.category_it || p0.metric_it : p0.category_en || p0.metric_en);
     return (
       <div className="bg-zinc-900 border border-zinc-700 p-3 rounded-lg shadow-xl z-50">
-        <p className="font-bold text-white mb-2">{label || payload[0].payload.country || payload[0].payload.year || payload[0].payload.category || payload[0].payload.metric}</p>
+        <p className="font-bold text-white mb-2">{title}</p>
         {payload.map((entry, index) => (
           <p key={index} className="text-sm" style={{ color: entry.color || entry.fill }}>
             <span className="font-semibold">{entry.name}: </span>
@@ -40,6 +46,8 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function SystemicCollapse() {
+  const { lang } = useLanguage();
+  const isIt = lang === 'it';
   const { pnrr_education, youth_abstention, overeducation, school_infrastructure, demographic_winter } = collapseData;
 
   return (
@@ -93,12 +101,12 @@ export default function SystemicCollapse() {
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={pnrr_education.data} margin={{ top: 10, right: 10, left: -20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#3f3f46" vertical={false} />
-                <XAxis dataKey="category" tick={{ fill: '#a1a1aa', fontSize: 11 }} />
+                <XAxis dataKey={isIt ? "category_it" : "category_en"} tick={{ fill: '#a1a1aa', fontSize: 11 }} />
                 <YAxis tick={{ fill: '#a1a1aa', fontSize: 12 }} />
                 <Tooltip content={<CustomTooltip />} />
                 <Legend iconType="circle" wrapperStyle={{ fontSize: '12px' }} />
-                <Bar dataKey="allocated" name="Allocati (Mld €)" fill="#3f3f46" radius={[4, 4, 0, 0]} />
-                <Bar dataKey="spent" name="Spesi (Mld €)" fill="#10b981" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="allocated" name={isIt ? "Allocati (Mld €)" : "Allocated (Bn €)"} fill="#6366f1" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="spent" name={isIt ? "Spesi (Mld €)" : "Spent (Bn €)"} fill="#10b981" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -141,8 +149,8 @@ export default function SystemicCollapse() {
                 <YAxis tick={{ fill: '#a1a1aa', fontSize: 12 }} unit="%" />
                 <Tooltip content={<CustomTooltip />} />
                 <Legend iconType="circle" wrapperStyle={{ fontSize: '12px' }} />
-                <Line type="monotone" dataKey="turnout_pct" name="Affluenza 18-24enni" stroke="#6366f1" strokeWidth={3} dot={{ r: 4 }} />
-                <Line type="monotone" dataKey="fuorisede_pct" name="Studenti Fuorisede (Barriera al Voto)" stroke="#f43f5e" strokeWidth={3} dot={{ r: 4 }} />
+                <Line type="monotone" dataKey="turnout_pct" name={isIt ? "Affluenza 18-24enni" : "Voter Turnout 18-24yo"} stroke="#6366f1" strokeWidth={3} dot={{ r: 4 }} />
+                <Line type="monotone" dataKey="fuorisede_pct" name={isIt ? "Studenti Fuorisede (Barriera al Voto)" : "Students Away from Home (Voting Barrier)"} stroke="#f43f5e" strokeWidth={3} dot={{ r: 4 }} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -186,8 +194,8 @@ export default function SystemicCollapse() {
                 <YAxis yAxisId="right" orientation="right" tick={{ fill: '#f43f5e', fontSize: 12 }} unit="€" />
                 <Tooltip content={<CustomTooltip />} />
                 <Legend iconType="circle" wrapperStyle={{ fontSize: '12px' }} />
-                <Bar yAxisId="left" dataKey="overeducation_pct" name="Tasso di Sovraistruzione" fill="#f59e0b" radius={[4, 4, 0, 0]} />
-                <Bar yAxisId="right" dataKey="wage_penalty_eur" name="Penalizzazione Salariale/Mese" fill="#f43f5e" radius={[0, 0, 4, 4]} />
+                <Bar yAxisId="left" dataKey="overeducation_pct" name={isIt ? "Tasso di Sovraistruzione" : "Overeducation Rate"} fill="#f59e0b" radius={[4, 4, 0, 0]} />
+                <Bar yAxisId="right" dataKey="wage_penalty_eur" name={isIt ? "Penalizzazione Salariale/Mese" : "Wage Penalty/Month"} fill="#f43f5e" radius={[0, 0, 4, 4]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -228,7 +236,7 @@ export default function SystemicCollapse() {
                 <Pie
                   data={school_infrastructure.data}
                   dataKey="value"
-                  nameKey="metric"
+                  nameKey={isIt ? "metric_it" : "metric_en"}
                   cx="50%"
                   cy="50%"
                   innerRadius={60}
@@ -285,8 +293,8 @@ export default function SystemicCollapse() {
                 <YAxis tick={{ fill: '#a1a1aa' }} unit="M" />
                 <Tooltip content={<CustomTooltip />} />
                 <Legend iconType="circle" wrapperStyle={{ fontSize: '12px' }} />
-                <Area type="monotone" dataKey="workers_mln" name="Popolazione Attiva (15-64) - Milioni" stackId="1" stroke="#a855f7" fill="#a855f7" fillOpacity={0.6} />
-                <Area type="monotone" dataKey="retirees_mln" name="Pensionati (65+) - Milioni" stackId="2" stroke="#f43f5e" fill="#f43f5e" fillOpacity={0.6} />
+                <Area type="monotone" dataKey="workers_mln" name={isIt ? "Popolazione Attiva (15-64) - Milioni" : "Working Population (15-64) - Millions"} stackId="1" stroke="#a855f7" fill="#a855f7" fillOpacity={0.6} />
+                <Area type="monotone" dataKey="retirees_mln" name={isIt ? "Pensionati (65+) - Milioni" : "Retirees (65+) - Millions"} stackId="2" stroke="#f43f5e" fill="#f43f5e" fillOpacity={0.6} />
               </AreaChart>
             </ResponsiveContainer>
           </div>

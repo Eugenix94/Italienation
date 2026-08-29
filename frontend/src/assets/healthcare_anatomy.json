@@ -1,0 +1,25 @@
+{
+  "out_of_pocket_spending_pct": {
+    "Italy": 21.4,
+    "France": 9.26,
+    "Germany": 11.05,
+    "EU_Average": 15.0
+  },
+  "wait_times_months_specialist": {
+    "Italy": 4,
+    "Notes": "Average wait times in 2023 for first specialist visits often exceeded 4 months (120+ days). Wait times for specific diagnostics (e.g., MRI/CT scans) frequently exceeded 6-12 months. The GIMBE Foundation highlights severe regional disparities and lack of transparent centralized data, which led to a 51% increase in people renouncing care between 2023 and 2024 (approx. 4 million citizens)."
+  },
+  "doctor_brain_drain": {
+    "emigrated_doctors_last_10_years": 15000,
+    "impact_description_it": "Il fenomeno dell'espatrio dei medici italiani è spinto principalmente da difficili condizioni di lavoro (turni massacranti, carenza di sicurezza), retribuzioni non competitive rispetto agli standard europei e un 'imbuto formativo' nell'accesso alle specializzazioni. Secondo FNOMCeO e Anaao Assomed, questo esodo costante (circa 1.000-1.500 medici l'anno) aggrava in modo critico la carenza di personale del Servizio Sanitario Nazionale (SSN), riducendo la capacità di erogare cure tempestive e alimentando il collasso delle liste d'attesa.",
+    "impact_description_en": "The emigration of Italian doctors is driven largely by harsh working conditions (exhausting shifts, poor safety protocols), uncompetitive salaries compared to European benchmarks, and bottlenecks in accessing medical specialty training. According to FNOMCeO and Anaao Assomed, this steady exodus (approx. 1,000-1,500 doctors annually) critically exacerbates staff shortages within the National Health Service (SSN), directly limiting the ability to deliver timely care and worsening the waitlist crisis."
+  },
+  "urls": [
+    "https://data-explorer.oecd.org/vis?lc=en&pg=0&fs[0]=Topic%2C1%7CHealth%23HEA%23",
+    "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
+    "https://www.gimbe.org/pagine/1127/it/rapporto-gimbe",
+    "https://www.anaao.it/content.php?id=3775",
+    "https://www.quotidianosanita.it/studi-e-analisi/",
+    "https://www.agenas.gov.it/dati-statistici"
+  ]
+}

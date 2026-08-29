@@ -1,4 +1,8 @@
 {
+  "source_urls": {
+    "istruzione_opendata": "https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?area=Personale%20Scuola",
+    "eurydice": "https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/teachers-and-education-staff"
+  },
   "totalTeachers": 850000,
   "precariousTeachers": 250000,
   "precariousPercentage": 29.4,

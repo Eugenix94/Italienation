@@ -22,7 +22,7 @@ export default function DataTooltip({
       <span className="border-b border-dashed border-zinc-500/50 hover:border-indigo-400/50 transition-colors">
         {children}
       </span>
-      <HelpCircle className="w-3.5 h-3.5 text-zinc-500 group-hover:text-indigo-400 transition-colors" />
+      <HelpCircle className="w-3.5 h-3.5 text-zinc-400 group-hover:text-indigo-400 transition-colors" />
 
       <AnimatePresence>
         {isVisible && (
@@ -56,7 +56,7 @@ export default function DataTooltip({
             )}
 
             {source && (
-              <div className="flex items-center gap-1.5 text-[10px] text-zinc-500 font-medium">
+              <div className="flex items-center gap-1.5 text-[10px] text-zinc-400 font-medium">
                 <Info className="w-3 h-3" />
                 <span>Source: {source}</span>
               </div>

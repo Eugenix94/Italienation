@@ -1,31 +1,33 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, Suspense, lazy } from 'react';
 import Hero from '../components/Hero';
-import StructuralOutcomes from '../components/StructuralOutcomes';
-import InternationalBenchmark from '../components/InternationalBenchmark';
-import TripartiteSimulator from '../components/TripartiteSimulator';
-import GISMap from '../components/GISMap';
-import TerritorialMap from '../components/TerritorialMap';
-import FlowDynamics from '../components/FlowDynamics';
-import SystemicDeepDives from '../components/SystemicDeepDives';
-import EU27PESComparison from '../components/EU27PESComparison';
-import EconometricCosts from '../components/EconometricCosts';
-import MacroEconomics from '../components/MacroEconomics';
-import DemographicFallout from '../components/DemographicFallout';
-import SystemicCollapse from '../components/SystemicCollapse';
-import LaborMarketAndCorrelations from '../components/LaborMarketAndCorrelations';
-import MigrationAndRemittances from '../components/MigrationAndRemittances';
-import ScrollyDataHub from '../components/ScrollyDataHub';
-import DeveloperAPI from '../components/DeveloperAPI';
-import DataCatalogCTA from '../components/DataCatalogCTA';
-import AngloAmericanComparison from '../components/AngloAmericanComparison';
-import ReligiousOptOut from '../components/ReligiousOptOut';
-import MethodologyNotebooks from '../components/MethodologyNotebooks';
-import StructuralDeepDives from '../components/StructuralDeepDives';
-import CulturalPhenomenology from '../components/CulturalPhenomenology';
-import MediaKitExport from '../components/MediaKitExport';
 import { BookOpen, LineChart, Map, Layers, Database, BarChart2, Book, Search, ChevronRight, Menu, X, BrainCircuit, AlertTriangle } from 'lucide-react';
 import { T } from '../components/T';
 import { motion, AnimatePresence } from 'framer-motion';
+
+const StructuralOutcomes = lazy(() => import('../components/StructuralOutcomes'));
+const InternationalBenchmark = lazy(() => import('../components/InternationalBenchmark'));
+const TripartiteSimulator = lazy(() => import('../components/TripartiteSimulator'));
+const GISMap = lazy(() => import('../components/GISMap'));
+const TerritorialMap = lazy(() => import('../components/TerritorialMap'));
+const FlowDynamics = lazy(() => import('../components/FlowDynamics'));
+const SystemicDeepDives = lazy(() => import('../components/SystemicDeepDives'));
+const EU27PESComparison = lazy(() => import('../components/EU27PESComparison'));
+const EconometricCosts = lazy(() => import('../components/EconometricCosts'));
+const MacroEconomics = lazy(() => import('../components/MacroEconomics'));
+const DemographicFallout = lazy(() => import('../components/DemographicFallout'));
+const SystemicCollapse = lazy(() => import('../components/SystemicCollapse'));
+const LaborMarketAndCorrelations = lazy(() => import('../components/LaborMarketAndCorrelations'));
+const MigrationAndRemittances = lazy(() => import('../components/MigrationAndRemittances'));
+const ScrollyDataHub = lazy(() => import('../components/ScrollyDataHub'));
+const DeveloperAPI = lazy(() => import('../components/DeveloperAPI'));
+const DataCatalogCTA = lazy(() => import('../components/DataCatalogCTA'));
+const AngloAmericanComparison = lazy(() => import('../components/AngloAmericanComparison'));
+const ReligiousOptOut = lazy(() => import('../components/ReligiousOptOut'));
+const MethodologyNotebooks = lazy(() => import('../components/MethodologyNotebooks'));
+const StructuralDeepDives = lazy(() => import('../components/StructuralDeepDives'));
+const CulturalPhenomenology = lazy(() => import('../components/CulturalPhenomenology'));
+const MediaKitExport = lazy(() => import('../components/MediaKitExport'));
+
 
 export default function UnifiedHome() {
   const [activeTab, setActiveTab] = useState('struttura');
@@ -176,6 +178,7 @@ export default function UnifiedHome() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 lg:pt-16 pb-24 my-0 flex flex-col items-center">
             
             <div className="w-full space-y-40">
+              <Suspense fallback={<div className="flex items-center justify-center h-96 w-full text-zinc-500"><div className="flex flex-col items-center gap-4"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-t-2 border-indigo-500"></div><span className="text-sm tracking-widest uppercase font-semibold text-zinc-400">Loading Content...</span></div></div>}>
                 <section id="struttura" ref={el => sectionRefs.current['struttura'] = el} className="scroll-mt-24 space-y-32">
                   <StructuralOutcomes />
                   <AngloAmericanComparison />
@@ -236,6 +239,7 @@ export default function UnifiedHome() {
                   <DeveloperAPI />
                   <MediaKitExport />
                 </section>
+              </Suspense>
             </div>
 
           </div>

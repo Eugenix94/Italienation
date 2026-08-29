@@ -1,0 +1,22 @@
+{
+  "pension_spending_gdp_pct": {
+    "Italy": 15.5,
+    "France": 14.6,
+    "Germany": 10.2,
+    "Spain": 13.0,
+    "EU_Average": 12.3
+  },
+  "worker_to_retiree_ratio": {
+    "Italy": 1.6,
+    "EU_Average": 2.9
+  },
+  "youth_burden_description_it": "Il sistema pensionistico italiano pone un carico fiscale schiacciante sui giovani lavoratori. A causa del declino demografico e dell'invecchiamento della popolazione, il rapporto lavoratori-pensionati è in forte calo, costringendo le generazioni più giovani a versare contributi INPS e tasse elevatissime per sostenere le pensioni attuali. Questo patto intergenerazionale squilibrato mette a rischio la stabilità economica dei giovani e le loro future prospettive previdenziali.",
+  "youth_burden_description_en": "The Italian pension system places a crushing tax burden on young workers. Due to demographic decline and an aging population, the worker-to-retiree ratio is rapidly shrinking, forcing younger generations to pay extremely high INPS contributions and taxes to sustain current pensions. This unbalanced intergenerational pact jeopardizes the economic stability of the youth and their own future retirement prospects.",
+  "source_urls": [
+    "https://ec.europa.eu/eurostat/databrowser/view/tps00103/default/table",
+    "https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html",
+    "https://www.oecd-ilibrary.org/social-issues-migration-health/pensions-at-a-glance_19991363",
+    "https://tradingeconomics.com/italy/indicators",
+    "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Social_protection_statistics_-_pension_expenditure_and_pension_beneficiaries"
+  ]
+}

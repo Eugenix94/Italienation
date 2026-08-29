@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { T } from './T';
-import { BookOpen, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 export default function Navbar() {
   const location = useLocation();
@@ -35,14 +35,14 @@ export default function Navbar() {
 
           {/* Right Actions */}
           <div className="flex items-center space-x-3">
-            <Link 
-              to="/guide"
-              className="flex items-center gap-2 px-4 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white text-xs font-bold transition shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#09090b]"
+            <a 
+              href="https://osf.io/fh7qr/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hidden sm:flex px-4 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white text-xs font-bold transition shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#09090b]"
             >
-              <BookOpen size={14} aria-hidden="true" />
-              <T it="Guida ai Dati" en="Data Guide" />
-            </Link>
-            
+              OSF
+            </a>
             <a 
               href="https://github.com/Eugenix94/Italienation" 
               target="_blank" 

@@ -71,12 +71,12 @@ export default function MethodologyNotebooks() {
                   : 'hover:bg-white/5 border border-transparent'
               }`}
             >
-              <nb.icon size={18} className={`shrink-0 mt-0.5 ${activeNotebook === nb.id ? 'text-indigo-400' : 'text-zinc-500'}`} />
+              <nb.icon size={18} className={`shrink-0 mt-0.5 ${activeNotebook === nb.id ? 'text-indigo-400' : 'text-zinc-400'}`} />
               <div className="flex-1 min-w-0">
                 <p className={`text-sm truncate ${activeNotebook === nb.id ? 'font-bold text-indigo-100' : 'font-medium text-zinc-300'}`}>
                   {nb.title}
                 </p>
-                <p className="text-[10px] uppercase tracking-wider text-zinc-500 mt-0.5">{nb.category}</p>
+                <p className="text-[10px] uppercase tracking-wider text-zinc-400 mt-0.5">{nb.category}</p>
               </div>
               {activeNotebook === nb.id && <ArrowRight size={14} className="text-indigo-500 shrink-0 mt-1" />}
             </button>

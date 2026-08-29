@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from "../contexts/LanguageContext";
 import { T } from './T';
 import { motion } from 'framer-motion';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
@@ -6,8 +7,11 @@ import * as LucideIcons from 'lucide-react';
 import SourceBadge from './SourceBadge';
 
 export default function StructuralDeepDives() {
+  const { lang } = useLanguage();
+  const isIt = lang === "it";
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/structural_deep_dives.json`)
@@ -18,13 +22,21 @@ export default function StructuralDeepDives() {
       })
       .catch(err => {
         console.error("Failed to load structural deep dives data:", err);
+        setError(err.message || 'Failed to load data');
         setLoading(false);
       });
   }, []);
 
-  if (loading || !data) return (
+  if (loading) return (
     <div className="w-full h-96 flex items-center justify-center">
       <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-500"></div>
+    </div>
+  );
+
+  if (error || !data) return (
+    <div className="w-full py-16 flex flex-col items-center justify-center text-zinc-400">
+      <p className="text-lg font-medium">Failed to load data</p>
+      <p className="text-sm mt-2">{error}</p>
     </div>
   );
 
@@ -58,12 +70,13 @@ export default function StructuralDeepDives() {
               <YAxis stroke="#a1a1aa" tickFormatter={(value) => `${value}%`} />
               <Tooltip 
                 contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', color: '#fff' }}
-                itemStyle={{ color: '#e4e4e7' }}
+                itemStyle={{ color: '#ffffff' }}
+                labelStyle={{ color: '#ffffff' }}
                 formatter={(value) => `${value}%`}
               />
               <Legend />
-              <Bar dataKey="male" name="Maschi / Male" stackId="a" fill="#3b82f6" />
-              <Bar dataKey="female" name="Femmine / Female" stackId="a" fill="#ec4899" />
+              <Bar dataKey="male" name={isIt ? "Maschi" : "Male"} stackId="a" fill="#3b82f6" />
+              <Bar dataKey="female" name={isIt ? "Femmine" : "Female"} stackId="a" fill="#ec4899" />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -96,6 +109,8 @@ export default function StructuralDeepDives() {
               <YAxis dataKey="area" type="category" stroke="#a1a1aa" />
               <Tooltip 
                 contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', color: '#fff' }}
+                itemStyle={{ color: '#ffffff' }}
+                labelStyle={{ color: '#ffffff' }}
                 formatter={(value) => `${value}%`}
               />
               <Legend />
@@ -133,6 +148,8 @@ export default function StructuralDeepDives() {
               <YAxis stroke="#a1a1aa" tickFormatter={(value) => `${value}%`} />
               <Tooltip 
                 contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', color: '#fff' }}
+                itemStyle={{ color: '#ffffff' }}
+                labelStyle={{ color: '#ffffff' }}
                 formatter={(value) => `${value}%`}
               />
               <Bar dataKey="dropoutRate" name="Tasso di Abbandono / Dropout Rate" fill="#6366f1" radius={[4, 4, 0, 0]} />

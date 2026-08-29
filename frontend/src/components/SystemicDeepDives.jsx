@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLanguage } from "../contexts/LanguageContext";
 import { T } from "./T";
 import SectionContext from "./SectionContext";
 import DataTooltip from "./DataTooltip";
@@ -30,6 +31,8 @@ const SectionHeader = ({ icon: Icon, titleIt, titleEn, descIt, descEn, agency = 
 );
 
 export default function SystemicDeepDives() {
+  const { lang } = useLanguage();
+  const isIt = lang === "it";
   return (
     <div className="min-h-screen pt-24 pb-12 px-6">
       <div className="max-w-6xl mx-auto space-y-24">
@@ -192,7 +195,11 @@ export default function SystemicDeepDives() {
                 <CartesianGrid strokeDasharray="3 3" stroke="#27272a" vertical={false} />
                 <XAxis dataKey="type" stroke="#71717a" tick={{fill: '#a1a1aa', fontSize: 12}} />
                 <YAxis stroke="#71717a" tick={{fill: '#a1a1aa', fontSize: 12}} />
-                <Tooltip contentStyle={{backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '12px'}} />
+                <Tooltip 
+                  contentStyle={{backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '12px'}} 
+                  itemStyle={{ color: '#ffffff' }}
+                  labelStyle={{ color: '#ffffff' }}
+                />
                 <Legend />
                 <Bar dataKey="grading_variance" name="Varianza Voto (Soggettività)" fill="#f43f5e" radius={[4, 4, 0, 0]} />
                 <Bar dataKey="psychological_distress_index" name="Indice Distress Psicologico" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
@@ -222,7 +229,11 @@ export default function SystemicDeepDives() {
                 <Radar name="Accountability" dataKey="accountability" stroke="#8b5cf6" fill="#8b5cf6" fillOpacity={0.4} />
                 <Radar name="Rule of Law" dataKey="rule_of_law" stroke="#10b981" fill="#10b981" fillOpacity={0.4} />
                 <Radar name="Horizontalism" dataKey="horizontalism" stroke="#f43f5e" fill="#f43f5e" fillOpacity={0.4} />
-                <Tooltip contentStyle={{backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '12px'}} />
+                <Tooltip 
+                  contentStyle={{backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '12px'}} 
+                  itemStyle={{ color: '#ffffff' }}
+                  labelStyle={{ color: '#ffffff' }}
+                />
                 <Legend wrapperStyle={{paddingTop: '20px'}} />
               </RadarChart>
             </ResponsiveContainer>
@@ -258,12 +269,14 @@ export default function SystemicDeepDives() {
                       dataKey="share"
                     >
                       {data.textbook_oligopoly && data.textbook_oligopoly.map((entry, index) => {
-                        const colors = ['#f43f5e', '#8b5cf6', '#10b981', '#f59e0b', '#52525b'];
+                        const colors = ['#f43f5e', '#8b5cf6', '#10b981', '#f59e0b', '#06b6d4'];
                         return <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />;
                       })}
                     </Pie>
                     <Tooltip 
                       contentStyle={{backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '12px'}}
+                      itemStyle={{ color: '#ffffff' }}
+                      labelStyle={{ color: '#ffffff' }}
                       formatter={(value) => `${value}%`}
                     />
                     <Legend />

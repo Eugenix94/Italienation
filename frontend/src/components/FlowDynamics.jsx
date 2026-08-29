@@ -20,7 +20,11 @@ const CustomTooltip = ({ active, payload, label }) => {
   return null;
 };
 
+import { useLanguage } from '../contexts/LanguageContext';
+
 export default function FlowDynamics() {
+  const { lang } = useLanguage();
+  const isIt = lang === 'it';
   return (
     <div className="space-y-12 pb-24 border-b border-zinc-800">
       <div className="text-center max-w-3xl mx-auto mb-12">
@@ -64,9 +68,9 @@ export default function FlowDynamics() {
                 <YAxis stroke="#888" tickFormatter={(val) => `${val}%`} />
                 <RechartsTooltip content={<CustomTooltip />} />
                 <Legend wrapperStyle={{ paddingTop: '20px', fontSize: '11px' }} />
-                <Bar dataKey="high_escs_share_pct" name="% High ESCS Students" fill="#818cf8" radius={[4, 4, 0, 0]} />
-                <Bar dataKey="retention_low_escs_pct" name="Retention Rate (Low ESCS)" fill="#f43f5e" radius={[4, 4, 0, 0]} />
-                <Bar dataKey="retention_high_escs_pct" name="Retention Rate (High ESCS)" fill="#10b981" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="high_escs_share_pct" name={isIt ? "% Studenti ESCS Alto" : "% High ESCS Students"} fill="#818cf8" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="retention_low_escs_pct" name={isIt ? "Tasso Bocciatura (ESCS Basso)" : "Retention Rate (Low ESCS)"} fill="#f43f5e" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="retention_high_escs_pct" name={isIt ? "Tasso Bocciatura (ESCS Alto)" : "Retention Rate (High ESCS)"} fill="#10b981" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -91,8 +95,8 @@ export default function FlowDynamics() {
                 <YAxis stroke="#888" tickFormatter={(val) => `${val}%`} />
                 <RechartsTooltip content={<CustomTooltip />} />
                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
-                <Bar dataKey="inactive_0cfu_pct" name="Studenti Fantasma (0 CFU)" fill="#6366f1" opacity={0.6} radius={[4, 4, 0, 0]} />
-                <Line type="monotone" dataKey="dropout_pct" name="Rinuncia Formale (Dropout)" stroke="#f43f5e" strokeWidth={3} dot={{ r: 6 }} />
+                <Bar dataKey="inactive_0cfu_pct" name={isIt ? "Studenti Fantasma (0 CFU)" : "Ghost Students (0 CFU)"} fill="#6366f1" opacity={0.6} radius={[4, 4, 0, 0]} />
+                <Line type="monotone" dataKey="dropout_pct" name={isIt ? "Rinuncia Formale (Dropout)" : "Formal Dropout"} stroke="#f43f5e" strokeWidth={3} dot={{ r: 6 }} />
               </ComposedChart>
             </ResponsiveContainer>
           </div>
@@ -117,8 +121,8 @@ export default function FlowDynamics() {
                 <YAxis stroke="#888" tickFormatter={(val) => `${val}%`} />
                 <RechartsTooltip content={<CustomTooltip />} />
                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
-                <Bar dataKey="difficulty_finding_candidates_pct" name="Difficoltà Reperimento (%)" fill="#f59e0b" radius={[4, 4, 0, 0]} />
-                <Bar dataKey="skills_mismatch_pct" name="Mismatch Qualitativo (%)" fill="#4f46e5" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="difficulty_finding_candidates_pct" name={isIt ? "Difficoltà Reperimento (%)" : "Difficulty Finding Candidates (%)"} fill="#f59e0b" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="skills_mismatch_pct" name={isIt ? "Mismatch Qualitativo (%)" : "Skills Mismatch (%)"} fill="#4f46e5" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -143,8 +147,8 @@ export default function FlowDynamics() {
                 <YAxis stroke="#888" tickFormatter={(val) => `${val}%`} domain={[10, 30]} />
                 <RechartsTooltip content={<CustomTooltip />} />
                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
-                <Area type="monotone" dataKey="female_pct" name="Female NEET (%)" stroke="#f43f5e" fill="#f43f5e" fillOpacity={0.2} />
-                <Area type="monotone" dataKey="male_pct" name="Male NEET (%)" stroke="#10b981" fill="#10b981" fillOpacity={0.2} />
+                <Area type="monotone" dataKey="female_pct" name={isIt ? "NEET Femminile (%)" : "Female NEET (%)"} stroke="#f43f5e" fill="#f43f5e" fillOpacity={0.2} />
+                <Area type="monotone" dataKey="male_pct" name={isIt ? "NEET Maschile (%)" : "Male NEET (%)"} stroke="#10b981" fill="#10b981" fillOpacity={0.2} />
               </AreaChart>
             </ResponsiveContainer>
           </div>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import * as LucideIcons from 'lucide-react';
 import { Loader2, TrendingDown } from 'lucide-react';
@@ -167,6 +167,8 @@ const EconometricCosts = () => {
       icon: 'BookOpen',
       itTitle: 'Costi dei Libri di Testo',
       enTitle: 'Textbook Costs',
+      itDesc: 'Spese esorbitanti per i libri di testo che colpiscono duramente le famiglie a basso reddito, causando disparità iniziali.',
+      enDesc: 'Exorbitant textbook expenses that hit low-income families hard, causing initial disparities.',
       stat: '€' + costData.structural_mechanisms.textbook_costs.total_per_student_eur,
       itSub: '/ studente / anno',
       enSub: '/ student / year',
@@ -179,6 +181,8 @@ const EconometricCosts = () => {
       icon: 'HardHat',
       itTitle: 'Lavoro Non Retribuito (PCTO)',
       enTitle: 'Unpaid Labor (PCTO)',
+      itDesc: 'Tirocini obbligatori non retribuiti che sottraggono tempo allo studio, spesso usati per mansioni di basso livello.',
+      enDesc: 'Mandatory unpaid internships that take time away from studies, often used for low-level tasks.',
       stat: costData.structural_mechanisms.pcto_alternanza.total_students_involved.toLocaleString(),
       itSub: 'studenti coinvolti',
       enSub: 'students involved',
@@ -191,6 +195,8 @@ const EconometricCosts = () => {
       icon: 'MessageCircle',
       itTitle: 'Interrogazioni Orali',
       enTitle: 'Oral Examinations',
+      itDesc: 'Sistema di valutazione anacronistico e soggettivo che premia il background socio-culturale anziché le competenze oggettive.',
+      enDesc: 'Anachronistic and subjective grading system that rewards socio-cultural background rather than objective skills.',
       stat: '2-3x',
       itSub: 'maggiore varianza di voto',
       enSub: 'higher grading variance',
@@ -203,6 +209,8 @@ const EconometricCosts = () => {
       icon: 'Lock',
       itTitle: 'Barriera del Diploma',
       enTitle: 'Diploma Barrier',
+      itDesc: 'Un esame di maturità rigido e l\'assenza di certificazioni intermedie bloccano per sempre chi non completa il percorso.',
+      enDesc: 'A rigid final exam and the lack of intermediate certifications permanently block those who do not complete the track.',
       stat: '0',
       itSub: 'percorsi di seconda chance',
       enSub: 'second-chance pathways',
@@ -215,6 +223,8 @@ const EconometricCosts = () => {
       icon: 'Briefcase',
       itTitle: 'Lavoro Nero Giovanile',
       enTitle: 'Youth Black Labor',
+      itDesc: 'Elevata incidenza di lavoro irregolare tra i giovani, con perdita di tutele, contributi previdenziali e formazione.',
+      enDesc: 'High incidence of irregular work among youth, resulting in loss of protections, pension contributions, and training.',
       stat: costData.structural_mechanisms.black_labor_youth.youth_irregular_employment_pct + '%',
       itSub: 'dei giovani occupati',
       enSub: 'of employed youth',
@@ -227,6 +237,8 @@ const EconometricCosts = () => {
       icon: 'Scale',
       itTitle: 'Deficit di Meritocrazia',
       enTitle: 'Meritocracy Deficit',
+      itDesc: 'Raccomandazioni e reti relazionali predominano sulle competenze, disincentivando l\'impegno accademico.',
+      enDesc: 'Recommendations and relational networks predominate over skills, disincentivizing academic effort.',
       stat: '42°',
       itSub: 'nel mondo (Indice Corruzione)',
       enSub: 'in the world (Corruption Index)',
@@ -328,7 +340,7 @@ const EconometricCosts = () => {
                     { name: lang === 'it' ? 'Fuga Cervelli' : 'Brain Drain', value: chartData[0].brain_drain, fill: '#fda4af' },
                     { name: lang === 'it' ? 'Dispersione' : 'Dropout', value: chartData[0].dispersione, fill: '#be123c' },
                     { name: lang === 'it' ? 'Bocciature' : 'Retention', value: chartData[0].bocciatura, fill: '#9f1239' },
-                    { name: lang === 'it' ? 'Altri Costi' : 'Other Systemic Costs', value: chartData[0].systemic_other, fill: '#4c0519' },
+                    { name: lang === 'it' ? 'Altri Costi' : 'Other Systemic Costs', value: chartData[0].systemic_other, fill: '#881337' },
                   ]}
                   cx="50%"
                   cy="45%"
@@ -341,7 +353,7 @@ const EconometricCosts = () => {
                 >
                   {
                     [
-                      '#f43f5e', '#e11d48', '#fb7185', '#fda4af', '#be123c', '#9f1239', '#4c0519'
+                      '#f43f5e', '#e11d48', '#fb7185', '#fda4af', '#be123c', '#9f1239', '#881337'
                     ].map((color, index) => (
                       <Cell key={`cell-${index}`} fill={color} />
                     ))
@@ -446,8 +458,8 @@ const EconometricCosts = () => {
                 <YAxis stroke="#888" domain={['auto', 'auto']} tickFormatter={(val) => `€${val/1000}k`} />
                 <Tooltip content={<CustomTooltip />} />
                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
-                <Line type="monotone" dataKey="eu_avg_gdp_pc" name="EU Average GDP per capita" stroke="#10b981" strokeWidth={3} dot={{ r: 4, fill: '#10b981' }} />
-                <Line type="monotone" dataKey="italy_gdp_pc" name="Italy GDP per capita" stroke="#f43f5e" strokeWidth={4} dot={{ r: 5, fill: '#f43f5e' }} />
+                <Line type="monotone" dataKey="eu_avg_gdp_pc" name={isIt ? "PIL pro capite Media UE" : "EU Average GDP per capita"} stroke="#10b981" strokeWidth={3} dot={{ r: 4, fill: '#10b981' }} />
+                <Line type="monotone" dataKey="italy_gdp_pc" name={isIt ? "PIL pro capite Italia" : "Italy GDP per capita"} stroke="#f43f5e" strokeWidth={4} dot={{ r: 5, fill: '#f43f5e' }} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -469,7 +481,7 @@ const EconometricCosts = () => {
             </h2>
             <p className="text-zinc-400 max-w-3xl mx-auto text-center">
               <T 
-                it="Inefficiencies are not random; they stem from specific systemic choices that penalize students and the economy." 
+                it="Le inefficienze non sono casuali; derivano da precise scelte sistemiche che penalizzano gli studenti e l'economia." 
                 en="Inefficiencies are not random; they stem from specific systemic choices that penalize students and the economy." 
               />
             </p>
@@ -593,6 +605,92 @@ const EconometricCosts = () => {
               </tbody>
             </table>
           </div>
+        </motion.div>
+      </section>
+
+      {/* Tax Burden Section */}
+      <section className="py-12 px-4 max-w-7xl my-0 mx-auto w-full text-center flex flex-col items-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-12 w-full"
+        >
+          <h2 className="text-3xl font-bold mb-4 text-zinc-100 text-center">
+            <T it="Pressione Fiscale e Cuneo Fiscale" en="Tax Burden and Tax Wedge" />
+          </h2>
+          <p className="text-zinc-400 max-w-3xl mx-auto text-center mb-12">
+            <T 
+              it="Un'analisi comparativa del Cuneo Fiscale, IVA e contributi previdenziali in Europa. Questi fattori determinano il costo reale del lavoro e il potere d'acquisto." 
+              en="A comparative analysis of the Tax Wedge, VAT, and Social Security contributions across Europe. These factors determine the real cost of labor and purchasing power." 
+            />
+          </p>
+
+          <div className="bg-white/[0.02] border border-zinc-800 p-6 rounded-2xl h-96 w-full mb-12 relative z-20 shadow-lg">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={costData.tax_burden.countries} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                <XAxis dataKey="name" stroke="#888" />
+                <YAxis stroke="#888" domain={[0, 60]} tickFormatter={(val) => `${val}%`} />
+                <Tooltip 
+                  formatter={(value) => [`${value}%`, 'Cuneo Fiscale (Tax Wedge)']}
+                  contentStyle={{ backgroundColor: '#18181b', borderColor: '#3f3f46', color: '#f4f4f5', borderRadius: '0.5rem', fontWeight: 'bold' }} 
+                  cursor={{ fill: '#ffffff05' }}
+                />
+                <Legend wrapperStyle={{ paddingTop: '20px', color: '#a1a1aa' }} />
+                <Bar dataKey="tax_wedge_percent" name={lang === 'it' ? 'Cuneo Fiscale (%)' : 'Tax Wedge (%)'}>
+                  {
+                    costData.tax_burden.countries.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={entry.name === 'Italy' ? '#f43f5e' : '#10b981'} />
+                    ))
+                  }
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-6">
+            {costData.tax_burden.countries.map((country, idx) => (
+              <div key={idx} className={`bg-zinc-950/50 border ${country.name === 'Italy' ? 'border-rose-500/30 bg-rose-500/5' : 'border-zinc-800 bg-white/[0.02]'} rounded-2xl p-6 text-left relative overflow-hidden transition-colors hover:bg-white/[0.04]`}>
+                {country.name === 'Italy' && <div className="absolute top-0 right-0 w-16 h-16 bg-rose-500/10 rounded-bl-full" />}
+                <h3 className="font-bold text-xl text-zinc-100 mb-6 flex items-center gap-2">
+                  {country.name === 'Italy' ? '🇮🇹' : country.name === 'Germany' ? '🇩🇪' : country.name === 'France' ? '🇫🇷' : country.name === 'Spain' ? '🇪🇸' : '🇫🇮'} {country.name}
+                </h3>
+                
+                <div className="space-y-5">
+                  <div>
+                    <span className="text-zinc-500 text-xs uppercase tracking-wider block mb-1 font-semibold">IVA (VAT)</span>
+                    <span className="text-2xl font-bold text-white">{country.standard_vat_percent}%</span>
+                  </div>
+                  <div>
+                    <span className="text-zinc-500 text-xs uppercase tracking-wider block mb-1 font-semibold">
+                      <T it="INPS Azienda" en="Employer Soc. Sec." />
+                    </span>
+                    <span className={`text-lg font-semibold ${country.name === 'Italy' ? 'text-rose-400' : 'text-emerald-400'}`}>
+                      {country.social_security.employer_percent}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-zinc-500 text-xs uppercase tracking-wider block mb-1 font-semibold">
+                      <T it="INPS Dipendente" en="Employee Soc. Sec." />
+                    </span>
+                    <span className={`text-lg font-semibold ${country.name === 'Italy' ? 'text-rose-400' : 'text-emerald-400'}`}>
+                      {country.social_security.employee_percent}
+                    </span>
+                  </div>
+                  <p className="text-[11px] leading-relaxed text-zinc-500 italic mt-4 pt-4 border-t border-zinc-800/50 min-h-[4rem]">
+                    {country.social_security.notes}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <MethodologyAlert 
+            itText="Dati aggiornati al 2023/2024 basati su report OCSE (Taxing Wages) ed Eurostat per un lavoratore medio single senza figli."
+            enText="Data updated to 2023/2024 based on OECD (Taxing Wages) and Eurostat reports for a single average worker without children."
+          />
         </motion.div>
       </section>
 

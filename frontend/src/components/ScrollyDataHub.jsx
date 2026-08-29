@@ -149,7 +149,8 @@ export default function ScrollyDataHub() {
           <YAxis stroke="#71717a" tick={{ fill: '#a1a1aa', fontSize: 10 }} />
           <Tooltip 
             contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '12px', boxShadow: '0 10px 25px rgba(0,0,0,0.5)' }}
-            itemStyle={{ fontWeight: 'bold' }}
+            itemStyle={{ color: '#ffffff', fontWeight: 'bold' }}
+            labelStyle={{ color: '#ffffff' }}
           />
           {keys.map((key, i) => (
             <Bar key={key} dataKey={key} fill={colors[i % colors.length]} radius={[6, 6, 0, 0]} />
@@ -203,7 +204,7 @@ export default function ScrollyDataHub() {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 text-xs text-zinc-500 bg-zinc-900/80 px-4 py-2.5 rounded-2xl border border-zinc-800/80">
+          <div className="flex items-center gap-2 text-xs text-zinc-400 bg-zinc-900/80 px-4 py-2.5 rounded-2xl border border-zinc-800/80">
             <ArrowDown className="animate-bounce text-indigo-400" size={16} />
             <span><T it="Scorri per navigare" en="Scroll down to navigate" /></span>
           </div>
@@ -275,7 +276,7 @@ export default function ScrollyDataHub() {
                         }`}
                       >
                         <div className="flex justify-between items-start mb-3">
-                          <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 bg-zinc-900 px-2.5 py-0.5 rounded-md border border-zinc-800">
+                          <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-400 bg-zinc-900 px-2.5 py-0.5 rounded-md border border-zinc-800">
                             {ds.id}
                           </span>
                           <span className="text-xs font-bold text-emerald-400 bg-emerald-950/40 px-2.5 py-0.5 rounded-full border border-emerald-800/30">
@@ -299,7 +300,7 @@ export default function ScrollyDataHub() {
                             </span>
                           ))}
                           {ds.columns.length > 4 && (
-                            <span className="text-[10px] text-zinc-600 px-1">
+                            <span className="text-[10px] text-zinc-400 px-1">
                               +{ds.columns.length - 4} altri
                             </span>
                           )}
@@ -307,7 +308,7 @@ export default function ScrollyDataHub() {
 
                         <div className="mt-4 pt-3 border-t border-zinc-800/60 flex flex-col gap-3">
                           <div className="flex items-center justify-between text-xs font-bold">
-                            <span className={isActive ? 'text-indigo-400' : 'text-zinc-500'}>
+                            <span className={isActive ? 'text-indigo-400' : 'text-zinc-400'}>
                               {isActive ? '✓ Attivo sul grafico' : 'Seleziona / Scorri'}
                             </span>
                             <span className="text-zinc-400 hover:text-white transition-colors">
@@ -317,7 +318,7 @@ export default function ScrollyDataHub() {
                           
                           {isActive && (
                             <div className="flex flex-col gap-2 pt-2 border-t border-zinc-800/40">
-                              <span className="text-[10px] uppercase tracking-wider text-zinc-500 font-bold">Trasparenza Dati:</span>
+                              <span className="text-[10px] uppercase tracking-wider text-zinc-400 font-bold">Trasparenza Dati:</span>
                               <div className="flex flex-wrap gap-2">
                                 <a 
                                   href="https://github.com/Eugenix94/Italienation" 
@@ -327,7 +328,7 @@ export default function ScrollyDataHub() {
                                   <Download size={12}/> Repository GitHub (Dataset Elaborato)
                                 </a>
                                 <a 
-                                  href="https://github.com/Eugenix94/Italienation/blob/main/DATA_TRACEABILITY_MATRIX.md" 
+                                  href="https://github.com/Eugenix94/Italienation/" 
                                   target="_blank" rel="noopener noreferrer"
                                   className="flex items-center gap-1.5 px-2.5 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-zinc-300 rounded border border-zinc-700 text-[10px] font-medium transition"
                                 >
@@ -422,7 +423,7 @@ export default function ScrollyDataHub() {
                             <tbody className="divide-y divide-zinc-800/40">
                               {activeDataset.data.slice(0, displayRowsCount).map((row, idx) => (
                                 <tr key={idx} className="hover:bg-zinc-900/60 transition-colors">
-                                  <td className="px-3 py-2 text-zinc-600 font-mono">{idx + 1}</td>
+                                  <td className="px-3 py-2 text-zinc-400 font-mono">{idx + 1}</td>
                                   {activeDataset.columns.map(col => {
                                     const val = row[col];
                                     const isNum = !isNaN(val) && val !== '';
@@ -453,7 +454,7 @@ export default function ScrollyDataHub() {
                   </div>
 
                   {/* Footer */}
-                  <div className="p-3 border-t border-zinc-800 bg-zinc-900/30 flex items-center justify-between text-xs text-zinc-500 flex-shrink-0">
+                  <div className="p-3 border-t border-zinc-800 bg-zinc-900/30 flex items-center justify-between text-xs text-zinc-400 flex-shrink-0">
                     <span className="flex items-center gap-1.5 text-[11px]">
                       <Info size={13} className="text-indigo-400" />
                       Fonte: Institutional Mirror (Open Data)
@@ -464,7 +465,7 @@ export default function ScrollyDataHub() {
                   </div>
                 </>
               ) : (
-                <div className="flex-1 flex flex-col items-center justify-center p-8 text-center text-zinc-500">
+                <div className="flex-1 flex flex-col items-center justify-center p-8 text-center text-zinc-400">
                   <Database size={48} className="mb-4 opacity-20" />
                   <p>Seleziona o scorri un dataset per iniziare la visualizzazione.</p>
                 </div>

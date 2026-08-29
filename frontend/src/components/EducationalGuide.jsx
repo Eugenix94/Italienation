@@ -104,10 +104,10 @@ export default function EducationalGuide() {
 
       {/* Search Bar */}
       <div className="max-w-md mx-auto relative">
-        <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-zinc-500" size={20} />
+        <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-zinc-400" size={20} />
         <input 
           type="text"
-          placeholder="Cerca un termine / Search a term..."
+          placeholder={lang === 'it' ? "Cerca un termine..." : "Search a term..."}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full bg-zinc-900 border border-zinc-800 text-white rounded-2xl py-4 pl-12 pr-4 focus:outline-none focus:border-indigo-500 transition-colors"
@@ -133,7 +133,7 @@ export default function EducationalGuide() {
                 <h3 className="text-xl font-bold text-white mb-1">
                   <T it={term.term.it} en={term.term.en} />
                 </h3>
-                <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider">
+                <p className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">
                   <T it={term.subtitle.it} en={term.subtitle.en} />
                 </p>
               </div>

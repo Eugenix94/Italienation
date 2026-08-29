@@ -1,0 +1,23 @@
+{
+  "electricity_cost_business_eur_mwh": {
+    "Italy": 150.0,
+    "France": 157.0,
+    "Germany": 226.4,
+    "Spain": 120.0
+  },
+  "pnrr_execution_status": {
+    "allocated_bn": 194.4,
+    "spent_bn": 113.5,
+    "delayed_projects_pct": 25.0
+  },
+  "infrastructure_gap": {
+    "description_it": "L'Italia presenta un deficit infrastrutturale rispetto ai principali paesi europei, con una rete logistica vetusta che aumenta i costi operativi. Permane un forte divario digitale tra aree urbane e rurali, oltre a una profonda dipendenza energetica dall'estero (soprattutto per il gas naturale) che mantiene i costi dell'energia più alti della media europea.",
+    "description_en": "Italy faces an infrastructure deficit compared to major European peers, with an aging logistics network that increases operational costs. A strong digital divide remains between urban and rural areas, along with a deep energy dependency on foreign sources (particularly natural gas) which keeps energy costs above the European average."
+  },
+  "sources": [
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/default/table",
+    "https://openpnrr.it/temi/infrastrutture-e-mobilita",
+    "https://www.corteconti.it/Home/Documenti/Relazioni/RelazioniPNRR",
+    "https://tradingeconomics.com/italy/electricity-price"
+  ]
+}

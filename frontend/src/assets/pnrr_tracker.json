@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "title": "PNRR Execution Tracker",
+    "description": "Piano Nazionale di Ripresa e Resilienza — real-time execution status as of August 2026",
+    "deadline": "2026-08-31",
+    "total_allocation_eur_bn": 194.4,
+    "sources": [
+      "Italia Domani (portale ufficiale PNRR)",
+      "Corte dei Conti — Relazioni semestrali",
+      "European Commission — RRF Payment Requests",
+      "OpenPolis / OpenPNRR"
+    ],
+    "source_urls": {
+      "italia_domani": "https://www.italiadomani.gov.it/it/open-data.html",
+      "corte_dei_conti": "https://www.corteconti.it/Home/Documenti/Relazioni/RelazioniPNRR",
+      "eu_commission_rrf": "https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility_en",
+      "openpnrr": "https://openpnrr.it/temi/istruzione-e-ricerca",
+      "openpolis": "https://openpnrr.it/"
+    }
+  },
+  "allocation_by_mission": [
+    {
+      "id": "M1",
+      "name_it": "Digitalizzazione, Innovazione, Competitività, Cultura",
+      "name_en": "Digitalization, Innovation, Competitiveness, Culture",
+      "eur_bn": 40.3,
+      "color": "#6366f1",
+      "icon": "Monitor"
+    },
+    {
+      "id": "M2",
+      "name_it": "Rivoluzione Verde e Transizione Ecologica",
+      "name_en": "Green Revolution & Ecological Transition",
+      "eur_bn": 59.5,
+      "color": "#10b981",
+      "icon": "Leaf"
+    },
+    {
+      "id": "M3",
+      "name_it": "Infrastrutture per una Mobilità Sostenibile",
+      "name_en": "Infrastructure for Sustainable Mobility",
+      "eur_bn": 25.4,
+      "color": "#f59e0b",
+      "icon": "Train"
+    },
+    {
+      "id": "M4",
+      "name_it": "Istruzione e Ricerca",
+      "name_en": "Education & Research",
+      "eur_bn": 30.9,
+      "color": "#8b5cf6",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": "M5",
+      "name_it": "Inclusione e Coesione",
+      "name_en": "Inclusion & Cohesion",
+      "eur_bn": 19.8,
+      "color": "#f43f5e",
+      "icon": "Users"
+    },
+    {
+      "id": "M6",
+      "name_it": "Salute",
+      "name_en": "Health",
+      "eur_bn": 15.6,
+      "color": "#14b8a6",
+      "icon": "Heart"
+    },
+    {
+      "id": "M7",
+      "name_it": "REPowerEU",
+      "name_en": "REPowerEU",
+      "eur_bn": 11.2,
+      "color": "#eab308",
+      "icon": "Zap"
+    }
+  ],
+  "financial_progress": {
+    "total_allocated_eur_bn": 194.4,
+    "grants_eur_bn": 71.8,
+    "loans_eur_bn": 122.6,
+    "received_from_eu_eur_bn": 166.0,
+    "received_pct": 85.4,
+    "spent_eur_bn": 80,
+    "spent_pct": 41.2,
+    "payment_requests_completed": 9,
+    "active_construction_sites": 51000
+  },
+  "education_focus": {
+    "total_m4_education_eur_bn": 30.9,
+    "nurseries_preschool_0_6_eur_bn": 4.6,
+    "combating_dropout_poverty_eur_bn": 1.5,
+    "target_areas_it": "Mezzogiorno — scuole in aree svantaggiate",
+    "target_areas_en": "Southern Italy — schools in disadvantaged areas",
+    "nursery_target_new_places": 264000,
+    "description_it": "€4,6 miliardi per la costruzione e l'ammodernamento di asili nido e scuole materne, con l'obiettivo di colmare il divario territoriale Nord-Sud. Altri €1,5 miliardi sono destinati alle scuole in aree ad alto tasso di abbandono scolastico nel Mezzogiorno.",
+    "description_en": "€4.6 billion allocated to build and upgrade nurseries and preschools, aiming to bridge the North-South territorial gap. An additional €1.5 billion is directly assigned to schools in high-dropout areas in Southern Italy."
+  },
+  "milestones": {
+    "total_milestones_targets": 617,
+    "achieved_pct": 72.5,
+    "measures_removed_replaced": 10,
+    "measures_technically_revised": 90,
+    "revision_date": "2026-06-04",
+    "eu_amendment_cutoff": "2026-05-31",
+    "description_it": "Il 72,5% dei traguardi e obiettivi è stato raggiunto. Circa 10 misure sono state rimosse o sostituite perché irrealizzabili entro agosto 2026. Una revisione tecnica di altre 90 misure è stata presentata il 4 giugno 2026.",
+    "description_en": "72.5% of milestones and targets achieved. Around 10 measures were removed or replaced as impossible to complete by August 2026. A technical revision of another 90 measures was submitted on June 4, 2026."
+  },
+  "oversight": {
+    "eu_mechanism_it": "La Commissione Europea monitora il raggiungimento di Traguardi e Obiettivi (M&T) prima di autorizzare il pagamento di ciascuna tranche.",
+    "eu_mechanism_en": "The European Commission monitors the achievement of Milestones & Targets (M&Ts) before authorizing tranche payments.",
+    "national_mechanism_it": "La Corte dei Conti pubblica relazioni semestrali che valutano l'esecuzione procedurale, finanziaria e materiale dei progetti PNRR.",
+    "national_mechanism_en": "The Corte dei Conti releases semestral reports evaluating procedural, financial, and material project execution.",
+    "portal_it": "Il portale ufficiale 'Italia Domani' fornisce un catalogo open data dei traguardi e obiettivi.",
+    "portal_en": "The official 'Italia Domani' portal provides an open data catalog of milestones and targets."
+  },
+  "timeline": [
+    { "date": "2021-04", "event_it": "Approvazione PNRR Italia", "event_en": "Italy PNRR Approved" },
+    { "date": "2021-08", "event_it": "Prima tranche ricevuta (€24,9 Mld)", "event_en": "First tranche received (€24.9B)" },
+    { "date": "2023-12", "event_it": "Revisione maggiore del piano", "event_en": "Major plan revision" },
+    { "date": "2025-06", "event_it": "Superati €80 Mld di spesa", "event_en": "Spending surpassed €80B" },
+    { "date": "2025-11", "event_it": "Revisione novembre — riallocazione €16,4 Mld", "event_en": "November revision — €16.4B reallocated" },
+    { "date": "2026-03", "event_it": "Revisione marzo — misure aggiornate", "event_en": "March revision — measures updated" },
+    { "date": "2026-05", "event_it": "Scadenza UE per modifiche al piano", "event_en": "EU cutoff for plan amendments" },
+    { "date": "2026-06", "event_it": "Revisione tecnica di 90 misure presentata", "event_en": "Technical revision of 90 measures submitted" },
+    { "date": "2026-08", "event_it": "SCADENZA DEFINITIVA — Chiusura cantieri", "event_en": "FINAL DEADLINE — Project closure" }
+  ],
+  "warnings": {
+    "spending_gap_it": "La Corte dei Conti ha avvertito della disconnessione tra il raggiungimento degli obiettivi procedurali e la spesa fisica effettiva. Solo il 41% dei fondi è stato effettivamente speso.",
+    "spending_gap_en": "The Corte dei Conti warned of the disconnect between achieving procedural targets and actual physical spending. Only 41% of funds have been actually spent.",
+    "municipal_pressure_it": "Gli enti locali (comuni) sono sotto intensa pressione per chiudere oltre 51.000 cantieri attivi entro agosto 2026.",
+    "municipal_pressure_en": "Local entities (municipalities) are under intense pressure to close over 51,000 active construction sites by August 2026."
+  }
+}

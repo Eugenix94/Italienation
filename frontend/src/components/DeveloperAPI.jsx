@@ -133,19 +133,19 @@ export default function DeveloperAPI() {
             
             <div className="space-y-4">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-zinc-500 mb-2 block">Base URL</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-zinc-400 mb-2 block">Base URL</span>
                 <code className="block w-full bg-black border border-zinc-800 p-3 rounded-lg text-emerald-400 font-mono text-sm break-all">
                   https://eugenix94.github.io/Italienation/api/v1/
                 </code>
               </div>
               
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-zinc-500 mb-2 block">Endpoints Principali / Core Endpoints</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-zinc-400 mb-2 block">Endpoints Principali / Core Endpoints</span>
                 <ul className="space-y-2 font-mono text-sm text-zinc-300 bg-black border border-zinc-800 p-4 rounded-lg overflow-x-auto custom-scrollbar">
-                  <li className="flex items-center gap-2"><ArrowRight size={14} className="text-indigo-500 min-w-[14px]"/> /index.json <span className="text-zinc-500 text-xs ml-auto">Indice unificato</span></li>
+                  <li className="flex items-center gap-2"><ArrowRight size={14} className="text-indigo-500 min-w-[14px]"/> /index.json <span className="text-zinc-400 text-xs ml-auto">Indice unificato</span></li>
                   <li className="flex items-center gap-2"><ArrowRight size={14} className="text-indigo-500 min-w-[14px]"/> Repository GitHub (Dataset Elaborato)</li>
                   <li className="flex items-center gap-2"><ArrowRight size={14} className="text-emerald-500 min-w-[14px]"/> Fonte Istituzionale (URL Diretto / Provenienza)</li>
-                  <li className="flex items-center gap-2 text-zinc-500 text-xs mt-2 italic">Tutti i link istituzionali garantiscono la conformità della provenienza.</li>
+                  <li className="flex items-center gap-2 text-zinc-400 text-xs mt-2 italic">Tutti i link istituzionali garantiscono la conformità della provenienza.</li>
                 </ul>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function DeveloperAPI() {
             >
               {copied ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}
             </button>
-            <h2 className="text-sm font-bold text-white mb-4 uppercase tracking-wider text-zinc-500">
+            <h2 className="text-sm font-bold text-white mb-4 uppercase tracking-wider">
               <T it="Esempio di Fetch (JavaScript)" en="Fetch Example (JavaScript)" />
             </h2>
             <pre className="text-sm text-zinc-300 font-mono overflow-x-auto custom-scrollbar pb-2">
@@ -191,7 +191,7 @@ export default function DeveloperAPI() {
               <div key={ds.id} className="flex flex-col p-3 bg-white/[0.02] hover:bg-white/[0.05] border border-white/5 rounded-xl transition group">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
                   <div className="flex items-center gap-3">
-                    <FileJson size={16} className="text-zinc-500 group-hover:text-indigo-400 transition" />
+                    <FileJson size={16} className="text-zinc-400 group-hover:text-indigo-400 transition" />
                     <div className="text-sm font-bold text-zinc-300 group-hover:text-white transition">{ds.id}</div>
                   </div>
                   <div className="flex gap-2 mt-2 sm:mt-0">
@@ -201,13 +201,13 @@ export default function DeveloperAPI() {
                 </div>
                 
                 <div className="pl-7 space-y-1.5">
-                  <a href={ds.endpoint} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-zinc-500 font-mono hover:text-indigo-400 transition break-all">
-                    <ArrowRight size={12} className="text-zinc-600 shrink-0" />
+                  <a href={ds.endpoint} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-zinc-400 font-mono hover:text-indigo-400 transition break-all">
+                    <ArrowRight size={12} className="text-zinc-400 shrink-0" />
                     <span>[GitHub] {ds.endpoint}</span>
                   </a>
                   {ds.source_url && (
                     <a href={ds.source_url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-emerald-500/70 font-mono hover:text-emerald-400 transition break-all">
-                      <ArrowRight size={12} className="text-emerald-900 shrink-0" />
+                      <ArrowRight size={12} className="text-emerald-400 shrink-0" />
                       <span>[Fonte Istituzionale] {ds.source_url}</span>
                     </a>
                   )}
@@ -215,13 +215,13 @@ export default function DeveloperAPI() {
               </div>
             ))}
             {loading && (
-              <div className="flex flex-col items-center justify-center py-12 text-zinc-500 gap-3">
+              <div className="flex flex-col items-center justify-center py-12 text-zinc-400 gap-3">
                 <Loader2 className="animate-spin text-indigo-500" size={32} />
                 <T it="Caricamento catalogo endpoints..." en="Loading endpoints catalog..." />
               </div>
             )}
             {!loading && indexData.datasets.length === 0 && (
-              <div className="text-center py-10 text-zinc-500">
+              <div className="text-center py-10 text-zinc-400">
                 <T it="Nessun dataset trovato." en="No datasets found." />
               </div>
             )}

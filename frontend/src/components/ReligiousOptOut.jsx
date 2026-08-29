@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from "../contexts/LanguageContext";
 import { T } from './T';
 import { motion } from 'framer-motion';
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart } from 'recharts';
+import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart, Cell } from 'recharts';
 import * as LucideIcons from 'lucide-react';
 import SourceBadge from './SourceBadge';
 
 export default function ReligiousOptOut() {
+  const { lang } = useLanguage();
+  const isIt = lang === "it";
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/religious_opt_out.json`)
@@ -18,13 +22,21 @@ export default function ReligiousOptOut() {
       })
       .catch(err => {
         console.error("Failed to load religious opt-out data:", err);
+        setError(err.message || 'Failed to load data');
         setLoading(false);
       });
   }, []);
 
-  if (loading || !data) return (
+  if (loading) return (
     <div className="w-full h-96 flex items-center justify-center">
       <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-500"></div>
+    </div>
+  );
+
+  if (error || !data) return (
+    <div className="w-full py-16 flex flex-col items-center justify-center text-zinc-400">
+      <p className="text-lg font-medium">Failed to load data</p>
+      <p className="text-sm mt-2">{error}</p>
     </div>
   );
 
@@ -79,8 +91,9 @@ export default function ReligiousOptOut() {
                 <Tooltip 
                   contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '12px' }}
                   itemStyle={{ color: '#c084fc', fontWeight: 'bold' }}
+                  labelStyle={{ color: '#ffffff' }}
                 />
-                <Area type="monotone" dataKey="optOutPercentage" name="Opt-out %" stroke="#c084fc" strokeWidth={3} fillOpacity={1} fill="url(#optOutColor)" />
+                <Area type="monotone" dataKey="optOutPercentage" name={isIt ? "% Esonero" : "Opt-out %"} stroke="#c084fc" strokeWidth={3} fillOpacity={1} fill="url(#optOutColor)" />
               </AreaChart>
             </ResponsiveContainer>
           </div>
@@ -105,12 +118,14 @@ export default function ReligiousOptOut() {
                 <YAxis dataKey="region" type="category" stroke="#71717a" tick={{fill: '#71717a', fontSize: 12}} width={80} />
                 <Tooltip 
                   contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '12px' }}
+                  itemStyle={{ color: '#ffffff' }}
+                  labelStyle={{ color: '#ffffff' }}
                   cursor={{fill: '#27272a', opacity: 0.4}}
                 />
-                <Bar dataKey="optOutPercentage" name="Opt-out %" fill="#818cf8" radius={[0, 4, 4, 0]}>
+                <Bar dataKey="optOutPercentage" name={isIt ? "% Esonero" : "Opt-out %"} fill="#818cf8" radius={[0, 4, 4, 0]}>
                   {
                     data.macro_regions.map((entry, index) => (
-                      <cell key={`cell-${index}`} fill={entry.optOutPercentage > 20 ? '#818cf8' : '#4f46e5'} />
+                      <Cell key={`cell-${index}`} fill={entry.optOutPercentage > 20 ? '#818cf8' : '#4f46e5'} />
                     ))
                   }
                 </Bar>
@@ -175,9 +190,11 @@ export default function ReligiousOptOut() {
               <YAxis stroke="#71717a" tick={{fill: '#71717a'}} tickFormatter={(val) => `${val}%`} />
               <Tooltip 
                 contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '12px' }}
+                itemStyle={{ color: '#ffffff' }}
+                labelStyle={{ color: '#ffffff' }}
                 cursor={{fill: '#27272a', opacity: 0.4}}
               />
-              <Bar dataKey="optOutPercentage" name="Opt-out %" fill="#f43f5e" radius={[6, 6, 0, 0]} />
+              <Bar dataKey="optOutPercentage" name={isIt ? "% Esonero" : "Opt-out %"} fill="#f43f5e" radius={[6, 6, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>

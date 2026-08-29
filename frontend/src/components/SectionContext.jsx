@@ -40,7 +40,7 @@ export default function SectionContext({
           {/* Right Side: Key Takeaways */}
           <div className="md:w-5/12 lg:w-1/3 shrink-0">
             <div className="bg-white/[0.03] border border-white/5 rounded-2xl p-6 h-full backdrop-blur-sm">
-              <h4 className="text-xs font-black uppercase tracking-widest text-zinc-500 mb-5">
+              <h4 className="text-xs font-black uppercase tracking-widest text-zinc-400 mb-5">
                 <T it="Concetti Chiave" en="Key Takeaways" />
               </h4>
               <ul className="space-y-4">

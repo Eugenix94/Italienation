@@ -10,6 +10,7 @@ import SourceBadge from './SourceBadge';
 export default function MigrationAndRemittances() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/migration_and_remittances.json`)
@@ -20,17 +21,25 @@ export default function MigrationAndRemittances() {
       })
       .catch(err => {
         console.error("Error loading migration data:", err);
+        setError(err.message || 'Failed to load data');
         setLoading(false);
       });
   }, []);
 
-  if (loading || !data) {
+  if (loading) {
     return (
       <div className="flex items-center justify-center min-h-[400px] text-zinc-400 bg-zinc-950">
         <T it="Caricamento dati migratori..." en="Loading migration data..." />
       </div>
     );
   }
+
+  if (error || !data) return (
+    <div className="w-full py-16 flex flex-col items-center justify-center text-zinc-400">
+      <p className="text-lg font-medium">Failed to load data</p>
+      <p className="text-sm mt-2">{error}</p>
+    </div>
+  );
 
   const { istat_non_observed_economy, inapp_migrant_exploitation, remittances } = data;
 
@@ -150,14 +159,14 @@ export default function MigrationAndRemittances() {
                   />
                   <Bar dataKey="value" radius={[0, 4, 4, 0]} barSize={24}>
                     {inapp_migrant_exploitation.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.value > 50 ? '#f43f5e' : entry.value > 25 ? '#fbbf24' : '#52525b'} />
+                      <Cell key={`cell-${index}`} fill={entry.value > 50 ? '#f43f5e' : entry.value > 25 ? '#fbbf24' : '#64748b'} />
                     ))}
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
             </div>
             <div className="mt-6 flex flex-wrap gap-4">
-              <SourceBadge label="INAPP 2024" url="https://www.inapp.gov.it/en/press-and-media/press-releases/26-11-2024-indagine-sullesposizione-al-lavoro-sommerso" />
+              <SourceBadge label="INAPP 2024" url="https://www.inapp.gov.it/dati/" />
               <SourceBadge label="EU Labour Authority" url="https://www.ela.europa.eu/sites/default/files/2024-02/IT_UDW_Factsheet_2017-Italy.pdf" />
             </div>
           </motion.div>
