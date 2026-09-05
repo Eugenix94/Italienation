@@ -7,7 +7,7 @@ import SectionContext from "./SectionContext";
 import DataTooltip from "./DataTooltip";
 import MethodologyAlert from "./MethodologyAlert";
 import SourceBadge from './SourceBadge';
-import precariatoData from '../../public/data/precariato_docenti.json';
+import precariatoData from '../../src/data/precariato_docenti.json';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function LaborMarketAndCorrelations() {
@@ -125,7 +125,7 @@ export default function LaborMarketAndCorrelations() {
               </ResponsiveContainer>
             </div>
             <div className="mt-6 flex justify-end">
-              <SourceBadge agency="OECD" year="2023" />
+              <SourceBadge agency="OECD" year="2023" url="https://data-explorer.oecd.org/vis?lc=en&df[ds]=DisseminateFinalDMZ&df[id]=DSD_SKILLS_MISMATCH%40DF_SKILLS_MISMATCH" />
             </div>
           </motion.div>
 

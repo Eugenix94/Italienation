@@ -1,0 +1,31 @@
+{
+  "tax_wedge": [
+    { "country": "Germania", "wedge_pct": 47.9 },
+    { "country": "Francia", "wedge_pct": 46.8 },
+    { "country": "Italia", "wedge_pct": 45.1 },
+    { "country": "Finlandia", "wedge_pct": 42.6 },
+    { "country": "Media UE", "wedge_pct": 41.1, "isAverage": true },
+    { "country": "Olanda", "wedge_pct": 35.5 },
+    { "country": "UK", "wedge_pct": 31.5 }
+  ],
+  "undeclared_work": [
+    { "region": "Nord (Lombardia, Veneto, ecc.)", "irregularity_pct": 10.4 },
+    { "region": "Centro (Toscana, Lazio, ecc.)", "irregularity_pct": 13.8 },
+    { "region": "Sud (Campania, Puglia, ecc.)", "irregularity_pct": 21.8 },
+    { "region": "Isole (Sicilia, Sardegna)", "irregularity_pct": 21.8 }
+  ],
+  "correlations": [
+    { 
+      "factor": "Iscrizione Licei", 
+      "correlation_precarious": -0.37, 
+      "correlation_inactivity": -0.35,
+      "correlation_neet": -0.12
+    },
+    { 
+      "factor": "Iscrizione Istituti Tecnici/Professionali", 
+      "correlation_precarious": 0.45, 
+      "correlation_inactivity": 0.45,
+      "correlation_neet": 0.22
+    }
+  ]
+}

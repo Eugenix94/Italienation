@@ -5,8 +5,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ErrorBoundary from './components/ErrorBoundary';
 import FloatingActionBar from './components/FloatingActionBar';
-import EducationalGuide from './components/EducationalGuide';
-import LaborMarketAndCorrelations from './components/LaborMarketAndCorrelations';
 import { Loader2 } from 'lucide-react';
 
 const UnifiedHome = lazy(() => import('./views/UnifiedHome'));
@@ -35,8 +33,6 @@ function App() {
                 <Suspense fallback={<PageLoader />}>
                   <Routes>
                     <Route path="/" element={<UnifiedHome />} />
-                    <Route path="/guide" element={<EducationalGuide />} />
-                    <Route path="/labor" element={<LaborMarketAndCorrelations />} />
                     <Route path="*" element={<UnifiedHome />} />
                   </Routes>
                 </Suspense>

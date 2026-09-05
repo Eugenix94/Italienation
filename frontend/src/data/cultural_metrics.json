@@ -1,0 +1,33 @@
+{
+  "nepotism_perception": [
+    { "country": "Italia", "value": 83, "euAvg": false },
+    { "country": "EU Avg", "value": 53, "euAvg": true },
+    { "country": "Francia", "value": 58, "euAvg": false },
+    { "country": "Germania", "value": 45, "euAvg": false },
+    { "country": "Svezia", "value": 24, "euAvg": false }
+  ],
+  "oral_exams_variance": [
+    { "subject": "Italiano", "writtenVar": 2.1, "oralVar": 4.8 },
+    { "subject": "Matematica", "writtenVar": 1.5, "oralVar": 3.9 },
+    { "subject": "Storia", "writtenVar": 2.3, "oralVar": 5.1 },
+    { "subject": "Inglese", "writtenVar": 1.8, "oralVar": 4.2 }
+  ],
+  "social_mobility_index": [
+    { "country": "Italia", "value": 3.2 },
+    { "country": "Francia", "value": 5.4 },
+    { "country": "UK", "value": 6.2 },
+    { "country": "Germania", "value": 6.8 },
+    { "country": "Olanda", "value": 7.6 },
+    { "country": "Svezia", "value": 8.2 },
+    { "country": "Finlandia", "value": 8.5 }
+  ],
+  "first_job_connections": [
+    { "country": "Italia", "value": 34 },
+    { "country": "Francia", "value": 22 },
+    { "country": "UK", "value": 16 },
+    { "country": "Olanda", "value": 14 },
+    { "country": "Germania", "value": 12 },
+    { "country": "Svezia", "value": 10 },
+    { "country": "Finlandia", "value": 8 }
+  ]
+}

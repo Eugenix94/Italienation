@@ -47,7 +47,7 @@ export default function InternationalBenchmark() {
       </div>
       <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl w-full">
         <div className="flex justify-end mb-4">
-           <SourceBadge agency="Eurydice / Eurostat" year="2022" />
+           <SourceBadge agency="Eurydice / Eurostat" year="2022" url="https://eurydice.eacea.ec.europa.eu/publications/teachers-and-school-heads-salaries-and-allowances-europe-20212022" />
         </div>
         <div className="h-[500px]">
           <ResponsiveContainer width="100%" height="100%">

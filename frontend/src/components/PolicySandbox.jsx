@@ -10,6 +10,7 @@ import MethodologyAlert from './MethodologyAlert';
 
 const PolicySandbox = () => {
   const { lang } = useLanguage();
+  const isIt = lang === 'it';
 
   // Baseline Italian macroeconomic parameters (2024 approx)
   const [params, setParams] = useState({

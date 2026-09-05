@@ -1,0 +1,85 @@
+{
+  "stemGenderGap": {
+    "title": {
+      "it": "Divario di Genere nelle Discipline STEM",
+      "en": "Gender Gap in STEM Disciplines"
+    },
+    "description": {
+      "it": "Distribuzione degli studenti per sesso nei principali licei, che evidenzia la segregazione formativa.",
+      "en": "Student distribution by sex in major lyceums, highlighting educational segregation."
+    },
+    "data": [
+      {
+        "track": "Liceo Scientifico",
+        "male": 61.2,
+        "female": 38.8
+      },
+      {
+        "track": "Liceo Scienze Umane",
+        "male": 12.5,
+        "female": 87.5
+      },
+      {
+        "track": "Liceo Classico",
+        "male": 31.0,
+        "female": 69.0
+      },
+      {
+        "track": "Istituti Tecnici (Tecnologico)",
+        "male": 82.4,
+        "female": 17.6
+      }
+    ]
+  },
+  "infrastructureSafety": {
+    "title": {
+      "it": "Sicurezza Edilizia Scolastica",
+      "en": "School Infrastructure Safety"
+    },
+    "description": {
+      "it": "Percentuale di edifici scolastici privi di certificato di agibilità o vulnerabili sismicamente per macroarea.",
+      "en": "Percentage of school buildings without safety certificates or seismically vulnerable by macro-area."
+    },
+    "data": [
+      {
+        "area": "Nord",
+        "withoutCertificate": 42.1,
+        "seismicRisk": 18.5
+      },
+      {
+        "area": "Centro",
+        "withoutCertificate": 54.3,
+        "seismicRisk": 32.1
+      },
+      {
+        "area": "Sud e Isole",
+        "withoutCertificate": 71.8,
+        "seismicRisk": 58.4
+      }
+    ]
+  },
+  "tertiaryDropouts": {
+    "title": {
+      "it": "Abbandono Universitario (Dopo 1° Anno)",
+      "en": "University Dropout (After 1st Year)"
+    },
+    "description": {
+      "it": "Tasso di abbandono al primo anno di università in base al diploma di scuola superiore di provenienza.",
+      "en": "First-year university dropout rate based on high school track."
+    },
+    "data": [
+      {
+        "diploma": "Liceo",
+        "dropoutRate": 9.5
+      },
+      {
+        "diploma": "Istituto Tecnico",
+        "dropoutRate": 21.3
+      },
+      {
+        "diploma": "Istituto Professionale",
+        "dropoutRate": 38.7
+      }
+    ]
+  }
+}

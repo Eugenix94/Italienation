@@ -11,10 +11,10 @@
       "OpenPolis / OpenPNRR"
     ],
     "source_urls": {
-      "italia_domani": "https://www.italiadomani.gov.it/it/open-data.html",
+      "italia_domani": "https://www.italiadomani.gov.it/",
       "corte_dei_conti": "https://www.corteconti.it/Home/Documenti/Relazioni/RelazioniPNRR",
       "eu_commission_rrf": "https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility_en",
-      "openpnrr": "https://openpnrr.it/temi/istruzione-e-ricerca",
+      "openpnrr": "https://openpnrr.it/",
       "openpolis": "https://openpnrr.it/"
     }
   },

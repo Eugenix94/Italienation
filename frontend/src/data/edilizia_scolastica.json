@@ -1,0 +1,35 @@
+{
+  "nationalAverages": {
+    "withoutGym": 35,
+    "withoutCafeteria": 60,
+    "withoutSafetyCert": 55,
+    "withoutBroadband": 28
+  },
+  "territorialDivide": [
+    {
+      "macroArea": "Nord",
+      "withoutGym": 18,
+      "withoutCafeteria": 30,
+      "withoutSafetyCert": 40,
+      "fullTimeCoverage": 65
+    },
+    {
+      "macroArea": "Centro",
+      "withoutGym": 28,
+      "withoutCafeteria": 55,
+      "withoutSafetyCert": 50,
+      "fullTimeCoverage": 45
+    },
+    {
+      "macroArea": "Sud e Isole",
+      "withoutGym": 55,
+      "withoutCafeteria": 85,
+      "withoutSafetyCert": 72,
+      "fullTimeCoverage": 18
+    }
+  ],
+  "structuralIssue": {
+    "it": "L'edilizia scolastica riflette la spaccatura del Paese. Al Sud, l'assenza di mense (85%) impedisce fisicamente il tempo pieno, riducendo l'esposizione scolastica di 2 anni cumulativi rispetto a uno studente del Nord. La scuola perde la sua funzione di ascensore sociale già dalle infrastrutture di base.",
+    "en": "School infrastructure reflects the country's divide. In the South, the lack of cafeterias (85%) physically prevents full-time schooling, reducing cumulative school exposure by 2 years compared to a Northern student. The school loses its function as a social elevator starting from basic infrastructure."
+  }
+}

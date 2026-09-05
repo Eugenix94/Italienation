@@ -154,6 +154,7 @@ export default function DeveloperAPI() {
           <div className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl shadow-xl relative group">
             <button 
               onClick={copyCode}
+              aria-label="Copy to clipboard"
               className="absolute top-4 right-4 p-2 bg-zinc-800 hover:bg-zinc-700 rounded-lg text-zinc-400 transition"
             >
               {copied ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}

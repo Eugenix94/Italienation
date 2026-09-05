@@ -5,7 +5,7 @@
     "invalsi_performance": "https://invalsi-serviziostatistico.cineca.it/",
     "bocciature_by_escs": "https://invalsi-serviziostatistico.cineca.it/",
     "university_dropouts_by_macroarea": "https://ustat.mur.gov.it/dati/",
-    "job_market_mismatch": "https://excelsior.unioncamere.net/pubblicazioni",
+    "job_market_mismatch": "https://excelsior.unioncamere.net/",
     "neet_demographics": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table"
   },
   "tracking_outcomes": [

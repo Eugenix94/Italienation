@@ -2,6 +2,7 @@ import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar } from 'recharts';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
+import { usePolicyStore } from '../store/policyStore';
 import { demographic_collapse, pnrr_spending, pension_gap, tfp_stagnation, dependency_ratio, tax_wedge_comparison, real_gdp_growth, brain_drain_migration } from '../assets/macro_metrics.json';
 
 const CustomTooltip = ({ active, payload, label }) => {
@@ -25,6 +26,24 @@ const COLORS = ['#4f46e5', '#10b981', '#f59e0b', '#f43f5e'];
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function MacroEconomics() {
+  const { pensionAge, educationInvestment } = usePolicyStore();
+  
+  // Dynamically adjust dependency ratio based on Policy Sandbox levers
+  const dynamic_dependency_ratio = dependency_ratio.map(d => {
+    if (d.year < 2030) return d;
+    
+    // Pension age modifier (Base 67): Higher age -> more workers per retiree
+    const pensionBonus = (pensionAge - 67) * 0.05;
+    
+    // Education modifier (Base 4.0): Higher edu investment -> higher productivity/more workers staying -> slightly better ratio over time
+    const eduBonus = (educationInvestment - 4.0) * 0.02 * ((d.year - 2020) / 10);
+    
+    return {
+      ...d,
+      workers_per_retiree: parseFloat((d.workers_per_retiree + pensionBonus + eduBonus).toFixed(2))
+    };
+  });
+
   const { lang } = useLanguage();
   const isIt = lang === 'it';
   return (
@@ -76,7 +95,7 @@ export default function MacroEconomics() {
             <h3 className="text-xl font-bold text-white">
               <T it="Distribuzione Spesa PNRR Istruzione" en="PNRR Education Spending Distribution" />
             </h3>
-            <SourceBadge agency="OpenPNRR" year="2024" url="https://openpnrr.it/temi/istruzione-e-ricerca" />
+            <SourceBadge agency="OpenPNRR" year="2024" url="https://openpnrr.it/" />
           </div>
           <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
@@ -97,7 +116,7 @@ export default function MacroEconomics() {
             <h3 className="text-xl font-bold text-white">
               <T it="Divario Pensionistico Proiettato" en="Projected Pension Gap" />
             </h3>
-            <SourceBadge agency="INPS / Cnel" year="2023" url="https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche/dati-pensioni-e-beneficiari.html" />
+            <SourceBadge agency="INPS / Cnel" year="2023" url="https://www.inps.it/it/it/dati-e-bilanci/osservatori-statistici-e-altre-statistiche.html" />
           </div>
           <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
@@ -155,7 +174,7 @@ export default function MacroEconomics() {
           </p>
           <div className="h-[380px]">
             <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={dependency_ratio} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+              <AreaChart data={dynamic_dependency_ratio} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#333" />
                 <XAxis dataKey="year" stroke="#888" />
                 <YAxis domain={[0.5, 2.5]} stroke="#888" />

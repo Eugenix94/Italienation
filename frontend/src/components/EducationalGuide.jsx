@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { T } from './T';
+import { useLanguage } from '../contexts/LanguageContext';
 import { motion } from 'framer-motion';
-import { BookOpen, GraduationCap, Map, Users, AlertTriangle, TrendingDown, Clock, Search } from 'lucide-react';
+import { BookOpen, Map, Users, AlertTriangle, TrendingDown, Clock, Search } from 'lucide-react';
 
 const glossaryTerms = [
   {
@@ -77,6 +78,7 @@ const glossaryTerms = [
 ];
 
 export default function EducationalGuide() {
+  const { lang } = useLanguage();
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredTerms = glossaryTerms.filter(term => 

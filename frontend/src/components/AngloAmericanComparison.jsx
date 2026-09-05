@@ -42,7 +42,7 @@ export default function AngloAmericanComparison() {
           />
         </p>
         <div className="flex justify-center">
-          <SourceBadge agency="Eurydice / OECD" year="2023" />
+          <SourceBadge agency="Eurydice / OECD" year="2023" url="https://www.oecd-ilibrary.org/education/education-at-a-glance_19991487" />
         </div>
       </div>
 

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { MapPin, Info, AlertTriangle } from 'lucide-react';
 import { T } from './T';
 import SourceBadge from './SourceBadge';
-import ediliziaData from '../../public/data/edilizia_scolastica.json';
+import ediliziaData from '../../src/data/edilizia_scolastica.json';
 
 export default function TerritorialMap() {
   const [geoData, setGeoData] = useState(null);

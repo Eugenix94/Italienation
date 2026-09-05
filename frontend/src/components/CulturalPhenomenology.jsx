@@ -3,7 +3,7 @@ import { useLanguage } from "../contexts/LanguageContext";
 import { T } from './T';
 import SourceBadge from './SourceBadge';
 import { motion } from 'framer-motion';
-import { MessageCircle, Users, Scale, Briefcase, GraduationCap } from 'lucide-react';
+import { MessageCircle, Users, Scale, Briefcase } from 'lucide-react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, LineChart, Line } from 'recharts';
 
 export default function CulturalPhenomenology() {
@@ -111,7 +111,7 @@ export default function CulturalPhenomenology() {
             <span className="flex items-center gap-2 text-emerald-400"><div className="w-3 h-3 bg-emerald-500 rounded-full shadow-[0_0_10px_rgba(16,185,129,0.5)]" /><T it="Varianza Scritta" en="Written Variance" /></span>
           </div>
           <div className="flex justify-center mt-8">
-            <SourceBadge agency="OECD / INVALSI" year="2023" />
+            <SourceBadge agency="OECD / INVALSI" year="2023" url="https://invalsi-serviziostatistico.cineca.it/" />
           </div>
         </motion.div>
 
@@ -256,7 +256,7 @@ export default function CulturalPhenomenology() {
             </ResponsiveContainer>
           </div>
           <div className="flex justify-center mt-6">
-            <SourceBadge agency="World Bank Global Database" year="2023" url="https://datacatalog.worldbank.org/dataset/worldwide-governance-indicators" />
+            <SourceBadge agency="World Bank Global Database" year="2023" url="https://datacatalog.worldbank.org/" />
           </div>
         </motion.div>
 

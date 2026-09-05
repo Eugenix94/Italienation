@@ -52,7 +52,7 @@ export default function FlowDynamics() {
             <h3 className="text-lg sm:text-xl font-bold text-white">
               <T it="Composizione Socioeconomica e Bocciature per Indirizzo" en="Socioeconomic Composition & Retention by Track" />
             </h3>
-            <SourceBadge agency="MUR / ISTAT" year="2023" />
+            <SourceBadge agency="MUR / ISTAT" year="2023" url="https://ustat.mur.gov.it/dati/indicatori-atenei/" />
           </div>
           <p className="text-xs text-zinc-400 mb-8">
             <T 
@@ -82,7 +82,7 @@ export default function FlowDynamics() {
             <h3 className="text-xl font-bold text-white">
               <T it="Fallimento della Transizione Terziaria (1° Anno)" en="Tertiary Transition Failure (1st Year)" />
             </h3>
-            <SourceBadge agency="MUR / AlmaLaurea" year="2023" />
+            <SourceBadge agency="MUR / AlmaLaurea" year="2023" url="https://www.almalaurea.it/" />
           </div>
           <p className="text-xs text-zinc-400 mb-8">
             <T it="Tassi di abbandono (rinuncia) e 'studenti fantasma' (0 crediti acquisiti) durante il primo anno universitario, per area geografica." en="Dropout rates (formal renunciation) and 'ghost students' (0 credits earned) during the first university year, by macro-area." />
@@ -108,7 +108,7 @@ export default function FlowDynamics() {
             <h3 className="text-xl font-bold text-white">
               <T it="Paradosso Excelsior: Mismatch tra Domanda e Offerta" en="Excelsior Paradox: Labor Supply-Demand Mismatch" />
             </h3>
-            <SourceBadge agency="Unioncamere" year="2023" />
+            <SourceBadge agency="Unioncamere" year="2023" url="https://excelsior.unioncamere.net/" />
           </div>
           <p className="text-xs text-zinc-400 mb-8">
             <T it="Il paradosso Excelsior: le aziende faticano a trovare candidati, e quando li trovano, le loro competenze non corrispondono (mismatch)." en="The Excelsior paradox: companies struggle to find candidates, and when they do, their skills often don't match the needs (mismatch)." />
@@ -134,7 +134,7 @@ export default function FlowDynamics() {
             <h3 className="text-xl font-bold text-white">
               <T it="Andamento NEET per Genere (2018-2024)" en="NEET Trends by Gender (2018-2024)" />
             </h3>
-            <SourceBadge agency="Eurostat / ISTAT" year="2024" />
+            <SourceBadge agency="Eurostat / ISTAT" year="2024" url="https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_20/default/table" />
           </div>
           <p className="text-xs text-zinc-400 mb-8">
             <T it="Evoluzione nel tempo della percentuale di giovani (15-29 anni) che non studiano e non lavorano, divisi per genere." en="Evolution over time of the percentage of young people (15-29 years old) not in education, employment, or training, by gender." />

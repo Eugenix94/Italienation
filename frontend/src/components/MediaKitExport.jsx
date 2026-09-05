@@ -12,7 +12,7 @@ export default function MediaKitExport() {
 The Italian public education system operates as a rigid **Institutional Equilibrium**. Rather than an equalizer, the system structurally amplifies the socioeconomic circumstances of birth. Because the state massively underinvests in education (3.9% GDP vs EU 4.7%), it relies on an "informal familial welfare state." 
 
 ## 2. Key Macroeconomic Costs (Annual)
-- **Total Estimated Cost:** €251.4 Billion (~13.0% of GDP)
+- **Total Estimated Cost:** €292.5 Billion (~14.6% of GDP)
 - **NEET Phenomenon:** €29.7 Billion
 - **School Dropout (Dispersione Scolastica):** €4.2 Billion
 - **Brain Drain:** €8.2 Billion

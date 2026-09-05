@@ -1,0 +1,34 @@
+{
+  "NARRATIVES": {
+    "origin": {
+      "it": "«Se i libri costano 400€, io a mio figlio gli faccio fare il professionale. Lì almeno si lavora subito e non dobbiamo pagare il greco.» — Madre, Quartiere Librino, Catania.",
+      "en": "«If textbooks cost €400, I'll send my son to the vocational school. At least he'll work immediately and we don't have to pay for Ancient Greek.» — Mother, Librino neighborhood, Catania."
+    },
+    "education": {
+      "it": "«Ogni anno a settembre mi cambiano 3 professori. Quello di matematica è arrivato a novembre. Come faccio a prepararmi per l'INVALSI?» — Studente di Istituto Professionale, Napoli.",
+      "en": "«Every year in September they change 3 of my teachers. The math teacher arrived in November. How am I supposed to prepare for the INVALSI test?» — Vocational student, Naples."
+    },
+    "destination": {
+      "it": "«Ho preso 100 al liceo. Ora faccio ingegneria, ma so già che se voglio uno stipendio vero dovrò andare in Germania.» — Studente Universitario, Milano.",
+      "en": "«I got 100/100 in High School. Now I study engineering, but I already know that if I want a real salary I'll have to go to Germany.» — University Student, Milan."
+    }
+  },
+  "ESCS_PROBABILITIES": {
+    "Italy": {
+      "low": { "dropout": 0.28, "vocational": 0.42, "technical": 0.22, "academic": 0.08 },
+      "high": { "dropout": 0.02, "vocational": 0.05, "technical": 0.23, "academic": 0.70 }
+    },
+    "Germany": {
+      "low": { "dropout": 0.15, "vocational": 0.50, "technical": 0.25, "academic": 0.10 },
+      "high": { "dropout": 0.02, "vocational": 0.15, "technical": 0.33, "academic": 0.50 }
+    },
+    "Sweden": {
+      "low": { "dropout": 0.10, "vocational": 0.35, "technical": 0.30, "academic": 0.25 },
+      "high": { "dropout": 0.01, "vocational": 0.15, "technical": 0.34, "academic": 0.50 }
+    }
+  },
+  "DEFAULT_ESCS_PROB": {
+    "low": { "dropout": 0.20, "vocational": 0.45, "technical": 0.25, "academic": 0.10 },
+    "high": { "dropout": 0.03, "vocational": 0.10, "technical": 0.27, "academic": 0.60 }
+  }
+}

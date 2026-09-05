@@ -1,6 +1,6 @@
 {
   "pnrr_education": {
-    "source_url": "https://openpnrr.it/temi/istruzione-e-ricerca",
+    "source_url": "https://openpnrr.it/",
     "description": "PNRR Allocation vs Actual Spending in Structural Education Reform (Billions €)",
     "data": [
       { "category_it": "Scuole Nuove", "category_en": "New Schools", "allocated": 1.19, "spent": 0.15 },
@@ -11,7 +11,7 @@
     ]
   },
   "youth_abstention": {
-    "source_url": "https://www.cattaneo.org/wp-content/uploads/2022/09/Elezioni-2022-Analisi-Istituto-Cattaneo-Il-voto-dei-giovani.pdf",
+    "source_url": "https://www.cattaneo.org/",
     "description": "Decline in youth voter turnout (18-24 years old) and the percentage of 'fuorisede' students (living away from home) who face structural barriers to voting.",
     "data": [
       { "year": 2006, "turnout_pct": 78, "fuorisede_pct": 6 },

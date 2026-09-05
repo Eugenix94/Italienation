@@ -17,9 +17,9 @@
   "urls": [
     "https://data-explorer.oecd.org/vis?lc=en&pg=0&fs[0]=Topic%2C1%7CHealth%23HEA%23",
     "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
-    "https://www.gimbe.org/pagine/1127/it/rapporto-gimbe",
+    "https://www.gimbe.org/",
     "https://www.anaao.it/content.php?id=3775",
     "https://www.quotidianosanita.it/studi-e-analisi/",
-    "https://www.agenas.gov.it/dati-statistici"
+    "https://www.agenas.gov.it/"
   ]
 }

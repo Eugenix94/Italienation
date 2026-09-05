@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { T } from './T';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -10,10 +10,31 @@ import eu27Data from '../assets/eu27_comparative.json';
 
 const JusticeAndFDI = () => {
   const { lang } = useLanguage();
+  const [showAllEU, setShowAllEU] = useState(false);
+  const isIt = lang === 'it';
 
-  const eu27ChartData = Object.entries(eu27Data.civil_trial_days)
-    .map(([country, value]) => ({ country, value }))
-    .sort((a, b) => b.value - a.value);
+  const displayedEUData = useMemo(() => {
+    const eu27ChartData = Object.entries(eu27Data.civil_trial_days)
+      .map(([country, value]) => ({ country, value }))
+      .sort((a, b) => b.value - a.value);
+
+    if (showAllEU) return eu27ChartData;
+
+    const top5 = eu27ChartData.slice(0, 5);
+    const bottom5 = eu27ChartData.slice(-5);
+    const italy = eu27ChartData.find(d => d.country === 'Italy');
+    const combined = [...top5];
+    if (italy && !combined.some(d => d.country === 'Italy')) {
+      combined.push(italy);
+    }
+    bottom5.forEach(d => {
+      if (!combined.some(c => c.country === d.country)) {
+        combined.push(d);
+      }
+    });
+    return combined.sort((a, b) => b.value - a.value);
+  }, [showAllEU]);
+
 
   const trialData = [
     { name: 'Italy', val: data.civil_trial_length_days.Italy },
@@ -119,17 +140,36 @@ const JusticeAndFDI = () => {
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="bg-zinc-900/50 border border-zinc-800 rounded-3xl p-8 mt-12 mb-16 w-full"
         >
-          <h3 className="text-xl font-bold text-white mb-6">
-            <T it="Durata Processi Civili — Confronto EU27" en="Civil Trial Duration — EU27 Comparison" />
-          </h3>
-          <ResponsiveContainer width="100%" height={700}>
-            <BarChart data={eu27ChartData} layout="vertical" margin={{ left: 90, right: 20, top: 5, bottom: 5 }}>
+          
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <h3 className="text-xl font-bold text-white">
+              <T it="Durata Processi Civili — Confronto EU27" en="Civil Trial Duration — EU27 Comparison" />
+            </h3>
+            <div className="inline-flex rounded-lg bg-zinc-800/80 p-1 border border-zinc-700/50 self-start sm:self-auto">
+              <button
+                type="button"
+                onClick={() => setShowAllEU(false)}
+                className={`px-3 py-1 text-xs font-semibold rounded-md transition cursor-pointer ${!showAllEU ? 'bg-indigo-600 text-white shadow' : 'text-zinc-400 hover:text-white'}`}
+              >
+                <T it="Focus: Top/Flop + Italia" en="Focus: Leaders/Laggards + Italy" />
+              </button>
+              <button
+                type="button"
+                onClick={() => setShowAllEU(true)}
+                className={`px-3 py-1 text-xs font-semibold rounded-md transition cursor-pointer ${showAllEU ? 'bg-indigo-600 text-white shadow' : 'text-zinc-400 hover:text-white'}`}
+              >
+                <T it="Tutti i 27 Paesi" en="All 27 Countries" />
+              </button>
+            </div>
+          </div>
+          <ResponsiveContainer width="100%" height={showAllEU ? 700 : 400}>
+            <BarChart data={displayedEUData} layout="vertical" margin={{ left: 90, right: 20, top: 5, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#27272a" />
               <XAxis type="number" tick={{ fill: '#a1a1aa', fontSize: 12 }} stroke="#3f3f46" />
               <YAxis type="category" dataKey="country" tick={{ fill: '#d4d4d8', fontSize: 11 }} stroke="#3f3f46" width={85} />
               <Tooltip contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '12px', color: '#fff' }} itemStyle={{ color: '#ffffff' }} labelStyle={{ color: '#ffffff' }} />
               <Bar dataKey="value" radius={[0, 6, 6, 0]} name={isIt ? "Durata Processo Civile (Giorni)" : "Civil Trial Duration (Days)"}>
-                {eu27ChartData.map((entry, i) => (
+                {displayedEUData.map((entry, i) => (
                   <Cell key={i} fill={entry.country === 'Italy' ? '#f43f5e' : '#64748b'} fillOpacity={entry.country === 'Italy' ? 1 : 0.7} />
                 ))}
               </Bar>

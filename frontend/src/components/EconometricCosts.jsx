@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import * as LucideIcons from 'lucide-react';
-import { Loader2, TrendingDown } from 'lucide-react';
+import { TrendingDown } from 'lucide-react';
 import {
   BarChart,
   Bar,
@@ -43,19 +43,25 @@ const CustomTooltip = ({ active, payload }) => {
   return null;
 };
 
-const EconometricCosts = () => {
-  const { lang } = useLanguage();
-  const [lostGdpSeconds, setLostGdpSeconds] = React.useState(0);
 
-  // Real-time ticker for lost GDP (€292.5B/yr ÷ 31.5M seconds = ~€9,285/sec)
+const LostGdpTicker = () => {
+  const [lostGdpSeconds, setLostGdpSeconds] = React.useState(0);
   React.useEffect(() => {
     const timer = setInterval(() => {
       setLostGdpSeconds(prev => prev + 9285);
     }, 1000);
     return () => clearInterval(timer);
   }, []);
+  return <span className="font-bold">+€{lostGdpSeconds.toLocaleString()}</span>;
+};
 
-  const chartData = [
+const EconometricCosts = () => {
+  const { lang } = useLanguage();
+  const isIt = lang === 'it';
+
+
+
+  const chartData = React.useMemo(() => [
     {
       name: 'Total Costs',
       shadow: 95,
@@ -66,7 +72,17 @@ const EconometricCosts = () => {
       bocciatura: 1.8,
       systemic_other: 111.0
     }
-  ];
+  ], []);
+
+  const pieData = React.useMemo(() => [
+    { name: isIt ? 'Lavoro Nero' : 'Shadow Economy', value: chartData[0].shadow, fill: '#f43f5e' },
+    { name: 'NEET', value: chartData[0].neet, fill: '#e11d48' },
+    { name: 'Mismatch', value: chartData[0].mismatch, fill: '#fb7185' },
+    { name: isIt ? 'Fuga Cervelli' : 'Brain Drain', value: chartData[0].brain_drain, fill: '#fda4af' },
+    { name: isIt ? 'Dispersione' : 'Dropout', value: chartData[0].dispersione, fill: '#be123c' },
+    { name: isIt ? 'Bocciature' : 'Retention', value: chartData[0].bocciatura, fill: '#9f1239' },
+    { name: isIt ? 'Altri Costi' : 'Other Systemic Costs', value: chartData[0].systemic_other, fill: '#881337' },
+  ], [isIt, chartData]);
 
   const costItems = [
     {
@@ -106,7 +122,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.shadow_economy.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "MEF / ISTAT",
-      url: "https://www.mef.gov.it/documenti-pubblicazioni/relazione-evasione/"
+      url: "https://www.mef.gov.it/"
     },
     {
       id: 'drain',
@@ -132,7 +148,7 @@ const EconometricCosts = () => {
       eu: costData.annual_costs_eur_billions.skills_mismatch.eu_comparison,
       color: 'border-rose-500/20 bg-rose-500/5',
       source: "Unioncamere",
-      url: "https://excelsior.unioncamere.net/pubblicazioni"
+      url: "https://excelsior.unioncamere.net/"
     },
     {
       id: 'bocciatura',
@@ -275,17 +291,17 @@ const EconometricCosts = () => {
           
           <div className="mt-8 mb-6">
             <p className="text-4xl sm:text-6xl md:text-8xl font-black bg-gradient-to-r from-rose-500 via-rose-400 to-orange-400 bg-clip-text text-transparent drop-shadow-sm">
-              €251.4 <span className="text-3xl sm:text-4xl md:text-6xl text-zinc-400 font-bold">Billion</span>
+              €292.5 <span className="text-3xl sm:text-4xl md:text-6xl text-zinc-400 font-bold">Billion</span>
             </p>
             <p className="text-lg sm:text-xl md:text-2xl text-zinc-400 font-medium mt-2 mb-4">
-              <T it="~13.0% del PIL Italiano ogni anno" en="~13.0% of Italian GDP annually" />
+              <T it="~14.6% del PIL Italiano ogni anno" en="~14.6% of Italian GDP annually" />
             </p>
             <div className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-zinc-900 border border-rose-500/30 rounded-xl text-rose-400 font-mono text-sm sm:text-base shadow-[0_0_20px_rgba(244,63,94,0.15)] relative group cursor-help">
                <TrendingDown size={18} className="animate-pulse" /> 
-               <span>Costo PIL: <span className="font-bold">+€{lostGdpSeconds.toLocaleString()}</span>/session</span>
+               <span>Costo PIL: <LostGdpTicker />/session</span>
                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-zinc-900 border border-zinc-700 text-zinc-300 text-xs p-3 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
                   <p className="font-bold text-rose-400 mb-1"><T it="Il Costo del Fallimento" en="The Cost of Failure" /></p>
-                  <p><T it="Calcolo in tempo reale: €251.4 Miliardi / anno = ~7.980 € persi ogni secondo." en="Real-time calculation: €251.4 Billion / year = ~€7,980 lost every second." /></p>
+                  <p><T it="Calcolo in tempo reale: €292.5 Miliardi / anno = ~€9,285 persi ogni secondo." en="Real-time calculation: €292.5 Billion / year = ~€9,285 lost every second." /></p>
                 </div>
             </div>
           </div>
@@ -333,15 +349,7 @@ const EconometricCosts = () => {
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie
-                  data={[
-                    { name: lang === 'it' ? 'Lavoro Nero' : 'Shadow Economy', value: chartData[0].shadow, fill: '#f43f5e' },
-                    { name: 'NEET', value: chartData[0].neet, fill: '#e11d48' },
-                    { name: 'Mismatch', value: chartData[0].mismatch, fill: '#fb7185' },
-                    { name: lang === 'it' ? 'Fuga Cervelli' : 'Brain Drain', value: chartData[0].brain_drain, fill: '#fda4af' },
-                    { name: lang === 'it' ? 'Dispersione' : 'Dropout', value: chartData[0].dispersione, fill: '#be123c' },
-                    { name: lang === 'it' ? 'Bocciature' : 'Retention', value: chartData[0].bocciatura, fill: '#9f1239' },
-                    { name: lang === 'it' ? 'Altri Costi' : 'Other Systemic Costs', value: chartData[0].systemic_other, fill: '#881337' },
-                  ]}
+                  data={pieData}
                   cx="50%"
                   cy="45%"
                   innerRadius={110}

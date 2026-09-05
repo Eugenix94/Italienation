@@ -1,61 +1,223 @@
 {
   "demographic_collapse": [
-    { "year": 2010, "births_thousands": 562, "school_closures": 0 },
-    { "year": 2015, "births_thousands": 485, "school_closures": 120 },
-    { "year": 2020, "births_thousands": 404, "school_closures": 350 },
-    { "year": 2024, "births_thousands": 370, "school_closures": 580 },
-    { "year": 2030, "births_thousands": 350, "school_closures": 1100 }
+    {
+      "year": 2010,
+      "births_thousands": 562,
+      "school_closures": 0
+    },
+    {
+      "year": 2015,
+      "births_thousands": 485,
+      "school_closures": 120
+    },
+    {
+      "year": 2020,
+      "births_thousands": 404,
+      "school_closures": 350
+    },
+    {
+      "year": 2024,
+      "births_thousands": 370,
+      "school_closures": 580
+    },
+    {
+      "year": 2030,
+      "births_thousands": 350,
+      "school_closures": 1100
+    }
   ],
   "pnrr_spending": [
-    { "category": "Structural Infrastructure (New Buildings)", "allocation_pct": 12 },
-    { "category": "Technological Upgrades (Tablets/PCs)", "allocation_pct": 45 },
-    { "category": "Temporary Projects (PON/PCTO)", "allocation_pct": 33 },
-    { "category": "Teacher Training & Hiring", "allocation_pct": 10 }
+    {
+      "category": "Structural Infrastructure (New Buildings)",
+      "allocation_pct": 12
+    },
+    {
+      "category": "Technological Upgrades (Tablets/PCs)",
+      "allocation_pct": 45
+    },
+    {
+      "category": "Temporary Projects (PON/PCTO)",
+      "allocation_pct": 33
+    },
+    {
+      "category": "Teacher Training & Hiring",
+      "allocation_pct": 10
+    }
   ],
   "pension_gap": [
-    { "track": "Liceo", "avg_career_entry_age": 26, "expected_pension_eur": 2100 },
-    { "track": "Istituto Tecnico", "avg_career_entry_age": 22, "expected_pension_eur": 1500 },
-    { "track": "Istituto Professionale", "avg_career_entry_age": 24, "expected_pension_eur": 850 }
+    {
+      "track": "Liceo",
+      "avg_career_entry_age": 26,
+      "expected_pension_eur": 2100
+    },
+    {
+      "track": "Istituto Tecnico",
+      "avg_career_entry_age": 22,
+      "expected_pension_eur": 1500
+    },
+    {
+      "track": "Istituto Professionale",
+      "avg_career_entry_age": 24,
+      "expected_pension_eur": 850
+    }
   ],
   "tfp_stagnation": [
-    { "year": 2000, "italy": 100, "germany": 100, "france": 100 },
-    { "year": 2005, "italy": 100.5, "germany": 105.2, "france": 104.8 },
-    { "year": 2010, "italy": 99.1, "germany": 108.7, "france": 107.5 },
-    { "year": 2015, "italy": 99.8, "germany": 113.4, "france": 110.2 },
-    { "year": 2020, "italy": 98.5, "germany": 116.1, "france": 113.5 },
-    { "year": 2024, "italy": 101.2, "germany": 119.8, "france": 116.7 }
+    {
+      "year": 2000,
+      "italy": 100,
+      "germany": 100,
+      "france": 100
+    },
+    {
+      "year": 2005,
+      "italy": 100.5,
+      "germany": 105.2,
+      "france": 104.8
+    },
+    {
+      "year": 2010,
+      "italy": 99.1,
+      "germany": 108.7,
+      "france": 107.5
+    },
+    {
+      "year": 2015,
+      "italy": 99.8,
+      "germany": 113.4,
+      "france": 110.2
+    },
+    {
+      "year": 2020,
+      "italy": 98.5,
+      "germany": 116.1,
+      "france": 113.5
+    },
+    {
+      "year": 2024,
+      "italy": 101.2,
+      "germany": 119.8,
+      "france": 116.7
+    }
   ],
   "dependency_ratio": [
-    { "year": 1990, "workers_per_retiree": 2.10, "sustainability_threshold": 1.5 },
-    { "year": 2000, "workers_per_retiree": 1.85, "sustainability_threshold": 1.5 },
-    { "year": 2010, "workers_per_retiree": 1.62, "sustainability_threshold": 1.5 },
-    { "year": 2020, "workers_per_retiree": 1.41, "sustainability_threshold": 1.5 },
-    { "year": 2030, "workers_per_retiree": 1.15, "sustainability_threshold": 1.5 },
-    { "year": 2040, "workers_per_retiree": 0.95, "sustainability_threshold": 1.5 },
-    { "year": 2050, "workers_per_retiree": 0.85, "sustainability_threshold": 1.5 }
+    {
+      "year": 1990,
+      "workers_per_retiree": 2.1,
+      "sustainability_threshold": 1.5
+    },
+    {
+      "year": 2000,
+      "workers_per_retiree": 1.85,
+      "sustainability_threshold": 1.5
+    },
+    {
+      "year": 2010,
+      "workers_per_retiree": 1.62,
+      "sustainability_threshold": 1.5
+    },
+    {
+      "year": 2020,
+      "workers_per_retiree": 1.41,
+      "sustainability_threshold": 1.5
+    },
+    {
+      "year": 2030,
+      "workers_per_retiree": 1.15,
+      "sustainability_threshold": 1.5
+    },
+    {
+      "year": 2040,
+      "workers_per_retiree": 0.95,
+      "sustainability_threshold": 1.5
+    },
+    {
+      "year": 2050,
+      "workers_per_retiree": 0.85,
+      "sustainability_threshold": 1.5
+    }
   ],
   "tax_wedge_comparison": [
-    { "country": "Italy", "tax_wedge_pct": 45.1 },
-    { "country": "Germany", "tax_wedge_pct": 47.9 },
-    { "country": "France", "tax_wedge_pct": 47.0 },
-    { "country": "EU Avg", "tax_wedge_pct": 39.0 },
-    { "country": "UK", "tax_wedge_pct": 31.5 },
-    { "country": "Switzerland", "tax_wedge_pct": 23.4 }
+    {
+      "country": "Italy",
+      "tax_wedge_pct": 45.1
+    },
+    {
+      "country": "Germany",
+      "tax_wedge_pct": 47.9
+    },
+    {
+      "country": "France",
+      "tax_wedge_pct": 47.0
+    },
+    {
+      "country": "EU Avg",
+      "tax_wedge_pct": 39.0
+    },
+    {
+      "country": "UK",
+      "tax_wedge_pct": 31.5
+    },
+    {
+      "country": "Switzerland",
+      "tax_wedge_pct": 23.4
+    }
   ],
   "real_gdp_growth": [
-    { "year": 2000, "italy": 100, "eu_avg": 100 },
-    { "year": 2005, "italy": 103.2, "eu_avg": 109.5 },
-    { "year": 2010, "italy": 98.4, "eu_avg": 113.1 },
-    { "year": 2015, "italy": 95.7, "eu_avg": 118.8 },
-    { "year": 2020, "italy": 89.2, "eu_avg": 119.5 },
-    { "year": 2024, "italy": 96.8, "eu_avg": 128.4 }
+    {
+      "year": 2000,
+      "italy": 100.0,
+      "eu_avg": 100.0
+    },
+    {
+      "year": 2005,
+      "italy": 104.7,
+      "eu_avg": 109.1
+    },
+    {
+      "year": 2010,
+      "italy": 102.9,
+      "eu_avg": 114.6
+    },
+    {
+      "year": 2015,
+      "italy": 99.4,
+      "eu_avg": 120.6
+    },
+    {
+      "year": 2020,
+      "italy": 94.3,
+      "eu_avg": 124.1
+    },
+    {
+      "year": 2023,
+      "italy": 108.7,
+      "eu_avg": 137.3
+    }
   ],
   "brain_drain_migration": [
-    { "year": 2010, "graduates_emigrated_thousands": 15 },
-    { "year": 2012, "graduates_emigrated_thousands": 22 },
-    { "year": 2015, "graduates_emigrated_thousands": 31 },
-    { "year": 2018, "graduates_emigrated_thousands": 39 },
-    { "year": 2021, "graduates_emigrated_thousands": 44 },
-    { "year": 2024, "graduates_emigrated_thousands": 51 }
+    {
+      "year": 2010,
+      "graduates_emigrated_thousands": 15
+    },
+    {
+      "year": 2012,
+      "graduates_emigrated_thousands": 22
+    },
+    {
+      "year": 2015,
+      "graduates_emigrated_thousands": 31
+    },
+    {
+      "year": 2018,
+      "graduates_emigrated_thousands": 39
+    },
+    {
+      "year": 2021,
+      "graduates_emigrated_thousands": 44
+    },
+    {
+      "year": 2024,
+      "graduates_emigrated_thousands": 51
+    }
   ]
 }

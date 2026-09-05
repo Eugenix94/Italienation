@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { T } from './T';
 import { useLanguage } from '../contexts/LanguageContext';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell, ScatterChart, Scatter, ZAxis } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell } from 'recharts';
 import { Globe, Users, GraduationCap, ArrowUpRight, ArrowDownRight, TrendingDown, DollarSign, ShieldCheck } from 'lucide-react';
 import SourceBadge from './SourceBadge';
 import data from '../assets/migration_governance.json';

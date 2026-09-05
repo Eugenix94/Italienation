@@ -68,9 +68,9 @@ export default function StructuralOutcomes() {
         {/* Mini flow reminder */}
         <div className="flex items-center justify-center gap-2 mt-6 flex-wrap">
           <PhaseTag phase={isIt ? 'Origine' : 'Origin'} icon={Home} color="text-amber-400" borderColor="border-amber-500/30" />
-          <ArrowRight size={14} className="text-zinc-600" />
+          <ArrowRight size={14} className="text-zinc-400" />
           <PhaseTag phase={isIt ? 'Educazione' : 'Education'} icon={GraduationCap} color="text-indigo-400" borderColor="border-indigo-500/30" />
-          <ArrowRight size={14} className="text-zinc-600" />
+          <ArrowRight size={14} className="text-zinc-400" />
           <PhaseTag phase={isIt ? 'Destinazione' : 'Destination'} icon={Briefcase} color="text-rose-400" borderColor="border-rose-500/30" />
         </div>
       </motion.div>
@@ -89,7 +89,7 @@ export default function StructuralOutcomes() {
               <T it="Reddito Familiare Medio per Indirizzo" en="Average Family Income by Track" />
             </h3>
           </div>
-          <SourceBadge agency="MUR / ISTAT" year="2023" />
+          <SourceBadge agency="MUR / ISTAT" year="2023" url="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/EDU/IT1,21_36,1.0" />
         </div>
         <p className="text-sm text-zinc-400 mb-6">
           <T 
@@ -200,7 +200,7 @@ export default function StructuralOutcomes() {
               <T it="Esiti: Università vs NEET" en="Outcomes: University vs NEET" />
             </h3>
           </div>
-          <SourceBadge agency="AlmaDiploma / MUR" year="2023" />
+          <SourceBadge agency="AlmaDiploma / MUR" year="2023" url="https://www.almadiploma.it/" />
         </div>
         <p className="text-sm text-zinc-400 mb-6">
           <T 
@@ -241,9 +241,9 @@ export default function StructuralOutcomes() {
 
       {/* SOURCE BADGES */}
       <div className="flex flex-wrap gap-3">
-        <SourceBadge agency="ISTAT" year="2023" />
-        <SourceBadge agency="INVALSI" year="2023" />
-        <SourceBadge agency="MIM" year="2023" />
+        <SourceBadge agency="ISTAT" year="2023" url="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z07,1.0/EDU" />
+        <SourceBadge agency="INVALSI" year="2023" url="https://invalsi-serviziostatistico.cineca.it/" />
+        <SourceBadge agency="MIM" year="2023" url="https://dati.istruzione.it/opendata/" />
         <SourceBadge topicKey="tracking" label="Eurydice" />
       </div>
     </div>

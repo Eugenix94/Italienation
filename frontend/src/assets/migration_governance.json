@@ -12,8 +12,8 @@
     ],
     "source_urls": {
       "istat_demo": "https://demo.istat.it/",
-      "aire_esteri": "https://www.esteri.it/en/servizi-consolari-e-visti/italiani-all-estero/aire_0/",
-      "worldbank_wgi": "https://datacatalog.worldbank.org/dataset/worldwide-governance-indicators",
+      "aire_esteri": "https://www.esteri.it/it/servizi-consolari-e-visti/italiani-all-estero/aire_0/",
+      "worldbank_wgi": "https://datacatalog.worldbank.org/",
       "eurostat_asylum": "https://ec.europa.eu/eurostat/web/migration-asylum/asylum/database",
       "mipex": "https://www.mipex.eu/italy",
       "worldbank_remittances": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",

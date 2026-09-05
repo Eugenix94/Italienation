@@ -168,7 +168,7 @@ export default function Hero() {
               {/* Arrow between cards */}
               {i < phases.length - 1 && (
                 <div className="flex items-center justify-center lg:px-2 py-2 lg:py-0">
-                  <ArrowRight size={20} className="text-zinc-600 rotate-90 lg:rotate-0" />
+                  <ArrowRight size={20} className="text-zinc-400 rotate-90 lg:rotate-0" />
                 </div>
               )}
             </React.Fragment>

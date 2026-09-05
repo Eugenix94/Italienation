@@ -1,0 +1,146 @@
+{
+  "costItems": [
+    {
+      "id": "shadow",
+      "value": 83,
+      "color": "#f43f5e",
+      "icon": "EyeOff",
+      "itTitle": "Economia Sommersa",
+      "enTitle": "Shadow Economy Tax Loss",
+      "itDesc": "Mancato gettito fiscale per lavoro nero e irregolare giovanile.",
+      "enDesc": "Lost tax revenue from undeclared youth labor.",
+      "itCompare": "4.3% del PIL in Italia vs 1.2% in Germania",
+      "enCompare": "4.3% of GDP in IT vs 1.2% in DE",
+      "source": "ISTAT"
+    },
+    {
+      "id": "neet",
+      "value": 36,
+      "color": "#e11d48",
+      "icon": "UserX",
+      "itTitle": "Fenomeno NEET",
+      "enTitle": "NEET Phenomenon",
+      "itDesc": "Costo sociale ed economico dei giovani che non studiano e non lavorano.",
+      "enDesc": "Social and economic cost of youth not in education, employment, or training.",
+      "itCompare": "IT: 19% vs EU Media: 11%",
+      "enCompare": "IT: 19% vs EU Avg: 11%",
+      "source": "Eurostat"
+    },
+    {
+      "id": "mismatch",
+      "value": 13.5,
+      "color": "#fb7185",
+      "icon": "Puzzle",
+      "itTitle": "Skills Mismatch",
+      "enTitle": "Skills Mismatch",
+      "itDesc": "Perdita di produttività per competenze non allineate al mercato.",
+      "enDesc": "Productivity loss due to skills not aligning with market needs.",
+      "itCompare": "IT: 38% vs EU: 24%",
+      "enCompare": "IT: 38% vs EU: 24%",
+      "source": "Unioncamere"
+    },
+    {
+      "id": "brain_drain",
+      "value": 8.2,
+      "color": "#fda4af",
+      "icon": "Plane",
+      "itTitle": "Fuga dei Cervelli",
+      "enTitle": "Brain Drain",
+      "itDesc": "Investimento formativo perso per l'emigrazione qualificata.",
+      "enDesc": "Lost educational investment due to skilled emigration.",
+      "itCompare": "-120k laureati in 10 anni",
+      "enCompare": "-120k graduates in 10 years",
+      "source": "Corte dei Conti"
+    },
+    {
+      "id": "dispersione",
+      "value": 5.4,
+      "color": "#be123c",
+      "icon": "TrendingDown",
+      "itTitle": "Dispersione Scolastica",
+      "enTitle": "School Dropout",
+      "itDesc": "Costi a lungo termine dell'abbandono scolastico precoce.",
+      "enDesc": "Long-term costs of early school leaving.",
+      "itCompare": "IT: 7.3% (6.3% impl.) vs Obiettivo EU: <9%",
+      "enCompare": "IT: 7.3% (6.3% impl.) vs EU Target: <9%",
+      "source": "INVALSI 2026"
+    },
+    {
+      "id": "bocciatura",
+      "value": 1.8,
+      "color": "#9f1239",
+      "icon": "RotateCcw",
+      "itTitle": "Costo Bocciature",
+      "enTitle": "Grade Retention",
+      "itDesc": "Costo diretto per ripetenze che non migliorano l'apprendimento.",
+      "enDesc": "Direct cost for grade repetitions.",
+      "itCompare": "Solo IT e FR usano questo sistema",
+      "enCompare": "Only IT and FR use this system widely",
+      "source": "MIUR"
+    }
+  ],
+  "chartData": [
+    {
+      "name": "Total Costs",
+      "shadow": 83,
+      "neet": 36,
+      "mismatch": 13.5,
+      "brain_drain": 8.2,
+      "dispersione": 5.4,
+      "bocciatura": 1.8,
+      "systemic_other": 111
+    }
+  ],
+  "structuralMechanisms": [
+    {
+      "icon": "BookOpen",
+      "itTitle": "Costo dei Libri di Testo",
+      "enTitle": "Textbook Costs",
+      "stat": "€1,238",
+      "itSub": "/ studente in Italia",
+      "enSub": "/ student in Italy",
+      "itVs": "vs GRATUITI in Finlandia e Germania",
+      "enVs": "vs FREE in Finland and Germany"
+    },
+    {
+      "icon": "Briefcase",
+      "itTitle": "Sfruttamento FSL (ex PCTO)",
+      "enTitle": "FSL Work Placement (ex PCTO)",
+      "stat": "0€",
+      "itSub": "compenso per 1.5M di studenti",
+      "enSub": "compensation for 1.5M students",
+      "itVs": "vs €600-1200/mese in Germania (Sistema Duale)",
+      "enVs": "vs €600-1200/mo in Germany (Dual System)"
+    },
+    {
+      "icon": "MessageSquareWarning",
+      "itTitle": "Interrogazioni Orali",
+      "enTitle": "Oral Examinations",
+      "stat": "2-3x",
+      "itSub": "Varianza di voto vs test scritti",
+      "enSub": "Grade variance vs written tests",
+      "itVs": "Sconosciute in quasi tutta Europa",
+      "enVs": "Unknown in most of Europe"
+    },
+    {
+      "icon": "Ban",
+      "itTitle": "Barriera al Diploma",
+      "enTitle": "Diploma Barrier",
+      "stat": "Zero",
+      "itSub": "Second-chance pathways",
+      "enSub": "Second-chance pathways",
+      "itVs": "L'Italia è l'unico grande paese EU senza un percorso di recupero per l'istruzione terziaria.",
+      "enVs": "Italy is the only major EU country with no second-chance pathway to tertiary education."
+    },
+    {
+      "icon": "BadgeEuro",
+      "itTitle": "Lavoro Nero Giovanile",
+      "enTitle": "Black Labor Youth",
+      "stat": "15.6%",
+      "itSub": "Lavoratori irregolari (15-24)",
+      "enSub": "Irregular workers (15-24)",
+      "itVs": "Gap salariale del 45% rispetto ai regolari",
+      "enVs": "45% wage gap compared to regular workers"
+    }
+  ]
+}

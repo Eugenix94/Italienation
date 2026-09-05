@@ -25,12 +25,12 @@
       "eu_comparison": "Historic: Italy (7.3%) surpassed the EU 2030 target (<9.0%) four years early. Each dropout costs €300K in lifetime earnings (OECD est.)"
     },
     "shadow_economy": {
-      "value": 192.0,
+      "value": 192,
       "label": "Shadow Economy (Lavoro Nero)",
       "description_en": "Italy's shadow economy estimated at 11.3% of GDP (€192B). Young workers disproportionately affected — 15.6% of employed youth in irregular positions",
       "description_it": "Economia sommersa italiana stimata all'11,3% del PIL (€192 mld). Giovani lavoratori colpiti in modo sproporzionato — 15,6% dei giovani occupati in posizioni irregolari",
       "source": "ISTAT National Accounts (2024), Schneider Shadow Economy Index",
-      "lost_tax_revenue_eur_billions": 95.0,
+      "lost_tax_revenue_eur_billions": 95,
       "eu_comparison": "Italy 11.3% vs EU avg 7.5% shadow economy as % GDP"
     },
     "brain_drain": {
@@ -59,7 +59,7 @@
         "professionale_1st_year": 18.4,
         "tecnico_1st_year": 10.2,
         "liceo_1st_year": 3.8,
-        "eu_avg_retention_rate": 3.0
+        "eu_avg_retention_rate": 3
       },
       "eu_comparison": "Italy retention rate ~7% vs EU avg ~3%. Only France is comparable"
     }
@@ -88,8 +88,18 @@
       "eu_comparison": "In Germany's Dual VET, apprentices earn €600-1200/month. In Italy's PCTO, students earn €0"
     },
     "interrogazione_orale": {
-      "countries_using_oral_exams_extensively": ["Italy", "France", "Romania"],
-      "countries_not_using_oral_exams": ["Finland", "UK", "Netherlands", "Sweden", "Norway"],
+      "countries_using_oral_exams_extensively": [
+        "Italy",
+        "France",
+        "Romania"
+      ],
+      "countries_not_using_oral_exams": [
+        "Finland",
+        "UK",
+        "Netherlands",
+        "Sweden",
+        "Norway"
+      ],
       "description_en": "Italy relies heavily on oral examinations (interrogazioni) with subjective grading. Research shows: (1) grading variance between teachers is 2-3x higher in oral vs written exams, (2) students with higher social capital (articulate speech, confidence) are systematically advantaged, (3) the public nature creates performance anxiety disproportionately affecting introverted and low-SES students, (4) identical answers can receive different grades depending on teacher mood, class dynamics, and timing",
       "description_it": "L'Italia si affida fortemente alle interrogazioni orali con valutazione soggettiva. La ricerca mostra: (1) la varianza di valutazione tra insegnanti è 2-3 volte maggiore nelle prove orali vs scritte, (2) gli studenti con maggiore capitale sociale sono sistematicamente avvantaggiati, (3) la natura pubblica crea ansia da prestazione che colpisce sproporzionatamente gli studenti introversi e di basso SES",
       "source": "INVALSI methodology papers, OECD PISA Equity Volume, Checchi & Ferrini (2021)",
@@ -99,8 +109,16 @@
       "description_en": "Italy requires a diploma di maturità for any university access — no alternative pathways exist. Germany offers Zweiter Bildungsweg (second-chance Abitur), UK offers Open University and Access courses, Finland offers open university. Italy's system creates a permanent lock-in at age 14",
       "description_it": "L'Italia richiede un diploma di maturità per qualsiasi accesso universitario — non esistono percorsi alternativi. La Germania offre il Zweiter Bildungsweg, il Regno Unito l'Open University. Il sistema italiano crea un blocco permanente a 14 anni",
       "source": "Eurydice 2024/2025, OECD Education at a Glance",
-      "countries_with_second_chance": {"Germany": "Zweiter Bildungsweg", "UK": "Access to HE / Open University", "Finland": "Open University", "Sweden": "Komvux", "France": "VAE / DAEU"},
-      "countries_without_second_chance": ["Italy"],
+      "countries_with_second_chance": {
+        "Germany": "Zweiter Bildungsweg",
+        "UK": "Access to HE / Open University",
+        "Finland": "Open University",
+        "Sweden": "Komvux",
+        "France": "VAE / DAEU"
+      },
+      "countries_without_second_chance": [
+        "Italy"
+      ],
       "eu_comparison": "Italy is the only major EU economy with no structured second-chance pathway to university"
     },
     "black_labor_youth": {
@@ -128,7 +146,14 @@
       "description_en": "Italian governance operates on a strict vertical hierarchy (Ministero → USR → Scuola) with minimal horizontal accountability. Schools have limited autonomy despite Law 59/1997. Principals cannot hire teachers (centralized concorsi). Curriculum is nationally mandated with minimal local adaptation. This contrasts with Finland (high local autonomy, teacher-as-researcher), Netherlands (school boards with full hiring authority), and Sweden (municipal governance)",
       "description_it": "La governance italiana opera su una rigida gerarchia verticale (Ministero → USR → Scuola) con minima accountability orizzontale. Le scuole hanno autonomia limitata nonostante la Legge 59/1997. I dirigenti non possono assumere docenti (concorsi centralizzati)",
       "source": "Eurydice Governance Structures (2024), OECD TALIS (2023)",
-      "autonomy_index": {"Italy": 2.1, "Finland": 8.5, "Netherlands": 7.8, "UK": 6.9, "Germany": 5.4, "Sweden": 7.2}
+      "autonomy_index": {
+        "Italy": 2.1,
+        "Finland": 8.5,
+        "Netherlands": 7.8,
+        "UK": 6.9,
+        "Germany": 5.4,
+        "Sweden": 7.2
+      }
     },
     "total_estimated_annual_cost_eur_billions": {
       "value": 292.5,
@@ -147,7 +172,7 @@
       "oral_exams": false,
       "grade_retention": false,
       "teacher_masters_required": true,
-      "neet_rate_pct": 8.0,
+      "neet_rate_pct": 8,
       "description": "No tracking until 16. Free textbooks and meals. No grade retention. Teachers required to hold Master's degree. Result: consistently top PISA performer with lowest socioeconomic impact on outcomes"
     },
     "germany_dual_vet": {
@@ -174,20 +199,44 @@
     }
   },
   "gdp_divergence": [
-    { "year": 2000, "italy_gdp_pc": 25000, "eu_avg_gdp_pc": 23000 },
-    { "year": 2005, "italy_gdp_pc": 26500, "eu_avg_gdp_pc": 26000 },
-    { "year": 2010, "italy_gdp_pc": 27000, "eu_avg_gdp_pc": 28000 },
-    { "year": 2015, "italy_gdp_pc": 27500, "eu_avg_gdp_pc": 30500 },
-    { "year": 2020, "italy_gdp_pc": 28000, "eu_avg_gdp_pc": 33000 },
-    { "year": 2024, "italy_gdp_pc": 30000, "eu_avg_gdp_pc": 37000 }
+    {
+      "year": 2000,
+      "italy_gdp_pc": 25000,
+      "eu_avg_gdp_pc": 23000
+    },
+    {
+      "year": 2005,
+      "italy_gdp_pc": 26500,
+      "eu_avg_gdp_pc": 26000
+    },
+    {
+      "year": 2010,
+      "italy_gdp_pc": 27000,
+      "eu_avg_gdp_pc": 28000
+    },
+    {
+      "year": 2015,
+      "italy_gdp_pc": 27500,
+      "eu_avg_gdp_pc": 30500
+    },
+    {
+      "year": 2020,
+      "italy_gdp_pc": 28000,
+      "eu_avg_gdp_pc": 33000
+    },
+    {
+      "year": 2024,
+      "italy_gdp_pc": 30000,
+      "eu_avg_gdp_pc": 37000
+    }
   ],
   "tax_burden": {
     "year": "2023-2024",
     "countries": [
       {
         "name": "Italy",
-        "tax_wedge_percent": 47.1,
-        "standard_vat_percent": 22.0,
+        "tax_wedge_percent": 45.1,
+        "standard_vat_percent": 22,
         "social_security": {
           "employer_percent": "27-32%",
           "employee_percent": "9.19%",
@@ -197,7 +246,7 @@
       {
         "name": "Germany",
         "tax_wedge_percent": 47.9,
-        "standard_vat_percent": 19.0,
+        "standard_vat_percent": 19,
         "social_security": {
           "employer_percent": "20.35%",
           "employee_percent": "20.35%",
@@ -206,8 +255,8 @@
       },
       {
         "name": "France",
-        "tax_wedge_percent": 47.2,
-        "standard_vat_percent": 20.0,
+        "tax_wedge_percent": 47.0,
+        "standard_vat_percent": 20,
         "social_security": {
           "employer_percent": "40-45%",
           "employee_percent": "22-23%",
@@ -217,7 +266,7 @@
       {
         "name": "Spain",
         "tax_wedge_percent": 41.4,
-        "standard_vat_percent": 21.0,
+        "standard_vat_percent": 21,
         "social_security": {
           "employer_percent": "30-33%",
           "employee_percent": "6.47%",
@@ -227,7 +276,7 @@
       {
         "name": "Finland",
         "tax_wedge_percent": 41.9,
-        "standard_vat_percent": 24.0,
+        "standard_vat_percent": 24,
         "social_security": {
           "employer_percent": "18.8%",
           "employee_percent": "8-9.5%",

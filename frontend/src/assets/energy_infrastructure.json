@@ -16,7 +16,7 @@
   },
   "sources": [
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/default/table",
-    "https://openpnrr.it/temi/infrastrutture-e-mobilita",
+    "https://openpnrr.it/",
     "https://www.corteconti.it/Home/Documenti/Relazioni/RelazioniPNRR",
     "https://tradingeconomics.com/italy/electricity-price"
   ]
